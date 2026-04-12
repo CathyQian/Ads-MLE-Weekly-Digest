@@ -1,0 +1,106 @@
+// Function to fetch and process papers
+function fetchAndWritePapers() {
+  var docId = "GOOGLE-DOC-ID"; // Replace with your Google Doc ID
+  var keywords = ['language models', 'llm'];
+  var arxivRssUrl = 'http://arxiv.org/rss/cs.AI'; 
+
+  try {
+    var doc = DocumentApp.openById(docId);
+    var body = doc.getBody();
+    var response = UrlFetchApp.fetch(arxivRssUrl);
+    var responseText = response.getContentText();
+    var xml = XmlService.parse(responseText);
+    var rootElement = xml.getRootElement();
+    var channel = rootElement.getChild("channel");
+    var items = channel.getChildren("item");
+
+    var paperCount = 1; // Correctly track numbering for papers
+
+    for (var i = 0; i < items.length; i++) {
+      var title = items[i].getChildText("title").toLowerCase();
+      var link = items[i].getChildText("link");
+      var description = items[i].getChildText("description"); // Abstract
+
+      for (var j = 0; j < keywords.length; j++) {
+        if (title.includes(keywords[j].toLowerCase())) {
+          // Append paper title as a paragraph with correct numbering
+          var listItem = body.appendParagraph(paperCount + ") " + title);
+          listItem.setLinkUrl(link);
+          listItem.setBold(true);
+
+          // Ensure spacing consistency for summary
+          if (description) {
+            var summary = summarizeWithGemini(description);
+            var summaryParagraph = body.appendParagraph(summary);
+            summaryParagraph.setIndentStart(30); // Indentation for readability
+            summaryParagraph.setSpacingBefore(5); // Ensures space before summary
+            Utilities.sleep(5000); // Pause for 5 second because of the free Gemini quota
+          } else {
+            var summaryParagraph = body.appendParagraph("Abstract not available.");
+            summaryParagraph.setIndentStart(30);
+            summaryParagraph.setSpacingBefore(5);
+          }
+
+          paperCount++; // Increment paper count correctly
+          break;
+        }
+      }
+    }
+  } catch (e) {
+    Logger.log("Error: " + e.toString());
+  }
+}
+
+// Function to fetch the abstract from an arXiv URL
+function fetchAbstract(arxivUrl) {
+  try {
+    Logger.log("Fetching abstract from: " + arxivUrl);
+    var response = UrlFetchApp.fetch(arxivUrl);
+    var html = response.getContentText();
+
+    // Use regex to extract the abstract (simplified example)
+    var abstractRegex = /<blockquote class="abstract mathjax">([\s\S]*?)<\/blockquote>/;
+    var match = html.match(abstractRegex);
+    if (match && match[1]) {
+      Logger.log("Abstract fetched successfully.");
+      return match[1].replace(/Abstract:/, "Abstract: ").trim();
+    } else {
+      Logger.log("Abstract not found.");
+      return "Error: Abstract not found.";
+    }
+  } catch (e) {
+    Logger.log("Error fetching abstract: " + e.toString());
+    return "Error: Unable to fetch the abstract.";
+  }
+}
+
+// Function to summarize the abstract using the Gemini API
+function summarizeWithGemini(abstract) {
+  try {
+    Logger.log("Summarizing abstract using Gemini API...");
+    var apiKey = "GEMINI-API-KEY"; // Replace with your Gemini API key
+    var apiUrl = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=" + apiKey;
+
+    var payload = {
+      "contents": [{
+        "parts": [{
+          "text": "Summarize the following abstract in 1-2 simple sentences. Focus on what the authors did, why, and the results: \n\n" + abstract
+        }]
+      }]
+    };
+
+    var options = {
+      "method": "post",
+      "contentType": "application/json",
+      "payload": JSON.stringify(payload)
+    };
+
+    var response = UrlFetchApp.fetch(apiUrl, options);
+    var result = JSON.parse(response.getContentText());
+    Logger.log("Summary generated successfully.");
+    return result.candidates[0].content.parts[0].text;
+  } catch (e) {
+    Logger.log("Error summarizing abstract: " + e.toString());
+    return "Error: Unable to summarize the abstract.";
+  }
+}

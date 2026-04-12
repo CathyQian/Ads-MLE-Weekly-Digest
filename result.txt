@@ -1,0 +1,28 @@
+arXiv URL: https://arxiv.org/abs/2410.08003
+Summary: The authors developed COMET, a new sparse neural network architecture inspired by biological neural systems, to address limitations of existing sparse networks in learning multiple tasks efficiently.  COMET uses random projections instead of trainable gating functions, leading to faster learning and better generalization across various tasks.
+
+
+arXiv URL: https://arxiv.org/abs/2410.04241
+Summary: The authors introduced a new question answering task that incorporates source citations for questions with multiple valid answers, creating five new datasets and evaluation metrics to address this challenge; their results from several baseline models highlight the difficulty and importance of this task for building more trustworthy QA systems.
+
+
+arXiv URL: https://arxiv.org/abs/2406.16779
+Summary: The authors investigated how input order and emphasis affect large language models' reading comprehension performance, testing nine models on three datasets.  They found that presenting the context before the question significantly improved accuracy (up to 36%), especially for questions requiring external knowledge, with simple context emphasis techniques proving most effective.
+
+
+arXiv URL: https://arxiv.org/abs/2402.00123
+Summary: The authors compared language model evaluation using expert-designed templates versus naturally occurring text, finding that the two methods yielded different model rankings and scores, with template-free methods showing lower accuracy but a more expected relationship between perplexity and accuracy.  The differences were particularly notable between general and domain-specific models.
+
+
+arXiv URL: https://arxiv.org/abs/2401.18001
+Summary: The authors evaluated 15 question-answering systems across five datasets using a comprehensive set of criteria to understand their robustness, consistency, and handling of conflicting information.  Their results revealed unexpected relationships between these factors, highlighting the significant negative impact of combining conflicting knowledge and noisy data on system performance.
+
+
+arXiv URL: https://arxiv.org/abs/2310.10571
+Summary: The authors investigated whether adding irrelevant demographic information to biomedical questions affected the answers given by two types of question answering systems (knowledge graph-grounded and text-based).  They found that irrelevant demographic details caused significant changes in the answers provided by both systems, highlighting fairness concerns in biomedical AI.
+
+
+arXiv URL: https://arxiv.org/abs/2310.10583
+Summary: The authors argue that current language models are unreliable, especially for low-resource languages, and propose building models that cite their sources to improve trustworthiness.  They discuss the benefits and challenges of this approach, aiming to stimulate discussion on improving language model development.
+
+

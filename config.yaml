@@ -1,0 +1,319 @@
+max_results_per_keyword: 10
+categories:
+  - "cs.*"
+site_url: "https://github.com/CathyQian/arxiv_assistant"
+
+# Industry RSS/Atom feeds to ingest alongside arXiv papers.
+# Items are stored in docs/industry.json (separate from docs/papers.json).
+# Supported topic slugs: industry-blog, ads-tech, ml-engineering, llm,
+#                        generative-ai, agentic-ai, mcp, vibe-coding, infra
+# URLs marked (404/406) were verified broken and left commented out.
+# Feeds with scrape_type: "anthropic" use an HTML listing-page scraper
+# instead of RSS (Anthropic does not publish an RSS feed).
+
+industry_feeds:
+  # --- LLM / Generative AI ---
+  - name: "OpenAI Blog"
+    url: "https://openai.com/blog/rss.xml"
+    max_items: 50
+    topic: "llm"
+
+  - name: "Anthropic Engineering"
+    url: "https://www.anthropic.com/engineering"
+    scrape_type: "anthropic"
+    base_url: "https://www.anthropic.com"
+    path_prefix: "/engineering/"
+    max_items: 50
+    topic: "agentic-ai"
+
+  - name: "Anthropic Research"
+    url: "https://www.anthropic.com/research"
+    scrape_type: "anthropic"
+    base_url: "https://www.anthropic.com"
+    path_prefix: "/research/"
+    max_items: 50
+    topic: "llm"
+
+  - name: "HuggingFace Blog"
+    url: "https://huggingface.co/blog/feed.xml"
+    max_items: 50
+    topic: "llm"
+
+  - name: "LangChain Blog"
+    url: "https://blog.langchain.dev/rss/"
+    max_items: 50
+    topic: "agentic-ai"
+
+  - name: "DeepMind Blog"
+    url: "https://deepmind.google/blog/rss.xml"
+    max_items: 50
+    topic: "generative-ai"
+
+  - name: "Google Research Blog"
+    url: "https://blog.research.google/feeds/posts/default"
+    max_items: 25
+    topic: "industry-blog"
+
+  # --- ML Engineering / Ads Tech ---
+  - name: "Netflix Tech Blog"
+    url: "https://netflixtechblog.com/feed"
+    max_items: 10
+    topic: "ml-engineering"
+
+  - name: "Airbnb Engineering"
+    url: "https://medium.com/feed/airbnb-engineering"
+    max_items: 10
+    topic: "ml-engineering"
+
+  - name: "Pinterest Engineering"
+    url: "https://medium.com/feed/pinterest-engineering"
+    max_items: 10
+    topic: "ads-tech"
+
+# Broken feeds (as of last check):
+#   Meta AI Blog       https://ai.meta.com/blog/rss/          → 404
+#   Uber Engineering   https://www.uber.com/blog/engineering/rss/ → 406
+#   Anthropic (no RSS) — using scrape_type: "anthropic" above instead
+
+# Papers whose title or abstract contain any of these terms (case-insensitive)
+# will be silently dropped before being added to the digest.
+blacklist_terms:
+  # biomedical / life sciences
+  - "biomedical"
+  - "clinical trial"
+  - "electronic health record"
+  - "medical imaging"
+  - "radiology"
+  - "pathology"
+  - "genomics"
+  - "gene expression"
+  - "protein structure"
+  - "protein design"
+  - "protein folding"
+  - "drug discovery"
+  - "drug repurposing"
+  - "pharmacolog"
+  - "therapeutics"
+  - "cancer"
+  - "tumor"
+  - "disease diagnosis"
+  - "patient outcome"
+  # chemistry / materials
+  - "materials science"
+  - "material synthesis"
+  - "chemical reaction"
+  - "molecular dynamics"
+  - "quantum chemistry"
+  - "density functional"
+  - "semiconductor"
+  - "battery"
+  - "alloy"
+  # healthcare
+  - "healthcare"
+  - "hospital"
+  - "clinical decision"
+  - "mental health"
+  # food / agriculture
+  - "food safety"
+  - "food quality"
+  - "crop yield"
+  - "agricultural"
+  # transportation
+  - "autonomous driving"
+  - "self-driving"
+  - "traffic flow"
+  - "traffic prediction"
+  - "vehicle detection"
+  - "pedestrian detection"
+  - "lane detection"
+  - "route planning"
+  - "ride-hailing"
+  - "ride sharing"
+  - "public transit"
+  - "urban mobility"
+  - "fleet management"
+
+keywords:
+  # ads/CTR
+  - "click-through rate prediction"
+  - "CTR prediction"
+  - "ad click prediction"
+  - "deep factorization machine"
+  - "feature interaction network"
+  - "feature crossing"
+  - "cross feature interaction"
+  - "deep cross network"
+  - "DLRM"
+  - "wide and deep learning"
+  - "sponsored search ranking"
+  - "neural click model"
+
+  # ads/CVR
+  - "conversion rate prediction"
+  - "CVR prediction"
+  - "post-click conversion"
+  - "entire space multi-task"
+  - "delayed feedback model"
+  - "post-click behavior modeling"
+  - "purchase prediction"
+  - "multi-task CVR"
+
+  # A/B testing & causal inference
+  - "online controlled experiment"
+  - "A/B testing"
+  - "causal inference"
+  - "average treatment effect"
+  - "off-policy evaluation"
+  - "variance reduction experiment"
+  - "multi-armed bandit"
+
+  # cold start
+  - "cold start recommendation"
+  - "zero-shot recommendation"
+  - "few-shot recommendation"
+
+  # personalization
+  - "personalized recommendation"
+  - "user modeling"
+  - "collaborative filtering"
+
+  # ads/ranking
+  - "ad ranking"
+  - "ads ranking"
+  - "learning to rank"
+  - "listwise ranking"
+  - "pairwise ranking"
+  - "neural ranking model"
+  - "relevance scoring"
+  - "exposure bias"
+  - "position-aware ranking"
+
+  # ads/retrieval & sourcing
+  - "candidate generation"
+  - "ads retrieval"
+  - "ads sourcing"
+  - "two-tower model"
+  - "embedding-based retrieval"
+  - "dense retrieval"
+  - "hard negative sampling"
+  - "approximate nearest neighbor"
+  - "semantic retrieval"
+  - "dual encoder"
+  - "query rewriting"
+  - "user-item matching"
+  - "item retrieval"
+  - "query understanding"
+
+  # ads/bidding & auction
+  - "real-time bidding"
+  - "auto-bidding"
+  - "ad auction mechanism"
+  - "budget pacing"
+  - "bid optimization"
+  - "optimal bidding strategy"
+  - "first price auction"
+  - "bid shading"
+  - "programmatic advertising"
+  - "reserve price optimization"
+
+  # ads/budget allocation
+  - "budget allocation"
+  - "campaign budget optimization"
+  - "multi-channel attribution"
+  - "attribution modeling"
+  - "ROAS optimization"
+  - "return on ad spend"
+  - "advertising spend allocation"
+
+  # positional bias
+  - "position bias"
+  - "unbiased learning to rank"
+  - "click model"
+
+  # calibration
+  - "probability calibration"
+  - "Platt scaling"
+  - "expected calibration error"
+
+  # sequence modeling
+  - "sequential recommendation"
+  - "session-based recommendation"
+  - "user behavior sequence"
+  - "next item prediction"
+
+  # graph neural network
+  - "graph neural network"
+  - "knowledge graph embedding"
+  - "graph-based recommendation"
+
+  # embedding & representation learning
+  - "representation learning"
+  - "contrastive learning"
+  - "self-supervised learning"
+  - "metric learning"
+
+  # knowledge distillation
+  - "knowledge distillation"
+  - "model compression"
+  - "teacher-student learning"
+
+  # reinforcement learning
+  - "reinforcement learning"
+  - "contextual bandit"
+  - "reward shaping"
+  - "policy optimization"
+
+  # multi-task learning
+  - "multi-task learning"
+  - "mixture of experts"
+  - "multi-objective optimization"
+
+  # prompt engineering
+  - "prompt engineering"
+  - "in-context learning"
+  - "chain of thought"
+  - "instruction tuning"
+
+  # agentic AI
+  - "LLM agent"
+  - "agentic AI"
+  - "autonomous agent"
+  - "multi-agent system"
+  - "tool use language model"
+
+  # RAG
+  - "retrieval augmented generation"
+  - "knowledge-grounded generation"
+
+  # efficiency
+  - "model serving"
+  - "inference efficiency"
+  - "model quantization"
+  - "distributed training"
+  - "sparse architecture"
+
+  # privacy
+  - "differential privacy"
+  - "federated learning"
+  - "privacy-preserving machine learning"
+
+  # diversity & fairness
+  - "recommendation diversity"
+  - "fairness in ranking"
+  - "filter bubble"
+  - "popularity bias"
+
+  # large language model
+  - "large language model"
+  - "foundation model"
+  - "parameter-efficient fine-tuning"
+  - "RLHF"
+  - "scaling law"
+
+  # generative AI
+  - "generative AI"
+  - "diffusion model"
+  - "generative adversarial network"
+  - "world model"
+  - "generative recommendation"
+  - "synthetic data generation"

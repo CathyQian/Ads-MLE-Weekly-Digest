@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Test Engineering Blog</title>
+    <link>https://example.com</link>
+    <description>Test RSS feed</description>
+    <item>
+      <title>New Article About Ranking</title>
+      <link>https://example.com/ranking-2026</link>
+      <description>&lt;p&gt;We propose a &lt;b&gt;new ranking&lt;/b&gt; model deployed at &lt;em&gt;Example Corp&lt;/em&gt;.&lt;/p&gt;</description>
+      <pubDate>Sat, 12 Apr 2026 10:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Old Article</title>
+      <link>https://example.com/old-article</link>
+      <description>This is old content.</description>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>https://example.com/no-title</link>
+      <description>No title article should be skipped.</description>
+      <pubDate>Fri, 11 Apr 2026 10:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>No Link Article</title>
+      <link></link>
+      <description>No link article should be skipped.</description>
+      <pubDate>Fri, 11 Apr 2026 09:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

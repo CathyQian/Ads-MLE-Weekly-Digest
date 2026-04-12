@@ -1,0 +1,6 @@
+daily_arxiv.txt
+result.txt
+.env
+.env.*
+*.pem
+*.key

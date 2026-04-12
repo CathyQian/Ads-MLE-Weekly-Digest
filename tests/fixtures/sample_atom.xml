@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Test Atom Feed</title>
+  <link href="https://example.com"/>
+  <updated>2026-04-12T10:00:00Z</updated>
+  <entry>
+    <title>Atom Article on Recommendation</title>
+    <link href="https://example.com/atom-rec" rel="alternate"/>
+    <summary>An &lt;em&gt;innovative&lt;/em&gt; approach to &lt;b&gt;recommendation&lt;/b&gt; at scale.</summary>
+    <published>2026-04-12T10:00:00Z</published>
+    <updated>2026-04-12T10:00:00Z</updated>
+  </entry>
+  <entry>
+    <title>Older Atom Article</title>
+    <link href="https://example.com/atom-old" rel="alternate"/>
+    <summary>Older content here.</summary>
+    <published>2025-01-15T08:00:00Z</published>
+    <updated>2025-01-15T08:00:00Z</updated>
+  </entry>
+  <entry>
+    <title></title>
+    <link href="https://example.com/atom-no-title" rel="alternate"/>
+    <summary>Should be skipped — no title.</summary>
+    <published>2026-04-11T10:00:00Z</published>
+  </entry>
+</feed>

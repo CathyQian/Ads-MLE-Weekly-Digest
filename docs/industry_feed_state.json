@@ -1,0 +1,12 @@
+{
+  "https://openai.com/blog/rss.xml": "2026-04-10T00:00:00+00:00",
+  "https://www.anthropic.com/engineering": "2026-03-25T00:00:00+00:00",
+  "https://www.anthropic.com/research": "2026-04-09T00:00:00+00:00",
+  "https://huggingface.co/blog/feed.xml": "2026-04-09T00:00:00+00:00",
+  "https://blog.langchain.dev/rss/": "2026-04-11T14:52:02+00:00",
+  "https://deepmind.google/blog/rss.xml": "2026-04-02T16:00:49+00:00",
+  "https://blog.research.google/feeds/posts/default": "2024-03-29T19:00:03.604000+00:00",
+  "https://netflixtechblog.com/feed": "2026-04-10T16:26:01+00:00",
+  "https://medium.com/feed/airbnb-engineering": "2026-04-07T17:01:01+00:00",
+  "https://medium.com/feed/pinterest-engineering": "2026-04-08T16:01:01+00:00"
+}
