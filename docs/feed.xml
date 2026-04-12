@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ArXiv Weekly Digest</title>
+    <title>ArXiv And News Weekly Digest</title>
     <link>https://github.com/CathyQian/arxiv_assistant</link>
     <description>ArXiv research papers, updated weekly.</description>
     <language>en-us</language>

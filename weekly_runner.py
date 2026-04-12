@@ -455,8 +455,8 @@ def generate_html(papers: list, industry_items: list = None) -> str:
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ArXiv Weekly Digest</title>
-  <link rel="alternate" type="application/rss+xml" title="ArXiv Weekly Digest RSS" href="feed.xml">
+  <title>ArXiv And News Weekly Digest</title>
+  <link rel="alternate" type="application/rss+xml" title="ArXiv And News Weekly Digest RSS" href="feed.xml">
   <style>
     *, *::before, *::after {{ box-sizing: border-box; margin: 0; padding: 0; }}
     body {{
@@ -578,8 +578,8 @@ def generate_html(papers: list, industry_items: list = None) -> str:
 <body>
   <header>
     <div>
-      <h1>ArXiv Weekly Digest</h1>
-      <p>Research papers, updated every Friday</p>
+      <h1>ArXiv And News Weekly Digest</h1>
+      <p>Research papers and news, updated every Friday night</p>
     </div>
   </header>
   <main>
@@ -843,7 +843,7 @@ def generate_rss(papers: list, site_url: str = "", rss_limit: int = RSS_LIMIT) -
     return f"""<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ArXiv Weekly Digest</title>
+    <title>ArXiv And News Weekly Digest</title>
     <link>{site_url}</link>
     <description>ArXiv research papers, updated weekly.</description>
     <language>en-us</language>
