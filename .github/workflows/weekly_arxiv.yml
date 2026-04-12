@@ -1,4 +1,4 @@
-name: Weekly arXiv Summarizer
+name: Weekly Summarizer
 
 on:
   schedule:
