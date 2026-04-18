@@ -2528,5 +2528,185 @@
     "fetched_date": "2026-04-12",
     "feed_name": "Pinterest Engineering",
     "source": "industry"
+  },
+  {
+    "title": "Codex for (almost) everything",
+    "abstract": "The updated Codex app for macOS and Windows adds computer use, in-app browsing, image generation, memory, and plugins to accelerate developer workflows.",
+    "url": "https://openai.com/index/codex-for-almost-everything",
+    "topic": "llm",
+    "date": "2026-04-16",
+    "fetched_date": "2026-04-18",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Introducing GPT-Rosalind for life sciences research",
+    "abstract": "OpenAI introduces GPT-Rosalind, a frontier reasoning model built to accelerate drug discovery, genomics analysis, protein reasoning, and scientific research workflows.",
+    "url": "https://openai.com/index/introducing-gpt-rosalind",
+    "topic": "llm",
+    "date": "2026-04-16",
+    "fetched_date": "2026-04-18",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Accelerating the cyber defense ecosystem that protects us all",
+    "abstract": "Leading security firms and enterprises join OpenAI’s Trusted Access for Cyber, using GPT-5.4-Cyber and $10M in API grants to strengthen global cyber defense.",
+    "url": "https://openai.com/index/accelerating-cyber-defense-ecosystem",
+    "topic": "llm",
+    "date": "2026-04-16",
+    "fetched_date": "2026-04-18",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "The next evolution of the Agents SDK",
+    "abstract": "OpenAI updates the Agents SDK with native sandbox execution and a model-native harness, helping developers build secure, long-running agents across files and tools.",
+    "url": "https://openai.com/index/the-next-evolution-of-the-agents-sdk",
+    "topic": "llm",
+    "date": "2026-04-15",
+    "fetched_date": "2026-04-18",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Trusted access for the next era of cyber defense",
+    "abstract": "OpenAI expands its Trusted Access for Cyber program, introducing GPT-5.4-Cyber to vetted defenders and strengthening safeguards as AI cybersecurity capabilities advance.",
+    "url": "https://openai.com/index/scaling-trusted-access-for-cyber-defense",
+    "topic": "llm",
+    "date": "2026-04-14",
+    "fetched_date": "2026-04-18",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Enterprises power agentic workflows in Cloudflare Agent Cloud with OpenAI",
+    "abstract": "Cloudflare brings OpenAI’s GPT-5.4 and Codex to Agent Cloud, enabling enterprises to build, deploy, and scale AI agents for real-world tasks with speed and security.",
+    "url": "https://openai.com/index/cloudflare-openai-agent-cloud",
+    "topic": "llm",
+    "date": "2026-04-13",
+    "fetched_date": "2026-04-18",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Automated Alignment Researchers: Using large language models to scale scalable oversight",
+    "abstract": "",
+    "url": "https://www.anthropic.com/research/automated-alignment-researchers",
+    "topic": "llm",
+    "date": "2026-04-14",
+    "fetched_date": "2026-04-18",
+    "feed_name": "Anthropic Research",
+    "source": "industry"
+  },
+  {
+    "title": "Building a Fast Multilingual OCR Model with Synthetic Data",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/nvidia/nemotron-ocr-v2",
+    "topic": "llm",
+    "date": "2026-04-17",
+    "fetched_date": "2026-04-18",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Ecom-RLVE: Adaptive Verifiable Environments for E-Commerce Conversational Agents",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/ecom-rlve",
+    "topic": "llm",
+    "date": "2026-04-16",
+    "fetched_date": "2026-04-18",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "The PR you would have opened yourself",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/transformers-to-mlx",
+    "topic": "llm",
+    "date": "2026-04-16",
+    "fetched_date": "2026-04-18",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Training and Finetuning Multimodal Embedding & Reranker Models with Sentence Transformers",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/train-multimodal-sentence-transformers",
+    "topic": "llm",
+    "date": "2026-04-16",
+    "fetched_date": "2026-04-18",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Inside VAKRA: Reasoning, Tool Use, and Failure Modes of Agents",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/ibm-research/vakra-benchmark-analysis",
+    "topic": "llm",
+    "date": "2026-04-15",
+    "fetched_date": "2026-04-18",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Meet HoloTab by HCompany. Your AI browser companion.",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/Hcompany/holotab",
+    "topic": "llm",
+    "date": "2026-04-15",
+    "fetched_date": "2026-04-18",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Gemini 3.1 Flash TTS: the next generation of expressive AI speech",
+    "abstract": "Our newest audio model introduces granular audio tags that give you precise control to direct AI speech for expressive audio generation.",
+    "url": "https://deepmind.google/blog/gemini-3-1-flash-tts-the-next-generation-of-expressive-ai-speech/",
+    "topic": "generative-ai",
+    "date": "2026-04-15",
+    "fetched_date": "2026-04-18",
+    "feed_name": "DeepMind Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Gemini Robotics-ER 1.6: Powering real-world robotics tasks through enhanced embodied reasoning",
+    "abstract": "Gemini Robotics ER 1.6: Enhancing spatial reasoning and multi-view understanding for autonomous robotics.",
+    "url": "https://deepmind.google/blog/gemini-robotics-er-1-6/",
+    "topic": "generative-ai",
+    "date": "2026-04-13",
+    "fetched_date": "2026-04-18",
+    "feed_name": "DeepMind Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Privacy-first connections: Empowering social experiences at Airbnb",
+    "abstract": "",
+    "url": "https://medium.com/airbnb-engineering/privacy-first-connections-empowering-social-experiences-at-airbnb-d7dec59ef960?source=rss----53c7c27702d5---4",
+    "topic": "ml-engineering",
+    "date": "2026-04-14",
+    "fetched_date": "2026-04-18",
+    "feed_name": "Airbnb Engineering",
+    "source": "industry"
+  },
+  {
+    "title": "Finding zombies in our systems: A real-world story of CPU bottlenecks",
+    "abstract": "",
+    "url": "https://medium.com/pinterest-engineering/finding-zombies-in-our-systems-a-real-world-story-of-cpu-bottlenecks-ea4722e552eb?source=rss----4c5a5f6279b6---4",
+    "topic": "ads-tech",
+    "date": "2026-04-15",
+    "fetched_date": "2026-04-18",
+    "feed_name": "Pinterest Engineering",
+    "source": "industry"
+  },
+  {
+    "title": "Scaling Recommendation Systems with Request-Level Deduplication",
+    "abstract": "",
+    "url": "https://medium.com/pinterest-engineering/scaling-recommendation-systems-with-request-level-deduplication-93bd514142d9?source=rss----4c5a5f6279b6---4",
+    "topic": "ads-tech",
+    "date": "2026-04-13",
+    "fetched_date": "2026-04-18",
+    "feed_name": "Pinterest Engineering",
+    "source": "industry"
   }
 ]
