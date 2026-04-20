@@ -10,8 +10,6 @@ Fetches research papers from arXiv, stores them in `docs/papers.json`, and publi
 |---|---|---|
 | `weekly_runner.py` | Automated weekly job — updates site + RSS | None |
 | `industry_feeds.py` | Library: fetch/parse industry RSS/Atom feeds | None |
-| `url_summarize.py` | Manually summarize papers by URL → `result.txt` | Google Gemini |
-| `keywords_summarizer.py` | Batch search by keywords + date range → `result.txt` | Google Gemini |
 
 ## Configuration (`config.yaml`)
 
@@ -63,10 +61,6 @@ URLs are normalized (version suffix stripped) before storage so `v1` and `v2` of
 
 ## Required Environment Variables
 
-| Variable | Used By | Where to Set |
-|---|---|---|
-| `GEMINI_API_KEY` | `url_summarize.py`, `keywords_summarizer.py` | Shell environment |
-
 `weekly_runner.py` requires no API keys — it only calls the free arXiv Atom API.
 
 ## Running Locally
@@ -79,12 +73,6 @@ python3 weekly_runner.py --dry-run
 
 # Full run: fetch, save papers.json, regenerate index.html + feed.xml
 python3 weekly_runner.py
-
-# Interactive URL summarizer
-GEMINI_API_KEY=... python3 url_summarize.py
-
-# Interactive keyword batch search
-GEMINI_API_KEY=... python3 keywords_summarizer.py
 ```
 
 ## Website & RSS

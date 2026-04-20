@@ -401,11 +401,110 @@ def _scrape_anthropic_blog(
 # Main entry point
 # ---------------------------------------------------------------------------
 
+def _scrape_masschallenge(
+    feed_cfg: dict,
+    fetched_date: str,
+    cursor_dt: Optional[datetime],
+    existing_urls: set,
+    max_items: int,
+    source: str = "industry",
+) -> Tuple[list, Optional[datetime]]:
+    """Scrape MassChallenge articles listing page.
+
+    Fetches /articles/ index, extracts unique article slugs, then fetches
+    each individual article for og:title, og:description, and publish date.
+    """
+    feed_url  = feed_cfg["url"]
+    feed_name = feed_cfg.get("name") or feed_url
+    topic     = feed_cfg.get("topic") or "boston-startup"
+    base_url  = "https://masschallenge.org"
+
+    resp = _fetch_with_retry(feed_url, feed_name)
+    if resp is None:
+        return [], None
+
+    # Extract unique /articles/<slug> paths from listing page
+    raw_slugs = re.findall(r'href="(/articles/[^/"?#][^"?#]*)"', resp.text)
+    seen: set = set()
+    unique_slugs: list = []
+    for slug in raw_slugs:
+        if slug not in seen:
+            seen.add(slug)
+            unique_slugs.append(slug)
+
+    if not unique_slugs:
+        print(f"[WARN]  No article links found for '{feed_name}'")
+        return [], None
+
+    max_pub_dt: Optional[datetime] = None
+    new_items: list = []
+    included = 0
+
+    for slug in unique_slugs:
+        if included >= max_items:
+            break
+
+        article_url = base_url + slug
+        if article_url in existing_urls:
+            print(f"[INFO]   SKIP (dup URL): {article_url}")
+            continue
+
+        art_resp = _fetch_with_retry(article_url, feed_name)
+        if art_resp is None:
+            continue
+
+        text = art_resp.text
+
+        # Title from og:title
+        og_title = re.search(r'property="og:title"\s+content="([^"]+)"', text)
+        if not og_title:
+            og_title = re.search(r'content="([^"]+)"\s+property="og:title"', text)
+        title = html.unescape(og_title.group(1)).strip() if og_title else ""
+        if not title:
+            title = slug.split("/")[-1].replace("-", " ").title()
+
+        # Abstract from og:description
+        og_desc = re.search(r'property="og:description"\s+content="([^"]+)"', text)
+        if not og_desc:
+            og_desc = re.search(r'content="([^"]+)"\s+property="og:description"', text)
+        abstract = html.unescape(og_desc.group(1)).strip() if og_desc else ""
+
+        # Date: look for ISO date near top of page
+        iso_m = re.search(r'"(\d{4}-\d{2}-\d{2})"', text[:8000])
+        date_str = iso_m.group(1) if iso_m else ""
+        date, pub_dt = parse_feed_date(date_str, fetched_date)
+
+        if pub_dt is not None:
+            if max_pub_dt is None or pub_dt > max_pub_dt:
+                max_pub_dt = pub_dt
+            if cursor_dt is not None and pub_dt <= cursor_dt:
+                continue
+
+        new_items.append({
+            "title":        title,
+            "abstract":     abstract,
+            "url":          article_url,
+            "topic":        topic,
+            "date":         date,
+            "fetched_date": fetched_date,
+            "feed_name":    feed_name,
+            "source":       source,
+        })
+        existing_urls.add(article_url)
+        included += 1
+        print(f"[INFO]   NEW [{feed_name}]: {title[:70]}")
+        time.sleep(0.5)
+
+    print(f"[INFO] [{feed_name}] {included} new item(s) ingested")
+    return new_items, max_pub_dt
+
+
 def fetch_industry_feeds(
     feeds_config: list,
     fetched_date: str,
     existing_state: dict,
     existing_urls: set,
+    source: str = "industry",
 ) -> Tuple[list, dict]:
     """Fetch each configured RSS/Atom or HTML feed and return (new_items, updated_state).
 
@@ -446,9 +545,22 @@ def fetch_industry_feeds(
         print(f"[INFO] Fetching industry feed: {feed_name}")
 
         # --- Dispatch: HTML scraper vs RSS/Atom ---
-        if feed_cfg.get("scrape_type") == "anthropic":
+        scrape_type = feed_cfg.get("scrape_type")
+        if scrape_type == "anthropic":
             feed_new, max_pub_dt = _scrape_anthropic_blog(
                 feed_cfg, fetched_date, cursor_dt, existing_urls, max_items
+            )
+            for item in feed_new:
+                item["source"] = source
+            all_new.extend(feed_new)
+            run_end_utc = datetime.now(timezone.utc)
+            new_cursor = max_pub_dt if max_pub_dt is not None else run_end_utc
+            new_state[feed_url] = new_cursor.isoformat()
+            continue
+
+        if scrape_type == "masschallenge":
+            feed_new, max_pub_dt = _scrape_masschallenge(
+                feed_cfg, fetched_date, cursor_dt, existing_urls, max_items, source
             )
             all_new.extend(feed_new)
             run_end_utc = datetime.now(timezone.utc)
@@ -476,6 +588,7 @@ def fetch_industry_feeds(
         feed_new: list = []
         included = 0
         topic = feed_cfg.get("topic") or "industry"
+        keywords_filter = [kw.lower() for kw in (feed_cfg.get("keywords_filter") or [])]
 
         for entry in entries:
             title, url, raw, date_str = _entry_fields(entry, is_atom)
@@ -507,6 +620,13 @@ def fetch_industry_feeds(
                 continue
 
             abstract = strip_html(raw)
+
+            # Keyword filter: skip if none of the required keywords appear
+            if keywords_filter:
+                haystack = (title + " " + abstract).lower()
+                if not any(kw in haystack for kw in keywords_filter):
+                    continue
+
             feed_new.append({
                 "title":        title,
                 "abstract":     abstract,
@@ -515,7 +635,7 @@ def fetch_industry_feeds(
                 "date":         date,
                 "fetched_date": fetched_date,
                 "feed_name":    feed_name,
-                "source":       "industry",
+                "source":       source,
             })
             existing_urls.add(url)
             included += 1

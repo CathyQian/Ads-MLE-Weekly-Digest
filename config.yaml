@@ -70,6 +70,30 @@ industry_feeds:
     max_items: 10
     topic: "ads-tech"
 
+startup_feeds:
+  - name: "TechCrunch"
+    url: "https://techcrunch.com/feed/"
+    max_items: 20
+    topic: "startup"
+    keywords_filter:
+      - "AI"
+      - "machine learning"
+      - "artificial intelligence"
+      - "startup"
+      - "founder"
+      - "venture"
+
+  - name: "YC Blog"
+    url: "https://www.ycombinator.com/blog/rss.xml"
+    max_items: 20
+    topic: "startup"
+
+  - name: "MassChallenge"
+    url: "https://masschallenge.org/articles/"
+    scrape_type: "masschallenge"
+    max_items: 20
+    topic: "boston-startup"
+
 # Broken feeds (as of last check):
 #   Meta AI Blog       https://ai.meta.com/blog/rss/          → 404
 #   Uber Engineering   https://www.uber.com/blog/engineering/rss/ → 406
