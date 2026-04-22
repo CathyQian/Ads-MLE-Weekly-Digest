@@ -19,10 +19,11 @@ import webbrowser
 from http.server import HTTPServer, SimpleHTTPRequestHandler
 from pathlib import Path
 
-DOCS_DIR      = Path("docs")
-PAPERS_JSON   = DOCS_DIR / "papers.json"
-INDUSTRY_JSON = DOCS_DIR / "industry.json"
-STARTUP_JSON  = DOCS_DIR / "startup.json"
+DOCS_DIR         = Path("docs")
+PAPERS_JSON      = DOCS_DIR / "papers.json"
+INDUSTRY_JSON    = DOCS_DIR / "industry.json"
+STARTUP_JSON     = DOCS_DIR / "startup.json"
+USER_STATUS_JSON = DOCS_DIR / "user_status.json"
 
 
 def _load(path: Path) -> list:
@@ -41,10 +42,23 @@ def _atomic_write(path: Path, data: list) -> None:
     os.replace(tmp, str(path))
 
 
+def _update_user_status_file(url: str, status) -> None:
+    """Atomically update user_status.json with the new url→status mapping."""
+    us = _load(USER_STATUS_JSON) if USER_STATUS_JSON.exists() else {}
+    if not isinstance(us, dict):
+        us = {}
+    if status is None:
+        us.pop(url, None)
+    else:
+        us[url] = status
+    _atomic_write(USER_STATUS_JSON, us)
+
+
 def _update_status(url: str, status) -> bool:
     """Set or clear the status field on the item matching url.
 
     status="kept"|"removed" sets the field; status=None clears it.
+    Also updates user_status.json so weekly_runner.py picks it up.
     Returns True if the item was found and updated.
     """
     for path in (PAPERS_JSON, INDUSTRY_JSON, STARTUP_JSON):
@@ -56,6 +70,7 @@ def _update_status(url: str, status) -> bool:
                 else:
                     item["status"] = status
                 _atomic_write(path, items)
+                _update_user_status_file(url, status)
                 _regenerate_html()
                 return True
     return False

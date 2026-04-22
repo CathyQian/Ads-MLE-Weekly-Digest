@@ -49,6 +49,7 @@ INDUSTRY_JSON    = os.path.join(DOCS_DIR, "industry.json")
 INDUSTRY_STATE   = os.path.join(DOCS_DIR, "industry_feed_state.json")
 STARTUP_JSON     = os.path.join(DOCS_DIR, "startup.json")
 STARTUP_STATE    = os.path.join(DOCS_DIR, "startup_feed_state.json")
+USER_STATUS_JSON = os.path.join(DOCS_DIR, "user_status.json")
 INDEX_HTML       = os.path.join(DOCS_DIR, "index.html")
 FEED_XML         = os.path.join(DOCS_DIR, "feed.xml")
 
@@ -56,6 +57,22 @@ FEED_XML         = os.path.join(DOCS_DIR, "feed.xml")
 # ---------------------------------------------------------------------------
 # Config
 # ---------------------------------------------------------------------------
+
+def load_user_status() -> dict:
+    """Load {url: 'kept'|'removed'} from user_status.json."""
+    if not os.path.exists(USER_STATUS_JSON):
+        return {}
+    with open(USER_STATUS_JSON, encoding="utf-8") as f:
+        return json.load(f)
+
+
+def apply_user_status(items: list, user_status: dict) -> None:
+    """Stamp status from user_status onto each item in-place."""
+    for item in items:
+        url = item.get("url")
+        if url in user_status:
+            item["status"] = user_status[url]
+
 
 def load_config(path="config.yaml"):
     with open(path, "r") as f:
@@ -668,6 +685,42 @@ def generate_html(papers: list, industry_items: list = None, startup_items: list
     .hidden {{ display: none !important; }}
     .empty  {{ color: #999; text-align: center; padding: 60px 0; }}
     footer  {{ text-align: center; font-size: 0.78rem; color: #aaa; padding: 32px 0; }}
+    .settings-btn {{
+      background: none; border: none; color: rgba(255,255,255,.7);
+      font-size: 1.3rem; cursor: pointer; padding: 4px 8px; line-height: 1;
+    }}
+    .settings-btn:hover {{ color: #fff; }}
+    .modal-overlay {{
+      position: fixed; inset: 0; background: rgba(0,0,0,.45);
+      display: flex; align-items: center; justify-content: center; z-index: 1000;
+    }}
+    .modal-box {{
+      background: #fff; border-radius: 12px; padding: 28px 32px;
+      width: 420px; max-width: 95vw; box-shadow: 0 8px 32px rgba(0,0,0,.18);
+    }}
+    .modal-title {{ font-size: 1.1rem; font-weight: 700; margin-bottom: 8px; }}
+    .modal-desc  {{ font-size: 0.82rem; color: #555; margin-bottom: 18px; line-height: 1.5; }}
+    .modal-desc code {{ background:#f0f4ff; padding: 1px 5px; border-radius: 4px; font-size: 0.8rem; }}
+    .modal-label {{
+      display: flex; flex-direction: column; gap: 4px;
+      font-size: 0.82rem; color: #444; font-weight: 500; margin-bottom: 12px;
+    }}
+    .modal-input {{
+      border: 1px solid #c5d0e8; border-radius: 8px; padding: 7px 12px;
+      font-size: 0.85rem; outline: none; color: #222;
+    }}
+    .modal-input:focus {{ border-color: #1a73e8; box-shadow: 0 0 0 2px rgba(26,115,232,.15); }}
+    .modal-hint {{ font-size: 0.75rem; color: #888; margin-bottom: 20px; line-height: 1.5; }}
+    .modal-actions {{ display: flex; gap: 10px; justify-content: flex-end; }}
+    .modal-save {{
+      background: #1a73e8; color: #fff; border: none; border-radius: 8px;
+      padding: 8px 20px; font-size: 0.85rem; cursor: pointer; font-weight: 600;
+    }}
+    .modal-save:hover {{ background: #1557b0; }}
+    .modal-cancel {{
+      background: none; border: 1px solid #c5d0e8; border-radius: 8px;
+      padding: 8px 20px; font-size: 0.85rem; cursor: pointer; color: #555;
+    }}
   </style>
 </head>
 <body>
@@ -676,7 +729,25 @@ def generate_html(papers: list, industry_items: list = None, startup_items: list
       <h1>ArXiv And News Weekly Digest</h1>
       <p>Research papers and news, updated every Friday night</p>
     </div>
+    <button class="settings-btn" onclick="openSettings()" title="GitHub sync settings">&#9881;</button>
   </header>
+
+  <!-- GitHub sync settings modal -->
+  <div id="settings-modal" class="modal-overlay hidden" onclick="if(event.target===this)closeSettings()">
+    <div class="modal-box">
+      <h2 class="modal-title">GitHub Sync Settings</h2>
+      <p class="modal-desc">Keep/Remove actions are saved to <code>docs/user_status.json</code> in your repo so they survive weekly regeneration.</p>
+      <label class="modal-label">GitHub Owner<input id="cfg-owner" class="modal-input" placeholder="e.g. CathyQian"></label>
+      <label class="modal-label">GitHub Repo<input id="cfg-repo" class="modal-input" placeholder="e.g. Ads-MLE-Weekly-Digest"></label>
+      <label class="modal-label">Branch<input id="cfg-branch" class="modal-input" placeholder="main" value="main"></label>
+      <label class="modal-label">Personal Access Token (Contents: write)<input id="cfg-token" class="modal-input" type="password" placeholder="github_pat_..."></label>
+      <p class="modal-hint">Token is stored only in your browser&#39;s localStorage and never sent anywhere except api.github.com.</p>
+      <div class="modal-actions">
+        <button class="modal-save" onclick="saveSettings()">Save</button>
+        <button class="modal-cancel" onclick="closeSettings()">Cancel</button>
+      </div>
+    </div>
+  </div>
 
   <nav class="tab-bar">
     <button class="tab active" data-tab="arxiv"    onclick="switchTab('arxiv')">ArXiv Papers</button>
@@ -751,6 +822,62 @@ def generate_html(papers: list, industry_items: list = None, startup_items: list
     function loadStarred() {{ try {{ return new Set(JSON.parse(localStorage.getItem(STAR_KEY) || '[]')); }} catch {{ return new Set(); }} }}
     function saveStarred(s) {{ localStorage.setItem(STAR_KEY, JSON.stringify([...s])); }}
 
+    // GitHub sync settings
+    const GH_CONFIG_KEY = 'gh_config';
+    function loadGitHubConfig() {{
+      try {{ return JSON.parse(localStorage.getItem(GH_CONFIG_KEY) || '{{}}'); }}
+      catch {{ return {{}}; }}
+    }}
+    function openSettings() {{
+      const cfg = loadGitHubConfig();
+      document.getElementById('cfg-owner').value  = cfg.owner  || '';
+      document.getElementById('cfg-repo').value   = cfg.repo   || '';
+      document.getElementById('cfg-branch').value = cfg.branch || 'main';
+      document.getElementById('cfg-token').value  = cfg.token  || '';
+      document.getElementById('settings-modal').classList.remove('hidden');
+    }}
+    function closeSettings() {{
+      document.getElementById('settings-modal').classList.add('hidden');
+    }}
+    function saveSettings() {{
+      const cfg = {{
+        owner:  document.getElementById('cfg-owner').value.trim(),
+        repo:   document.getElementById('cfg-repo').value.trim(),
+        branch: document.getElementById('cfg-branch').value.trim() || 'main',
+        token:  document.getElementById('cfg-token').value.trim(),
+      }};
+      localStorage.setItem(GH_CONFIG_KEY, JSON.stringify(cfg));
+      closeSettings();
+    }}
+
+    async function persistToGitHub(url, status) {{
+      const cfg = loadGitHubConfig();
+      if (!cfg.token || !cfg.owner || !cfg.repo) return;
+      const apiUrl = 'https://api.github.com/repos/' + cfg.owner + '/' + cfg.repo
+                   + '/contents/docs/user_status.json';
+      const headers = {{
+        'Authorization': 'Bearer ' + cfg.token,
+        'Accept': 'application/vnd.github+json',
+        'X-GitHub-Api-Version': '2022-11-28',
+        'Content-Type': 'application/json',
+      }};
+      try {{
+        const getResp = await fetch(apiUrl, {{ headers }});
+        let sha = null, statuses = {{}};
+        if (getResp.ok) {{
+          const data = await getResp.json();
+          sha = data.sha;
+          try {{ statuses = JSON.parse(atob(data.content.replace(/\s/g, ''))); }} catch {{}}
+        }}
+        if (status === null) delete statuses[url];
+        else statuses[url] = status;
+        const content = btoa(unescape(encodeURIComponent(JSON.stringify(statuses, null, 2))));
+        const body = {{ message: 'digest: update user status', content, branch: cfg.branch || 'main' }};
+        if (sha) body.sha = sha;
+        await fetch(apiUrl, {{ method: 'PUT', headers, body: JSON.stringify(body) }});
+      }} catch (e) {{ console.warn('GitHub persist error:', e); }}
+    }}
+
     function setStatus(btn, newStatus) {{
       const card = btn.closest('.card'), url = card.dataset.url;
       const st = loadStatus();
@@ -767,11 +894,12 @@ def generate_html(papers: list, industry_items: list = None, startup_items: list
       }}
       saveStatus(st);
       applyArxivFilter(); applyIndustryFilter(); applyStartupFilter();
+      // Try local server first, fall back to GitHub API
       fetch('/api/status', {{
         method: 'POST',
         headers: {{'Content-Type': 'application/json'}},
         body: JSON.stringify({{url: url, status: apiStatus}})
-      }}).catch(() => {{}});  // silent fallback on static hosting
+      }}).catch(() => persistToGitHub(url, apiStatus));
     }}
 
     function toggleStar(btn) {{
@@ -1089,28 +1217,31 @@ def main():
         print("[INFO] --dry-run: no files written.")
         return
 
+    # --- Apply user status (Keep/Remove actions saved via browser) ---
+    user_status = load_user_status()
+    all_papers   = existing_papers + new_papers
+    all_industry = (existing_industry + new_industry) if feeds_config else existing_industry
+    all_startup  = (existing_startup + new_startup)   if startup_config else existing_startup
+    if user_status:
+        apply_user_status(all_papers,   user_status)
+        apply_user_status(all_industry, user_status)
+        apply_user_status(all_startup,  user_status)
+
     # --- Persist arXiv papers ---
-    all_papers = existing_papers + new_papers
     save_papers(all_papers)
     print(f"[INFO] Saved {len(all_papers)} papers to {PAPERS_JSON}")
 
     # --- Persist industry items + feed state ---
     if feeds_config:
-        all_industry = existing_industry + new_industry
         save_industry_items(all_industry)
         save_feed_state(updated_state)
         print(f"[INFO] Saved {len(all_industry)} industry items to {INDUSTRY_JSON}")
-    else:
-        all_industry = existing_industry
 
     # --- Persist startup items + feed state ---
     if startup_config:
-        all_startup = existing_startup + new_startup
         save_industry_items(all_startup, STARTUP_JSON)
         save_feed_state(updated_startup_state, STARTUP_STATE)
         print(f"[INFO] Saved {len(all_startup)} startup items to {STARTUP_JSON}")
-    else:
-        all_startup = existing_startup
 
     os.makedirs(DOCS_DIR, exist_ok=True)
 
