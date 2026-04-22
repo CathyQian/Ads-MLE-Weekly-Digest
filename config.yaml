@@ -70,6 +70,121 @@ industry_feeds:
     max_items: 10
     topic: "ads-tech"
 
+  # --- LLM / AI Research ---
+  - name: "Simon Willison"
+    url: "https://simonwillison.net/atom/everything/"
+    max_items: 15
+    topic: "llm"
+
+  - name: "The Algorithmic Bridge"
+    url: "https://www.thealgorithmicbridge.com/feed"
+    max_items: 10
+    topic: "llm"
+
+  - name: "Lilian Weng"
+    url: "https://lilianweng.github.io/index.xml"
+    max_items: 10
+    topic: "llm"
+
+  - name: "TechCrunch AI"
+    url: "https://techcrunch.com/category/artificial-intelligence/feed/"
+    max_items: 20
+    topic: "llm"
+
+  - name: "HuggingFace Papers"
+    url: "https://huggingface.co/papers.rss"
+    max_items: 20
+    topic: "llm"
+
+  - name: "Databricks AI Research"
+    url: "https://www.databricks.com/blog/category/ai/ai-research/feed"
+    max_items: 15
+    topic: "llm"
+
+  - name: "AI 2027"
+    url: "https://ai-2027.com/feed"
+    max_items: 10
+    topic: "llm"
+
+  # --- ML Engineering (individual practitioners) ---
+  - name: "Eugene Yan"
+    url: "https://eugeneyan.com/feed.xml"
+    max_items: 10
+    topic: "ml-engineering"
+
+  - name: "Yuan Meng"
+    url: "https://www.yuan-meng.com/index.xml"
+    max_items: 10
+    topic: "ml-engineering"
+
+  - name: "Bertolami"
+    url: "https://bertolami.com/index.xml"
+    max_items: 10
+    topic: "ml-engineering"
+
+  # --- ML Engineering (company tech blogs) ---
+  - name: "Instacart Tech"
+    url: "https://tech.instacart.com/feed"
+    max_items: 10
+    topic: "ml-engineering"
+
+  - name: "Target Tech"
+    url: "https://tech.target.com/feed"
+    max_items: 10
+    topic: "ml-engineering"
+
+  - name: "eBay Innovation"
+    url: "https://innovation.ebayinc.com/stories/feed/"
+    max_items: 10
+    topic: "ml-engineering"
+
+  - name: "Etsy Code as Craft"
+    url: "https://www.etsy.com/codeascraft/feed/"
+    max_items: 10
+    topic: "ml-engineering"
+
+  - name: "GoDaddy Engineering"
+    url: "https://www.godaddy.com/resources/category/engineering/feed"
+    max_items: 10
+    topic: "ml-engineering"
+
+  - name: "LinkedIn Engineering"
+    url: "https://engineering.linkedin.com/blog.rss"
+    max_items: 10
+    topic: "ml-engineering"
+
+  # --- Ads Tech ---
+  - name: "SmartyAds Blog"
+    url: "https://smartyads.com/blog/feed/"
+    max_items: 10
+    topic: "ads-tech"
+
+  - name: "AdOtat"
+    url: "https://www.adotat.com/category/adtech/feed/"
+    max_items: 10
+    topic: "ads-tech"
+
+  - name: "Amazon Ads Blog"
+    url: "https://advertising.amazon.com/blog/rss.xml"
+    max_items: 10
+    topic: "ads-tech"
+
+  - name: "Walmart Connect Engineering"
+    url: "https://www.walmartconnect.com/engineering/feed"
+    max_items: 10
+    topic: "ads-tech"
+
+  # --- Retail / Industry ---
+  - name: "Modern Retail"
+    url: "https://www.modernretail.co/feed/"
+    max_items: 15
+    topic: "industry-blog"
+
+  - name: "Alizila Technology"
+    url: "https://www.alizila.com/category/technology/feed/"
+    max_items: 10
+    topic: "industry-blog"
+
 startup_feeds:
   - name: "TechCrunch"
     url: "https://techcrunch.com/feed/"
