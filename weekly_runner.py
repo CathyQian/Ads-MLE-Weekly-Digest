@@ -378,8 +378,9 @@ def _paper_card(p: dict) -> str:
     )
     industry_class = " industry-paper" if company else ""
     industry_attr  = "1" if company else "0"
+    kept_class     = " kept" if p.get("status") == "kept" else ""
     return f"""
-    <article class="card{industry_class}" data-keyword="{escape(p['keyword'])}" data-url="{url}" data-type="{escape(atype)}" data-industry="{industry_attr}" data-source="arxiv">
+    <article class="card{industry_class}{kept_class}" data-keyword="{escape(p['keyword'])}" data-url="{url}" data-type="{escape(atype)}" data-industry="{industry_attr}" data-source="arxiv">
       <div class="card-meta">
         <span class="date">{p.get('date', '')}</span>
         <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">{escape(p['keyword'])} <span class="edit-hint">&#9662;</span></span>
@@ -404,11 +405,12 @@ def _paper_card(p: dict) -> str:
 
 
 def _startup_card(item: dict) -> str:
-    url = item["url"]
+    url        = item["url"]
     feed_badge = f'<span class="feed-badge startup-badge">{escape(item.get("feed_name", ""))}</span>'
-    topic = item.get("topic", "startup")
+    topic      = item.get("topic", "startup")
+    kept_class = " kept" if item.get("status") == "kept" else ""
     return f"""
-    <article class="card startup-item" data-keyword="{escape(topic)}" data-url="{url}" data-type="startup" data-source="startup">
+    <article class="card startup-item{kept_class}" data-keyword="{escape(topic)}" data-url="{url}" data-type="startup" data-source="startup">
       <div class="card-meta">
         <span class="date">{item.get('date', '')}</span>
         <span class="keyword">{escape(topic)}</span>
@@ -430,11 +432,12 @@ def _startup_card(item: dict) -> str:
 
 
 def _industry_card(item: dict) -> str:
-    url = item["url"]
+    url        = item["url"]
     feed_badge = f'<span class="feed-badge">{escape(item.get("feed_name", ""))}</span>'
-    topic = item.get("topic", "industry")
+    topic      = item.get("topic", "industry")
+    kept_class = " kept" if item.get("status") == "kept" else ""
     return f"""
-    <article class="card industry-item" data-keyword="{escape(topic)}" data-url="{url}" data-type="industry" data-industry="1" data-source="industry">
+    <article class="card industry-item{kept_class}" data-keyword="{escape(topic)}" data-url="{url}" data-type="industry" data-industry="1" data-source="industry">
       <div class="card-meta">
         <span class="date">{item.get('date', '')}</span>
         <span class="keyword">{escape(topic)}</span>
@@ -459,6 +462,11 @@ def generate_html(papers: list, industry_items: list = None, startup_items: list
     industry_items = industry_items or []
     startup_items  = startup_items  or []
     now = datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")
+
+    # Filter items the user has removed via the local server
+    papers         = [p for p in papers         if p.get("status") != "removed"]
+    industry_items = [i for i in industry_items if i.get("status") != "removed"]
+    startup_items  = [i for i in startup_items  if i.get("status") != "removed"]
 
     # --- ArXiv panel ---
     arxiv_groups: dict = defaultdict(list)
@@ -746,10 +754,24 @@ def generate_html(papers: list, industry_items: list = None, startup_items: list
     function setStatus(btn, newStatus) {{
       const card = btn.closest('.card'), url = card.dataset.url;
       const st = loadStatus();
-      if (st[url] === newStatus) {{ delete st[url]; card.classList.remove('kept', 'removed'); }}
-      else {{ st[url] = newStatus; card.classList.remove('kept', 'removed'); card.classList.add(newStatus); }}
+      let apiStatus;
+      if (st[url] === newStatus) {{
+        delete st[url];
+        card.classList.remove('kept', 'removed');
+        apiStatus = null;
+      }} else {{
+        st[url] = newStatus;
+        card.classList.remove('kept', 'removed');
+        card.classList.add(newStatus);
+        apiStatus = newStatus;
+      }}
       saveStatus(st);
       applyArxivFilter(); applyIndustryFilter(); applyStartupFilter();
+      fetch('/api/status', {{
+        method: 'POST',
+        headers: {{'Content-Type': 'application/json'}},
+        body: JSON.stringify({{url: url, status: apiStatus}})
+      }}).catch(() => {{}});  // silent fallback on static hosting
     }}
 
     function toggleStar(btn) {{
