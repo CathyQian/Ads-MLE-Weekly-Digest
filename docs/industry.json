@@ -2708,5 +2708,1125 @@
     "fetched_date": "2026-04-18",
     "feed_name": "Pinterest Engineering",
     "source": "industry"
+  },
+  {
+    "title": "Our principles",
+    "abstract": "Our mission is to ensure that AGI benefits all of humanity. Sam Altman shares five principles that guide our work.",
+    "url": "https://openai.com/index/our-principles",
+    "topic": "llm",
+    "date": "2026-04-26",
+    "fetched_date": "2026-04-27",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "GPT-5.5 System Card",
+    "abstract": "",
+    "url": "https://openai.com/index/gpt-5-5-system-card",
+    "topic": "llm",
+    "date": "2026-04-23",
+    "fetched_date": "2026-04-27",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Introducing GPT-5.5",
+    "abstract": "Introducing GPT-5.5, our smartest model yet—faster, more capable, and built for complex tasks like coding, research, and data analysis across tools.",
+    "url": "https://openai.com/index/introducing-gpt-5-5",
+    "topic": "llm",
+    "date": "2026-04-23",
+    "fetched_date": "2026-04-27",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Top 10 uses for Codex at work",
+    "abstract": "Explore 10 practical Codex use cases to automate tasks, create deliverables, and turn real inputs into outputs across tools, files, and workflows.",
+    "url": "https://openai.com/academy/top-10-use-cases-codex-for-work",
+    "topic": "llm",
+    "date": "2026-04-23",
+    "fetched_date": "2026-04-27",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "How to get started with Codex",
+    "abstract": "Learn how to get started with Codex by setting up projects, creating threads, and completing your first tasks with step-by-step guidance.",
+    "url": "https://openai.com/academy/codex-how-to-start",
+    "topic": "llm",
+    "date": "2026-04-23",
+    "fetched_date": "2026-04-27",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "What is Codex?",
+    "abstract": "Learn how Codex helps you go beyond chat by automating tasks, connecting tools, and producing real outputs like docs and dashboards.",
+    "url": "https://openai.com/academy/what-is-codex",
+    "topic": "llm",
+    "date": "2026-04-23",
+    "fetched_date": "2026-04-27",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Automations",
+    "abstract": "Learn how to automate tasks in Codex using schedules and triggers to create reports, summaries, and recurring workflows without manual effort.",
+    "url": "https://openai.com/academy/codex-automations",
+    "topic": "llm",
+    "date": "2026-04-23",
+    "fetched_date": "2026-04-27",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Codex settings",
+    "abstract": "Learn how to configure Codex settings, including personalization, detail level, and permissions, to run tasks smoothly and customize your workflow.",
+    "url": "https://openai.com/academy/codex-settings",
+    "topic": "llm",
+    "date": "2026-04-23",
+    "fetched_date": "2026-04-27",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Working with Codex",
+    "abstract": "Learn how to set up your Codex workspace, create threads and projects, manage files, and start completing tasks with step-by-step guidance.",
+    "url": "https://openai.com/academy/working-with-codex",
+    "topic": "llm",
+    "date": "2026-04-23",
+    "fetched_date": "2026-04-27",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Plugins and skills",
+    "abstract": "Learn how to use Codex plugins and skills to connect tools, access data, and follow repeatable workflows to automate tasks and improve results.",
+    "url": "https://openai.com/academy/codex-plugins-and-skills",
+    "topic": "llm",
+    "date": "2026-04-23",
+    "fetched_date": "2026-04-27",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "GPT-5.5 Bio Bug Bounty",
+    "abstract": "Explore the GPT-5.5 Bio Bug Bounty: a red-teaming challenge to find universal jailbreaks for bio safety risks, with rewards up to $25,000.",
+    "url": "https://openai.com/index/gpt-5-5-bio-bug-bounty",
+    "topic": "llm",
+    "date": "2026-04-23",
+    "fetched_date": "2026-04-27",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Making ChatGPT better for clinicians",
+    "abstract": "OpenAI makes ChatGPT for Clinicians free for verified U.S. physicians, nurse practitioners, and pharmacists, supporting clinical care, documentation, and research.",
+    "url": "https://openai.com/index/making-chatgpt-better-for-clinicians",
+    "topic": "llm",
+    "date": "2026-04-22",
+    "fetched_date": "2026-04-27",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Speeding up agentic workflows with WebSockets in the Responses API",
+    "abstract": "A deep dive into the Codex agent loop, showing how WebSockets and connection-scoped caching reduced API overhead and improved model latency.",
+    "url": "https://openai.com/index/speeding-up-agentic-workflows-with-websockets",
+    "topic": "llm",
+    "date": "2026-04-22",
+    "fetched_date": "2026-04-27",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Workspace agents",
+    "abstract": "Learn how to build, use, and scale workspace agents in ChatGPT to automate repeatable workflows, connect tools, and streamline team operations.",
+    "url": "https://openai.com/academy/workspace-agents",
+    "topic": "llm",
+    "date": "2026-04-22",
+    "fetched_date": "2026-04-27",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Introducing workspace agents in ChatGPT",
+    "abstract": "Workspace agents in ChatGPT are Codex-powered agents that automate complex workflows, run in the cloud, and help teams scale work across tools securely.",
+    "url": "https://openai.com/index/introducing-workspace-agents-in-chatgpt",
+    "topic": "llm",
+    "date": "2026-04-22",
+    "fetched_date": "2026-04-27",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Introducing OpenAI Privacy Filter",
+    "abstract": "OpenAI Privacy Filter is an open-weight model for detecting and redacting personally identifiable information (PII) in text with state-of-the-art accuracy",
+    "url": "https://openai.com/index/introducing-openai-privacy-filter",
+    "topic": "llm",
+    "date": "2026-04-22",
+    "fetched_date": "2026-04-27",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Introducing ChatGPT Images 2.0",
+    "abstract": "ChatGPT Images 2.0 introduces a state-of-the-art image generation model with improved text rendering, multilingual support, and advanced visual reasoning.",
+    "url": "https://openai.com/index/introducing-chatgpt-images-2-0",
+    "topic": "llm",
+    "date": "2026-04-21",
+    "fetched_date": "2026-04-27",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Scaling Codex to enterprises worldwide",
+    "abstract": "OpenAI launches Codex Labs, partners with with Accenture, PwC, Infosys, and others to help enterprises deploy and scale Codex across the software development lifecycle, and hits 4M Codex WAU.",
+    "url": "https://openai.com/index/scaling-codex-to-enterprises-worldwide",
+    "topic": "llm",
+    "date": "2026-04-21",
+    "fetched_date": "2026-04-27",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "OpenAI helps Hyatt advance AI among colleagues",
+    "abstract": "Hyatt deploys ChatGPT Enterprise across its global workforce, using GPT-5.4 and Codex to improve productivity, operations, and guest experiences.",
+    "url": "https://openai.com/index/hyatt-advances-ai-with-chatgpt-enterprise",
+    "topic": "llm",
+    "date": "2026-04-20",
+    "fetched_date": "2026-04-27",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "An update on recent Claude Code quality reports",
+    "abstract": "We traced recent reports of Claude Code quality issues to three separate changes. Here's what happened and what we're changing.",
+    "url": "https://www.anthropic.com/engineering/april-23-postmortem",
+    "topic": "agentic-ai",
+    "date": "2026-04-27",
+    "fetched_date": "2026-04-27",
+    "feed_name": "Anthropic Engineering",
+    "source": "industry"
+  },
+  {
+    "title": "Announcing the Anthropic Economic Index Survey",
+    "abstract": "",
+    "url": "https://www.anthropic.com/research/economic-index-survey-announcement",
+    "topic": "llm",
+    "date": "2026-04-22",
+    "fetched_date": "2026-04-27",
+    "feed_name": "Anthropic Research",
+    "source": "industry"
+  },
+  {
+    "title": "What 81,000 people told us about the economics of AI",
+    "abstract": "",
+    "url": "https://www.anthropic.com/research/81k-economics",
+    "topic": "llm",
+    "date": "2026-04-22",
+    "fetched_date": "2026-04-27",
+    "feed_name": "Anthropic Research",
+    "source": "industry"
+  },
+  {
+    "title": "DeepSeek-V4: a million-token context that agents can actually use",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/deepseekv4",
+    "topic": "llm",
+    "date": "2026-04-24",
+    "fetched_date": "2026-04-27",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "How to Use Transformers.js in a Chrome Extension",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/transformersjs-chrome-extension",
+    "topic": "llm",
+    "date": "2026-04-23",
+    "fetched_date": "2026-04-27",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Gemma 4 VLA Demo on Jetson Orin Nano Super",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/nvidia/gemma4",
+    "topic": "llm",
+    "date": "2026-04-22",
+    "fetched_date": "2026-04-27",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "QIMMA قِمّة ⛰: A Quality-First Arabic LLM Leaderboard",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/tiiuae/qimma-arabic-leaderboard",
+    "topic": "llm",
+    "date": "2026-04-21",
+    "fetched_date": "2026-04-27",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "AI and the Future of Cybersecurity: Why Openness Matters",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/cybersecurity-openness",
+    "topic": "llm",
+    "date": "2026-04-21",
+    "fetched_date": "2026-04-27",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Decoupled DiLoCo: A new frontier for resilient, distributed AI training",
+    "abstract": "",
+    "url": "https://deepmind.google/blog/decoupled-diloco/",
+    "topic": "generative-ai",
+    "date": "2026-04-22",
+    "fetched_date": "2026-04-27",
+    "feed_name": "DeepMind Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Partnering with industry leaders to accelerate AI transformation",
+    "abstract": "Google DeepMind partners with global consultancies to bring the power of frontier AI to organizations around the world.",
+    "url": "https://deepmind.google/blog/partnering-with-industry-leaders-to-accelerate-ai-transformation/",
+    "topic": "generative-ai",
+    "date": "2026-04-21",
+    "fetched_date": "2026-04-27",
+    "feed_name": "DeepMind Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Building a fault-tolerant metrics storage system at Airbnb",
+    "abstract": "",
+    "url": "https://medium.com/airbnb-engineering/building-a-fault-tolerant-metrics-storage-system-at-airbnb-26a01a6e7017?source=rss----53c7c27702d5---4",
+    "topic": "ml-engineering",
+    "date": "2026-04-21",
+    "fetched_date": "2026-04-27",
+    "feed_name": "Airbnb Engineering",
+    "source": "industry"
+  },
+  {
+    "title": "Smarter URL Normalization at Scale: How MIQPS Powers Content Deduplication at Pinterest",
+    "abstract": "",
+    "url": "https://medium.com/pinterest-engineering/smarter-url-normalization-at-scale-how-miqps-powers-content-deduplication-at-pinterest-4aa42e807d7d?source=rss----4c5a5f6279b6---4",
+    "topic": "ads-tech",
+    "date": "2026-04-20",
+    "fetched_date": "2026-04-27",
+    "feed_name": "Pinterest Engineering",
+    "source": "industry"
+  },
+  {
+    "title": "WHY ARE YOU LIKE THIS",
+    "abstract": "@scottjla on Twitter in reply to my pelican riding a bicycle benchmark: I feel like we need to stack these tests now I checked to confirm that the model (ChatGPT Images 2.0) added the \"WHY ARE YOU LIKE THIS\" sign of its own accord and it did - the prompt Scott used was: Create an image of a horse riding an astronaut, where the astronaut is riding a pelican that is riding a bicycle. It looks very chaotic but they all just manage to balance on top of each other Tags: text-to-image , pelican-riding-a-bicycle , ai , generative-ai , slop , chatgpt",
+    "url": "https://simonwillison.net/2026/Apr/25/why-are-you-like-this/#atom-everything",
+    "topic": "llm",
+    "date": "2026-04-25",
+    "fetched_date": "2026-04-27",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Quoting Romain Huet",
+    "abstract": "Since GPT-5.4, we’ve unified Codex and the main model into a single system, so there’s no separate coding line anymore. GPT-5.5 takes this further, with strong gains in agentic coding, computer use, and any task on a computer. — Romain Huet , confirming OpenAI won't release a GPT-5.5-Codex model Tags: generative-ai , gpt , openai , ai , llms",
+    "url": "https://simonwillison.net/2026/Apr/25/romain-huet/#atom-everything",
+    "topic": "llm",
+    "date": "2026-04-25",
+    "fetched_date": "2026-04-27",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "GPT-5.5 prompting guide",
+    "abstract": "GPT-5.5 prompting guide Now that GPT-5.5 is available in the API , OpenAI have released a wealth of useful tips on how best to prompt the new model. Here's a neat trick they recommend for applications that might spend considerable time thinking before returning a user-visible response: Before any tool calls for a multi-step task, send a short user-visible update that acknowledges the request and states the first step. Keep it to one or two sentences. I've already noticed their Codex app doing this, and it does make longer running tasks feel less like the model has crashed. OpenAI suggest running the following in Codex to upgrade your existing code using advice embedded in their openai-docs skill: $openai-docs migrate this project to gpt-5.5 The upgrade guide the coding agent will follow is this one , which even includes light instructions on how to rewrite prompts to better fit the model. Also relevant is the Using GPT-5.5 guide , which opens with this warning: To get the most out of GPT-5.5, treat it as a new model family to tune for, not a drop-in replacement for gpt-5.2 or gpt-5.4 . Begin migration with a fresh baseline instead of carrying over every instruction from an older prompt stack. Start with the smallest prompt that preserves the product contract, then tune reasoning effort, verbosity, tool descriptions, and output format against representative examples. Interesting to see OpenAI recommend starting from scratch rather than trusting that existing prompts optimized for previous models will continue to work effectively with GPT-5.5. Tags: ai , openai , prompt-engineering , generative-ai , llms , gpt",
+    "url": "https://simonwillison.net/2026/Apr/25/gpt-5-5-prompting-guide/#atom-everything",
+    "topic": "llm",
+    "date": "2026-04-25",
+    "fetched_date": "2026-04-27",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "llm 0.31",
+    "abstract": "Release: llm 0.31 New GPT-5.5 OpenAI model: llm -m gpt-5.5 . #1418 New option to set the text verbosity level for GPT-5+ OpenAI models: -o verbosity low . Values are low , medium , high . New option for setting the image detail level used for image attachments to OpenAI models: -o image_detail low - values are low , high and auto , and GPT-5.4 and 5.5 also accept original . Models listed in extra-openai-models.yaml are now also registered as asynchronous. #1395 Tags: gpt , openai , llm",
+    "url": "https://simonwillison.net/2026/Apr/24/llm/#atom-everything",
+    "topic": "llm",
+    "date": "2026-04-24",
+    "fetched_date": "2026-04-27",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "The people do not yearn for automation",
+    "abstract": "The people do not yearn for automation This written and video essay by Nilay Patel explores why AI is unpopular with the general public even as usage numbers for ChatGPT continue to skyrocket. It’s a superb piece of commentary, and something I expect I’ll be thinking about for a long time to come. Nilay’s core idea is that people afflicted with “software brain” - who see the world as something to be automated as much as possible, and attempt to model everything in terms of information flows and data - are becoming detached from everyone else. […] software brain has ruled the business world for a long time. AI has just made it easier than ever for more people to make more software than ever before — for every kind of business to automate big chunks of itself with software. It’s everywhere: the absolute cutting edge of advertising and marketing is automation with AI. It’s not being a creative. But: not everything is a business. Not everything is a loop! The entire human experience cannot be captured in a database. That’s the limit of software brain. That’s why people hate AI. It flattens them. Regular people don’t see the opportunity to write code as an opportunity at all . The people do not yearn for automation. I’m a full-on smart home sicko; the lights and shades and climate controls of my house are automated in dozens of ways. But huge companies like Apple, Google and Amazon have struggled for over a decade now to make regular people care about smart home automation at all. And they just don’t. Via John Gruber Tags: ai , generative-ai , llms , nilay-patel , ai-ethics",
+    "url": "https://simonwillison.net/2026/Apr/24/the-people-do-not-yearn-for-automation/#atom-everything",
+    "topic": "llm",
+    "date": "2026-04-24",
+    "fetched_date": "2026-04-27",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "DeepSeek V4 - almost on the frontier, a fraction of the price",
+    "abstract": "Chinese AI lab DeepSeek's last model release was V3.2 (and V3.2 Speciale) last December . They just dropped the first of their hotly anticipated V4 series in the shape of two preview models, DeepSeek-V4-Pro and DeepSeek-V4-Flash . Both models are 1 million token context Mixture of Experts. Pro is 1.6T total parameters, 49B active. Flash is 284B total, 13B active. They're using the standard MIT license. I think this makes DeepSeek-V4-Pro the new largest open weights model. It's larger than Kimi K2.6 (1.1T) and GLM-5.1 (754B) and more than twice the size of DeepSeek V3.2 (685B). Pro is 865GB on Hugging Face, Flash is 160GB. I'm hoping that a lightly quantized Flash will run on my 128GB M5 MacBook Pro. It's possible the Pro model may run on it if I can stream just the necessary active experts from disk. For the moment I tried the models out via OpenRouter , using llm-openrouter : llm install llm-openrouter llm openrouter refresh llm -m openrouter/deepseek/deepseek-v4-pro 'Generate an SVG of a pelican riding a bicycle' Here's the pelican for DeepSeek-V4-Flash : And for DeepSeek-V4-Pro : For comparison, take a look at the pelicans I got from DeepSeek V3.2 in December , V3.1 in August , and V3-0324 in March 2025 . So the pelicans are pretty good, but what's really notable here is the cost . DeepSeek V4 is a very, very inexpensive model. This is DeepSeek's pricing page . They're charging $0.14/million tokens input and $0.28/million tokens output for Flash, and $1.74/million input and $3.48/million output for Pro. Here's a comparison table with the frontier models from Gemini, OpenAI and Anthropic: Model Input ($/M) Output ($/M) DeepSeek V4 Flash $0.14 $0.28 GPT-5.4 Nano $0.20 $1.25 Gemini 3.1 Flash-Lite $0.25 $1.50 Gemini 3 Flash Preview $0.50 $3 GPT-5.4 Mini $0.75 $4.50 Claude Haiku 4.5 $1 $5 DeepSeek V4 Pro $1.74 $3.48 Gemini 3.1 Pro $2 $12 GPT-5.4 $2.50 $15 Claude Sonnet 4.6 $3 $15 Claude Opus 4.7 $5 $25 GPT-5.5 $5 $30 DeepSeek-V4-Flash is the cheapest of the small models, beating even OpenAI's GPT-5.4 Nano. DeepSeek-V4-Pro is the cheapest of the larger frontier models. This note from the DeepSeek paper helps explain why they can price these models so low - they've focused a great deal on efficiency with this release, especially for longer context prompts: In the scenario of 1M-token context, even DeepSeek-V4-Pro, which has a larger number of activated parameters, attains only 27% of the single-token FLOPs (measured in equivalent FP8 FLOPs) and 10% of the KV cache size relative to DeepSeek-V3.2. Furthermore, DeepSeek-V4-Flash, with its smaller number of activated parameters, pushes efficiency even further: in the 1M-token context setting, it achieves only 10% of the single-token FLOPs and 7% of the KV cache size compared with DeepSeek-V3.2. DeepSeek's self-reported benchmarks in their paper show their Pro model competitive with those other frontier models, albeit with this note: Through the expansion of reasoning tokens, DeepSeek-V4-Pro-Max demonstrates superior performance relative to GPT-5.2 and Gemini-3.0-Pro on standard reasoning benchmarks. Nevertheless, its performance falls marginally short of GPT-5.4 and Gemini-3.1-Pro, suggesting a developmental trajectory that trails state-of-the-art frontier models by approximately 3 to 6 months. I'm keeping an eye on huggingface.co/unsloth/models as I expect the Unsloth team will have a set of quantized versions out pretty soon. It's going to be very interesting to see how well that Flash model runs on my own machine. Tags: ai , generative-ai , llms , llm , llm-pricing , pelican-riding-a-bicycle , deepseek , llm-release , openrouter , ai-in-china",
+    "url": "https://simonwillison.net/2026/Apr/24/deepseek-v4/#atom-everything",
+    "topic": "llm",
+    "date": "2026-04-24",
+    "fetched_date": "2026-04-27",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Millisecond Converter",
+    "abstract": "Tool: Millisecond Converter LLM reports prompt durations in milliseconds and I got fed up of having to think about how to convert those to seconds and minutes. Tags: tools",
+    "url": "https://simonwillison.net/2026/Apr/24/milliseconds/#atom-everything",
+    "topic": "llm",
+    "date": "2026-04-24",
+    "fetched_date": "2026-04-27",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "It's a big one",
+    "abstract": "This week's edition of my email newsletter (aka content from this blog delivered to your inbox) features 4 pelicans riding bicycles, 1 possum on an e-scooter, up to 5 raccoons with ham radios hiding in crowds, 5 blog posts, 8 links, 3 quotes and a new chapter of my Agentic Engineering Patterns guide. Tags: newsletter",
+    "url": "https://simonwillison.net/2026/Apr/24/weekly/#atom-everything",
+    "topic": "llm",
+    "date": "2026-04-24",
+    "fetched_date": "2026-04-27",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "russellromney/honker",
+    "abstract": "russellromney/honker \"Postgres NOTIFY/LISTEN semantics\" for SQLite, implemented as a Rust SQLite extension and various language bindings to help make use of it. The design of this looks very solid. It lets you write Python code for queues that looks like this: import honker db = honker . open ( \"app.db\" ) emails = db . queue ( \"emails\" ) emails . enqueue ({ \"to\" : \"alice@example.com\" }) # Consume (in a worker process) async for job in emails . claim ( \"worker-1\" ): send ( job . payload ) job . ack () And Kafka-style durable streams like this: stream = db . stream ( \"user-events\" ) with db . transaction () as tx : tx . execute ( \"UPDATE users SET name=? WHERE id=?\" , [ name , uid ]) stream . publish ({ \"user_id\" : uid , \"change\" : \"name\" }, tx = tx ) async for event in stream . subscribe ( consumer = \"dashboard\" ): await push_to_browser ( event ) It also adds 20+ custom SQL functions including these two: SELECT notify( ' orders ' , ' {\"id\":42} ' ); SELECT honker_stream_read_since( ' orders ' , 0 , 1000 ); The extension requires WAL mode, and workers can poll the .db-wal file with a stat call every 1ms to get as close to real-time as possible without the expense of running a full SQL query. honker implements the transactional outbox pattern , which ensures items are only queued if a transaction successfully commits. My favorite explanation of that pattern remains Transactionally Staged Job Drains in Postgres by Brandur Leach. It's great to see a new implementation of that pattern for SQLite. Via Show HN Tags: databases , postgresql , sqlite , rust",
+    "url": "https://simonwillison.net/2026/Apr/24/honker/#atom-everything",
+    "topic": "llm",
+    "date": "2026-04-24",
+    "fetched_date": "2026-04-27",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "An update on recent Claude Code quality reports",
+    "abstract": "An update on recent Claude Code quality reports It turns out the high volume of complaints that Claude Code was providing worse quality results over the past two months was grounded in real problems. The models themselves were not to blame, but three separate issues in the Claude Code harness caused complex but material problems which directly affected users. Anthropic's postmortem describes these in detail. This one in particular stood out to me: On March 26, we shipped a change to clear Claude's older thinking from sessions that had been idle for over an hour, to reduce latency when users resumed those sessions. A bug caused this to keep happening every turn for the rest of the session instead of just once, which made Claude seem forgetful and repetitive. I frequently have Claude Code sessions which I leave for an hour (or often a day or longer) before returning to them. Right now I have 11 of those (according to ps aux | grep 'claude ' ) and that's after closing down dozens more the other day. I estimate I spend more time prompting in these \"stale\" sessions than sessions that I've recently started! If you're building agentic systems it's worth reading this article in detail - the kinds of bugs that affect harnesses are deeply complicated, even if you put aside the inherent non-deterministic nature of the models themselves. Via Hacker News Tags: ai , prompt-engineering , generative-ai , llms , anthropic , coding-agents , claude-code",
+    "url": "https://simonwillison.net/2026/Apr/24/recent-claude-code-quality-reports/#atom-everything",
+    "topic": "llm",
+    "date": "2026-04-24",
+    "fetched_date": "2026-04-27",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Serving the For You feed",
+    "abstract": "Serving the For You feed One of Bluesky's most interesting features is that anyone can run their own custom \"feed\" implementation and make it available to other users - effectively enabling custom algorithms that can use any mechanism they like to recommend posts. spacecowboy runs the For You Feed , used by around 72,000 people. This guest post on the AT Protocol blog explains how it works. The architecture is fascinating . The feed is served by a single Go process using SQLite on a \"gaming\" PC in spacecowboy's living room - 16 cores, 96GB of RAM and 4TB of attached NVMe storage. Recommendations are based on likes: what else are the people who like the same things as you liking on the platform? That Go server consumes the Bluesky firehose and stores the relevant details in SQLite, keeping the last 90 days of relevant data, which currently uses around 419GB of SQLite storage. Public internet traffic is handled by a $7/month VPS on OVH, which talks to the living room server via Tailscale. Total cost is now $30/month: $20 in electricity, $7 in VPS and $3 for the two domain names. spacecowboy estimates that the existing system could handle all ~1 million daily active Bluesky users if they were to switch to the cheapest algorithm they have found to work. Tags: go , scaling , sqlite , software-architecture , tailscale , bluesky",
+    "url": "https://simonwillison.net/2026/Apr/24/serving-the-for-you-feed/#atom-everything",
+    "topic": "llm",
+    "date": "2026-04-24",
+    "fetched_date": "2026-04-27",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Extract PDF text in your browser with LiteParse for the web",
+    "abstract": "LlamaIndex have a most excellent open source project called LiteParse , which provides a Node.js CLI tool for extracting text from PDFs. I got a version of LiteParse working entirely in the browser, using most of the same libraries that LiteParse uses to run in Node.js. Spatial text parsing Refreshingly, LiteParse doesn't use AI models to do what it does: it's good old-fashioned PDF parsing, falling back to Tesseract OCR (or other pluggable OCR engines) for PDFs that contain images of text rather than the text itself. The hard problem that LiteParse solves is extracting text in a sensible order despite the infuriating vagaries of PDF layouts. They describe this as \"spatial text parsing\" - they use some very clever heuristics to detect things like multi-column layouts and group and return the text in a sensible linear flow. The LiteParse documentation describes a pattern for implementing Visual Citations with Bounding Boxes . I really like this idea: being able to answer questions from a PDF and accompany those answers with cropped, highlighted images feels like a great way of increasing the credibility of answers from RAG-style Q&A. LiteParse is provided as a pure CLI tool, designed to be used by agents. You run it like this: npm i -g @llamaindex/liteparse lit parse document.pdf I explored its capabilities with Claude and quickly determined that there was no real reason it had to stay a CLI app: it's built on top of PDF.js and Tesseract.js, two libraries I've used for something similar in a browser in the past . The only reason LiteParse didn't have a pure browser-based version is that nobody had built one yet... Introducing LiteParse for the web Visit https://simonw.github.io/liteparse/ to try out LiteParse against any PDF file, running entirely in your browser. Here's what that looks like: The tool can work with or without running OCR, and can optionally display images for every page in the PDF further down the page. Building it with Claude Code and Opus 4.7 The process of building this started in the regular Claude app on my iPhone. I wanted to try out LiteParse myself, so I started by uploading a random PDF I happened to have on my phone along with this prompt: Clone https://github.com/run-llama/liteparse and try it against this file Regular Claude chat can clone directly from GitHub these days, and while by default it can't access most of the internet from its container it can also install packages from PyPI and npm. I often use this to try out new pieces of open source software on my phone - it's a quick way to exercise something without having to sit down with my laptop. You can follow my full conversation in this shared Claude transcript . I asked a few follow-up questions about how it worked, and then asked: Does this library run in a browser? Could it? This gave me a thorough enough answer that I was convinced it was worth trying getting that to work for real. I opened up my laptop and switched to Claude Code. I forked the original repo on GitHub, cloned a local copy, started a new web branch and pasted that last reply from Claude into a new file called notes.md . Then I told Claude Code: Get this working as a web app. index.html, when loaded, should render an app that lets users open a PDF in their browser and select OCR or non-OCR mode and have this run. Read notes.md for initial research on this problem, then write out plan.md with your detailed implementation plan I always like to start with a plan for this kind of project. Sometimes I'll use Claude's \"planning mode\", but in this case I knew I'd want the plan as an artifact in the repository so I told it to write plan.md directly. This also means I can iterate on the plan with Claude. I noticed that Claude had decided to punt on generating screenshots of images in the PDF, and suggested we defer a \"canvas-encode swap\" to v2. I fixed that by prompting: Update the plan to say we WILL do the canvas-encode swap so the screenshots thing works After a few short follow-up prompts, here's the plan.md I thought was strong enough to implement. I prompted: build it. And then mostly left Claude Code to its own devices, tinkered with some other projects, caught up on Duolingo and occasionally checked in to see how it was doing. I added a few prompts to the queue as I was working. Those don't yet show up in my exported transcript, but it turns out running rg queue-operation --no-filename | grep enqueue | jq -r '.content' in the relevant ~/.claude/projects/ folder extracts them. Here are the key follow-up prompts with some notes: When you implement this use playwright and red/green TDD, plan that too - I've written more about red/green TDD here . let's use PDF.js's own renderer (it was messing around with pdfium) The final UI should include both the text and the pretty-printed JSON output, both of those in textareas and both with copy-to-clipboard buttons - it should also be mobile friendly - I had a new idea for how the UI should work small commits along the way - see below Make sure the index.html page includes a link back to https://github.com/run-llama/liteparse near the top of the page - it's important to credit your dependencies in a project like this! View on GitHub → is bad copy because that's not the repo with this web app in, it's the web app for the underlying LiteParse library Run OCR should be unchecked by default When I try to parse a PDF in my browser I see 'Parse failed: undefined is not a function (near '...value of readableStream...') - it was testing with Playwright in Chrome, turned out there was a bug in Safari ... oh that is in safari but it works in chrome When \"Copy\" is clicked the text should change to \"Copied!\" for 1.5s [Image #1] Style the file input so that long filenames don't break things on Firefox like this - in fact add one of those drag-drop zone UIs which you can also click to select a file - dropping screenshots in of small UI glitches works surprisingly well Tweak the drop zone such that the text is vertically centered, right now it is a bit closer to the top it breaks in Safari on macOS, works in both Chrome and Firefox. On Safari I see \"Parse failed: undefined is not a function (near '...value of readableStream...')\" after I click the Parse button, when OCR is not checked - it still wasn't working in Safari... works in safari now - but it fixed it pretty quickly once I pointed that out and it got Playwright working with that browser I've started habitually asking for \"small commits along the way\" because it makes for code that's easier to understand or review later on, and I have an unproven hunch that it helps the agent work more effectively too - it's yet another encouragement towards planning and taking on one problem at a time. While it was working I decided it would be nice to be able to interact with an in-progress version. I asked a separate Claude Code session against the same directory for tips on how to run it, and it told me to use npx vite . Running that started a development server with live-reloading, which meant I could instantly see the effect of each change it made on disk - and prompt with further requests for tweaks and fixes. Towards the end I decided it was going to be good enough to publish. I started a fresh Claude Code instance and told it: Look at the web/ folder - set up GitHub actions for this repo such that any push runs the tests, and if the tests pass it then does a GitHub Pages deploy of the built vite app such that the web/index.html page is the index.html page for the thing that is deployed and it works on GitHub Pages After a bit more iteration here's the GitHub Actions workflow that builds the app using Vite and deploys the result to https://simonw.github.io/liteparse/ . I love GitHub Pages for this kind of thing because it can be quickly configured (by Claude, in this case) to turn any repository into a deployed web-app, at zero cost and with whatever build step is necessary. It even works against private repos, if you don't mind your only security being a secret URL. With this kind of project there's always a major risk that the model might \"cheat\" - mark key features as \"TODO\" and fake them, or take shortcuts that ignore the initial requirements. The responsible way to prevent this is to review all of the code... but this wasn't intended as that kind of project, so instead I fired up OpenAI Codex with GPT-5.5 (I had preview access) and told it: Describe the difference between how the node.js CLI tool runs and how the web/ version runs The answer I got back was enough to give me confidence that Claude hadn't taken any project-threatening shortcuts. ... and that was about it. Total time in Claude Code for that \"build it\" step was 59 minutes. I used my claude-code-transcripts tool to export a readable version of the full transcript which you can view here , albeit without those additional queued prompts (here's my issue to fix that ). Is this even vibe coding any more? I'm a pedantic stickler when it comes to the original definition of vibe coding - vibe coding does not mean any time you use AI to help you write code, it's when you use AI without reviewing or caring about the code that's written at all. By my own definition, this LiteParse for the web project is about as pure vibe coding as you can get! I have not looked at a single line of the HTML and TypeScript written for this project - in fact while writing this sentence I had to go and check if it had used JavaScript or TypeScript. Yet somehow this one doesn't feel as vibe coded to me as many of my other vibe coded projects: As a static in-browser web application hosted on GitHub Pages the blast radius for any bugs is almost non-existent: it either works for your PDF or doesn't. No private data is transferred anywhere - all processing happens in your browser - so a security audit is unnecessary. I've glanced once at the network panel while it's running and no additional requests are made when a PDF is being parsed. There was still a whole lot of engineering experience and knowledge required to use the models in this way. Identifying that porting LiteParse to run directly in a browser was critical to the rest of the project. Most importantly, I'm happy to attach my reputation to this project and recommend that other people try it out. Unlike most of my vibe coded tools I'm not convinced that spending significant additional engineering time on this would have resulted in a meaningfully better initial release. It's fine as it is! I haven't opened a PR against the origin repository because I've not discussed it with the LiteParse team. I've opened an issue , and if they want my vibe coded implementation as a starting point for something more official they're welcome to take it. Tags: javascript , ocr , pdf , projects , ai , generative-ai , llms , vibe-coding , coding-agents , claude-code , agentic-engineering",
+    "url": "https://simonwillison.net/2026/Apr/23/liteparse-for-the-web/#atom-everything",
+    "topic": "llm",
+    "date": "2026-04-23",
+    "fetched_date": "2026-04-27",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "A pelican for GPT-5.5 via the semi-official Codex backdoor API",
+    "abstract": "GPT-5.5 is out . It's available in OpenAI Codex and is rolling out to paid ChatGPT subscribers. I've had some preview access and found it to be a fast, effective and highly capable model. As is usually the case these days, it's hard to put into words what's good about it - I ask it to build things and it builds exactly what I ask for! There's one notable omission from today's release - the API: API deployments require different safeguards and we are working closely with partners and customers on the safety and security requirements for serving it at scale. We'll bring GPT‑5.5 and GPT‑5.5 Pro to the API very soon. When I run my pelican benchmark I always prefer to use an API, to avoid hidden system prompts in ChatGPT or other agent harnesses from impacting the results. The OpenClaw backdoor One of the ongoing tension points in the AI world over the past few months has concerned how agent harnesses like OpenClaw and Pi interact with the APIs provided by the big providers. Both OpenAI and Anthropic offer popular monthly subscriptions which provide access to their models at a significant discount to their raw API. OpenClaw integrated directly with this mechanism, and was then blocked from doing so by Anthropic. This kicked off a whole thing. OpenAI - who recently hired OpenClaw creator Peter Steinberger - saw an opportunity for an easy karma win and announced that OpenClaw was welcome to continue integrating with OpenAI's subscriptions via the same mechanism used by their (open source) Codex CLI tool. Does this mean anyone can write code that integrates with OpenAI's Codex-specific APIs to hook into those existing subscriptions? The other day Jeremy Howard asked : Anyone know whether OpenAI officially supports the use of the /backend-api/codex/responses endpoint that Pi and Opencode (IIUC) uses? It turned out that on March 30th OpenAI's Romain Huet had tweeted : We want people to be able to use Codex, and their ChatGPT subscription, wherever they like! That means in the app, in the terminal, but also in JetBrains, Xcode, OpenCode, Pi, and now Claude Code. That’s why Codex CLI and Codex app server are open source too! 🙂 And Peter Steinberger replied to Jeremy that: OpenAI sub is officially supported. llm-openai-via-codex So... I had Claude Code reverse-engineer the openai/codex repo, figure out how authentication tokens were stored and build me llm-openai-via-codex , a new plugin for LLM which picks up your existing Codex subscription and uses it to run prompts! (With hindsight I wish I'd used GPT-5.4 or the GPT-5.5 preview, it would have been funnier. I genuinely considered rewriting the project from scratch using Codex and GPT-5.5 for the sake of the joke, but decided not to spend any more time on this!) Here's how to use it: Install Codex CLI, buy an OpenAI plan, login to Codex Install LLM: uv tool install llm Install the new plugin: llm install llm-openai-via-codex Start prompting: llm -m openai-codex/gpt-5.5 'Your prompt goes here' All existing LLM features should also work - use -a filepath.jpg/URL to attach an image, llm chat -m openai-codex/gpt-5.5 to start an ongoing chat, llm logs to view logged conversations and llm --tool ... to try it out with tool support . And some pelicans Let's generate a pelican! llm install llm-openai-via-codex llm -m openai-codex/gpt-5.5 ' Generate an SVG of a pelican riding a bicycle ' Here's what I got back : I've seen better from GPT-5.4 , so I tagged on -o reasoning_effort xhigh and tried again : That one took almost four minutes to generate, but I think it's a much better effort. If you compare the SVG code ( default , xhigh ) the xhigh one took a very different approach, which is much more CSS-heavy - as demonstrated by those gradients. xhigh used 9,322 reasoning tokens where the default used just 39. A few more notes on GPT-5.5 One of the most notable things about GPT-5.5 is the pricing. Once it goes live in the API it's going to be priced at twice the cost of GPT-5.4 - $5 per 1M input tokens and $30 per 1M output tokens, where 5.4 is $2.5 and $15. GPT-5.5 Pro will be even more: $30 per 1M input tokens and $180 per 1M output tokens. GPT-5.4 will remain available. At half the price of 5.5 this feels like 5.4 is to 5.5 as Claude Sonnet is to Claude Opus. Ethan Mollick has a detailed review of GPT-5.5 where he put it (and GPT-5.5 Pro) through an array of interesting challenges. His verdict: the jagged frontier continues to hold, with GPT-5.5 excellent at some things and challenged by others in a way that remains difficult to predict. Tags: ai , openai , generative-ai , chatgpt , llms , llm , llm-pricing , pelican-riding-a-bicycle , llm-reasoning , llm-release , codex-cli , gpt",
+    "url": "https://simonwillison.net/2026/Apr/23/gpt-5-5/#atom-everything",
+    "topic": "llm",
+    "date": "2026-04-23",
+    "fetched_date": "2026-04-27",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "llm-openai-via-codex 0.1a0",
+    "abstract": "Release: llm-openai-via-codex 0.1a0 Hijacks your Codex CLI credentials to make API calls with LLM, as described in my post about GPT-5.5 . Tags: openai , llm , codex-cli",
+    "url": "https://simonwillison.net/2026/Apr/23/llm-openai-via-codex/#atom-everything",
+    "topic": "llm",
+    "date": "2026-04-23",
+    "fetched_date": "2026-04-27",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Quoting Maggie Appleton",
+    "abstract": "[...] if you ever needed another reason to learn in public by digital gardening or podcasting or streaming or whathaveyou, add on that people will assume you’re more competent than you are. This will get you invites to very cool exclusive events filled with high-achieving, interesting people, even though you have no right to be there. A+ side benefit. — Maggie Appleton , Gathering Structures ( via ) Tags: blogging , maggie-appleton",
+    "url": "https://simonwillison.net/2026/Apr/23/maggie-appleton/#atom-everything",
+    "topic": "llm",
+    "date": "2026-04-23",
+    "fetched_date": "2026-04-27",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Weekly Top Picks #119",
+    "abstract": "SpaceX + Cursor + Mistral / Jensen v Jensen / The job AI can't take / GPT-5.5 and ChatGPT Images 2.0 / An anti-grammar app / Terence Tao on the future",
+    "url": "https://www.thealgorithmicbridge.com/p/weekly-top-picks-119",
+    "topic": "llm",
+    "date": "2026-04-24",
+    "fetched_date": "2026-04-27",
+    "feed_name": "The Algorithmic Bridge",
+    "source": "industry"
+  },
+  {
+    "title": "How the AI Writing Panic Is Making Us All Worse Writers",
+    "abstract": "This applies to those who use AI to write and those who don’t",
+    "url": "https://www.thealgorithmicbridge.com/p/how-the-ai-writing-panic-is-making",
+    "topic": "llm",
+    "date": "2026-04-21",
+    "fetched_date": "2026-04-27",
+    "feed_name": "The Algorithmic Bridge",
+    "source": "industry"
+  },
+  {
+    "title": "How to Stand Out When Everyone Uses AI",
+    "abstract": "No one is safe from this deadly trap",
+    "url": "https://www.thealgorithmicbridge.com/p/how-to-stand-out-when-everyone-uses",
+    "topic": "llm",
+    "date": "2026-04-20",
+    "fetched_date": "2026-04-27",
+    "feed_name": "The Algorithmic Bridge",
+    "source": "industry"
+  },
+  {
+    "title": "Why You Can’t Trust Anthropic Anymore",
+    "abstract": "The non-democratic era of AI has started",
+    "url": "https://www.thealgorithmicbridge.com/p/why-you-cant-trust-anthropic-anymore",
+    "topic": "llm",
+    "date": "2026-04-17",
+    "fetched_date": "2026-04-27",
+    "feed_name": "The Algorithmic Bridge",
+    "source": "industry"
+  },
+  {
+    "title": "What the Studies Say About How AI Affects Your Brain: A (Very Big) Compilation",
+    "abstract": "The entire literature clearly points to a single surprising finding",
+    "url": "https://www.thealgorithmicbridge.com/p/what-the-studies-say-about-how-ai",
+    "topic": "llm",
+    "date": "2026-04-15",
+    "fetched_date": "2026-04-27",
+    "feed_name": "The Algorithmic Bridge",
+    "source": "industry"
+  },
+  {
+    "title": "23 Questions Every Heavy AI User Should Ask",
+    "abstract": "A checklist for the rest of us",
+    "url": "https://www.thealgorithmicbridge.com/p/23-questions-every-heavy-ai-user",
+    "topic": "llm",
+    "date": "2026-04-13",
+    "fetched_date": "2026-04-27",
+    "feed_name": "The Algorithmic Bridge",
+    "source": "industry"
+  },
+  {
+    "title": "AI Will Be Met With Violence, and Nothing Good Will Come of It",
+    "abstract": "It has started",
+    "url": "https://www.thealgorithmicbridge.com/p/ai-will-be-met-with-violence-and",
+    "topic": "llm",
+    "date": "2026-04-11",
+    "fetched_date": "2026-04-27",
+    "feed_name": "The Algorithmic Bridge",
+    "source": "industry"
+  },
+  {
+    "title": "Weekly Top Picks #118",
+    "abstract": "Anthropic's $30B revenue / China won the global race / AI scapegoating layoffs / Mythos / Gen Z against AI / \"AI is conscious?\" is the wrong question",
+    "url": "https://www.thealgorithmicbridge.com/p/weekly-top-picks-118",
+    "topic": "llm",
+    "date": "2026-04-10",
+    "fetched_date": "2026-04-27",
+    "feed_name": "The Algorithmic Bridge",
+    "source": "industry"
+  },
+  {
+    "title": "What Happens When AI Gets Too Good at One Thing",
+    "abstract": "Thoughts on Claude Mythos",
+    "url": "https://www.thealgorithmicbridge.com/p/what-happens-when-ai-gets-too-good",
+    "topic": "llm",
+    "date": "2026-04-09",
+    "fetched_date": "2026-04-27",
+    "feed_name": "The Algorithmic Bridge",
+    "source": "industry"
+  },
+  {
+    "title": "Inside the AI Industry's Most Expensive Mistake",
+    "abstract": "The absurdity of thinking in tokens",
+    "url": "https://www.thealgorithmicbridge.com/p/inside-the-ai-industrys-most-expensive",
+    "topic": "llm",
+    "date": "2026-04-08",
+    "fetched_date": "2026-04-27",
+    "feed_name": "The Algorithmic Bridge",
+    "source": "industry"
+  },
+  {
+    "title": "Why We Think",
+    "abstract": "Special thanks to John Schulman for a lot of super valuable feedback and direct edits on this post. Test time compute ( Graves et al. 2016 , Ling, et al. 2017 , Cobbe et al. 2021 ) and Chain-of-thought (CoT) ( Wei et al. 2022 , Nye et al. 2021 ), have led to significant improvements in model performance, while raising many research questions. This post aims to review recent developments in how to effectively use test-time compute (i.e. “thinking time”) and why it helps.",
+    "url": "https://lilianweng.github.io/posts/2025-05-01-thinking/",
+    "topic": "llm",
+    "date": "2025-05-01",
+    "fetched_date": "2026-04-27",
+    "feed_name": "Lilian Weng",
+    "source": "industry"
+  },
+  {
+    "title": "Reward Hacking in Reinforcement Learning",
+    "abstract": "Reward hacking occurs when a reinforcement learning (RL) agent exploits flaws or ambiguities in the reward function to achieve high rewards, without genuinely learning or completing the intended task. Reward hacking exists because RL environments are often imperfect, and it is fundamentally challenging to accurately specify a reward function. With the rise of language models generalizing to a broad spectrum of tasks and RLHF becomes a de facto method for alignment training, reward hacking in RL training of language models has become a critical practical challenge. Instances where the model learns to modify unit tests to pass coding tasks, or where responses contain biases that mimic a user’s preference, are pretty concerning and are likely one of the major blockers for real-world deployment of more autonomous use cases of AI models.",
+    "url": "https://lilianweng.github.io/posts/2024-11-28-reward-hacking/",
+    "topic": "llm",
+    "date": "2024-11-28",
+    "fetched_date": "2026-04-27",
+    "feed_name": "Lilian Weng",
+    "source": "industry"
+  },
+  {
+    "title": "Extrinsic Hallucinations in LLMs",
+    "abstract": "Hallucination in large language models usually refers to the model generating unfaithful, fabricated, inconsistent, or nonsensical content. As a term, hallucination has been somewhat generalized to cases when the model makes mistakes. Here, I would like to narrow down the problem of hallucination to cases where the model output is fabricated and not grounded by either the provided context or world knowledge. There are two types of hallucination: In-context hallucination: The model output should be consistent with the source content in context. Extrinsic hallucination: The model output should be grounded by the pre-training dataset. However, given the size of the pre-training dataset, it is too expensive to retrieve and identify conflicts per generation. If we consider the pre-training data corpus as a proxy for world knowledge, we essentially try to ensure the model output is factual and verifiable by external world knowledge. Equally importantly, when the model does not know about a fact, it should say so. This post focuses on extrinsic hallucination. To avoid hallucination, LLMs need to be (1) factual and (2) acknowledge not knowing the answer when applicable.",
+    "url": "https://lilianweng.github.io/posts/2024-07-07-hallucination/",
+    "topic": "llm",
+    "date": "2024-07-07",
+    "fetched_date": "2026-04-27",
+    "feed_name": "Lilian Weng",
+    "source": "industry"
+  },
+  {
+    "title": "Diffusion Models for Video Generation",
+    "abstract": "Diffusion models have demonstrated strong results on image synthesis in past years. Now the research community has started working on a harder task—using it for video generation. The task itself is a superset of the image case, since an image is a video of 1 frame, and it is much more challenging because: It has extra requirements on temporal consistency across frames in time, which naturally demands more world knowledge to be encoded into the model. In comparison to text or images, it is more difficult to collect large amounts of high-quality, high-dimensional video data, let along text-video pairs. 🥑 Required Pre-read: Please make sure you have read the previous blog on “What are Diffusion Models?” for image generation before continue here.",
+    "url": "https://lilianweng.github.io/posts/2024-04-12-diffusion-video/",
+    "topic": "llm",
+    "date": "2024-04-12",
+    "fetched_date": "2026-04-27",
+    "feed_name": "Lilian Weng",
+    "source": "industry"
+  },
+  {
+    "title": "Thinking about High-Quality Human Data",
+    "abstract": "[Special thank you to Ian Kivlichan for many useful pointers (E.g. the 100+ year old Nature paper “Vox populi”) and nice feedback. 🙏 ] High-quality data is the fuel for modern data deep learning model training. Most of the task-specific labeled data comes from human annotation, such as classification task or RLHF labeling (which can be constructed as classification format) for LLM alignment training. Lots of ML techniques in the post can help with data quality, but fundamentally human data collection involves attention to details and careful execution. The community knows the value of high quality data, but somehow we have this subtle impression that “Everyone wants to do the model work, not the data work” ( Sambasivan et al. 2021 ).",
+    "url": "https://lilianweng.github.io/posts/2024-02-05-human-data-quality/",
+    "topic": "llm",
+    "date": "2024-02-05",
+    "fetched_date": "2026-04-27",
+    "feed_name": "Lilian Weng",
+    "source": "industry"
+  },
+  {
+    "title": "Adversarial Attacks on LLMs",
+    "abstract": "The use of large language models in the real world has strongly accelerated by the launch of ChatGPT. We (including my team at OpenAI, shoutout to them) have invested a lot of effort to build default safe behavior into the model during the alignment process (e.g. via RLHF ). However, adversarial attacks or jailbreak prompts could potentially trigger the model to output something undesired. A large body of ground work on adversarial attacks is on images, and differently it operates in the continuous, high-dimensional space. Attacks for discrete data like text have been considered to be a lot more challenging, due to lack of direct gradient signals. My past post on Controllable Text Generation is quite relevant to this topic, as attacking LLMs is essentially to control the model to output a certain type of (unsafe) content.",
+    "url": "https://lilianweng.github.io/posts/2023-10-25-adv-attack-llm/",
+    "topic": "llm",
+    "date": "2023-10-25",
+    "fetched_date": "2026-04-27",
+    "feed_name": "Lilian Weng",
+    "source": "industry"
+  },
+  {
+    "title": "LLM Powered Autonomous Agents",
+    "abstract": "Building agents with LLM (large language model) as its core controller is a cool concept. Several proof-of-concepts demos, such as AutoGPT , GPT-Engineer and BabyAGI , serve as inspiring examples. The potentiality of LLM extends beyond generating well-written copies, stories, essays and programs; it can be framed as a powerful general problem solver. Agent System Overview In a LLM-powered autonomous agent system, LLM functions as the agent’s brain, complemented by several key components: Planning Subgoal and decomposition: The agent breaks down large tasks into smaller, manageable subgoals, enabling efficient handling of complex tasks. Reflection and refinement: The agent can do self-criticism and self-reflection over past actions, learn from mistakes and refine them for future steps, thereby improving the quality of final results. Memory Short-term memory: I would consider all the in-context learning (See Prompt Engineering ) as utilizing short-term memory of the model to learn. Long-term memory: This provides the agent with the capability to retain and recall (infinite) information over extended periods, often by leveraging an external vector store and fast retrieval. Tool use The agent learns to call external APIs for extra information that is missing from the model weights (often hard to change after pre-training), including current information, code execution capability, access to proprietary information sources and more. Overview of a LLM-powered autonomous agent system. Component One: Planning A complicated task usually involves many steps. An agent needs to know what they are and plan ahead.",
+    "url": "https://lilianweng.github.io/posts/2023-06-23-agent/",
+    "topic": "llm",
+    "date": "2023-06-23",
+    "fetched_date": "2026-04-27",
+    "feed_name": "Lilian Weng",
+    "source": "industry"
+  },
+  {
+    "title": "Prompt Engineering",
+    "abstract": "Prompt Engineering , also known as In-Context Prompting , refers to methods for how to communicate with LLM to steer its behavior for desired outcomes without updating the model weights. It is an empirical science and the effect of prompt engineering methods can vary a lot among models, thus requiring heavy experimentation and heuristics. This post only focuses on prompt engineering for autoregressive language models, so nothing with Cloze tests, image generation or multimodality models. At its core, the goal of prompt engineering is about alignment and model steerability. Check my previous post on controllable text generation.",
+    "url": "https://lilianweng.github.io/posts/2023-03-15-prompt-engineering/",
+    "topic": "llm",
+    "date": "2023-03-15",
+    "fetched_date": "2026-04-27",
+    "feed_name": "Lilian Weng",
+    "source": "industry"
+  },
+  {
+    "title": "The Transformer Family Version 2.0",
+    "abstract": "Many new Transformer architecture improvements have been proposed since my last post on “The Transformer Family” about three years ago. Here I did a big refactoring and enrichment of that 2020 post — restructure the hierarchy of sections and improve many sections with more recent papers. Version 2.0 is a superset of the old version, about twice the length. Notations Symbol Meaning $d$ The model size / hidden state dimension / positional encoding size. $h$ The number of heads in multi-head attention layer. $L$ The segment length of input sequence. $N$ The total number of attention layers in the model; not considering MoE. $\\mathbf{X} \\in \\mathbb{R}^{L \\times d}$ The input sequence where each element has been mapped into an embedding vector of shape $d$, same as the model size. $\\mathbf{W}^k \\in \\mathbb{R}^{d \\times d_k}$ The key weight matrix. $\\mathbf{W}^q \\in \\mathbb{R}^{d \\times d_k}$ The query weight matrix. $\\mathbf{W}^v \\in \\mathbb{R}^{d \\times d_v}$ The value weight matrix. Often we have $d_k = d_v = d$. $\\mathbf{W}^k_i, \\mathbf{W}^q_i \\in \\mathbb{R}^{d \\times d_k/h}; \\mathbf{W}^v_i \\in \\mathbb{R}^{d \\times d_v/h}$ The weight matrices per head. $\\mathbf{W}^o \\in \\mathbb{R}^{d_v \\times d}$ The output weight matrix. $\\mathbf{Q} = \\mathbf{X}\\mathbf{W}^q \\in \\mathbb{R}^{L \\times d_k}$ The query embedding inputs. $\\mathbf{K} = \\mathbf{X}\\mathbf{W}^k \\in \\mathbb{R}^{L \\times d_k}$ The key embedding inputs. $\\mathbf{V} = \\mathbf{X}\\mathbf{W}^v \\in \\mathbb{R}^{L \\times d_v}$ The value embedding inputs. $\\mathbf{q}_i, \\mathbf{k}_i \\in \\mathbb{R}^{d_k}, \\mathbf{v}_i \\in \\mathbb{R}^{d_v}$ Row vectors in query, key, value matrices, $\\mathbf{Q}$, $\\mathbf{K}$ and $\\mathbf{V}$. $S_i$ A collection of key positions for the $i$-th query $\\mathbf{q}_i$ to attend to. $\\mathbf{A} \\in \\mathbb{R}^{L \\times L}$ The self-attention matrix between a input sequence of lenght $L$ and itself. $\\mathbf{A} = \\text{softmax}(\\mathbf{Q}\\mathbf{K}^\\top / \\sqrt{d_k})$. $a_{ij} \\in \\mathbf{A}$ The scalar attention score between query $\\mathbf{q}_i$ and key $\\mathbf{k}_j$. $\\mathbf{P} \\in \\mathbb{R}^{L \\times d}$ position encoding matrix, where the $i$-th row $\\mathbf{p}_i$ is the positional encoding for input $\\mathbf{x}_i$. Transformer Basics The Transformer (which will be referred to as “vanilla Transformer” to distinguish it from other enhanced versions; Vaswani, et al., 2017 ) model has an encoder-decoder architecture, as commonly used in many NMT models. Later simplified Transformer was shown to achieve great performance in language modeling tasks, like in encoder-only BERT or decoder-only GPT .",
+    "url": "https://lilianweng.github.io/posts/2023-01-27-the-transformer-family-v2/",
+    "topic": "llm",
+    "date": "2023-01-27",
+    "fetched_date": "2026-04-27",
+    "feed_name": "Lilian Weng",
+    "source": "industry"
+  },
+  {
+    "title": "Large Transformer Model Inference Optimization",
+    "abstract": "[Updated on 2023-01-24: add a small section on Distillation .] Large transformer models are mainstream nowadays, creating SoTA results for a variety of tasks. They are powerful but very expensive to train and use. The extremely high inference cost, in both time and memory, is a big bottleneck for adopting a powerful transformer for solving real-world tasks at scale. Why is it hard to run inference for large transformer models? Besides the increasing size of SoTA models, there are two main factors contributing to the inference challenge ( Pope et al. 2022 ):",
+    "url": "https://lilianweng.github.io/posts/2023-01-10-inference-optimization/",
+    "topic": "llm",
+    "date": "2023-01-10",
+    "fetched_date": "2026-04-27",
+    "feed_name": "Lilian Weng",
+    "source": "industry"
+  },
+  {
+    "title": "To buy this Bay Area home, you’ll need Anthropic equity",
+    "abstract": "Someone’s offering an unusual deal for a 13-acre property in Mill Valley, just north of South Francisco.",
+    "url": "https://techcrunch.com/2026/04/26/to-buy-this-bay-area-home-youll-need-anthropic-equity/",
+    "topic": "llm",
+    "date": "2026-04-26",
+    "fetched_date": "2026-04-27",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Anthropic created a test marketplace for agent-on-agent commerce",
+    "abstract": "In a recent experiment, Anthropic created a classified marketplace where AI agents represented both buyers and sellers, striking real deals for real goods and real money.",
+    "url": "https://techcrunch.com/2026/04/25/anthropic-created-a-test-marketplace-for-agent-on-agent-commerce/",
+    "topic": "llm",
+    "date": "2026-04-25",
+    "fetched_date": "2026-04-27",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Maine’s governor vetoes data center moratorium",
+    "abstract": "L.D. 307 would have imposed the country’s first statewide moratorium on new data centers — lasting, in this case, until November 1, 2027.",
+    "url": "https://techcrunch.com/2026/04/25/maines-governor-vetoes-data-center-moratorium/",
+    "topic": "llm",
+    "date": "2026-04-25",
+    "fetched_date": "2026-04-27",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "OpenAI CEO apologizes to Tumbler Ridge community",
+    "abstract": "In a letter to the residents of Tumbler Ridge, Canada, OpenAI CEO Sam Altman said he is “deeply sorry” that his company failed to alert law enforcement about the suspect in a recent mass shooting.",
+    "url": "https://techcrunch.com/2026/04/25/openai-ceo-apologizes-to-tumbler-ridge-community/",
+    "topic": "llm",
+    "date": "2026-04-25",
+    "fetched_date": "2026-04-27",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Why Cohere is merging with Aleph Alpha",
+    "abstract": "Canadian AI startup Cohere is taking over Germany-based Aleph Alpha with support from Lidl’s owner, Schwarz Group. With the blessing of their governments, the companies intend to offer a sovereign alternative to enterprises in an AI landscape dominated by American players.",
+    "url": "https://techcrunch.com/2026/04/25/why-cohere-is-merging-with-aleph-alpha/",
+    "topic": "llm",
+    "date": "2026-04-25",
+    "fetched_date": "2026-04-27",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Why Tokyo is the most important tech destination of 2026",
+    "abstract": "SusHi Tech Tokyo 2026 has four tightly defined technology domains, each backed by live demonstrations, dedicated exhibit floors, and sessions featuring the people actually building and funding these technologies globally.",
+    "url": "https://techcrunch.com/2026/04/25/why-tokyo-is-the-most-important-tech-destination-of-2026/",
+    "topic": "llm",
+    "date": "2026-04-25",
+    "fetched_date": "2026-04-27",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Apple under Ternus: what comes next for the tech giant’s hardware strategy",
+    "abstract": "John Ternus, Apple's incoming CEO, is a hardware guy, signaling Apple may be putting devices back at the center of its strategy.",
+    "url": "https://techcrunch.com/2026/04/25/apple-under-ternus-what-comes-next-for-the-tech-giants-hardware-strategy/",
+    "topic": "llm",
+    "date": "2026-04-25",
+    "fetched_date": "2026-04-27",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Meta’s loss is Thinking Machines’ gain",
+    "abstract": "Meta has been poaching talent from Thinking Machines Lab. But it's a two-way street.",
+    "url": "https://techcrunch.com/2026/04/24/metas-loss-is-thinking-machines-gain/",
+    "topic": "llm",
+    "date": "2026-04-24",
+    "fetched_date": "2026-04-27",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "ComfyUI hits $500M valuation as creators seek more control over AI-generated media",
+    "abstract": "ComfyUI, whose tools give creators more control over AI image, video, and audio generation, just raised $30 million.",
+    "url": "https://techcrunch.com/2026/04/24/comfyui-hits-500m-valuation-as-creators-seek-more-control-over-ai-generated-media/",
+    "topic": "llm",
+    "date": "2026-04-24",
+    "fetched_date": "2026-04-27",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Google to invest up to $40B in Anthropic in cash and compute",
+    "abstract": "Google plans up to $40B investment in Anthropic as AI rivals race to secure massive compute capacity, following the limited release of its powerful, cybersecurity-focused Mythos model.",
+    "url": "https://techcrunch.com/2026/04/24/google-to-invest-up-to-40b-in-anthropic-in-cash-and-compute/",
+    "topic": "llm",
+    "date": "2026-04-24",
+    "fetched_date": "2026-04-27",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Apple’s new CEO, and why Elon Musk wants to buy Cursor for $60B",
+    "abstract": "A new era is on the way for Apple as Tim Cook plans to step down from his CEO role in September, handing the reins to hardware chief John Ternus. Ternus may be inheriting one of the most durable businesses in tech, but he’s also stepping into a very different ecosystem than the one Cook spent decades shaping. The App […]",
+    "url": "https://techcrunch.com/podcast/apples-new-ceo-and-why-elon-musk-wants-to-buy-cursor-for-60b/",
+    "topic": "llm",
+    "date": "2026-04-24",
+    "fetched_date": "2026-04-27",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Marked-up Mac minis flood eBay amid shortages driven by AI",
+    "abstract": "Apple’s sold-out Mac mini is spawning marked-up eBay listings as demand surges for the compact desktop, now favored for running local AI models and tools.",
+    "url": "https://techcrunch.com/2026/04/24/mac-mini-price-expensive-ebay-shortage-ai-memory/",
+    "topic": "llm",
+    "date": "2026-04-24",
+    "fetched_date": "2026-04-27",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Uber CTO Praveen Neppalli Naga joins stacked StrictlyVC SF lineup for April 30 event",
+    "abstract": "Surprise! StrictlyVC San Francisco, which will kick off this year’s events lineup for TechCrunch on April 30 at the Sentro Filipino Cultural Center, is getting a new addition to its increasingly stacked lineup of speakers. Uber CTO Praveen Neppalli Naga will join the rest of the lineup to discuss operating at scale in the age of AI.",
+    "url": "https://techcrunch.com/2026/04/24/uber-cto-praveen-neppalli-naga-joins-stacked-strictlyvc-sf-lineup-for-april-30-event/",
+    "topic": "llm",
+    "date": "2026-04-24",
+    "fetched_date": "2026-04-27",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Tim Cook is stepping down. What happens to Apple now?",
+    "abstract": "Tim Cook plans to step down from his CEO role in September, handing the reins to hardware chief John Ternus. Ternus may be inheriting one of the most durable businesses in tech, but he’s also stepping into a very different ecosystemthan the one Cook spent decades shaping. The App Store’s 30% cut is under pressure, the behind-the-scenes power Apple once […]",
+    "url": "https://techcrunch.com/video/tim-cook-is-stepping-down-what-happens-to-apple-now/",
+    "topic": "llm",
+    "date": "2026-04-24",
+    "fetched_date": "2026-04-27",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Nothing introduces an AI-powered dictation tool",
+    "abstract": "Nothing's new on-device dictation tool supports over 100 languages.",
+    "url": "https://techcrunch.com/2026/04/24/nothing-introduces-an-ai-powered-dictation-tool/",
+    "topic": "llm",
+    "date": "2026-04-24",
+    "fetched_date": "2026-04-27",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "DeepSeek previews new AI model that ‘closes the gap’ with frontier models",
+    "abstract": "DeepSeek says both models are more efficient and performant than DeepSeek V3.2 due to architectural improvements, and have almost \"closed the gap\" with current leading models, both open and closed, on reasoning benchmarks.",
+    "url": "https://techcrunch.com/2026/04/24/deepseek-previews-new-ai-model-that-closes-the-gap-with-frontier-models/",
+    "topic": "llm",
+    "date": "2026-04-24",
+    "fetched_date": "2026-04-27",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "In another wild turn for AI chips, Meta signs deal for millions of Amazon AI CPUs",
+    "abstract": "Meta has commandeered a big chunk of Amazon's homegrown CPUs (not GPUs) for AI agentic workloads, signaling that a new kind of chip race has begun.",
+    "url": "https://techcrunch.com/2026/04/24/in-another-wild-turn-for-ai-chips-meta-signs-deal-for-millions-of-amazon-ai-cpus/",
+    "topic": "llm",
+    "date": "2026-04-24",
+    "fetched_date": "2026-04-27",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Bret Taylor’s Sierra buys YC-backed AI startup Fragment",
+    "abstract": "Sierra, the AI customer service agent startup founded by technologist Bret Taylor, announced today that it has acquired the YC-backed French startup Fragment.",
+    "url": "https://techcrunch.com/2026/04/23/bret-taylors-sierra-buys-yc-backed-ai-startup-fragment/",
+    "topic": "llm",
+    "date": "2026-04-23",
+    "fetched_date": "2026-04-27",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Meet Noscroll, an AI bot that does your doomscrolling for you",
+    "abstract": "Noscroll wants to cure doomscrolling with an AI bot that reads the internet for you.",
+    "url": "https://techcrunch.com/2026/04/23/meet-noscroll-an-ai-bot-that-does-your-doomscrolling-for-you/",
+    "topic": "llm",
+    "date": "2026-04-23",
+    "fetched_date": "2026-04-27",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "OpenAI releases GPT-5.5, bringing company one step closer to an AI ‘super app’",
+    "abstract": "OpenAI says its latest model offers increased capabilities across a broad variety of categories.",
+    "url": "https://techcrunch.com/2026/04/23/openai-chatgpt-gpt-5-5-ai-model-superapp/",
+    "topic": "llm",
+    "date": "2026-04-23",
+    "fetched_date": "2026-04-27",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "regex101 URLs with pre-filled values",
+    "abstract": "It’s possible to link to regex101 with pre-filled regular expression, flags, and test string, as well as pre-selected flavor/engine with these undocumented URL parameters: code snippet start",
+    "url": "http://localhost:1313/notes/regex101-urls-with-pre-filled-values/",
+    "topic": "ml-engineering",
+    "date": "2024-11-05",
+    "fetched_date": "2026-04-27",
+    "feed_name": "Yuan Meng",
+    "source": "industry"
+  },
+  {
+    "title": "Private Go modules in GitLab CI/CD",
+    "abstract": "This took way too long for me to figure out, so here’s how to install private Go modules in GitLab CI/CD pipeline jobs: netrc and GOPRIVATE Add the following to the jobs that require installing dependencies and replace <namespace> with your organization or username which hosts the private Go modules:",
+    "url": "http://localhost:1313/notes/private-go-modules-gitlab-ci/",
+    "topic": "ml-engineering",
+    "date": "2024-10-30",
+    "fetched_date": "2026-04-27",
+    "feed_name": "Yuan Meng",
+    "source": "industry"
+  },
+  {
+    "title": "Highlight syntax in Go templates",
+    "abstract": "Go template files are often named example.html.tmpl or example.md.tmpl to indicate they’re templates for specific formats. However, the .tmpl extension can prevent Neovim from highlighting the underlying syntax, making them harder to edit. Here’s how to configure Neovim to highlight these files correctly: Create the file ~/.config/$NVIM_APPNAME/syntax/gotmpl.vim with the following content to configure basic highlighting of Go template code in {{ ... }} delimiters: vim vim code snippet start",
+    "url": "http://localhost:1313/notes/nvim-go-template-syntax-highlighting/",
+    "topic": "ml-engineering",
+    "date": "2024-10-27",
+    "fetched_date": "2026-04-27",
+    "feed_name": "Yuan Meng",
+    "source": "industry"
+  },
+  {
+    "title": "Seventeen Going Under",
+    "abstract": "See, I spent my teens enraged Spiralin’ in silence And I armed myself with a grin ‘Cause I was always the fuckin’ joker Buried in their humor Amongst the white noise — Sam Fender, Seventeen Going Under (2021) When I was seventeen, it felt like the whole world was going to end. I was probably the only sexual minority in town that I knew of, and the headteacher asked that I stay home so the other kids could be rid of my “bad influence.” Also back then, never in a million years had I thought of one day turning my intellectual curiosity about what “learning” entails into a career (be it cognitive science or machine learning). Still, I fought for every opportunity that might yield some ambiguous reward someday, not knowing where it would lead — be it undergraduate research, graduate school applications, job interviews, or something “productive”.",
+    "url": "http://localhost:1313/posts/17_going_under/",
+    "topic": "ml-engineering",
+    "date": "2024-05-06",
+    "fetched_date": "2026-04-27",
+    "feed_name": "Yuan Meng",
+    "source": "industry"
+  },
+  {
+    "title": "An Evolution of Learning to Rank",
+    "abstract": "First Thing First Enigmas of the universe Cannot be known without a search — Epica, Omega (2021)",
+    "url": "http://localhost:1313/posts/ltr/",
+    "topic": "ml-engineering",
+    "date": "2024-02-17",
+    "fetched_date": "2026-04-27",
+    "feed_name": "Yuan Meng",
+    "source": "industry"
+  },
+  {
+    "title": "Home",
+    "abstract": "Hi, I’m Yuan, a machine learning engineer at DoorDash working on search ranking and query understanding. In my former life as a computational cognitive scientist, I studied common sense causal and social reasoning, for which I received a PhD from Berkeley in 2022. My passions in life: Machine learning (ranking, generative models), cognitively inspired AI, climbing, metal guitar, hot pot, and cats 🐱. Bay Area climbers 🧗 and metalheads 🤘 — feel free to connect on LinkedIn if you’re down for climbing or metal/rock concerts! 🤗",
+    "url": "http://localhost:1313/about/",
+    "topic": "ml-engineering",
+    "date": "2001-01-01",
+    "fetched_date": "2026-04-27",
+    "feed_name": "Yuan Meng",
+    "source": "industry"
+  },
+  {
+    "title": "Streamlining Cloud Compliance at GoDaddy Using CDK Aspects",
+    "abstract": "Jasdeep Singh Bhalla describes how GoDaddy uses AWS CDK Aspects—mutating and read-only visitors that run in CDK’s preparation phase—to enforce security, tagging, and operational standards in code, complementing CloudFormation Hooks with compliant templates on first synth. The post Streamlining Cloud Compliance at GoDaddy Using CDK Aspects appeared first on GoDaddy Blog .",
+    "url": "https://www.godaddy.com/resources/news/streamlining-cloud-compliance-at-godaddy-using-cdk-aspects",
+    "topic": "ml-engineering",
+    "date": "2026-04-20",
+    "fetched_date": "2026-04-27",
+    "feed_name": "GoDaddy Engineering",
+    "source": "industry"
+  },
+  {
+    "title": "Engineering the AI: How to Build an Autonomous SDLC as a Solo Developer",
+    "abstract": "GoDaddy Senior Software Engineer Ramanathan Nachiappan applied professional engineering practices — strict coding conventions, automated test coverage, and cloud-based code review — to build Vivingo, an open-source educational game platform for his toddler, using a solo developer AI workflow that ships production-grade software. The post Engineering the AI: How to Build an Autonomous SDLC as a Solo Developer appeared first on GoDaddy Blog .",
+    "url": "https://www.godaddy.com/resources/news/engineering-the-ai-how-to-build-an-autonomous-sdlc-as-a-solo-developer",
+    "topic": "ml-engineering",
+    "date": "2026-04-17",
+    "fetched_date": "2026-04-27",
+    "feed_name": "GoDaddy Engineering",
+    "source": "industry"
+  },
+  {
+    "title": "Building an AI-Powered Debugging Assistant in 72 Hours",
+    "abstract": "During a 72-hour hackathon, we built logiq — a tool that lets engineers search production logs in plain English, get AI-analyzed results from Claude, and open GitHub pull requests with suggested fixes in under a minute. The post Building an AI-Powered Debugging Assistant in 72 Hours appeared first on GoDaddy Blog .",
+    "url": "https://www.godaddy.com/resources/news/building-an-ai-powered-debugging-assistant-in-72-hours",
+    "topic": "ml-engineering",
+    "date": "2026-04-15",
+    "fetched_date": "2026-04-27",
+    "feed_name": "GoDaddy Engineering",
+    "source": "industry"
+  },
+  {
+    "title": "Inside the GoDaddy Domains MCP Server",
+    "abstract": "The GoDaddy Domains MCP Server connects AI assistants like Claude, ChatGPT to domain search and availability via the Model Context Protocol. This post covers why we chose MCP, the layered design (FastMCP, streamable HTTP, tool schemas), how we built a widget that renders interactive domain results directly in ChatGPT, and how to integrate with OpenAI and Anthropic’s Connectors Directory. The post Inside the GoDaddy Domains MCP Server appeared first on GoDaddy Blog .",
+    "url": "https://www.godaddy.com/resources/news/inside-the-godaddy-domains-mcp-server",
+    "topic": "ml-engineering",
+    "date": "2026-04-13",
+    "fetched_date": "2026-04-27",
+    "feed_name": "GoDaddy Engineering",
+    "source": "industry"
+  },
+  {
+    "title": "The Zero-Code Security Team: Shifting Left with Prompt-Native AI Agents",
+    "abstract": "How a prompt-native multi-agent orchestrator shifts security feedback from post-push to pre-commit, and why the architecture has almost no code in it. The post The Zero-Code Security Team: Shifting Left with Prompt-Native AI Agents appeared first on GoDaddy Blog .",
+    "url": "https://www.godaddy.com/resources/news/the-zero-code-security-team-shifting-left-with-prompt-native-ai-agents",
+    "topic": "ml-engineering",
+    "date": "2026-03-30",
+    "fetched_date": "2026-04-27",
+    "feed_name": "GoDaddy Engineering",
+    "source": "industry"
+  },
+  {
+    "title": "From Autocomplete to Autopilot: How I Adopted Full Agentic Development",
+    "abstract": "Most engineering teams use AI as a glorified autocomplete. I adopted fully agentic development — AI agents driving entire tasks from requirements to pull request. Here's the phased approach I built, the infrastructure it required, and what I learned along the way. The post From Autocomplete to Autopilot: How I Adopted Full Agentic Development appeared first on GoDaddy Blog .",
+    "url": "https://www.godaddy.com/resources/news/from-autocomplete-to-autopilot-how-i-adopted-full-agentic-development",
+    "topic": "ml-engineering",
+    "date": "2026-03-26",
+    "fetched_date": "2026-04-27",
+    "feed_name": "GoDaddy Engineering",
+    "source": "industry"
+  },
+  {
+    "title": "Intelligent AI Routing",
+    "abstract": "Our journey building intelligent agent routing beyond out-of-the-box solutions for multi-agent AI systems. The post Intelligent AI Routing appeared first on GoDaddy Blog .",
+    "url": "https://www.godaddy.com/resources/news/intelligent-ai-routing",
+    "topic": "ml-engineering",
+    "date": "2026-03-09",
+    "fetched_date": "2026-04-27",
+    "feed_name": "GoDaddy Engineering",
+    "source": "industry"
+  },
+  {
+    "title": "Building a Deep Research Agent: How GoDaddy Automated Market Analysis with Agentic AI",
+    "abstract": "AI can answer questions, but research requires planning, iteration, and synthesis. This post explains how we built GoDaddy's Market Deep Research Agent to automate multi-step market analysis, and how we assess research quality to ensure results have structure, reliability, and actionable impact at scale. The post Building a Deep Research Agent: How GoDaddy Automated Market Analysis with Agentic AI appeared first on GoDaddy Blog .",
+    "url": "https://www.godaddy.com/resources/news/building-a-deep-research-agent-how-godaddy-automated-market-analysis-with-agentic-ai",
+    "topic": "ml-engineering",
+    "date": "2026-02-16",
+    "fetched_date": "2026-04-27",
+    "feed_name": "GoDaddy Engineering",
+    "source": "industry"
+  },
+  {
+    "title": "Introducing PGen AI: Revolutionizing Domain Name Recommendations",
+    "abstract": "Transforming domain search with advanced AI, PGen AI leverages fine-tuned LLMs and real-time customer signals to deliver highly personalized domain name recommendations that address unique inventory constraints and complex personalization needs. The post Introducing PGen AI: Revolutionizing Domain Name Recommendations appeared first on GoDaddy Blog .",
+    "url": "https://www.godaddy.com/resources/news/introducing-pgen-ai-revolutionizing-domain-name-recommendations",
+    "topic": "ml-engineering",
+    "date": "2026-02-06",
+    "fetched_date": "2026-04-27",
+    "feed_name": "GoDaddy Engineering",
+    "source": "industry"
+  },
+  {
+    "title": "Building the Agent Name Service using a One System approach",
+    "abstract": "ANS anchors AI agent identity to DNS, leveraging GoDaddy's existing infrastructure for certificates and a Merkle tree-based Transparency Log for tamper-evident verification. By reusing battle-tested systems instead of building from scratch, the team delivered production-ready, internet-scale trust infrastructure in months—not years. The post Building the Agent Name Service using a One System approach appeared first on GoDaddy Blog .",
+    "url": "https://www.godaddy.com/resources/news/building-the-agent-name-service-using-a-one-system-approach",
+    "topic": "ml-engineering",
+    "date": "2026-01-12",
+    "fetched_date": "2026-04-27",
+    "feed_name": "GoDaddy Engineering",
+    "source": "industry"
+  },
+  {
+    "title": "Williams-Sonoma relaunches Dormify a year after acquiring IP",
+    "abstract": "Williams-Sonoma, Inc. is officially relaunching dorm room furnishings brand Dormify after acquiring its intellectual property in May.",
+    "url": "https://www.modernretail.co/operations/williams-sonoma-relaunches-dormify-a-year-after-acquiring-ip/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-04-27",
+    "fetched_date": "2026-04-27",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Modern Retail Podcast: What it takes to build a true lifestyle brand",
+    "abstract": "The latest episode of the Modern Retail Podcast — recorded live at the Modern Retail Marketing Summit in Huntington Beach, California — gets into what it means to be a lifestyle brand, featuring Mandy Fry of Z Supply.",
+    "url": "https://www.modernretail.co/operations/modern-retail-podcast-what-it-takes-to-build-a-true-lifestyle-brand/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-04-25",
+    "fetched_date": "2026-04-27",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Starbucks ends its Coffee Loop rewards pilot after six months",
+    "abstract": "Starbucks is shutting down its rewards program, \"Coffee Loop,\" which operated on a premise of \"buy nine drinks, get one free.\"",
+    "url": "https://www.modernretail.co/marketing/starbucks-ends-its-coffee-loop-rewards-pilot-after-six-months/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-04-24",
+    "fetched_date": "2026-04-27",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Retail just lost one of its few female CEOs. She kept Best Buy afloat during the pandemic",
+    "abstract": "This week, Best Buy dropped some unexpected news that's shaking up the retail leadership landscape: Corie Barry, one of just a handful of female CEOs of major retailers, will be out as its CEO beginning in late October.",
+    "url": "https://www.modernretail.co/operations/retail-just-lost-one-of-its-few-female-ceos-she-kept-best-buy-afloat-during-the-pandemic/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-04-24",
+    "fetched_date": "2026-04-27",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Why agentic storefronts are the future of commerce",
+    "abstract": "Digital commerce is at a turning point. As artificial intelligence evolves, it is no longer simply a tool to support retail transactions behind the scenes. Instead, it is becoming a leading channel through which consumers discover products and make purchases. Major technology companies like Google and Microsoft are integrating AI agents into their search, browsing […]",
+    "url": "https://www.modernretail.co/sponsored/why-agentic-storefronts-are-the-future-of-commerce/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-04-23",
+    "fetched_date": "2026-04-27",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Marketplace Briefing: Amazon’s seller count falls as revenue concentrates among top sellers",
+    "abstract": "The number of active sellers on Amazon.com has fallen from 584,000 in January 2025 to 500,000 as of March 2026, according to Marketplace Pulse.",
+    "url": "https://www.modernretail.co/operations/marketplace-briefing-amazons-seller-count-falls-as-revenue-concentrates-among-top-sellers/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-04-23",
+    "fetched_date": "2026-04-27",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Walmart now wants to be the plumber for your local convenience store",
+    "abstract": "After launching enterprise businesses around advertising, data and fulfillment, Walmart has pulled the curtain off its next big side hustle: a business through which it will sell its in-house maintenance services to other companies throughout the U.S.",
+    "url": "https://www.modernretail.co/operations/walmart-now-wants-to-be-the-plumber-for-your-neighborhood-restaurant-or-local-convenience-store/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-04-23",
+    "fetched_date": "2026-04-27",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Marine Layer fights digital saturation with print catalogs and whimsical pop-ups",
+    "abstract": "At the Modern Retail Marketing Summit, Renee Lopes Halvorsen, chief marketing officer of Marine Layer, spoke about how the brand is looking to combat a growing sense of digital fatigue with more fun, tactile experiences.",
+    "url": "https://www.modernretail.co/marketing/marine-layer-fights-digital-saturation-with-print-catalogs-and-whimsical-pop-ups/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-04-23",
+    "fetched_date": "2026-04-27",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Retailers roll out fuel perks as consumers look for relief from $4 gas amid U.S.-Iran war",
+    "abstract": "As gas prices climb, companies are rolling out limited-time fuel perks to attract cost-conscious shoppers, boost foot traffic and provide some relief at the pump.",
+    "url": "https://www.modernretail.co/marketing/retailers-roll-out-fuel-perks-as-consumers-look-for-relief-from-4-gas-amid-u-s-iran-war/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-04-22",
+    "fetched_date": "2026-04-27",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "How Thorne drove 63% growth in DTC sales after a brand awareness push",
+    "abstract": "Thorne's chief growth officer, Mary Beech, explained in a conversation at the Modern Retail Marketing Summit how the company has moved to a full-funnel marketing approach with new storytelling, channels and AI tools.",
+    "url": "https://www.modernretail.co/marketing/how-thorne-drove-63-growth-in-dtc-sales-after-a-brand-awareness-push/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-04-22",
+    "fetched_date": "2026-04-27",
+    "feed_name": "Modern Retail",
+    "source": "industry"
   }
 ]
