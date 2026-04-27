@@ -1,8 +1,8 @@
-name: Weekly Summarizer
+name: Daily Summarizer
 
 on:
   schedule:
-    - cron: '0 1 * * 6'  # Friday 9 PM ET = Saturday 01:00 UTC
+    - cron: '0 1 * * *'  # Daily at 9 PM ET = 01:00 UTC
   workflow_dispatch:       # Allow manual trigger from GitHub UI
 
 permissions:
@@ -34,6 +34,6 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add docs/
-          git diff --cached --quiet || git commit -m "Weekly digest update $(date -u '+%Y-%m-%d')"
+          git diff --cached --quiet || git commit -m "Daily digest update $(date -u '+%Y-%m-%d')"
           git pull --rebase origin main
           git push
