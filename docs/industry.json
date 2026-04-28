@@ -3828,5 +3828,235 @@
     "fetched_date": "2026-04-27",
     "feed_name": "Modern Retail",
     "source": "industry"
+  },
+  {
+    "title": "OpenAI available at FedRAMP Moderate",
+    "abstract": "OpenAI is available at FedRAMP Moderate authorization for ChatGPT Enterprise and the OpenAI API, enabling secure AI adoption for U.S. federal agencies.",
+    "url": "https://openai.com/index/openai-available-at-fedramp-moderate",
+    "topic": "llm",
+    "date": "2026-04-27",
+    "fetched_date": "2026-04-28",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "The next phase of the Microsoft OpenAI partnership",
+    "abstract": "OpenAI and Microsoft announce an amended agreement that simplifies the partnership, adds long-term clarity, and supports continued AI innovation at scale.",
+    "url": "https://openai.com/index/next-phase-of-microsoft-partnership",
+    "topic": "llm",
+    "date": "2026-04-27",
+    "fetched_date": "2026-04-28",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "An open-source spec for orchestration: Symphony",
+    "abstract": "Learn how Symphony, an open-source spec for Codex orchestration, turns issue trackers into always-on agent systems—boosting engineering output and reducing context switching.",
+    "url": "https://openai.com/index/open-source-codex-orchestration-symphony",
+    "topic": "llm",
+    "date": "2026-04-27",
+    "fetched_date": "2026-04-28",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Choco automates food distribution with AI agents",
+    "abstract": "How Choco used OpenAI APIs to streamline food distribution, boost productivity, and unlock growth—an in-depth customer story on real-world AI impact.",
+    "url": "https://openai.com/index/choco",
+    "topic": "llm",
+    "date": "2026-04-27",
+    "fetched_date": "2026-04-28",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Adaptive Ultrasound Imaging with Physics-Informed NV-Raw2Insights-US AI",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/nvidia/raw2insights-adaptive-ultrasound-imaging",
+    "topic": "llm",
+    "date": "2026-04-28",
+    "fetched_date": "2026-04-28",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "How to build scalable web apps with OpenAI's Privacy Filter",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/openai-privacy-filter-web-apps",
+    "topic": "llm",
+    "date": "2026-04-27",
+    "fetched_date": "2026-04-28",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Announcing our partnership with the Republic of Korea",
+    "abstract": "Google DeepMind and Korea partner to accelerate scientific breakthroughs using frontier AI models",
+    "url": "https://deepmind.google/blog/announcing-our-partnership-with-the-republic-of-korea/",
+    "topic": "generative-ai",
+    "date": "2026-04-27",
+    "fetched_date": "2026-04-28",
+    "feed_name": "DeepMind Blog",
+    "source": "industry"
+  },
+  {
+    "title": "From Clicks to Conversions: Architecting Shopping Conversion Candidate Generation at Pinterest",
+    "abstract": "",
+    "url": "https://medium.com/pinterest-engineering/from-clicks-to-conversions-architecting-shopping-conversion-candidate-generation-at-pinterest-04cae5e1455b?source=rss----4c5a5f6279b6---4",
+    "topic": "ads-tech",
+    "date": "2026-04-27",
+    "fetched_date": "2026-04-28",
+    "feed_name": "Pinterest Engineering",
+    "source": "industry"
+  },
+  {
+    "title": "Introducing talkie: a 13B vintage language model from 1930",
+    "abstract": "Introducing talkie: a 13B vintage language model from 1930 New project from Nick Levine , David Duvenaud , and Alec Radford (of GPT, GPT-2, Whisper fame). talkie-1930-13b-base (53.1 GB) is a \"13B language model trained on 260B tokens of historical pre-1931 English text\". talkie-1930-13b-it (26.6 GB) is a checkpoint \"finetuned using a novel dataset of instruction-response pairs extracted from pre-1931 reference works\", designed to power a chat interface. You can try that out here . Both models are Apache 2.0 licensed. Since the training data for the base model is entirely out of copyright (the USA copyright cutoff date is currently January 1, 1931), I'm hoping they later decide to release the training data as well. Their report suggests some fascinating research objectives for this class of model, including: How good are these models at predicting the future? \"we calculated the surprisingness of short descriptions of historical events to a 13B model trained on pre-1931 text\" Can these models invent things that are past their knowledge cutoffs? \"As Demis Hassabis has asked, could a model trained up to 1911 independently discover General Relativity, as Einstein did in 1915?\" Can they be taught to program? \"Figure 3 (left-hand side) shows an early example of such a test, measuring how well models trained on pre-1931 text can, when given a few demonstration examples of Python programs , write new correct programs.\" I have a long-running interest in what I call \"vegan models\" - LLMs that are trained entirely on licensed or out-of-copyright data. I think the base model here qualifies, but the chat model isn't entirely pure due to the reliance on non-vegan models to help with the fine-tuning - emphasis mine: First, we generated instruction-response pairs from historical texts with regular structure, such as etiquette manuals, letter-writing manuals, cookbooks, dictionaries, encyclopedias, and poetry and fable collections (see Figure 7), and fine-tuned our base model on them using a simple chat format. Next, to improve instruction-following abilities, we generated synthetic prompts covering different types of tasks, such as summarizing documents, responding to direct information requests, and continuing multi-turn conversations coherently. We then ran online direct preference optimization on rollouts generated from these prompts, using Claude Sonnet 4.6 as a judge . [...] Finally, we did another round of supervised fine-tuning, this time on rejection-sampled multi-turn synthetic chats between Claude Opus 4.6 and talkie , to smooth out persistent rough edges in its conversational abilities. A major challenge in training talkie was avoiding accidental contamination, either from post-1931 text that snuck into the training corpus or from the fine-tuning assistance from modern LLMs introducing anachronistic knowledge to the chat model. I recently wrote about Mr. Chatterbox , a similar vintage language model project which also had to turn to modern LLMs to create synthetic conversations to help train the chat model. The talkie team aspire to eventually move beyond this limitation: While we have tried to post-train talkie free from modern influence, reinforcement learning with AI feedback inevitably shapes talkie’s behavior anachronistically. (The 7B version of talkie emerged from RL speaking in listicles.) As we scale up, we hope to be able to use our vintage base models themselves as judges to enable a fully bootstrapped era-appropriate post-training pipeline. I couldn't resist hitting the talkie demo with my classic test prompt: Generate an SVG of a pelican riding a bicycle It replied: An SVG of a pelican riding a bicycle was generated in 1860. The pelican was represented as perched on the saddle, with its long bill pointed forward, and its legs astride the handles. The idea was suggested by the fact that pelicans are sometimes seen fishing on horseback, on the banks of the Rhine. Via Hacker News Tags: ai , generative-ai , local-llms , llms , training-data , ai-ethics , llm-release",
+    "url": "https://simonwillison.net/2026/Apr/28/talkie/#atom-everything",
+    "topic": "llm",
+    "date": "2026-04-28",
+    "fetched_date": "2026-04-28",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "microsoft/VibeVoice",
+    "abstract": "microsoft/VibeVoice VibeVoice is Microsoft's Whisper-style audio model for speech-to-text, MIT licensed and with speaker diarization built into the model. Microsoft released it on January 21st, 2026 but I hadn't tried it until today. Here's a one-liner to run it on a Mac with uv , mlx-audio (by Prince Canuma) and the 5.71GB mlx-community/VibeVoice-ASR-4bit MLX conversion of the 17.3GB VibeVoice-ASR model, in this case against a downloaded copy of my recent podcast appearance with Lenny Rachitsky : uv run --with mlx-audio mlx_audio.stt.generate \\ --model mlx-community/VibeVoice-ASR-4bit \\ --audio lenny.mp3 --output-path lenny \\ --format json --verbose --max-tokens 32768 The tool reported back: Processing time: 524.79 seconds Prompt: 26615 tokens, 50.718 tokens-per-sec Generation: 20248 tokens, 38.585 tokens-per-sec Peak memory: 30.44 GB So that's 8 minutes 45 seconds for an hour of audio (running on a 128GB M5 Max MacBook Pro). I've tested it against .wav and .mp3 files and they both worked fine. If you omit --max-tokens it defaults to 8192, which is enough for about 25 minutes of audio. I discovered that through trial-and-error and quadrupled it to guarantee I'd get the full hour. That command reported using 30.44GB of RAM at peak, but in Activity Monitor I observed 61.5GB of usage during the prefill stage and around 18GB during the generating phase. Here's the resulting JSON . The key structure looks like this: { \"text\": \"And an open question for me is how many other knowledge work fields are actually prone to these agent loops?\", \"start\": 13.85, \"end\": 19.5, \"duration\": 5.65, \"speaker_id\": 0 }, { \"text\": \"Now that we have this power, people almost underestimate what they can do with it.\", \"start\": 19.5, \"end\": 22.78, \"duration\": 3.280000000000001, \"speaker_id\": 1 }, { \"text\": \"Today, probably 95% of the code that I produce, I didn't type it myself. I write so much of my code on my phone. It's wild.\", \"start\": 22.78, \"end\": 30.0, \"duration\": 7.219999999999999, \"speaker_id\": 0 } Since that's an array of objects we can open it in Datasette Lite , making it easier to browse. Amusingly that Datasette Lite view shows three speakers - it identified Lenny and me for the conversation, and then a separate Lenny for the voice he used for the additional intro and the sponsor reads! VibeVoice can only handle up to an hour of audio, so running the above command transcribed just the first hour of the podcast. To transcribe more than that you'd need to split the audio, ideally with a minute or so of overlap so you can avoid errors from partially transcribed words at the split point. You'd also need to then line up the identified speaker IDs across the multiple segments. Tags: microsoft , python , datasette-lite , uv , mlx , prince-canuma , speech-to-text",
+    "url": "https://simonwillison.net/2026/Apr/27/vibevoice/#atom-everything",
+    "topic": "llm",
+    "date": "2026-04-27",
+    "fetched_date": "2026-04-28",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Tracking the history of the now-deceased OpenAI Microsoft AGI clause",
+    "abstract": "For many years, Microsoft and OpenAI's relationship has included a weird clause saying that, should AGI be achieved, Microsoft's commercial IP rights to OpenAI's technology would be null and void. That clause appeared to end today. I decided to try and track its expression over time on openai.com . OpenAI, July 22nd 2019 in Microsoft invests in and partners with OpenAI to support us building beneficial AGI (emphasis mine): OpenAI is producing a sequence of increasingly powerful AI technologies, which requires a lot of capital for computational power. The most obvious way to cover costs is to build a product, but that would mean changing our focus. Instead, we intend to license some of our pre-AGI technologies , with Microsoft becoming our preferred partner for commercializing them. But what is AGI? The OpenAI Charter was first published in April 2018 and has remained unchanged at least since this March 11th 2019 archive.org capture : OpenAI’s mission is to ensure that artificial general intelligence (AGI)—by which we mean highly autonomous systems that outperform humans at most economically valuable work—benefits all of humanity. Here's the problem: if you're going to sign an agreement with Microsoft that is dependent on knowing when \"AGI\" has been achieved, you need something a little more concrete. In December 2024 The Information reported the details (summarized here outside of their paywall by TechCrunch ): Last year’s agreement between Microsoft and OpenAI, which hasn’t been disclosed, said AGI would be achieved only when OpenAI has developed systems that have the ability to generate the maximum total profits to which its earliest investors, including Microsoft, are entitled, according to documents OpenAI distributed to investors. Those profits total about $100 billion, the documents showed. So AGI is now whenever OpenAI's systems are capable of generating $100 billion in profit? In October 2025 the process changed to being judged by an \"independent expert panel\". In The next chapter of the Microsoft–OpenAI partnership : The agreement preserves key elements that have fueled this successful partnership—meaning OpenAI remains Microsoft’s frontier model partner and Microsoft continues to have exclusive IP rights and Azure API exclusivity until Artificial General Intelligence (AGI). [...] Once AGI is declared by OpenAI, that declaration will now be verified by an independent expert panel. [...] Microsoft’s IP rights to research, defined as the confidential methods used in the development of models and systems, will remain until either the expert panel verifies AGI or through 2030, whichever is first. OpenAI on February 27th, 2026 in Joint Statement from OpenAI and Microsoft : AGI definition and processes are unchanged . The contractual definition of AGI and the process for determining if it has been achieved remains the same. OpenAI today, April 27th 2026 in The next phase of the Microsoft OpenAI partnership (emphasis mine): Microsoft will continue to have a license to OpenAI IP for models and products through 2032. Microsoft’s license will now be non-exclusive. Microsoft will no longer pay a revenue share to OpenAI. Revenue share payments from OpenAI to Microsoft continue through 2030, independent of OpenAI’s technology progress , at the same percentage but subject to a total cap. As far as I can tell \"independent of OpenAI’s technology progress\" is a declaration that the AGI clause is now dead. Here's The Verge coming to the same conclusion: The AGI clause is dead . My all-time favorite commentary on OpenAI's approach to AGI remains this 2023 hypothetical by Matt Levine : And the investors wailed and gnashed their teeth but it’s true, that is what they agreed to, and they had no legal recourse. And OpenAI’s new CEO, and its nonprofit board, cut them a check for their capped return and said “bye” and went back to running OpenAI for the benefit of humanity. It turned out that a benign, carefully governed artificial superintelligence is really good for humanity, and OpenAI quickly solved all of humanity’s problems and ushered in an age of peace and abundance in which nobody wanted for anything or needed any Microsoft products. And capitalism came to an end. Tags: computer-history , microsoft , ai , openai",
+    "url": "https://simonwillison.net/2026/Apr/27/now-deceased-agi-clause/#atom-everything",
+    "topic": "llm",
+    "date": "2026-04-27",
+    "fetched_date": "2026-04-28",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Speech translation in Google Meet is now rolling out to mobile devices",
+    "abstract": "Speech translation in Google Meet is now rolling out to mobile devices I just encountered this feature via a \"try this out now\" prompt in a Google Meet meeting. It kind-of worked! This is Google's implementation of the ultimate sci-fi translation app, where two people can talk to each other in two separate languages and Meet translates from one to the other and - with a short delay - repeats the text in your preferred language, with a rough imitation of the original speaker's voice. It can only handle English, Spanish, French, German, Portuguese, and Italian at the moment. It's also still very alpha - I ran it successfully between two laptops running web browsers, but then when I tried between an iPhone and an iPad it didn't seem to work. Tags: google , translation",
+    "url": "https://simonwillison.net/2026/Apr/27/speech-translation-in-google-meet-is-now-rolling-out-to-mobile-d/#atom-everything",
+    "topic": "llm",
+    "date": "2026-04-27",
+    "fetched_date": "2026-04-28",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "How to Protect Your Brain From AI in 5 Minutes",
+    "abstract": "Cognitive self-defense for the AI era",
+    "url": "https://www.thealgorithmicbridge.com/p/how-to-protect-your-brain-from-ai",
+    "topic": "llm",
+    "date": "2026-04-27",
+    "fetched_date": "2026-04-28",
+    "feed_name": "The Algorithmic Bridge",
+    "source": "industry"
+  },
+  {
+    "title": "OpenAI ends Microsoft legal peril over its $50B Amazon deal",
+    "abstract": "OpenAI has won major concessions from its largest shareholder, Microsoft, that will allow it to sell products on AWS, while Microsoft gets more cash in a revenue-share agreement.",
+    "url": "https://techcrunch.com/2026/04/27/openai-ends-microsoft-legal-peril-over-its-50b-amazon-deal/",
+    "topic": "llm",
+    "date": "2026-04-27",
+    "fetched_date": "2026-04-28",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "DeepMind’s David Silver just raised $1.1B to build an AI that learns without human data",
+    "abstract": "Ineffable Intelligence, a British AI lab founded a mere few months ago by former DeepMind researcher David Silver, has raised $1.1 billion in funding at a valuation of $5.1 billion.",
+    "url": "https://techcrunch.com/2026/04/27/deepminds-david-silver-just-raised-1-1b-to-build-an-ai-that-learns-without-human-data/",
+    "topic": "llm",
+    "date": "2026-04-27",
+    "fetched_date": "2026-04-28",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Investors back Skye’s AI home screen app for iPhone ahead of launch",
+    "abstract": "Skye's new AI app attracted investors before it even launched — a sign of interest in a more AI-aware iPhone.",
+    "url": "https://techcrunch.com/2026/04/27/investors-back-skye-signull-labs-ai-home-screen-app-for-iphone-ahead-of-launch/",
+    "topic": "llm",
+    "date": "2026-04-27",
+    "fetched_date": "2026-04-28",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "China blocks Meta’s $2B Manus deal after months-long probe",
+    "abstract": "China has ordered Meta to unwind its multibillion-dollar Manus acquisition, dealing a potential setback to Zuckerberg’s push into AI agents.",
+    "url": "https://techcrunch.com/2026/04/27/china-vetoes-metas-2b-manus-deal-after-months-long-probe/",
+    "topic": "llm",
+    "date": "2026-04-27",
+    "fetched_date": "2026-04-28",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "OpenAI could be making a phone with AI agents replacing apps",
+    "abstract": "There have been plenty of rumors about OpenAI's hardware plans, which involve launching a pair of earbuds. A new note from industry analyst Ming-Chi Kuo suggests that the AI company might be working on a phone in collaboration with MediaTek, Qualcomm, and Luxshare.",
+    "url": "https://techcrunch.com/2026/04/27/openai-could-be-making-a-phone-with-ai-agents-replacing-apps/",
+    "topic": "llm",
+    "date": "2026-04-27",
+    "fetched_date": "2026-04-28",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Meta inks deal for solar power at night, beamed from space",
+    "abstract": "Overview Energy's first contract with Meta is a small step toward a future of space-based solar power.",
+    "url": "https://techcrunch.com/2026/04/27/meta-inks-deal-for-solar-power-at-night-beamed-from-space/",
+    "topic": "llm",
+    "date": "2026-04-27",
+    "fetched_date": "2026-04-28",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Quip’s latest ad wasn’t AI-generated. People were convinced it was",
+    "abstract": "Quip’s latest ad was entirely human-made, but it still received social media comments from people who assumed it was generated with AI. Here's how the brand responded.",
+    "url": "https://www.modernretail.co/marketing/quips-latest-ad-wasnt-ai-generated-people-were-convinced-it-was/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-04-28",
+    "fetched_date": "2026-04-28",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Suri got shoppers on board with recycling toothbrush heads. Now, it is turning them into soap dishes",
+    "abstract": "Oral care brand Suri has put true circularity at the heart of its next product line, turning recycled toothbrush heads into soap dishes. Here's what it took to pull that off.",
+    "url": "https://www.modernretail.co/operations/suri-got-shoppers-on-board-with-recycling-toothbrush-heads-now-it-is-turning-them-into-soap-dishes/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-04-28",
+    "fetched_date": "2026-04-28",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "How Urban Outfitters co-creates campaigns with Gen Z",
+    "abstract": "Urban Outfitters likes to say it doesn't just create campaigns with Gen Z -- it also produces campaigns with them. UO's Cyntia Leo shares how the brand does exactly that.",
+    "url": "https://www.modernretail.co/marketing/how-urban-outfitters-co-creates-campaigns-with-gen-z/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-04-28",
+    "fetched_date": "2026-04-28",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "New awards program: Next Gen Store Awards open for entries",
+    "abstract": "New from Modern Retail, the Next Gen Store Awards are designed to celebrate the innovations reshaping the modern in-store experience.",
+    "url": "https://www.modernretail.co/announcement/new-awards-program-next-gen-store-awards-open-for-entries/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-04-28",
+    "fetched_date": "2026-04-28",
+    "feed_name": "Modern Retail",
+    "source": "industry"
   }
 ]
