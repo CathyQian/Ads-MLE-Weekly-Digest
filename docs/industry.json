@@ -4568,5 +4568,245 @@
     "fetched_date": "2026-04-30",
     "feed_name": "Modern Retail",
     "source": "industry"
+  },
+  {
+    "title": "Introducing Advanced Account Security",
+    "abstract": "Introducing Advanced Account Security: phishing-resistant login, stronger recovery, and enhanced protections to safeguard sensitive data and prevent account takeover.",
+    "url": "https://openai.com/index/advanced-account-security",
+    "topic": "llm",
+    "date": "2026-04-30",
+    "fetched_date": "2026-05-01",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "How people ask Claude for personal guidance",
+    "abstract": "",
+    "url": "https://www.anthropic.com/research/claude-personal-guidance",
+    "topic": "llm",
+    "date": "2026-04-30",
+    "fetched_date": "2026-05-01",
+    "feed_name": "Anthropic Research",
+    "source": "industry"
+  },
+  {
+    "title": "Enabling a new model for healthcare with AI co-clinician",
+    "abstract": "Researching the path to AI-augmented care and development of an AI co-clinician.",
+    "url": "https://deepmind.google/blog/ai-co-clinician/",
+    "topic": "generative-ai",
+    "date": "2026-04-30",
+    "fetched_date": "2026-05-01",
+    "feed_name": "DeepMind Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Codex CLI 0.128.0 adds /goal",
+    "abstract": "Codex CLI 0.128.0 adds /goal The latest version of OpenAI's Codex CLI coding agent adds their own version of the Ralph loop : you can now set a /goal and Codex will keep on looping until it evaluates that the goal has been completed... or the configured token budget has been exhausted. It looks like the feature is mainly implemented though the goals/continuation.md and goals/budget_limit.md prompts, which are automatically injected at the end of a turn. Via @fcoury Tags: ai , openai , prompt-engineering , generative-ai , llms , coding-agents , system-prompts , codex-cli , agentic-engineering",
+    "url": "https://simonwillison.net/2026/Apr/30/codex-goals/#atom-everything",
+    "topic": "llm",
+    "date": "2026-04-30",
+    "fetched_date": "2026-05-01",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Our evaluation of OpenAI's GPT-5.5 cyber capabilities",
+    "abstract": "Our evaluation of OpenAI's GPT-5.5 cyber capabilities The UK's AI Security Institute previously evaluated Claude Mythos : now they've evaluated GPT-5.5 for finding security vulnerability and found it to be comparable to Mythos, but unlike Mythos it's generally available right now. Tags: ai , openai , generative-ai , llms , anthropic , claude , ai-security-research , gpt",
+    "url": "https://simonwillison.net/2026/Apr/30/gpt-55-cyber-capabilities/#atom-everything",
+    "topic": "llm",
+    "date": "2026-04-30",
+    "fetched_date": "2026-05-01",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Quoting Andrew Kelley",
+    "abstract": "It's a common misconception that we can't tell who is using LLM and who is not. I'm sure we didn't catch 100% of LLM-assisted PRs over the past few months, but the kind of mistakes humans make are fundamentally different than LLM hallucinations, making them easy to spot. Furthermore, people who come from the world of agentic coding have a certain digital smell that is not obvious to them but is obvious to those who abstain. It's like when a smoker walks into the room, everybody who doesn't smoke instantly knows it. I'm not telling you not to smoke, but I am telling you not to smoke in my house. — Andrew Kelley , Creator of Zig Tags: zig , llms , ai , generative-ai",
+    "url": "https://simonwillison.net/2026/Apr/30/andrew-kelley/#atom-everything",
+    "topic": "llm",
+    "date": "2026-04-30",
+    "fetched_date": "2026-05-01",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "We need RSS for sharing abundant vibe-coded apps",
+    "abstract": "We need RSS for sharing abundant vibe-coded apps Matt Webb: I would love an RSS web feed for all those various tools and apps pages, each item with an “Install” button. (But install to where?) The lesson here is that when vibe-coding accelerates app development, apps become more personal, more situated, and more frequent. Shipping a tool or a micro-app is less like launching a website and more like posting on a blog. This inspired me to have Claude add an Atom feed (and icon) to my /elsewhere/tools/ page, which itself is populated by content from my tools.simonwillison.net site. Tags: atom , matt-webb , rss , ai , vibe-coding",
+    "url": "https://simonwillison.net/2026/Apr/30/rss-vibe-coded-apps/#atom-everything",
+    "topic": "llm",
+    "date": "2026-04-30",
+    "fetched_date": "2026-05-01",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "ChatGPT Images 2.0 is a hit in India, but not a big winner elsewhere, yet",
+    "abstract": "Users in India are embracing ChatGPT Images 2.0 for creative, personal visuals — from avatars to cinematic portraits.",
+    "url": "https://techcrunch.com/2026/04/30/chatgpt-images-2-0-is-a-hit-in-india-but-not-a-big-winner-elsewhere-yet/",
+    "topic": "llm",
+    "date": "2026-05-01",
+    "fetched_date": "2026-05-01",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Sources: Anthropic potential $900B+ valuation round could happen within 2 weeks",
+    "abstract": "Anthropic is asking investors to submit allocations for the AI company’s latest fundraise within the next 48 hours, according to sources familiar with the matter.",
+    "url": "https://techcrunch.com/2026/04/30/anthropic-potential-900b-valuation-round-could-happen-within-two-weeks/",
+    "topic": "llm",
+    "date": "2026-04-30",
+    "fetched_date": "2026-05-01",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Apple was surprised by AI-driven demand for Macs",
+    "abstract": "Apple said it will be supply-constrained on Mac mini, Studio, and Neo in the next quarter, too.",
+    "url": "https://techcrunch.com/2026/04/30/apple-was-surprised-by-ai-driven-demand-for-macs/",
+    "topic": "llm",
+    "date": "2026-04-30",
+    "fetched_date": "2026-05-01",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Legal AI startup Legora hits $5.6B valuation and its battle with Harvey just got hotter",
+    "abstract": "The two wildly fast-growing rivals have raised massive sums, pushed into each other's home turf, and now have dueling ad campaigns.",
+    "url": "https://techcrunch.com/2026/04/30/legal-ai-startup-legora-hits-5-6-valuation-and-its-battle-with-harvey-just-got-hotter/",
+    "topic": "llm",
+    "date": "2026-04-30",
+    "fetched_date": "2026-05-01",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "After dissing Anthropic for limiting Mythos, OpenAI restricts access to Cyber, too",
+    "abstract": "OpenAI will begin rolling out its cybersecurity testing tool, GPT-5.5 Cyber only \"to critical cyber defenders\" at first.",
+    "url": "https://techcrunch.com/2026/04/30/after-dissing-anthropic-for-limiting-mythos-openai-restricts-access-to-cyber-too/",
+    "topic": "llm",
+    "date": "2026-04-30",
+    "fetched_date": "2026-05-01",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "OpenAI announces new advanced security for ChatGPT accounts, including a partnership with Yubico",
+    "abstract": "OpenAI is launching additional opt-in protections for ChatGPT accounts. The new security initiative includes a new partnership with security key provider Yubico.",
+    "url": "https://techcrunch.com/2026/04/30/openai-announces-new-advanced-security-for-chatgpt-accounts-including-a-partnership-with-yubico/",
+    "topic": "llm",
+    "date": "2026-04-30",
+    "fetched_date": "2026-05-01",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Elon Musk testifies that xAI trained Grok on OpenAI models",
+    "abstract": "\"Distillation\" is a hot topic as frontier labs try to prevent smaller competitors from copying their models.",
+    "url": "https://techcrunch.com/2026/04/30/elon-musk-testifies-that-xai-trained-grok-on-openai-models/",
+    "topic": "llm",
+    "date": "2026-04-30",
+    "fetched_date": "2026-05-01",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "FDA approval, fundraising, and the reality of building in healthcare according to BioticsAI founder",
+    "abstract": "BioticsAI CEO Robhy Bustami joined Isabelle Johannessen on Build Mode to discuss how the company has navigated a highly regulated space and kept the team motivated while cutting through all the red tape.",
+    "url": "https://techcrunch.com/2026/04/30/fda-approval-fundraising-and-the-reality-of-building-in-healthcare-according-to-bioticsai-founder/",
+    "topic": "llm",
+    "date": "2026-04-30",
+    "fetched_date": "2026-05-01",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Google’s Gemini AI assistant is hitting the road in millions of vehicles",
+    "abstract": "The move signals Google’s push to bring more advanced, conversational AI into the driving experience.",
+    "url": "https://techcrunch.com/2026/04/30/googles-gemini-ai-assistant-is-hitting-the-road-in-millions-of-vehicles/",
+    "topic": "llm",
+    "date": "2026-04-30",
+    "fetched_date": "2026-05-01",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Stripe introduces Link, a digital wallet that autonomous AI agents can use, too",
+    "abstract": "Link lets users connect cards, banks, and subscriptions, then authorize AI agents to spend securely via approval flows.",
+    "url": "https://techcrunch.com/2026/04/30/stripe-link-digital-wallet-ai-agents-shopping/",
+    "topic": "llm",
+    "date": "2026-04-30",
+    "fetched_date": "2026-05-01",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Salesforce is crowdsourcing its AI roadmap — with customers",
+    "abstract": "Salesforce lets its customers lead its product roadmap with the thinking that if one enterprise customer has a problem, the others likely do too.",
+    "url": "https://techcrunch.com/2026/04/30/salesforce-is-crowdsourcing-its-ai-roadmap-with-customers/",
+    "topic": "llm",
+    "date": "2026-04-30",
+    "fetched_date": "2026-05-01",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "X announces a rebuilt ad platform powered by AI",
+    "abstract": "X is rolling out a rebuilt ads platform powered by AI as it works to grow revenue again.",
+    "url": "https://techcrunch.com/2026/04/30/x-announces-a-rebuilt-ad-platform-powered-by-ai/",
+    "topic": "llm",
+    "date": "2026-04-30",
+    "fetched_date": "2026-05-01",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Meta says its business AI now facilitates 10 million conversations a week",
+    "abstract": "Meta said over 8 billion advertisers have used at least one of its GenAI tools",
+    "url": "https://techcrunch.com/2026/04/30/meta-says-its-business-ai-now-facilitates-10-million-conversations-a-week/",
+    "topic": "llm",
+    "date": "2026-04-30",
+    "fetched_date": "2026-05-01",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Making AI Reliable for Production Debugging With Micro-Agents",
+    "abstract": "Most teams treat AI agents as smart chatbots. We took a different approach, building a contract-driven micro-agent that turns messy logs into structured diagnoses in minutes. The post Making AI Reliable for Production Debugging With Micro-Agents appeared first on GoDaddy Blog .",
+    "url": "https://www.godaddy.com/resources/news/making-ai-reliable-for-production-debugging-with-micro-agents",
+    "topic": "ml-engineering",
+    "date": "2026-04-30",
+    "fetched_date": "2026-05-01",
+    "feed_name": "GoDaddy Engineering",
+    "source": "industry"
+  },
+  {
+    "title": "Retailers are rushing to build AI apps. It’s unclear if shoppers will use them",
+    "abstract": "Retailers and brands are launching shopping apps within ChatGPT and Claude at a rapid pace. But whether or not shoppers will embrace them at a rapid pace remains to be seen.",
+    "url": "https://www.modernretail.co/technology/retailers-are-rushing-to-build-ai-apps-its-unclear-if-shoppers-will-use-them/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-05-01",
+    "fetched_date": "2026-05-01",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Marketplace Briefing: Amazon joins Google-backed shopping effort, suggesting a shift in AI strategy",
+    "abstract": "Amazon has joined the technical council overseeing Google’s Universal Commerce Protocol — an open standard designed to power AI driven shopping — after initially sitting out.",
+    "url": "https://www.modernretail.co/technology/marketplace-briefing-amazon-joins-google-backed-shopping-effort-suggesting-a-shift-in-ai-strategy/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-04-30",
+    "fetched_date": "2026-05-01",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Amazon says its AI shopping assistant is gaining traction, with Rufus users up 115%",
+    "abstract": "Rufus, Amazon's artificial intelligence-powered shopping assistant, is gaining traction.",
+    "url": "https://www.modernretail.co/technology/amazon-says-its-ai-shopping-assistant-is-gaining-traction-with-rufus-users-up-115/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-04-30",
+    "fetched_date": "2026-05-01",
+    "feed_name": "Modern Retail",
+    "source": "industry"
   }
 ]
