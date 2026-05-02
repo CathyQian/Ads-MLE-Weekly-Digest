@@ -4808,5 +4808,95 @@
     "fetched_date": "2026-05-01",
     "feed_name": "Modern Retail",
     "source": "industry"
+  },
+  {
+    "title": "Optimizing ML Workload Network Efficiency (Part I): Feature Trimmer",
+    "abstract": "",
+    "url": "https://medium.com/pinterest-engineering/optimizing-ml-workload-network-efficiency-part-i-feature-trimmer-ae20beb08d69?source=rss----4c5a5f6279b6---4",
+    "topic": "ads-tech",
+    "date": "2026-05-01",
+    "fetched_date": "2026-05-02",
+    "feed_name": "Pinterest Engineering",
+    "source": "industry"
+  },
+  {
+    "title": "iNaturalist Sightings",
+    "abstract": "Tool: iNaturalist Sightings I wanted to see my iNaturalist observations - across two separate accounts - grouped by when they occurred. I'm camping this weekend so I built this entirely on my phone using Claude Code for web. I started by building an inaturalist-clumper Python CLI for fetching and \"clumping\" observations - by default clumps use observations within 2 hours and 5km of each other. Then I setup simonw/inaturalist-clumps as a Git scraping repository to run that tool and record the result to clumps.json . That JSON file is hosted on GitHub, which means it can be fetched by JavaScript using CORS. Finally I ran this prompt against my simonw/tools repo: Build inat-sightings.html - an app that does a fetch() against https://raw.githubusercontent.com/simonw/inaturalist-clumps/refs/heads/main/clumps.json and then displays all of the observations on one page using the https://static.inaturalist.org/photos/538073008/small.jpg small.jpg URLs for the thumbnails - with loading=lazy - but when a thumbnail is clicked showing the large.jpg in an HTML modal. Both small and large should include the common species names if available Tags: tools , claude-code , inaturalist , generative-ai , ai , llms",
+    "url": "https://simonwillison.net/2026/May/1/inat-sightings/#atom-everything",
+    "topic": "llm",
+    "date": "2026-05-01",
+    "fetched_date": "2026-05-02",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Weekly Top Picks #120",
+    "abstract": "Q1 earnings / Trump wants to nationalize AI / China protects its workers / ARC-AGI-3 defeats GPT-5.5 and Opus-4.7 / The \"permanent underclass\" / Dawkins x Claudia",
+    "url": "https://www.thealgorithmicbridge.com/p/weekly-top-picks-120",
+    "topic": "llm",
+    "date": "2026-05-01",
+    "fetched_date": "2026-05-02",
+    "feed_name": "The Algorithmic Bridge",
+    "source": "industry"
+  },
+  {
+    "title": "Replit’s Amjad Masad on the Cursor deal, fighting Apple, and why he’d rather not sell",
+    "abstract": "At TechCrunch's sold-out StrictlyVC event in San Francisco on Thursday night, we covered a lot of ground in a short time, beginning with the question everyone in the industry is asking right now: in a world where rival Cursor is reportedly in talks to be acquired by SpaceX for $60 billion, is Replit also bound to sell?",
+    "url": "https://techcrunch.com/2026/05/01/replits-amjad-masad-on-the-cursor-deal-fighting-apple-and-why-hed-rather-not-sell/",
+    "topic": "llm",
+    "date": "2026-05-01",
+    "fetched_date": "2026-05-02",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Meta buys robotics startup to bolster its humanoid AI ambitions",
+    "abstract": "Meta bought humanoid startup Assured Robot Intelligence to beef up its AI models for robots, the company said.",
+    "url": "https://techcrunch.com/2026/05/01/meta-buys-robotics-startup-to-bolster-its-humanoid-ai-ambitions/",
+    "topic": "llm",
+    "date": "2026-05-01",
+    "fetched_date": "2026-05-02",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Did you know you can’t steal a charity? Don’t worry. Elon Musk will remind you.",
+    "abstract": "Elon Musk spent the better part of three days on the witness stand this week in his lawsuit against OpenAI, and it’s already getting messy. Emails, texts, and his own tweets are surfacing in court, and there are plenty more witnesses to come. Musk’s argument against OpenAI? By converting the company to a for-profit model, Sam Altman betrayed the “nonprofit for the […]",
+    "url": "https://techcrunch.com/podcast/did-you-know-you-cant-steal-a-charity-dont-worry-elon-musk-will-remind-you/",
+    "topic": "llm",
+    "date": "2026-05-01",
+    "fetched_date": "2026-05-02",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Pentagon inks deals with Nvidia, Microsoft, and AWS to deploy AI on classified networks",
+    "abstract": "The deals come as the DOD has doubled down on diversifying its exposure to AI vendors in the wake of its controversial dispute with Anthropic over usage terms of its AI models.",
+    "url": "https://techcrunch.com/2026/05/01/pentagon-inks-deals-with-nvidia-microsoft-and-aws-to-deploy-ai-on-classified-networks/",
+    "topic": "llm",
+    "date": "2026-05-01",
+    "fetched_date": "2026-05-02",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Musk v. Altman is just getting started",
+    "abstract": "Elon Musk spent the better part of three days on the witness stand this week in his lawsuit against OpenAI, and it’s already getting messy. Emails, texts, and his own tweets are surfacing in court, and there are plenty more witnesses to come. Musk’s argument against OpenAI? By converting the company to a for-profit model, Sam Altman betrayed the “nonprofit for the […]",
+    "url": "https://techcrunch.com/video/musk-v-altman-is-just-getting-started/",
+    "topic": "llm",
+    "date": "2026-05-01",
+    "fetched_date": "2026-05-02",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "How TikTok Shop is winning over major brands",
+    "abstract": "Platforms reporter Allison Smith joins the Modern Retail Podcast for a roundtable discussion on TikTok Shop's growth.",
+    "url": "https://www.modernretail.co/technology/how-tiktok-shop-is-winning-over-major-brands/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-05-02",
+    "fetched_date": "2026-05-02",
+    "feed_name": "Modern Retail",
+    "source": "industry"
   }
 ]

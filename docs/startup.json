@@ -898,5 +898,75 @@
     "fetched_date": "2026-05-01",
     "feed_name": "TechCrunch",
     "source": "startup"
+  },
+  {
+    "title": "Musely secures $360M from General Catalyst without giving up equity",
+    "abstract": "The DTC skin, hair, and menopause care brand will use the non-dilutive capital to super-charge customer acquisition.",
+    "url": "https://techcrunch.com/2026/05/01/musely-secures-360m-from-general-catalyst-without-giving-up-equity/",
+    "topic": "startup",
+    "date": "2026-05-01",
+    "fetched_date": "2026-05-02",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Meta buys robotics startup to bolster its humanoid AI ambitions",
+    "abstract": "Meta bought humanoid startup Assured Robot Intelligence to beef up its AI models for robots, the company said.",
+    "url": "https://techcrunch.com/2026/05/01/meta-buys-robotics-startup-to-bolster-its-humanoid-ai-ambitions/",
+    "topic": "startup",
+    "date": "2026-05-01",
+    "fetched_date": "2026-05-02",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Coatue has a plan to buy up land for data centers, possibly for Anthropic",
+    "abstract": "Coatue, one of the biggest names in venture capital, has a new venture that is reportedly buying land near large power sources.",
+    "url": "https://techcrunch.com/2026/05/01/coatue-has-a-plan-to-buy-up-land-for-data-centers-possibly-for-anthropic/",
+    "topic": "startup",
+    "date": "2026-05-01",
+    "fetched_date": "2026-05-02",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Pentagon inks deals with Nvidia, Microsoft, and AWS to deploy AI on classified networks",
+    "abstract": "The deals come as the DOD has doubled down on diversifying its exposure to AI vendors in the wake of its controversial dispute with Anthropic over usage terms of its AI models.",
+    "url": "https://techcrunch.com/2026/05/01/pentagon-inks-deals-with-nvidia-microsoft-and-aws-to-deploy-ai-on-classified-networks/",
+    "topic": "startup",
+    "date": "2026-05-01",
+    "fetched_date": "2026-05-02",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Ubuntu services hit by outages after DDoS attack",
+    "abstract": "A group of hacktivists have claimed responsibility for a distributed denial-of-service attack, which has affected several Ubuntu and Canonical websites, and prevented users from updating the Linux-based operating system.",
+    "url": "https://techcrunch.com/2026/05/01/ubuntu-services-hit-by-outages-after-ddos-attack/",
+    "topic": "startup",
+    "date": "2026-05-01",
+    "fetched_date": "2026-05-02",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Musk v. Altman is just getting started",
+    "abstract": "Elon Musk spent the better part of three days on the witness stand this week in his lawsuit against OpenAI, and it’s already getting messy. Emails, texts, and his own tweets are surfacing in court, and there are plenty more witnesses to come. Musk’s argument against OpenAI? By converting the company to a for-profit model, Sam Altman betrayed the “nonprofit for the […]",
+    "url": "https://techcrunch.com/video/musk-v-altman-is-just-getting-started/",
+    "topic": "startup",
+    "date": "2026-05-01",
+    "fetched_date": "2026-05-02",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "People are finally using Reddit’s search",
+    "abstract": "The company saw a 30% year-on-year jump in the number of people using search every week, CEO Steve Huffman said on Thursday.",
+    "url": "https://techcrunch.com/2026/05/01/people-are-finally-using-reddits-search/",
+    "topic": "startup",
+    "date": "2026-05-01",
+    "fetched_date": "2026-05-02",
+    "feed_name": "TechCrunch",
+    "source": "startup"
   }
 ]
