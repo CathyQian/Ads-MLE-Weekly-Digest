@@ -27895,5 +27895,32 @@
       "Jelena Mitrovic"
     ],
     "article_type": "research"
+  },
+  {
+    "title": "Learning When to Remember: Risk-Sensitive Contextual Bandits for Abstention-Aware Memory Retrieval in LLM-Based Coding Agents",
+    "abstract": "Large language model (LLM)-based coding agents increasingly rely on external memory to reuse prior debugging experience, repair traces, and repository-local operational knowledge. However, retrieved memory is useful only when the current failure is genuinely compatible with a previous one; superficial similarity in stack traces, terminal errors, paths, or configuration symptoms can lead to unsafe memory injection. This paper reframes issue-memory use as a selective, risk-sensitive control problem rather than a pure top-k retrieval problem. We introduce RSCB-MC, a risk-sensitive contextual bandit memory controller that decides whether an agent should use no memory, inject the top resolution, summarize multiple candidates, perform high-precision or high-recall retrieval, abstain, or ask for feedback. The system stores reusable issue knowledge through a pattern-variant-episode schema and converts retrieval evidence into a fixed 16-feature contextual state capturing relevance, uncertainty, structural compatibility, feedback history, false-positive risk, latency, and token cost. Its reward design penalizes false-positive memory injection more strongly than missed reuse, making non-injection and abstention first-class safety actions. In deterministic smoke-scale artifacts, RSCB-MC obtains the strongest non-oracle offline replay success rate, 62.5%, while maintaining a 0.0% false-positive rate. In a bounded 200-case hot-path validation, it reaches 60.5% proxy success with 0.0% false positives and a 331.466 microseconds p95 decision latency. The results show that, for coding-agent memory, the key question is not only which memory is most similar, but whether any retrieved memory is safe enough to influence the debugging trajectory.",
+    "url": "http://arxiv.org/abs/2604.27283",
+    "pdf": "https://arxiv.org/pdf/2604.27283v1",
+    "keyword": "contextual bandit",
+    "date": "2026-04-30",
+    "fetched_date": "2026-05-03",
+    "authors": [
+      "Mehmet Iscan"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "Theory Under Construction: Orchestrating Language Models for Research Software Where the Specification Evolves",
+    "abstract": "Large language models can now generate substantial code and draft research text, but research-software projects require more than either artifact alone. The mathematical thesis, executable system, benchmark surface, and public claims must mature together, yet often drift apart. We identify two LM-specific failure modes: hallucination accumulation, in which claims exceed what code or theory supports and unsupported assertions propagate across sessions; and desynchronization, in which code, theory, or the model's own world model fall out of alignment.\n  We propose Comet-H, an iterative prompt automaton that orchestrates ideation, implementation, evaluation, grounding, and paper-writing as coupled coordinates of a single workspace state. At each step, a controller selects the next prompt by scoring it against what the workspace currently lacks, carries unfinished follow-up work forward with a half-life, and re-checks the paper and README against the code and benchmarks whenever documentation changes. We frame prompt selection as a small contextual bandit problem over prompt families, with prompts as arms, workspace deficits as context, and a hand-weighted linear score. This transparent scorer, paired with a fading record of unfinished work, bounds long-horizon follow-ups, requires no learned policy, and makes each prompt choice legible from the workspace.\n  We created a portfolio of 46 research-software repositories across two dozen domains. We study A3 in depth, a Python static-analysis tool built entirely within the loop, which reaches (F1 = 0.768) on a 90-case benchmark, compared with a next-best baseline of 0.364. Across approximately 400 commits, we find that audit-and-contraction passes dominate the later phases of every successful trajectory.",
+    "url": "http://arxiv.org/abs/2604.27209",
+    "pdf": "https://arxiv.org/pdf/2604.27209v1",
+    "keyword": "contextual bandit",
+    "date": "2026-04-29",
+    "fetched_date": "2026-05-03",
+    "authors": [
+      "Halley Young",
+      "Nikolaj Björner"
+    ],
+    "article_type": "research"
   }
 ]

@@ -4898,5 +4898,35 @@
     "fetched_date": "2026-05-02",
     "feed_name": "Modern Retail",
     "source": "industry"
+  },
+  {
+    "title": "Sightings",
+    "abstract": "/elsewhere/sightings/ I have a new camera (a Canon R6 Mark II) so I'm taking a lot more photos of birds. I share my best wildlife photos on iNaturalist , and based on yesterday's successful prototype I decided to add those to my blog. I built this feature on my phone using Claude Code for web, as an extension of my beats system for syndicating external content. Here's the PR and prompt. As with my other forms of incoming syndicated content sightings show up on the homepage, the date archive pages, and in site search results. I back-populated over a decade of iNaturalist sightings, which means you that if you search for lemur you'll see my lemur photos from Madagascar in 2019! Tags: blogging , photography , wildlife , ai , inaturalist , generative-ai , llms , ai-assisted-programming , claude-code",
+    "url": "https://simonwillison.net/2026/May/2/sightings/#atom-everything",
+    "topic": "llm",
+    "date": "2026-05-02",
+    "fetched_date": "2026-05-03",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "AI-generated actors and scripts are now ineligible for Oscars",
+    "abstract": "Bad news for Tilly Norwood.",
+    "url": "https://techcrunch.com/2026/05/02/ai-generated-actors-and-scripts-are-now-ineligible-for-oscars/",
+    "topic": "llm",
+    "date": "2026-05-02",
+    "fetched_date": "2026-05-03",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "The best AI dictation apps, tested and ranked",
+    "abstract": "AI-powered dictation apps are useful for replying to emails, taking notes, and even coding through your voice",
+    "url": "https://techcrunch.com/2026/05/02/the-best-ai-powered-dictation-apps-of-2025/",
+    "topic": "llm",
+    "date": "2026-05-02",
+    "fetched_date": "2026-05-03",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
   }
 ]
