@@ -4928,5 +4928,65 @@
     "fetched_date": "2026-05-03",
     "feed_name": "TechCrunch AI",
     "source": "industry"
+  },
+  {
+    "title": "Quoting Anthropic",
+    "abstract": "We used an automatic classifier which judged sycophancy by looking at whether Claude showed a willingness to push back, maintain positions when challenged, give praise proportional to the merit of ideas, and speak frankly regardless of what a person wants to hear. Most of the time in these situations, Claude expressed no sycophancy—only 9% of conversations included sycophantic behavior (Figure 2). But two domains were exceptions: we saw sycophantic behavior in 38% of conversations focused on spirituality, and 25% of conversations on relationships. — Anthropic , How people ask Claude for personal guidance Tags: ai-ethics , anthropic , claude , ai-personality , generative-ai , ai , llms , sycophancy",
+    "url": "https://simonwillison.net/2026/May/3/anthropic/#atom-everything",
+    "topic": "llm",
+    "date": "2026-05-03",
+    "fetched_date": "2026-05-04",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "‘This is fine’ creator says AI startup stole his art",
+    "abstract": "The ad comes from Artisan, the AI startup behind billboards urging businesses to \"stop hiring humans.\"",
+    "url": "https://techcrunch.com/2026/05/03/this-is-fine-creator-says-ai-startup-stole-his-art/",
+    "topic": "llm",
+    "date": "2026-05-03",
+    "fetched_date": "2026-05-04",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "In Harvard study, AI offered more accurate emergency room diagnoses than two human doctors",
+    "abstract": "A new study examines how large language models perform in a variety of medical contexts, including real emergency room cases — where at least one model seemed to be more accurate than human doctors.",
+    "url": "https://techcrunch.com/2026/05/03/in-harvard-study-ai-offered-more-accurate-diagnoses-than-emergency-room-doctors/",
+    "topic": "llm",
+    "date": "2026-05-03",
+    "fetched_date": "2026-05-04",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Winx Health has tripled its retail revenue in the last three months. Now, it’s launching into Walmart",
+    "abstract": "Winx Health, a women's health startup, is continuing its push into more U.S. doors through a partnership with Walmart.",
+    "url": "https://www.modernretail.co/operations/winx-health-has-tripled-its-retail-revenue-in-the-last-three-months-now-its-launching-into-walmart/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-05-04",
+    "fetched_date": "2026-05-04",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Legacy retailers like Party City and Staples are increasingly teaming up on shop-in-shops in a bid for relevance",
+    "abstract": "Retailers like Staples and Bed Bath & Beyond are identifying opportunities to scoop up struggling brands — like Party City and The Container Store — and using their name recognition to bring new customers into stores.",
+    "url": "https://www.modernretail.co/operations/legacy-retailers-like-party-city-and-staples-are-increasingly-teaming-up-on-shop-in-shops-in-a-bid-for-relevance/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-05-04",
+    "fetched_date": "2026-05-04",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Why Aldi, Walmart and more are redesigning their private-label packaging",
+    "abstract": "Major retailers like Target, Walmart and Aldi have recently announced redesigns of their private-label brands. The recent string of rebrands signals new investment in how these products are perceived.",
+    "url": "https://www.modernretail.co/operations/why-many-retailers-are-redesigning-their-private-label-packaging/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-05-04",
+    "fetched_date": "2026-05-04",
+    "feed_name": "Modern Retail",
+    "source": "industry"
   }
 ]
