@@ -4988,5 +4988,225 @@
     "fetched_date": "2026-05-04",
     "feed_name": "Modern Retail",
     "source": "industry"
+  },
+  {
+    "title": "OpenAI and PwC collaborate to reimagine the office of the CFO",
+    "abstract": "OpenAI and PwC are partnering to help enterprises use AI agents to automate finance workflows, improve forecasting, strengthen controls, and modernize the CFO function.",
+    "url": "https://openai.com/index/openai-pwc-finance-collaboration",
+    "topic": "llm",
+    "date": "2026-05-04",
+    "fetched_date": "2026-05-05",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "How OpenAI delivers low-latency voice AI at scale",
+    "abstract": "How OpenAI rebuilt its WebRTC stack to power real-time Voice AI with low latency, global scale, and seamless conversational turn-taking.",
+    "url": "https://openai.com/index/delivering-low-latency-voice-ai-at-scale",
+    "topic": "llm",
+    "date": "2026-05-04",
+    "fetched_date": "2026-05-05",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Quoting John Gruber",
+    "abstract": "So it’s well known that Y Combinator owns some stake in OpenAI. But how big is that stake? This seems like devilishly difficult information to obtain. I asked around and a little birdie who knows several OpenAI investors came back with an answer: Y Combinator owns about 0.6 percent of OpenAI. At OpenAI’s current $852 billion valuation , that’s worth over $5 billion. — John Gruber , Y Combinator’s Stake in OpenAI Tags: openai , y-combinator , ai , john-gruber",
+    "url": "https://simonwillison.net/2026/May/5/john-gruber/#atom-everything",
+    "topic": "llm",
+    "date": "2026-05-05",
+    "fetched_date": "2026-05-05",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Granite 4.1 3B SVG Pelican Gallery",
+    "abstract": "Granite 4.1 3B SVG Pelican Gallery IBM released their Granite 4.1 family of LLMs a few days ago. They're Apache 2.0 licensed and come in 3B, 8B and 30B sizes. Granite 4.1 LLMs: How They’re Built by Granite team member Yousaf Shah describes the training process in detail. Unsloth released the unsloth/granite-4.1-3b-GGUF collection of GGUF encoded quantized variants of the 3B model - 21 different model files ranging in size from 1.2GB to 6.34GB. All 21 of those Unsloth files add up to 51.3GB, which inspired me to finally try an experiment I've been wanting to run for ages: prompting \"Generate an SVG of a pelican riding a bicycle\" against different sized quantized variants of the same model to see what the results would look like. Honestly, the results are less interesting than I expected. There's no distinguishable pattern relating quality to size - they're all pretty terrible! I'll likely try this again in the future with a model that's better at drawing pelicans. Tags: ibm , ai , generative-ai , llms , pelican-riding-a-bicycle , llm-release",
+    "url": "https://simonwillison.net/2026/May/4/granite-41-3b-svg-pelican-gallery/#atom-everything",
+    "topic": "llm",
+    "date": "2026-05-04",
+    "fetched_date": "2026-05-05",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Quoting Andy Masley",
+    "abstract": "[...] Between 2000 and 2024, farmers sold in total a Colorado-sized chunk of land all on their own, 77 times all land on data center property in 2028, and grew more food than ever on what was left. None of this caused any problems for US food access. And then, in the middle of all this, a farmer in Loudoun County sells a few acres of mediocre hay field to a hyperscaler for ten times its agricultural value, and the response is that we’re running out of farmland. — Andy Masley , pushing back against the \"land use\" argument against data center construction Tags: ai-ethics , ai , generative-ai , andy-masley",
+    "url": "https://simonwillison.net/2026/May/4/andy-masley/#atom-everything",
+    "topic": "llm",
+    "date": "2026-05-04",
+    "fetched_date": "2026-05-05",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "April 2026 newsletter",
+    "abstract": "I just sent out the April edition of my sponsors-only monthly newsletter . If you are a sponsor (or if you start a sponsorship now) you can access it here . In this month's newsletter: Opus 4.7 and GPT-5.5, both with price increases Claude Mythos and LLM security research ChatGPT Images 2.0 More model releases Other highlights from my blog What I'm using, April 2026 edition Here's a copy of the March newsletter as a preview of what you'll get. Pay $10/month to stay a month ahead of the free copy! Tags: newsletter",
+    "url": "https://simonwillison.net/2026/May/4/april-newsletter/#atom-everything",
+    "topic": "llm",
+    "date": "2026-05-04",
+    "fetched_date": "2026-05-05",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "TRE Python binding — ReDoS robustness demo",
+    "abstract": "Research: TRE Python binding — ReDoS robustness demo If it's good enough for antirez to add to Redis I figured Ville Laurikari's TRE regular expression engine was worth exploring in a little more detail. I had Claude Code build an experimental Python binding (it used ctypes ) and try some malicious regular expression attacks against the library. TRE handles those much better than Python's standard library implementation, thanks mainly to the lack of support for backtracking. Tags: security , python , regular-expressions , c , ctypes",
+    "url": "https://simonwillison.net/2026/May/4/tre-python-binding/#atom-everything",
+    "topic": "llm",
+    "date": "2026-05-04",
+    "fetched_date": "2026-05-05",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Redis Array Playground",
+    "abstract": "Tool: Redis Array Playground Salvatore Sanfilippo submitted a PR adding a new data type - arrays - to Redis. The new commands are ARCOUNT , ARDEL , ARDELRANGE , ARGET , ARGETRANGE , ARGREP , ARINFO , ARINSERT , ARLASTITEMS , ARLEN , ARMGET , ARMSET , ARNEXT , AROP , ARRING , ARSCAN , ARSEEK , ARSET . The implementation is currently available in a branch, so I had Claude Code for web build this interactive playground for trying out the new commands in a WASM-compiled build of a subset of Redis running in the browser. The most interesting new command is ARGREP which can run a server-side grep against a range of values in the array using the newly vendored TRE regex library . Salvatore wrote more about the AI-assisted development process for the array type in Redis array type: short story of a long development . Tags: salvatore-sanfilippo , webassembly , generative-ai , agentic-engineering , ai , redis , llms , regular-expressions , c",
+    "url": "https://simonwillison.net/2026/May/4/redis-array/#atom-everything",
+    "topic": "llm",
+    "date": "2026-05-04",
+    "fetched_date": "2026-05-05",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "How to Get More From AI by Using Fewer Tools",
+    "abstract": "Don’t fall for the tool sprawl trap",
+    "url": "https://www.thealgorithmicbridge.com/p/how-to-get-more-from-ai-by-using",
+    "topic": "llm",
+    "date": "2026-05-04",
+    "fetched_date": "2026-05-05",
+    "feed_name": "The Algorithmic Bridge",
+    "source": "industry"
+  },
+  {
+    "title": "As workers worry about AI, Nvidia’s Jensen Huang says AI is ‘creating an enormous number of jobs’",
+    "abstract": "The Nvidia CEO seems to feel that claims of AI's job-killing potential have been greatly exaggerated.",
+    "url": "https://techcrunch.com/2026/05/04/as-workers-worry-about-ai-nvidias-jensen-huang-says-ai-is-creating-an-enormous-number-of-jobs/",
+    "topic": "llm",
+    "date": "2026-05-05",
+    "fetched_date": "2026-05-05",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "OpenAI’s cozy partner Cerebras is on track for a blockbuster IPO",
+    "abstract": "AI chip maker Cerebras is heading for a blockbuster IPO that could value it at $26.6 billion or more. Its relationship with OpenAI is deep and rich.",
+    "url": "https://techcrunch.com/2026/05/04/openais-cozy-partner-cerebras-is-on-track-for-a-blockbuster-ipo/",
+    "topic": "llm",
+    "date": "2026-05-04",
+    "fetched_date": "2026-05-05",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Image AI models now drive app growth, beating chatbot upgrades",
+    "abstract": "Appfigures finds visual model launches generate 6.5x more downloads — but most don’t convert that spike into revenue.",
+    "url": "https://techcrunch.com/2026/05/04/image-ai-models-now-drive-app-growth-beating-chatbot-upgrades/",
+    "topic": "llm",
+    "date": "2026-05-04",
+    "fetched_date": "2026-05-05",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Elon Musk’s only AI expert witness at the OpenAI trial fears an AGI arms race",
+    "abstract": "Stuart Russell is a long-time AI researcher who thinks governments need to restrain frontier labs.",
+    "url": "https://techcrunch.com/2026/05/04/elon-musks-only-expert-witness-at-the-openai-trial-fears-an-agi-arms-race/",
+    "topic": "llm",
+    "date": "2026-05-04",
+    "fetched_date": "2026-05-05",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Sierra raises $950M as the race to own enterprise AI gets serious",
+    "abstract": "The raise gives Sierra more than $1 billion to work with — capital the company says it will use to become the \"global standard\" for AI-powered customer experiences.",
+    "url": "https://techcrunch.com/2026/05/04/sierra-raises-950m-as-the-race-to-own-enterprise-ai-gets-serious/",
+    "topic": "llm",
+    "date": "2026-05-04",
+    "fetched_date": "2026-05-05",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Elon Musk sent ominous texts to Greg Brockman, Sam Altman after asking for a settlement, OpenAI claims",
+    "abstract": "Musk texted OpenAI's president and co-founder saying that he and CEO Sam Altman \"will be the most hated men in America\" if OpenAI doesn't settle the suit.",
+    "url": "https://techcrunch.com/2026/05/04/elon-musk-sent-ominous-texts-to-greg-brockman-sam-altman-after-asking-for-a-settlement-openai-claims/",
+    "topic": "llm",
+    "date": "2026-05-04",
+    "fetched_date": "2026-05-05",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Anthropic and OpenAI are both launching joint ventures for enterprise AI services",
+    "abstract": "Both Anthropic and OpenAI have partnered with asset managers to more aggressively market their enterprise AI products.",
+    "url": "https://techcrunch.com/2026/05/04/anthropic-and-openai-are-both-launching-joint-ventures-for-enterprise-ai-services/",
+    "topic": "llm",
+    "date": "2026-05-04",
+    "fetched_date": "2026-05-05",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "5 days only: Bring a partner or colleague and get 50% off a second TechCrunch Disrupt 2026 pass",
+    "abstract": "The BOGO offer is live. For a limited time, buy one pass to TechCrunch Disrupt 2026 and get 50% off a second of the same ticket type. Offer ends this Friday, May 8. Save here.",
+    "url": "https://techcrunch.com/2026/05/04/5-days-only-bring-a-partner-or-colleague-and-get-50-off-a-second-techcrunch-disrupt-2026-pass/",
+    "topic": "llm",
+    "date": "2026-05-04",
+    "fetched_date": "2026-05-05",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "DoorDash adds AI tools to speed up merchant onboarding, edit photos of dishes",
+    "abstract": "DoorDash on Monday added new AI-powered tools that let merchants speed up onboarding, edit photos to make dishes look better, and create new websites from existing content.",
+    "url": "https://techcrunch.com/2026/05/04/doordash-adds-ai-tools-to-speed-up-merchant-onboarding-edit-photos-of-dishes/",
+    "topic": "llm",
+    "date": "2026-05-04",
+    "fetched_date": "2026-05-05",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "UrbanStems CEO Meenakshi Lala fills her cart with handbags, Quince basics and unexpected florals",
+    "abstract": "In the latest installment of \"What's in Your Cart,\" the CEO of UrbanStems, Meenakshi Lala, shares her personal shopping habits with Modern Retail.",
+    "url": "https://www.modernretail.co/marketing/urbanstems-ceo-meenakshi-lala-fills-her-cart-with-handbags-quince-basics-and-unexpected-florals/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-05-05",
+    "fetched_date": "2026-05-05",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "How Ace Hardware built its employee AI assistant",
+    "abstract": "Ace Hardware is a unique retailer, being a cooperative with more than 5,200 stores that are operated independently. As a result, its executives and development team took a careful approach in designing and implementing its new AI assistant to work throughout the chain.",
+    "url": "https://www.modernretail.co/technology/how-ace-hardware-built-its-employee-ai-assistant/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-05-05",
+    "fetched_date": "2026-05-05",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "How Molly Baz’s Ayoh managed the cost of reformulating its mayonnaise to swap seed oils for avocado oil",
+    "abstract": "This month Ayoh revamped its mayonnaise line with avocado oil, which the company says makes for a creamier and healthier recipe. But that decision came at a cost.",
+    "url": "https://www.modernretail.co/operations/how-molly-bazs-ayoh-managed-the-cost-of-reformulating-its-mayonnaise-to-swap-seed-oils-for-avocado-oil/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-05-05",
+    "fetched_date": "2026-05-05",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "‘A shock to the system’: Roughly $300 billion in U.S. imports changed country of origin last year",
+    "abstract": "Roughly $300 billion in U.S. imports changed country of origin last year, representing big shifts in where goods were coming from compared to the prior year, according to Kearney's reshoring index.",
+    "url": "https://www.modernretail.co/operations/a-shock-to-the-system-roughly-300-billion-in-u-s-imports-changed-country-of-origin-last-year/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-05-04",
+    "fetched_date": "2026-05-05",
+    "feed_name": "Modern Retail",
+    "source": "industry"
   }
 ]
