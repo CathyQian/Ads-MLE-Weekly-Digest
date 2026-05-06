@@ -5208,5 +5208,245 @@
     "fetched_date": "2026-05-05",
     "feed_name": "Modern Retail",
     "source": "industry"
+  },
+  {
+    "title": "GPT-5.5 Instant System Card",
+    "abstract": "",
+    "url": "https://openai.com/index/gpt-5-5-instant-system-card",
+    "topic": "llm",
+    "date": "2026-05-05",
+    "fetched_date": "2026-05-06",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "GPT-5.5 Instant: smarter, clearer, and more personalized",
+    "abstract": "GPT-5.5 Instant updates ChatGPT’s default model with smarter, more accurate answers, reduced hallucinations, and improved personalization controls.",
+    "url": "https://openai.com/index/gpt-5-5-instant",
+    "topic": "llm",
+    "date": "2026-05-05",
+    "fetched_date": "2026-05-06",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "New ways to buy ChatGPT ads",
+    "abstract": "OpenAI expands ChatGPT ads with a beta self-serve Ads Manager, CPC bidding, and enhanced measurement tools—built to protect privacy and keep conversations separate from ads.",
+    "url": "https://openai.com/index/new-ways-to-buy-chatgpt-ads",
+    "topic": "llm",
+    "date": "2026-05-05",
+    "fetched_date": "2026-05-06",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Monitoring reliably at scale",
+    "abstract": "",
+    "url": "https://medium.com/airbnb-engineering/monitoring-reliably-at-scale-ca6483040930?source=rss----53c7c27702d5---4",
+    "topic": "ml-engineering",
+    "date": "2026-05-05",
+    "fetched_date": "2026-05-06",
+    "feed_name": "Airbnb Engineering",
+    "source": "industry"
+  },
+  {
+    "title": "datasette-referrer-policy 0.1",
+    "abstract": "Release: datasette-referrer-policy 0.1 The OpenStreetMap tiles on the Datasette global-power-plants demo weren't displaying correctly. This turned out to be caused by two bugs. The first is that the CAPTCHA I added to that site a few weeks ago was triggering for the .json fetch requests used by the map plugin, and since those weren't HTML the user was not being asked to solve them. Here's the fix . The second was that OpenStreetMap quite reasonably block tile requests from sites that use a Referrer-Policy: no-referrer header. Datasette does this by default, and I didn't want to change that default on people without warning - so I had Codex + GPT-5.5 build me a new plugin to help set that header to another value. Tags: openstreetmap , http , datasette",
+    "url": "https://simonwillison.net/2026/May/5/datasette-referrer-policy/#atom-everything",
+    "topic": "llm",
+    "date": "2026-05-05",
+    "fetched_date": "2026-05-06",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Our AI started a cafe in Stockholm",
+    "abstract": "Our AI started a cafe in Stockholm Andon Labs previously started an AI-run retail store in San Francisco. Now they're running a similar experiment in Stockholm, Sweden, only this time it's a cafe. These experiments are interesting, and often throw out amusing anecdotes: During the first week of inventory, Mona ordered 120 eggs even though the café has no stove. When the staff told her they couldn’t cook them, she suggested using the high-speed oven, until they pointed out the eggs would likely explode. She also tried to solve the problem of fresh tomatoes being spoiled too fast by ordering 22.5 kg of canned tomatoes for the fresh sandwiches. The baristas eventually started a “Hall of Shame”, a shelf visible to customers with all the weird things Mona ordered, including 6,000 napkins, 3,000 nitrile gloves, 9L coconut milk, and industrial-sized trash bags. Where they lose their shine is when these AI managers start wasting the time of human beings who have not opted into the experiment: She also successfully applied for an outdoor seating permit through the Police e-service, which didn’t require BankID. Her first submission included a sketch she had generated herself, despite having never seen the street outside the café. Unsurprisingly, the Police sent it back for revision. [...] When she makes a mistake, she often sends multiple emails to suppliers with the subject “EMERGENCY” to cancel or change the order. I don't think it's ethical to run experiments like this that affect real-world systems and steal time from people. I'm reminded of the incident last year where the AI Village experiment infuriated Rob Pike by sending him unsolicited gratitude emails as an \"act of kindness\". That was just an unwanted email - asking suppliers to correct mistakes that were made without a human-in-the-loop or wasting police time with slop diagrams feels a whole lot worse to me. I think experiments like this need to keep their own human operators in-the-loop for outbound actions that affect other people. Via Hacker News Tags: ai , generative-ai , llms , ai-agents , ai-ethics",
+    "url": "https://simonwillison.net/2026/May/5/our-ai-started-a-cafe-in-stockholm/#atom-everything",
+    "topic": "llm",
+    "date": "2026-05-05",
+    "fetched_date": "2026-05-06",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "datasette-llm 0.1a7",
+    "abstract": "Release: datasette-llm 0.1a7 Mechanism for configuring default options for specific models. Part of Datasette's evolving support mechanism for plugins that use LLMs. It's now possible to configure a model with default options, e.g. to say all enrichment operations should use a specific model with temperature set to 0.5. Tags: llm , datasette",
+    "url": "https://simonwillison.net/2026/May/5/datasette-llm/#atom-everything",
+    "topic": "llm",
+    "date": "2026-05-05",
+    "fetched_date": "2026-05-06",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "llm-echo 0.5a0",
+    "abstract": "Release: llm-echo 0.5a0 New -o thinking 1 option to help test against LLM 0.32a0 and higher. This plugin provides a fake model called \"echo\" for LLM which doesn't run an LLM at all - it's useful for writing automated tests. You can now do this: uvx --with llm==0.32a1 --with llm-echo==0.5a0 llm -m echo hi -o thinking 1 This will fake a reasoning block to standard error before returning JSON echoing the prompt. Tags: llm",
+    "url": "https://simonwillison.net/2026/May/5/llm-echo/#atom-everything",
+    "topic": "llm",
+    "date": "2026-05-05",
+    "fetched_date": "2026-05-06",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "SAP bets $1.16B on 18-month-old German AI lab and says yes to NemoClaw",
+    "abstract": "SAP plans to buy German AI startup Prior Labs and invest heavily in it. It is also prohibiting customers' agents use to a select few like Nvidia's NemoClaw.",
+    "url": "https://techcrunch.com/2026/05/05/sap-bets-1-16b-on-18-month-old-german-ai-lab-and-says-yes-to-nemoclaw/",
+    "topic": "llm",
+    "date": "2026-05-05",
+    "fetched_date": "2026-05-06",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Altara secures $7M to bridge the data gap that’s slowing down physical sciences",
+    "abstract": "Altara’s AI aims to diagnose failures and help speed up R&D by unifying data siloed across spreadsheets and legacy systems.",
+    "url": "https://techcrunch.com/2026/05/05/altara-secures-7m-to-bridge-the-data-gap-thats-slowing-down-physical-sciences/",
+    "topic": "llm",
+    "date": "2026-05-05",
+    "fetched_date": "2026-05-06",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Apple plans to make iOS 27 a Choose Your Own Adventure of AI models",
+    "abstract": "With Apple's latest operating system updates, users will reportedly have their pick of which third-party AI models they want to use for a host of tasks.",
+    "url": "https://techcrunch.com/2026/05/05/apple-plans-to-make-ios-27-a-choose-your-own-adventure-of-ai-models/",
+    "topic": "llm",
+    "date": "2026-05-05",
+    "fetched_date": "2026-05-06",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "ASML CEO Christophe Fouquet on his company’s monopoly: no one is coming for us",
+    "abstract": "Christophe Fouquet, who became ASML's CEO in 2024 after more than a decade at the company, sat down with this editor on the rooftop deck of his Beverly Hills hotel Tuesday morning ahead of his appearance at the Milken Institute Global Conference. Dressed in a blue suit and white shirt, he was relaxed — even when the conversation turned to the rivals.",
+    "url": "https://techcrunch.com/2026/05/05/asml-ceo-christophe-fouquet-no-one-is-coming-for-us/",
+    "topic": "llm",
+    "date": "2026-05-05",
+    "fetched_date": "2026-05-06",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Pennsylvania sues Character.AI after a chatbot allegedly posed as a doctor",
+    "abstract": "According to Pennsylvania's filing, a Character.AI chatbot presented itself as a licensed psychiatrist during a state investigation, and also fabricated a serial number for its state medical license.",
+    "url": "https://techcrunch.com/2026/05/05/pennsylvania-sues-character-ai-after-a-chatbot-allegedly-posed-as-a-doctor/",
+    "topic": "llm",
+    "date": "2026-05-05",
+    "fetched_date": "2026-05-06",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "OpenAI releases GPT-5.5 Instant, a new default model for ChatGPT",
+    "abstract": "The company said the model reduces hallucination in sensitive areas such as law, medicine, and finance, while maintaining the low latency of its predecessor.",
+    "url": "https://techcrunch.com/2026/05/05/openai-releases-gpt-5-5-instant-a-new-default-model-for-chatgpt/",
+    "topic": "llm",
+    "date": "2026-05-05",
+    "fetched_date": "2026-05-06",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "PayPal says it’s ‘becoming a technology company again’ — that means AI",
+    "abstract": "PayPal is pitching an AI-led turnaround, tying automation and restructuring to $1.5 billion in savings as it cuts jobs and works to modernize its tech stack.",
+    "url": "https://techcrunch.com/2026/05/05/paypal-says-its-becoming-a-technology-company-again-that-means-ai/",
+    "topic": "llm",
+    "date": "2026-05-05",
+    "fetched_date": "2026-05-06",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Etsy launches its app within ChatGPT as it continues its AI push",
+    "abstract": "Etsy's new native app within ChatGPT aims to be a conversational shopping experience for users.",
+    "url": "https://techcrunch.com/2026/05/05/etsy-launches-its-app-within-chatgpt-as-it-continues-its-ai-push/",
+    "topic": "llm",
+    "date": "2026-05-05",
+    "fetched_date": "2026-05-06",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Meta will use AI to analyze height and bone structure to identify if users are underage",
+    "abstract": "The visual analysis system is now operating in select countries, but Meta says it's working toward a broader rollout.",
+    "url": "https://techcrunch.com/2026/05/05/meta-will-use-ai-to-analyze-height-and-bone-structure-to-identify-if-users-are-underage/",
+    "topic": "llm",
+    "date": "2026-05-05",
+    "fetched_date": "2026-05-06",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "ElevenLabs lists BlackRock, Jamie Foxx, and Eva Longoria as new investors",
+    "abstract": "ElevenLabs reveals new investors, hits $500M ARR, and expands enterprise footprint as voice AI becomes a critical interface.",
+    "url": "https://techcrunch.com/2026/05/05/elevenlabs-lists-blackrock-jamie-foxx-and-eva-longoria-as-new-investors/",
+    "topic": "llm",
+    "date": "2026-05-05",
+    "fetched_date": "2026-05-06",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "CopilotKit raises $27M to help devs deploy app-native AI agents",
+    "abstract": "The Seattle-based startup's Series A round was led by Glilot Capital, NFX, and SignalFire, TechCrunch has exclusively learned.",
+    "url": "https://techcrunch.com/2026/05/05/copilotkit-raises-27m-to-help-devs-deploy-app-native-ai-agents/",
+    "topic": "llm",
+    "date": "2026-05-05",
+    "fetched_date": "2026-05-06",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "4 days left: Get 50% off a second TechCrunch Disrupt 2026 pass to make more deals faster",
+    "abstract": "For the next four days only, you can buy one pass to TechCrunch Disrupt 2026 and get 50% off a second of the same ticket type. That window closes May 8 at 11:59 p.m. PT. After that, prices go up, and you’ll pay more to bring a partner or colleague. Register today to get your plus-one pass at 50% off.",
+    "url": "https://techcrunch.com/2026/05/05/4-days-left-get-50-off-a-second-techcrunch-disrupt-2026-pass-to-make-more-deals-faster/",
+    "topic": "llm",
+    "date": "2026-05-05",
+    "fetched_date": "2026-05-06",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "India’s first GenAI unicorn shifts to cloud services as AI model ambitions face reality",
+    "abstract": "Krutrim's pivot to cloud after layoffs and limited product updates reflects the economic challenges of building AI models in India.",
+    "url": "https://techcrunch.com/2026/05/05/indias-first-genai-unicorn-shifts-to-cloud-services-as-ai-model-ambitions-face-reality/",
+    "topic": "llm",
+    "date": "2026-05-05",
+    "fetched_date": "2026-05-06",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Nike alumni, now at Superfeet, want their insoles in ‘every shoe in the world’",
+    "abstract": "As insoles brand Superfeet nears its 50th birthday, it's looking to grow beyond its running niche and become a household name among more kinds of athletes. Here's how its CMO and CEO — both Nike alumni — plan to do just that.",
+    "url": "https://www.modernretail.co/marketing/nike-alumni-now-at-superfeet-want-their-insoles-in-every-shoe-in-the-world/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-05-06",
+    "fetched_date": "2026-05-06",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Modern Retail+ Research: Marketing workflows benefit from AI, but trust is still a barrier to adoption",
+    "abstract": "Overall, the marketers who are incorporating AI into their workflows are seeing the benefits of the tech, but issues with trust and complexity are proving to be barriers to widespread adoption among marketers.",
+    "url": "https://www.modernretail.co/ai-strategies/modern-retail-research-marketing-workflows-benefit-from-ai-but-trust-is-still-a-barrier-to-adoption/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-05-06",
+    "fetched_date": "2026-05-06",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Brands Briefing: Anthropologie’s weddings business has become a powerful customer acquisition engine",
+    "abstract": "Anthropologie's wedding business has grown \"exponentially\" in the last couple of years as brides look for different outfits for all parts of their big day, the brand said.",
+    "url": "https://www.modernretail.co/operations/brands-briefing-anthropologies-weddings-business-has-become-a-powerful-customer-acquisition-engine/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-05-05",
+    "fetched_date": "2026-05-06",
+    "feed_name": "Modern Retail",
+    "source": "industry"
   }
 ]
