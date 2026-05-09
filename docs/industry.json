@@ -6068,5 +6068,135 @@
     "fetched_date": "2026-05-08",
     "feed_name": "Modern Retail",
     "source": "industry"
+  },
+  {
+    "title": "Running Codex safely at OpenAI",
+    "abstract": "How OpenAI runs Codex securely with sandboxing, approvals, network policies, and agent-native telemetry to support safe and compliant coding agent adoption.",
+    "url": "https://openai.com/index/running-codex-safely",
+    "topic": "llm",
+    "date": "2026-05-08",
+    "fetched_date": "2026-05-09",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Teaching Claude why",
+    "abstract": "New research on how we've reduced agentic misalignment",
+    "url": "https://www.anthropic.com/research/teaching-claude-why",
+    "topic": "llm",
+    "date": "2026-05-08",
+    "fetched_date": "2026-05-09",
+    "feed_name": "Anthropic Research",
+    "source": "industry"
+  },
+  {
+    "title": "CyberSecQwen-4B: Why Defensive Cyber Needs Small, Specialized, Locally-Runnable Models",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/cybersecqwen-4b",
+    "topic": "llm",
+    "date": "2026-05-08",
+    "fetched_date": "2026-05-09",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "EMO: Pretraining mixture of experts for emergent modularity",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/allenai/emo",
+    "topic": "llm",
+    "date": "2026-05-08",
+    "fetched_date": "2026-05-09",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Enhancing Ad Relevance: Integrating Real-Time Context into Sequential Recommender Models",
+    "abstract": "",
+    "url": "https://medium.com/pinterest-engineering/enhancing-ad-relevance-integrating-real-time-context-into-sequential-recommender-models-bc3a2f9b682e?source=rss----4c5a5f6279b6---4",
+    "topic": "ads-tech",
+    "date": "2026-05-08",
+    "fetched_date": "2026-05-09",
+    "feed_name": "Pinterest Engineering",
+    "source": "industry"
+  },
+  {
+    "title": "Quoting Luke Curley",
+    "abstract": "WebRTC is designed to degrade and drop my prompt during poor network conditions. wtf my dude WebRTC aggressively drops audio packets to keep latency low. If you’ve ever heard distorted audio on a conference call, that’s WebRTC baybee. The idea is that conference calls depend on rapid back-and-forth, so pausing to wait for audio is unacceptable. …but as a user, I would much rather wait an extra 200ms for my slow/expensive prompt to be accurate. After all, I’m paying good money to boil the ocean, and a garbage prompt means a garbage response. It’s not like LLMs are particularly responsive anyway. But I’m not allowed to wait . It’s impossible to even retransmit a WebRTC audio packet within a browser; we tried at Discord. The implementation is hard-coded for real-time latency or else . — Luke Curley , OpenAI’s WebRTC Problem, in response to How OpenAI delivers low-latency voice AI at scale Tags: webrtc , openai",
+    "url": "https://simonwillison.net/2026/May/9/luke-curley/#atom-everything",
+    "topic": "llm",
+    "date": "2026-05-09",
+    "fetched_date": "2026-05-09",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Using Claude Code: The Unreasonable Effectiveness of HTML",
+    "abstract": "Using Claude Code: The Unreasonable Effectiveness of HTML Thought-provoking piece by Thariq Shihipar (on the Claude Code team at Anthropic) advocating for HTML over Markdown as an output format to request from Claude. The article is crammed with interesting examples (collected on this site ) and prompt suggestions like this one: Help me review this PR by creating an HTML artifact that describes it. I'm not very familiar with the streaming/backpressure logic so focus on that. Render the actual diff with inline margin annotations, color-code findings by severity and whatever else might be needed to convey the concept well. I've been defaulting to asking for most things in Markdown since the GPT-4 days, when the 8,192 token limit meant that Markdown's token-efficiency over HTML was extremely worthwhile. Thariq's piece here has caused me to reconsider that, especially for output. Asking Claude for an explanation in HTML means it can drop in SVG diagrams, interactive widgets, in-page navigation and all sorts of other neat ways of making the information more pleasant to navigate. I wrote about Useful patterns for building HTML tools last December, but that was focused very much on interactive utilities like the ones on my tools.simonwillison.net site. I'm excited to start experimenting more with rich HTML explanations in response to ad-hoc prompts. Trying this out on copy.fail copy.fail describes a recently discovered Linux security exploit, including a proof of concept distributed as obfuscated Python. I tried having GPT-5.5 create an HTML explanation of the exploit like this: curl https://copy.fail/exp | llm -m gpt-5.5 -s 'Explain this code in detail. Reformat it, expand out any confusing bits and go deep into what it does and how it works. Output HTML, neatly styled and using capabilities of HTML and CSS and JavaScript to make the explanation rich and interactive and as clear as possible' Here's the resulting HTML page . It's pretty good, though I should have emphasized explaining the exploit over the Python harness around it. Tags: html , security , markdown , ai , prompt-engineering , generative-ai , llms , llm , claude-code",
+    "url": "https://simonwillison.net/2026/May/8/unreasonable-effectiveness-of-html/#atom-everything",
+    "topic": "llm",
+    "date": "2026-05-08",
+    "fetched_date": "2026-05-09",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Laid-off Oracle workers tried to negotiate better severance. Oracle said no.",
+    "abstract": "Some found out they didn't qualify for WARN Act protections like two-months notice because the company had classified them as remote workers.",
+    "url": "https://techcrunch.com/2026/05/08/laid-off-oracle-workers-tried-to-negotiate-better-severance-oracle-said-no/",
+    "topic": "llm",
+    "date": "2026-05-08",
+    "fetched_date": "2026-05-09",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Intel’s comeback story is even wilder than it seems",
+    "abstract": "Intel's stock has risen a stunning 490% over the past year, a bet by Wall Street that may be running well ahead of the company's actual turnaround.",
+    "url": "https://techcrunch.com/2026/05/08/intels-comeback-story-is-even-wilder-than-it-seems/",
+    "topic": "llm",
+    "date": "2026-05-08",
+    "fetched_date": "2026-05-09",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Cloudflare says AI made 1,100 jobs obsolete, even as revenue hit a record high",
+    "abstract": "Cloudflare announced its first large-scale layoff. CEO Matthew Prince says because of AI efficiency gains, the company doesn't need as many support roles.",
+    "url": "https://techcrunch.com/2026/05/08/cloudflare-says-ai-made-1100-jobs-obsolete-even-as-revenue-hit-a-record-high/",
+    "topic": "llm",
+    "date": "2026-05-08",
+    "fetched_date": "2026-05-09",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "The “people’s airline” and the enterprise AI gold rush",
+    "abstract": "Everyone wants a piece of the enterprise AI pie, and this week, we saw a string of companies making their moves. From Anthropic and OpenAI announcing new joint ventures targeting enterprise AI deployment to SAP dropping $1B on German AI startup Prior Labs, it’s becoming clear that if you’re a startup building enterprise tools, you’re likely an acquisition target. On this episode of TechCrunch’s Equity podcast, hosts Kirsten Korosec, Anthony […]",
+    "url": "https://techcrunch.com/podcast/the-peoples-airline-and-the-enterprise-ai-gold-rush/",
+    "topic": "llm",
+    "date": "2026-05-08",
+    "fetched_date": "2026-05-09",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Last 24 hours to get 50% off a second pass to TechCrunch Disrupt 2026",
+    "abstract": "Last day to buy one pass and get a second one at 50% off to TechCrunch Disrupt 2026. Bring a partner, co-founder, or colleague at half off. Register now.",
+    "url": "https://techcrunch.com/2026/05/08/last-24-hours-to-get-50-off-a-second-pass-to-techcrunch-disrupt-2026/",
+    "topic": "llm",
+    "date": "2026-05-08",
+    "fetched_date": "2026-05-09",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "The tradeoff economy: Why stressed shoppers are still spending",
+    "abstract": "Katie Thomas from the Kearney Consumer Institute explains how shoppers' financial stress is showing up in their shopping habits.",
+    "url": "https://www.modernretail.co/podcasts/the-tradeoff-economy-why-stressed-shoppers-are-still-spending/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-05-09",
+    "fetched_date": "2026-05-09",
+    "feed_name": "Modern Retail",
+    "source": "industry"
   }
 ]
