@@ -6198,5 +6198,45 @@
     "fetched_date": "2026-05-09",
     "feed_name": "Modern Retail",
     "source": "industry"
+  },
+  {
+    "title": "\"OncoAgent: A Dual-Tier Multi-Agent Framework for Privacy-Preserving Oncology Clinical Decision Support\"",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/oncoagent-official-paper",
+    "topic": "llm",
+    "date": "2026-05-09",
+    "fetched_date": "2026-05-10",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Voice AI in India is hard. Wispr Flow is betting on it anyway.",
+    "abstract": "Wispr Flow says growth accelerated in India after its Hinglish rollout, even as voice AI products continue to face challenges.",
+    "url": "https://techcrunch.com/2026/05/09/voice-ai-in-india-is-hard-wispr-flow-is-betting-on-it-anyway/",
+    "topic": "llm",
+    "date": "2026-05-10",
+    "fetched_date": "2026-05-10",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "So you’ve heard these AI terms and nodded along; let’s fix that",
+    "abstract": "The rise of AI has brought an avalanche of new terms and slang. Here is a glossary with definitions of some of the most important words and phrases you might encounter.",
+    "url": "https://techcrunch.com/2026/05/09/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
+    "topic": "llm",
+    "date": "2026-05-09",
+    "fetched_date": "2026-05-10",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Nvidia has already committed $40B to equity AI deals this year",
+    "abstract": "Nvidia continues to be a big investor in the AI ecosystem.",
+    "url": "https://techcrunch.com/2026/05/09/nvidia-has-already-committed-40b-to-equity-ai-deals-this-year/",
+    "topic": "llm",
+    "date": "2026-05-09",
+    "fetched_date": "2026-05-10",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
   }
 ]
