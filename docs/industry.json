@@ -6238,5 +6238,95 @@
     "fetched_date": "2026-05-10",
     "feed_name": "TechCrunch AI",
     "source": "industry"
+  },
+  {
+    "title": "MachinaCheck: Building a Multi-Agent CNC Manufacturability System on AMD MI300X",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/machinacheck",
+    "topic": "llm",
+    "date": "2026-05-10",
+    "fetched_date": "2026-05-11",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Quoting New York Times Editors’ Note",
+    "abstract": "This article was updated after The Times learned that a remark attributed to Pierre Poilievre, the Conservative leader, was in fact an A.I.-generated summary of his views about Canadian politics that A.I. rendered as a quotation. The reporter should have checked the accuracy of what the A.I. tool returned. The article now accurately quotes from a speech delivered by Mr. Poilievre in April. [...] He did not refer to politicians who changed allegiances as turncoats in that speech. — New York Times Editors’ Note Tags: ai-ethics , hallucinations , generative-ai , new-york-times , journalism , ai , llms",
+    "url": "https://simonwillison.net/2026/May/10/new-york-times-editors-note/#atom-everything",
+    "topic": "llm",
+    "date": "2026-05-10",
+    "fetched_date": "2026-05-11",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Quoting Andrew Quinn",
+    "abstract": "One could say in the first quarter-century of my life, that while I was always fascinated by programming, I could never overcome the guilt of not really knowing whether the tool I am building right now isn’t already superceded by some much better implementation someone else has already written 30 or 40 years ago; I could write a TSV-aware search and replace, or I could find out about awk and solve that entire class of problems in one fell swoop, for example. My central conceit is that this is a trap . You need to reinvent a couple of wheels to get to the edge of what we know about wheel-making, not a thousand wheels, and not zero; probably four or five is sufficient in most domains, maybe closer to twenty or thirty in the most epistemically rigorous and developed fields like mathematics or computer science. Each wheel you reinvent, and every directed question you ask along the way, will propel you faster to the true frontier than that same amount of time spend in idle study, or even five times that amount. — Andrew Quinn , footnote on Replacing a 3 GB SQLite database with a 10 MB FST (finite state transducer) binary Tags: careers , sqlite",
+    "url": "https://simonwillison.net/2026/May/10/andrew-quinn/#atom-everything",
+    "topic": "llm",
+    "date": "2026-05-10",
+    "fetched_date": "2026-05-11",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Get ready for the whisper-filled office of the future",
+    "abstract": "How will work setups change if we spend more and more time talking to our computers?",
+    "url": "https://techcrunch.com/2026/05/10/get-ready-for-the-whisper-filled-office-of-the-future/",
+    "topic": "llm",
+    "date": "2026-05-10",
+    "fetched_date": "2026-05-11",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Anthropic says ‘evil’ portrayals of AI were responsible for Claude’s blackmail attempts",
+    "abstract": "Fictional portrayals of artificial intelligence can have a real effect on AI models, according to Anthropic.",
+    "url": "https://techcrunch.com/2026/05/10/anthropic-says-evil-portrayals-of-ai-were-responsible-for-claudes-blackmail-attempts/",
+    "topic": "llm",
+    "date": "2026-05-10",
+    "fetched_date": "2026-05-11",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "We’re feeling cynical about xAI’s big deal with Anthropic",
+    "abstract": "On the latest episode of the Equity podcast, we discussed what xAI's deal with Anthropic might mean for parent company SpaceX.",
+    "url": "https://techcrunch.com/2026/05/10/were-feeling-cynical-about-xais-big-deal-with-anthropic/",
+    "topic": "llm",
+    "date": "2026-05-10",
+    "fetched_date": "2026-05-11",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Modern Retail+ Research: Marketers optimize GEO strategies amid the effects of zero-click search",
+    "abstract": "A recent Modern Retail survey found that more than one-third of brand and agency pros (37%) said their companies have seen decreases in upper-funnel search traffic as a result of AI, and 21% said their companies have seen decreases in lower-funnel search traffic as a result of AI.",
+    "url": "https://www.modernretail.co/ai-strategies/modern-retail-research-marketers-optimize-geo-strategies-amid-the-effects-of-zero-click-search/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-05-11",
+    "fetched_date": "2026-05-11",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "How GameStop went from struggling retailer to eBay bidder",
+    "abstract": "GameStop's ambitious bid to acquire eBay shows how, over the past six years, its CEO has repositioned the company from one struggling with lower physical video game software and hardware sales to one with far bigger ambitions, arguably beyond its scope.",
+    "url": "https://www.modernretail.co/operations/how-gamestop-went-from-struggling-retailer-to-ebay-bidder/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-05-11",
+    "fetched_date": "2026-05-11",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "How Roller Rabbit became TikTok’s favorite sleepwear brand",
+    "abstract": "Roller Rabbit became TikTok’s favorite pajama brand thanks to exclusive drops and collaborations with the likes of Target and Starbucks.",
+    "url": "https://www.modernretail.co/operations/how-roller-rabbit-became-tiktoks-favorite-sleepwear-brand/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-05-11",
+    "fetched_date": "2026-05-11",
+    "feed_name": "Modern Retail",
+    "source": "industry"
   }
 ]
