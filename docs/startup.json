@@ -1828,5 +1828,65 @@
     "fetched_date": "2026-05-11",
     "feed_name": "TechCrunch",
     "source": "startup"
+  },
+  {
+    "title": "Riding an AI rally, Robinhood preps second retail venture IPO",
+    "abstract": "Robinhood files confidentially for its second venture fund, this time targeting growth and early-stage startups.",
+    "url": "https://techcrunch.com/2026/05/11/riding-an-ai-rally-robinhood-preps-second-retail-venture-ipo/",
+    "topic": "startup",
+    "date": "2026-05-12",
+    "fetched_date": "2026-05-12",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "GM just laid off hundreds of IT workers to hire those with stronger AI skills",
+    "abstract": "Some of the positions focus on AI-native development, data engineering and analytics, cloud-based engineering, and agent and model development as well as prompt engineering and new AI workflows.",
+    "url": "https://techcrunch.com/2026/05/11/gm-just-laid-off-hundreds-of-it-workers-to-hire-those-with-stronger-ai-skills/",
+    "topic": "startup",
+    "date": "2026-05-11",
+    "fetched_date": "2026-05-12",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Daniel Ek-backed defense tech Helsing to raise $1.2B at $18B valuation",
+    "abstract": "Five-year old European military drone startup Helsing is close to raising another monster round.",
+    "url": "https://techcrunch.com/2026/05/11/daniel-ek-backed-defense-tech-helsing-to-raise-1-2b-at-18b-valuation/",
+    "topic": "startup",
+    "date": "2026-05-11",
+    "fetched_date": "2026-05-12",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Digg tries again, this time as an AI news aggregator",
+    "abstract": "In an email to beta testers, the company said the site's goal is to \"track the most influential voices in a space\" and to surface the news that's actually worth \"paying attention to.\"",
+    "url": "https://techcrunch.com/2026/05/11/digg-tries-again-this-time-as-an-ai-news-aggregator/",
+    "topic": "startup",
+    "date": "2026-05-11",
+    "fetched_date": "2026-05-12",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "NYT’s Wordle to become a TV game show",
+    "abstract": "This will be the first time that The Times has collaborated with a TV broadcaster for an entertainment-based program, representing yet another pivot in the media company's attempt to build a sustainable digital subscription business as print revenue continues to decline.",
+    "url": "https://techcrunch.com/2026/05/11/nyts-wordle-to-become-a-tv-game-show/",
+    "topic": "startup",
+    "date": "2026-05-11",
+    "fetched_date": "2026-05-12",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "There aren’t enough rockets for space data centers — Cowboy Space raised $275M to build them",
+    "abstract": "The apparently insatiable demand for AI compute has data center entrepreneurs looking to the stars. There's a key problem: There aren't enough rockets to put data centers in orbit around Earth, and they're too expensive.",
+    "url": "https://techcrunch.com/2026/05/11/there-arent-enough-rockets-for-space-data-centers-cowboy-space-raised-275-million-to-build-them/",
+    "topic": "startup",
+    "date": "2026-05-11",
+    "fetched_date": "2026-05-12",
+    "feed_name": "TechCrunch",
+    "source": "startup"
   }
 ]

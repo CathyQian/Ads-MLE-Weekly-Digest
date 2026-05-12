@@ -6328,5 +6328,215 @@
     "fetched_date": "2026-05-11",
     "feed_name": "Modern Retail",
     "source": "industry"
+  },
+  {
+    "title": "How ChatGPT adoption broadened in early 2026",
+    "abstract": "ChatGPT adoption surged in Q1 2026, with fastest growth among users over 35 and more balanced gender usage, signaling broader mainstream AI adoption.",
+    "url": "https://openai.com/signals/research/2026q1-update",
+    "topic": "llm",
+    "date": "2026-05-11",
+    "fetched_date": "2026-05-12",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "How enterprises are scaling AI",
+    "abstract": "How enterprises scale AI: from early experiments to compounding impact through trust, governance, workflow design, and quality at scale.",
+    "url": "https://openai.com/business/guides-and-resources/how-enterprises-are-scaling-ai",
+    "topic": "llm",
+    "date": "2026-05-11",
+    "fetched_date": "2026-05-12",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "OpenAI Campus Network: Student club interest form",
+    "abstract": "Join the OpenAI Campus Network—connect student clubs worldwide, access AI tools, host events, and build an AI-powered campus community.",
+    "url": "https://openai.com/index/openai-campus-network-student-club-interest-form",
+    "topic": "llm",
+    "date": "2026-05-11",
+    "fetched_date": "2026-05-12",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "OpenAI launches DeployCo to help businesses build around intelligence",
+    "abstract": "OpenAI launches DeployCo, a new enterprise deployment company built to help organizations bring frontier AI into production and turn it into measurable business impact.",
+    "url": "https://openai.com/index/openai-launches-the-deployment-company",
+    "topic": "llm",
+    "date": "2026-05-11",
+    "fetched_date": "2026-05-12",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Building Blocks for Foundation Model Training and Inference on AWS",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/amazon/foundation-model-building-blocks",
+    "topic": "llm",
+    "date": "2026-05-11",
+    "fetched_date": "2026-05-12",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Thoughts on GitLab's workforce reduction\" and \"structural and strategic decisions\"",
+    "abstract": "GitLab Act 2 There's a lot going on in this announcement from GitLab about the \"workforce reduction\" and \"structural and strategic decisions\" they are making with respect to the agentic era. They're \"planning to reduce the number of countries by up to 30% where we have small teams\". One of the most interesting things about GitLab is that they have employees spread across a large number of countries - 18 are listed in their public employee handbook but this post says they are \"operating in nearly 60 countries\". That handbook used to document their payroll workflows for those countries too - they stopped publishing that in 2023 but the last public version (hooray for version control) remains a fascinating read. Since we don't know which of those 60 countries have small teams, we can't calculate how many countries that 30% applies to. \"We're planning to flatten the organization, removing up to three layers of management in some functions so leaders are closer to the work.\" - this isn't the first announcement of this type I've seen that's trimming management. Coinbase recently announced a much more aggressive version of this: they were \"flattening our org structure to 5 layers max below\" and \"No pure managers: Every leader at Coinbase must also be a strong and active individual contributor. Managers should be like player-coaches\". In terms of team structure: \"We're re-organizing R&D to create roughly 60 smaller, more empowered teams with end-to-end ownership, nearly doubling the number of independent teams.\" I've always loved the idea of individual teams that can ship features unblocked by other teams, and it makes sense to me that agentic engineering can increase the capability of such teams. The 37signals public employee handbook used to have a section on working In self-sufficient, independent teams which perfectly captured this for me, I'm sad to see they removed that detail in January 2024! Tucked away towards the bottom: \" We will be retiring CREDIT as our values framework \" - that's the values framework described on this page : \"Collaboration, Results for Customers, Efficiency, Diversity, Inclusion & Belonging, Iteration, and Transparency\". The new values are \"Speed with Quality, Ownership Mindset, Customer Outcomes\". The fact that \"Diversity\" is no longer in there is likely to attract a whole lot of attention, so it's worth noting that a sub-bullet under Customer Outcomes reads \"Interpersonal excellence: individuals who are good humans, embrace diversity, inclusion and belonging, assume good intent and treat everyone with respect\". Here's the part of their new strategy that most resonated with me: The agentic era multiplies demand for software . Software has been the force multiplier behind nearly every business transformation of the last two decades. The constraint was the cost and time of producing and managing it. That constraint is collapsing. As the cost of producing software collapses, demand for it will expand. Last year, the developer platform market used to be measured in tens of dollars per user per month, this year it is hundreds/user/month and headed to thousands. Not only is the value of software for builders increasing, but we believe there will be more software and builders than ever, and we will serve an increasing volume of both . That very much encapsulates my own optimistic, Jevons-paradox -inspired hope for how this will all work out. Their opinion on this does need to be taken with a big grain of salt though. GitLab's stock price was ~$52 a year ago and is ~$26 today, and it's plausible that the drop corresponds to uncertainty about GitLab's continued growth as agentic engineering eats its way through their core market. If your entire business depends on software engineering growing as a field and producing larger volumes of more lucrative seats, you have a strong incentive to believe that agents will have that effect! Via Hacker News Tags: 37signals , careers , ai , gitlab , coding-agents , jevons-paradox , agentic-engineering",
+    "url": "https://simonwillison.net/2026/May/11/gitlab-act-2/#atom-everything",
+    "topic": "llm",
+    "date": "2026-05-11",
+    "fetched_date": "2026-05-12",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Quoting James Shore",
+    "abstract": "Your AI coding agent, the one you use to write code, needs to reduce your maintenance costs. Not by a little bit, either. You write code twice as quick now? Better hope you’ve halved your maintenance costs. Three times as productive? One third the maintenance costs. Otherwise, you’re screwed. You’re trading a temporary speed boost for permanent indenture. [...] The math only works if the LLM decreases your maintenance costs, and by exactly the inverse of the rate it adds code. If you double your output and your cost of maintaining that output, two times two means you’ve quadrupled your maintenance costs. If you double your output and hold your maintenance costs steady, two times one means you’ve still doubled your maintenance costs. — James Shore , You Need AI That Reduces Maintenance Costs Tags: coding-agents , ai-assisted-programming , generative-ai , agentic-engineering , ai , llms",
+    "url": "https://simonwillison.net/2026/May/11/james-shore/#atom-everything",
+    "topic": "llm",
+    "date": "2026-05-11",
+    "fetched_date": "2026-05-12",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Your AI Use Is Breaking My Brain",
+    "abstract": "Your AI Use Is Breaking My Brain Excellent, angry piece by Jason Koebler on how AI writing online is becoming impossible to avoid, filtering it is mentally exhausting and it's even starting to distort regular human writing styles. I particularly liked his use of the term \"Zombie Internet\" to define a different, more insidious alternative to the \"Dead Internet\" (which is just bots talking to each other): I called it the Zombie Internet because the truth is that large parts of the internet are not just bots talking to bots or bots talking to people. It’s people talking to bots, people talking to people, people creating “AI agents” and then instructing them to interact with people. It’s people using AI talking to people who are not using AI, and it’s people using AI talking to other people who are using AI. It’s influencer hustlebros who are teaching each other how to make AI influencers and have spun up automated YouTube channels and blogs and social media accounts that are spamming the internet for the sole purpose of making money. It is whatever the fuck “Moltbook” is and whatever the fuck X and LinkedIn have become. It’s AI summaries of real books being sold as the book itself and inspirational Reddit posts and comment threads in which people give heartfelt advice to some account that’s actually being run by a marketing firm. [...] Via @jasonkoebler.bsky.social Tags: definitions , ai , generative-ai , llms , slop , jason-koebler , ai-ethics",
+    "url": "https://simonwillison.net/2026/May/11/zombie-internet/#atom-everything",
+    "topic": "llm",
+    "date": "2026-05-11",
+    "fetched_date": "2026-05-12",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Using LLM in the shebang line of a script",
+    "abstract": "TIL: Using LLM in the shebang line of a script Kim_Bruning on Hacker News : But seriously, you can put a shebang on an english text file now (if you're sufficiently brave) [...] This inspired me to look at patterns for doing exactly that with LLM . Here's the simplest, which takes advantage of LLM fragments : #!/usr/bin/env -S llm -f Generate an SVG of a pelican riding a bicycle But you can also incorporate tool calls using the -T name_of_tool option: #!/usr/bin/env -S llm -T llm_time -f Write a haiku that mentions the exact current time Or even execute YAML templates directly that define extra tools as Python functions: # !/usr/bin/env -S llm -t model : gpt-5.4-mini system : | Use tools to run calculations functions : | def add(a: int, b: int) -> int: return a + b def multiply(a: int, b: int) -> int: return a * b Then: ./calc.sh 'what is 2344 * 5252 + 134' --td Which outputs (thanks to that --td tools debug option): Tool call: multiply({'a': 2344, 'b': 5252}) 12310688 Tool call: add({'a': 12310688, 'b': 134}) 12310822 2344 × 5252 + 134 = **12,310,822** Read the full TIL for a more complex example that uses the Datasette SQL API to answer questions about content on my blog. Tags: llm , llm-tool-use , llms , ai , generative-ai",
+    "url": "https://simonwillison.net/2026/May/11/llm-shebang/#atom-everything",
+    "topic": "llm",
+    "date": "2026-05-11",
+    "fetched_date": "2026-05-12",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Learning on the Shop floor",
+    "abstract": "Learning on the Shop floor Tobias Lütke describes Shopify's internal coding agent tool, River, which operates entirely in public on their Slack: River does not respond to direct messages. She politely declines and suggests to create a public channel for you and her to start working in. I myself work with river in #tobi_river channel and many followed this pattern. Every conversation is therefore searchable. Anyone at Shopify can jump in. In my own channel, there are over 100 people who, react to threads, add color and add context, pick up the torch, help with the reviews, remind me how rusty I am, and importantly, learn from watching. [...] As so often with German, there is a word for the kind of environment: Lehrwerkstatt . Literally: A teaching workshop . The whole shop floor is the classroom. You learn by being near the work. Being a constant learner is one of the core values of the firm. Shopify wants to be a Lehrwerkstatt at scale and River has now gotten us closer to this ideal than ever. It’s osmosis learning , because it does not require a curriculum, a training plan, or a manager. It just requires everyone's work to be visible to the maximum extent possible. Everyone learns from each other. I'm reminded of how Midjourney spent its first few years with the primary interface being public Discord channels, forcing users to share their prompts and learn from each other's experiments. I continue to believe that the early success of Midjourney was tied to this mechanism, helping to compensate for how weird and finicky text-to-image prompting is. Tags: ai , slack , generative-ai , llms , midjourney , coding-agents , tobias-lutke",
+    "url": "https://simonwillison.net/2026/May/11/learning-on-the-shop-floor/#atom-everything",
+    "topic": "llm",
+    "date": "2026-05-11",
+    "fetched_date": "2026-05-12",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "How to Stop AI Agents From Frying Your Brain",
+    "abstract": "Avoid the latest AI-induced disease",
+    "url": "https://www.thealgorithmicbridge.com/p/how-to-stop-ai-agents-from-frying",
+    "topic": "llm",
+    "date": "2026-05-11",
+    "fetched_date": "2026-05-12",
+    "feed_name": "The Algorithmic Bridge",
+    "source": "industry"
+  },
+  {
+    "title": "Riding an AI rally, Robinhood preps second retail venture IPO",
+    "abstract": "Robinhood files confidentially for its second venture fund, this time targeting growth and early-stage startups.",
+    "url": "https://techcrunch.com/2026/05/11/riding-an-ai-rally-robinhood-preps-second-retail-venture-ipo/",
+    "topic": "llm",
+    "date": "2026-05-12",
+    "fetched_date": "2026-05-12",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "GM just laid off hundreds of IT workers to hire those with stronger AI skills",
+    "abstract": "Some of the positions focus on AI-native development, data engineering and analytics, cloud-based engineering, and agent and model development as well as prompt engineering and new AI workflows.",
+    "url": "https://techcrunch.com/2026/05/11/gm-just-laid-off-hundreds-of-it-workers-to-hire-those-with-stronger-ai-skills/",
+    "topic": "llm",
+    "date": "2026-05-11",
+    "fetched_date": "2026-05-12",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Digg tries again, this time as an AI news aggregator",
+    "abstract": "In an email to beta testers, the company said the site's goal is to \"track the most influential voices in a space\" and to surface the news that's actually worth \"paying attention to.\"",
+    "url": "https://techcrunch.com/2026/05/11/digg-tries-again-this-time-as-an-ai-news-aggregator/",
+    "topic": "llm",
+    "date": "2026-05-11",
+    "fetched_date": "2026-05-12",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "There aren’t enough rockets for space data centers — Cowboy Space raised $275M to build them",
+    "abstract": "The apparently insatiable demand for AI compute has data center entrepreneurs looking to the stars. There's a key problem: There aren't enough rockets to put data centers in orbit around Earth, and they're too expensive.",
+    "url": "https://techcrunch.com/2026/05/11/there-arent-enough-rockets-for-space-data-centers-cowboy-space-raised-275-million-to-build-them/",
+    "topic": "llm",
+    "date": "2026-05-11",
+    "fetched_date": "2026-05-12",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "The Week-Long Translation Problem (And Why We Built a Localizer Instead)",
+    "abstract": "Traditional localization pipelines can take days or weeks to translate content across 23 locales. At GoDaddy, we built an LLM-powered localizer that lets content teams translate instantly, iterate in real time, and work directly inside the CMS — turning a week-long process into minutes. The post The Week-Long Translation Problem (And Why We Built a Localizer Instead) appeared first on GoDaddy Blog .",
+    "url": "https://www.godaddy.com/resources/news/the-week-long-translation-problem-and-why-we-built-a-localizer-instead",
+    "topic": "ml-engineering",
+    "date": "2026-05-11",
+    "fetched_date": "2026-05-12",
+    "feed_name": "GoDaddy Engineering",
+    "source": "industry"
+  },
+  {
+    "title": "Here comes the brand: Inside the business of influencer weddings",
+    "abstract": "For brands, influencer weddings are becoming lucrative marketing opportunities and a chance to tap into some of social media’s most highly engaged content.",
+    "url": "https://www.modernretail.co/marketing/here-comes-the-brand-inside-the-business-of-influencer-weddings/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-05-12",
+    "fetched_date": "2026-05-12",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Why Target killed its creator program, launched 2 new ones",
+    "abstract": "Target recently launched two new creator programs, Club Target and Target Ambassadors. They're designed to cater to both everyday micro and nanoinfluencers as well as full-time content creators.",
+    "url": "https://www.modernretail.co/marketing/why-target-killed-its-creator-program-launched-2-new-ones/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-05-12",
+    "fetched_date": "2026-05-12",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "OpenAI makes it easier to run shopping ads in ChatGPT",
+    "abstract": "OpenAI is automating product ads for e-commerce brands, tapping existing catalog infrastructure.",
+    "url": "https://www.modernretail.co/technology/openai-makes-it-easier-to-run-shopping-ads-in-chatgpt/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-05-12",
+    "fetched_date": "2026-05-12",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Amazon offers non-sellers more of its supply chain services",
+    "abstract": "Last week, Amazon announced the launch of Amazon Supply Chain Services, a streamlined portal where companies — even non-Amazon sellers — can access all of its supply chain services. Here's what it means for the logistics world.",
+    "url": "https://www.modernretail.co/operations/amazon-offers-non-sellers-more-of-its-supply-chain-services/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-05-11",
+    "fetched_date": "2026-05-12",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Made In uses its cast iron launch to land in Williams-Sonoma",
+    "abstract": "Startup Made In is trying to carve out its defensive moat in the cookware space by focusing on what it calls \"professional-grade cookware.\" This year, the company has entered one of the most formidable categories for cookware: cast iron. And it used the launch to add a new wholesale partner.",
+    "url": "https://www.modernretail.co/operations/made-in-uses-its-cast-iron-launch-to-land-in-williams-sonoma/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-05-11",
+    "fetched_date": "2026-05-12",
+    "feed_name": "Modern Retail",
+    "source": "industry"
   }
 ]
