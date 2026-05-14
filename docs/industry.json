@@ -6798,5 +6798,215 @@
     "fetched_date": "2026-05-13",
     "feed_name": "Modern Retail",
     "source": "industry"
+  },
+  {
+    "title": "Building a safe, effective sandbox to enable Codex on Windows",
+    "abstract": "Learn how OpenAI built a secure sandbox for Codex on Windows, enabling safe, efficient coding agents with controlled file access and network restrictions.",
+    "url": "https://openai.com/index/building-codex-windows-sandbox",
+    "topic": "llm",
+    "date": "2026-05-13",
+    "fetched_date": "2026-05-14",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Our response to the TanStack npm supply chain attack",
+    "abstract": "OpenAI details its response to the TanStack “Mini Shai-Hulud” supply chain attack, outlines protections taken to secure systems and signing certificates, and explains why macOS users must update OpenAI apps by June 12, 2026. Learn what happened, what was affected, and how OpenAI is strengthening defenses against evolving software supply chain threats.",
+    "url": "https://openai.com/index/our-response-to-the-tanstack-npm-supply-chain-attack",
+    "topic": "llm",
+    "date": "2026-05-13",
+    "fetched_date": "2026-05-14",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Viaduct 1.0 and the future of Airbnb’s data mesh",
+    "abstract": "",
+    "url": "https://medium.com/airbnb-engineering/viaduct-1-0-and-the-future-of-airbnbs-data-mesh-6bab4ec98b89?source=rss----53c7c27702d5---4",
+    "topic": "ml-engineering",
+    "date": "2026-05-13",
+    "fetched_date": "2026-05-14",
+    "feed_name": "Airbnb Engineering",
+    "source": "industry"
+  },
+  {
+    "title": "Welcome to the Datasette blog",
+    "abstract": "Welcome to the Datasette blog We have a bunch of neat Datasette announcements in the pipeline so we decided it was time the project grew an official blog. I built this using OpenAI Codex desktop, which turns out to have the Markdown session transcript export feature I've always wanted. Here's the session that built the blog . See also issue 179 . Tags: ai , datasette , generative-ai , llms , ai-assisted-programming , codex",
+    "url": "https://simonwillison.net/2026/May/13/welcome-to-the-datasette-blog/#atom-everything",
+    "topic": "llm",
+    "date": "2026-05-13",
+    "fetched_date": "2026-05-14",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Quoting Boris Mann",
+    "abstract": "“11 AI agents” is meaningless as a phrase. If I said “I have 11 spreadsheets” or “I have 11 browser tabs” to do my work, it means about the same thing. — Boris Mann Tags: ai-agents , ai , agent-definitions",
+    "url": "https://simonwillison.net/2026/May/13/boris-mann/#atom-everything",
+    "topic": "llm",
+    "date": "2026-05-13",
+    "fetched_date": "2026-05-14",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "CSP Allow-list Experiment",
+    "abstract": "Tool: CSP Allow-list Experiment An experiment that shows that you can load an app in a CSP-protected sandboxed iframe (see previous note ) and have a custom fetch() that intercepts CSP errors and passes them up to the parent window... which can then prompt the user to add that domain to an allow-list and then refresh the page. I built this one with GPT-5.5 xhigh running in the Codex desktop app. Tags: content-security-policy , iframes , security",
+    "url": "https://simonwillison.net/2026/May/13/csp-allow/#atom-everything",
+    "topic": "llm",
+    "date": "2026-05-13",
+    "fetched_date": "2026-05-14",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "How This Small Startup Achieved a Near-Perfect Record Against AI Slop",
+    "abstract": "Can you beat it?",
+    "url": "https://www.thealgorithmicbridge.com/p/how-this-small-startup-achieved-a",
+    "topic": "llm",
+    "date": "2026-05-13",
+    "fetched_date": "2026-05-14",
+    "feed_name": "The Algorithmic Bridge",
+    "source": "industry"
+  },
+  {
+    "title": "Notion just turned its workspace into a hub for AI agents",
+    "abstract": "Notion’s new developer platform lets teams connect AI agents, external data sources, and custom code directly into their workspace as the company pushes deeper into agentic productivity software.",
+    "url": "https://techcrunch.com/2026/05/13/notion-just-turned-its-workspace-into-a-hub-for-ai-agents/",
+    "topic": "llm",
+    "date": "2026-05-13",
+    "fetched_date": "2026-05-14",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Musk’s xAI is running nearly 50 gas turbines unchecked at its Mississippi data center",
+    "abstract": "Gas turbines at xAI's Colossus 2 data center have drawn a lawsuit over the company's use of \"mobile\" gas turbines as power plants.",
+    "url": "https://techcrunch.com/2026/05/13/musks-xai-is-running-nearly-50-gas-turbines-unchecked-at-its-mississippi-data-center/",
+    "topic": "llm",
+    "date": "2026-05-13",
+    "fetched_date": "2026-05-14",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Anthropic’s Cat Wu says that, in the future, AI will anticipate your needs before you know what they are",
+    "abstract": "The head of product for Claude Code and Cowork says that the next big step for AI is proactivity.",
+    "url": "https://techcrunch.com/2026/05/13/anthropics-cat-wu-says-that-in-the-future-ai-will-anticipate-your-needs-before-you-know-what-they-are/",
+    "topic": "llm",
+    "date": "2026-05-13",
+    "fetched_date": "2026-05-14",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Who trusts Sam Altman?",
+    "abstract": "\"I believe I am an honest and trustworthy businessperson,\" Altman testified in federal court.",
+    "url": "https://techcrunch.com/2026/05/13/who-trusts-sam-altman/",
+    "topic": "llm",
+    "date": "2026-05-13",
+    "fetched_date": "2026-05-14",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Origin Lab raises $8M to help video game companies sell data to world-model builders",
+    "abstract": "Origin Lab will serve as a marketplace where AI labs can buy high-quality licensed data, and video-game companies can sell it.",
+    "url": "https://techcrunch.com/2026/05/13/origin-lab-raises-8m-to-help-video-game-companies-sell-data-to-world-model-builders/",
+    "topic": "llm",
+    "date": "2026-05-13",
+    "fetched_date": "2026-05-14",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Anthropic courts a new kind of customer: small business owners",
+    "abstract": "For founders and investors, Anthropic's new offering signals that the AI platform wars are expanding downmarket and that the next major battleground for user acquisition isn't the Fortune 500; it's the 36 million small businesses that make up the backbone of the U.S. economy.",
+    "url": "https://techcrunch.com/2026/05/13/anthropic-courts-a-new-kind-of-customer-small-business-owners/",
+    "topic": "llm",
+    "date": "2026-05-13",
+    "fetched_date": "2026-05-14",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Amazon launches an AI shopping assistant for the search bar, powered by Alexa+",
+    "abstract": "Alexa for Shopping offers a voice- and touch-enabled shopping experience across mobile, desktop, and Echo Show smart displays. Alexa for Shopping provides more personalized recommendations and automates the shopping experience across Amazon and other online retailers.",
+    "url": "https://techcrunch.com/2026/05/13/amazon-launches-an-ai-shopping-assistant-for-the-search-bar-powered-by-alexa/",
+    "topic": "llm",
+    "date": "2026-05-13",
+    "fetched_date": "2026-05-14",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Introducing the 6 stages at TechCrunch Disrupt 2026 — built for today’s tougher startup market",
+    "abstract": "From October 13-15, TechCrunch Disrupt 2026 will feature 200+ sessions across six stages, led by 250+ tech leaders shaping the industry today. Register now to save up to $410, plus 50% off a second pass.",
+    "url": "https://techcrunch.com/2026/05/13/introducing-the-6-stages-of-techcrunch-disrupt-2026-built-for-todays-tougher-startup-market/",
+    "topic": "llm",
+    "date": "2026-05-13",
+    "fetched_date": "2026-05-14",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "WhatsApp adds an incognito mode in Meta AI chats",
+    "abstract": "Meta said these incognito conversations are not saved, and messages will disappear by default once you close the chat.",
+    "url": "https://techcrunch.com/2026/05/13/whatsapp-adds-an-incognito-mode-in-meta-ai-chats/",
+    "topic": "llm",
+    "date": "2026-05-13",
+    "fetched_date": "2026-05-14",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Anthropic now has more business customers than OpenAI, according to Ramp data",
+    "abstract": "A survey compiled from fintech firm Ramp’s clients’ expense data shows 34.4% of participating businesses are paying for Anthropic services, more than any other AI lab, while only 32.3% pay for OpenAI.",
+    "url": "https://techcrunch.com/2026/05/13/anthropic-now-has-more-business-customers-than-openai-according-to-ramp-data/",
+    "topic": "llm",
+    "date": "2026-05-13",
+    "fetched_date": "2026-05-14",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Poppy debuts a proactive AI assistant to help organize your digital life",
+    "abstract": "Poppy is an AI-powered app that connects your calendar, email, messages, and other services to surface reminders, suggestions, and tasks based on what’s happening in your life.",
+    "url": "https://techcrunch.com/2026/05/13/poppy-debuts-a-proactive-ai-assistant-to-help-organize-your-digital-life/",
+    "topic": "llm",
+    "date": "2026-05-13",
+    "fetched_date": "2026-05-14",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Adaption aims big with AutoScientist, an AI tool that helps models train themselves",
+    "abstract": "Adaption's new AutoScientist tool is designed to let models adapt to specific capabilities quickly through an automated approach to conventional fine-tuning.",
+    "url": "https://techcrunch.com/2026/05/13/adaption-aims-big-with-autoscientist-an-ai-tool-that-helps-models-train-themselves/",
+    "topic": "llm",
+    "date": "2026-05-13",
+    "fetched_date": "2026-05-14",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Modern Retail+ Research: Marketers’ AI use rises, but tech skills stall",
+    "abstract": "Modern Retail’s survey — which has been conducted annually since 2022 — found that marketers’ adoption of AI technology has risen significantly. In 2022, 44% of brand and agency pros said their companies were investing in AI technology. That percentage rose to 57% in 2023 and 71% in 2024, before hitting 86% in 2025.",
+    "url": "https://www.modernretail.co/ai-strategies/modern-retail-research-marketers-ai-use-rises-but-tech-skills-stall/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-05-14",
+    "fetched_date": "2026-05-14",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Unpacked: What Maryland’s dynamic pricing ban says about the electronic shelf label debate",
+    "abstract": "Maryland passed the first U.S. law banning data-driven price hikes on groceries, but it stops short of restricting electronic shelf labels or frequent price changes.",
+    "url": "https://www.modernretail.co/technology/unpacked-what-marylands-dynamic-pricing-ban-says-about-the-electronic-shelf-label-debate/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-05-14",
+    "fetched_date": "2026-05-14",
+    "feed_name": "Modern Retail",
+    "source": "industry"
   }
 ]
