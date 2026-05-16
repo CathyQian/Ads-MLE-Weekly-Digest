@@ -53980,5 +53980,530 @@
       "Jiliang Tang"
     ],
     "article_type": "research"
+  },
+  {
+    "title": "Scaling Laws from Sequential Feature Recovery: A Solvable Hierarchical Model",
+    "abstract": "We propose a simple mechanism by which scaling laws emerge from feature learning in multi-layer networks. We study a high-dimensional hierarchical target that is a globally high-degree function, but that can be represented by a combination of latent compositional features whose weights decrease as a power law. We show that a layer-wise spectral algorithm adapted to this compositional structure achieves improved scaling relative to shallow, non-adaptive methods, and recovers the latent directions sequentially: strong features become detectable at small sample sizes, while weaker features require more data. We prove sharp feature-wise recovery thresholds and show that aggregating these transitions yields an explicit power-law decay of the prediction error. Technically, the analysis relies on random matrix methods and a resolvent-based perturbation argument, which gives matching upper and lower bounds for individual eigenvector recovery beyond what standard gap-based perturbation bounds provide. Numerical experiments confirm the predicted sequential recovery, finite-size smoothing of the thresholds, and separation from non-hierarchical kernel baselines. Together, these results show how smooth scaling laws can emerge from a cascade of sharp feature-learning transitions.",
+    "url": "http://arxiv.org/abs/2605.14567",
+    "pdf": "https://arxiv.org/pdf/2605.14567v1",
+    "keyword": "scaling law",
+    "date": "2026-05-14",
+    "fetched_date": "2026-05-16",
+    "authors": [
+      "Arie Wortsman-Zurich",
+      "Hugo Tabanelli",
+      "Yatin Dandi",
+      "Florent Krzakala",
+      "Bruno Loureiro"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "Toward Covert Quantum Computing",
+    "abstract": "As quantum computers become available through multi-tenant cloud platforms, ensuring privacy against adversaries sharing the same quantum processing unit becomes critical. We introduce and explore \\emph{covert quantum computing}, a new concept that ensures an adversary with access to all other quantum computational units (QCUs) of a quantum computer cannot detect computation on the subset that they cannot access. Analogous to covert communication, we employ information theory. However, since here the adversary controls the systems used for detection, we require a richer framework for covertness analysis that accounts for the use of quantum memories and adaptive operations. Thus, we adopt the \\emph{quantum-strategy} framework used in quantum game theory and memory channel discrimination. Current quantum computers use planar graph circuit layouts and typically assume nearest-neighbor crosstalk. We derive discrete isoperimetric inequalities to show that, for an $n$-qubit circuit under this model, only $\\mathcal{O}(\\sqrt{n})$ border qubits provide detection information to the adversary. We then explore this scaling law on IQM's 54-qubit \\emph{Emerald} processor and IBM's 156-qubit \\emph{ibm\\_fez} machine employing the Heron 2 architecture. We implement Ramsey experiments on qubits not used in computation, and detect nearest-neighbor crosstalk, as expected. However, we also observe long-range coupling effects beyond the border qubits, revealing a side channel that the adversary can exploit. We hypothesize that this long-range crosstalk is induced by leakage from the drive and control lines. Beyond weakening covertness, it exposes co-tenants to both adversarial and unintended crosstalk and degrades circuits that span spatially distributed qubits, motivating further work on spatial isolation and crosstalk characterization.",
+    "url": "http://arxiv.org/abs/2605.14325",
+    "pdf": "https://arxiv.org/pdf/2605.14325v1",
+    "keyword": "scaling law",
+    "date": "2026-05-14",
+    "fetched_date": "2026-05-16",
+    "authors": [
+      "Evan J. D. Anderson",
+      "Kaushik Datta",
+      "Boulat A. Bash"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "Venus-DeFakerOne: Unified Fake Image Detection & Localization",
+    "abstract": "In recent years, the rapid evolution of generative AI has fundamentally reshaped the paradigm of image forgery, breaking the traditional boundaries between document editing, natural image manipulation, DeepFake generation, and full-image AIGC synthesis. Despite this shift toward unified forgery generation, existing research in Fake Image Detection and Localization (FIDL) remains fragmented. This creates a mismatch between increasingly unified forgery generation mechanisms and the domain-specific detection paradigm. Bridging this mismatch poses two key challenges for FIDL: understanding cross-domain artifacts transfer and interference, and building a high-capacity unified foundation model for joint detection and localization. To address these challenges, we propose DeFakerOne, a data-centric, unified FIDL foundation model integrating InternVL2 and SAM2. DeFakerOne enables simultaneous image-level detection and pixel-level forgery localization across diverse scenarios. Extensive experiments demonstrate that DeFakerOne achieves state-of-the-art performance, outperforming baselines on 39 forgery detection benchmarks and 9 localization benchmarks. Furthermore, the model exhibits superior robustness against real-world perturbations and state-of-the-art generators such as GPT-Image-2. Finally, we provide a systematic analysis of data scaling laws, cross-domain artifacts transfer-interference patterns, the necessity of fine-grained supervision, and the original resolution artifacts preservation, highlighting the design principles for scalable, robust, and unified FIDL.",
+    "url": "http://arxiv.org/abs/2605.14091",
+    "pdf": "https://arxiv.org/pdf/2605.14091v1",
+    "keyword": "scaling law",
+    "date": "2026-05-13",
+    "fetched_date": "2026-05-16",
+    "authors": [
+      "GuangJian Team"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "Unified Pix Token And Word Token Generative Language Model",
+    "abstract": "Since the emergence of Vision Transformer (ViT), it has been widely used in generative language model and generative visual model. Especially in the current state-of-art open source multimodal models, ViT obtained by CLIP or SigLIP method serves as the vision encoder backbone to help them acquire visual understanding capabilities. But this method leads to limitations in visual understanding for details, such as difficulty in recognizing small text or numbers in images. To address these issues, we propose a new model to unify pix token and word token into the generative language model. The new model also features with each pix of image having its own token embedding, color folding, global conditional attention approximation and image unsupervised pretraining. We conducted image unsupervised pretraining experiments using our new model to explore its potential. The experimental results show that it has good performance even in small model and with limited training data. We believe our model also conforms to the scaling law, as long as model parameters and training data increased, its performance will continue to improve.",
+    "url": "http://arxiv.org/abs/2605.14028",
+    "pdf": "https://arxiv.org/pdf/2605.14028v1",
+    "keyword": "scaling law",
+    "date": "2026-05-13",
+    "fetched_date": "2026-05-16",
+    "authors": [
+      "Haun Leung",
+      "ZiNan Wang"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "Understanding How International Students in the U.S. Are Using Conversational AI to Support Cross-Cultural Adaptation",
+    "abstract": "Moving to a new culture and adapting to a new life, as an international student, can be a stressful experience. In the US, international students face unique overlapping challenges, yet the current support ecosystem, including university support systems and informal social networks, remains largely fragmented. While conversational AI has emerged as a tool used by many (e.g., generative AI chatbots like ChatGPT and Google Gemini), we do not have a clear understanding of how international students adopt and perceive these technologies as support tools. We conducted a survey study (n=60) to map the relationship between international students' challenges and AI adoption patterns, followed by an interview study with 14 participants to identify the underlying motivations and boundaries of use. Our findings show that AI is perceived as a first-aid tool for immediate challenges, however, there is an interest in transforming AI from a tool for short-term help into a long-term support companion. By identifying where and how AI can provide long-term support, and where it is insufficient, we contribute recommendations for creating AI-powered support tailored to the unique needs of international students.",
+    "url": "http://arxiv.org/abs/2605.15127",
+    "pdf": "https://arxiv.org/pdf/2605.15127v1",
+    "keyword": "generative AI",
+    "date": "2026-05-14",
+    "fetched_date": "2026-05-16",
+    "authors": [
+      "Laleh Nourian",
+      "Anisa Callis",
+      "Stephanie Patterson",
+      "Jadeline Miao",
+      "Jamison Heard",
+      "Garreth W. Tigwell"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "Small, Private Language Models as Teammates for Educational Assessment Design",
+    "abstract": "Generative AI increasingly supports educational design tasks, e.g., through Large Language Models (LLMs), demonstrating the capability to design assessment questions that are aligned with pedagogical frameworks (e.g., Bloom's taxonomy). However, they often rely on subjective or limited evaluation methods; focus primarily on proprietary models; or rarely systematically examine generation, evaluation, or deployment constraints in real educational settings. Meanwhile, Small Language Models (SLMs) have emerged as local alternatives that better address privacy and resource limitations; yet their effectiveness for assessment tasks remains underexplored. To address this gap, we systematically compare LLMs and SLMs for assessment question design; evaluate generation quality across Bloom's taxonomy levels using reproducible, pedagogically grounded metrics; and further assess model-based judging against expert-informed evaluation by analyzing reliability and agreement patterns. Results show that SLMs achieve competitive performance across key pedagogically motivated quality dimensions while enabling local, privacy-sensitive deployment. However, model-based evaluations also exhibit systematic inconsistencies and bias relative to expert ratings. These findings provide evidence to posit language models as bounded assistants in assessment workflows; underscore the necessity of Human-in-the-Loop; and advance the automated educational question generation field by examining quality, reliability, and deployment-aware trade-offs.",
+    "url": "http://arxiv.org/abs/2605.15015",
+    "pdf": "https://arxiv.org/pdf/2605.15015v1",
+    "keyword": "generative AI",
+    "date": "2026-05-14",
+    "fetched_date": "2026-05-16",
+    "authors": [
+      "Chris Davis Jaldi",
+      "Anmol Saini",
+      "Shan Zhang",
+      "Noah Schroeder",
+      "Cogan Shimizu",
+      "Eleni Ilkou"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "Towards Gaze-Informed AI Disclosure Interfaces: Eye-Tracking Attentional and Cognitive Load While Reading AI-Assisted News",
+    "abstract": "As generative AI becomes increasingly integrated into journalism, designing effective AI-use disclosures that inform readers without imposing unnecessary burden is a key challenge. While prior research has primarily focused on trust and credibility, the impact of disclosures on readers' attentional and cognitive load remains underexplored. To address this gap, we conducted a $3\\times2\\times2$ mixed factorial study manipulating the level of AI-use disclosure detail (none, one-line, detailed), news type (politics, lifestyle), and role of AI (editing, partial content generation), measuring load via NASA-TLX and eye-tracking. Our results reveal a significant attentional cost: one-line disclosures resulted in significantly higher fixation durations and saccade counts, particularly for AI-edited content. Detailed disclosures did not impose additional burden. Drawing on Information-Gap Theory, we argue that brief labels may trigger increased visual scrutiny by alerting readers to AI use without providing enough information. NASA-TLX scores and pupil diameter showed no significant differences across conditions, suggesting that AI-use disclosures do not impose cognitive burden regardless of the detail level. Interview insights contextualize these findings and reveal a strong preference for detailed or ``detail-on-demand'' designs. Our findings inform the design of gaze-informed adaptive disclosure interfaces that dynamically adjust transparency levels based on readers' attentional patterns and news context.",
+    "url": "http://arxiv.org/abs/2605.14999",
+    "pdf": "https://arxiv.org/pdf/2605.14999v1",
+    "keyword": "generative AI",
+    "date": "2026-05-14",
+    "fetched_date": "2026-05-16",
+    "authors": [
+      "Pooja Prajod",
+      "Hannes Cools",
+      "Thomas Röggla",
+      "Pablo Cesar",
+      "Abdallah El Ali"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "NodeSynth: Socially Aligned Synthetic Data for AI Evaluation",
+    "abstract": "Recent advancements in generative AI facilitate large-scale synthetic data generation for model evaluation. However, without targeted approaches, these datasets often lack the sociotechnical nuance required for sensitive domains. We introduce NodeSynth, an evidence-grounded methodology that generates socially relevant synthetic queries by leveraging a fine-tuned taxonomy generator (TaG) anchored in real-world evidence. Evaluated against four mainstream LLMs (e.g., Claude 4.5 Haiku), NodeSynth elicited failure rates up to five times higher than human-authored benchmarks. Ablation studies confirm that our granular taxonomic expansion significantly drives these failure rates, while independent validation reveals critical deficiencies in prominent guard models (e.g., Llama-Guard-3). We open-source our end-to-end research prototype and datasets to enable scalable, high-stakes model evaluation and targeted safety interventions (https://github.com/google-research/nodesynth).",
+    "url": "http://arxiv.org/abs/2605.14381",
+    "pdf": "https://arxiv.org/pdf/2605.14381v1",
+    "keyword": "generative AI",
+    "date": "2026-05-14",
+    "fetched_date": "2026-05-16",
+    "authors": [
+      "Qazi Mamunur Rashid",
+      "Xuan Yang",
+      "Zhengzhe Yang",
+      "Yanzhou Pan",
+      "Erin van Liemt",
+      "Darlene Neal",
+      "Kshitij Pancholi",
+      "Jamila Smith-Loud"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "Unsteady Metrics and Benchmarking Cultures of AI Model Builders",
+    "abstract": "The primary way to establish and compare competencies in foundation and generative AI models has shifted from peer-reviewed literature to press releases and company blog posts, where model builders highlight results on selected benchmarks. These artifacts now largely define the state of the art for researchers and the public. Despite their prominence, which benchmarks model builders choose to highlight, and what they communicate through this selection, is underexamined. To investigate, we introduce and open-source Benchmarking-Cultures-25, a dataset of 231 benchmarks highlighted across 139 model releases in 2025 from 11 major AI builders, alongside an interactive tool to explore the data. Our analysis reveals a fragmented evaluation landscape with limited cross-model comparability: 63.2% of highlighted benchmarks are used by a single builder, and 38.5% appear in just one release. Few achieve widespread use (e.g., GPQA Diamond, LiveCodeBench, AIME 2025). Moreover, benchmarks are attributed different competencies by different builders, depending on their narrative. To disentangle these conflicting presentations, we develop a unified taxonomy mapping diverging terminology to a shared framework of measured signals based on what benchmark authors claim to measure. \"General knowledge application\" is the second most popular, yet vaguely defined, category. Qualitative analysis shows many such benchmarks deemphasize construct validity, instead framing results as indicators of progress toward AGI. Their authors claim to measure knowledge or reasoning broadly, yet mostly evaluate STEM subjects (especially math). We argue that highlighted benchmarks function less as standardized measurement tools and more as flexible narrative devices prioritizing market positioning over scientific evaluation. Data: https://hf.co/datasets/matybohacek/benchmarking-cultures-25; tool: https://bench-cultures.net.",
+    "url": "http://arxiv.org/abs/2605.14164",
+    "pdf": "https://arxiv.org/pdf/2605.14164v1",
+    "keyword": "generative AI",
+    "date": "2026-05-13",
+    "fetched_date": "2026-05-16",
+    "authors": [
+      "Stefan Baack",
+      "Christo Buschek",
+      "Maty Bohacek"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "Measuring Google AI Overviews: Activation, Source Quality, Claim Fidelity, and Publisher Impact",
+    "abstract": "Google AI Overviews (AIOs) are arguably the most widely encountered deployment of generative AI, reaching over 2 billion users who may not realize the answers they see are AI-generated. Where search engines have traditionally surfaced ranked sources and left users to evaluate them, AIOs synthesize and deliver a single answer - giving Google unprecedented editorial control over what users read and know. We present a large-scale longitudinal measurement study, issuing 55,393 trending queries across 19 topical categories over a 40-day window (March 13 - April 21, 2026). We report four main findings. First, overall AIO activation is 13.7%, rising to 64.7% for question-form queries, while politically sensitive topics see markedly lower rates. Second, AIO-cited domains are more credible than co-displayed first-page results, yet nearly 30% do not appear in those results at all, indicating a source selection mechanism distinct from Google's ranking algorithm. Third, decomposing responses into 98,020 atomic claims, 11.0% are unsupported by the cited pages - with omission the dominant failure mode - and source quality and claim fidelity are largely independent. Fourth, well over half of AIO-cited pages carry display advertising, meaning publishers lose revenue when AIOs suppress the click-through, even as Google's own sponsored ads continue to appear on the same page. Together, these findings document a rapid transformation of the online information ecosystem whose consequences for epistemic security remain poorly understood.",
+    "url": "http://arxiv.org/abs/2605.14021",
+    "pdf": "https://arxiv.org/pdf/2605.14021v1",
+    "keyword": "generative AI",
+    "date": "2026-05-13",
+    "fetched_date": "2026-05-16",
+    "authors": [
+      "Haofei Xu",
+      "Umar Iqbal",
+      "Jacob M. Montgomery"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "RefDecoder: Enhancing Visual Generation with Conditional Video Decoding",
+    "abstract": "Video generation powers a vast array of downstream applications. However, while the de facto standard, i.e., latent diffusion models, typically employ heavily conditioned denoising networks, their decoders often remain unconditional. We observe that this architectural asymmetry leads to significant loss of detail and inconsistency relative to the input image. To address this, we argue that the decoder requires equal conditioning to preserve structural integrity. We introduce RefDecoder, a reference-conditioned video VAE decoder by injecting high-fidelity reference image signal directly into the decoding process via reference attention. Specifically, a lightweight image encoder maps the reference frame into the detail-rich high-dimensional tokens, which are co-processed with the denoised video latent tokens at each decoder up-sampling stage. We demonstrate consistent improvements across several distinct decoder backbones (e.g., Wan 2.1 and VideoVAE+), achieving up to +2.1dB PSNR over the unconditional baselines on the Inter4K, WebVid, and Large Motion reconstruction benchmarks. Notably, RefDecoder can be directly swapped into existing video generation systems without additional fine-tuning, and we report across-the-board improvements in subject consistency, background consistency, and overall quality scores on the VBench I2V benchmark. Beyond I2V, RefDecoder generalizes well to a wide range of visual generation tasks such as style transfer and video editing refinement.",
+    "url": "http://arxiv.org/abs/2605.15196",
+    "pdf": "https://arxiv.org/pdf/2605.15196v1",
+    "keyword": "diffusion model",
+    "date": "2026-05-14",
+    "fetched_date": "2026-05-16",
+    "authors": [
+      "Xiang Fan",
+      "Yuheng Wang",
+      "Bohan Fang",
+      "Zhongzheng Ren",
+      "Ranjay Krishna"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "Compositional Video Generation via Inference-Time Guidance",
+    "abstract": "Text-to-video diffusion models generate realistic videos, but often fail on prompts requiring fine-grained compositional understanding, such as relations between entities, attributes, actions, and motion directions. We hypothesize that these failures need not be addressed by retraining the generator, but can instead be mitigated by steering the denoising process using the model's own internal grounding signals. We propose \\textbf{CVG}, an inference-time guidance method for improving compositional faithfulness in frozen text-to-video models. Our key observation is that cross-attention maps already encode how prompt concepts are grounded across space and time. We train a lightweight compositional classifier on these attention features and use its gradients during early denoising steps to steer the latent trajectory toward the desired composition. Built on a frozen VLM backbone, the classifier transfers across semantically related composition labels rather than relying only on narrow category-specific features. CVG improves compositional generation without modifying the model architecture, fine-tuning the generator, or requiring layouts, boxes, or other user-supplied controls. Experiments on compositional text-to-video benchmarks show improved prompt faithfulness while preserving the visual quality of the underlying generator.",
+    "url": "http://arxiv.org/abs/2605.14988",
+    "pdf": "https://arxiv.org/pdf/2605.14988v1",
+    "keyword": "diffusion model",
+    "date": "2026-05-14",
+    "fetched_date": "2026-05-16",
+    "authors": [
+      "Ariel Shaulov",
+      "Eitan Shaar",
+      "Amit Edenzon",
+      "Gal Chechik",
+      "Lior Wolf"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "ACE-LoRA: Adaptive Orthogonal Decoupling for Continual Image Editing",
+    "abstract": "State-of-the-art diffusion models often rely on parameter-efficient fine-tuning to perform specialized image editing tasks. However, real-world applications require continual adaptation to new tasks while preserving previously learned knowledge. Despite the practical necessity, continual learning for image editing remains largely underexplored. We propose ACE-LoRA, a dynamic regularization framework for continual image editing that effectively mitigates catastrophic forgetting. ACE-LoRA leverages Adaptive Orthogonal Decoupling to identify and orthogonalize task interference, and introduces a Rank-Invariant Historical Information Compression strategy to address scalability issues in continual updates. To facilitate continual learning in image editing and provide a standardized evaluation protocol, we introduce CIE-Bench, the first comprehensive benchmark in this domain. CIE-Bench encompasses diverse and practically relevant image editing scenarios with a balanced level of difficulty to effectively expose limitations of existing models while remaining compatible with parameter-efficient fine-tuning. Extensive experiments demonstrate that our method consistently outperforms existing baselines in terms of instruction fidelity, visual realism, and robustness to forgetting, establishing a strong foundation for continual learning in image editing.",
+    "url": "http://arxiv.org/abs/2605.14948",
+    "pdf": "https://arxiv.org/pdf/2605.14948v1",
+    "keyword": "diffusion model",
+    "date": "2026-05-14",
+    "fetched_date": "2026-05-16",
+    "authors": [
+      "Yuehao Liu",
+      "Weijia Zhang",
+      "Xuanming Shang",
+      "Zhizhou Chen",
+      "Yanhao Ge",
+      "Shanyan Guan",
+      "Chao Ma"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "SEDiT: Mask-Free Video Subtitle Erasure via One-step Diffusion Transformer",
+    "abstract": "Recent breakthroughs in video diffusion models have significantly accelerated the development of video editing techniques. However, existing methods often rely on inpainting video frames based on masked input, which requires extracting the target video mask in advance, and the precision of the segmentation directly affects the quality of the completion. In this paper, we present SEDiT, a novel one-stage video Subtitle Erasure approach via One-step Diffusion Transformer. We introduce a mask-free inference approach that enables direct erasure of the targeted subtitle. The proposed one-stage framework mitigates the sub-optimality inherent in the two-stage processing of prior models. Since subtitle removal is a localized editing task in which most pixels remain unchanged, the underlying distribution shift is minimal, making it well-suited to one-step generation under rectified flow. We empirically validate the reliability of one-step denoising and further provide a formal theoretical justification. Under the localized-editing structure of subtitle removal, the conditional optimal transport (OT) map and its induced rectified flow velocity field are Lipschitz continuous with respect to the latent variable, which underpins the theoretical feasibility of one-step sampling. To address the challenge of long-term temporal consistency, we adopt a hybrid training strategy by occasionally conditioning the model with a clean first-frame latent. This facilitates temporal continuity, allowing each segment during inference to leverage the output of its predecessor. To avoid visible seams caused by cropping and reinserting processed targets, particularly in scenarios involving substantial motion, we feed the original video directly into SEDiT. Thanks to one-step and chunk-wise streaming inference, our method can efficiently handle native 1440p video with infinite length.",
+    "url": "http://arxiv.org/abs/2605.14894",
+    "pdf": "https://arxiv.org/pdf/2605.14894v1",
+    "keyword": "diffusion model",
+    "date": "2026-05-14",
+    "fetched_date": "2026-05-16",
+    "authors": [
+      "Zheng Hui",
+      "Yunlong Bai"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "HDRFace: Rethinking Face Restoration with High-Dimensional Representation",
+    "abstract": "Face restoration under complex degradations still remains an ill-posed inverse problem due to severe information loss. Although diffusion models benefit from strong generative priors, most methods still condition only on low-quality inputs, making it difficult to recover identity-critical details under heavy degradations. In this work, we propose HDRFace, a High-Dimensional Representation conditioned Face restoration framework that injects semantically rich priors into the conditional flow without modifying the generative backbone. Our pipeline first obtains a structurally reliable intermediate restoration with an off-the-shelf restorer, then uses a pretrained high-dimensional feature encoder to extract fine-grained facial representations from both the low-quality input and the intermediate result, and injects them as additional conditions for generation. We further introduce SDFM, a Structure-Detail aware adaptive Fusion Mechanism that emphasizes global constraints during structure modeling and strengthens representation guidance during detail synthesis, balancing structural consistency and detail fidelity. To validate the generalization ability of our method, we implement the proposed framework on two generative models, SD V2.1-base and Qwen-Image, and consistently observe stable and coherent performance gains across different architectures.",
+    "url": "http://arxiv.org/abs/2605.14821",
+    "pdf": "https://arxiv.org/pdf/2605.14821v1",
+    "keyword": "diffusion model",
+    "date": "2026-05-14",
+    "fetched_date": "2026-05-16",
+    "authors": [
+      "Zirui Wang",
+      "Xianhui Lin",
+      "Yi Dong",
+      "Bo Wei",
+      "Gangjian Zhang",
+      "Siteng Ma",
+      "Zebiao Zheng",
+      "Xing Liu",
+      "Hong Gu",
+      "Minjing Dong"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "Probing into Camera Control of Video Models",
+    "abstract": "Video is a rich and scalable source of 3D/4D visual observations, and camera control is a key capability for video generation models to produce geometrically meaningful content. Existing approaches typically learn a mapping from camera motion to video using additional camera modules and paired data. However, such datasets are often limited in scale, diversity, and scene dynamics, which can bias the model toward a narrow output distribution and compromise the strong prior learned by the base model. These limitations motivate a different perspective on camera control. In this paper, we show that camera control need not be modeled as an implicit mapping problem, but can instead be treated as a form of geometric guidance that induces displacements across frames. Specifically, we reformulate camera control into a set of displacement fields and apply them via differentiable resampling of latent features during denoising. Our simple approach achieves effective camera control with minimal degradation across diverse quality metrics compared to fine-tuned baselines. Since our method is applicable to most video diffusion models without training, it can also serve as a probe to study the camera control capabilities of base models. Using this probe, we identify universal biases shared by representative video models, as well as disparities in their responses to camera control. Finally, we benchmark their performance in multi-view generation, offering insights into their potential for 3D/4D tasks.",
+    "url": "http://arxiv.org/abs/2605.14815",
+    "pdf": "https://arxiv.org/pdf/2605.14815v1",
+    "keyword": "diffusion model",
+    "date": "2026-05-14",
+    "fetched_date": "2026-05-16",
+    "authors": [
+      "Chen Hou",
+      "Christian Rupprecht"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "VMU-Diff: A Coarse-to-fine Multi-source Data Fusion Framework for Precipitation Nowcasting",
+    "abstract": "Precipitation nowcasting is a vital spatio-temporal prediction task for meteorological applications but faces challenges due to the chaotic property of precipitation systems. Existing methods predominantly rely on single-source radar data to build either deterministic or probabilistic models for extrapolation. However, the single deterministic model suffers from blurring due to MSE convergence. The single probabilistic model, typically represented by diffusion models, can generate fine details but suffers from spurious artifacts that compromise accuracy and computational inefficiency. To address these challenges, this paper proposes a novel coarse-to-fine Vision Mamba Unet and residual Diffusion (VMU-Diff) based precipitation nowcasting framework. It realizes precipitation nowcasting through a two-stage process, i.e., a deterministic model-based coarse stage to predict global motion trends and a probabilistic model-based fine stage to generate fine prediction details. In the coarse prediction stage, rather than single-source radar data, both radar and multi-band satellite data are taken as input. A spatial-temporal attention block and several Vision mamba state-space blocks realize multi-source data fusion, and predict the future echo global dynamics. The fine-grained stage is realized by a spatio-temporal refine generator based on residual conditional diffusion models. It first obtains spatio-temporal residual features based on coarse prediction and ground truth, and further reconstructs the residual via conditional Mamba state-space module. Experiments on Jiangsu SWAN datasets demonstrate the improvements of our method over state-of-the-art methods, particularly in short-term forecasts.",
+    "url": "http://arxiv.org/abs/2605.14597",
+    "pdf": "https://arxiv.org/pdf/2605.14597v1",
+    "keyword": "diffusion model",
+    "date": "2026-05-14",
+    "fetched_date": "2026-05-16",
+    "authors": [
+      "Chunlei Shi",
+      "Hao Li",
+      "Yufeng Zhu",
+      "Boyu Liu",
+      "Yongchao Feng",
+      "Zengliang Zang",
+      "Hongbin Wang",
+      "Yanlan Yang",
+      "Dan Niu"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "Quantitative Video World Model Evaluation for Geometric-Consistency",
+    "abstract": "Generative video models are increasingly studied as implicit world models, yet evaluating whether they produce physically plausible 3D structure and motion remains challenging. Most existing video evaluation pipelines rely heavily on human judgment or learned graders, which can be subjective and weakly diagnostic for geometric failures. We introduce PDI-Bench (Perspective Distortion Index), a quantitative framework for auditing geometric coherence in generated videos. Given a generated clip, we obtain object-centric observations via segmentation and point tracking (e.g., SAM 2, MegaSaM, and CoTracker3), lift them to 3D world-space coordinates via monocular reconstruction, and compute a set of projective-geometry residuals capturing three failure dimensions: scale-depth alignment, 3D motion consistency, and 3D structural rigidity. To support systematic evaluation, we build PDI-Dataset, covering diverse scenarios designed to stress these geometric constraints. Across state-of-the-art video generators, PDI reveals consistent geometry-specific failure modes that are not captured by common perceptual metrics, and provides a diagnostic signal for progress toward physically grounded video generation and physical world model. Our code and dataset can be found at https://pdi-bench.github.io/.",
+    "url": "http://arxiv.org/abs/2605.15185",
+    "pdf": "https://arxiv.org/pdf/2605.15185v1",
+    "keyword": "world model",
+    "date": "2026-05-14",
+    "fetched_date": "2026-05-16",
+    "authors": [
+      "Jiaxin Wu",
+      "Yihao Pi",
+      "Yinling Zhang",
+      "Yuheng Li",
+      "Xueyan Zou"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "SANA-WM: Efficient Minute-Scale World Modeling with Hybrid Linear Diffusion Transformer",
+    "abstract": "We introduce SANA-WM, an efficient 2.6B-parameter open-source world model natively trained for one-minute generation, synthesizing high-fidelity, 720p, minute-scale videos with precise camera control. SANA-WM achieves visual quality comparable to large-scale industrial baselines such as LingBot-World and HY-WorldPlay, while significantly improving efficiency. Four core designs drive our architecture: (1) Hybrid Linear Attention combines frame-wise Gated DeltaNet (GDN) with softmax attention for memory-efficient long-context modeling. (2) Dual-Branch Camera Control ensures precise 6-DoF trajectory adherence. (3) Two-Stage Generation Pipeline applies a long-video refiner to stage-1 outputs, improving quality and consistency across sequences. (4) Robust Annotation Pipeline extracts accurate metric-scale 6-DoF camera poses from public videos to yield high-quality, spatiotemporally consistent action labels. Driven by these designs, SANA-WMdemonstrates remarkable efficiency across data, training compute, and inference hardware: it uses only $\\sim$213K public video clips with metric-scale pose supervision, completes training in 15 days on 64 H100s, and generates each 60s clip on a single GPU; its distilled variant can be deployed on a single RTX 5090 with NVFP4 quantization to denoise a 60s 720p clip in 34s. On our one-minute world-model benchmark, SANA-WM demonstrates stronger action-following accuracy than prior open-source baselines and achieves comparable visual quality at $36\\times$ higher throughput for scalable world modeling.",
+    "url": "http://arxiv.org/abs/2605.15178",
+    "pdf": "https://arxiv.org/pdf/2605.15178v1",
+    "keyword": "world model",
+    "date": "2026-05-14",
+    "fetched_date": "2026-05-16",
+    "authors": [
+      "Haoyi Zhu",
+      "Haozhe Liu",
+      "Yuyang Zhao",
+      "Tian Ye",
+      "Junsong Chen",
+      "Jincheng Yu",
+      "Tong He",
+      "Song Han",
+      "Enze Xie"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "Causal Forcing++: Scalable Few-Step Autoregressive Diffusion Distillation for Real-Time Interactive Video Generation",
+    "abstract": "Real-time interactive video generation requires low-latency, streaming, and controllable rollout. Existing autoregressive (AR) diffusion distillation methods have achieved strong results in the chunk-wise 4-step regime by distilling bidirectional base models into few-step AR students, but they remain limited by coarse response granularity and non-negligible sampling latency. In this paper, we study a more aggressive setting: frame-wise autoregression with only 1--2 sampling steps. In this regime, we identify the initialization of a few-step AR student as the key bottleneck: existing strategies are either target-misaligned, incapable of few-step generation, or too costly to scale. We propose \\textbf{Causal Forcing++}, a principled and scalable pipeline that uses \\emph{causal consistency distillation} (causal CD) for few-step AR initialization. The core idea is that causal CD learns the same AR-conditional flow map as causal ODE distillation, but obtains supervision from a single online teacher ODE step between adjacent timesteps, avoiding the need to precompute and store full PF-ODE trajectories. This makes the initialization both more efficient and easier to optimize. The resulting pipeline, \\ours, surpasses the SOTA 4-step chunk-wise Causal Forcing under the \\textit{\\textbf{frame-wise 2-step setting}} by 0.1 in VBench Total, 0.3 in VBench Quality, and 0.335 in VisionReward, while reducing first-frame latency by 50\\% and Stage 2 training cost by $\\sim$$4\\times$. We further extend the pipeline to action-conditioned world model generation in the spirit of Genie3. Project Page: https://github.com/thu-ml/Causal-Forcing and https://github.com/shengshu-ai/minWM .",
+    "url": "http://arxiv.org/abs/2605.15141",
+    "pdf": "https://arxiv.org/pdf/2605.15141v1",
+    "keyword": "world model",
+    "date": "2026-05-14",
+    "fetched_date": "2026-05-16",
+    "authors": [
+      "Min Zhao",
+      "Hongzhou Zhu",
+      "Kaiwen Zheng",
+      "Zihan Zhou",
+      "Bokai Yan",
+      "Xinyuan Li",
+      "Xiao Yang",
+      "Chongxuan Li",
+      "Jun Zhu"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "IFPV: An Integrated Multi-Agent Framework for Generative Operational Planning and High-Fidelity Plan Verification",
+    "abstract": "Operational plan generation and verification are critical for modern complex and rapidly changing battlefield environments, yet traditional generation and verification methods still respectively face the challenges of generation infeasibility and verification insufficiency. To alleviate these limitations, we propose an Integrated Multi-Agent Framework for Generative Operational Planning and High-Fidelity Plan Verification (IFPV). IFPV consists of two tightly coupled modules: Multi-Perspective Hierarchical Agents (MPHA) for generative operational planning and an Adversarial Cognitive Simulation Engine (ACSE) for high-fidelity adversarial plan verification. MPHA decomposes commander intent into executable multi-platform tactical action sequences through the collaboration of Pathfinder, Analyst, and Planner agents. ACSE introduces an opponent equipped with a customized world model, which predicts the future evolution of mission-critical platforms and conducts dynamic counteractions against candidate plans. Simulation experiments in the Asymmetric Combat Tactic Simulator (ACTS) show that IFPV improves mission success by 19.4% and reduces operational cost by 41.7% compared with a single-step large language model (LLM) planning baseline. Compared with a traditional rule-based validator, ACSE increases the average suppression rate by 31.8%, indicating that the proposed verification environment is stricter and more discriminative in revealing the latent vulnerabilities of candidate plans. The code for IFPV can be found at https://github.com/zhigao3ks/IFPV.",
+    "url": "http://arxiv.org/abs/2605.14851",
+    "pdf": "https://arxiv.org/pdf/2605.14851v1",
+    "keyword": "world model",
+    "date": "2026-05-14",
+    "fetched_date": "2026-05-16",
+    "authors": [
+      "Zhigao Huang",
+      "Zhengqing Hu",
+      "Dong Chen",
+      "Shaohan Zhang",
+      "Zhao Jin",
+      "Bo Zhang",
+      "Han Wu",
+      "Mingliang Xu"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "When Robots Do the Chores: A Benchmark and Agent for Long-Horizon Household Task Execution",
+    "abstract": "Long-horizon household tasks demand robust high-level planning and sustained reasoning capabilities, which are largely overlooked by existing embodied AI benchmarks that emphasize short-horizon navigation or manipulation and rely on fixed task categories. We introduce LongAct, a benchmark designed to evaluate planning-level autonomy in long-horizon household tasks specified through free-form instructions. By abstracting away embodiment-specific low-level control, LongAct isolates high-level cognitive capabilities such as instruction understanding, dependency management, memory maintenance, and adaptive planning. We further propose HoloMind, a VLM-driven agent with a DAG-based long-horizon hierarchical planner, a Multimodal Spatial Memory for persistent world modeling, an Episodic Memory for experience reuse, and a global Critic for reflective supervision. Experiments with GPT-5 and Qwen3-VL models show that HoloMind substantially improves long-horizon performance while reducing reliance on model scale. Even top models achieve only 59% goal completion and 16% full-task success, underscoring the difficulty of LongAct and the need for stronger long-horizon planning in embodied agents.",
+    "url": "http://arxiv.org/abs/2605.14504",
+    "pdf": "https://arxiv.org/pdf/2605.14504v1",
+    "keyword": "world model",
+    "date": "2026-05-14",
+    "fetched_date": "2026-05-16",
+    "authors": [
+      "Zilin Zhu",
+      "Longteng Guo",
+      "Yanghong Mei",
+      "Bowen Pang",
+      "Zongxun Zhang",
+      "Xingjian He",
+      "Ruyi Ji",
+      "Jing Liu"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "Coding Agent Is Good As World Simulator",
+    "abstract": "World models have emerged as a powerful paradigm for building interactive simulation environments, with recent video-based approaches demonstrating impressive progress in generating visually plausible dynamics. However, because these models typically infer dynamics from video and represent them in latent states, they do not explicitly enforce physical constraints. As a result, the generated video rollouts are not physically plausible, exhibiting unstable contacts, distorted shapes, or inconsistent motion. In this paper, we present an agentic framework constructing physics-based world models through executable simulation code. The framework coordinates planning, code generation, visual review, and physics analysis agents. The planning agent converts the natural language prompt into a structured scene plan, the code agent implements it as executable simulation code, and the visual review agent provide visual feedback while the physics analysis agent checks physical consistency. The code is iteratively revised based on the feedback until the simulation matches the prompt reqirements and physical constraints. Experimental results show that our framework outperforms advanced video-based models in physical accuracy, instruction fidelity and visual quality, which could be applied to various scenarios including driving simulation and embodied robot tasks.",
+    "url": "http://arxiv.org/abs/2605.14398",
+    "pdf": "https://arxiv.org/pdf/2605.14398v1",
+    "keyword": "world model",
+    "date": "2026-05-14",
+    "fetched_date": "2026-05-16",
+    "authors": [
+      "Hongyu Wang",
+      "Jingquan Wang",
+      "Bocheng Zou",
+      "Radu Serban",
+      "Dan Negrut"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "Discrimination Is Generation: Unifying Ranking and Retrieval from a Tokenizer Perspective",
+    "abstract": "Semantic IDs (SIDs) define the generation space of generative recommendation and directly determine its personalization ceiling. However, existing tokenizers are trained independently with retrieval objectives, leaving personalization signals fully decoupled from the SID construction process -- a fundamental gap that causes generative retrieval to persistently lag behind discriminative ranking. In this paper, we rethink the essence of SIDs: \\emph{ranking seeks argmax in item space while retrieval seeks argmax in token space; both are the same problem solved at different granularities.} Based on this insight, we propose \\DIG (\\textbf{D}iscrimination \\textbf{I}s \\textbf{G}eneration), which embeds the tokenizer inside a discriminative ranking model for end-to-end training -- the ranker naturally becomes a retrieval model, yielding two models from a single training run. \\DIG is organized around a \\emph{feature assignment taxonomy}: item-intrinsic static features are encoded into SIDs, user-item cross features (u2i) implicitly drive codebook boundaries toward recommendation decision boundaries during training, and an MLP$_\\mathrm{u2t}$ distillation module approximates u2i at the token level for inference. Experiments on three public benchmarks and two industrial datasets demonstrate that \\DIG simultaneously improves ranking, retrieval, and unified retrieval-ranking quality.",
+    "url": "http://arxiv.org/abs/2605.14853",
+    "pdf": "https://arxiv.org/pdf/2605.14853v1",
+    "keyword": "generative recommendation",
+    "date": "2026-05-14",
+    "fetched_date": "2026-05-16",
+    "authors": [
+      "Shuli Wang",
+      "Junwei Yin",
+      "Changhao Li",
+      "Senjie Kou",
+      "Chi Wang",
+      "Yinqiu Huang",
+      "Yinhua Zhu",
+      "Haitao Wang",
+      "Xingxing Wang"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "Asymmetric Generative Recommendation via Multi-Expert Projection and Multi-Faceted Hierarchical Quantization",
+    "abstract": "Generative Recommendation (GenRec) models reformulate recommendation as a sequence generation task, representing items as discrete Semantic IDs used symmetrically as both inputs and prediction targets. We identify a critical dual-stage information bottleneck in this design: (1) the Input Bottleneck, where lossy quantization degrades fine-grained semantics, while popularity bias skews the learned representations toward frequent items, and (2) the Output Bottleneck, where imprecise discrete targets limit supervision quality. To address these issues, we propose AsymRec, an asymmetric continuous-discrete framework that decouples input and output representations. Specifically, Multi-expert Semantic Projection (MSP) maps continuous embeddings into the Transformer's hidden space via expert-specialized projections, preserving semantic richness and improving generalization to infrequent items. Multi-faceted Hierarchical Quantization (MHQ) constructs high-capacity, structured discrete targets through multi-view and multi-level quantization with semantic regularization, preventing dimensional collapse while retaining fine-grained distinctions. Extensive experiments demonstrate that AsymRec consistently outperforms state-of-the-art generative recommenders by an average of 15.8 %. The code will be released.",
+    "url": "http://arxiv.org/abs/2605.14512",
+    "pdf": "https://arxiv.org/pdf/2605.14512v1",
+    "keyword": "generative recommendation",
+    "date": "2026-05-14",
+    "fetched_date": "2026-05-16",
+    "authors": [
+      "Bin Huang",
+      "Xin Wang",
+      "Junwei Pan",
+      "Yongqi Zhou",
+      "Yifeng Zhou",
+      "Zhixiang Feng",
+      "Shudong Huang",
+      "Haijie Gu",
+      "Wenwu Zhu"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "MLPs are Efficient Distilled Generative Recommenders",
+    "abstract": "Generative recommendation models employing Semantic IDs (SIDs) exhibit strong potential, yet their practical deployment is bottlenecked by the high inference latency of beam-expanded autoregressive decoding. In this work, we identify that standard attention-heavy Transformer decoders represent a structural overkill for this task: the hierarchical nature of SIDs makes prediction difficulty drops sharply after the first token, rendering repeated attention computations highly redundant. Driven by this insight, we propose SID-MLP, a lightweight MLP-centric distillation framework that fundamentally simplifies the decoding paradigm for GR. Instead of executing complex, step-by-step attention mechanisms, our approach captures the global user context in a single operation, decoupled from sequential token prediction. We then distill the heavy autoregressive teacher into position-specific MLP heads, eliminating the dense attention overhead while preserving prefix and context dependencies. Extensive experiments demonstrate that SID-MLP matches the accuracy of teacher models while accelerating inference by 8.74x. Crucially, this distillation strategy can serve as a plug-and-play accelerator for different backbones and tokenizer settings. Furthermore, we introduce SID-MLP++, extending our distillation framework to replace the Transformer encoder, unlocking further latency reductions. Ultimately, our work reveals that decoder-side MLPs distillation is an effective acceleration path for structured SID recommendation, while full encoder replacement offers an additional speed--accuracy trade-off.",
+    "url": "http://arxiv.org/abs/2605.12617",
+    "pdf": "https://arxiv.org/pdf/2605.12617v1",
+    "keyword": "generative recommendation",
+    "date": "2026-05-12",
+    "fetched_date": "2026-05-16",
+    "authors": [
+      "Zitian Guo",
+      "Yupeng Hou",
+      "Clark Mingxuan Ju",
+      "Neil Shah",
+      "Julian McAuley"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "TwiSTAR:Think Fast, Think Slow, Then Act,Generative Recommendation with Adaptive Reasoning",
+    "abstract": "Generative recommendation with Semantic IDs (SIDs) has emerged as a promising paradigm, yet existing methods apply a fixed inference strategy, either fast direct generation or slow chain-of-thought reasoning, uniformly across all user histories. This approach creates a trade-off: fast recommendation model produces suboptimal accuracy on hard samples, while always invoking slow reasoning incurs prohibitive latency and wastes computation on easy cases. To address this, we propose Think Fast, Think Slow, Then Act, a framework that learns to adaptively allocate reasoning effort per user sequence. Our system equips an LLM with three complementary tools: a fast SID-based retriever, a lightweight candidate ranker, and a slow reasoning model that generates explicit rationales before recommending. Crucially, we inject collaborative commonsense into the slow model by transforming item-to-item knowledge into natural language explanations. A planner, trained through supervised warm-up followed by agentic reinforcement learning, dynamically decides which tool to invoke. Experiments on three datasets demonstrate that our method outperforms strong baselines, achieving consistent accuracy gains while reducing inference latency compared to uniform slow reasoning.",
+    "url": "http://arxiv.org/abs/2605.11553",
+    "pdf": "https://arxiv.org/pdf/2605.11553v1",
+    "keyword": "generative recommendation",
+    "date": "2026-05-12",
+    "fetched_date": "2026-05-16",
+    "authors": [
+      "Shiteng Cao",
+      "Kaian Jiang",
+      "Yunlong Gong",
+      "Zhiheng Li"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "Conditional Memory Enhanced Item Representation for Generative Recommendation",
+    "abstract": "Generative recommendation (GR) has emerged as a promising paradigm that predicts target items by autoregressively generating their semantic identifiers (SID). Most GR methods follow a quantization-representation-generation pipeline, first assigning each item a SID, then constructing input representations from SID-token embeddings, and finally predicting the target SID through autoregressive generation. Existing item-level representation constructions mainly take two forms: directly merging SID-token embeddings into a compact vector, or enriching item-level representations with external inputs through additional networks. However, these item-level constructors still expose two practical challenges: direct merging may amplify the information loss caused by quantization and ID collision while obscuring SID code relations, whereas external-input-based methods can strengthen item semantics but cannot reliably preserve the SID-structured evidence required for token-level generation. These limitations make representation construction an underexplored bottleneck, leading to two severe problems, \\ie{} the Identity-Structure Preservation Conflict and Input-Output Granularity Mismatch. To this end, we propose ComeIR, a Conditional Memory enhanced Item Representation framework that reconstructs SID-token embeddings into item-aware inputs and restores the token granularity during SID decoding. Specifically, MM-guided token scoring adaptively estimates the contribution of each code within the SID, dual-level Engram memory captures intra-item code composition and inter-item transition patterns, and a memory-restoring prediction head reuses the memories during SID decoding. Extensive experiments demonstrate the effectiveness and flexibility of ComeIR, and further reveal scalable gains from enlarging conditional memory.",
+    "url": "http://arxiv.org/abs/2605.11447",
+    "pdf": "https://arxiv.org/pdf/2605.11447v1",
+    "keyword": "generative recommendation",
+    "date": "2026-05-12",
+    "fetched_date": "2026-05-16",
+    "authors": [
+      "Ziwei Liu",
+      "Yejing Wang",
+      "Shengyu Zhou",
+      "Xinhang Li",
+      "Xiangyu Zhao"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "ReMIA: a Powerful and Efficient Alternative to Membership Inference Attacks against Synthetic Data Generators",
+    "abstract": "Tabular data sharing under privacy constraints is increasingly important for research and collaboration. Synthetic data generators (SDGs) are a promising solution, but synthetic data remains vulnerable to attacks, such as membership inference attacks (MIAs), which aim to determine whether a specific record was part of the training data. State-of-the-art MIAs are powerful but impractical: they rely on shadow modeling, requiring hundreds of SDG training runs, and need auxiliary data several times larger than the original training set. Fast proxy metrics like distance to closest record (DCR) are efficient but have limited sensitivity to MIA risk. We introduce ReMIA (Relative Membership Inference Attack), a practical privacy metric that requires only two SDG training runs and additional data no larger than the original training set. Rather than predicting whether a record was in the training set, ReMIA generates two synthetic datasets from two source datasets and measures whether a classifier can identify which source a record came from. Experiments across multiple tabular datasets and SDGs show that ReMIA has a sensitivity comparable to state-of-the-art MIAs while being substantially more practical. We further observe that SDGs can achieve privacy-utility trade-offs that traditional noise-based anonymization methods do not match. Code is available at https://github.com/aindo-com/remia.",
+    "url": "http://arxiv.org/abs/2605.14686",
+    "pdf": "https://arxiv.org/pdf/2605.14686v1",
+    "keyword": "synthetic data generation",
+    "date": "2026-05-14",
+    "fetched_date": "2026-05-16",
+    "authors": [
+      "Davide Scassola",
+      "Andrea Coser",
+      "Sebastiano Saccani"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "Synthetic American Option Pricing via Jump-HMM-Driven Heston Implied Volatility",
+    "abstract": "Generating realistic synthetic option prices requires implied volatility as an input, yet implied volatility is itself derived from observed option prices, creating a circular dependency that limits synthetic data for machine-learning and risk-analysis applications. We break this circularity with a pipeline in which implied volatility emerges as an output of a structural model of equity returns. A Jump Hidden Markov Model produces multi-asset price paths with realistic stylized facts and cross-asset tail dependence; a modified Heston variance process, whose mean-reversion target depends on regime state, days to expiration, moneyness, and a market-mood indicator, converts those paths into implied-volatility paths; and a recombining binomial lattice prices American options from the resulting surface. Initializing variance at its mean-reversion target for each strike-expiration pair lets smile, skew, and term structure emerge without external calibration. We calibrate the shape function through a hierarchy spanning a parametric baseline, a globally shared neural surrogate, and a sector-specific neural surrogate fit to a multi-ticker, multi-sector option ladder. A temporal holdout on a multi-day capture isolated scheduled corporate events as the dominant source of test-time generalization error, and calendar-derived earnings-distance and same-sector peer-coupling features recovered the anticipatory portion of that signal. We then apply the framework as a synthetic-data generator on real near-the-money put and call contracts, forward-simulating price paths, and recovering path-conditional implied volatility, finite-difference American Greeks, and terminal short-premium profit and loss from one coherent simulation, and confirm cross-ticker robustness by re-running on a second underlying from a different sector and volatility regime. The framework is released as an open-source Julia package.",
+    "url": "http://arxiv.org/abs/2605.13998",
+    "pdf": "https://arxiv.org/pdf/2605.13998v1",
+    "keyword": "synthetic data generation",
+    "date": "2026-05-13",
+    "fetched_date": "2026-05-16",
+    "authors": [
+      "Julia Sun",
+      "Zheyu Jin",
+      "Jiawei Zhang",
+      "Jeffrey D. Varner"
+    ],
+    "article_type": "research"
   }
 ]

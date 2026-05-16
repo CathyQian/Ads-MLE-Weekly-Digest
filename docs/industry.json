@@ -7258,5 +7258,135 @@
     "fetched_date": "2026-05-15",
     "feed_name": "Modern Retail",
     "source": "industry"
+  },
+  {
+    "title": "A new personal finance experience in ChatGPT",
+    "abstract": "Preview a new personal finance experience in ChatGPT for Pro users in the U.S. Securely connect your financial accounts and get AI-powered insights and guidance grounded in your financial context, goals, and priorities.",
+    "url": "https://openai.com/index/personal-finance-chatgpt",
+    "topic": "llm",
+    "date": "2026-05-15",
+    "fetched_date": "2026-05-16",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Databricks brings GPT-5.5 to enterprise agent workflows",
+    "abstract": "Databricks uses GPT-5.5 for enterprise agent workflows after the model set a new state of the art on the OfficeQA Pro benchmark.",
+    "url": "https://openai.com/index/databricks",
+    "topic": "llm",
+    "date": "2026-05-15",
+    "fetched_date": "2026-05-16",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "inaturalist-clumper 0.1",
+    "abstract": "Release: inaturalist-clumper 0.1 Part of the infrastructure I use for publishing my iNaturalist sightings on my blog . I've been running this in production for a few weeks now, inspiring some iterations on how it works, so I decided to ship a 0.1 release. You can see an example of the output in this JSON file . Tags: projects , inaturalist",
+    "url": "https://simonwillison.net/2026/May/15/inaturalist-clumper/#atom-everything",
+    "topic": "llm",
+    "date": "2026-05-15",
+    "fetched_date": "2026-05-16",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Western Gull, Rock Pigeon",
+    "abstract": "Western Gull, Rock Pigeon, in Los Angeles Area (custom), CA, US I went for a bird walk in the morning before PyCon, and we spotted a local seagull enjoying a Starbucks.",
+    "url": "https://simonwillison.net/2026/May/15/sighting-361818285/#atom-everything",
+    "topic": "llm",
+    "date": "2026-05-15",
+    "fetched_date": "2026-05-16",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "QR code generator",
+    "abstract": "Tool: QR code generator Claude helped me build this tool for creating QR codes, for both text/URLs and for connecting to WiFi networks. Tags: vibe-coding , tools , generative-ai , ai , llms",
+    "url": "https://simonwillison.net/2026/May/15/qr-code-generator/#atom-everything",
+    "topic": "llm",
+    "date": "2026-05-15",
+    "fetched_date": "2026-05-16",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "datasette-llm-limits 0.1a0",
+    "abstract": "Release: datasette-llm-limits 0.1a0 This plugin works in conjunction with datasette-llm and datasette-llm-accountant to let you configure a per-user (or global) spending limit for LLM usage inside of Datasette. Configuration looks something like this: plugins : datasette-llm-limits : limits : per-user-daily : scope : actor window : rolling-24h amount_usd : 1.00 Tags: llm , datasette",
+    "url": "https://simonwillison.net/2026/May/15/datasette-llm-limits/#atom-everything",
+    "topic": "llm",
+    "date": "2026-05-15",
+    "fetched_date": "2026-05-16",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Weekly Top Picks #121",
+    "abstract": "Hottest AI job: FDEs / Trump in China / No jobpocalypse / AI models fixing benchmarks / Americans agree: \"no datacenters here\" / Claude 3 vs Claude 4",
+    "url": "https://www.thealgorithmicbridge.com/p/weekly-top-picks-121",
+    "topic": "llm",
+    "date": "2026-05-15",
+    "fetched_date": "2026-05-16",
+    "feed_name": "The Algorithmic Bridge",
+    "source": "industry"
+  },
+  {
+    "title": "The OpenAI trial wraps up, and the Musk founder machine keeps spinning",
+    "abstract": "The Musk v. Altman trial came to a close this week, and the final arguments kept circling back to one question: can we trust the people in charge of AI? All of this is playing out as SpaceX charges toward what could be one of the largest IPOs in American history, with a whole generation of founders already spinning out […]",
+    "url": "https://techcrunch.com/podcast/the-openai-trial-wraps-up-and-the-musk-founder-machine-keeps-spinning/",
+    "topic": "llm",
+    "date": "2026-05-15",
+    "fetched_date": "2026-05-16",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Silicon Valley’s vacationland needs a new energy provider just as AI is driving prices up",
+    "abstract": "Lake Tahoe, Silicon Valley's favorite vacation spot, is about to get hit with higher energy prices as AI drives demand for electricity.",
+    "url": "https://techcrunch.com/2026/05/15/silicon-valleys-vacationland-needs-a-new-energy-provider-just-as-ai-is-driving-prices-up/",
+    "topic": "llm",
+    "date": "2026-05-15",
+    "fetched_date": "2026-05-16",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "OpenAI launches ChatGPT for personal finance, will let you connect bank accounts",
+    "abstract": "Once users connect their accounts, they will see a dashboard of their portfolio performance, spending, subscriptions, and upcoming payments.",
+    "url": "https://techcrunch.com/2026/05/15/openai-launches-chatgpt-for-personal-finance-will-let-you-connect-bank-accounts/",
+    "topic": "llm",
+    "date": "2026-05-15",
+    "fetched_date": "2026-05-16",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Runway started by helping filmmakers — now it wants to beat Google at AI",
+    "abstract": "AI video-generation startup Runway is betting that video generation is the path to world models. And that being an AI outsider is an advantage, not a liability.",
+    "url": "https://techcrunch.com/2026/05/15/runway-started-by-helping-filmmakers-now-it-wants-to-beat-google-at-ai/",
+    "topic": "llm",
+    "date": "2026-05-15",
+    "fetched_date": "2026-05-16",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Osaurus brings both local and cloud AI models to your Mac",
+    "abstract": "Osaurus￼ combines local and cloud AI models in a Mac app that keeps users’ memory, files, and tools on their own hardware.",
+    "url": "https://techcrunch.com/2026/05/15/osaurus-brings-both-local-and-cloud-ai-models-to-your-mac/",
+    "topic": "llm",
+    "date": "2026-05-15",
+    "fetched_date": "2026-05-16",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Why every brand is now its own media company, featuring Prince Street Pizza",
+    "abstract": "Prince Street Pizza is boosting brand awareness with its \"Delivering Happiness\" online talk show, hosted by actor Nick Turturro and launched last September.",
+    "url": "https://www.modernretail.co/podcasts/why-every-brand-is-now-their-own-media-company-featuring-prince-street-pizza/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-05-16",
+    "fetched_date": "2026-05-16",
+    "feed_name": "Modern Retail",
+    "source": "industry"
   }
 ]
