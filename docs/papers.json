@@ -54754,5 +54754,172 @@
       "Marina Jirotka"
     ],
     "article_type": "research"
+  },
+  {
+    "title": "On the Power of Adaptivity for $\\varepsilon$-Best Arm Identification in Linear Bandits",
+    "abstract": "We study the minimax sample complexity of $\\varepsilon$-best arm identification in linear bandits. Given a compact action set $\\mathcal{X}$ that spans $\\mathbb{R}^d$ and an unknown reward vector $θ\\in\\mathbb{R}^d$, the goal is to output an arm $\\widehat{x}\\in\\mathcal{X}$ such that $\\langle \\widehat{x},θ\\rangle \\ge \\max_{x\\in\\mathcal{X}} \\langle x,θ\\rangle - \\varepsilon$ with probability at least $1-δ$, using as few samples as possible.\n  First, we present a non-adaptive fixed-design method with sample complexity $\\mathcal{O}\\!\\left(\\frac{d\\log(1/δ)}{\\varepsilon^2}+\\frac{w(\\mathcal{X})^2}{\\varepsilon^2}\\right)$, where $w(\\mathcal{X})$ is a Gaussian width term dependent on $\\mathcal{X}$, and we prove a matching lower bound $Ω\\!\\left(\\frac{d\\log(1/δ)}{\\varepsilon^2}+\\frac{w(\\mathcal{X})^2}{\\varepsilon^2}\\right)$ for all non-adaptive fixed-design methods.\n  We then turn to adaptive sampling. We raise an important structural question: beyond the canonical basis, are there structured action sets for which adaptivity yields only logarithmic-factor improvements over the optimal non-adaptive rate? We answer in the affirmative for several natural action sets, namely the hypercube, the $\\ell_2$ ball, $m$-sets, and multi-task multi-armed bandits.\n  Finally, we provide the first construction of an action set $\\mathcal{X}$ for which adaptivity yields a polynomial-factor improvement over every non-adaptive algorithm. A key ingredient behind this separation is an $\\ell_2$-norm estimation subroutine: we design an adaptive algorithm that uses $\\mathcal{O}\\!\\left(\\frac{d\\log(1/δ)}{\\varepsilon^2}\\right)$ samples from the unit $\\ell_2$ ball in $\\mathbb{R}^d$ and outputs an estimate $\\widehat r$ satisfying $|\\widehat r-\\|θ\\|_2|\\le \\varepsilon$ with probability at least $1-δ$, where $θ$ is the unknown reward vector.",
+    "url": "http://arxiv.org/abs/2605.15663",
+    "pdf": "https://arxiv.org/pdf/2605.15663v1",
+    "keyword": "multi-armed bandit",
+    "date": "2026-05-15",
+    "fetched_date": "2026-05-18",
+    "authors": [
+      "Arnab Maiti",
+      "Yunbei Xu",
+      "Kevin Jamieson"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "An LLM-RAG Approach for Healthy Eating Index-Informed Personalized Food Recommendations",
+    "abstract": "Diet quality is a leading determinant of chronic disease risk. Advances in artificial intelligence (AI) have enabled food recommendation systems to adapt suggestions to user preferences and health goals. However, most current systems rely on loosely curated food databases and provide limited connection to a validated index. In this study, we propose a Healthy Eating Index (HEI) informed retrieval-augmented generation (RAG) framework that combines standardized nutrition databases with large language models (LLMs) for personalized food recommendations. Our proposed method anchors retrieval in the National Health and Nutrition Examination Survey (NHANES) and the Food Patterns Equivalents Database (FPED). A food-level embedding space is constructed from FPED-derived textual descriptions. For each entity, the system computes baseline HEI scores, retrieves candidate foods for intake recommendations, and estimates the HEI impact of simple substitutions or additions. A constrained RAG pipeline instantiated with a pretrained OpenAI LLM generates personalized recommendations and sources based on nutrient profiles and HEI contributions. The simulation results showed a mean HEI improvement of 6.45, with the proportion of users HEI over 50 increasing from 45.12 to 61.26. Quantile analysis revealed consistent improved shifts across the HEI distribution. Our findings suggest that the proposed LLM-RAG-based AI systems can support more precise, explainable, and personalized nutrition guidance to improve diet quality.",
+    "url": "http://arxiv.org/abs/2605.15213",
+    "pdf": "https://arxiv.org/pdf/2605.15213v1",
+    "keyword": "personalized recommendation",
+    "date": "2026-05-11",
+    "fetched_date": "2026-05-18",
+    "authors": [
+      "Yibin Wang",
+      "Yanjie Yang",
+      "Grace Melo Guerrero",
+      "Rodolfo M. Nayga",
+      "Azlan Zahid"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "Contexting as Recommendation: Evolutionary Collaborative Filtering for Context Engineering",
+    "abstract": "Large Language Models (LLMs) are highly sensitive to their input contexts, motivating the development of automated context engineering. However, existing methods predominantly treat this as a global search problem, seeking a single context strategy that maximizes average performance across a dataset. This restrictive assumption overlooks the fact that different inputs often require distinct guidance, leaving substantial instance-level performance gains untapped. In this paper, we propose a paradigm shift by formulating context engineering as a recommendation problem. We introduce \\textbf{Neural Collaborative Context Engineering (NCCE)}, a framework that transitions optimization from a static global search to dynamic, instance-wise routing. NCCE first bootstraps a diverse catalog of anchor contexts and then employs a novel \\textbf{Context-CF Co-Evolution} mechanism. This stage establishes a synergistic feedback loop: a lightweight Neural Collaborative Filtering (NCF) model learns instance-context preferences to guide the generation of specialized context variants, while the newly evaluated contexts continuously refine the NCF model's understanding of latent preferences. At inference time, the trained NCF model acts as a context router, dynamically assigning the most suitable context strategy to each unseen instance. Theoretical Proofs and comprehensive experiments demonstrate that by matching individual inputs with their optimal contexts, NCCE significantly improves task accuracy, highlighting the critical importance of personalization in LLM context engineering.",
+    "url": "http://arxiv.org/abs/2605.15721",
+    "pdf": "https://arxiv.org/pdf/2605.15721v1",
+    "keyword": "collaborative filtering",
+    "date": "2026-05-15",
+    "fetched_date": "2026-05-18",
+    "authors": [
+      "Jiachen Zhu",
+      "Zhuoying Ou",
+      "Congmin Zheng",
+      "Yuxiang Chen",
+      "Zeyu Zheng",
+      "Rong Shan",
+      "Lingyu Yang",
+      "Lionel Z. Wang",
+      "Weiwen Liu",
+      "Yong Yu",
+      "Weinan Zhang",
+      "Jianghao Lin"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "TVRN: Invertible Neural Networks for Compression-Aware Temporal Video Rescaling",
+    "abstract": "To fit diverse display and bandwidth constraints, high-frame-rate videos are temporally downscaled to low-frame-rate (LFR) and later upscaled, requiring joint optimization for effective frame-rate rescaling. However, existing methods typically link the two operations via training objectives, without fully exploiting their reciprocal nature, which may cause high-frequency information loss. Moreover, they overlook the impact of lossy codecs on LFR videos, limiting real-world applicability. In this work, we propose an end-to-end framework for compression-aware frame-rate rescaling, named TVRN. To regularize high-frequency information lost during frame-rate downscaling, TVRN adopts an invertible architecture that combines a Multi-Input Multi-Output Temporal Wavelet Transform with a high-frequency reconstruction module. To enable end-to-end training through non-differentiable lossy codecs, we design a surrogate network that approximates their gradients. Finally, to improve robustness under various compression levels, we extend TVRN to an asymmetric architecture by incorporating compression-aware features learned via a learning-to-rank strategy. Extensive experiments show that TVRN outperforms existing methods in reconstruction quality under industrial video compression settings. Source code is publicly available at https://github.com/fengxinmin/TVRN_public.",
+    "url": "http://arxiv.org/abs/2605.15579",
+    "pdf": "https://arxiv.org/pdf/2605.15579v1",
+    "keyword": "learning to rank",
+    "date": "2026-05-15",
+    "fetched_date": "2026-05-18",
+    "authors": [
+      "Xinmin Feng",
+      "Li Li",
+      "Dong Liu",
+      "Feng Wu"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "CitePrism: Human-in-the-Loop AI for Citation Auditing and Editorial Integrity",
+    "abstract": "Editors and reviewers are expected to ensure that manuscripts cite relevant, accurate, current, and ethically appropriate literature, yet manuscript-level citation auditing remains largely manual, fragmented, and difficult to scale. Citation context, metadata quality, self-citation patterns, and bibliographic integrity all affect whether a reference appropriately supports a local claim. We present CitePrism, a transparent hybrid decision-support framework for editorial citation auditing that combines LLM-assisted contextual reasoning, embedding-based semantic similarity, metadata verification, integrity-oriented flags, and human-in-the-loop analyst review. CitePrism extracts citation neighborhoods, enriches reference metadata, computes fused relevance scores, surfaces metadata and self-citation review prompts, and supports configurable threshold-based triage. In a preliminary validation on a single case-study manuscript with 104 references from pavement engineering, agreement with human binary relevance labels reached Cohen's kappa = 0.429. At operating threshold tau = 17, CitePrism flagged all human-labeled irrelevant citations, while also producing false positives requiring analyst review. These results suggest that CitePrism may support conservative editorial screening and citation-quality triage, but they do not establish general editorial performance. CitePrism is intended as pilot-stage decision support, not as an autonomous misconduct detector or automated editorial decision system. Broader validation across manuscripts, domains, annotators, baselines, and deployment settings is required before operational use.",
+    "url": "http://arxiv.org/abs/2605.16000",
+    "pdf": "https://arxiv.org/pdf/2605.16000v1",
+    "keyword": "relevance scoring",
+    "date": "2026-05-15",
+    "fetched_date": "2026-05-18",
+    "authors": [
+      "Gowrika Mahesh",
+      "Budanur Madappa Darshan Gowda",
+      "Kavana Gopladevarahalli Papegowda",
+      "Prajwal Basavaraj",
+      "Binh Vu",
+      "Swati Chandna",
+      "Mehrdad Jalali"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "PAGER: Bridging the Semantic-Execution Gap in Point-Precise Geometric GUI Control",
+    "abstract": "Large vision-language models have significantly advanced GUI agents, enabling executable interaction across web, mobile, and desktop interfaces. Yet these gains largely rely on a forgiving region-tolerant paradigm, where many nearby pixels inside the same component remain valid. Precise geometric construction breaks this assumption: actions must land on points in continuous canvas space rather than tolerant regions. Because geometric primitives carry ontological dependencies, a local coordinate error can induce cascading topological failures that distort downstream objects and invalidate the final construction. We identify this regime as precision-sensitive GUI tasks, requiring point-level accuracy, geometry-aware verification, and robustness to dependency-driven error propagation. To benchmark it, we introduce PAGE Bench, with 4,906 problems and over 224K process-supervised, pixel-level GUI actions. We further propose PAGER, a topology-aware agent that decomposes construction into dependency-structured planning and pixel-level execution. Pixel-grounded supervised tuning establishes executable action grammar, while precision-aligned reinforcement learning mitigates rollout-induced exposure bias through state-conditioned geometric feedback. Experiments reveal a pronounced Semantic-Execution Gap: general multimodal models can exceed 88% action type accuracy yet remain below 6% task success. PAGER closes this gap, delivering 4.1x higher task success than the strongest evaluated general baseline and raising step success rate from below 9% for GUI-specialized agents to over 62%, establishing a new state of the art for point-precise GUI control.",
+    "url": "http://arxiv.org/abs/2605.15963",
+    "pdf": "https://arxiv.org/pdf/2605.15963v1",
+    "keyword": "exposure bias",
+    "date": "2026-05-15",
+    "fetched_date": "2026-05-18",
+    "authors": [
+      "Jingxuan Wei",
+      "Xi Bai",
+      "Shan Liu",
+      "Caijun Jia",
+      "Zheng Sun",
+      "Xinglong Xu",
+      "Siyuan Li",
+      "Linzhuang Sun",
+      "Bihui Yu",
+      "Conghui He",
+      "Cheng Tan"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "DebiasRAG: A Tuning-Free Path to Fair Generation in Large Language Models through Retrieval-Augmented Generation",
+    "abstract": "Large language models (LLMs) have achieved unprecedented success due to their exceptional generative capabilities. However, because they depend on knowledge encapsulated from training corpora, they may produce hallucinations, stereotypes, and socially biased content. In particular, LLMs are prone to prejudiced responses involving race, gender, and age, which are collectively referred to as social biases. Prior studies have used fine-tuning and prompt engineering to mitigate such biases in LLMs, but these methods require additional training resources or domain knowledge to design the framework. Moreover, they may degrade the original capabilities of LLMs and often overlook the need for dynamic debiasing contexts for fairer inference. In this paper, we propose DebiasRAG, a novel tuning-free and dynamic query-specific debiasing framework based on retrieval-augmented generation (RAG). DebiasRAG improves fairness while preserving the intrinsic properties of LLMs, such as representation ability. DebiasRAG consists of three stages: (1) query-specific debiasing candidate generation; (2) context candidate pool construction; and (3) gradient-updated debiasing-guided context piece reranking. First, DebiasRAG leverages self-diagnosed bias contexts relevant to the query through regular retrieval, where the bias contexts are prepared offline by the DebiasRAG provider. Given the query-specific bias contexts, DebiasRAG reversely produces debiasing contexts, which are provided as additional fairness constraints for LLM outputs. Second, a regular RAG retrieval process produces query-related contexts from the regular RAG document database, such as a chunked Wikipedia dataset.",
+    "url": "http://arxiv.org/abs/2605.16113",
+    "pdf": "https://arxiv.org/pdf/2605.16113v1",
+    "keyword": "candidate generation",
+    "date": "2026-05-15",
+    "fetched_date": "2026-05-18",
+    "authors": [
+      "Rui Chu",
+      "Bingyin Zhao",
+      "Thanh Quoc Hung Le",
+      "Duy Cao Hoang",
+      "Huawei Lin",
+      "Ping Li",
+      "Weijie Zhao",
+      "Khoa D Doan",
+      "Yingjie Lao"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "NOVA: Fundamental Limits of Knowledge Discovery Through AI",
+    "abstract": "Can AI systems discover genuinely new knowledge through iterative self improvement, and if so, at what cost? We introduce the NOVA framework, which models the common ``generate, verify, accumulate, retrain'' loop as an adaptive sampling process over a knowledge space. We identify sufficient conditions under which accumulated genuine knowledge eventually covers a finite domain, and show how their violations produce distinct failure modes: contamination, forgetting, exploration failure, and acceptance failure. We then analyze imperfect verification and identify a contamination trap: as easy-to-find knowledge is exhausted, the model mass assigned to new valid artifacts shrinks, so even small false-positive rates can cause invalid artifacts to enter the knowledge base faster than genuine discoveries. We clarify that Good--Turing estimation is a local batch-diversity diagnostic, not an estimator of the historically undiscovered valid mass that governs long-term discovery. Under a separate tail-equivalence assumption relating the model's effective discovery distribution to a Zipf law with exponent $α>1$, we prove that the cumulative generation cost required to obtain $D$ distinct genuine discoveries satisfies $R_{\\mathrm{cum}}(D)=Θ(c_{\\mathrm{gen}}D^α)$, where $c_{\\mathrm{gen}}$ is the per-candidate generation cost. This scaling law quantifies asymptotic diminishing returns as the discovery frontier advances. Finally, we formalize human amplification through guidance, generation, and verification, explaining why expert input is most valuable near autonomous exploration barriers.",
+    "url": "http://arxiv.org/abs/2605.15219",
+    "pdf": "https://arxiv.org/pdf/2605.15219v1",
+    "keyword": "candidate generation",
+    "date": "2026-05-12",
+    "fetched_date": "2026-05-18",
+    "authors": [
+      "Salman Avestimehr",
+      "Ken Duffy",
+      "Muriel Médard"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "GOMA: Toward Structure-Driven Multimodal Alignment from a Graph Signal Smoothing Perspective",
+    "abstract": "Multimodal alignment is commonly learned from isolated image-text pairs via CLIP-style dual encoders, leaving the relational context among entities largely unused. Multimodal attributed graphs (MAGs), where nodes carry multimodal attributes and edges encode corpus structure, provide a natural setting for refining frozen vision-language embeddings. This refinement is challenging: visual, textual, and cross-modal relations often induce different neighborhood geometries, while unrestricted graph propagation can quickly over-smooth retrieval representations. Effectively leveraging graph context therefore requires simultaneously breaking modality-specific topological barriers, controlling the smoothing regime, and preserving informative smoothing before semantic boundaries collapse. We propose Graph-Optimized Multimodal Alignment (GOMA), a structure-driven post-alignment framework that views frozen multimodal embeddings as graph signals and addresses these requirements through a unified retrieval-oriented design. GOMA decouples three key design choices: where messages should flow, how multimodal evidence should propagate, and which smoothing depth should be retained. Concretely, it learns modality-aware propagation operators, performs finite-step coupled smoothing without diagonal cross-modal shortcuts, and adaptively reads out node-specific smoothing trajectories to preserve useful smoothing before collapse. All experiments follow a transductive MAG retrieval protocol where the graph serves only as unlabeled context and diagonal self-pair edges are removed. On seven MAG benchmarks, GOMA achieves state-of-the-art or tied state-of-the-art retrieval and remains substantially more stable than the strongest graph competitor, demonstrating that MAG structure can serve as an effective post-encoder for frozen multimodal embeddings.",
+    "url": "http://arxiv.org/abs/2605.15723",
+    "pdf": "https://arxiv.org/pdf/2605.15723v1",
+    "keyword": "dual encoder",
+    "date": "2026-05-15",
+    "fetched_date": "2026-05-18",
+    "authors": [
+      "Xu Wang",
+      "Xunkai Li",
+      "Yinlin Zhu",
+      "Rong-Hua Li",
+      "Guoren Wang"
+    ],
+    "article_type": "research"
   }
 ]
