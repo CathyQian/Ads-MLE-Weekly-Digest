@@ -7528,5 +7528,145 @@
     "fetched_date": "2026-05-18",
     "feed_name": "Modern Retail",
     "source": "industry"
+  },
+  {
+    "title": "OpenAI and Dell partner to bring Codex to hybrid and on-premise enterprise environments",
+    "abstract": "OpenAI and Dell partner to bring Codex to hybrid and on-premise environments, helping enterprises deploy AI coding agents securely across data and workflows.",
+    "url": "https://openai.com/index/dell-codex-enterprise-partnership",
+    "topic": "llm",
+    "date": "2026-05-18",
+    "fetched_date": "2026-05-19",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Fine-Tuning NVIDIA Cosmos Predict 2.5 with LoRA/DoRA for Robot Video Generation",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/nvidia/cosmos-fine-tuning-for-robot-video-generation",
+    "topic": "llm",
+    "date": "2026-05-18",
+    "fetched_date": "2026-05-19",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "PaddleOCR 3.5: Running OCR and Document Parsing Tasks with a Transformers Backend",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/PaddlePaddle/paddleocr-transformers",
+    "topic": "llm",
+    "date": "2026-05-18",
+    "fetched_date": "2026-05-19",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "The Open Agent Leaderboard",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/ibm-research/open-agent-leaderboard",
+    "topic": "llm",
+    "date": "2026-05-18",
+    "fetched_date": "2026-05-19",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "The last six months in LLMs in five minutes",
+    "abstract": "I put together these annotated slides from my five minute lightning talk at PyCon US 2026, using the latest iteration of my annotated presentation tool . # I presented this lightning talk at PyCon US 2026, attempting to summarize the last six months of developments in LLMs in five minutes. # Six months is a pretty convenient time period to cover, because it captures what I've been calling the November 2025 inflection point . November was a critical month in LLMs, especially for coding. # For one thing, the supposedly \"best\" model (depending mostly on vibes) changed hands five times between the three big providers. # As always, I'm using my Generate an SVG of a pelican riding a bicycle test to help illustrate the differences between the models. Why this test? Because pelicans are hard to draw, bicycles are hard to draw, pelicans can't ride bicycles ... and there's zero chance any AI lab would train a model for such a ridiculous task. # At the start of November the widely acknowledged \"best\" model was Claude Sonnet 4.5, released on 29th September . It drew me this pelican. In November it was overtaken by GPT-5.1 , then Gemini 3 , then GPT-5.1 Codex Max , and then Anthropic took the crown back again with Claude Opus 4.5 . I think Gemini 3 drew the best pelican out of this lot, but pelicans aren't everything. Most practitioners will agree that Opus 4.5 held the crown for the next couple of months. # It took a little while for this to become clear, but the real news from November was that the coding agents got good . OpenAI and Anthropic had spent most of 2025 running Reinforcement Learning from Verifiable Rewards to increase the quality of code written by their models, especially when paired up with their Codex and Claude Code agent harnesses. In November the results of this work became apparent. Coding agents went from often-work to mostly-work, crossing a quality barrier where you could use them as a daily-driver to get real work done, without needing to spend most of your time fixing their stupid mistakes. # Also in November, this happened - the first commit to an obscure (back then) repo called \"Warelay\" by some guy called Pete. # Over the holiday period, from December to January, a whole lot of us took advantage of the break to have a poke at these new models and coding agents and see what they could do. They could do a lot! Some of us got a little bit over-excited. I had my own short-lived bout of a form of LLM psychosis as I started spinning up wildly ambitious projects to see how far I could push them. # One of my projects was a vibe-coded implementation of JavaScript in Python - a loose port of MicroQuickJS - which I called micro-javascript . You can try it out in your browser in this playground . # That playground demo shows JavaScript code run using my micro-javascript library, in Python, running inside Pyodide, running in WebAssembly, running in JavaScript, running in a browser! It's pretty cool! But did anyone out there need a buggy, slow, insecure half-baked implementation of JavaScript in Python? They did not. I have quite a few other projects from that holiday period that I have since quietly retired! # On to February. Remember that Warelay project that had its first commit at the end of November? # In December and January it had gone through quite a few name changes ... and by February it was taking the world by storm under its final name, OpenClaw . The amount of attention it got is pretty astonishing for a project that was less than three months old. # OpenClaw is a \"personal AI assistant\", and we actually got a generic term for these, based on NanoClaw and ZeroClaw and suchlike... they're called Claws . # Mac Minis started to sell out around Silicon Valley, because people were buying them to run their Claws. Drew Breunig joked to me that this is because they're the new digital pets, and a Mac Mini is the perfect aquarium for your Claw. # My favourite metaphor for Claws is Alfred Molina's Doc Ock in the 2004 movie Spider-Man 2. His claws were powered by AI, and were perfectly safe provided nothing damaged his inhibitor chip... after which they turned evil and took over. # Also in February: Gemini 3.1 Pro came out, and drew me a really good pelican riding a bicycle . Look at this! It's even got a fish in its basket. # And then Google's Jeff Dean tweeted this video of an animated pelican riding a bicycle, plus a frog on a penny-farthing and a giraffe driving a tiny car and an ostrich on roller skates and a turtle kickflipping a skateboard and a dachshund driving a stretch limousine. So maybe the AI labs have been paying attention after all! # A lot of stuff happened just in the past month. # Google released the Gemma 4 series of models, which are the most capable open weight models I've seen from a US company. # Also last month, Chinese AI lab GLM came out with GLM-5.1 - an open weight 1.5TB monster! This is a very effective model... if you can afford the hardware to run it. # GLM-5.1 drew me this very competent pelican on a bicycle. # ... though when it tried to animate it the bicycle bounced off into the top and the bicycle got warped. # Charles on Bluesky suggested I try it with a North Virginia Opossum on an E-scooter # And it did this! I've tried this on other models and they don't even come close. \"Cruising the commonwealth since dusk\" is perfect. It's animated too . # The other neat Chinese open weight models in April came from Qwen. Qwen3.6-35B-A3B on my laptop drew me a better pelican than Claude Opus 4.7 . That's a 20.9GB open weights model that runs on my laptop! (I think this mainly demonstrates that the pelican on the bicycle has firmly exceeded its limits as a useful benchmark.) # Here's that Claude Sonnet 4.5 pelican from September for comparison. # So those were the two main themes of the past six months. The coding agents got really good... and the laptop-available models, while a lot weaker than the frontier, have started wildly outperforming expectations. Tags: lightning-talks , pycon , speaking , ai , generative-ai , local-llms , llms , annotated-talks , pelican-riding-a-bicycle , coding-agents",
+    "url": "https://simonwillison.net/2026/May/19/5-minute-llms/#atom-everything",
+    "topic": "llm",
+    "date": "2026-05-19",
+    "fetched_date": "2026-05-19",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Glaucous-winged Gull, Brown Pelican, Snowy Egret, Canada Goose",
+    "abstract": "Glaucous-winged Gull, Brown Pelican, Snowy Egret, Canada Goose, in Los Angeles River, CA, US I'm heading home from PyCon US today so I went on a last morning walk to try and spot a pelican. I saw one! Didn't get a great photo of that, but I did see some goslings down by the swan boat lake.",
+    "url": "https://simonwillison.net/2026/May/18/sighting-362781627/#atom-everything",
+    "topic": "llm",
+    "date": "2026-05-18",
+    "fetched_date": "2026-05-19",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "How to Think of AI as a Normal Technology",
+    "abstract": "Stop worrying about the AI apocalypse",
+    "url": "https://www.thealgorithmicbridge.com/p/how-to-think-of-ai-as-a-normal-technology",
+    "topic": "llm",
+    "date": "2026-05-18",
+    "fetched_date": "2026-05-19",
+    "feed_name": "The Algorithmic Bridge",
+    "source": "industry"
+  },
+  {
+    "title": "SandboxAQ brings its drug discovery models to Claude — no PhD in computing required",
+    "abstract": "Other venture-backed companies like Chai Discovery and Isomorphic Labs have raced to build better models. SandboxAQ is betting that access is the bigger obstacle and that Claude solves it.",
+    "url": "https://techcrunch.com/2026/05/18/sandboxaq-brings-its-drug-discovery-models-to-claude-no-phd-in-computing-required/",
+    "topic": "llm",
+    "date": "2026-05-18",
+    "fetched_date": "2026-05-19",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Anthropic has acquired the dev tools startup used by OpenAI, Google, and Cloudflare",
+    "abstract": "Stainless, a New York-based startup, founded in 2022, rose to prominence in the emerging AI industry for automating the creation and maintenance of software development kits, or SDKs — the libraries developers use to interact with APIs.",
+    "url": "https://techcrunch.com/2026/05/18/anthropic-has-acquired-the-dev-tools-startup-used-by-openai-google-and-cloudflare/",
+    "topic": "llm",
+    "date": "2026-05-18",
+    "fetched_date": "2026-05-19",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Elon Musk has lost his lawsuit against Sam Altman and OpenAI",
+    "abstract": "Elon Musk's claim that he was mistreated by his OpenAI co-founders failed after nine California jurors decided in a unanimous verdict that his lawsuits had been filed too late.",
+    "url": "https://techcrunch.com/2026/05/18/elon-musk-has-lost-his-lawsuit-against-sam-altman-and-openai/",
+    "topic": "llm",
+    "date": "2026-05-18",
+    "fetched_date": "2026-05-19",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Amazon’s new Alexa+ powered feature can generate podcast episodes",
+    "abstract": "Amazon’s Alexa+ can now generate custom AI podcasts on demand, as the company expands its assistant into a personalized AI content platform.",
+    "url": "https://techcrunch.com/2026/05/18/amazons-new-alexa-powered-feature-can-generate-podcast-episodes/",
+    "topic": "llm",
+    "date": "2026-05-18",
+    "fetched_date": "2026-05-19",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "South Korea’s LetinAR is building optics behind AI glasses",
+    "abstract": "A lens the size of a thumbnail — and the South Korean startup that makes it — could become the optical backbone of the AI glasses era.",
+    "url": "https://techcrunch.com/2026/05/18/south-koreas-letinar-is-building-the-optics-behind-ai-glasses/",
+    "topic": "llm",
+    "date": "2026-05-18",
+    "fetched_date": "2026-05-19",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Everlane’s sale to Shein is another nail in the coffin for millennial DTC brands",
+    "abstract": "One of the first DTC darlings of the 2010s, Everlane has sold to Shein for a reported $100 million after years of struggling to grow. Combined with Allbirds' fire sale earlier this year, it's a nail in the coffin for early, venture-backed DTC darlings.",
+    "url": "https://www.modernretail.co/operations/everlanes-sale-to-shein-is-another-nail-in-the-coffin-for-millennial-dtc-brands/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-05-18",
+    "fetched_date": "2026-05-19",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "U.S. CPG manufacturers are sitting on excess capacity, which could be a boon for brands",
+    "abstract": "New data from Keychain shows about 1 in 10 CPG factories is running more than half empty, and about 1 in 3 has at least 31% or more unused production capacity.",
+    "url": "https://www.modernretail.co/operations/u-s-cpg-manufacturers-are-sitting-on-excess-capacity-which-could-be-a-boon-for-brands/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-05-18",
+    "fetched_date": "2026-05-19",
+    "feed_name": "Modern Retail",
+    "source": "industry"
   }
 ]

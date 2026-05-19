@@ -2588,5 +2588,85 @@
     "fetched_date": "2026-05-18",
     "feed_name": "TechCrunch",
     "source": "startup"
+  },
+  {
+    "title": "SandboxAQ brings its drug discovery models to Claude — no PhD in computing required",
+    "abstract": "Other venture-backed companies like Chai Discovery and Isomorphic Labs have raced to build better models. SandboxAQ is betting that access is the bigger obstacle and that Claude solves it.",
+    "url": "https://techcrunch.com/2026/05/18/sandboxaq-brings-its-drug-discovery-models-to-claude-no-phd-in-computing-required/",
+    "topic": "startup",
+    "date": "2026-05-18",
+    "fetched_date": "2026-05-19",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Anthropic has acquired the dev tools startup used by OpenAI, Google, and Cloudflare",
+    "abstract": "Stainless, a New York-based startup, founded in 2022, rose to prominence in the emerging AI industry for automating the creation and maintenance of software development kits, or SDKs — the libraries developers use to interact with APIs.",
+    "url": "https://techcrunch.com/2026/05/18/anthropic-has-acquired-the-dev-tools-startup-used-by-openai-google-and-cloudflare/",
+    "topic": "startup",
+    "date": "2026-05-18",
+    "fetched_date": "2026-05-19",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Elon Musk has lost his lawsuit against Sam Altman and OpenAI",
+    "abstract": "Elon Musk's claim that he was mistreated by his OpenAI co-founders failed after nine California jurors decided in a unanimous verdict that his lawsuits had been filed too late.",
+    "url": "https://techcrunch.com/2026/05/18/elon-musk-has-lost-his-lawsuit-against-sam-altman-and-openai/",
+    "topic": "startup",
+    "date": "2026-05-18",
+    "fetched_date": "2026-05-19",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "NYC Health + Hospitals says hackers stole medical data and fingerprints during breach affecting at least 1.8 million people",
+    "abstract": "The New York public healthcare system said hackers stole personal and medical data, and scans of biometrics — including fingerprints — in one of the largest recorded breaches of 2026.",
+    "url": "https://techcrunch.com/2026/05/18/nyc-health-and-hospitals-says-hackers-stole-medical-data-and-fingerprints-during-breach-affecting-at-least-1-8-million-people/",
+    "topic": "startup",
+    "date": "2026-05-18",
+    "fetched_date": "2026-05-19",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Kin Health raises $9M to build an AI notetaker for patients",
+    "abstract": "The app is similar to a meeting notetaker — you can record doctor visits, and it will return an AI summary of the meeting, with the next steps, all of which you share with family and friends if you want to.",
+    "url": "https://techcrunch.com/2026/05/18/kin-health-raises-9m-to-build-an-ai-notetaker-for-patients/",
+    "topic": "startup",
+    "date": "2026-05-18",
+    "fetched_date": "2026-05-19",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Amazon’s new Alexa+ powered feature can generate podcast episodes",
+    "abstract": "Amazon’s Alexa+ can now generate custom AI podcasts on demand, as the company expands its assistant into a personalized AI content platform.",
+    "url": "https://techcrunch.com/2026/05/18/amazons-new-alexa-powered-feature-can-generate-podcast-episodes/",
+    "topic": "startup",
+    "date": "2026-05-18",
+    "fetched_date": "2026-05-19",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Open source tool maker Grafana Labs says hackers stole its code, refuses to pay ransom",
+    "abstract": "The open source project said hackers stole its codebase and threatened to publish its source code if the company did not pay.",
+    "url": "https://techcrunch.com/2026/05/18/open-source-tool-maker-grafana-labs-says-hackers-stole-its-code-refuses-to-pay-ransom/",
+    "topic": "startup",
+    "date": "2026-05-18",
+    "fetched_date": "2026-05-19",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "South Korea’s LetinAR is building optics behind AI glasses",
+    "abstract": "A lens the size of a thumbnail — and the South Korean startup that makes it — could become the optical backbone of the AI glasses era.",
+    "url": "https://techcrunch.com/2026/05/18/south-koreas-letinar-is-building-the-optics-behind-ai-glasses/",
+    "topic": "startup",
+    "date": "2026-05-18",
+    "fetched_date": "2026-05-19",
+    "feed_name": "TechCrunch",
+    "source": "startup"
   }
 ]
