@@ -59572,5 +59572,355 @@
       "Chenyan Xiong"
     ],
     "article_type": "research"
+  },
+  {
+    "title": "Quantifying the Pre-training Dividend: Generative versus Latent Self-Supervised Learning for Time Series Foundation Models",
+    "abstract": "The success of self-supervised learning (SSL) in vision and NLP has motivated its rapid adoption for time series. However, research has focused primarily on Generative paradigms and forecasting tasks, leaving the broader utility of learned representations unquantified. We establish a controlled framework to evaluate the \"pre-training dividend\": the value added by SSL across diverse temporal tasks. We systematically compare Generative paradigms against Latent Alignment architectures, introducing adaptations of LeJEPA and DINO for time series. These adaptations utilize Discrete Wavelet Transform (DWT) augmentations to enforce invariance to local fluctuations. Our analysis reveals that the pre-training dividend is highly asymmetric: SSL yields gains of up to 375% for anomaly detection and classification, yet remains marginal for forecasting. We demonstrate that representational utility is non-universal, governed by a precision-invariance trade-off where the specific signal resolution required by the task must align with the objective. Finally, we show that representation quality is largely independent of data origin and saturates at moderate architectural depths, suggesting a path to scaling via massive synthetic generation. Our code is available at: https://github.com/noammajor/Models",
+    "url": "http://arxiv.org/abs/2605.19462",
+    "pdf": "https://arxiv.org/pdf/2605.19462v1",
+    "keyword": "self-supervised learning",
+    "date": "2026-05-19",
+    "fetched_date": "2026-05-20",
+    "authors": [
+      "Noam Major",
+      "Kathy Razmadze",
+      "Yoli Shavit"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "Knowing When Not to Predict: Self Supervised Learning and Abstention for Safer DR Screening",
+    "abstract": "Self-supervised learning (SSL) is now a standard way to pretrain medical image models, but performance is still mostly judged by downstream accuracy. For safety-critical screening tasks such as diabetic retinopathy grading, this is not enough: a model must also know when its predictions are unreliable and defer uncertain cases for clinical review. In this work, we examine how the length of SSL pretraining influences calibrated confidence and confidence-based abstention. We evaluate multiple SSL checkpoints under a fixed fine-tuning protocol and assess calibrated confidence, coverage, selective accuracy, and selective macro-F1. Across datasets and data regimes, SSL pretraining improves selective prediction compared to training from scratch. Unlike prior SSL studies that primarily evaluate downstream accuracy or AUROC, we analyze how SSL pretraining duration influences confidence behavior under calibrated confidence-based abstention. However, once accuracy saturates, selective performance can still change markedly across checkpoints, and longer pretraining does not consistently improve reliability. These results underscore the importance of abstention-aware evaluation and suggest that pretraining length should be treated as an important reliability-related design choice rather than only a computational detail. Code is available at GitHub.",
+    "url": "http://arxiv.org/abs/2605.19133",
+    "pdf": "https://arxiv.org/pdf/2605.19133v1",
+    "keyword": "self-supervised learning",
+    "date": "2026-05-18",
+    "fetched_date": "2026-05-20",
+    "authors": [
+      "Muskaan Chopra",
+      "Lorenz Sparrenberg",
+      "Jan H. Terheyden",
+      "Rafet Sifa"
+    ],
+    "article_type": "review"
+  },
+  {
+    "title": "TIDE: Efficient and Lossless MoE Diffusion LLM Inference with I/O-aware Expert Offload",
+    "abstract": "Diffusion Large Language Models (dLLMs) have emerged as a competitive alternative to autoregressive (AR) models, offering better hardware utilization and bidirectional context through parallel block-level decoding. However, as dLLMs continue to scale up with mixture-of-experts (MoE) architectures, their deployment on resource-constrained devices remains an open challenge. Existing AR-based methods often incur either prohibitive I/O overhead or significant compute bottlenecks. In this work, we propose TIDE, a novel resource-efficient inference system that leverages the temporal stability of expert activations during the diffusion process within the block. Specifically, we leverage the temporal stability of expert activations during the diffusion process within the block and introduce an interval-based expert refresh strategy that updates the expert placement in an I/O-aware fashion. To ensure optimal performance, we formulate the inference scheduling as a mathematical programming problem, solving for the optimal interval that minimizes I/O traffic and CPU computation. Most importantly, TIDE is a lossless optimization that requires no model training, providing a \"free lunch\" acceleration for dLLM inference. In a single GPU-CPU system, we demonstrate that TIDE achieves up to 1.4$\\times$ and 1.5$\\times$ throughput improvements over prior baselines on LLaDA2.0-mini and LLaDA2.0-flash models, respectively.",
+    "url": "http://arxiv.org/abs/2605.20179",
+    "pdf": "https://arxiv.org/pdf/2605.20179v1",
+    "keyword": "mixture of experts",
+    "date": "2026-05-19",
+    "fetched_date": "2026-05-20",
+    "authors": [
+      "Zhiben Chen",
+      "Youpeng Zhao",
+      "Yang Sui",
+      "Jun Wang",
+      "Yuzhang Shang"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "CAMERA: Adapting to Semantic Camouflage in Unsupervised Text-Attributed Graph Fraud Detection",
+    "abstract": "Text-attributed graph fraud detection (TAGFD) plays a critical role in preventing fraudulent activities on online social and e-commerce platforms. However, to evade detection, fraudsters continuously evolve their camouflaging strategies by deliberately mimicking textual responses of benign users, thereby concealing their malicious purposes. This phenomenon, referred to as semantic camouflage, fundamentally undermines commonly relied assumptions on how structural and attribute cues can be exploited to identify fraudsters, and makes it difficult to spot fraudsters with unsupervised TAGFD. To bridge the gaps, we propose a Case-Adaptive Multi-cue Expert fRAmework (CAMERA) for unsupervised TAGFD. CAMERA employs an ego-decoupled mixture-of-experts architecture, where each expert specializes in modeling a distinct type of fraud-indicative cue. A context-informed gating model is introduced to jointly consider the ego node representation and its local neighborhood context for adaptive integration of cues learned by different experts. Furthermore, CAMERA leverages the inherent rarity of fraudsters to support unsupervised one-class learning with expert-level objectives that encourage modeling dominant benign patterns, thereby enabling reliable unsupervised detection of camouflaged fraudsters. Experiments on 4 challenging datasets show that CAMERA consistently outperforms competitors, showing its effectiveness against semantically camouflaged fraudsters. Code available at https://github.com/CampanulaBells/CAMERA",
+    "url": "http://arxiv.org/abs/2605.20032",
+    "pdf": "https://arxiv.org/pdf/2605.20032v1",
+    "keyword": "mixture of experts",
+    "date": "2026-05-19",
+    "fetched_date": "2026-05-20",
+    "authors": [
+      "Junjun Pan",
+      "Yixin Liu",
+      "Yu Zheng",
+      "Lianhua Chi",
+      "Alan Wee-Chung Liew",
+      "Shirui Pan"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "World-Ego Modeling for Long-Horizon Evolution in Hybrid Embodied Tasks",
+    "abstract": "World models are widely explored in embodied intelligence, yet they typically predict distinct evolutions of the world and the ego within a single stream, where the world captures persistent instruction-agnostic scene regularities and the ego captures robot-centric instruction-conditioned dynamics. This world-ego entanglement leads to a degradation in long-horizon embodied scenarios, particularly in hybrid tasks with interleaved navigation and manipulation behaviors. In this paper, we introduce \\emph{World-Ego Modeling}, a new conceptual paradigm that decomposes future evolution into world and ego components. We define the world-ego boundary from three perspectives, i.e., motion-, semantic-, and intention-based views, and analyze three disentanglement strategies with post-, pre-, and full disentanglement. Further, we instantiate this paradigm as the World-Ego Model (WEM), a unified embodied world model that couples an implicit separate world-ego planner with a cascade-parallel mixture-of-experts (CP-MoE) diffusion generator. To enable rigorous evaluation, we further construct HTEWorld, the first benchmark for long-horizon world modeling with hybrid navigation-manipulation tasks, providing 125K video clips (over 4.5M frames) with fine-grained action annotations and 300 multi-turn evaluation trajectories (over 2K instructions). Extensive experiments show that WEM achieves state-of-the-art performance on HTEWorld while remaining competitive on existing manipulation-only benchmarks.",
+    "url": "http://arxiv.org/abs/2605.19957",
+    "pdf": "https://arxiv.org/pdf/2605.19957v1",
+    "keyword": "mixture of experts",
+    "date": "2026-05-19",
+    "fetched_date": "2026-05-20",
+    "authors": [
+      "Zuyao Lin",
+      "Jianhui Zhang",
+      "Peidong Jia",
+      "Xiaoguang Zhao",
+      "Shanghang Zhang",
+      "Xingyu Chen"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "GEM: GPU-Variability-Aware Expert to GPU Mapping for MoE Systems",
+    "abstract": "Mixture-of-Expert (MoE) models enable efficient inference by employing smaller experts and activating only a subset of them per token. MoE serving engines distribute experts across multiple GPUs and route tokens to appropriate GPUs at inference time based on experts activated. They process tokens in lock-step fashion, where tokens within a batch must finish processing before proceeding to the next layer. This synchronization barrier acts as a critical bottleneck because the performance of MoE models is limited by the straggler GPU that finishes last. Stragglers emerge when too many heavily used experts are placed on the same GPU or the slowest GPU. While prior works place experts that balance token loads across GPUs, they all overlook GPU variability and often place highly used experts on the slowest GPUs.\n  We propose GEM, GPU-variability-aware Expert Mapping, a framework for GPU variability-aware expert to GPU mapping for MoE models. GEM exploits two insights. First, we must place experts such that each GPU receives non-uniform token loads based on their variability and they all finish processing a layer at about the same time. Our studies show that there are two types of experts: consistent that are used most of the time and temporal that are often used together for the remaining time. Our second insight is that we must place simultaneously used consistent and temporal experts on different GPUs and avoid placing them on slower GPUs to reduce slowdown. GEM gathers the variability profile of GPUs for each model and task and uses the token load distributions per task to map experts to GPUs. Our experiments show that GEM improves end-to-end latency by 7.9% on average and by up to 16.5% compared to the baseline.",
+    "url": "http://arxiv.org/abs/2605.19945",
+    "pdf": "https://arxiv.org/pdf/2605.19945v1",
+    "keyword": "mixture of experts",
+    "date": "2026-05-19",
+    "fetched_date": "2026-05-20",
+    "authors": [
+      "Sourish Wawdhane",
+      "Avinash Kumar",
+      "Poulami Das"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "Understanding Inference Scaling for LLMs: Bottlenecks, Trade-offs, and Performance Principles",
+    "abstract": "The transition from standard generative AI to \\emph{reasoning-centric architectures}, exemplified by models capable of extensive Chain-of-Thought~(CoT) processing, marks a fundamental paradigm shift in system requirements. Unlike traditional workloads dominated by compute-bound prefill, reasoning workloads generate long chains of reasoning tokens that shift inference into a \\emph{Capacity-Bound regime}. This paper presents a comprehensive system characterization, evaluating models ranging from 8B to 671B parameters on GPUs clusters. By systematically exploring the interplay between Data, Tensor, and Pipeline parallelism, we identify critical bottlenecks that defy standard scaling heuristics. Our analysis reveals that data parallelism is throughput efficient for small models but hits a capacity trap on reasoning workloads as KV-cache fragmentation forces early throttling resulting in sub-optimal compute utilization. Tensor parallelism unlocks stranded memory and delivers sublinear gains near the 32B crossover. At frontier scale, dense models (e.g., Llama-405B) are interconnect and memory-bandwidth bound and favor high-degree TP, while sparse Mixture-of-Experts (MoE) models (e.g., DeepSeek-R1) are limited by routing and synchronization latency and benefit from hybrid strategies. These insights provide a rigorous decision framework for navigating the reasoning cliff, establishing new architectural imperatives for the next generation of inference infrastructure.",
+    "url": "http://arxiv.org/abs/2605.19775",
+    "pdf": "https://arxiv.org/pdf/2605.19775v1",
+    "keyword": "mixture of experts",
+    "date": "2026-05-19",
+    "fetched_date": "2026-05-20",
+    "authors": [
+      "Moiz Arif",
+      "Avinash Maurya",
+      "Sudharshan Vazhkudai",
+      "Bogdan Nicolae"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "A novel YOLO26-MoE optimized by an LLM agent for insulator fault detection considering UAV images",
+    "abstract": "The inspection of electrical power line insulators is essential for ensuring grid reliability and preventing failures caused by damaged or degraded insulation components. In recent years, Unmanned Aerial Vehicles (UAVs) combined with deep learning-based vision systems have emerged as an effective solution for automating this process. However, insulator fault detection remains challenging due to small defect regions, heterogeneous fault patterns, complex backgrounds, and varying imaging conditions. To address these challenges, this paper proposes an optimized YOLO26-MoE, a novel object detection architecture that integrates a sparse Mixture-of-Experts (MoE) module into the high-resolution branch of the YOLO26 detector. The proposed modification enables adaptive feature refinement for subtle and diverse fault patterns while preserving the efficiency of a one-stage detection framework. Hyperparameter optimization, final training, and evaluation were coordinated through a tool-augmented Large Language Model (LLM) agent. The proposed model achieved 0.9900 mAP@0.5 and 0.9515 mAP@0.5:0.95, outperforming the latest YOLO versions. These results demonstrate that the proposed model provides an effective and reliable solution for UAV-based insulator fault detection.",
+    "url": "http://arxiv.org/abs/2605.19595",
+    "pdf": "https://arxiv.org/pdf/2605.19595v1",
+    "keyword": "mixture of experts",
+    "date": "2026-05-19",
+    "fetched_date": "2026-05-20",
+    "authors": [
+      "João Pedro Matos-Carvalho",
+      "Laio Oriel Seman",
+      "Stefano Frizzo Stefenon",
+      "Mohammad Khalaf Mohammad Khreasat",
+      "Gabriel Villarrubia González"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "UAV-Assisted Cooperative Edge Inference for Low-Altitude Economy via MoE-based Hierarchical Deep Reinforcement Learning",
+    "abstract": "The low-altitude economy (LAE) is reshaping the industrial landscape by deploying unmanned aerial vehicles (UAVs) to facilitate a wide range of applications demanding flexible aerial mobility. Integrating edge artificial intelligence (AI) into LAE platforms creates a compelling paradigm where UAVs provide real-time AI-driven analysis while simultaneously executing their primary aerial mission duties. However, realizing this paradigm remains challenging due to the strict mission constraints imposed by these primary duties and the throughput bottlenecks of wireless links. To bridge this gap, we propose a UAV-assisted cooperative edge inference framework where UAVs execute mission-critical LAE duties, quantified by trajectory deviations from reference paths, while concurrently supporting ground devices via intermediate feature offloading. Within this framework, UAV trajectories, inference task offloading decisions, and feature compression ratios are jointly optimized to maximize the system performance. We cast this joint optimization task into a constrained partially observable Markov decision process (POMDP) framework. To efficiently solve it, we propose HDRL-MoE, a novel hierarchical deep reinforcement learning framework that decouples the optimization of slow-varying inference decisions from rapidly changing UAV trajectory control. Furthermore, HDRL-MoE integrates a mixture-of-experts (MoE) architecture, where a router network orchestrates discrete offloading decisions while expert networks independently optimize the feature compression ratios. Extensive simulations show that HDRL-MoE achieves significant inference accuracy gains over baselines and exhibits high scalability and efficiency through its MoE design.",
+    "url": "http://arxiv.org/abs/2605.19290",
+    "pdf": "https://arxiv.org/pdf/2605.19290v1",
+    "keyword": "mixture of experts",
+    "date": "2026-05-19",
+    "fetched_date": "2026-05-20",
+    "authors": [
+      "Wenhao Zhuang",
+      "Yuyi Mao",
+      "Ivan Wang-Hei Ho",
+      "Xianghao Yu"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "FPED: A Functional-Network Prior-Guided Mixture-of-Experts Framework for Interpretable Brain Decoding",
+    "abstract": "Visual image reconstruction from functional Magnetic Resonance Imaging (fMRI) is a fundamental task in brain decoding, providing a crucial pathway for understanding human perceptual mechanisms and developing advanced brain-computer interfaces (BCIs). However, most current methods simply flatten fMRI signals from localized visual cortices into one-dimensional (1D) vectors, mapping them directly into latent spaces such as that of Contrastive Language-Image Pre-training (CLIP). This paradigm not only disrupts the inherent network topology of the brain-leading to limited neuroscientific interpretability-but also overlooks the synergistic contributions of other distributed functional networks in processing high-level visual semantics. To address these limitations, we propose FPED, a Functional-Network Prior-Guided Mixture of Experts (MoE) framework for interpretable brain decoding. FPED explicitly models different functional brain networks as specialized experts and employs adaptive routing to capture their complementary contributions to visual semantic understanding. Unlike conventional homogeneous decoding paradigms, our framework incorporates neurobiologically grounded priors to enable structured and interpretable network-level representation learning. Experimental results demonstrate that FPED achieves highly competitive semantic reconstruction performance with only 0.68B parameters. The learned routing dynamics reveal biologically meaningful correspondence between functional brain networks and modality-specific semantic processing, providing transparent neuroscientific interpretability. This suggests that brain network-aware expert modeling is a promising direction for bridging neural decoding and biologically inspired artificial intelligence.",
+    "url": "http://arxiv.org/abs/2605.19279",
+    "pdf": "https://arxiv.org/pdf/2605.19279v1",
+    "keyword": "mixture of experts",
+    "date": "2026-05-19",
+    "fetched_date": "2026-05-20",
+    "authors": [
+      "Yudan Ren",
+      "Pengcheng Shi",
+      "Zihan Ma",
+      "Xiaowei He",
+      "Xiao Li"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "DeRegiME: Deep Regime Mixtures for Probabilistic Forecasting under Distribution Shift",
+    "abstract": "We introduce DeRegiME -- Deep Regime Mixture of Experts -- a direct multi-horizon probabilistic forecaster that separates latent uncertainty regimes from the underlying signal and softly assigns each forecast location to learned recurring regimes using a sparse variational Gaussian process (GP) whose nonstationary regime-mixing kernel and Student-t likelihood combine per-regime sub-kernels and noise processes via a shared gate. This yields a single sparse-GP posterior, not a mixture of GP experts. DeRegiME addresses a key limitation of neural forecasters: point forecasts discard residual uncertainty, and probabilistic heads -- whether single marginals, uninterpreted mixtures, quantile sets, or diffusion samples -- rarely expose the regime structure of the residual. Yet distribution shift in noisy heteroskedastic time series may be abrupt, gradual, or horizon-dependent and often appears in residual uncertainty rather than the conditional mean. DeRegiME yields an interpretable mean-residual-noise decomposition with a direct-sum feature-space representation that anchors regimes as clusters of residual similarity whose transitions surface as implicit changepoints. The effective number of regimes is pruned by the stick-breaking gate. We prove kernel validity and predictive-density propriety, and across ten benchmarks and three encoder grids DeRegiME improves negative log predictive density (NLPD) by 20.3% over the strongest encoder-matched baseline, a DeepAR/GluonTS-style dynamic Student-t head, with parallel gains on CRPS (3.0%) and MSE (4.7%). Improvements are consistent across all datasets, which span abrupt, gradual, and seasonal shifts.",
+    "url": "http://arxiv.org/abs/2605.19231",
+    "pdf": "https://arxiv.org/pdf/2605.19231v1",
+    "keyword": "mixture of experts",
+    "date": "2026-05-19",
+    "fetched_date": "2026-05-20",
+    "authors": [
+      "Kieran Wood",
+      "Stefan Zohren",
+      "Stephen J. Roberts"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "From Seeing to Thinking: Decoupling Perception and Reasoning Improves Post-Training of Vision-Language Models",
+    "abstract": "Recent advances in vision-language models (VLMs) emphasize long chain-of-thought reasoning; yet, we find that their performance on visual tasks is primarily limited by a lack of visual perception as opposed to reasoning itself. In this work, we systematically study the interplay between perception and reasoning in VLM post-training by decomposing their capabilities into three separate training stages: visual perception, visual reasoning, and textual reasoning, incorporating specialized training data. We demonstrate that visual perception (a) requires targeted optimization with specialized data; (b) serves as a fundamental scaffold that should be solidified through staged training before refining visual reasoning; and (c) is more effectively learned via RL than caption-based SFT. Our experiments across multiple VLMs demonstrate that staged training consistently improves both visual perception and reasoning performance over merged training. Notably, models trained with our approach achieve 1.5% higher reasoning accuracy with 20.8% shorter reasoning traces, suggesting that superior perception reduces the need for excessive reasoning. Furthermore, we show that this capability-based staging represents a new curriculum dimension orthogonal to traditional difficulty-based curricula, and combining both yields further additive gains. Our staged-training models achieve superior performance among open-weight VLMs, establishing advanced results on several visual math and perception (e.g., +5.2% on WeMath and +3.7% on RealWorldQA) tasks compared with the base counterpart.",
+    "url": "http://arxiv.org/abs/2605.20177",
+    "pdf": "https://arxiv.org/pdf/2605.20177v1",
+    "keyword": "chain of thought",
+    "date": "2026-05-19",
+    "fetched_date": "2026-05-20",
+    "authors": [
+      "Juncheng Wu",
+      "Hardy Chen",
+      "Haoqin Tu",
+      "Xianfeng Tang",
+      "Freda Shi",
+      "Hui Liu",
+      "Hanqing Lu",
+      "Cihang Xie",
+      "Yuyin Zhou"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "CopT: Contrastive On-Policy Thinking with Continuous Spaces for General and Agentic Reasoning",
+    "abstract": "Chain-of-thought (CoT) is a standard approach for eliciting reasoning capabilities from large language models (LLMs). However, the common CoT paradigm treats thinking as a prerequisite for answering, which can delay access to plausible answers and incur unnecessary token costs even when the model is able to identify an answer before extended thinking, a behavior known as performative reasoning. In this paper, we introduce CopT, a reformulated reasoning pipeline that reverses the usual order of thinking and answering. Instead of thinking before answering, CopT first elicits a draft answer and then invokes subsequent on-policy thinking conditioned on its own draft answer for reflection and correction. To assess whether the draft answer should be trusted, CopT recasts continuous embeddings as inference-time contrastive verifiers. Specifically, it contrasts the model's support for the same generated tokens under discrete-token inputs and continuous-embedding inputs, yielding a sequence-level reverse KL estimator for answer reliability. Our analysis shows that under certain assumptions, the expected estimate equals the mutual information between the unresolved latent state and the emitted answer token, explaining why it captures answer-relevant uncertainty rather than arbitrary uncertainty in the latent state. When the answer is deemed insufficiently reliable, CopT performs further on-policy thinking, where a second KL estimator dynamically controls draft-answer visibility, preserving useful partial information while reducing the risk of being misled by unreliable content. Across mathematics, coding, and agentic reasoning tasks, CopT improves peak accuracy by up to 23% and reduces token usage by up to 57% at comparable or higher accuracy, without any additional training. The code is available at https://github.com/sdc17/CopT.",
+    "url": "http://arxiv.org/abs/2605.20075",
+    "pdf": "https://arxiv.org/pdf/2605.20075v1",
+    "keyword": "chain of thought",
+    "date": "2026-05-19",
+    "fetched_date": "2026-05-20",
+    "authors": [
+      "Dachuan Shi",
+      "Hanlin Zhu",
+      "Xiangchi Yuan",
+      "Wanjia Zhao",
+      "Kejing Xia",
+      "Wen Xiao",
+      "Wenke Lee"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "Passive Construction Site Safety Monitoring via Persona-Scaffolded Adversarial Chain-of-Thought VLM Verification",
+    "abstract": "Construction remains the deadliest industry sector in the United States, with 1,055 fatal worker injuries recorded in 2023, and the majority preventable. Existing monitoring approaches are expensive, require real-time human operators, or address only a narrow subset of violations. This paper presents a passive, end-of-shift construction safety monitoring pipeline processing video from POV body-worn and fixed wall-mounted cameras through a three-stage architecture: (1) fine-tuned YOLO11 for primary PPE and hazard detection, (2) SAM 3 for segmentation refinement and worker deduplication, and (3) Qwen3-VL-8B-Instruct with a method-prompted, persona-scaffolded three-pass adversarial chain-of-thought protocol for compliance verification and hallucination control. The principal contribution is the Stage 3 prompt design: professional persona backstories following the method-actor framing drive an observed 12% precision improvement over single-pass prompting in an informal three-author review of the 12-video Ironsite development corpus, with the largest gains on hallucination-prone violation categories. Structural message isolation enforces observational independence between a generator, discriminator, and reconciliation pass governed by asymmetric rules encoding priors about human observation versus automated detection reliability. The system maps violations to OSHA standards, performs REBA-inspired ergonomic risk scoring from pose keypoints, and produces per-worker safety reports with timestamped evidence. An evaluation harness is released for future reproduction.",
+    "url": "http://arxiv.org/abs/2605.19869",
+    "pdf": "https://arxiv.org/pdf/2605.19869v1",
+    "keyword": "chain of thought",
+    "date": "2026-05-19",
+    "fetched_date": "2026-05-20",
+    "authors": [
+      "Ananth Sriram",
+      "Neel Mokaria",
+      "Rajveer Singh"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "RefiningGPT: Specialized language Models for Automated Refinery Unit-level Process Diagram Synthesis",
+    "abstract": "Applying LLMs to complex industrial processes remains challenging due to the semantic gap between natural language design intents and the rigorous physical logic of engineering. In the field of petroleum refining engineering, a critical bottleneck is the automated synthesis of Unit-level Process Diagrams (UPDs), which serve as the topological bridge connecting abstract requirements to concrete unit operations. In this paper, we propose RefineGPT, a domain-specialized agent for autonomous refinery design.RefineGPT adopts a hierarchical architecture in which a supervised fine-tuned small language model is responsible for selecting units that satisfy design requirements, while a large language model is used to connect these units to generate the final topology. To enable supervised training, we develop a pipeline that extracts latent process motifs from noisy, unstructured legacy topologies and synthesizes high-quality rationale-based Chain-of-Thought (CoT) training data. Empirical validation demonstrates that RefineGPT achieves substantial improvements in topological consistency and chemical engineering feasibility, establishing a high-fidelity pathway for AI-augmented industrial process synthesis.",
+    "url": "http://arxiv.org/abs/2605.19704",
+    "pdf": "https://arxiv.org/pdf/2605.19704v1",
+    "keyword": "chain of thought",
+    "date": "2026-05-19",
+    "fetched_date": "2026-05-20",
+    "authors": [
+      "Dongxiao Liu",
+      "Yuwen Ding",
+      "Xinghai Wei",
+      "Jiacheng Ji",
+      "Lei Li",
+      "Linghui Li",
+      "Xiaoyong Li"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "EgoCoT-Bench: Benchmarking Grounded and Verifiable Operation-Centric Chain of Thought Reasoning for MLLMs",
+    "abstract": "The rapid development of Multimodal Large Language Models (MLLMs) has led to growing interest in egocentric video understanding, specifically the ability for MLLMs to recognize fine-grained hand-object interactions, track object state changes over time, and reason about manipulative processes in dynamic environments from a first-person perspective. However, existing egocentric video benchmarks suffer from \\textbf{limited grounded rationale evaluation}, offering limited support for fine-grained operation-centric reasoning and rarely examining whether model rationales are grounded in explicit spatio-temporal evidence. To address this gap, we introduce \\textbf{EgoCoT-Bench}, a fine-grained egocentric benchmark for grounded and verifiable operation-centric reasoning with explicit step-by-step rationale annotations. Overall, EgoCoT-Bench comprises 3,172 verifiable QA pairs over 351 egocentric videos separated into four task groups for a total of 12 sub-task groups, encompassing perception and retrospection, anticipation, and high-level reasoning. The benchmark is constructed through a spatio-temporal scene graphs (STSG) guided generation framework and is further refined by human annotators to ensure correctness, egocentric relevance and fine-grained quality. Experimental results show continuing difficulties with egocentric fine-grained reasoning and further reveal that many multimodal models produce explanations that are answer-correct, but have evidence that is inconsistent with the answer. We hope EgoCoT-Bench can serve as a useful testbed for grounded and verifiable reasoning in egocentric video understanding. Project page and supplementary materials are available at: https://dstardust.github.io/EgoCoT/.",
+    "url": "http://arxiv.org/abs/2605.19559",
+    "pdf": "https://arxiv.org/pdf/2605.19559v1",
+    "keyword": "chain of thought",
+    "date": "2026-05-19",
+    "fetched_date": "2026-05-20",
+    "authors": [
+      "Yang Dai",
+      "Dian Jiao",
+      "Tianwei Lin",
+      "Wenqiao Zhang"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "Towards Camera-Robust 3D Localization: Equation-Anchored Tool-Use for MLLMs",
+    "abstract": "3D localization in Multimodal Large Language Models (MLLMs), including 3D object detection and 3D visual grounding, is fundamentally limited by camera intrinsic ambiguity: the same image admits different 3D scenes under different cameras. Existing MLLMs either ignore camera parameters and overfit to a canonical training intrinsic, or retrieve depth and 3D cues from external tools but treat the returned values as reference cues (numerical hints that the model is free to interpret implicitly), both preventing camera information from being deterministically propagated into the prediction. We propose an equation-anchored tool-use framework that re-purposes spatial tools as formula variables. The proposed framework proactively retrieves camera intrinsics and samples multi-point metric depths, writes the pinhole back-projection equation $\\hat{X} = (u_c - c_x)\\bar{Z}/f_x$ explicitly in Chain-of-Thought (CoT), and substitutes tool outputs into the formula before regressing the final 9-DoF bounding box. On both 3D object detection and 3D visual grounding tasks under rescaled camera intrinsics from $0.5\\times$ to $1.5\\times$, our method outperforms RGB-only and tool-augmented baselines, with significant gains where the camera deviates most from the training scale. Code and data will be released.",
+    "url": "http://arxiv.org/abs/2605.19528",
+    "pdf": "https://arxiv.org/pdf/2605.19528v1",
+    "keyword": "chain of thought",
+    "date": "2026-05-19",
+    "fetched_date": "2026-05-20",
+    "authors": [
+      "Xueying Jiang",
+      "Wenhao Li",
+      "Quanhao Qian",
+      "Deli Zhao",
+      "Shijian Lu",
+      "Gongjie Zhang",
+      "Ran Xu"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "Backtracking When It Strays: Mitigating Dual Exposure Biases in LLM Reasoning Distillation",
+    "abstract": "Large language models (LLMs) have achieved remarkable success in complex reasoning tasks via long chain-of-thought (CoT), yet their immense computational overhead hinders real-world deployment. LLM reasoning distillation addresses this by transferring reasoning capabilities from formidable teacher models to compact student models. However, existing distillation paradigms face a fundamental dilemma. Typical off-policy distillation strictly utilizes teacher-generated golden trajectories, suffering from an exposure bias due to the mismatch between training distributions and student-generated inference contexts, which leads to error cascades in long CoT reasoning. To address this, on-policy distillation allows students to explore their own trajectories, but we demonstrate that it inherently introduces a reciprocal reversed exposure bias: the teacher model also struggles to provide positive guidance when conditioned on student-generated sub-optimal contexts. To resolve this dual exposure biases problem, we propose Monitoring Trajectories and Backtracking when it strays (MOTAB), a new LLM reasoning distillation pipeline. Specifically, MOTAB dynamically monitors the student's on-policy generation against an adaptive safety boundary. When the generation strays and exceeds this threshold, MOTAB backtracks to the last safe state and leverages teacher intervention to correct the course. This approach inherently tolerates minor student errors to mitigate exposure bias, while preventing sub-optimal contexts to circumvent reversed exposure bias. Extensive experiments on the LIMO-v2 and AceReason datasets demonstrate that MOTAB effectively alleviates the dual exposure biases, yielding a roughly 3% average performance improvement in reasoning tasks.",
+    "url": "http://arxiv.org/abs/2605.19433",
+    "pdf": "https://arxiv.org/pdf/2605.19433v1",
+    "keyword": "chain of thought",
+    "date": "2026-05-19",
+    "fetched_date": "2026-05-20",
+    "authors": [
+      "Bing Wang",
+      "Shaotian Yan",
+      "Chen Shen",
+      "kaiyuan liu",
+      "Sinan Fan",
+      "Ximing Li",
+      "Rui Miao",
+      "Xiaosong Yuan",
+      "Zhanming Shen",
+      "Jieping Ye"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "Unleashing the Power of Tree-of-Thoughts for Edge-Enabled AIGC Service Provisioning",
+    "abstract": "Delivering AI-generated content (AIGC) services fundamentally relies on the reasoning capabilities of generative AI (GenAI) models. Chain-of-Thought (CoT) enhances such reasoning by guiding models through intermediate steps, while Tree-of-Thoughts (ToT) further extends CoT by exploring multiple candidate reasoning paths simultaneously, thereby greatly improving AIGC service quality. However, generating diverse reasoning paths requires separate calls to computationally intensive GenAI models, posing significant challenges for resource constrained user devices. In this paper, we investigate mobile edge computing-enabled AIGC service provisioning with ToT prompting. Specifically, using creative writing AIGC tasks as a case study, we first characterize the number of output tokens as a measure of computational resources in GenAI models and establish its relationship with generation delay and quality through experiments with Qwen 2.5-7B-Instruct. Afterward, we introduce a directed acyclic graph (DAG) model to accurately characterize the reasoning process of ToT prompting, where each vertex represents a thought and each directed edge denotes a transition between consecutive thoughts. We then formulate a DAG-based thought assignment problem aimed at minimizing generation delay subject to a user-adjustable quality constraint. To address this problem, we propose a diffusion-based soft actor-critic (DSAC) algorithm that innovatively integrates diffusion models to determine optimal thought assignment decisions. Through extensive simulations, we demonstrate that the proposed DSAC achieves total generation delay reductions of up to 8.32% over PPO, 11.57% over SAC, and 36.09% over DDQN across various simulation settings, while reducing latency by over 80% compared to the fully local generation baseline even under stringent quality requirements.",
+    "url": "http://arxiv.org/abs/2605.19108",
+    "pdf": "https://arxiv.org/pdf/2605.19108v1",
+    "keyword": "chain of thought",
+    "date": "2026-05-18",
+    "fetched_date": "2026-05-20",
+    "authors": [
+      "Zhang Liu",
+      "Shanhao Zhan",
+      "Shaowei Shen",
+      "Lianfen Huang",
+      "Qiao Xiang",
+      "Ying-Jun Angela Zhang",
+      "Dusit Niyato"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "MotionMERGE: A Multi-granular Framework for Human Motion Editing, Reasoning, Generation, and Explanation",
+    "abstract": "Recent motion-language models unify tasks like comprehension and generation but operate at a coarse granularity, lacking fine-grained understanding and nuanced control over body parts needed for animation or interaction. This stems from fundamental issues in both the model and the data, in which the model can't focus on motion's localized pattern, and the training data lacks fine-grained supervision. To tackle this, we propose MotionMERGE, a unified framework that bridges the granularity gap. First, we pioneer the study of fine-grained languageguided motion control, including detailed understanding and localized editing, by explicitly modeling motion at part and temporal levels within a single LLM, thereby endowing the model with robust priors for precise control. Second, we design ReasoningAware Granularity-Synergy pre-training, a novel strategy that employs joint supervision for cross-granularity alignment, temporal grounding, localized alignment, motion coherency, and motion-grounded chain-of-thought (CoT) reasoning. This equips the model with fine-grained motion-language alignment, crossgranularity synergy, and explicit reasoning ability. Third, we curate MotionFineEdit, a large-scale dataset (837K atomic + 144K complex triplets) with the first fine-grained spatio-temporal corrective instructions and motion-grounded CoT annotations, establishing a new benchmark for fine-grained text-driven motion editing and motion-grounded reasoning. Extensive experiments demonstrate the capability of MotionMERGE for more precise motion generation, understanding, and editing, and compelling zero-shot generalization to other complex motion tasks. This work represents a significant step toward models that interact with motion in finer granularity and human-like reasoning.",
+    "url": "http://arxiv.org/abs/2605.18956",
+    "pdf": "https://arxiv.org/pdf/2605.18956v1",
+    "keyword": "chain of thought",
+    "date": "2026-05-18",
+    "fetched_date": "2026-05-20",
+    "authors": [
+      "Bizhu Wu",
+      "Jinheng Xie",
+      "Wenting Chen",
+      "Zhe Kong",
+      "Jianfeng Ren",
+      "Linlin Shen",
+      "Ruibin Bai",
+      "Rong Qu"
+    ],
+    "article_type": "research"
   }
 ]

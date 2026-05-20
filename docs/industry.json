@@ -7668,5 +7668,485 @@
     "fetched_date": "2026-05-19",
     "feed_name": "Modern Retail",
     "source": "industry"
+  },
+  {
+    "title": "Introducing OpenAI for Singapore",
+    "abstract": "OpenAI for Singapore launches a multi-year AI partnership to expand deployment, build local talent, and support businesses and public services with AI.",
+    "url": "https://openai.com/index/introducing-openai-for-singapore",
+    "topic": "llm",
+    "date": "2026-05-19",
+    "fetched_date": "2026-05-20",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Advancing content provenance for a safer, more transparent AI ecosystem",
+    "abstract": "OpenAI advances AI content provenance with Content Credentials, SynthID, and a verification tool to help people identify and trust AI-generated media.",
+    "url": "https://openai.com/index/advancing-content-provenance",
+    "topic": "llm",
+    "date": "2026-05-19",
+    "fetched_date": "2026-05-20",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "OlmoEarth v1.1: A more efficient family of models",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/allenai/olmoearth-v1-1",
+    "topic": "llm",
+    "date": "2026-05-19",
+    "fetched_date": "2026-05-20",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Introducing the Ettin Reranker Family",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/ettin-reranker",
+    "topic": "llm",
+    "date": "2026-05-19",
+    "fetched_date": "2026-05-20",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Fast-tracking genetic leads to reverse cellular aging",
+    "abstract": "Biologists use Co-Scientist to find novel factors that successfully rejuvenate human cells.",
+    "url": "https://deepmind.google/blog/fast-tracking-genetic-leads-to-reverse-cellular-aging/",
+    "topic": "generative-ai",
+    "date": "2026-05-18",
+    "fetched_date": "2026-05-20",
+    "feed_name": "DeepMind Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Simulate real-world places with Project Genie and Street View",
+    "abstract": "We’re expanding access to Google AI Ultra subscribers globally and introducing a new capability powered by Street View.",
+    "url": "https://deepmind.google/blog/simulate-real-world-places-with-project-genie-and-street-view/",
+    "topic": "generative-ai",
+    "date": "2026-05-17",
+    "fetched_date": "2026-05-20",
+    "feed_name": "DeepMind Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Introducing Gemini Omni",
+    "abstract": "",
+    "url": "https://deepmind.google/blog/introducing-gemini-omni/",
+    "topic": "generative-ai",
+    "date": "2026-05-17",
+    "fetched_date": "2026-05-20",
+    "feed_name": "DeepMind Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Introducing Google Antigravity 2.0",
+    "abstract": "",
+    "url": "https://deepmind.google/blog/introducing-google-antigravity-2-0/",
+    "topic": "generative-ai",
+    "date": "2026-05-17",
+    "fetched_date": "2026-05-20",
+    "feed_name": "DeepMind Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Gemini for Science: AI experiments and tools for a new era of discovery",
+    "abstract": "A collection of science tools and experiments to expand the scale and precision of scientific exploration.",
+    "url": "https://deepmind.google/blog/gemini-for-science-ai-experiments-and-tools-for-a-new-era-of-discovery/",
+    "topic": "generative-ai",
+    "date": "2026-05-17",
+    "fetched_date": "2026-05-20",
+    "feed_name": "DeepMind Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Making it easier to understand how content was created and edited",
+    "abstract": "We're expanding our tools to help you understand how content was created and edited across the web.",
+    "url": "https://deepmind.google/blog/making-it-easier-to-understand-how-content-was-created-and-edited/",
+    "topic": "generative-ai",
+    "date": "2026-05-17",
+    "fetched_date": "2026-05-20",
+    "feed_name": "DeepMind Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Strengthening Singapore’s AI Future: A New National Partnership",
+    "abstract": "Google DeepMind and Singapore partner to apply frontier AI to address complex challenges across health, education, and sustainability and more.",
+    "url": "https://deepmind.google/blog/strengthening-singapores-ai-future-a-new-national-partnership/",
+    "topic": "generative-ai",
+    "date": "2026-05-16",
+    "fetched_date": "2026-05-20",
+    "feed_name": "DeepMind Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Finding the molecular switches behind new infectious diseases",
+    "abstract": "Clare Bryant uses Co-Scientist to identify genetic triggers in emerging infectious diseases.",
+    "url": "https://deepmind.google/blog/finding-the-molecular-switches-behind-new-infectious-diseases/",
+    "topic": "generative-ai",
+    "date": "2026-05-16",
+    "fetched_date": "2026-05-20",
+    "feed_name": "DeepMind Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Opening new paths in aging research",
+    "abstract": "Calico Life Sciences uses Co-Scientist to connect scattered findings and generate new leads in aging research.",
+    "url": "https://deepmind.google/blog/opening-new-paths-in-aging-research/",
+    "topic": "generative-ai",
+    "date": "2026-05-16",
+    "fetched_date": "2026-05-20",
+    "feed_name": "DeepMind Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Accelerating discovery of liver disease mechanisms",
+    "abstract": "Filippo Menolascina uses Co-Scientist to identify new liver disease treatments and explain why existing drugs only help certain patients.",
+    "url": "https://deepmind.google/blog/accelerating-discovery-of-liver-disease-mechanisms/",
+    "topic": "generative-ai",
+    "date": "2026-05-16",
+    "fetched_date": "2026-05-20",
+    "feed_name": "DeepMind Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Uniting biological toolkits for a new approach to ALS",
+    "abstract": "Co-Scientist unites Boston Children’s Hospital and MIT’s labs to explore new RNA-based treatments for ALS.",
+    "url": "https://deepmind.google/blog/uniting-biological-toolkits-for-a-new-approach-to-als/",
+    "topic": "generative-ai",
+    "date": "2026-05-16",
+    "fetched_date": "2026-05-20",
+    "feed_name": "DeepMind Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Uncovering repurposed medicines to fight liver fibrosis",
+    "abstract": "Stanford geneticist uses Co-Scientist to help find new treatments for chronic liver disease and liver fibrosis.",
+    "url": "https://deepmind.google/blog/uncovering-repurposed-medicines-to-fight-liver-fibrosis/",
+    "topic": "generative-ai",
+    "date": "2026-05-16",
+    "fetched_date": "2026-05-20",
+    "feed_name": "DeepMind Blog",
+    "source": "industry"
+  },
+  {
+    "title": "How WeatherNext helped the National Hurricane Center better predict Hurricane Melissa’s historic landfall in Jamaica",
+    "abstract": "Learn how our WeatherNext AI model help forecasters give communities unprecedented time to prepare ahead of the historic Hurricane Melissa.",
+    "url": "https://deepmind.google/blog/how-weathernext-helped-the-national-hurricane-center-better-predict-hurricane-melissas-historic-landfall-in-jamaica/",
+    "topic": "generative-ai",
+    "date": "2026-05-16",
+    "fetched_date": "2026-05-20",
+    "feed_name": "DeepMind Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Gemini 3.5: frontier intelligence with action",
+    "abstract": "Gemini 3.5 is built to help you execute complex, agentic workflows.",
+    "url": "https://deepmind.google/blog/gemini-3-5-frontier-intelligence-with-action/",
+    "topic": "generative-ai",
+    "date": "2026-05-15",
+    "fetched_date": "2026-05-20",
+    "feed_name": "DeepMind Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Co-Scientist: A multi-agent AI partner to accelerate research",
+    "abstract": "Introducing Co-Scientist, a collaborative AI partner built with Gemini to help researchers accelerate scientific breakthroughs.",
+    "url": "https://deepmind.google/blog/co-scientist-a-multi-agent-ai-partner-to-accelerate-research/",
+    "topic": "generative-ai",
+    "date": "2026-05-12",
+    "fetched_date": "2026-05-20",
+    "feed_name": "DeepMind Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Scaling Airbnb’s identity graph with a unified knowledge graph infrastructure",
+    "abstract": "",
+    "url": "https://medium.com/airbnb-engineering/scaling-airbnbs-identity-graph-with-a-unified-knowledge-graph-infrastructure-ebac467b7836?source=rss----53c7c27702d5---4",
+    "topic": "ml-engineering",
+    "date": "2026-05-19",
+    "fetched_date": "2026-05-20",
+    "feed_name": "Airbnb Engineering",
+    "source": "industry"
+  },
+  {
+    "title": "llm-gemini 0.32",
+    "abstract": "Release: llm-gemini 0.32 New model gemini-3.5-flash for Gemini 3.5 Flash . See also my notes on Gemini 3.5 Flash , and the pelican I drew using this upgrade to the plugin. Tags: gemini , llm",
+    "url": "https://simonwillison.net/2026/May/19/llm-gemini-2/#atom-everything",
+    "topic": "llm",
+    "date": "2026-05-19",
+    "fetched_date": "2026-05-20",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Gemini 3.5 Flash: more expensive, but Google plan to use it for everything",
+    "abstract": "Today at Google I/O, Google released Gemini 3.5 Flash . This one skipped the -preview modifier and went straight to general availability, and Google appear to be using it for a whole lot of their key products: 3.5 Flash is available today to billions of people globally: For everyone via the Gemini app and AI Mode in Google Search For developers in our agent-first development platform Google Antigravity and Gemini API in Google AI Studio and Android Studio For enterprises in Gemini Enterprise Agent Platform and Gemini Enterprise. As usual with Gemini, the most interesting details are tucked away in the What's new in Gemini 3.5 Flash developer documentation. It mostly has the same set of platform features as the previous Gemini 3.x series, albeit with no computer use . The model ID is gemini-3.5-flash . The knowledge cut-off is January 2025, and it supports 1,048,576 input tokens and 65,536 maximum output tokens. Google are also pushing a new Interactions API , currently in beta, which looks to me like their version of the patterns introduced by OpenAI Responses - in particular server-side history management. The price has gone up Gemini 3.5 Flash is accompanied by a notable price bump. The previous models in the \"Flash\" family were Gemini 3 Flash Preview and Gemini 3.1 Flash-Lite . The new 3.5 Flash is 3x the price of 3 Flash Preview and 6x the price of 3.1 Flash-Lite (see price comparison here ). At $1.50/million input and $9/million output it's getting close in price to Google's Gemini 3.1 Pro, which is $2 and $12. The Gemini team promise that 3.5 Pro will roll out \"next month\" - presumably at an even higher price. This fits a trend: OpenAI's GPT-5.5 was 2x the price of GPT-5.4, and Claude Opus 4.7 is around 1.46x the price of 4.6 when you take the new tokenizer into account . Given the price increase it's interesting to see Google roll it out for so many of their own free-to-consumer products. It feels like all three of the major AI labs are starting to probe the price tolerance of their API customers. Artificial Analysis publish the cost to run their proprietary benchmark against models, which is a useful way to take things like tokenization and increased volume of reasoning tokens into account. Some numbers worth comparing: Gemini 3.5 Flash (high) : $1,551.60 Gemini 3.1 Pro Preview : $892.28 Gemini 3 Flash Preview (Reasoning) : $278.26 Gemini 3.1 Flash-Lite Preview : $93.60 Running the benchmark for 3.5 Flash (high) cost significantly more than 3.1 Pro Preview! Here are some numbers from other vendors: Claude Opus 4.7 (Adaptive Reasoning, Max Effort) : $5,117.14 Claude Opus 4.7 (Non-reasoning, High Effort) : $1,217.23 GPT-5.5 (xhigh) : $3,357.00 GPT-5.5 (medium) : $1,199.14 A pelican on a bicycle I ran \"Generate an SVG of a pelican riding a bicycle\" against the Gemini API and got back this pelican, which is a lot : From the code comments: <!-- Pelican Eye / Sunglasses (Cool Retro Aviators) --> hedgehog on Hacker News : That pelican looks like it's in Miami for a crypto conference. That one cost me 11 input tokens and 14,403 output tokens, for a total cost of just under 13 cents . Tags: google , ai , generative-ai , llms , gemini , llm-pricing , pelican-riding-a-bicycle , llm-release",
+    "url": "https://simonwillison.net/2026/May/19/gemini-35-flash/#atom-everything",
+    "topic": "llm",
+    "date": "2026-05-19",
+    "fetched_date": "2026-05-20",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "datasette-llm-accountant 0.1a4",
+    "abstract": "Release: datasette-llm-accountant 0.1a4 Fixed bug tracking chains of responses. Refs datasette-llm#7 Tags: llm , datasette",
+    "url": "https://simonwillison.net/2026/May/19/datasette-llm-accountant/#atom-everything",
+    "topic": "llm",
+    "date": "2026-05-19",
+    "fetched_date": "2026-05-20",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "llm-gemini 0.32a0",
+    "abstract": "Release: llm-gemini 0.32a0 Compatible with llm>=0.32a0 alpha - adds the ability to stream reasoning tokens. Tags: gemini , llm",
+    "url": "https://simonwillison.net/2026/May/19/llm-gemini/#atom-everything",
+    "topic": "llm",
+    "date": "2026-05-19",
+    "fetched_date": "2026-05-20",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "datasette-llm 0.1a8",
+    "abstract": "Release: datasette-llm 0.1a8 Fix for bug where llm_prompt_context() hook did not fully collect chains of responses. #7",
+    "url": "https://simonwillison.net/2026/May/19/datasette-llm/#atom-everything",
+    "topic": "llm",
+    "date": "2026-05-19",
+    "fetched_date": "2026-05-20",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Andrej Karpathy Joins Anthropic: What Happens Next",
+    "abstract": "A quick review of the last 6 months",
+    "url": "https://www.thealgorithmicbridge.com/p/andrej-karpathy-joins-anthropic-what",
+    "topic": "llm",
+    "date": "2026-05-19",
+    "fetched_date": "2026-05-20",
+    "feed_name": "The Algorithmic Bridge",
+    "source": "industry"
+  },
+  {
+    "title": "Google just declared itself a contender in AI design at IO 2026",
+    "abstract": "Google says it's designed the app to be accessible to everyone, from teachers to small business owners.",
+    "url": "https://techcrunch.com/2026/05/19/ai-design-tools-are-the-next-big-battleground-and-google-is-going-all-in-at-io-2026/",
+    "topic": "llm",
+    "date": "2026-05-19",
+    "fetched_date": "2026-05-20",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "You can now talk to your Gmail inbox, as seen at Google IO 2026",
+    "abstract": "Google expands Gmail’s AI Inbox with conversational voice search, letting users ask Gemini to find buried email details.",
+    "url": "https://techcrunch.com/2026/05/19/you-can-now-talk-to-your-gmail-inbox-as-seen-at-google-io-2026/",
+    "topic": "llm",
+    "date": "2026-05-19",
+    "fetched_date": "2026-05-20",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "How to use Google’s new AI agents to go beyond your standard searches",
+    "abstract": "Google is launching AI-powered “information agents” that can monitor topics in the background and proactively alert users to updates and changes.",
+    "url": "https://techcrunch.com/2026/05/19/how-to-use-googles-new-ai-agents-to-go-beyond-your-standard-searches/",
+    "topic": "llm",
+    "date": "2026-05-19",
+    "fetched_date": "2026-05-20",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "From teen hacker to Iron Dome researcher, this founder raised $28M to fight AI phishing",
+    "abstract": "Ocean, an agentic email security platform, claims its AI can thoroughly analyze the context of every incoming email to detect fraud and impersonation attempts.",
+    "url": "https://techcrunch.com/2026/05/19/from-teen-hacker-to-iron-dome-researcher-this-founder-raised-28m-to-fight-ai-phishing/",
+    "topic": "llm",
+    "date": "2026-05-19",
+    "fetched_date": "2026-05-20",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Elon Musk said Sam Altman ‘stole’ a non-profit — but the trial showed he had similar aims",
+    "abstract": "The jury's speedy decision to reject Elon Musk's lawsuit against the other founders of OpenAI and Microsoft confirmed what we saw in the courtroom: Musk's case was a weak one, in part because he waited so long to file it.",
+    "url": "https://techcrunch.com/2026/05/19/elon-musk-said-sam-altman-stole-a-non-profit-but-the-trial-showed-he-had-similar-aims/",
+    "topic": "llm",
+    "date": "2026-05-19",
+    "fetched_date": "2026-05-20",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Google takes a page out of Meta’s book, announces new audio-powered smart glasses at IO 2026",
+    "abstract": "Google is calling the new devices \"audio glasses,\" in that users will be able to issue verbal commands to them and get things done via its ecosystem of apps and services, including Gemini.",
+    "url": "https://techcrunch.com/2026/05/19/google-takes-a-page-out-of-metas-book-announces-new-audio-powered-smart-glasses-at-io-2026/",
+    "topic": "llm",
+    "date": "2026-05-19",
+    "fetched_date": "2026-05-20",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Google’s Genie world model can now simulate real streets with Street View",
+    "abstract": "Google DeepMind is integrating Street View with Project Genie to create immersive, interactive world simulations for robotics, gaming, and travel, allowing users to explore environments, weather changes, and rare scenarios.",
+    "url": "https://techcrunch.com/2026/05/19/googles-genie-world-model-can-now-simulate-real-streets-with-street-view/",
+    "topic": "llm",
+    "date": "2026-05-19",
+    "fetched_date": "2026-05-20",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "With Gemini 3.5 Flash, Google bets its next AI wave on agents, not chatbots",
+    "abstract": "Google launched Gemini 3.5 Flash, its most powerful coding and agentic AI model yet, at the company's annual developer conference. It is capable of autonomously executing complex tasks and building software from scratch.",
+    "url": "https://techcrunch.com/2026/05/19/with-gemini-3-5-flash-google-bets-its-next-ai-wave-on-agents-not-chatbots/",
+    "topic": "llm",
+    "date": "2026-05-19",
+    "fetched_date": "2026-05-20",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Google Search as you know it is over",
+    "abstract": "Google is transforming Search from a list of links into an AI-powered experience filled with conversational answers, autonomous agents, and interactive interfaces — a shift that could further reduce traffic to publishers across the web.",
+    "url": "https://techcrunch.com/2026/05/19/google-search-as-you-know-it-is-over/",
+    "topic": "llm",
+    "date": "2026-05-19",
+    "fetched_date": "2026-05-20",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "OpenAI is making it easier to check if an image was made by their models",
+    "abstract": "OpenAI announced two new measures to help detect AI generated imagery: joining the open C2PA standard and adding Google's SynthID to its products.",
+    "url": "https://techcrunch.com/2026/05/19/openai-is-making-it-easier-to-check-if-an-image-was-made-by-their-models/",
+    "topic": "llm",
+    "date": "2026-05-19",
+    "fetched_date": "2026-05-20",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Agentic app coding gets an upgrade with Google’s release of Android CLI",
+    "abstract": "Google is embracing the rise of AI coding agents with new Android tools designed to work with platforms like Claude Code and OpenAI’s Codex, allowing developers — or their AI assistants — to build Android apps faster from the command line.",
+    "url": "https://techcrunch.com/2026/05/19/agentic-app-coding-gets-an-upgrade-with-googles-release-of-android-cli/",
+    "topic": "llm",
+    "date": "2026-05-19",
+    "fetched_date": "2026-05-20",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Google’s AI Studio now lets anyone build Android apps in minutes",
+    "abstract": "Google unveiled new web-based AI tools that can generate native Android apps in minutes, as the company expands its push into AI-powered software development.",
+    "url": "https://techcrunch.com/2026/05/19/googles-ai-studio-now-lets-anyone-build-android-apps-in-minutes/",
+    "topic": "llm",
+    "date": "2026-05-19",
+    "fetched_date": "2026-05-20",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Google’s new Universal Cart wants to follow your entire shopping journey across the internet",
+    "abstract": "Most people shop across multiple devices, many retailers, and over the course of many days, which is why Google is launching Universal Cart.",
+    "url": "https://techcrunch.com/2026/05/19/googles-new-universal-cart-wants-to-follow-your-entire-shopping-journey-across-the-internet/",
+    "topic": "llm",
+    "date": "2026-05-19",
+    "fetched_date": "2026-05-20",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Google launches Antigravity 2.0 with an updated desktop app and CLI tool at IO 2026",
+    "abstract": "Google is debuting a new AI Ultra plan priced at $100, which will give users 5x more usage limit than the AI Pro plan alongside the Antigravity 2.0 launch.",
+    "url": "https://techcrunch.com/2026/05/19/google-launches-antigravity-2-0-with-an-updated-desktop-app-and-cli-tool-at-io-2026/",
+    "topic": "llm",
+    "date": "2026-05-19",
+    "fetched_date": "2026-05-20",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Google introduces Gemini Spark, a 24/7 agentic assistant with Gmail integration, at IO 2026",
+    "abstract": "At the Google I/O developer conference, the company announced a new agentic personal assistant called Gemini Spark, built from Gemini's base models and an agentic harness from Google Antigravity.",
+    "url": "https://techcrunch.com/2026/05/19/google-introduces-gemini-spark-a-24-7-agentic-assistant-with-gmail-integration/",
+    "topic": "llm",
+    "date": "2026-05-19",
+    "fetched_date": "2026-05-20",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Google adds voice-based prompting to Docs and Keep",
+    "abstract": "Google is letting users create drafts, take notes, and search for email with voice with the new Workspace update.",
+    "url": "https://techcrunch.com/2026/05/19/google-adds-voice-based-prompting-to-docs-and-keep/",
+    "topic": "llm",
+    "date": "2026-05-19",
+    "fetched_date": "2026-05-20",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Google updates its Gemini app to take on ChatGPT and Claude at IO 2026",
+    "abstract": "The updates signal Google’s push to turn its Gemini app into an all-purpose AI hub rather than a stand-alone chatbot.",
+    "url": "https://techcrunch.com/2026/05/19/google-updates-its-gemini-app-to-take-on-chatgpt-and-claude-at-io-2026/",
+    "topic": "llm",
+    "date": "2026-05-19",
+    "fetched_date": "2026-05-20",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Google’s Gemini Omni turns images, audio, and text into video — and that’s just the start",
+    "abstract": "Google's Gemini Omni is a new multimodal model that reasons across text, images, audio, and video to generate and edit videos through simple conversation — starting with Omni Flash.",
+    "url": "https://techcrunch.com/2026/05/19/googles-gemini-omni-turns-images-audio-and-text-into-video-and-thats-just-the-start/",
+    "topic": "llm",
+    "date": "2026-05-19",
+    "fetched_date": "2026-05-20",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "OpenAI co-founder Andrej Karpathy joins Anthropic’s pre-training team",
+    "abstract": "Pre-training is responsible for the large-scale training runs that give Claude its core knowledge and capabilities, according to the company. It's also one of the most expensive, compute-intensive phases of building a frontier model.",
+    "url": "https://techcrunch.com/2026/05/19/openai-co-founder-andrej-karpathy-joins-anthropics-pre-training-team/",
+    "topic": "llm",
+    "date": "2026-05-19",
+    "fetched_date": "2026-05-20",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Brands are finally bringing resale into stores",
+    "abstract": "In the last five years, dozens of apparel brands have set up online resale sites. Now, more players like Pacsun and Faherty are bringing secondhand into stores, too.",
+    "url": "https://www.modernretail.co/operations/brands-are-finally-bringing-resale-into-stores/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-05-20",
+    "fetched_date": "2026-05-20",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Brands Briefing: Harry’s turns to a drop model for its body wash to acquire new customers",
+    "abstract": "Harry's, best known for its razors, is turning to limited-edition body washes to resonate with a younger consumer.",
+    "url": "https://www.modernretail.co/marketing/brands-briefing-harrys-turns-to-a-drop-model-for-its-body-wash-to-acquire-new-customers/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-05-19",
+    "fetched_date": "2026-05-20",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "TikTok Shop says sales from U.S. small businesses climbed 66% in 2025",
+    "abstract": "TikTok Shop says it's continuing to drive rapid growth for small businesses, even as bigger brands swarm the platform.",
+    "url": "https://www.modernretail.co/operations/tiktok-shop-says-sales-from-u-s-small-businesses-climbed-66-in-2025/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-05-19",
+    "fetched_date": "2026-05-20",
+    "feed_name": "Modern Retail",
+    "source": "industry"
   }
 ]

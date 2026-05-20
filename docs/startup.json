@@ -2668,5 +2668,155 @@
     "fetched_date": "2026-05-19",
     "feed_name": "TechCrunch",
     "source": "startup"
+  },
+  {
+    "title": "‘Ask YouTube’ brings AI-powered conversational search to video, adds Gemini Omni to Shorts",
+    "abstract": "Google is completely revamping its search experience, and that doesn't stop at YouTube.",
+    "url": "https://techcrunch.com/2026/05/19/ask-youtube-brings-ai-powered-conversational-search-to-video-adds-gemini-omni-to-shorts/",
+    "topic": "startup",
+    "date": "2026-05-20",
+    "fetched_date": "2026-05-20",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Google just declared itself a contender in AI design at IO 2026",
+    "abstract": "Google says it's designed the app to be accessible to everyone, from teachers to small business owners.",
+    "url": "https://techcrunch.com/2026/05/19/ai-design-tools-are-the-next-big-battleground-and-google-is-going-all-in-at-io-2026/",
+    "topic": "startup",
+    "date": "2026-05-19",
+    "fetched_date": "2026-05-20",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "You can now talk to your Gmail inbox, as seen at Google IO 2026",
+    "abstract": "Google expands Gmail’s AI Inbox with conversational voice search, letting users ask Gemini to find buried email details.",
+    "url": "https://techcrunch.com/2026/05/19/you-can-now-talk-to-your-gmail-inbox-as-seen-at-google-io-2026/",
+    "topic": "startup",
+    "date": "2026-05-19",
+    "fetched_date": "2026-05-20",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "How to use Google’s new AI agents to go beyond your standard searches",
+    "abstract": "Google is launching AI-powered “information agents” that can monitor topics in the background and proactively alert users to updates and changes.",
+    "url": "https://techcrunch.com/2026/05/19/how-to-use-googles-new-ai-agents-to-go-beyond-your-standard-searches/",
+    "topic": "startup",
+    "date": "2026-05-19",
+    "fetched_date": "2026-05-20",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "From teen hacker to Iron Dome researcher, this founder raised $28M to fight AI phishing",
+    "abstract": "Ocean, an agentic email security platform, claims its AI can thoroughly analyze the context of every incoming email to detect fraud and impersonation attempts.",
+    "url": "https://techcrunch.com/2026/05/19/from-teen-hacker-to-iron-dome-researcher-this-founder-raised-28m-to-fight-ai-phishing/",
+    "topic": "startup",
+    "date": "2026-05-19",
+    "fetched_date": "2026-05-20",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Elon Musk said Sam Altman ‘stole’ a non-profit — but the trial showed he had similar aims",
+    "abstract": "The jury's speedy decision to reject Elon Musk's lawsuit against the other founders of OpenAI and Microsoft confirmed what we saw in the courtroom: Musk's case was a weak one, in part because he waited so long to file it.",
+    "url": "https://techcrunch.com/2026/05/19/elon-musk-said-sam-altman-stole-a-non-profit-but-the-trial-showed-he-had-similar-aims/",
+    "topic": "startup",
+    "date": "2026-05-19",
+    "fetched_date": "2026-05-20",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "With Gemini 3.5 Flash, Google bets its next AI wave on agents, not chatbots",
+    "abstract": "Google launched Gemini 3.5 Flash, its most powerful coding and agentic AI model yet, at the company's annual developer conference. It is capable of autonomously executing complex tasks and building software from scratch.",
+    "url": "https://techcrunch.com/2026/05/19/with-gemini-3-5-flash-google-bets-its-next-ai-wave-on-agents-not-chatbots/",
+    "topic": "startup",
+    "date": "2026-05-19",
+    "fetched_date": "2026-05-20",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Google Search as you know it is over",
+    "abstract": "Google is transforming Search from a list of links into an AI-powered experience filled with conversational answers, autonomous agents, and interactive interfaces — a shift that could further reduce traffic to publishers across the web.",
+    "url": "https://techcrunch.com/2026/05/19/google-search-as-you-know-it-is-over/",
+    "topic": "startup",
+    "date": "2026-05-19",
+    "fetched_date": "2026-05-20",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Google’s AI Studio now lets anyone build Android apps in minutes",
+    "abstract": "Google unveiled new web-based AI tools that can generate native Android apps in minutes, as the company expands its push into AI-powered software development.",
+    "url": "https://techcrunch.com/2026/05/19/googles-ai-studio-now-lets-anyone-build-android-apps-in-minutes/",
+    "topic": "startup",
+    "date": "2026-05-19",
+    "fetched_date": "2026-05-20",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Google updates its Gemini app to take on ChatGPT and Claude at IO 2026",
+    "abstract": "The updates signal Google’s push to turn its Gemini app into an all-purpose AI hub rather than a stand-alone chatbot.",
+    "url": "https://techcrunch.com/2026/05/19/google-updates-its-gemini-app-to-take-on-chatgpt-and-claude-at-io-2026/",
+    "topic": "startup",
+    "date": "2026-05-19",
+    "fetched_date": "2026-05-20",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Agentic app coding gets an upgrade with Google’s release of Android CLI",
+    "abstract": "Google is embracing the rise of AI coding agents with new Android tools designed to work with platforms like Claude Code and OpenAI’s Codex, allowing developers — or their AI assistants — to build Android apps faster from the command line.",
+    "url": "https://techcrunch.com/2026/05/19/agentic-app-coding-gets-an-upgrade-with-googles-release-of-android-cli/",
+    "topic": "startup",
+    "date": "2026-05-19",
+    "fetched_date": "2026-05-20",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Google’s new Universal Cart wants to follow your entire shopping journey across the internet",
+    "abstract": "Most people shop across multiple devices, many retailers, and over the course of many days, which is why Google is launching Universal Cart.",
+    "url": "https://techcrunch.com/2026/05/19/googles-new-universal-cart-wants-to-follow-your-entire-shopping-journey-across-the-internet/",
+    "topic": "startup",
+    "date": "2026-05-19",
+    "fetched_date": "2026-05-20",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Google introduces Gemini Spark, a 24/7 agentic assistant with Gmail integration, at IO 2026",
+    "abstract": "At the Google I/O developer conference, the company announced a new agentic personal assistant called Gemini Spark, built from Gemini's base models and an agentic harness from Google Antigravity.",
+    "url": "https://techcrunch.com/2026/05/19/google-introduces-gemini-spark-a-24-7-agentic-assistant-with-gmail-integration/",
+    "topic": "startup",
+    "date": "2026-05-19",
+    "fetched_date": "2026-05-20",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Google adds voice-based prompting to Docs and Keep",
+    "abstract": "Google is letting users create drafts, take notes, and search for email with voice with the new Workspace update.",
+    "url": "https://techcrunch.com/2026/05/19/google-adds-voice-based-prompting-to-docs-and-keep/",
+    "topic": "startup",
+    "date": "2026-05-19",
+    "fetched_date": "2026-05-20",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Google launches Antigravity 2.0 with an updated desktop app and CLI tool at IO 2026",
+    "abstract": "Google is debuting a new AI Ultra plan priced at $100, which will give users 5x more usage limit than the AI Pro plan alongside the Antigravity 2.0 launch.",
+    "url": "https://techcrunch.com/2026/05/19/google-launches-antigravity-2-0-with-an-updated-desktop-app-and-cli-tool-at-io-2026/",
+    "topic": "startup",
+    "date": "2026-05-19",
+    "fetched_date": "2026-05-20",
+    "feed_name": "TechCrunch",
+    "source": "startup"
   }
 ]
