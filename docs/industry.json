@@ -8148,5 +8148,275 @@
     "fetched_date": "2026-05-20",
     "feed_name": "Modern Retail",
     "source": "industry"
+  },
+  {
+    "title": "An OpenAI model has disproved a central conjecture in discrete geometry",
+    "abstract": "An OpenAI model solved the 80-year-old unit distance problem, disproving a major conjecture in discrete geometry and marking a milestone in AI-driven mathematics.",
+    "url": "https://openai.com/index/model-disproves-discrete-geometry-conjecture",
+    "topic": "llm",
+    "date": "2026-05-20",
+    "fetched_date": "2026-05-21",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "The next phase of OpenAI’s Education for Countries",
+    "abstract": "OpenAI advances Education for Countries, expanding AI adoption in schools with new partnerships, teacher training, and tools to improve global learning outcomes.",
+    "url": "https://openai.com/index/the-next-phase-of-education-for-countries",
+    "topic": "llm",
+    "date": "2026-05-20",
+    "fetched_date": "2026-05-21",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "How Ramp engineers accelerate code review with Codex",
+    "abstract": "How Ramp engineers use Codex with GPT-5.5 to review code and ship improvements, allowing them to get substantive feedback in minutes instead of hours.",
+    "url": "https://openai.com/index/ramp",
+    "topic": "llm",
+    "date": "2026-05-20",
+    "fetched_date": "2026-05-21",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Quoting SpaceX S-1",
+    "abstract": "We have the ability to use compute resources to support our proprietary AI applications (such as Grok 5, which is currently being trained at COLOSSUS II), while also providing access to select compute capacity to third-party customers. For example, in May 2026, we entered into Cloud Services Agreements with Anthropic PBC (“Anthropic”), an AI research and development public benefit corporation, with respect to access to compute capacity across COLOSSUS and COLOSSUS II . Pursuant to these agreements, the customer has agreed to pay us $1.25 billion per month through May 2029, with capacity ramping in May and June 2026 at a reduced fee. The agreements may be terminated by either party upon 90 days’ notice. — SpaceX S-1 , highlights mine Tags: anthropic , grok , generative-ai , ai , llms",
+    "url": "https://simonwillison.net/2026/May/20/spacex-s1/#atom-everything",
+    "topic": "llm",
+    "date": "2026-05-20",
+    "fetched_date": "2026-05-21",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "How fast is 10 tokens per second really?",
+    "abstract": "How fast is 10 tokens per second really? Neat little HTML app by Mike Veerman ( source code here ) which simulates LLM token output speeds from 5/second to 800/second. Useful if you see a model advertised as \"30 tokens/second\" and want to get a feel for what that actually looks like. Via Hacker News Tags: ai , generative-ai , llms",
+    "url": "https://simonwillison.net/2026/May/20/tokens-per-second/#atom-everything",
+    "topic": "llm",
+    "date": "2026-05-20",
+    "fetched_date": "2026-05-21",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Google I/O, Gemini Spark, Antigravity",
+    "abstract": "It's hard to find much to write about Google I/O this year because I have a policy of not writing about anything that I can't try out myself, and a lot of the big announcements are \"coming soon\". I actually prefer to write about things that are in general availability, because I've had instances in the past where the previews didn't match what was released to the general public later on. Aside from Gemini 3.5 Flash the most interesting announcement looks to be Google's upcoming OpenClaw competitor Gemini Spark , described as \"your personal AI agent\" which can \"connect natively with your favorite Google apps like Gmail, Calendar, Drive, Docs, Sheets, Slides, YouTube, and Google Maps\". The FAQ for that also includes this confusing detail: What Gemini model does Gemini Spark run on? Gemini Spark runs on Gemini 3.5 Flash and Antigravity. The antigravity.google website currently lists Antigravity as a desktop app, a CLI agent tool (written in Go), the Antigravity SDK (an open source Python wrapper around a bundled closed source Go binary), and the original Antigravity IDE (a VS Code fork). I guess Gemini Spark, the user-facing hosted agent product, might be running on that Go binary, but I'm not sure why that's worth mentioning in the FAQ! Naturally I went looking for notes on how Gemini Spark intends to handle the risk of prompt injection. The best information I could find on that was in the Everything Google Cloud customers need to know coming out of Google I/O post aimed at enterprise customers, which includes: Spark operates in a fully managed, secure runtime on Google Cloud, meaning you get enterprise-grade security without ever having to manage the underlying infrastructure. Every task executes in a fresh, strictly isolated, ephemeral VM to help ensure data never overlaps between sessions. To protect your enterprise, all traffic routes through our secure Agent Gateway that enforces Data Loss Prevention (DLP) policies, while user credentials remain fully encrypted and are never exposed directly to the agent. Given how many people are going to be piping very sensitive data through Gemini Spark in the near future I hope they've made this bullet-proof, or this could be a top candidate for the agent security challenger disaster that we still haven't seen. Also of note: in Transitioning Gemini CLI to Antigravity CLI Google announce that the open source Gemini CLI tool (Apache 2.0 licensed TypeScript) will stop working with their AI subscription plans on June 18th, replaced by the new closed source Antigravity CLI . Tags: gemini , google , generative-ai , ai , google-io , llms , prompt-injection",
+    "url": "https://simonwillison.net/2026/May/20/google-io/#atom-everything",
+    "topic": "llm",
+    "date": "2026-05-20",
+    "fetched_date": "2026-05-21",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "How America Turned Against AI According to the Poll Data: A (Very Big) Compilation",
+    "abstract": "Every poll, pollster, and methodology converges on the same thing",
+    "url": "https://www.thealgorithmicbridge.com/p/how-america-turned-against-ai-according",
+    "topic": "llm",
+    "date": "2026-05-20",
+    "fetched_date": "2026-05-21",
+    "feed_name": "The Algorithmic Bridge",
+    "source": "industry"
+  },
+  {
+    "title": "Jensen Huang says he’s found a ‘brand new’ $200B market for Nvidia",
+    "abstract": "The next big thing for Nvidia will be CPUs for AI agents, $200 billion worth, CEO Jensen Huang predicts.",
+    "url": "https://techcrunch.com/2026/05/20/jensen-huang-says-hes-found-a-brand-new-200b-market-for-nvidia/",
+    "topic": "llm",
+    "date": "2026-05-21",
+    "fetched_date": "2026-05-21",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Anthropic says it’s about to have its first profitable quarter",
+    "abstract": "Anthropic has told its investors that it will more than double revenue to around $10.9 billion in its second quarter.",
+    "url": "https://techcrunch.com/2026/05/20/anthropic-says-its-about-to-have-its-first-profitable-quarter/",
+    "topic": "llm",
+    "date": "2026-05-21",
+    "fetched_date": "2026-05-21",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Clouted wants to take the guesswork out of making short videos go viral",
+    "abstract": "The video clipping startup raised a $7 million seed round led by Slow Ventures.",
+    "url": "https://techcrunch.com/2026/05/20/clouted-wants-to-take-the-guesswork-out-of-making-short-videos-go-viral/",
+    "topic": "llm",
+    "date": "2026-05-20",
+    "fetched_date": "2026-05-21",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "xAI burned $6.4B last year — SpaceX’s IPO filing shows why the spending is far from over",
+    "abstract": "SpaceX's IPO filing reveals xAI lost $6.4 billion in 2025 while planning a massive Grok expansion — offering the first public look at Elon Musk's AI financials and more details about his ambitions.",
+    "url": "https://techcrunch.com/2026/05/20/xai-burned-6-4b-last-year-spacexs-ipo-filing-shows-why-the-spending-is-far-from-over/",
+    "topic": "llm",
+    "date": "2026-05-20",
+    "fetched_date": "2026-05-21",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Nvidia posts another record quarter, reveals $43B of holdings in startups",
+    "abstract": "Nvidia announced another record revenue figure after market close on Wednesday, but forecasted that revenue growth would slow in the following quarter.",
+    "url": "https://techcrunch.com/2026/05/20/nvidia-posts-another-record-quarter-reveals-43-billion-of-holdings-in-startups/",
+    "topic": "llm",
+    "date": "2026-05-20",
+    "fetched_date": "2026-05-21",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Musk’s xAI is being sued over its data center generators — now it’s buying $2.8B more",
+    "abstract": "Elon Musk's xAI said it will buy $2.8 billion worth of natural gas turbines over the next three years, according to SpaceX's IPO filing.",
+    "url": "https://techcrunch.com/2026/05/20/musks-xai-is-being-sued-over-its-data-center-generators-now-its-buying-2-8b-more/",
+    "topic": "llm",
+    "date": "2026-05-20",
+    "fetched_date": "2026-05-21",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Anthropic will pay xAI $1.25B per month for compute",
+    "abstract": "Elon Musk's xAI surprised the AI world when it made a deal to sell compute to Anthropic. Now we know how much it's worth.",
+    "url": "https://techcrunch.com/2026/05/20/anthropic-will-pay-xai-1-25-billion-per-month-for-compute/",
+    "topic": "llm",
+    "date": "2026-05-20",
+    "fetched_date": "2026-05-21",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "OpenAI claims it solved an 80-year-old math problem — for real this time",
+    "abstract": "OpenAI claims its reasoning model disproved a geometry conjecture unsolved since 1946 — and this time, the mathematicians who exposed its last embarrassing claim are backing it up.",
+    "url": "https://techcrunch.com/2026/05/20/openai-claims-it-solved-an-80-year-old-math-problem-for-real-this-time/",
+    "topic": "llm",
+    "date": "2026-05-20",
+    "fetched_date": "2026-05-21",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "IrisGo, a startup backed by Andrew Ng, looks to become the AI desktop buddy you never knew you needed",
+    "abstract": "Initially billed as an \"AI butler,\" Iris watches what happens on a user's desktop and automatically learns how to do tasks for them, its co-founder says.",
+    "url": "https://techcrunch.com/2026/05/20/irisgo-a-startup-backed-by-andrew-ng-looks-to-become-the-ai-desktop-buddy-you-never-knew-you-needed/",
+    "topic": "llm",
+    "date": "2026-05-20",
+    "fetched_date": "2026-05-21",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "OpenAI barrels toward IPO that may happen in September",
+    "abstract": "A day after Elon Musk lost his lawsuit that threatened OpenAI's structure, leadership, and finances, OpenAI is reportedly back to prepping for its IPO.",
+    "url": "https://techcrunch.com/2026/05/20/openai-barrels-toward-ipo-that-may-happen-in-september/",
+    "topic": "llm",
+    "date": "2026-05-20",
+    "fetched_date": "2026-05-21",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "AI search startups are blowing up",
+    "abstract": "AI search has quietly become one of the most attractive targets in consumer AI.",
+    "url": "https://techcrunch.com/2026/05/20/ai-search-startups-are-blowing-up/",
+    "topic": "llm",
+    "date": "2026-05-20",
+    "fetched_date": "2026-05-21",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Stability AI releases a new audio model that can create 6-minute songs",
+    "abstract": "Stability Audio 3.0 small model can run on-device and generate two-minute long tracks.",
+    "url": "https://techcrunch.com/2026/05/20/stability-ai-release-a-new-audio-model-that-can-create-six-minute-songs/",
+    "topic": "llm",
+    "date": "2026-05-20",
+    "fetched_date": "2026-05-21",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Startup Battlefield 200 applications close in 1 week: Window to nominate and apply for the most promising startups closes May 27",
+    "abstract": "Startup Battlefield 200 applications close May 27. Pitch at TechCrunch Disrupt, get investor access, win $100K, plus more scaling perks. Nominate an early-stage founder or submit your startup today.",
+    "url": "https://techcrunch.com/2026/05/20/startup-battlefield-200-applications-close-in-1-week-window-to-nominate-and-apply-for-the-most-promising-startups-closes-may-27/",
+    "topic": "llm",
+    "date": "2026-05-20",
+    "fetched_date": "2026-05-21",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "NanoClaw creator turns down $20M buyout offer, raises $12M seed instead",
+    "abstract": "NanoClaw was created as a secure alternative to OpenClaw to assist the Cohen brothers with their AI marketing firm that used agents to do much of the work. But instead of running directly on a computer, NanoClaw runs sandboxed in a container.",
+    "url": "https://techcrunch.com/2026/05/20/nanoclaw-creator-turns-down-20m-buyout-offer-raises-12m-seed-instead/",
+    "topic": "llm",
+    "date": "2026-05-20",
+    "fetched_date": "2026-05-21",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Figma adds an AI assistant to its collaborative canvas",
+    "abstract": "Figma says users can employ natural language text prompts to direct its new AI agent to generate new designs, edit existing ones, or automate tasks such as generating iterations of existing designs.",
+    "url": "https://techcrunch.com/2026/05/20/figma-adds-an-ai-assistant-to-its-collaborative-canvas/",
+    "topic": "llm",
+    "date": "2026-05-20",
+    "fetched_date": "2026-05-21",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Chain of Thought Helps Go and C# But Hurts Python: When Prompt Advice Flips by Language",
+    "abstract": "GoDaddy Senior Site Reliability Engineer Johnathen Chilcher ran 5,760 AI coding benchmarks across Python, Go, JavaScript, and C# and found that chain-of-thought prompting boosts C# by +7.7 points but hurts Python by -0.5 — showing there is no one-size-fits-all prompt strategy for AI-assisted development. The post Chain of Thought Helps Go and C# But Hurts Python: When Prompt Advice Flips by Language appeared first on GoDaddy Blog .",
+    "url": "https://www.godaddy.com/resources/news/chain-of-thought-helps-go-and-c-but-hurts-python-when-prompt-advice-flips-by-language",
+    "topic": "ml-engineering",
+    "date": "2026-05-20",
+    "fetched_date": "2026-05-21",
+    "feed_name": "GoDaddy Engineering",
+    "source": "industry"
+  },
+  {
+    "title": "BNPL usage surged during Q1 as middle-income shoppers increased adoption",
+    "abstract": "Recent earnings reports and third-party data sets show increased adoption of BNPL services, especially among middle-income households.",
+    "url": "https://www.modernretail.co/operations/bnpl-usage-surged-during-q1-as-middle-income-shoppers-increased-adoption/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-05-21",
+    "fetched_date": "2026-05-21",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Medicube, Crocs are betting on TikTok Shop for discovery e-commerce",
+    "abstract": "As consumers’ shopping habits evolve, retail is shifting from traditional search-and-scroll e-commerce to a new model that revolves around discovery. Sitting at the center of that transformation is TikTok Shop, which represents a new retail model centered on community, trust and entertainment-driven discovery. Shopping happens natively and naturally, as TikTok Shop guides users from inspiration […]",
+    "url": "https://www.modernretail.co/sponsored/medicube-crocs-are-betting-on-tiktok-shop-for-discovery-e-commerce/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-05-20",
+    "fetched_date": "2026-05-21",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Target’s viral partnerships with Roller Rabbit, Parke and Pokémon are driving sales and foot traffic",
+    "abstract": "Target has a long history of collaborating with major brands or celebrities. But a few standout collabs helped increase foot traffic in Q1.",
+    "url": "https://www.modernretail.co/operations/targets-viral-partnerships-with-roller-rabbit-parke-and-pokemon-are-driving-sales-and-foot-traffic/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-05-20",
+    "fetched_date": "2026-05-21",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Target reports first quarter of sales growth in more than a year",
+    "abstract": "While still in early stages, Target's efforts to revitalize the business appear to be paying off. The retailer reported its first quarter of net sales growth after at least six quarters of year-over-year declines.",
+    "url": "https://www.modernretail.co/operations/target-reports-first-quarter-of-sales-growth-in-more-than-a-year/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-05-20",
+    "fetched_date": "2026-05-21",
+    "feed_name": "Modern Retail",
+    "source": "industry"
   }
 ]
