@@ -310,8 +310,985 @@
       </select>
       <button class="starred-btn" id="toggle-starred" style="display:none;">&#9733; Starred (0)</button>
     </div>
-    <p class="stats" id="arxiv-stats">3661 papers &bull; last updated 2026-05-21 05:13 UTC</p>
+    <p class="stats" id="arxiv-stats">3705 papers &bull; last updated 2026-05-22 05:15 UTC</p>
     
+  <section class="run-group">
+    <h2 class="run-header">Week of 2026-05-22</h2>
+    
+    <article class="card industry-paper" data-keyword="embedding-based retrieval" data-url="http://arxiv.org/abs/2605.21812" data-type="research" data-industry="1" data-source="arxiv">
+      <div class="card-meta">
+        <span class="date">2026-05-20</span>
+        <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">embedding-based retrieval <span class="edit-hint">&#9662;</span></span>
+        <span class="type-badge type-research">research</span>
+        <span class="company-badge">Airbnb</span>
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star this paper">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="http://arxiv.org/abs/2605.21812" target="_blank" rel="noopener">Bridging the Cold-Start Gap: LLM-Powered Synthetic Data Generation for Natural Language Search at Airbnb</a>
+      </h2>
+      <p class="authors">Wendy Ran Wei, Hao Li, Weiwei Guo, Xiaowei Liu, Xueyin Chen, Dillon Davis, Malay Haldar, Soumyadip Banerjee, Kedar Bellare, Huiji Gao, Stephanie Moyerman, Sanjeev Katariya</p>
+      <p class="abstract">Deploying natural language search systems presents a critical cold-start challenge: no real user queries to learn linguistic patterns, and no relevance labels to train ranking models. We present a framework for generating synthetic queries and labels using large language models (LLMs), powering model training and evaluation for Airbnb's natural language search.
+  For query generation, we combine contrastive listing pairs from booking sessions with seed queries from user research to balance realism and diversity, enabling a cold-to-warm start transition as real user data becomes available. For label generation, we introduce contrastive generation that produces topicality labels by construction, and Virtual Judge (VJ) labeling for broader coverage.
+  We compare our approach against a no-seed contrastive baseline and an InPars-style baseline. For query length, the InPars baseline produces verbose queries with KL divergence of 12.03 vs. real users; our seed-guided approach achieves 0.66, a 7.5x improvement. For attribute type distributions, our approach achieves the lowest KL divergence (0.04), outperforming even seed queries (0.09). Experiments show our approach produces harder evaluation examples than the no-seed baseline (79% vs. 97% pairwise accuracy), providing discriminative signal for model improvement. We deploy production pipelines generating synthetic examples daily for embedding-based retrieval and ranking evaluation.</p>
+      <div class="card-links">
+        <a href="http://arxiv.org/abs/2605.21812" target="_blank" rel="noopener">Abstract</a>
+        <a href="https://arxiv.org/pdf/2605.21812v1" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+    <article class="card" data-keyword="causal inference" data-url="http://arxiv.org/abs/2605.22075" data-type="research" data-industry="0" data-source="arxiv">
+      <div class="card-meta">
+        <span class="date">2026-05-21</span>
+        <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">causal inference <span class="edit-hint">&#9662;</span></span>
+        <span class="type-badge type-research">research</span>
+        
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star this paper">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="http://arxiv.org/abs/2605.22075" target="_blank" rel="noopener">Can Breath Biomarkers Causally Influence Blood Glucose? Investigating VOC-Mediated Modulation in Diabetes</a>
+      </h2>
+      <p class="authors">Varsha Sharma, Prasanta K. Guha, Avik Ghose</p>
+      <p class="abstract">Diabetes is a global health burden, and early detection is critical for timely intervention. This study explores a non-invasive, data-driven framework to identify individuals at risk of diabetes using Volatile Organic Compounds (VOCs) and lifestyle variables. We use causal inference techniques to estimate the impact of VOCs such as acetone, isopropanol, isoprene, and ethanol on blood glucose levels. Additionally, we designed a classifier to distinguish diabetics from non-diabetics using non-invasive markers. We created a risk-based ranking system for individuals in the "gray zone," and identified natural clusters in the population using Gaussian Mixture Model. Our results suggest that specific VOCs exhibit a strong causal influence on glucose levels and that machine learning models can reliably classify and stratify individuals at high risk. This integrated causal-explainable analysis can support the development of tool for non-invasive early screening of diabetes.</p>
+      <div class="card-links">
+        <a href="http://arxiv.org/abs/2605.22075" target="_blank" rel="noopener">Abstract</a>
+        <a href="https://arxiv.org/pdf/2605.22075v1" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+    <article class="card" data-keyword="average treatment effect" data-url="http://arxiv.org/abs/2605.21928" data-type="research" data-industry="0" data-source="arxiv">
+      <div class="card-meta">
+        <span class="date">2026-05-21</span>
+        <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">average treatment effect <span class="edit-hint">&#9662;</span></span>
+        <span class="type-badge type-research">research</span>
+        
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star this paper">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="http://arxiv.org/abs/2605.21928" target="_blank" rel="noopener">CausalGuard: Conformal Inference under Graph Uncertainty</a>
+      </h2>
+      <p class="authors">Vikash Singh, Weicong Chen, Debargha Ganguly, Yanyan Zhang, Nengbo Wang, Sreehari Sankar, Mohsen Hariri, Alexander Nemecek, Chaoda Song, Shouren Wang, Biyao Zhang, Van Yang, Erman Ayday, Jing Ma, Vipin Chaudhary</p>
+      <p class="abstract">Estimating treatment effects from observational data requires choosing an adjustment set, but valid adjustment depends on an unknown causal graph. Graph misspecification can cause under-coverage, while graph-agnostic conformal wrappers may regain nominal coverage only through large padding. We introduce CausalGuard, a structure-weighted conformal framework that calibrates after aggregating graph-conditional doubly robust pseudo-outcomes. Candidate DAGs are proposed from an LLM-derived edge prior, pruned by conditional-independence tests, and reweighted by Bayesian Information Criterion. A composite nonconformity score then calibrates the posterior-weighted pseudo-outcome. CausalGuard provides distribution-free finite-sample marginal coverage for this aggregated pseudo-outcome; under causal identification, overlap, conditional-mean nuisance stability, and concentration on target-aligned valid adjustment strategies, its conditional mean converges to the true Conditional Average Treatment Effect. Across five benchmarks, CausalGuard attains mean coverage above the nominal 90% level for the directly evaluable target and reduces width when graph-agnostic conformal baselines require large padding. Stress tests show that CausalGuard suppresses invalid collider adjustment and remains stable under misspecified priors when the retained candidate set is data-supported.</p>
+      <div class="card-links">
+        <a href="http://arxiv.org/abs/2605.21928" target="_blank" rel="noopener">Abstract</a>
+        <a href="https://arxiv.org/pdf/2605.21928v1" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+    <article class="card" data-keyword="personalized recommendation" data-url="http://arxiv.org/abs/2605.21987" data-type="research" data-industry="0" data-source="arxiv">
+      <div class="card-meta">
+        <span class="date">2026-05-21</span>
+        <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">personalized recommendation <span class="edit-hint">&#9662;</span></span>
+        <span class="type-badge type-research">research</span>
+        
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star this paper">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="http://arxiv.org/abs/2605.21987" target="_blank" rel="noopener">Generative Conversational Recommender System</a>
+      </h2>
+      <p class="authors">Sixiao Zhang, Mingrui Liu, Cheng Long</p>
+      <p class="abstract">Conversational recommender systems aim to provide personalized recommendations via natural language interactions. However, existing approaches either decouple recommendation from dialog generation or rely on retrieval-based pipelines, limiting the integration between recommendation and response generation and leading to suboptimal modeling of user intent. In this paper, we propose a fully generative conversational recommender system that unifies recommendation and dialog generation within a single autoregressive framework. Our approach represents items as discrete semantic IDs and integrates them directly into the generation process, enabling joint prediction of items and responses via next-token modeling. We further introduce a structured generation paradigm that factorizes conversational recommendation into a sequence of interdependent decisions, where the model first predicts the response intent and the recommendation target, and then generates the response conditioned on them. This design enables end-to-end optimization, enforces a more coherent dependency structure, and supports faithful item generation via constrained decoding. Extensive experiments demonstrate that our method consistently improves recommendation performance, achieving gains of up to 29% on Recall@1 over strong baselines, while maintaining competitive dialog quality.</p>
+      <div class="card-links">
+        <a href="http://arxiv.org/abs/2605.21987" target="_blank" rel="noopener">Abstract</a>
+        <a href="https://arxiv.org/pdf/2605.21987v1" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+    <article class="card" data-keyword="learning to rank" data-url="http://arxiv.org/abs/2605.22401" data-type="research" data-industry="0" data-source="arxiv">
+      <div class="card-meta">
+        <span class="date">2026-05-21</span>
+        <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">learning to rank <span class="edit-hint">&#9662;</span></span>
+        <span class="type-badge type-research">research</span>
+        
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star this paper">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="http://arxiv.org/abs/2605.22401" target="_blank" rel="noopener">Cross-Species RSA Reveals Conserved Early Visual Alignment but Divergent Higher-Area Rankings Across Human fMRI and Macaque Electrophysiology</a>
+      </h2>
+      <p class="authors">Nils Leutenegger</p>
+      <p class="abstract">Does the relationship between learning rules and brain alignment generalize across species? We extend our prior finding that untrained CNNs match backpropagation at human V1 by testing the same five learning rules against macaque electrophysiology. The rules are backpropagation (BP), feedback alignment (FA), predictive coding (PC), spike-timing-dependent plasticity (STDP), and an untrained random-weights baseline. The macaque data come from two datasets: MajajHong2015 (V4/IT, 3,200 stimulus presentations, 88/168 neurons) and FreemanZiemba2013 (V1/V2, 135 stimuli, 102/103 neurons). Using RSA with identical model weights from our human study, we find: (1) all models achieve higher alignment with macaque early visual cortex (rho = 0.15-0.30 at V1/V2) than with human fMRI (rho = 0.01-0.08), consistent with the higher signal-to-noise ratio of electrophysiology; (2) STDP and PC produce the highest macaque V1/V2 alignment (rho ~ 0.30 and 0.28), consistent with their leading position among trained rules in human V1; (3) at IT, learning rule rankings show no detectable correlation across species (Kendall's tau = 0.00, p = 1.00), though this null result is expected given that n = 5 provides power only at tau = +/-1.0, and is further confounded by stimulus set differences; (4) a pretrained ResNet-50 (ImageNet) achieves rho = 0.25 at macaque IT, substantially above all custom CNN conditions (rho = 0.07-0.14), suggesting IT alignment is limited by model capacity and training data rather than by the learning rule. Noise ceilings, multi-seed variability (5 seeds), and a stimulus-control analysis are reported. These results demonstrate that early visual alignment is robust across species, while higher-area alignment is modulated by model capacity and stimulus domain.</p>
+      <div class="card-links">
+        <a href="http://arxiv.org/abs/2605.22401" target="_blank" rel="noopener">Abstract</a>
+        <a href="https://arxiv.org/pdf/2605.22401v1" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+    <article class="card" data-keyword="listwise ranking" data-url="http://arxiv.org/abs/2605.21993" data-type="research" data-industry="0" data-source="arxiv">
+      <div class="card-meta">
+        <span class="date">2026-05-21</span>
+        <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">listwise ranking <span class="edit-hint">&#9662;</span></span>
+        <span class="type-badge type-research">research</span>
+        
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star this paper">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="http://arxiv.org/abs/2605.21993" target="_blank" rel="noopener">ECPO: Evidence-Coupled Policy Optimization for Evidence-Certified Candidate Ranking</a>
+      </h2>
+      <p class="authors">Miaobo Hu, Shuhao Hu, BoKun Wang, Yina Sa, Xin Wang, Xiaobo Guo, Daren Zha, Jun Xiao</p>
+      <p class="abstract">Ranking systems used in decision-support settings should not only order candidates but also expose evidence that can be independently checked. We study evidence-certified candidate ranking: given an intent_id, a predefined plan skeleton, a window-local candidate roster, and text-derived candidate trajectories with span provenance, a system must output a Top-K list together with doc_id:span evidence certificates whose cited spans are sufficient to recover the decision. We instantiate this task on MAVEN-ERE and RAMS with fixed upstream extraction, window-local randomized candidate identifiers, skeleton-aligned trajectory supervision, hard negatives, and audit references. We introduce Evidence-Coupled Policy Optimization (ECPO), a listwise policy-optimization objective whose action is the joint object of ranking and evidence certificate. ECPO first learns an interpretable trajectory reward from skeleton alignment, argument consistency, and optional graph features; it then optimizes a constrained policy with three coupled rewards: listwise ranking utility, span-level certificate validity, and an evidence-cycle reward computed by a label-free deterministic verifier that reconstructs candidate support from claim-stripped cited spans. This reframes the goal from maximizing ordinary NDCG alone to maximizing CertNDCG and decision-evidence coupling. The evaluation compares ECPO against zero-shot, SFT, and GRPO policies, RM-only scoring with deterministic evidence attachment, grammar/JSON-constrained decoding, validator retry, best-of-N RM selection, and post-hoc evidence rationalization under closed-roster, predicted-roster, and hybrid-roster settings.</p>
+      <div class="card-links">
+        <a href="http://arxiv.org/abs/2605.21993" target="_blank" rel="noopener">Abstract</a>
+        <a href="https://arxiv.org/pdf/2605.21993v1" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+    <article class="card" data-keyword="candidate generation" data-url="http://arxiv.org/abs/2605.21969" data-type="research" data-industry="0" data-source="arxiv">
+      <div class="card-meta">
+        <span class="date">2026-05-21</span>
+        <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">candidate generation <span class="edit-hint">&#9662;</span></span>
+        <span class="type-badge type-research">research</span>
+        
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star this paper">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="http://arxiv.org/abs/2605.21969" target="_blank" rel="noopener">LLM Retrieval for Stable and Predictable Ad Recommendations</a>
+      </h2>
+      <p class="authors">Vinodh Kumar Sunkara, Satheeshkumar Karuppusamy, Hangjun Xu, Sai Deepika Regani, Kshitij Gupta, Gaby Nahum, Sneha Iyer, Jean-Baptiste Fiot, Yinglong Guo, Xiaowen Guo, Atul Jangra, Yucheng Liu, Jinghao Yan, Vijay Pappu, Benjamin Schulte, Deepak Chandra</p>
+      <p class="abstract">Traditional ads recommendation systems have primarily focused on optimizing for prediction accuracy of click or conversion events using canonical metrics such as recall or normalized discounted cumulative gain (NDCG). With the hyper-growth of ads inventory and liquidity with generative AI technologies, the prediction stability and predictability is becoming increasingly critical. Intuitively, prediction stability and predictability can be defined to quantify system robustness with respect to minor/noisy input (ads, creatives) perturbations, the lack of which could lead to advertiser perceivable problems such as repeatability, cold start and under-exploration. In this paper, we introduce a new evaluation framework for quantifying stability and predictability of an ads recommender system, and present an online validated semantic candidate generation framework powered by fine-tuned Large Language Models (LLMs) that showed significant improvement along these metrics by fundamentally improving the semantic-awareness of the system. The approach extracts hierarchical semantic attributes from ad creatives to obtain LLM representations, which serve as the foundation for graph-based expansion, ensuring the retrieved candidates encapsulate semantic variants of an ad, guaranteeing that small creative variants from the advertiser yield consistent and explainable delivery results to the user. We tested this LLM ads retrieval framework in a large-scale industrial ads recommendation system, demonstrating significant improvements across offline and online A/B experiments, showcasing gains in both predictability and traditional performance metrics. Although evaluated in the ads stack, this is a general framework that can be applied broadly to any large-scale recommendation and retrieval systems facing similar scaling and predictability challenges.</p>
+      <div class="card-links">
+        <a href="http://arxiv.org/abs/2605.21969" target="_blank" rel="noopener">Abstract</a>
+        <a href="https://arxiv.org/pdf/2605.21969v1" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+    <article class="card" data-keyword="dense retrieval" data-url="http://arxiv.org/abs/2605.22099" data-type="research" data-industry="0" data-source="arxiv">
+      <div class="card-meta">
+        <span class="date">2026-05-21</span>
+        <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">dense retrieval <span class="edit-hint">&#9662;</span></span>
+        <span class="type-badge type-research">research</span>
+        
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star this paper">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="http://arxiv.org/abs/2605.22099" target="_blank" rel="noopener">A Comparative Study of Language Models for Khmer Retrieval-Augmented Question Answering</a>
+      </h2>
+      <p class="authors">Sereiwathna Ros, Phannet Pov, Ratanaktepi Chhor, Kimleang Ly, Wan-Sup Cho, Saksonita Khoeurn</p>
+      <p class="abstract">Retrieval-Augmented Generation (RAG) has emerged as a promising paradigm for grounding large language model (LLM) outputs in retrieved evidence, thereby reducing hallucination and improving factual accuracy. Its efficacy, however, remains largely unexamined for low-resource, non-Latin-script languages such as Khmer. In this paper, we present a RAG-based question answering system for Khmer-language telecom-domain documents. We conduct a two-phase comparative evaluation. First, we benchmark three embedding models: BGE-M3 (567M), Jina-Embeddings-v3 (570M), and Qwen3-Embedding (597M), for dense retrieval over Khmer documents. BGE-M3 consistently performs best, achieving a Hit Rate@3 of 0.285, File Hit Rate@3 of 0.700, MRR@3 of 0.221, and Precision@3 of 0.112, substantially outperforming the other retrievers. Second, using BGE-M3 as the selected retriever, we evaluate five generator backends: Qwen3 (8B), Qwen3.5 (9B), Sailor2-8B-Chat, SeaLLMs-v3-7B-Chat, and Llama-SEA-LION-v2-8B-IT, on a curated golden dataset of 200 Khmer question-answer pairs. To quantify system performance, we apply six RAGAS-inspired metrics: faithfulness, answer relevance, context relevance, factual correctness, answer similarity, and answer correctness. The results show no single model dominates across all metrics: Qwen3.5-9B achieves the highest faithfulness (0.859) and context relevance (0.726), Qwen3-8B attains the highest factual correctness (0.380), and SeaLLMs-v3-7B-Chat performs best on answer relevance (0.867), answer similarity (0.836), and answer correctness (0.599). These findings highlight that retriever choice remains a major bottleneck for Khmer RAG, while generator strengths vary depending on whether the priority is grounding, factual precision, or semantic similarity.</p>
+      <div class="card-links">
+        <a href="http://arxiv.org/abs/2605.22099" target="_blank" rel="noopener">Abstract</a>
+        <a href="https://arxiv.org/pdf/2605.22099v1" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+    <article class="card" data-keyword="approximate nearest neighbor" data-url="http://arxiv.org/abs/2605.21952" data-type="research" data-industry="0" data-source="arxiv">
+      <div class="card-meta">
+        <span class="date">2026-05-21</span>
+        <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">approximate nearest neighbor <span class="edit-hint">&#9662;</span></span>
+        <span class="type-badge type-research">research</span>
+        
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star this paper">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="http://arxiv.org/abs/2605.21952" target="_blank" rel="noopener">NasZip: Software and Hardware Co-Design to Accelerate Approximate Nearest Neighbor Search with DIMM-Based Near-Data Processing</a>
+      </h2>
+      <p class="authors">Cheng Zou, Shuo Yang, Chen Nie, Yu Zou, Yu He, Chao Jiang, Limin Xiao, Weifeng Zhang, Zhezhi He</p>
+      <p class="abstract">As large language models (LLMs) continue to advance, retrieval-augmented generation (RAG) has become the key mechanism for expanding model knowledge and reducing hallucinations. Central to RAG is approximate nearest neighbor search (ANNS), which retrieves database vectors most similar to a given query. However, distance calculation over high-dimensional vectors is inherently memory-bound, causing retrieval performance to be constrained by I/O bandwidth on mainstream platforms such as CPUs and GPUs. Although many prior early exiting (EE) techniques attempt to reduce memory accesses by only computing partial dimensions, the partial distance converges too slowly to the EE threshold, which ultimately limits their performance gains. To address these challenges, we propose NASZIP, a hardware-software co-designed framework that integrates near data processing (NDP) with a novel feature-level early exiting guided by statistics-based principal component analysis (PCA). Instead of relying solely on partial distances, NASZIP incorporates estimation and correction parameters to approximate full dimensional distances accurately, enabling earlier exiting without compromising accuracy. We further introduce a bit-level NDP-aware dynamic-float scheme that significantly reduces memory access for vector data. On the hardware side, we develop a data aware neighbor list mapping strategy that reduces neighbor retrieval latency and inter-channel communication overhead, complemented by a dedicated cache that exploits data locality and enhances prefetch efficiency. With these co-optimized techniques, NASZIP delivers speedups of up to $8.4\times$ / $1.4\times$ over CPU baseline and state-of-the-art GPU implementation at equal accuracy. Relative to the state-of-the-art NDP ANNS accelerator ANSMET, NASZIP achieves $1.69\times$ performance improvement.</p>
+      <div class="card-links">
+        <a href="http://arxiv.org/abs/2605.21952" target="_blank" rel="noopener">Abstract</a>
+        <a href="https://arxiv.org/pdf/2605.21952v1" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+    <article class="card" data-keyword="semantic retrieval" data-url="http://arxiv.org/abs/2605.22247" data-type="research" data-industry="0" data-source="arxiv">
+      <div class="card-meta">
+        <span class="date">2026-05-21</span>
+        <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">semantic retrieval <span class="edit-hint">&#9662;</span></span>
+        <span class="type-badge type-research">research</span>
+        
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star this paper">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="http://arxiv.org/abs/2605.22247" target="_blank" rel="noopener">IdioLink: Retrieving Meaning Beyond Words Across Idiomatic and Literal Expressions</a>
+      </h2>
+      <p class="authors">Kai Golan Hashiloni, Daniel Fadlon, Lior Livyatan, Ofri Hefetz, Jiahuan Pei, Kfir Bar</p>
+      <p class="abstract">Idioms pose a fundamental challenge for language models, as their meaning cannot be inferred from surface form alone. Understanding such expressions, therefore, requires semantic abstraction beyond lexical overlap. We introduce IdioLink, a retrieval benchmark designed to test whether models can link idiomatic expressions to conceptually equivalent meanings expressed in literal or paraphrased forms. IdioLink comprises 10,700 documents and 2,140 queries, spanning 107 idioms with both literal and figurative uses. Each document and query is annotated with spans that convey the core meaning. Evaluating strong embedding baselines (e.g., BGE, E5, Contriever, and Qwen), we show that current models struggle to retrieve equivalent meanings across divergent surface realizations, relying instead on topical and shallow semantic cues. IdioLink exposes key gaps in idiom-aware semantic retrieval and provides a challenging testbed for future models.</p>
+      <div class="card-links">
+        <a href="http://arxiv.org/abs/2605.22247" target="_blank" rel="noopener">Abstract</a>
+        <a href="https://arxiv.org/pdf/2605.22247v1" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+    <article class="card" data-keyword="query rewriting" data-url="http://arxiv.org/abs/2605.21958" data-type="research" data-industry="0" data-source="arxiv">
+      <div class="card-meta">
+        <span class="date">2026-05-21</span>
+        <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">query rewriting <span class="edit-hint">&#9662;</span></span>
+        <span class="type-badge type-research">research</span>
+        
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star this paper">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="http://arxiv.org/abs/2605.21958" target="_blank" rel="noopener">Diagnosis Is Not Prescription: Linguistic Co-Adaptation Explains Patching Hazards in LLM Pipelines</a>
+      </h2>
+      <p class="authors">Yoon Jeonghun, Kim Dongchan</p>
+      <p class="abstract">When a multi-module LLM agent fails, the module most responsible for the failure is not necessarily the best place to intervene. We demonstrate this Diagnostic Paradox empirically: causal analysis consistently identifies the routing module -- which selects which tool to call next -- as the primary bottleneck across three independent agent families. Yet injecting prompt-level correction examples into this module consistently degrades performance, sometimes severely. Patching an upstream query-rewriting module instead reliably improves outcomes. The effect holds with statistical significance on two agent families and directional consistency on a third; alternative repair strategies at the routing module (instruction rewriting, model upgrade) are neutral, confirming that the harm is specific to correction-injection patching.
+  We explain this asymmetry through the Linguistic Contract hypothesis: each downstream module implicitly adapts to its upstream's characteristic error distribution, so correcting the bottleneck breaks this implicit alignment in a way that upstream corrections do not. We operationalize this via a per-agent co-adaptation measure, derived from diagnosis alone, and show it is consistently associated with patching harm across agent families: higher co-adaptation co-occurs with harm, lower with safety. This trend holds across all three agent families, providing preliminary support for the hypothesis beyond a single-agent observation.</p>
+      <div class="card-links">
+        <a href="http://arxiv.org/abs/2605.21958" target="_blank" rel="noopener">Abstract</a>
+        <a href="https://arxiv.org/pdf/2605.21958v1" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+    <article class="card" data-keyword="item retrieval" data-url="http://arxiv.org/abs/2605.21967" data-type="research" data-industry="0" data-source="arxiv">
+      <div class="card-meta">
+        <span class="date">2026-05-21</span>
+        <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">item retrieval <span class="edit-hint">&#9662;</span></span>
+        <span class="type-badge type-research">research</span>
+        
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star this paper">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="http://arxiv.org/abs/2605.21967" target="_blank" rel="noopener">Reinforced Preference Optimization for Reasoning-Augmented Recommendations</a>
+      </h2>
+      <p class="authors">Jingtong Gao, Zeyu Song, Chi Lu, Xiaopeng Li, Derong Xu, Maolin Wang, Peng Jiang, Kun Gai, Qingpeng Cai, Xiangyu Zhao</p>
+      <p class="abstract">Recommender systems are critical for delivering personalized content across digital platforms, and recent advances in Large Language Models (LLMs) offer new opportunities to enhance them with richer world knowledge and explicit reasoning capabilities. With the help of reasoning knowledge, recommendations can better infer users' underlying intents, adapt to evolving preferences, and leverage semantic relationships for improved accuracy and interpretability. However, existing reasoning-based recommendation methods often fail to fully align the LLM's reasoning process with recommendation-specific objectives due to structural disruption during integration and difficulties in translating free-form generation into accurate item predictions. In this paper, we introduce RPORec, a reinforced preference optimization framework that unifies an LLM backbone's reasoning ability with a dedicated recommendation head (Rechead) for precise item retrieval. RPORec comprises two stages: (1) Reasoning-Augmented Recommendation Modeling, where high-quality Chain-of-Thought (CoT) reasoning is generated and used as auxiliary knowledge to guide the Rechead in learning recommendation-specific representations; and (2) Advanced Reasoning Refinement and Alignment, in which the trained Rechead produces verifiable rewards to fine-tune the LLM backbone via reinforcement learning, enhancing reasoning quality, structural consistency, and task relevance. Extensive experiments on public benchmarks and large-scale online deployments show that RPORec consistently outperforms state-of-the-art LLM-based recommendation methods, demonstrating the effectiveness of reasoning-augmented recommendation modeling in real-world systems.</p>
+      <div class="card-links">
+        <a href="http://arxiv.org/abs/2605.21967" target="_blank" rel="noopener">Abstract</a>
+        <a href="https://arxiv.org/pdf/2605.21967v1" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+    <article class="card" data-keyword="first price auction" data-url="http://arxiv.org/abs/2605.22438" data-type="research" data-industry="0" data-source="arxiv">
+      <div class="card-meta">
+        <span class="date">2026-05-21</span>
+        <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">first price auction <span class="edit-hint">&#9662;</span></span>
+        <span class="type-badge type-research">research</span>
+        
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star this paper">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="http://arxiv.org/abs/2605.22438" target="_blank" rel="noopener">Do Not Trust The Auctioneer: Learning to Bid in Feedback-Manipulated Auctions</a>
+      </h2>
+      <p class="authors">Luigi Foscari, Matilde Tullii, Vianney Perchet</p>
+      <p class="abstract">Shilling is the use of artificial bids to make competition appear stronger and push prices upward. We study repeated first-price auctions in which shilling affects feedback but not allocation: the learner wins or loses against the real competing bid, but after a loss observes the maximum of the real bid and an independent shill bid. Thus the manipulation changes what the learner observes and hence how it learns to bid, without changing the outcome of the current auction. We analyze regret with respect to the best bid benchmark, assuming that the shill-bid distribution is known. Even then, shilling can mask the real bid, while useful side information appears only through intermittent low-shill events. Our algorithm combines a robust interval-elimination branch, which ignores the shilled report and achieves the dynamic-pricing rate $\tilde{\mathcal{O}}(T^{2/3})$, with an optimistic branch that debiases losing-side reports and exploits the resulting suffix information when it is reliable and achieves the first-price auctions rate $\tilde{\mathcal{O}}(\sqrt{T})$. A validation and racing procedure lets the algorithm use these optimistic updates without knowing the right scale or feedback geometry in advance. We complement the upper bounds with a matching lower bound, up to logarithmic factors, in the single-active-region case. Overall, the results show that even feedback-only shilling can sharply alter the statistical difficulty of repeated bidding.</p>
+      <div class="card-links">
+        <a href="http://arxiv.org/abs/2605.22438" target="_blank" rel="noopener">Abstract</a>
+        <a href="https://arxiv.org/pdf/2605.22438v1" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+    <article class="card" data-keyword="scaling law" data-url="http://arxiv.org/abs/2605.22724" data-type="research" data-industry="0" data-source="arxiv">
+      <div class="card-meta">
+        <span class="date">2026-05-21</span>
+        <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">scaling law <span class="edit-hint">&#9662;</span></span>
+        <span class="type-badge type-research">research</span>
+        
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star this paper">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="http://arxiv.org/abs/2605.22724" target="_blank" rel="noopener">Multiple Neural Operators Achieve Near-Optimal Rates for Multi-Task Learning</a>
+      </h2>
+      <p class="authors">Adrien Weihs, Hayden Schaeffer</p>
+      <p class="abstract">We study the approximation and statistical complexity of learning collections of operators in a shared multi-task setting, with a focus on the Multiple Neural Operators (MNO) architecture. For broad classes of Lipschitz multiple operator maps, we derive near-optimal upper bounds for approximation and statistical generalization. On the lower-bound side, we establish a curse of parametric complexity and prove corresponding minimax rates. Together, these results show that shared representations across tasks do not increase the overall cost: multi-task operator learning follows the same scaling laws as single operator learning. We also compare MNO with a multi-task extension of DeepONet based on concatenated task inputs and show that, from a worst-case approximation-complexity perspective, both architectures satisfy essentially the same asymptotic rates.</p>
+      <div class="card-links">
+        <a href="http://arxiv.org/abs/2605.22724" target="_blank" rel="noopener">Abstract</a>
+        <a href="https://arxiv.org/pdf/2605.22724v1" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+    <article class="card" data-keyword="scaling law" data-url="http://arxiv.org/abs/2605.22478" data-type="research" data-industry="0" data-source="arxiv">
+      <div class="card-meta">
+        <span class="date">2026-05-21</span>
+        <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">scaling law <span class="edit-hint">&#9662;</span></span>
+        <span class="type-badge type-research">research</span>
+        
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star this paper">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="http://arxiv.org/abs/2605.22478" target="_blank" rel="noopener">Matching with Deliberation: Test-Time Evolutionary Hierarchical Multi-Agents for Zero-Shot Compositional Image Retrieval</a>
+      </h2>
+      <p class="authors">Xingtian Pei, Yukun Song, Changwei Wang, Shunpeng Chen, Rongtao Xu, Shibiao Xu</p>
+      <p class="abstract">Zero-Shot Compositional Image Retrieval (ZS-CIR) requires both preserving the visual continuity of the reference image and faithfully executing the semantic variables specified in the modification text, which constitutes the core challenge of the task. Existing methods often suffer from Perception Myopia in a single space, or fall into Logic Drift in iterative collaboration due to the perception ceiling of the underlying retriever. To address this issue, we propose a one-stop hierarchical Perception-to-Deliberation Framework (PDF), which, to the best of our knowledge, is the first to introduce experience self-evolution and Test-Time Scaling Law (TTS) into ZS-CIR. Relying on a hierarchical multi-agent architecture, PDF first utilizes an Intent Routing Manager to dynamically dispatch multi-view Worker perception signals based on modification intents to construct a high-recall candidate pool. Subsequently, the Decision Manager combines a Training-free Reasoning Policy Distillation mechanism with a Tournament-style TTS strategy to achieve self-evolving fine-grained reasoning, yielding the final retrieval results. Experimental results demonstrate that PDF achieves SOTA performance on three benchmark datasets: CIRR, CIRCO, and FashionIQ. This study indicates that experience-driven self-evolution and TTS represent a highly promising and scalable path for achieving zero-shot fine-grained multimedia retrieval. The code will be made publicly available upon acceptance.</p>
+      <div class="card-links">
+        <a href="http://arxiv.org/abs/2605.22478" target="_blank" rel="noopener">Abstract</a>
+        <a href="https://arxiv.org/pdf/2605.22478v1" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+    <article class="card" data-keyword="scaling law" data-url="http://arxiv.org/abs/2605.22341" data-type="research" data-industry="0" data-source="arxiv">
+      <div class="card-meta">
+        <span class="date">2026-05-21</span>
+        <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">scaling law <span class="edit-hint">&#9662;</span></span>
+        <span class="type-badge type-research">research</span>
+        
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star this paper">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="http://arxiv.org/abs/2605.22341" target="_blank" rel="noopener">A Boundary-Layer Mechanism for One-Third Scaling in Online Softmax Classification</a>
+      </h2>
+      <p class="authors">Marcel Kühn, Yoon Thelge, Bernd Rosenow</p>
+      <p class="abstract">Hard-label classification is usually trained with smooth surrogate losses, most prominently softmax cross-entropy. We isolate an asymptotic mechanism by which this mismatch between smooth surrogate and discrete labels produces power-law learning curves in an online teacher-student model. After subtracting the mean logit, the thermodynamic-limit dynamics close in centered variables: a growing centered student-teacher alignment $D$ and the residual student variance $Δ$. At late times, examples away from teacher decision boundaries are already classified confidently and contribute exponentially little. Only boundary layers of width $O(D^{-1})$ remain active, while the noise of fixed-learning-rate online gradient descent maintains a nonzero $Δ$. As a function of the training time $α$ the late-time solution yields a $α^{-1/3}$ power law not only for the test loss but also for the generalization error $ε_g$, i.e., one minus test accuracy. This is much slower than the $α^{-1}$ Bayes-optimal reference for the same model. We further show that learning-rate schedules can improve the generalization error towards a $ε_g \sim α^{-1/2}$ power law. Simulations support the predicted order parameter dynamics and learning curves. Controlled experiments with correlated Gaussian inputs and whitened pretrained features show that data structure can dominate transients. Therefore, our result is an asymptotic, complementary mechanism rather than an alternative to spectral explanations of neural scaling laws.</p>
+      <div class="card-links">
+        <a href="http://arxiv.org/abs/2605.22341" target="_blank" rel="noopener">Abstract</a>
+        <a href="https://arxiv.org/pdf/2605.22341v1" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+    <article class="card" data-keyword="scaling law" data-url="http://arxiv.org/abs/2605.22162" data-type="research" data-industry="0" data-source="arxiv">
+      <div class="card-meta">
+        <span class="date">2026-05-21</span>
+        <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">scaling law <span class="edit-hint">&#9662;</span></span>
+        <span class="type-badge type-research">research</span>
+        
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star this paper">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="http://arxiv.org/abs/2605.22162" target="_blank" rel="noopener">Spectra as Language: Large Language Models for Scalable Stellar Parameter and Abundance Inference</a>
+      </h2>
+      <p class="authors">Hai-Ling Lu, Yu-Yang Li, Yin-Bi Li, Cun-Shi Wang, A-Li Luo, Jun-Chao Liang, Shuo Li</p>
+      <p class="abstract">Stellar spectra encode key information on the physical properties and chemical compositions of stars. Accurate stellar parameter determination is essential for addressing major questions such as galaxy and stellar evolution. Large-scale spectroscopic surveys have accumulated unprecedented spectral data. Traditional feature extraction or model-fitting approaches struggle with high-dimensional, massive datasets, limited generalization, and computational inefficiency. Recent advances in large language models demonstrate strong generalization and feature-learning in tasks like natural language processing, DNA/RNA sequence analysis, and protein/chemical parsing. Stellar spectra are continuous sequential signals, enabling the transfer of language models to stellar spectroscopy. Here, we propose a two-stage large language model framework for stellar parameter inference, achieving accurate estimation of effective temperature, surface gravity, metallicity, and abundances of ~20 chemical elements. Scaling-law analyses show systematic performance improvements with increasing data, providing a scalable framework for forthcoming large-scale surveys.</p>
+      <div class="card-links">
+        <a href="http://arxiv.org/abs/2605.22162" target="_blank" rel="noopener">Abstract</a>
+        <a href="https://arxiv.org/pdf/2605.22162v1" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+    <article class="card" data-keyword="diffusion model" data-url="http://arxiv.org/abs/2605.22777" data-type="research" data-industry="0" data-source="arxiv">
+      <div class="card-meta">
+        <span class="date">2026-05-21</span>
+        <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">diffusion model <span class="edit-hint">&#9662;</span></span>
+        <span class="type-badge type-research">research</span>
+        
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star this paper">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="http://arxiv.org/abs/2605.22777" target="_blank" rel="noopener">DecQ: Detail-Condensing Queries for Enhanced Reconstruction and Generation in Representation Autoencoders</a>
+      </h2>
+      <p class="authors">Tianhang Wang, Yitong Chen, Wei Song, Zuxuan Wu, Min Li, Jiaqi Wang</p>
+      <p class="abstract">Representation Autoencoders (RAEs) leverage frozen vision foundation models (VFMs) as tokenizer encoders, providing robust high-level representations that facilitate fast convergence and high-quality generation in latent diffusion models. However, freezing the VFM inherently constrains its spatial reconstruction capacity, limiting fine-grained generation and image editing; in contrast, incorporating reconstruction-oriented signals via fine-tuning disrupts the pretrained semantic space and degrades generative fidelity. To address this trade-off, we propose DecQ, a simple yet effective framework for RAEs. Specifically, DecQ introduces lightweight detail-condensing queries that extract fine-grained information from intermediate VFM features through condenser modules. These queries are incorporated into the decoder to support reconstruction and are jointly generated with patch tokens during generative modeling. By aggregating information from both shallow and deep layers, DecQ effectively mitigates the reconstruction--generation trade-off, improving both reconstruction quality and generative performance. Our experiments demonstrate that: (1) with only 8 additional queries and 3.9% extra computation, DecQ improves reconstruction over the frozen DINOv2-based RAE, increasing PSNR from 19.13 dB to 22.76 dB; and (2) for generative modeling, DecQ achieves 3.3$\times$ faster convergence than RAE, attaining an FID of 1.41 without guidance and 1.05 with guidance.</p>
+      <div class="card-links">
+        <a href="http://arxiv.org/abs/2605.22777" target="_blank" rel="noopener">Abstract</a>
+        <a href="https://arxiv.org/pdf/2605.22777v1" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+    <article class="card" data-keyword="diffusion model" data-url="http://arxiv.org/abs/2605.22776" data-type="research" data-industry="0" data-source="arxiv">
+      <div class="card-meta">
+        <span class="date">2026-05-21</span>
+        <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">diffusion model <span class="edit-hint">&#9662;</span></span>
+        <span class="type-badge type-research">research</span>
+        
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star this paper">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="http://arxiv.org/abs/2605.22776" target="_blank" rel="noopener">SDPM: Survival Diffusion Probabilistic Model for Continuous-Time Survival Analysis</a>
+      </h2>
+      <p class="authors">Stanislav R. Kirpichenko, Andrei V. Konstantinov, Lev V. Utkin</p>
+      <p class="abstract">Survival analysis aims to estimate a time-to-event distribution from data with censored observations. Many existing methods either impose structural assumptions on the hazard function or discretize the time axis, which may limit flexibility and introduce approximation errors. We propose the Survival Diffusion Probabilistic Model (SDPM), a generative approach to continuous-time survival analysis. SDPM models the conditional distribution of the survival outcome, represented by the pair of observed time and censoring indicator, $\mathbb{P}(T,δ\mid \mathbf{x})$, using a denoising diffusion model. Under the assumption of conditionally independent censoring, conditional samples generated by the model can be transformed into survival function estimates using the Kaplan-Meier estimator. This formulation avoids parametric assumptions on the event-time distribution and does not require a discretization of the output time space. The model operates in a transformed target space, using standardized log-times and a continuous Gaussian-mixture representation of the censoring indicator. We evaluate SDPM on ten real survival datasets and compare it with five strong baselines, including tree-based, boosting-based, and neural survival models. Results show that SDPM achieves competitive predictive performance across C-index, integrated time-dependent AUC, and integrated Brier score. A study on synthetic Cox-Weibull data demonstrates that SDPM can recover the shape of an underlying continuous survival distribution more accurately than a strong nonparametric baseline when sufficiently many samples are generated. An ablation study confirms the importance of the proposed target-space transformations, which improve event-rate calibration, reduce invalid generated times, and provide consistent gains in predictive discrimination. Codes implementing the proposed model are publicly available.</p>
+      <div class="card-links">
+        <a href="http://arxiv.org/abs/2605.22776" target="_blank" rel="noopener">Abstract</a>
+        <a href="https://arxiv.org/pdf/2605.22776v1" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+    <article class="card" data-keyword="diffusion model" data-url="http://arxiv.org/abs/2605.22765" data-type="research" data-industry="0" data-source="arxiv">
+      <div class="card-meta">
+        <span class="date">2026-05-21</span>
+        <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">diffusion model <span class="edit-hint">&#9662;</span></span>
+        <span class="type-badge type-research">research</span>
+        
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star this paper">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="http://arxiv.org/abs/2605.22765" target="_blank" rel="noopener">Uniform Diffusion Models Revisited: Leave-One-Out Denoiser and Absorbing State Reformulation</a>
+      </h2>
+      <p class="authors">Samson Gourevitch, Yazid Janati, Dario Shariatian, Umut Simsekli, Eric Moulines, Eric P. Xing, Alain Durmus</p>
+      <p class="abstract">Discrete diffusion models are often trained through clean-data prediction, but the prediction can be used in different ways to define the reverse dynamics. In Masked Diffusion Models (MDM) these choices largely coincide, whereas in Uniform Diffusion Models (UDM) they do not. We show that the standard plug-in bridge parameterization for UDM is not optimized by the denoising posterior, but by a leave-one-out posterior that predicts each clean token without using its own noisy observation. This identifies a mismatch between the plug-in ELBO and the usual cross-entropy denoising objective. We characterize the leave-one-out target and derive exact conversions between the denoiser, the leave-one-out posterior, and the score. These conversions allow us to disentangle parameterization and training objective. Our results also lead to inference improvements without any additional training through an informed predictor-corrector sampler and improved temperature sampling based on the leave-one-out predictor.
+  We further introduce an absorbing-state reformulation of uniform diffusion that preserves the UDM joint law while decomposing it into masked-diffusion-like sampling operations, with simpler denoising posteriors, carry-over unmasking, and a natural remasking mechanism. On language modeling, leave-one-out parameterizations consistently improve UDM generation, while the absorbing construction matches or surpasses masked diffusion. These results suggest that the empirical gap between masked and uniform diffusion is driven less by the choice of marginals themselves than by parameterization and sampling design. The code and models can be found at https://github.com/samsongourevitch/rev_udm.</p>
+      <div class="card-links">
+        <a href="http://arxiv.org/abs/2605.22765" target="_blank" rel="noopener">Abstract</a>
+        <a href="https://arxiv.org/pdf/2605.22765v1" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+    <article class="card" data-keyword="diffusion model" data-url="http://arxiv.org/abs/2605.22743" data-type="research" data-industry="0" data-source="arxiv">
+      <div class="card-meta">
+        <span class="date">2026-05-21</span>
+        <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">diffusion model <span class="edit-hint">&#9662;</span></span>
+        <span class="type-badge type-research">research</span>
+        
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star this paper">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="http://arxiv.org/abs/2605.22743" target="_blank" rel="noopener">SeqLoRA: Bilevel Orthogonal Adaptation for Continual Multi-Concept Generation</a>
+      </h2>
+      <p class="authors">Javad Parsa, Enis Simsar, Amir Joudaki, Thomas Hofmann, André M. H. Teixeira</p>
+      <p class="abstract">Parameter-efficient fine-tuning enables fast personalization of text-to-image diffusion models, but composing multiple custom concepts remains challenging due to representation interference. Existing modular methods either rely on expensive post-hoc fusion or freeze adaptation subspaces, which limit expressiveness and concept fidelity. To address this trade-off, we propose Sequential regularized LoRA (SeqLoRA), a constrained continual learning framework that jointly optimizes both LoRA factors via bilevel optimization. Theoretically, we establish strong convergence guarantees for our algorithm and model the residual layer activations as a matrix sub-Gaussian process to derive high-probability bounds on catastrophic forgetting. We further prove that learning the LoRA basis from data minimizes residual interference energy more effectively than frozen-basis methods. Experiments on multi-concept image generation demonstrate that SeqLoRA improves identity preservation and scalability across up to 101 concepts, while avoiding costly fusion and reducing attribute interference in composed generations.</p>
+      <div class="card-links">
+        <a href="http://arxiv.org/abs/2605.22743" target="_blank" rel="noopener">Abstract</a>
+        <a href="https://arxiv.org/pdf/2605.22743v1" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+    <article class="card" data-keyword="diffusion model" data-url="http://arxiv.org/abs/2605.22718" data-type="research" data-industry="0" data-source="arxiv">
+      <div class="card-meta">
+        <span class="date">2026-05-21</span>
+        <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">diffusion model <span class="edit-hint">&#9662;</span></span>
+        <span class="type-badge type-research">research</span>
+        
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star this paper">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="http://arxiv.org/abs/2605.22718" target="_blank" rel="noopener">WorldKV: Efficient World Memory with World Retrieval and Compression</a>
+      </h2>
+      <p class="authors">Jung Yi, Minjae Kim, Paul Hyunbin Cho, Wooseok Jang, Sangdoo Yun, Seungryong Kim</p>
+      <p class="abstract">Autoregressive video diffusion models have enabled real-time, action-conditioned world generation. However, sustaining a persistent world, where revisiting a previously seen viewpoint yields consistent content, remains an open problem. Full KV-cache attention preserves this consistency but breaks real-time constraints: memory footprint and attention cost grow linearly with rollout length. Sliding window inference restores throughput but discards long-term consistency. We propose WorldKV, a training-free framework with two components: World Retrieval and World Compression. World Retrieval stores evicted KV-cache chunks in GPU/CPU memory and selectively retrieves scene-relevant chunks via camera/ action correspondence, inserting them back into the native attention window without re-encoding. World Compression prunes redundant tokens within each chunk via key-key similarity to an anchor frame, halving per-chunk storage to fit 2x more history under a fixed budget. On Matrix-Game-2.0 and LingBot- World-Fast, WorldKV matches or exceeds full-KV memory fidelity at roughly 2x the throughput, and is competitive with memory-trained baselines without any fine-tuning. Project Page: https://cvlab-kaist.github.io/WorldKV/</p>
+      <div class="card-links">
+        <a href="http://arxiv.org/abs/2605.22718" target="_blank" rel="noopener">Abstract</a>
+        <a href="https://arxiv.org/pdf/2605.22718v1" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+    <article class="card" data-keyword="diffusion model" data-url="http://arxiv.org/abs/2605.22717" data-type="research" data-industry="0" data-source="arxiv">
+      <div class="card-meta">
+        <span class="date">2026-05-21</span>
+        <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">diffusion model <span class="edit-hint">&#9662;</span></span>
+        <span class="type-badge type-research">research</span>
+        
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star this paper">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="http://arxiv.org/abs/2605.22717" target="_blank" rel="noopener">Live Music Diffusion Models: Efficient Fine-Tuning and Post-Training of Interactive Diffusion Music Generators</a>
+      </h2>
+      <p class="authors">Zachary Novack, Stephen Brade, Haven Kim, Hugo Flores García, Nithya Shikarpur, Chinmay Talegaonkar, Suwan Kim, Valerie K. Chen, Julian McAuley, Taylor Berg-Kirkpatrick, Cheng-Zhi Anna Huang</p>
+      <p class="abstract">Interactive streaming music generation promises the use of generative models for live performance and co-creation that is impossible with offline models. However, SOTA models exist in the discrete-AR regime, requiring industrial levels of compute for both training and inference. In this work, we investigate whether audio diffusion models, with their wide support in the open-source community but non-streaming bidirectional nature, can be repurposed efficiently into interactive models accessible on consumer hardware. By taking a critical look at the modern pipeline for block-wise outpainting diffusion, we identify critical inefficiencies during inference that result in strictly worse computational efficiency than their discrete-AR counterparts. We propose Live Music Diffusion Models (LMDMs), a simple modification of the generative diffusion process that recovers, and then outperforms, the inference complexity of the discrete Live Music Models (LMMs) through block-wise KV Caching. Unlike LMMs, LMDMs further enable stable post-training alignment through our novel ARC-Forcing paradigm, reducing error accumulation without any explicit RL or reward models. We demonstrate the application of LMDMs in a number of creative domains, including text-conditioned generation, sketch-based music synthesis, and jamming. We finally show how LMDMs can be used as a generative instrument in a real artist-AI collaboration, utilizing LMDMs as a "generative delay" to transform musicians' improvisation live for variable timbral effects while running locally on a consumer gaming laptop.</p>
+      <div class="card-links">
+        <a href="http://arxiv.org/abs/2605.22717" target="_blank" rel="noopener">Abstract</a>
+        <a href="https://arxiv.org/pdf/2605.22717v1" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+    <article class="card" data-keyword="diffusion model" data-url="http://arxiv.org/abs/2605.22586" data-type="review" data-industry="0" data-source="arxiv">
+      <div class="card-meta">
+        <span class="date">2026-05-21</span>
+        <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">diffusion model <span class="edit-hint">&#9662;</span></span>
+        <span class="type-badge type-review">review</span>
+        
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star this paper">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="http://arxiv.org/abs/2605.22586" target="_blank" rel="noopener">A Tutorial on Diffusion Theory: From Differential Equations to Diffusion Models</a>
+      </h2>
+      <p class="authors">Jiayi Fu, Yuxia Wang</p>
+      <p class="abstract">This tutorial develops diffusion models from the viewpoint of differential equations. We begin with the conditional Gaussian forward process and show that this path admits both an ordinary differential equation (ODE) representation and a stochastic differential equation (SDE) representation. Averaging the conditional process over the data distribution then yields marginalized forward ODE and SDE formulations that transport the data distribution $p_0=p_{\mathrm{data}}$ to a Gaussian prior $p_1=\mathcal{N}(0,I)$. We next derive the corresponding reverse-time dynamics, namely the reverse SDE and the reverse probability-flow ODE, both of which are governed by the marginal score $\grad\log p_t(x)$. This leads to a training objective for score estimation and shows that the standard noise-prediction objective is equivalent to score matching up to an additive constant independent of the model parameters. We then discuss sampling methods for the learned reverse dynamics, including DPM-Solver, as well as guided sampling through classifier guidance and classifier-free guidance. Finally, we compare DDPM and DDIM with the reverse SDE/ODE framework and show that they share the same training objective, while DDPM sampling corresponds to discrete reverse-SDE sampling and DDIM sampling corresponds to reverse-ODE sampling.</p>
+      <div class="card-links">
+        <a href="http://arxiv.org/abs/2605.22586" target="_blank" rel="noopener">Abstract</a>
+        <a href="https://arxiv.org/pdf/2605.22586v1" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+    <article class="card" data-keyword="diffusion model" data-url="http://arxiv.org/abs/2605.22344" data-type="research" data-industry="0" data-source="arxiv">
+      <div class="card-meta">
+        <span class="date">2026-05-21</span>
+        <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">diffusion model <span class="edit-hint">&#9662;</span></span>
+        <span class="type-badge type-research">research</span>
+        
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star this paper">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="http://arxiv.org/abs/2605.22344" target="_blank" rel="noopener">Bernini: Latent Semantic Planning for Video Diffusion</a>
+      </h2>
+      <p class="authors">Bernini Team, Chenchen Liu, Junyi Chen, Lei Li, Lu Chi, Mingzhen Sun, Zhuoying Li, Yi Fu, Ruoyu Guo, Yiheng Wu, Ge Bai, Zehuan Yuan</p>
+      <p class="abstract">Multimodal large language models (MLLMs) and diffusion models have each reached remarkable maturity: MLLMs excel at reasoning over heterogeneous multimodal inputs with strong semantic grounding, while diffusion models synthesize images and videos with photorealistic fidelity. We argue that these two families can be unified through a simple division of labor: MLLMs perform semantic planning, while diffusion models render pixels from high-level semantic guidance and low-level visual features. Building on this idea, we propose Bernini, a unified framework for video generation and editing. An MLLM-based planner predicts the target semantic representation directly in the ViT embedding space, and a DiT-based renderer synthesizes pixels conditioned on this plan, augmented by text features and, for editing, source VAE features for detail preservation. Because semantics serve as the interface, the planner and renderer can be trained separately and only lightly co-trained, preserving the pretrained strengths of both components while keeping training efficient. To better handle multiple visual inputs, we introduce Segment-Aware 3D Rotary Positional Embedding (SA-3D RoPE), and further incorporate chain-of-thought reasoning in the planner to better transfer understanding into generation. Bernini achieves state-of-the-art performance across a wide range of video generation and editing benchmarks, with the MLLM's pretrained understanding translating into strong generalization on challenging editing tasks.</p>
+      <div class="card-links">
+        <a href="http://arxiv.org/abs/2605.22344" target="_blank" rel="noopener">Abstract</a>
+        <a href="https://arxiv.org/pdf/2605.22344v1" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+    <article class="card" data-keyword="diffusion model" data-url="http://arxiv.org/abs/2605.22311" data-type="research" data-industry="0" data-source="arxiv">
+      <div class="card-meta">
+        <span class="date">2026-05-21</span>
+        <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">diffusion model <span class="edit-hint">&#9662;</span></span>
+        <span class="type-badge type-research">research</span>
+        
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star this paper">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="http://arxiv.org/abs/2605.22311" target="_blank" rel="noopener">PIU: Proximity-guided Identity Unlearning in ID-Conditioned Diffusion Models</a>
+      </h2>
+      <p class="authors">Jose Edgar Hernandez Cancino Estrada, Mauro Díaz Lupone, Žiga Emeršič, Vitomir Štruc, Peter Peer, Darian Tomašević</p>
+      <p class="abstract">Identity-conditioned diffusion models enable high-quality and identity-consistent face generation, but they also raise severe privacy concerns, as models may continue to synthesize individuals despite their right to be forgotten. While machine unlearning has been extensively studied for concept and data removal, identity unlearning remains largely unexplored, particularly in models conditioned directly on identity embeddings rather than text prompts. In this work, we study identity unlearning in Arc2Face, a state-of-the-art identity-conditioned latent diffusion model for face generation, and introduce Proximity-guided Identity Unlearning (PIU), an anchor-guided framework for identity unlearning. Specifically, we formulate identity removal as an identity replacement objective that reassigns the source identity to a selected anchor identity in the learned identity space, and we complement it with a proximity-based anchor selection strategy motivated by the geometry of ArcFace representations. We further show that effective unlearning can be achieved through localized fine-tuning of a small subset of identity-sensitive cross-attention layers. Experiments across many target identities show that our framework effectively suppresses generation of the target identity while preserving realism and identity consistency for retained identities, as validated by improved performance on unlearning and image-quality metrics, together with qualitative evaluation. The source code for the PIU framework is publicly available at https://github.com/edgarcancinoe/piu_unlearning .</p>
+      <div class="card-links">
+        <a href="http://arxiv.org/abs/2605.22311" target="_blank" rel="noopener">Abstract</a>
+        <a href="https://arxiv.org/pdf/2605.22311v1" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+    <article class="card" data-keyword="world model" data-url="http://arxiv.org/abs/2605.22456" data-type="research" data-industry="0" data-source="arxiv">
+      <div class="card-meta">
+        <span class="date">2026-05-21</span>
+        <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">world model <span class="edit-hint">&#9662;</span></span>
+        <span class="type-badge type-research">research</span>
+        
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star this paper">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="http://arxiv.org/abs/2605.22456" target="_blank" rel="noopener">Steins;Gate Drive: Semantic Safety Arbitration over Structured Futures for Latency-Decoupled LLM Planning</a>
+      </h2>
+      <p class="authors">Anjie Qiu, Hans D. Schotten</p>
+      <p class="abstract">Cloud-hosted LLM driver agents provide useful semantic judgments, but their inference latency exceeds stepwise vehicle-control windows. Learned world models predict futures, but they usually keep future generation and action selection inside large coupled loops. We present SteinsGateDrive, a latency-decoupled planner-runtime architecture in which the worldline metaphor from the eponymous story names one plausible consequence of an intervention: the LLM selects counterfactual driving futures before the final control instant, and a runtime reuses the selected forecast only while safety contracts remain valid. The generator builds three world-line roles: alpha nominal ego-conditioned futures, beta interaction counterfactuals around nearby vehicles, and gamma hazard-stress futures such as braking, cut-ins, or blocked corridors. The selected branch becomes a typed StrategicForecast with horizon, validity/abort conditions, fallback, and authority. On a within-subject, matched-seed normal-highway protocol with 10 seeds and 20 steps, GPT-5.4 mini reduces effective lag from +3.07 s at 1-second horizon to -0.01 s at 4-second horizon while preserving the measured no-collision safety boundary. The architecture's safety contribution comes from the atom-predicate runtime check, not from the drift score, which functions as a refresh-frequency knob.</p>
+      <div class="card-links">
+        <a href="http://arxiv.org/abs/2605.22456" target="_blank" rel="noopener">Abstract</a>
+        <a href="https://arxiv.org/pdf/2605.22456v1" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+    <article class="card" data-keyword="world model" data-url="http://arxiv.org/abs/2605.22446" data-type="research" data-industry="0" data-source="arxiv">
+      <div class="card-meta">
+        <span class="date">2026-05-21</span>
+        <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">world model <span class="edit-hint">&#9662;</span></span>
+        <span class="type-badge type-research">research</span>
+        
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star this paper">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="http://arxiv.org/abs/2605.22446" target="_blank" rel="noopener">Pre-VLA: Preemptive Runtime Verification for Reliable Vision-Language-Action and World-Model Rollouts</a>
+      </h2>
+      <p class="authors">Zhen Sun, Yongjian Guo, Haoran Sun, Luqiao Wang, Wei Lu, Jiachi Ji, Shengzhe Ji, Junwu Xiong, Zhijun Meng</p>
+      <p class="abstract">While large vision-language-action (VLA) models and generative world models (WM) have advanced long-horizon embodied intelligence, their practical deployment remains challenged by uncertainty in learning-based action generation. Low-quality actions may cause physical failures during execution or lead to misleading world-model rollouts with redundant rendering costs. To address this issue, we propose Pre-VLA, a unified runtime verification architecture that performs preemptive action validity assessment before physical execution or world-model imagination. Pre-VLA leverages an efficient multimodal backbone with modality-aware pooling and a lightweight dual-branch head to predict both safety confidence and critic-derived advantage scores for candidate action chunks. To handle severe class imbalance and unstable boundary decisions, we train Pre-VLA with a multi-task objective combining Focal classification, advantage regression, and soft-threshold calibration. During deployment, a dual-mode preemptive resampling scheduler filters low-quality actions and triggers adaptive resampling under a limited computation budget. Experiments on the LIBERO benchmark show that Pre-VLA improves the average closed-loop success rate across four suites from 30.79\% to 37.62\% over RynnVLA-002, reduces task execution steps, achieves 183.9 ms average forward verification time per action chunk, and mitigates error accumulation in world-model rollouts.</p>
+      <div class="card-links">
+        <a href="http://arxiv.org/abs/2605.22446" target="_blank" rel="noopener">Abstract</a>
+        <a href="https://arxiv.org/pdf/2605.22446v1" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+    <article class="card" data-keyword="world model" data-url="http://arxiv.org/abs/2605.22164" data-type="research" data-industry="0" data-source="arxiv">
+      <div class="card-meta">
+        <span class="date">2026-05-21</span>
+        <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">world model <span class="edit-hint">&#9662;</span></span>
+        <span class="type-badge type-research">research</span>
+        
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star this paper">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="http://arxiv.org/abs/2605.22164" target="_blank" rel="noopener">Beyond Euclidean Proximity: Repairing Latent World Models with Horizon-Matched Trajectory Reachability Metrics</a>
+      </h2>
+      <p class="authors">Liangyu Li, Shengzhi Wang, Qingwen Liu</p>
+      <p class="abstract">Latent world models can contain the state needed for control, yet their terminal-cost interface can expose the planner to the wrong decision-relevant information. In common latent MPC, candidate sequences are ranked by Euclidean distance between predicted terminal and goal latent states; this assumes that raw latent distance weights reachability-relevant variables correctly. We propose trajectory reachability metrics (TRM), a post-hoc terminal-ranking method for fixed latent world models. TRM trains a small pairwise head from logged trajectory structure and uses it as a replacement or hybrid cost; the encoder, dynamics, sampler, optimizer, and evaluation manifests remain fixed. The key design choice is horizon-aware supervision: the metric is trained on broad, balanced temporal separations to match the long-horizon terminal candidate ranking problem. On a hard TwoRoom benchmark, raw latent planning with LeWorldModel (LeWM) reaches 7.0% success, while full-horizon TRM reaches 97.0%; shuffled temporal-label controls stay at 0.0%. The same recipe improves a PLDM baseline from 32.7% to 84.0% across three seeds, and a short-horizon TRM variant reaches only 35.0% with the 100,000 pair budget. In TwoRoom, we provide mechanistic evidence for why TRM works: XY position is linearly decodable (R^2=0.998), yet raw latent MSE misranks candidates; the XY-probe rowspace accounts for less than 1% of terminal-goal latent MSE but carries most candidate-quality signal; and SCSA audits show that TRM improves the ordering and selected endpoint seen by the planner. On PushT go50/go75, TRM-style task-state metrics improve SCSA ranking and selected final distance more cleanly than closed-loop success, motivating auxiliary hybrid costs in continuous manipulation. TRM is the planner-facing repair, and audits explain when terminal reachability metrics should replace or augment raw latent proximity.</p>
+      <div class="card-links">
+        <a href="http://arxiv.org/abs/2605.22164" target="_blank" rel="noopener">Abstract</a>
+        <a href="https://arxiv.org/pdf/2605.22164v1" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+    <article class="card" data-keyword="world model" data-url="http://arxiv.org/abs/2605.22138" data-type="research" data-industry="0" data-source="arxiv">
+      <div class="card-meta">
+        <span class="date">2026-05-21</span>
+        <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">world model <span class="edit-hint">&#9662;</span></span>
+        <span class="type-badge type-research">research</span>
+        
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star this paper">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="http://arxiv.org/abs/2605.22138" target="_blank" rel="noopener">Efficient Agentic Reasoning Through Self-Regulated Simulative Planning</a>
+      </h2>
+      <p class="authors">Mingkai Deng, Jinyu Hou, Lara Sá Neves, Varad Pimpalkhute, Taylor W. Killian, Zhengzhong Liu, Eric P. Xing</p>
+      <p class="abstract">How should an agent decide when and how to plan? A dominant approach builds agents as reactive policies with adaptive computation (e.g., chain-of-thought), trained end-to-end expecting planning to emerge implicitly. Without control over the presence, structure, or horizon of planning, these systems dramatically increase reasoning length, yielding inefficient token use without reliable accuracy gains. We argue efficient agentic reasoning benefits from decomposing decision-making into three systems: simulative reasoning (System II) grounding deliberation in future-state prediction via a world model; self-regulation (System III) deciding when and how deeply to plan via a learned configurator; and reactive execution (System I) handling fine-grained action. Simulative reasoning provides unified planning across diverse tasks without per-domain engineering, while self-regulation ensures the planner is invoked only when needed. To test this, we develop SR$^2$AM (Self-Regulated Simulative Reasoning Agentic LLM), realizing both as distinct stages within an LLM's chain-of-thought, with the LLM as world model. We explore two instantiations: recording decisions from a prompted multi-module system (v0.1) and reconstructing structured plans from traces of pretrained reasoning LLMs (v1.0), trained via supervised then reinforcement learning (RL). Across math, science, tabular analysis, and web information seeking, v0.1-8B and v1.0-30B achieve Pass@1 competitive with 120-355B and 685B-1T parameter systems respectively, while v1.0-30B uses 25.8-95.3% fewer reasoning tokens than comparable agentic LLMs. RL increases average planning horizon by 22.8% while planning frequency grows only 2.0%, showing it learns to plan further ahead rather than more often. More broadly, learned self-regulation instantiates a principle we expect to extend beyond planning to how agents govern their own learning and adaptation.</p>
+      <div class="card-links">
+        <a href="http://arxiv.org/abs/2605.22138" target="_blank" rel="noopener">Abstract</a>
+        <a href="https://arxiv.org/pdf/2605.22138v1" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+    <article class="card" data-keyword="synthetic data generation" data-url="http://arxiv.org/abs/2605.22359" data-type="research" data-industry="0" data-source="arxiv">
+      <div class="card-meta">
+        <span class="date">2026-05-21</span>
+        <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">synthetic data generation <span class="edit-hint">&#9662;</span></span>
+        <span class="type-badge type-research">research</span>
+        
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star this paper">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="http://arxiv.org/abs/2605.22359" target="_blank" rel="noopener">GazePrior: Zero-Shot AR/VR Eye Tracking via Learned 3D Gaze Reconstruction</a>
+      </h2>
+      <p class="authors">Corentin Dumery, David Colmenares, Alexander Fix, Pascal Fua, Ali Behrooz, Jogendra Kundu</p>
+      <p class="abstract">Eye tracking (ET) is a foundational technology for advanced AR/VR applications. However, training ET models for every new ET device is challenging: real data collection is costly and time-consuming, while existing synthetic data generation methods lack realism. To remove the need for additional data collection while maintaining data quality, we introduce a data-driven 3D prior that models the distribution of human eyes across diverse identities, gaze directions, and light settings. This model, which we coin GazePrior, then enables sparse-input 3D reconstruction of annotated data collected with previous ET devices, which can in turn be rendered from the cameras of any target ET device. Our approach synthesizes data with the realism, diversity and ground-truth accuracy of real data collection without its prohibitive costs. Our experiments demonstrate that ET models trained with our synthesized data outperform previous zero-shot methods, achieving higher accuracy and robustness.</p>
+      <div class="card-links">
+        <a href="http://arxiv.org/abs/2605.22359" target="_blank" rel="noopener">Abstract</a>
+        <a href="https://arxiv.org/pdf/2605.22359v1" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+    <article class="card" data-keyword="synthetic data generation" data-url="http://arxiv.org/abs/2605.22215" data-type="research" data-industry="0" data-source="arxiv">
+      <div class="card-meta">
+        <span class="date">2026-05-21</span>
+        <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">synthetic data generation <span class="edit-hint">&#9662;</span></span>
+        <span class="type-badge type-research">research</span>
+        
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star this paper">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="http://arxiv.org/abs/2605.22215" target="_blank" rel="noopener">A Generative Adversarial Graph Neural Network for Synthetic Time Series Data</a>
+      </h2>
+      <p class="authors">Marco Gregnanin, Johannes De Smedt, Giorgio Gnecco, Maurizio Parton</p>
+      <p class="abstract">Generating synthetic data for financial time series poses challenges, especially considering their non-stationary nature. Traditional statistical time series models normally assume weak stationarity. However, this assumption can constrain their effectiveness. Deep learning models, particularly Generative Adversarial Networks (GANs), have exhibited considerable potential in emulating complex probability distributions. GANs employ a generator-discriminator framework, where the generator creates data samples, while the discriminator distinguishes real from generated data. In this research, we introduce the Sig-Graph GAN model, which integrates the time-series signature, offering a structured summary of its temporal evolution; the Long Short-Term Memory network, capturing its inherent autoregressive structure; and Graph Neural Networks (GNNs), leveraging geometric patterns within the time-series data. To employ GNNs optimally, we use the visibility graph algorithm to derive a graph-based representation of the underlying time series. Numerical evaluations demonstrate that the Sig-Graph GAN model outperforms baseline methods in replicating the distribution of logarithmic returns across different stock exchanges. The integration of the graph structure with the autoregressive component effectively captures both geometric and temporal patterns embedded in time-series data. This research advances the field of GAN models for time series by introducing a model capable of leveraging both autoregressive properties and geometric structures for synthetic data generation.</p>
+      <div class="card-links">
+        <a href="http://arxiv.org/abs/2605.22215" target="_blank" rel="noopener">Abstract</a>
+        <a href="https://arxiv.org/pdf/2605.22215v1" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+    <article class="card" data-keyword="A/B testing" data-url="http://arxiv.org/abs/2605.21752" data-type="research" data-industry="0" data-source="arxiv">
+      <div class="card-meta">
+        <span class="date">2026-05-20</span>
+        <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">A/B testing <span class="edit-hint">&#9662;</span></span>
+        <span class="type-badge type-research">research</span>
+        
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star this paper">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="http://arxiv.org/abs/2605.21752" target="_blank" rel="noopener">PEARL: Unbiased Percentile Estimation via Contrastive Learning for Industrial-Scale Livestream Recommendation</a>
+      </h2>
+      <p class="authors">Blake Gella, Wei Wu, Yuhao Yin, Zexi Huang, Zikai Wang, Emily Liu, Junlin Zhang, Wentao Guo, Qinglei Wang</p>
+      <p class="abstract">Recommender systems trained on user interaction data are susceptible to behavioral intensity imbalance--a systematic distortion arising from heterogeneous engagement patterns across users. This imbalance skews feedback signals such that observed interactions no longer faithfully reflect true preferences, causing models to disproportionately amplify signals from highly active users while underrepresenting others, which ultimately degrades recommendation quality and robustness at scale. To address this issue, we propose a nonparametric contrastive percentile approximation framework, PEARL, that models relative preference signals instead of absolute engagement magnitudes. Building upon relative advantage debiasing, PEARL leverages real contrastive interaction samples to approximate percentile relationships directly, without relying on auxiliary distribution estimation models. We provide theoretical justification demonstrating that such pairwise comparisons yield unbiased estimates of percentile-based preference signals. For broader applicability, we introduce a prediction-based bootstrapping mechanism for percentile smoothing to handle sparse and discrete feedback, alongside a generalized value-weighted formulation and a co-training strategy to enhance both modeling flexibility and representation learning. Extensive offline experiments demonstrate that PEARL effectively mitigates behavioral bias and consistently improves recommendation performance across multiple ranking targets. Deployed in a production livestream platform with a combined user base of billions, online A/B testing confirms substantial real-world gains: +2.10% Watch Duration, +0.80% Consumption Amount, +1.49% Interaction Rate, and -6.91% Report Rate.</p>
+      <div class="card-links">
+        <a href="http://arxiv.org/abs/2605.21752" target="_blank" rel="noopener">Abstract</a>
+        <a href="https://arxiv.org/pdf/2605.21752v1" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+    <article class="card" data-keyword="A/B testing" data-url="http://arxiv.org/abs/2605.21556" data-type="research" data-industry="0" data-source="arxiv">
+      <div class="card-meta">
+        <span class="date">2026-05-20</span>
+        <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">A/B testing <span class="edit-hint">&#9662;</span></span>
+        <span class="type-badge type-research">research</span>
+        
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star this paper">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="http://arxiv.org/abs/2605.21556" target="_blank" rel="noopener">Beyond Single Slot: Joint Optimization for Multi-Slot Guaranteed Display Advertising</a>
+      </h2>
+      <p class="authors">Zhaoqi Zhang, Jiaming Deng, Miao Xie, Linyou Cai, Qianlong Xie, Xingxing Wang, Siqiang Luo, Gao Cong</p>
+      <p class="abstract">Guaranteed display advertising is crucial for platform monetization, yet existing methods often operate under a single-slot assumption, limiting their ability to optimize allocation across multi-slot page views. In this paper, we propose a novel joint optimization framework for multi-slot GD allocation, addressing key challenges such as slot-level redundancy, contract imbalance, and exposure concentration. Our approach formulates the allocation as an offline bipartite matching problem with a contract roulette mechanism for slot exclusivity and Page View constraints for impression control, and incorporates a scalable allocation optimization algorithm for efficient large-scale deployment. Extensive online tests on the Meituan advertising platform demonstrate that our method significantly improves merchant ROI, platform revenue efficiency, and contract fulfillment robustness. Specifically, online A/B tests show a 28.99% increase in Average Revenue Per User under 70% traffic, and DID analysis further indicates improved contract stability, demonstrating the strong applicability and effectiveness of our framework in real-world advertising deployments.</p>
+      <div class="card-links">
+        <a href="http://arxiv.org/abs/2605.21556" target="_blank" rel="noopener">Abstract</a>
+        <a href="https://arxiv.org/pdf/2605.21556v1" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+    <article class="card" data-keyword="off-policy evaluation" data-url="http://arxiv.org/abs/2605.21736" data-type="research" data-industry="0" data-source="arxiv">
+      <div class="card-meta">
+        <span class="date">2026-05-20</span>
+        <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">off-policy evaluation <span class="edit-hint">&#9662;</span></span>
+        <span class="type-badge type-research">research</span>
+        
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star this paper">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="http://arxiv.org/abs/2605.21736" target="_blank" rel="noopener">Support-aware offline policy selection for advertising marketplaces</a>
+      </h2>
+      <p class="authors">Prashant Shekhar, Caroline Howard</p>
+      <p class="abstract">Logged advertising auctions make offline reserve-price evaluation attractive but risky. Replay tables can identify policies with large apparent yield gains, yet they can also hide weak threshold support, multiple-comparison effects, subgroup harm, and bidder-response uncertainty. Existing replay and off-policy evaluation methods estimate or rank policy values, but they do not directly answer the operational question of whether the available evidence is strong enough to justify validation. This paper develops a support-aware offline decision framework for reserve-policy selection. Rather than outputting a single point-estimate winner, the framework converts logged evidence into a conservative decision object consisting of certified policies, statistically dominated alternatives, and unresolved candidates requiring further validation. The main theoretical result gives a unified finite-catalog guarantee showing that, under simultaneous uncertainty control and conservative support gates, the framework preserves the best gate-passing policy while eliminating only policies with certified regret. Supporting results characterize support-localized replay generalization, establish information-theoretic threshold-resolution limits, and quantify when heterogeneous bidder response can overturn localized replay rankings. Experiments on iPinYou real-time-bidding logs show that the leading reserve rule achieves a 47.66% replay lift in season two, a 40.71% simultaneous lower-bound lift, and a 43.87% frozen out-of-time replay lift in season three. The framework reduces a 19-policy catalog to a two-policy validation shortlist while certifying non-harm across 44 advertiser, exchange, and region segments. The results support the central claim that offline reserve-policy evaluation should produce certified validation decisions rather than point-estimate rankings alone.</p>
+      <div class="card-links">
+        <a href="http://arxiv.org/abs/2605.21736" target="_blank" rel="noopener">Abstract</a>
+        <a href="https://arxiv.org/pdf/2605.21736v1" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+    <article class="card" data-keyword="collaborative filtering" data-url="http://arxiv.org/abs/2605.21832" data-type="research" data-industry="0" data-source="arxiv">
+      <div class="card-meta">
+        <span class="date">2026-05-20</span>
+        <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">collaborative filtering <span class="edit-hint">&#9662;</span></span>
+        <span class="type-badge type-research">research</span>
+        
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star this paper">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="http://arxiv.org/abs/2605.21832" target="_blank" rel="noopener">FLUID: From Ephemeral IDs to Multimodal Semantic Codes for Industrial-Scale Livestreaming Recommendation</a>
+      </h2>
+      <p class="authors">Xinhang Yuan, Zexi Huang, Anjia Cao, Xudong Lu, Zikai Wang, Penghao Zhou, Chang Liu, Wentao Guo, Qinglei Wang</p>
+      <p class="abstract">Modern recommender systems rely heavily on ID-based collaborative filtering: each item is represented by a unique ID embedding that accumulates collaborative signals from user interactions. Livestreaming recommendation, however, faces a unique challenge in this paradigm: a live room typically broadcasts for only tens of minutes, so its item ID remains poorly learned in a persistent cold-start state and ID-centric ranking models fail to generalize. We present FLUID, the first framework to fully retire the candidate-side item ID from a production-scale livestreaming ranker. FLUID couples a cross-domain multimodal encoder, jointly trained on short videos and livestreams to produce discrete hierarchical codes (LUCID), with a late-fusion, ID-free design that injects slice-level and room-level LUCID as independent tokens, stabilized by a staged warmup under online incremental training. Deployed on our industrial livestreaming recommenders with a cross-platform combined user base of over one billion globally, FLUID delivers significant online gains of +0.55% Quality Watch Duration, +2.05% Cold-Start Room Views, and +0.05% Active Hours.</p>
+      <div class="card-links">
+        <a href="http://arxiv.org/abs/2605.21832" target="_blank" rel="noopener">Abstract</a>
+        <a href="https://arxiv.org/pdf/2605.21832v1" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+    <article class="card" data-keyword="candidate generation" data-url="http://arxiv.org/abs/2605.21792" data-type="research" data-industry="0" data-source="arxiv">
+      <div class="card-meta">
+        <span class="date">2026-05-20</span>
+        <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">candidate generation <span class="edit-hint">&#9662;</span></span>
+        <span class="type-badge type-research">research</span>
+        
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star this paper">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="http://arxiv.org/abs/2605.21792" target="_blank" rel="noopener">Residual Skill Optimization for Text-to-SQL Ensembles</a>
+      </h2>
+      <p class="authors">Jiongli Zhu, Haoquan Guan, Parjanya Prajakta Prashant, Nikki Lijing Kuang, Seyedeh Baharan Khatami, Canwen Xu, Xiaodong Yu, Yingyu Lin, Zhewei Yao, Yuxiong He, Babak Salimi</p>
+      <p class="abstract">Text-to-SQL ensembles improve over single-candidate generation by drawing multiple SQL candidates and selecting one, but their effectiveness is bounded by Pass@K, the probability that at least one of K candidates is correct. Existing methods source diversity heuristically through stochastic decoding or prompt variants, leaving candidate sets dominated by correlated failures. We present DivSkill-SQL, a residual skill optimization framework that builds complementary agentic Text-to-SQL ensembles without model fine-tuning: each new skill is optimized on examples the current skill ensemble fails on, provably targeting its marginal contribution to Pass@K. On Spider2-Lite, DivSkill-SQL improves selected accuracy by up to +11.1 points on Snowflake and +8.3 on BigQuery over the strongest ensemble baseline, with consistent gains across two base models (Opus-4.6 and GPT-5.4). Skills optimized on a single dialect transfer without retraining across dialects (Snowflake, BigQuery, SQLite) and to a different task formulation, such as BIRD-Critic (+2.6 pts). Error diagnostics show up to 3x fewer hallucinated schema references and function calls, indicating that gains come from genuinely reliable complementary skills rather than surface-form variation.</p>
+      <div class="card-links">
+        <a href="http://arxiv.org/abs/2605.21792" target="_blank" rel="noopener">Abstract</a>
+        <a href="https://arxiv.org/pdf/2605.21792v1" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+    <article class="card" data-keyword="scaling law" data-url="http://arxiv.org/abs/2605.21803" data-type="research" data-industry="0" data-source="arxiv">
+      <div class="card-meta">
+        <span class="date">2026-05-20</span>
+        <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">scaling law <span class="edit-hint">&#9662;</span></span>
+        <span class="type-badge type-research">research</span>
+        
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star this paper">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="http://arxiv.org/abs/2605.21803" target="_blank" rel="noopener">Same Architecture, Different Capacity: Optimizer-Induced Spectral Scaling Laws</a>
+      </h2>
+      <p class="authors">Nandan Kumar Jha, Brandon Reagen</p>
+      <p class="abstract">Scaling laws have made language-model performance predictable from model size, data, and compute, but they typically treat the optimizer as a fixed training detail. We show that this assumption misses a fundamental axis of representation scaling: how effectively the optimizer converts added FFN width into utilized spectral capacity. Using eigenspectra of feed-forward network representations, measured through soft and hard spectral-ranks, we find that \emph{the same Transformer architecture realizes markedly different spectral scaling laws when trained with different optimizers}. Holding architecture and width schedule fixed, AdamW exhibits weak hard-rank scaling ($β$=0.44) on rare-token (TAIL) representations where learning is known to be hardest, whereas Muon achieves linear scaling ($β$=1.02) in the same regimes, a $2.3\times$ increase in the scaling exponent. This difference is not reducible to validation loss: AdamW configurations can match low-rank Dion variants in perplexity, under extended training, while exhibiting sharply different spectral geometry, demonstrating that matched loss does not imply matched representation structure. Hard--soft rank asymmetry further reveals that optimizers differ not only in how much capacity is realized, but also in how that capacity is structured across eigenmodes. To disentangle optimizer effects from architectural ones, we compare against architectural interventions (e.g., attention rank and positional encoding), and find that optimizer-induced spectral shifts often exceed the architectural effects. These results suggest optimization as a first-class axis of representation scaling, motivating optimizer--architecture co-design.</p>
+      <div class="card-links">
+        <a href="http://arxiv.org/abs/2605.21803" target="_blank" rel="noopener">Abstract</a>
+        <a href="https://arxiv.org/pdf/2605.21803v1" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+    <article class="card" data-keyword="scaling law" data-url="http://arxiv.org/abs/2605.21648" data-type="research" data-industry="0" data-source="arxiv">
+      <div class="card-meta">
+        <span class="date">2026-05-20</span>
+        <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">scaling law <span class="edit-hint">&#9662;</span></span>
+        <span class="type-badge type-research">research</span>
+        
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star this paper">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="http://arxiv.org/abs/2605.21648" target="_blank" rel="noopener">Dropout Universality: Scaling Laws and Optimal Scheduling at the Edge-of-Chaos</a>
+      </h2>
+      <p class="authors">Lucas Fernandez Sarmiento</p>
+      <p class="abstract">We develop a mean-field theory of dropout as a perturbation of critical signal propagation at the edge of chaos. Dropout shifts the perfect-alignment fixed point, making the depth scale for information propagation finite even at critical initialization. We derive critical and crossover scaling laws for correlation decay and establish that smooth activations and kinked, ReLU-like activations constitute distinct universality classes, with different critical exponents and a universal two-parameter scaling collapse in detuning and dropout strength. The distinction traces to the analytic structure of the correlation map: smooth activations admit a Taylor expansion near perfect alignment, while kinked activations develop a branch point with universal non-analyticity. As a corollary, the framework yields saturated dropout profiles under fixed budget; a rank-flow tie-breaker then selects front-loaded schedules, substantially reducing held-out test loss at no extra computational cost, with accuracy gains as a consistent secondary effect. We test the predictions in MLPs and Vision Transformers and discuss CNN/ResNet extensions.</p>
+      <div class="card-links">
+        <a href="http://arxiv.org/abs/2605.21648" target="_blank" rel="noopener">Abstract</a>
+        <a href="https://arxiv.org/pdf/2605.21648v1" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+    <article class="card" data-keyword="generative AI" data-url="http://arxiv.org/abs/2605.21825" data-type="research" data-industry="0" data-source="arxiv">
+      <div class="card-meta">
+        <span class="date">2026-05-20</span>
+        <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">generative AI <span class="edit-hint">&#9662;</span></span>
+        <span class="type-badge type-research">research</span>
+        
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star this paper">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="http://arxiv.org/abs/2605.21825" target="_blank" rel="noopener">Toward AI VIS Co-Scientists: A General and End-to-End Agent Harness for Solving Complex Data Visualization Tasks</a>
+      </h2>
+      <p class="authors">Haichao Miao, Zhimin Li, Kuangshi Ai, Kaiyuan Tang, Chaoli Wang, Peer-Timo Bremer, Shusen Liu</p>
+      <p class="abstract">The ability to inspect, interpret, and communicate complex data is crucial for virtually any scientific endeavor, but often requires significant expertise outside the core domain ranging from data management and analysis to visualization design and implementation. We present an end-to-end agentic harness that, based on only the data and a high level description of the tasks, independently designs custom visual analysis applications (VIS apps). This represents an important step towards a general AI co-scientist envisioned by many as an autonomous system that can autonomously execute long horizon tasks based on high-level directions. Our proposed VIS co-scientist is an essential component of this broader AI co-scientist vision: a harness that can autonomously analyze data and design visualization solutions using a collection of agents and specialized skills that coordinate exploratory analysis, plan, configure the environment, implement, validate the interface, and most importantly evaluate the overall task completion. Each stage produces document and instruction artifacts that guide downstream work and enable iterative refinement. We validate this approach on IEEE SciVis Contests spanning multiple science and engineering fields. These contests serve as ideal proving grounds because they encode real-world complexity: ambiguous requirements, diverse data modalities, design trade-offs, and task-driven validation. Given only the data and target tasks, our system autonomously produces functional single-page VIS Apps with verified linked-view behavior, highly customized to domain experts' specified tasks and needs.</p>
+      <div class="card-links">
+        <a href="http://arxiv.org/abs/2605.21825" target="_blank" rel="noopener">Abstract</a>
+        <a href="https://arxiv.org/pdf/2605.21825v1" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+    <article class="card" data-keyword="generative AI" data-url="http://arxiv.org/abs/2605.21712" data-type="research" data-industry="0" data-source="arxiv">
+      <div class="card-meta">
+        <span class="date">2026-05-20</span>
+        <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">generative AI <span class="edit-hint">&#9662;</span></span>
+        <span class="type-badge type-research">research</span>
+        
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star this paper">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="http://arxiv.org/abs/2605.21712" target="_blank" rel="noopener">Broadening Access to Transportation Safety Data with Generative AI: A Schema-Grounded Framework for Spatial Natural Language Queries</a>
+      </h2>
+      <p class="authors">Mahdi Azhdari, Eric J. Gonzales</p>
+      <p class="abstract">Transportation safety analysis requires integrating crash records, roadway attributes, and geospatial data through GIS-based workflows, but access remains uneven across agencies and community stakeholders. Technical prerequisites create a gap between analytical tools central to safety planning and the practitioners able to use them. Local agencies, school committees, and residents may have safety concerns but limited capacity to retrieve, filter, map, and analyze relevant data. Generative AI offers a way to narrow this divide, but its public-sector use raises questions about reliability, reproducibility, and governance. This paper presents a schema-grounded natural language interface for transportation safety analysis, using a large language model (LLM) to interpret user intent while preserving deterministic, reviewable execution against an authoritative database. User queries are translated into structured semantic frames, validated by a rule-based layer, compiled into a typed directed acyclic graph of spatial operations, and executed against a PostGIS database. This bounded design separates language interpretation from deterministic execution, keeping results reproducible and schema-grounded while removing access barriers. The framework is evaluated using a statewide Massachusetts transportation safety database integrating crash records, roadway attributes, and geospatial layers including schools, bus stops, crosswalks, and municipal boundaries. All queries executed successfully; the validation layer corrects errors in 29% of evaluation queries, reflecting the gap between flexible natural language and strict schema-grounded requirements. The results suggest that combining natural language accessibility with deterministic execution is a practical direction for broadening access to transportation safety data, with implications for trustworthy AI in public-sector planning.</p>
+      <div class="card-links">
+        <a href="http://arxiv.org/abs/2605.21712" target="_blank" rel="noopener">Abstract</a>
+        <a href="https://arxiv.org/pdf/2605.21712v1" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+    <article class="card" data-keyword="generative AI" data-url="http://arxiv.org/abs/2605.21629" data-type="research" data-industry="0" data-source="arxiv">
+      <div class="card-meta">
+        <span class="date">2026-05-20</span>
+        <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">generative AI <span class="edit-hint">&#9662;</span></span>
+        <span class="type-badge type-research">research</span>
+        
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star this paper">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="http://arxiv.org/abs/2605.21629" target="_blank" rel="noopener">Faster Completion, Less Learning: Generative AI Reduced Study Time on Math Problems and the Knowledge They Build</a>
+      </h2>
+      <p class="authors">Sina Rismanchian, Hasan Uzun, Jeffrey Matayoshi, Eric Cosyn, Eyad Kurd-Misto</p>
+      <p class="abstract">How much have students' ordinary learning processes shifted in response to generative AI, and how does that affect their durable learning outcomes? Self-report surveys show little change, while small-scale behavioral studies report widespread AI use without the scale or duration to measure learning consequences. We address both questions using a ten-year panel of $3.2$ million ALEKS learning interactions for the time-on-task analysis, complemented by ALEKS PPL placement-assessment data for the proctoring and retention analyses, with a quasi-experimental design exploiting within-curriculum variation in AI susceptibility: text-based word problems transcribable into AI prompts serve as the treated group; graph-based problems requiring interactive platform manipulation as the comparison. Learning time on AI-susceptible problems declines $2.8\%$ per quarter among college students after ChatGPT's release, cumulating to $26.9\%$ over eleven quarters; high-schoolers show $31.3\%$, middle-schoolers $9.0\%$, and Grade 5 students no detectable change. The divergence vanishes entirely under proctoring for college students, making general efficiency gains unlikely. Logistic fixed-effects models on randomly assigned proctored retention items yield a $25\%$ cumulative decline in odds of correct response; the same estimator on non-proctored assessment produces a large opposite-signed increase -- inconsistent with any platform, cohort, or curriculum explanation. These results are among the first large-scale behavioral and outcome evidence that generative AI has altered how students study and the knowledge they build -- the population-level indicator of \emph{cognitive surrender}, with direct implications for educational research, assessment governance, and AI policy.</p>
+      <div class="card-links">
+        <a href="http://arxiv.org/abs/2605.21629" target="_blank" rel="noopener">Abstract</a>
+        <a href="https://arxiv.org/pdf/2605.21629v1" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+    <article class="card" data-keyword="world model" data-url="http://arxiv.org/abs/2605.21800" data-type="research" data-industry="0" data-source="arxiv">
+      <div class="card-meta">
+        <span class="date">2026-05-20</span>
+        <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">world model <span class="edit-hint">&#9662;</span></span>
+        <span class="type-badge type-research">research</span>
+        
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star this paper">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="http://arxiv.org/abs/2605.21800" target="_blank" rel="noopener">stable-worldmodel: A Platform for Reproducible World Modeling Research and Evaluation</a>
+      </h2>
+      <p class="authors">Lucas Maes, Quentin Le Lidec, Luiz Facury, Nassim Massaudi, Ayush Chaurasia, Francesco Capuano, Richard Gao, Taj Gillin, Dan Haramati, Damien Scieur, Yann LeCun, Randall Balestriero</p>
+      <p class="abstract">World models are central to building agents that can reason, plan, and generalize beyond their training data. However, research on world models is currently fragmented, with disparate codebases, data pipelines, and evaluation protocols hindering reproducibility and fair comparison. Current practice is further limited by three key bottlenecks: fragile one-off codebases, slow video data loading, and the lack of standardized generalization benchmarks. We present stable-worldmodel (swm), an open-source platform for standardized and reproducible world modeling research and evaluation. It delivers (1) a high-performance Lance-based data layer with native support and conversion tools for MP4, HDF5, and LeRobot datasets, (2) clean, well-tested implementations of modern world model baselines and planning solvers, and (3) a broad suite of environments and tasks extended with controllable visual, geometric, and physical factors of variation for systematic in-silico evaluation of dynamics understanding, control performance, representation quality, and out-of-distribution generalization. By unifying the full pipeline under a single, scalable framework, \texttt{swm} dramatically reduces research overhead and accelerates trustworthy progress toward reliable world models.</p>
+      <div class="card-links">
+        <a href="http://arxiv.org/abs/2605.21800" target="_blank" rel="noopener">Abstract</a>
+        <a href="https://arxiv.org/pdf/2605.21800v1" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+    <article class="card" data-keyword="click-through rate prediction" data-url="http://arxiv.org/abs/2605.15905" data-type="research" data-industry="0" data-source="arxiv">
+      <div class="card-meta">
+        <span class="date">2026-05-15</span>
+        <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">click-through rate prediction <span class="edit-hint">&#9662;</span></span>
+        <span class="type-badge type-research">research</span>
+        
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star this paper">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="http://arxiv.org/abs/2605.15905" target="_blank" rel="noopener">Generative Long-term User Interest Modeling for Click-Through Rate Prediction</a>
+      </h2>
+      <p class="authors">Jiangli Shao, Kaifu Zheng, Hao Fang, Huimu Ye, Zhiwei Liu, Bo Zhang, Shu Han, Xingxing Wang</p>
+      <p class="abstract">Modeling long-term user interests with massive historical user behaviors enhances click-through rate (CTR) prediction performance in advertising and recommendation systems. Typically, a two-stage framework is widely adopted, where a general search unit (GSU) first retrieves top-$k$ relevant behaviors towards the target item, and an exact search unit (ESU) generates interest features via tailored attention. However, current target-centered GSU would ignore other latent user interests, leading to incomplete and biased interest features. Additionally, the matching-based retrieval process in GSUs depends on the pairwise similarity score between target item and each historical behavior, which not only becomes time-consuming for online services as user behaviors continue to grow, but also overlooks the interaction information among user behaviors. To combat these problems, we propose a \textbf{Gen}erative \textbf{L}ong-term user \textbf{I}nterest model named GenLI for CTR prediction. GenLI consists of an interest generation module (IGM), a behavior retrieval module (BRM), and an interest fusion module (IFM). The IGM generates multiple interest distributions to indicate different aspects of real-time user interests, which is target-independent and incorporates interaction information among behaviors, ensuring complete and diverse interest features. The BRM selects related behaviors via a simple lookup operation, reducing the time complexity for weighting each behavior to $O(1)$. Finally, the IFM uses delicate gating mechanisms to generate interest features. Based on the generation process, GenLI improves the diversity of user interests and avoids complex matching-based behavioral retrieval, achieving a better balance between accuracy and efficiency for CTR prediction.</p>
+      <div class="card-links">
+        <a href="http://arxiv.org/abs/2605.15905" target="_blank" rel="noopener">Abstract</a>
+        <a href="https://arxiv.org/pdf/2605.15905v1" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+  </section>
+
   <section class="run-group">
     <h2 class="run-header">Week of 2026-05-21</h2>
     
@@ -81518,8 +82495,393 @@
       <option value="ml-engineering">ml-engineering</option>
       </select>
     </div>
-    <p class="stats" id="industry-stats">842 items &bull; last updated 2026-05-21 05:13 UTC</p>
+    <p class="stats" id="industry-stats">862 items &bull; last updated 2026-05-22 05:15 UTC</p>
     
+  <section class="run-group">
+    <h2 class="run-header">Week of 2026-05-22</h2>
+    
+    <article class="card industry-item" data-keyword="llm" data-url="https://simonwillison.net/2026/May/22/ftc-active-listening/#atom-everything" data-type="industry" data-industry="1" data-source="industry">
+      <div class="card-meta">
+        <span class="date">2026-05-22</span>
+        <span class="keyword">llm</span>
+        <span class="feed-badge">Simon Willison</span>
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="https://simonwillison.net/2026/May/22/ftc-active-listening/#atom-everything" target="_blank" rel="noopener">FTC to Require Cox Media Group, Two Other Firms to Pay Nearly $1 Million to Settle Charges They Deceived Customers About “Active Listening” AI-Powered Marketing Service</a>
+      </h2>
+      <p class="abstract">FTC to Require Cox Media Group, Two Other Firms to Pay Nearly $1 Million to Settle Charges They Deceived Customers About “Active Listening” AI-Powered Marketing Service Back in 2024 Cox Media Group were caught trying to sell advertisers packages based on "active listening", with this deck which claimed: Smart devices capture real-time intent data by listening to our conversations Advertisers can pair this voice-data with behavioral data to target in-market consumers I wrote about this in September 2024 . My theory: I think active listening is the term that the team came up with for “something that sounds fancy but really just means the way ad targeting platforms work already”. Then they got over-excited about the new metaphor and added that first couple of slides that talk about “voice data”, without really understanding how the tech works or what kind of a shitstorm that could kick off when people who DID understand technology started paying attention to their marketing. This FTC press release appears to confirm that's pretty much what happened: CMG, MindSift and 1010 Digital Works claimed their “Active Listening” branded marketing service listened in on consumers’ conversations overheard by smart devices, in real time, to target advertising [...] According to the complaints, this service did not, in fact, listen in on consumers’ conversations or use voice data at all—nor did the service accurately place ads in customers’ desired locations. Instead, the service the companies provided consisted of reselling—at a significant markup—email lists obtained from other data brokers. Attempting to myth bust the conspiracy theory that our mobile devices target ads to us based on spying through the microphones continues to be my least rewarding niche online hobby. It's nice to have a new piece of ammunition. Via @nydiatisdale Tags: privacy , microphone-ads-conspiracy</p>
+      <div class="card-links">
+        <a href="https://simonwillison.net/2026/May/22/ftc-active-listening/#atom-everything" target="_blank" rel="noopener">Read article &#8594;</a>
+      </div>
+    </article>
+    <article class="card industry-item" data-keyword="llm" data-url="https://openai.com/index/adventhealth" data-type="industry" data-industry="1" data-source="industry">
+      <div class="card-meta">
+        <span class="date">2026-05-21</span>
+        <span class="keyword">llm</span>
+        <span class="feed-badge">OpenAI Blog</span>
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="https://openai.com/index/adventhealth" target="_blank" rel="noopener">AdventHealth advances whole-person care with OpenAI</a>
+      </h2>
+      <p class="abstract">AdventHealth is using ChatGPT for Healthcare to streamline workflows, reduce administrative burden, and return more time to patient care.</p>
+      <div class="card-links">
+        <a href="https://openai.com/index/adventhealth" target="_blank" rel="noopener">Read article &#8594;</a>
+      </div>
+    </article>
+    <article class="card industry-item" data-keyword="generative-ai" data-url="https://deepmind.google/blog/were-launching-the-google-deepmind-accelerator-program-in-asia-pacific-to-tackle-environmental-risks/" data-type="industry" data-industry="1" data-source="industry">
+      <div class="card-meta">
+        <span class="date">2026-05-21</span>
+        <span class="keyword">generative-ai</span>
+        <span class="feed-badge">DeepMind Blog</span>
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="https://deepmind.google/blog/were-launching-the-google-deepmind-accelerator-program-in-asia-pacific-to-tackle-environmental-risks/" target="_blank" rel="noopener">We’re launching the Google DeepMind Accelerator program in Asia Pacific to tackle environmental risks</a>
+      </h2>
+      <p class="abstract"></p>
+      <div class="card-links">
+        <a href="https://deepmind.google/blog/were-launching-the-google-deepmind-accelerator-program-in-asia-pacific-to-tackle-environmental-risks/" target="_blank" rel="noopener">Read article &#8594;</a>
+      </div>
+    </article>
+    <article class="card industry-item" data-keyword="ads-tech" data-url="https://medium.com/pinterest-engineering/making-user-sequence-data-more-cost-efficient-faster-and-easier-to-use-2a56a928cae1?source=rss----4c5a5f6279b6---4" data-type="industry" data-industry="1" data-source="industry">
+      <div class="card-meta">
+        <span class="date">2026-05-21</span>
+        <span class="keyword">ads-tech</span>
+        <span class="feed-badge">Pinterest Engineering</span>
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="https://medium.com/pinterest-engineering/making-user-sequence-data-more-cost-efficient-faster-and-easier-to-use-2a56a928cae1?source=rss----4c5a5f6279b6---4" target="_blank" rel="noopener">Making User-Sequence Data More Cost-Efficient, Faster, and Easier to Use</a>
+      </h2>
+      <p class="abstract"></p>
+      <div class="card-links">
+        <a href="https://medium.com/pinterest-engineering/making-user-sequence-data-more-cost-efficient-faster-and-easier-to-use-2a56a928cae1?source=rss----4c5a5f6279b6---4" target="_blank" rel="noopener">Read article &#8594;</a>
+      </div>
+    </article>
+    <article class="card industry-item" data-keyword="llm" data-url="https://simonwillison.net/2026/May/21/datasette-agent/#atom-everything" data-type="industry" data-industry="1" data-source="industry">
+      <div class="card-meta">
+        <span class="date">2026-05-21</span>
+        <span class="keyword">llm</span>
+        <span class="feed-badge">Simon Willison</span>
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="https://simonwillison.net/2026/May/21/datasette-agent/#atom-everything" target="_blank" rel="noopener">Datasette Agent</a>
+      </h2>
+      <p class="abstract">We just announced the first release of Datasette Agent , a new extensible AI assistant for Datasette. I've been working on my LLM Python library for just over three years now, and Datasette Agent represents the moment that LLM and Datasette finally come together. I'm really excited about it! Datasette Agent provides a conversational interface for asking questions of the data you have stored in Datasette. Add the datasette-agent-charts plugin and it can generate charts of your data as well. The demo The announcement post (on the new Datasette project blog) includes this demo video : I recorded the video against the new agent.datasette.io live demo instance, which runs Datasette Agent against example databases including the classic global-power-plants by WRI , and a copy of the Datasette backup of my blog. The live demo runs on Gemini 3.1 Flash-Lite - it's cheap, fast and has no trouble writing SQLite queries. A question I asked in the demo was: when did Simon most recently see a pelican? Which ran this SQL query : SELECT title, commentary, created FROM blog_beat WHERE beat_type = ' sighting ' AND (title LIKE ' %pelican% ' OR commentary LIKE ' %pelican% ' ) ORDER BY created DESC LIMIT 5 And replied: The most recent sighting of a pelican by Simon was recorded on May 20, 2026 . The observation included a California Brown Pelican, along with a Common Loon, Canada Goose, Striped Shore Crab, and a California Sea Lion. Here's that sighting on my blog , and the Markdown export of the full conversation transcript. The plugins My favorite feature of Datasette Agent is that, like the rest of Datasette, it's extensible using plugins. We've shipped three plugins so far: datasette-agent-charts , shown in the video, adds charts to Datasette Agent, powered by Observable Plot . datasette-agent-openai-imagegen adds an image generation tool to Datasette Agent using ChatGPT Images 2.0 . datasette-agent-sprites provides tools for executing code in a Fly Sprites persistent sandbox. Building plugins is really fun . I have a bunch more prototypes that aren't quite alpha-quality yet. Claude Code and OpenAI Codex are both proving excellent at writing plugins - just point them at a checkout of the datasette-agent repo for reference and tell them what you want to build! Running it against local models I've also been having fun running the new plugin against local models. Here's a uv one-liner to run the plugin against gemma-4-26b-a4b in LM Studio on a Mac: uvx --prerelease=allow \ --with datasette-agent --with llm-lmstudio \ datasette --internal internal.db --root \ -s plugins.datasette-llm.default_model lmstudio/google/gemma-4-26b-a4b \ data.db Datasette Agent needs reliable tool calls and the ability for a model to produce SQL queries that run against SQLite. The open weight models released in the past six months are increasingly able to handle that. What's next Datasette Agent opens up so many opportunities for the LLM and Datasette ecosystem in general. It's already informed the major LLM 0.32a0 refactor which I'm nearly ready to roll into a stable release, maybe with some additional "LLM agent" abstractions extracte from Datasette Agent itself. I've been exploring my own take on the Claude Artifacts, which is shaping up nicely as a plugin. I'm excited to use Datasette Agent to build my own Claw - a personal AI assistant built around data imported from different parts of my digital life, which is a neat excuse to revisit my older Dogsheep family of tools. We'll also be rolling out Datasette Agent for users of Datasette Cloud . Join our #datasette-agent Discord channel if you'd like to talk about the project. Tags: projects , sqlite , ai , datasette , generative-ai , llms , llm , uv , datasette-agent</p>
+      <div class="card-links">
+        <a href="https://simonwillison.net/2026/May/21/datasette-agent/#atom-everything" target="_blank" rel="noopener">Read article &#8594;</a>
+      </div>
+    </article>
+    <article class="card industry-item" data-keyword="llm" data-url="https://simonwillison.net/2026/May/21/datasette-agent-sprites/#atom-everything" data-type="industry" data-industry="1" data-source="industry">
+      <div class="card-meta">
+        <span class="date">2026-05-21</span>
+        <span class="keyword">llm</span>
+        <span class="feed-badge">Simon Willison</span>
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="https://simonwillison.net/2026/May/21/datasette-agent-sprites/#atom-everything" target="_blank" rel="noopener">datasette-agent-sprites 0.1a0</a>
+      </h2>
+      <p class="abstract">Release: datasette-agent-sprites 0.1a0 A Datasette Agent plugin for running commands in a Fly Sprites sandbox. Tags: sandboxing , datasette , fly , datasette-agent</p>
+      <div class="card-links">
+        <a href="https://simonwillison.net/2026/May/21/datasette-agent-sprites/#atom-everything" target="_blank" rel="noopener">Read article &#8594;</a>
+      </div>
+    </article>
+    <article class="card industry-item" data-keyword="llm" data-url="https://simonwillison.net/2026/May/21/datasette-agent-charts/#atom-everything" data-type="industry" data-industry="1" data-source="industry">
+      <div class="card-meta">
+        <span class="date">2026-05-21</span>
+        <span class="keyword">llm</span>
+        <span class="feed-badge">Simon Willison</span>
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="https://simonwillison.net/2026/May/21/datasette-agent-charts/#atom-everything" target="_blank" rel="noopener">datasette-agent-charts 0.1a2</a>
+      </h2>
+      <p class="abstract">Release: datasette-agent-charts 0.1a2 "View SQL query" buttons below rendered charts. Tags: datasette , datasette-agent</p>
+      <div class="card-links">
+        <a href="https://simonwillison.net/2026/May/21/datasette-agent-charts/#atom-everything" target="_blank" rel="noopener">Read article &#8594;</a>
+      </div>
+    </article>
+    <article class="card industry-item" data-keyword="llm" data-url="https://simonwillison.net/2026/May/21/datasette-agent-2/#atom-everything" data-type="industry" data-industry="1" data-source="industry">
+      <div class="card-meta">
+        <span class="date">2026-05-21</span>
+        <span class="keyword">llm</span>
+        <span class="feed-badge">Simon Willison</span>
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="https://simonwillison.net/2026/May/21/datasette-agent-2/#atom-everything" target="_blank" rel="noopener">datasette-agent 0.1a3</a>
+      </h2>
+      <p class="abstract">Release: datasette-agent 0.1a3 "View SQL query" buttons for both visible tables and collapsed SQL result tool calls. Don't display empty reasoning chunks Improved handling of truncated responses - table still displays to the user even if the SQL results were truncated when showing the agent. See Datasette Agent, an extensible AI assistant for Datasette . Tags: datasette , datasette-agent</p>
+      <div class="card-links">
+        <a href="https://simonwillison.net/2026/May/21/datasette-agent-2/#atom-everything" target="_blank" rel="noopener">Read article &#8594;</a>
+      </div>
+    </article>
+    <article class="card industry-item" data-keyword="llm" data-url="https://techcrunch.com/2026/05/21/spotify-and-universal-music-strike-deal-allowing-fan-made-ai-covers-and-remixes/" data-type="industry" data-industry="1" data-source="industry">
+      <div class="card-meta">
+        <span class="date">2026-05-21</span>
+        <span class="keyword">llm</span>
+        <span class="feed-badge">TechCrunch AI</span>
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="https://techcrunch.com/2026/05/21/spotify-and-universal-music-strike-deal-allowing-fan-made-ai-covers-and-remixes/" target="_blank" rel="noopener">Spotify and Universal Music strike deal allowing fan-made AI covers and remixes</a>
+      </h2>
+      <p class="abstract">Spotify is partnering with Universal Music Group￼ to let Premium subscribers create AI-generated song covers and remixes, with participating artists receiving a share of the revenue.</p>
+      <div class="card-links">
+        <a href="https://techcrunch.com/2026/05/21/spotify-and-universal-music-strike-deal-allowing-fan-made-ai-covers-and-remixes/" target="_blank" rel="noopener">Read article &#8594;</a>
+      </div>
+    </article>
+    <article class="card industry-item" data-keyword="llm" data-url="https://techcrunch.com/2026/05/21/six-search-engines-worth-trying-now-that-google-isnt-really-google-anymore/" data-type="industry" data-industry="1" data-source="industry">
+      <div class="card-meta">
+        <span class="date">2026-05-21</span>
+        <span class="keyword">llm</span>
+        <span class="feed-badge">TechCrunch AI</span>
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="https://techcrunch.com/2026/05/21/six-search-engines-worth-trying-now-that-google-isnt-really-google-anymore/" target="_blank" rel="noopener">Six search engines worth trying now that Google isn’t really Google anymore</a>
+      </h2>
+      <p class="abstract">Google is about to look really different, and if you're not a fan of the AI overview feature, then you're not going to like what's coming.</p>
+      <div class="card-links">
+        <a href="https://techcrunch.com/2026/05/21/six-search-engines-worth-trying-now-that-google-isnt-really-google-anymore/" target="_blank" rel="noopener">Read article &#8594;</a>
+      </div>
+    </article>
+    <article class="card industry-item" data-keyword="llm" data-url="https://techcrunch.com/2026/05/21/trump-delays-ai-security-executive-order-i-dont-want-to-get-in-the-way-of-that-leading/" data-type="industry" data-industry="1" data-source="industry">
+      <div class="card-meta">
+        <span class="date">2026-05-21</span>
+        <span class="keyword">llm</span>
+        <span class="feed-badge">TechCrunch AI</span>
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="https://techcrunch.com/2026/05/21/trump-delays-ai-security-executive-order-i-dont-want-to-get-in-the-way-of-that-leading/" target="_blank" rel="noopener">Trump delays AI security executive order, saying language ‘could have been a blocker’</a>
+      </h2>
+      <p class="abstract">President Trump delayed signing an executive order that would have required pre-release government security reviews of AI models, citing dissatisfaction with the order's language.</p>
+      <div class="card-links">
+        <a href="https://techcrunch.com/2026/05/21/trump-delays-ai-security-executive-order-i-dont-want-to-get-in-the-way-of-that-leading/" target="_blank" rel="noopener">Read article &#8594;</a>
+      </div>
+    </article>
+    <article class="card industry-item" data-keyword="llm" data-url="https://techcrunch.com/2026/05/21/spotify-adds-ai-powered-qa-and-briefing-generation-features-to-podcasts/" data-type="industry" data-industry="1" data-source="industry">
+      <div class="card-meta">
+        <span class="date">2026-05-21</span>
+        <span class="keyword">llm</span>
+        <span class="feed-badge">TechCrunch AI</span>
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="https://techcrunch.com/2026/05/21/spotify-adds-ai-powered-qa-and-briefing-generation-features-to-podcasts/" target="_blank" rel="noopener">Spotify adds AI-powered Q&amp;A and briefing generation features to podcasts</a>
+      </h2>
+      <p class="abstract">Spotify will let you generate daily or weekly briefs based on your prompts</p>
+      <div class="card-links">
+        <a href="https://techcrunch.com/2026/05/21/spotify-adds-ai-powered-qa-and-briefing-generation-features-to-podcasts/" target="_blank" rel="noopener">Read article &#8594;</a>
+      </div>
+    </article>
+    <article class="card industry-item" data-keyword="llm" data-url="https://techcrunch.com/2026/05/21/spotify-debuts-a-new-desktop-app-for-creating-personal-podcasts/" data-type="industry" data-industry="1" data-source="industry">
+      <div class="card-meta">
+        <span class="date">2026-05-21</span>
+        <span class="keyword">llm</span>
+        <span class="feed-badge">TechCrunch AI</span>
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="https://techcrunch.com/2026/05/21/spotify-debuts-a-new-desktop-app-for-creating-personal-podcasts/" target="_blank" rel="noopener">Spotify takes on Google’s NotebookLM with its new app</a>
+      </h2>
+      <p class="abstract">Spotify is releasing the new desktop app as a research preview in more than 20 markets.</p>
+      <div class="card-links">
+        <a href="https://techcrunch.com/2026/05/21/spotify-debuts-a-new-desktop-app-for-creating-personal-podcasts/" target="_blank" rel="noopener">Read article &#8594;</a>
+      </div>
+    </article>
+    <article class="card industry-item" data-keyword="llm" data-url="https://techcrunch.com/2026/05/21/spotify-launches-an-elevenlabs-powered-audiobook-creation-tool/" data-type="industry" data-industry="1" data-source="industry">
+      <div class="card-meta">
+        <span class="date">2026-05-21</span>
+        <span class="keyword">llm</span>
+        <span class="feed-badge">TechCrunch AI</span>
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="https://techcrunch.com/2026/05/21/spotify-launches-an-elevenlabs-powered-audiobook-creation-tool/" target="_blank" rel="noopener">Spotify launches an ElevenLabs-powered audiobook creation tool</a>
+      </h2>
+      <p class="abstract">The AI-powered audiobook generation won't bind authors to an exclusive contract, meaning they are free to publish their generated audiobooks anywhere.</p>
+      <div class="card-links">
+        <a href="https://techcrunch.com/2026/05/21/spotify-launches-an-elevenlabs-powered-audiobook-creation-tool/" target="_blank" rel="noopener">Read article &#8594;</a>
+      </div>
+    </article>
+    <article class="card industry-item" data-keyword="llm" data-url="https://techcrunch.com/2026/05/21/the-path-founded-by-tony-robbins-and-calm-alums-wants-to-offer-safer-ai-therapy/" data-type="industry" data-industry="1" data-source="industry">
+      <div class="card-meta">
+        <span class="date">2026-05-21</span>
+        <span class="keyword">llm</span>
+        <span class="feed-badge">TechCrunch AI</span>
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="https://techcrunch.com/2026/05/21/the-path-founded-by-tony-robbins-and-calm-alums-wants-to-offer-safer-ai-therapy/" target="_blank" rel="noopener">The Path, founded by Tony Robbins and Calm alums, hopes to offer safer AI therapy</a>
+      </h2>
+      <p class="abstract">The Path says its AI model has scored 95 on the mental health safety AI benchmark, Vera-MH. This compares to a top score of 65 for the consumer bots.</p>
+      <div class="card-links">
+        <a href="https://techcrunch.com/2026/05/21/the-path-founded-by-tony-robbins-and-calm-alums-wants-to-offer-safer-ai-therapy/" target="_blank" rel="noopener">Read article &#8594;</a>
+      </div>
+    </article>
+    <article class="card industry-item" data-keyword="llm" data-url="https://techcrunch.com/2026/05/21/hark-raises-700m-series-a-for-its-secretive-universal-ai-interface/" data-type="industry" data-industry="1" data-source="industry">
+      <div class="card-meta">
+        <span class="date">2026-05-21</span>
+        <span class="keyword">llm</span>
+        <span class="feed-badge">TechCrunch AI</span>
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="https://techcrunch.com/2026/05/21/hark-raises-700m-series-a-for-its-secretive-universal-ai-interface/" target="_blank" rel="noopener">Hark raises $700M Series A for its secretive ‘universal’ AI interface</a>
+      </h2>
+      <p class="abstract">Hark expects to release its first multimodal models this summer, which it says will power a personal AI platform that works with existing products and services. The company expects to follow that with hardware devices built specifically for those systems.</p>
+      <div class="card-links">
+        <a href="https://techcrunch.com/2026/05/21/hark-raises-700m-series-a-for-its-secretive-universal-ai-interface/" target="_blank" rel="noopener">Read article &#8594;</a>
+      </div>
+    </article>
+    <article class="card industry-item" data-keyword="llm" data-url="https://techcrunch.com/2026/05/21/google-is-pitching-an-ai-agent-ecosystem-to-consumers-who-may-not-buy-it/" data-type="industry" data-industry="1" data-source="industry">
+      <div class="card-meta">
+        <span class="date">2026-05-21</span>
+        <span class="keyword">llm</span>
+        <span class="feed-badge">TechCrunch AI</span>
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="https://techcrunch.com/2026/05/21/google-is-pitching-an-ai-agent-ecosystem-to-consumers-who-may-not-buy-it/" target="_blank" rel="noopener">Google is pitching an AI agent ecosystem to consumers who may not buy it</a>
+      </h2>
+      <p class="abstract">One of the most promising introductions at Google’s I/O developer conference on Tuesday was a new way for consumers to use the web: AI agents. Unfortunately, it was also the most confusing.</p>
+      <div class="card-links">
+        <a href="https://techcrunch.com/2026/05/21/google-is-pitching-an-ai-agent-ecosystem-to-consumers-who-may-not-buy-it/" target="_blank" rel="noopener">Read article &#8594;</a>
+      </div>
+    </article>
+    <article class="card industry-item" data-keyword="llm" data-url="https://techcrunch.com/2026/05/21/with-aluminum-prices-up-20-recycling-startups-bet-on-ai-to-cash-in/" data-type="industry" data-industry="1" data-source="industry">
+      <div class="card-meta">
+        <span class="date">2026-05-21</span>
+        <span class="keyword">llm</span>
+        <span class="feed-badge">TechCrunch AI</span>
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="https://techcrunch.com/2026/05/21/with-aluminum-prices-up-20-recycling-startups-bet-on-ai-to-cash-in/" target="_blank" rel="noopener">With aluminum prices up 20%, recycling startups bet on AI to cash in</a>
+      </h2>
+      <p class="abstract">Recycling startups are using AI to improve the recovery of critical minerals like aluminum, aiming to build a massive source of the metal.</p>
+      <div class="card-links">
+        <a href="https://techcrunch.com/2026/05/21/with-aluminum-prices-up-20-recycling-startups-bet-on-ai-to-cash-in/" target="_blank" rel="noopener">Read article &#8594;</a>
+      </div>
+    </article>
+    <article class="card industry-item" data-keyword="industry-blog" data-url="https://www.modernretail.co/operations/walmart-warns-it-may-have-to-raise-prices-due-to-fuel-costs/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss" data-type="industry" data-industry="1" data-source="industry">
+      <div class="card-meta">
+        <span class="date">2026-05-21</span>
+        <span class="keyword">industry-blog</span>
+        <span class="feed-badge">Modern Retail</span>
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="https://www.modernretail.co/operations/walmart-warns-it-may-have-to-raise-prices-due-to-fuel-costs/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss" target="_blank" rel="noopener">Walmart warns it may have to raise prices due to fuel costs</a>
+      </h2>
+      <p class="abstract">Higher fuel prices due to the war with Iran are putting pressure on Walmart's customers and supply chain, and could lead to higher prices on the shelf.</p>
+      <div class="card-links">
+        <a href="https://www.modernretail.co/operations/walmart-warns-it-may-have-to-raise-prices-due-to-fuel-costs/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss" target="_blank" rel="noopener">Read article &#8594;</a>
+      </div>
+    </article>
+    <article class="card industry-item" data-keyword="industry-blog" data-url="https://www.modernretail.co/marketing/marketplace-briefing-what-sheins-acquisition-of-everlane-could-mean-for-its-marketplace-ambitions/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss" data-type="industry" data-industry="1" data-source="industry">
+      <div class="card-meta">
+        <span class="date">2026-05-21</span>
+        <span class="keyword">industry-blog</span>
+        <span class="feed-badge">Modern Retail</span>
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="https://www.modernretail.co/marketing/marketplace-briefing-what-sheins-acquisition-of-everlane-could-mean-for-its-marketplace-ambitions/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss" target="_blank" rel="noopener">Marketplace Briefing: What Shein’s acquisition of Everlane could mean for its marketplace ambitions</a>
+      </h2>
+      <p class="abstract">Shein’s purported acquisition of Everlane isn’t its first attempt to boost its brand credibility. In recent years, it struck a partnership with Forever 21, acquired the U.K. brand Missguided and launched a third-party marketplace. But it's still unclear how all of these efforts will live together.</p>
+      <div class="card-links">
+        <a href="https://www.modernretail.co/marketing/marketplace-briefing-what-sheins-acquisition-of-everlane-could-mean-for-its-marketplace-ambitions/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss" target="_blank" rel="noopener">Read article &#8594;</a>
+      </div>
+    </article>
+  </section>
+
   <section class="run-group">
     <h2 class="run-header">Week of 2026-05-21</h2>
     
@@ -97663,8 +99025,298 @@
       <option value="startup">startup</option>
       </select>
     </div>
-    <p class="stats" id="startup-stats">300 items &bull; last updated 2026-05-21 05:13 UTC</p>
+    <p class="stats" id="startup-stats">315 items &bull; last updated 2026-05-22 05:15 UTC</p>
     
+  <section class="run-group">
+    <h2 class="run-header">Week of 2026-05-22</h2>
+    
+    <article class="card startup-item" data-keyword="startup" data-url="https://techcrunch.com/2026/05/21/spacex-scrubs-first-starship-v3-launch-just-before-liftoff/" data-type="startup" data-source="startup">
+      <div class="card-meta">
+        <span class="date">2026-05-22</span>
+        <span class="keyword">startup</span>
+        <span class="feed-badge startup-badge">TechCrunch</span>
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="https://techcrunch.com/2026/05/21/spacex-scrubs-first-starship-v3-launch-just-before-liftoff/" target="_blank" rel="noopener">SpaceX scrubs first Starship V3 launch just before liftoff</a>
+      </h2>
+      <p class="abstract">SpaceX fueled the third-generation rocket booster and ship and was just moments away from liftoff, before calling a scrub. It's expected to try again Friday.</p>
+      <div class="card-links">
+        <a href="https://techcrunch.com/2026/05/21/spacex-scrubs-first-starship-v3-launch-just-before-liftoff/" target="_blank" rel="noopener">Read article &#8594;</a>
+      </div>
+    </article>
+    <article class="card startup-item" data-keyword="startup" data-url="https://techcrunch.com/2026/05/21/spotify-and-universal-music-strike-deal-allowing-fan-made-ai-covers-and-remixes/" data-type="startup" data-source="startup">
+      <div class="card-meta">
+        <span class="date">2026-05-21</span>
+        <span class="keyword">startup</span>
+        <span class="feed-badge startup-badge">TechCrunch</span>
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="https://techcrunch.com/2026/05/21/spotify-and-universal-music-strike-deal-allowing-fan-made-ai-covers-and-remixes/" target="_blank" rel="noopener">Spotify and Universal Music strike deal allowing fan-made AI covers and remixes</a>
+      </h2>
+      <p class="abstract">Spotify is partnering with Universal Music Group￼ to let Premium subscribers create AI-generated song covers and remixes, with participating artists receiving a share of the revenue.</p>
+      <div class="card-links">
+        <a href="https://techcrunch.com/2026/05/21/spotify-and-universal-music-strike-deal-allowing-fan-made-ai-covers-and-remixes/" target="_blank" rel="noopener">Read article &#8594;</a>
+      </div>
+    </article>
+    <article class="card startup-item" data-keyword="startup" data-url="https://techcrunch.com/2026/05/21/how-elon-musk-will-increase-his-power-through-the-spacex-ipo/" data-type="startup" data-source="startup">
+      <div class="card-meta">
+        <span class="date">2026-05-21</span>
+        <span class="keyword">startup</span>
+        <span class="feed-badge startup-badge">TechCrunch</span>
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="https://techcrunch.com/2026/05/21/how-elon-musk-will-increase-his-power-through-the-spacex-ipo/" target="_blank" rel="noopener">How Elon Musk will increase his power through the SpaceX IPO</a>
+      </h2>
+      <p class="abstract">Musk, who will have more than 50% of the voting power, will have a monarchical grip over the publicly-traded version of SpaceX — control that goes far beyond what other tech founders enjoy.</p>
+      <div class="card-links">
+        <a href="https://techcrunch.com/2026/05/21/how-elon-musk-will-increase-his-power-through-the-spacex-ipo/" target="_blank" rel="noopener">Read article &#8594;</a>
+      </div>
+    </article>
+    <article class="card startup-item" data-keyword="startup" data-url="https://techcrunch.com/2026/05/21/law-enforcement-shuts-down-vpn-service-used-by-two-dozen-ransomware-gangs/" data-type="startup" data-source="startup">
+      <div class="card-meta">
+        <span class="date">2026-05-21</span>
+        <span class="keyword">startup</span>
+        <span class="feed-badge startup-badge">TechCrunch</span>
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="https://techcrunch.com/2026/05/21/law-enforcement-shuts-down-vpn-service-used-by-two-dozen-ransomware-gangs/" target="_blank" rel="noopener">Law enforcement shuts down VPN service used by two dozen ransomware gangs</a>
+      </h2>
+      <p class="abstract">First VPN promised hackers complete anonymity for their cyberattacks. But Europol said it was able to notify the service’s users that they have now been identified.</p>
+      <div class="card-links">
+        <a href="https://techcrunch.com/2026/05/21/law-enforcement-shuts-down-vpn-service-used-by-two-dozen-ransomware-gangs/" target="_blank" rel="noopener">Read article &#8594;</a>
+      </div>
+    </article>
+    <article class="card startup-item" data-keyword="startup" data-url="https://techcrunch.com/2026/05/21/six-search-engines-worth-trying-now-that-google-isnt-really-google-anymore/" data-type="startup" data-source="startup">
+      <div class="card-meta">
+        <span class="date">2026-05-21</span>
+        <span class="keyword">startup</span>
+        <span class="feed-badge startup-badge">TechCrunch</span>
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="https://techcrunch.com/2026/05/21/six-search-engines-worth-trying-now-that-google-isnt-really-google-anymore/" target="_blank" rel="noopener">Six search engines worth trying now that Google isn’t really Google anymore</a>
+      </h2>
+      <p class="abstract">Google is about to look really different, and if you're not a fan of the AI overview feature, then you're not going to like what's coming.</p>
+      <div class="card-links">
+        <a href="https://techcrunch.com/2026/05/21/six-search-engines-worth-trying-now-that-google-isnt-really-google-anymore/" target="_blank" rel="noopener">Read article &#8594;</a>
+      </div>
+    </article>
+    <article class="card startup-item" data-keyword="startup" data-url="https://techcrunch.com/2026/05/21/convective-capital-raises-an-85-million-fund-to-build-disaster-resilience/" data-type="startup" data-source="startup">
+      <div class="card-meta">
+        <span class="date">2026-05-21</span>
+        <span class="keyword">startup</span>
+        <span class="feed-badge startup-badge">TechCrunch</span>
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="https://techcrunch.com/2026/05/21/convective-capital-raises-an-85-million-fund-to-build-disaster-resilience/" target="_blank" rel="noopener">Convective Capital raises an $85 million fund to build disaster resilience</a>
+      </h2>
+      <p class="abstract">After launching to invest in fire tech, Convective is broadening its mandate to disaster resilience.</p>
+      <div class="card-links">
+        <a href="https://techcrunch.com/2026/05/21/convective-capital-raises-an-85-million-fund-to-build-disaster-resilience/" target="_blank" rel="noopener">Read article &#8594;</a>
+      </div>
+    </article>
+    <article class="card startup-item" data-keyword="startup" data-url="https://techcrunch.com/2026/05/21/trump-delays-ai-security-executive-order-i-dont-want-to-get-in-the-way-of-that-leading/" data-type="startup" data-source="startup">
+      <div class="card-meta">
+        <span class="date">2026-05-21</span>
+        <span class="keyword">startup</span>
+        <span class="feed-badge startup-badge">TechCrunch</span>
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="https://techcrunch.com/2026/05/21/trump-delays-ai-security-executive-order-i-dont-want-to-get-in-the-way-of-that-leading/" target="_blank" rel="noopener">Trump delays AI security executive order, saying language ‘could have been a blocker’</a>
+      </h2>
+      <p class="abstract">President Trump delayed signing an executive order that would have required pre-release government security reviews of AI models, citing dissatisfaction with the order's language.</p>
+      <div class="card-links">
+        <a href="https://techcrunch.com/2026/05/21/trump-delays-ai-security-executive-order-i-dont-want-to-get-in-the-way-of-that-leading/" target="_blank" rel="noopener">Read article &#8594;</a>
+      </div>
+    </article>
+    <article class="card startup-item" data-keyword="startup" data-url="https://techcrunch.com/2026/05/21/a-new-fragrance-company-raises-2-million-to-find-new-scent-molecules/" data-type="startup" data-source="startup">
+      <div class="card-meta">
+        <span class="date">2026-05-21</span>
+        <span class="keyword">startup</span>
+        <span class="feed-badge startup-badge">TechCrunch</span>
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="https://techcrunch.com/2026/05/21/a-new-fragrance-company-raises-2-million-to-find-new-scent-molecules/" target="_blank" rel="noopener">This young startup is taking on a fragrance industry that hasn’t changed in almost half a century</a>
+      </h2>
+      <p class="abstract">Fragrance tech company Patina announced Thursday a $2 million raise from investors, including Betaworks and True Ventures.</p>
+      <div class="card-links">
+        <a href="https://techcrunch.com/2026/05/21/a-new-fragrance-company-raises-2-million-to-find-new-scent-molecules/" target="_blank" rel="noopener">Read article &#8594;</a>
+      </div>
+    </article>
+    <article class="card startup-item" data-keyword="startup" data-url="https://techcrunch.com/2026/05/21/spotify-adds-ai-powered-qa-and-briefing-generation-features-to-podcasts/" data-type="startup" data-source="startup">
+      <div class="card-meta">
+        <span class="date">2026-05-21</span>
+        <span class="keyword">startup</span>
+        <span class="feed-badge startup-badge">TechCrunch</span>
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="https://techcrunch.com/2026/05/21/spotify-adds-ai-powered-qa-and-briefing-generation-features-to-podcasts/" target="_blank" rel="noopener">Spotify adds AI-powered Q&amp;A and briefing generation features to podcasts</a>
+      </h2>
+      <p class="abstract">Spotify will let you generate daily or weekly briefs based on your prompts</p>
+      <div class="card-links">
+        <a href="https://techcrunch.com/2026/05/21/spotify-adds-ai-powered-qa-and-briefing-generation-features-to-podcasts/" target="_blank" rel="noopener">Read article &#8594;</a>
+      </div>
+    </article>
+    <article class="card startup-item" data-keyword="startup" data-url="https://techcrunch.com/2026/05/21/spotify-launches-an-elevenlabs-powered-audiobook-creation-tool/" data-type="startup" data-source="startup">
+      <div class="card-meta">
+        <span class="date">2026-05-21</span>
+        <span class="keyword">startup</span>
+        <span class="feed-badge startup-badge">TechCrunch</span>
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="https://techcrunch.com/2026/05/21/spotify-launches-an-elevenlabs-powered-audiobook-creation-tool/" target="_blank" rel="noopener">Spotify launches an ElevenLabs-powered audiobook creation tool</a>
+      </h2>
+      <p class="abstract">The AI-powered audiobook generation won't bind authors to an exclusive contract, meaning they are free to publish their generated audiobooks anywhere.</p>
+      <div class="card-links">
+        <a href="https://techcrunch.com/2026/05/21/spotify-launches-an-elevenlabs-powered-audiobook-creation-tool/" target="_blank" rel="noopener">Read article &#8594;</a>
+      </div>
+    </article>
+    <article class="card startup-item" data-keyword="startup" data-url="https://techcrunch.com/2026/05/21/spotify-will-reserve-tickets-for-top-fans-of-an-artists-in-a-bid-to-drum-up-engagement/" data-type="startup" data-source="startup">
+      <div class="card-meta">
+        <span class="date">2026-05-21</span>
+        <span class="keyword">startup</span>
+        <span class="feed-badge startup-badge">TechCrunch</span>
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="https://techcrunch.com/2026/05/21/spotify-will-reserve-tickets-for-top-fans-of-an-artists-in-a-bid-to-drum-up-engagement/" target="_blank" rel="noopener">Spotify will reserve tickets for top fans of an artists in a bid to drum up engagement</a>
+      </h2>
+      <p class="abstract">Spotify said that it will monitor activity like streams and shares to determine who is a top fan</p>
+      <div class="card-links">
+        <a href="https://techcrunch.com/2026/05/21/spotify-will-reserve-tickets-for-top-fans-of-an-artists-in-a-bid-to-drum-up-engagement/" target="_blank" rel="noopener">Read article &#8594;</a>
+      </div>
+    </article>
+    <article class="card startup-item" data-keyword="startup" data-url="https://techcrunch.com/2026/05/21/the-path-founded-by-tony-robbins-and-calm-alums-wants-to-offer-safer-ai-therapy/" data-type="startup" data-source="startup">
+      <div class="card-meta">
+        <span class="date">2026-05-21</span>
+        <span class="keyword">startup</span>
+        <span class="feed-badge startup-badge">TechCrunch</span>
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="https://techcrunch.com/2026/05/21/the-path-founded-by-tony-robbins-and-calm-alums-wants-to-offer-safer-ai-therapy/" target="_blank" rel="noopener">The Path, founded by Tony Robbins and Calm alums, hopes to offer safer AI therapy</a>
+      </h2>
+      <p class="abstract">The Path says its AI model has scored 95 on the mental health safety AI benchmark, Vera-MH. This compares to a top score of 65 for the consumer bots.</p>
+      <div class="card-links">
+        <a href="https://techcrunch.com/2026/05/21/the-path-founded-by-tony-robbins-and-calm-alums-wants-to-offer-safer-ai-therapy/" target="_blank" rel="noopener">Read article &#8594;</a>
+      </div>
+    </article>
+    <article class="card startup-item" data-keyword="startup" data-url="https://techcrunch.com/2026/05/21/hark-raises-700m-series-a-for-its-secretive-universal-ai-interface/" data-type="startup" data-source="startup">
+      <div class="card-meta">
+        <span class="date">2026-05-21</span>
+        <span class="keyword">startup</span>
+        <span class="feed-badge startup-badge">TechCrunch</span>
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="https://techcrunch.com/2026/05/21/hark-raises-700m-series-a-for-its-secretive-universal-ai-interface/" target="_blank" rel="noopener">Hark raises $700M Series A for its secretive ‘universal’ AI interface</a>
+      </h2>
+      <p class="abstract">Hark expects to release its first multimodal models this summer, which it says will power a personal AI platform that works with existing products and services. The company expects to follow that with hardware devices built specifically for those systems.</p>
+      <div class="card-links">
+        <a href="https://techcrunch.com/2026/05/21/hark-raises-700m-series-a-for-its-secretive-universal-ai-interface/" target="_blank" rel="noopener">Read article &#8594;</a>
+      </div>
+    </article>
+    <article class="card startup-item" data-keyword="startup" data-url="https://techcrunch.com/2026/05/21/maka-kids-is-redefining-kids-screen-time-with-a-streaming-app-optimized-for-well-being-not-engagement/" data-type="startup" data-source="startup">
+      <div class="card-meta">
+        <span class="date">2026-05-21</span>
+        <span class="keyword">startup</span>
+        <span class="feed-badge startup-badge">TechCrunch</span>
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="https://techcrunch.com/2026/05/21/maka-kids-is-redefining-kids-screen-time-with-a-streaming-app-optimized-for-well-being-not-engagement/" target="_blank" rel="noopener">Maka Kids is redefining kids’ screen time with a streaming app optimized for well-being, not engagement</a>
+      </h2>
+      <p class="abstract">Maka Kids is building a streaming app for children ages zero to six featuring content designed for healthy development. The startup has now raised $3 million in seed funding to scale its platform.</p>
+      <div class="card-links">
+        <a href="https://techcrunch.com/2026/05/21/maka-kids-is-redefining-kids-screen-time-with-a-streaming-app-optimized-for-well-being-not-engagement/" target="_blank" rel="noopener">Read article &#8594;</a>
+      </div>
+    </article>
+    <article class="card startup-item" data-keyword="startup" data-url="https://techcrunch.com/2026/05/21/google-is-pitching-an-ai-agent-ecosystem-to-consumers-who-may-not-buy-it/" data-type="startup" data-source="startup">
+      <div class="card-meta">
+        <span class="date">2026-05-21</span>
+        <span class="keyword">startup</span>
+        <span class="feed-badge startup-badge">TechCrunch</span>
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="https://techcrunch.com/2026/05/21/google-is-pitching-an-ai-agent-ecosystem-to-consumers-who-may-not-buy-it/" target="_blank" rel="noopener">Google is pitching an AI agent ecosystem to consumers who may not buy it</a>
+      </h2>
+      <p class="abstract">One of the most promising introductions at Google’s I/O developer conference on Tuesday was a new way for consumers to use the web: AI agents. Unfortunately, it was also the most confusing.</p>
+      <div class="card-links">
+        <a href="https://techcrunch.com/2026/05/21/google-is-pitching-an-ai-agent-ecosystem-to-consumers-who-may-not-buy-it/" target="_blank" rel="noopener">Read article &#8594;</a>
+      </div>
+    </article>
+  </section>
+
   <section class="run-group">
     <h2 class="run-header">Week of 2026-05-21</h2>
     
@@ -103638,7 +105290,7 @@
         sec.classList.toggle('hidden', !sec.querySelector('.card:not(.hidden)')));
       const label = kw
         ? visible + ' paper' + (visible !== 1 ? 's' : '') + ' in “' + kw + '”'
-        : visible + ' papers • last updated 2026-05-21 05:13 UTC';
+        : visible + ' papers • last updated 2026-05-22 05:15 UTC';
       document.getElementById('arxiv-stats').textContent = label;
     }
 
@@ -103657,7 +105309,7 @@
       });
       document.querySelectorAll('#panel-industry .run-group').forEach(sec =>
         sec.classList.toggle('hidden', !sec.querySelector('.card:not(.hidden)')));
-      document.getElementById('industry-stats').textContent = visible + ' items • last updated 2026-05-21 05:13 UTC';
+      document.getElementById('industry-stats').textContent = visible + ' items • last updated 2026-05-22 05:15 UTC';
     }
 
     // Startup filter
@@ -103675,7 +105327,7 @@
       });
       document.querySelectorAll('#panel-startup .run-group').forEach(sec =>
         sec.classList.toggle('hidden', !sec.querySelector('.card:not(.hidden)')));
-      document.getElementById('startup-stats').textContent = visible + ' items • last updated 2026-05-21 05:13 UTC';
+      document.getElementById('startup-stats').textContent = visible + ' items • last updated 2026-05-22 05:15 UTC';
     }
 
     // Keyword override (arXiv panel only)
