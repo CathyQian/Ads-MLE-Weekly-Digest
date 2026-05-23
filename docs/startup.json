@@ -3148,5 +3148,115 @@
     "fetched_date": "2026-05-22",
     "feed_name": "TechCrunch",
     "source": "startup"
+  },
+  {
+    "title": "AI is being used to resurrect the voices of dead pilots",
+    "abstract": "People used AI on a spectrogram image of cockpit recordings to reconstruct them, forcing the NTSB to temporarily block access to its docket system.",
+    "url": "https://techcrunch.com/2026/05/22/ai-is-being-used-to-resurrect-the-voices-of-dead-pilots/",
+    "topic": "startup",
+    "date": "2026-05-22",
+    "fetched_date": "2026-05-23",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Blue Origin cleared to fly New Glenn mega-rocket after April mishap",
+    "abstract": "Jeff Bezos' rocket company confirmed an engine failure led to the loss of an AST SpaceMobile satellite last month, but offered little detail.",
+    "url": "https://techcrunch.com/2026/05/22/blue-origin-cleared-to-fly-new-glenn-mega-rocket-after-april-mishap/",
+    "topic": "startup",
+    "date": "2026-05-22",
+    "fetched_date": "2026-05-23",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "How VCs and founders use inflated ‘ARR’ to crown AI startups",
+    "abstract": "Some AI startups are stretching traditional revenue metrics when talking about progress publicly. And their investors are fully aware.",
+    "url": "https://techcrunch.com/2026/05/22/how-vcs-and-founders-use-inflated-arr-to-kingmake-ai-startups/",
+    "topic": "startup",
+    "date": "2026-05-22",
+    "fetched_date": "2026-05-23",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Spotify’s AI bet: more of everything, less of what you want",
+    "abstract": "Spotify has released a bunch of AI-powered tools that nudge users to create more content. It can be a bit much.",
+    "url": "https://techcrunch.com/2026/05/22/spotifys-ai-bet-more-of-everything-less-of-what-you-want/",
+    "topic": "startup",
+    "date": "2026-05-22",
+    "fetched_date": "2026-05-23",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "You can no longer Google the word ‘disregard’",
+    "abstract": "After Google Search's AI update, the word \"disregard\" now effectively breaks the search interface.",
+    "url": "https://techcrunch.com/2026/05/22/you-can-no-longer-google-the-word-disregard/",
+    "topic": "startup",
+    "date": "2026-05-22",
+    "fetched_date": "2026-05-23",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "We tried Google’s AI glasses and they’re almost there",
+    "abstract": "Google demoed prototype Android XR glasses that overlay Gemini-powered translation, navigation, and other information directly into your field of view.",
+    "url": "https://techcrunch.com/2026/05/22/we-tried-googles-ai-glasses-and-theyre-almost-there/",
+    "topic": "startup",
+    "date": "2026-05-22",
+    "fetched_date": "2026-05-23",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Trump Mobile confirms it exposed customers’ personal data, including phone numbers and home addresses",
+    "abstract": "President Trump’s branded cell phone maker and cell provider said the exposure was linked to a third-party platform and was evaluating whether it needs to notify customers.",
+    "url": "https://techcrunch.com/2026/05/22/trump-mobile-confirms-it-exposed-customers-personal-data-including-phone-numbers-and-home-addresses/",
+    "topic": "startup",
+    "date": "2026-05-22",
+    "fetched_date": "2026-05-23",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "SpaceX files to go public, and the math requires a little faith",
+    "abstract": "The SpaceX S-1 is finally here, and the story it tells goes way further than rockets. The filing runs to 36 pages of risk factors alone, and the numbers inside match the ambition: a $28 trillion total addressable market, a pay package tied to establishing a Mars colony, and a valuation target that would make it the largest IPO in American […]",
+    "url": "https://techcrunch.com/video/spacex-files-to-go-public-and-the-math-requires-a-little-faith/",
+    "topic": "startup",
+    "date": "2026-05-22",
+    "fetched_date": "2026-05-23",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Smart ring maker Oura files to go public",
+    "abstract": "The Finnish company said in September that it has sold 5.5 million smart rings to date.",
+    "url": "https://techcrunch.com/2026/05/22/smart-ring-maker-oura-files-to-go-public/",
+    "topic": "startup",
+    "date": "2026-05-22",
+    "fetched_date": "2026-05-23",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Audio-generation app Huxe, founded by former NotebookLM developers, shuts down",
+    "abstract": "Huxe said that it has pulled its app from App Store and Play Store, and that it will stop working later this month.",
+    "url": "https://techcrunch.com/2026/05/22/audio-generation-app-huxe-founded-by-former-notebooklm-developers-shuts-down/",
+    "topic": "startup",
+    "date": "2026-05-22",
+    "fetched_date": "2026-05-23",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Finnish phone maker HMD bundles Indian AI chatbot onto new smartphone in push to reach local market",
+    "abstract": "The partnership is a potential testing ground for both companies to gauge the appetite for an India-focused chatbot.",
+    "url": "https://techcrunch.com/2026/05/21/finnish-phone-maker-hmd-bundles-indian-ai-chatbot-onto-new-smartphone-in-push-to-reach-local-market/",
+    "topic": "startup",
+    "date": "2026-05-22",
+    "fetched_date": "2026-05-23",
+    "feed_name": "TechCrunch",
+    "source": "startup"
   }
 ]

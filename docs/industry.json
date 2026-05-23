@@ -8618,5 +8618,145 @@
     "fetched_date": "2026-05-22",
     "feed_name": "Modern Retail",
     "source": "industry"
+  },
+  {
+    "title": "OpenAI named a Leader in enterprise coding agents by Gartner",
+    "abstract": "OpenAI is named a leader in the 2026 Gartner Magic Quadrant for Enterprise AI Coding Agents, with Codex recognized for innovation and enterprise-scale deployment.",
+    "url": "https://openai.com/index/gartner-2026-agentic-coding-leader",
+    "topic": "llm",
+    "date": "2026-05-22",
+    "fetched_date": "2026-05-23",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "How Virgin Atlantic ships faster with Codex",
+    "abstract": "How Virgin Atlantic used Codex to ship its revamped mobile app on a fixed holiday travel deadline, reaching near-total unit test coverage and zero P1 defects.",
+    "url": "https://openai.com/index/virgin-atlantic",
+    "topic": "llm",
+    "date": "2026-05-22",
+    "fetched_date": "2026-05-23",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Project Glasswing: An initial update",
+    "abstract": "An early update on what we've learned from Project Glasswing.",
+    "url": "https://www.anthropic.com/research/glasswing-initial-update",
+    "topic": "llm",
+    "date": "2026-05-22",
+    "fetched_date": "2026-05-23",
+    "feed_name": "Anthropic Research",
+    "source": "industry"
+  },
+  {
+    "title": "Towards Speed-of-Light Text Generation with Nemotron-Labs Diffusion Language Models",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/nvidia/nemotron-labs-diffusion",
+    "topic": "llm",
+    "date": "2026-05-23",
+    "fetched_date": "2026-05-23",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Specialization Beats Scale: A Strategic Variable Most AI Procurement Decisions Overlook",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/Dharma-AI/specialization-beats-scale",
+    "topic": "llm",
+    "date": "2026-05-22",
+    "fetched_date": "2026-05-23",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "The memory shortage is causing a repricing of consumer electronics",
+    "abstract": "The memory shortage is causing a repricing of consumer electronics David Oks provides the clearest explanation I've seen yet of why consumer products that use memory are likely to get significantly more expensive over the next few years. The short version is that memory manufacturers - of which there are just three remaining large companies - have a fixed capacity in terms of how many wafers they can process at any one time. This fixed wafer capacity is then split between DDR - used in desktops and servers, LPDDR - used in mobile phones and low-energy devices, and HBM - used with GPUs. Until recently, HBM got just 2% of that wafer allocation. The enormous growth in AI data centers has pushed that up to an expected 20% by the end of 2026, and \"a single gigabyte of HBM consumes more than three times the wafer capacity that a gigabyte of DDR or LPDDR does\". Memory companies have learned from the extinction of their rivals that you should always under-provision rather than over-provision your fabricator capacity. The profit margins and demand for HBM (high-bandwidth memory) will constrain the production of consumer-device RAM for several years. This is already being felt in the sub-$100 smartphone market, which is particularly important to markets like Africa and South Asia. (The original title of the piece was \"AI is killing the cheap smartphone\" but I'm using the Hacker News rephrased title, which I think does more justice to the content.) Via Hacker News Tags: memory , ai , ai-ethics",
+    "url": "https://simonwillison.net/2026/May/22/memory-shortage/#atom-everything",
+    "topic": "llm",
+    "date": "2026-05-22",
+    "fetched_date": "2026-05-23",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "AI is being used to resurrect the voices of dead pilots",
+    "abstract": "People used AI on a spectrogram image of cockpit recordings to reconstruct them, forcing the NTSB to temporarily block access to its docket system.",
+    "url": "https://techcrunch.com/2026/05/22/ai-is-being-used-to-resurrect-the-voices-of-dead-pilots/",
+    "topic": "llm",
+    "date": "2026-05-22",
+    "fetched_date": "2026-05-23",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Google goes for the glitter with disco-ball icons: ‘Are y’all sure you still want this?’",
+    "abstract": "You can now disco ball-ify your entire Pixel home screen, says Google.",
+    "url": "https://techcrunch.com/2026/05/22/google-goes-for-the-glitter-with-disco-ball-icons-are-yall-sure-you-still-want-this/",
+    "topic": "llm",
+    "date": "2026-05-22",
+    "fetched_date": "2026-05-23",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "How VCs and founders use inflated ‘ARR’ to crown AI startups",
+    "abstract": "Some AI startups are stretching traditional revenue metrics when talking about progress publicly. And their investors are fully aware.",
+    "url": "https://techcrunch.com/2026/05/22/how-vcs-and-founders-use-inflated-arr-to-kingmake-ai-startups/",
+    "topic": "llm",
+    "date": "2026-05-22",
+    "fetched_date": "2026-05-23",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Elon Musk can’t hear you over the sound of his $1.75 trillion IPO",
+    "abstract": "The SpaceX S-1 is finally here, and the story it tells goes way further than rockets. The filing runs to 36 pages of risk factors alone, and the numbers inside match the ambition: a $28 trillion total addressable market, a pay package tied to establishing a Mars colony, and a valuation target that would make it the largest IPO in American […]",
+    "url": "https://techcrunch.com/podcast/elon-musk-cant-hear-you-over-the-sound-of-his-1-75-trillion-ipo/",
+    "topic": "llm",
+    "date": "2026-05-22",
+    "fetched_date": "2026-05-23",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "You can no longer Google the word ‘disregard’",
+    "abstract": "After Google Search's AI update, the word \"disregard\" now effectively breaks the search interface.",
+    "url": "https://techcrunch.com/2026/05/22/you-can-no-longer-google-the-word-disregard/",
+    "topic": "llm",
+    "date": "2026-05-22",
+    "fetched_date": "2026-05-23",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "We tried Google’s AI glasses and they’re almost there",
+    "abstract": "Google demoed prototype Android XR glasses that overlay Gemini-powered translation, navigation, and other information directly into your field of view.",
+    "url": "https://techcrunch.com/2026/05/22/we-tried-googles-ai-glasses-and-theyre-almost-there/",
+    "topic": "llm",
+    "date": "2026-05-22",
+    "fetched_date": "2026-05-23",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "SpaceX files to go public, and the math requires a little faith",
+    "abstract": "The SpaceX S-1 is finally here, and the story it tells goes way further than rockets. The filing runs to 36 pages of risk factors alone, and the numbers inside match the ambition: a $28 trillion total addressable market, a pay package tied to establishing a Mars colony, and a valuation target that would make it the largest IPO in American […]",
+    "url": "https://techcrunch.com/video/spacex-files-to-go-public-and-the-math-requires-a-little-faith/",
+    "topic": "llm",
+    "date": "2026-05-22",
+    "fetched_date": "2026-05-23",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Hits and misses from Q1 earnings season",
+    "abstract": "First quarter earnings results reveal some strong growth in the retail sector along with concerns from macroeconomic conditions like high fuel prices and budget-conscious shoppers.",
+    "url": "https://www.modernretail.co/operations/hits-and-misses-from-q1-earnings-season/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-05-23",
+    "fetched_date": "2026-05-23",
+    "feed_name": "Modern Retail",
+    "source": "industry"
   }
 ]
