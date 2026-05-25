@@ -8788,5 +8788,95 @@
     "fetched_date": "2026-05-24",
     "feed_name": "TechCrunch AI",
     "source": "industry"
+  },
+  {
+    "title": "datasette 1.0a30",
+    "abstract": "Release: datasette 1.0a30 The big new feature in this alpha is a new customizable \"Jump to...\" menu, described in detail in The extensible \"Jump to\" menu in Datasette 1.0a30 on the Datasette blog. You can try it out by hitting / on latest.datasette.io - it looks like this: The new jump_items_sql() plugin hook allows plugins to add their own items to the set that's searched by the plugin. Tags: projects , datasette , annotated-release-notes",
+    "url": "https://simonwillison.net/2026/May/24/datasette/#atom-everything",
+    "topic": "llm",
+    "date": "2026-05-24",
+    "fetched_date": "2026-05-25",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "datasette-agent 0.1a4",
+    "abstract": "Release: datasette-agent 0.1a4 Taking advantage of the new makeJumpSections() JavaScript plugin hook added in Datasette 1.0a30 , datasette-agent now presents this \"Start a new agent chat\" interface as part of the Jump to menu, any time you hit / : You can try this out by signing into agent.datasette.io using your GitHub account. Tags: datasette , datasette-agent",
+    "url": "https://simonwillison.net/2026/May/24/datasette-agent/#atom-everything",
+    "topic": "llm",
+    "date": "2026-05-24",
+    "fetched_date": "2026-05-25",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "datasette-fixtures 0.1a0",
+    "abstract": "Release: datasette-fixtures 0.1a0 One of the smaller features in Datasette 1.0a30 is this: New documented datasette.fixtures.populate_fixture_database(conn) helper for creating the fixture database tables used by Datasette's own tests, intended for plugin test suites. This new plugin takes advantage of that API. You can try it out using uvx without even installing Datasette like this: uvx --prerelease=allow \\ --with datasette-fixtures datasette \\ --get /fixtures/roadside_attractions.json Which outputs: { \"ok\" : true , \"next\" : null , \"rows\" : [ { \"pk\" : 1 , \"name\" : \" The Mystery Spot \" , \"address\" : \" 465 Mystery Spot Road, Santa Cruz, CA 95065 \" , \"url\" : \" https://www.mysteryspot.com/ \" , \"latitude\" : 37.0167 , \"longitude\" : -122.0024 }, { \"pk\" : 2 , \"name\" : \" Winchester Mystery House \" , \"address\" : \" 525 South Winchester Boulevard, San Jose, CA 95128 \" , \"url\" : \" https://winchestermysteryhouse.com/ \" , \"latitude\" : 37.3184 , \"longitude\" : -121.9511 }, { \"pk\" : 3 , \"name\" : \" Burlingame Museum of PEZ Memorabilia \" , \"address\" : \" 214 California Drive, Burlingame, CA 94010 \" , \"url\" : null , \"latitude\" : 37.5793 , \"longitude\" : -122.3442 }, { \"pk\" : 4 , \"name\" : \" Bigfoot Discovery Museum \" , \"address\" : \" 5497 Highway 9, Felton, CA 95018 \" , \"url\" : \" https://www.bigfootdiscoveryproject.com/ \" , \"latitude\" : 37.0414 , \"longitude\" : -122.0725 } ], \"truncated\" : false } Tags: datasette , uv",
+    "url": "https://simonwillison.net/2026/May/24/datasette-fixtures/#atom-everything",
+    "topic": "llm",
+    "date": "2026-05-24",
+    "fetched_date": "2026-05-25",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Quoting Armin Ronacher",
+    "abstract": "The most frustrating failure mode right now is that people submit issues that are not in their own voice. They contain an observed problem somewhere, but it has been thrown into a clanker and the clanker reworded it and made a huge mess of it. Typically, it was prompted so badly that the conclusions produced are more often than not inaccurate but always full of confidence. The result is complete guesswork on root causes, fake-minimal repros, suggested implementation strategies, analogies to adjacent but often the wrong code, and long lists of error classes that might or might not matter. [...] So at least personally, I increasingly want issue reports to be condensed to what the human actually observed: I ran this command. I expected this to happen. This happened instead. Here is the exact error or log. — Armin Ronacher , on slop issues filed against Pi Tags: ai , github-issues , llms , ai-ethics , open-source , coding-agents , generative-ai , armin-ronacher , pi , slop",
+    "url": "https://simonwillison.net/2026/May/24/armin-ronacher/#atom-everything",
+    "topic": "llm",
+    "date": "2026-05-24",
+    "fetched_date": "2026-05-25",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Mad House — Usborne Creepy Computer Games",
+    "abstract": "Tool: Mad House — Usborne Creepy Computer Games Via Hacker News I learned that UK publisher Usborne published free PDFs of their 1980s Computer Books , some of which I remember working through on my Commodore 64 as a child. These were so great! Beautifully illustrated books with fun projects made up of code you could type into your own machine. I remember playing \"Mad House\" typed in from the 1983 book \"Creepy Computer Games\", so I fed that PDF into Claude and had it build an interactive version of that game in JavaScript and HTML: Build a vanilla JS artifact that exactly recreates the game Mad House from this book, make sure it's mobile friendly and has a suitable retro aesthetic Credit the book title and link to https://usborne.com/us/books/computer-and-coding-books Tags: computer-history , games , tools",
+    "url": "https://simonwillison.net/2026/May/24/usborne-mad-house/#atom-everything",
+    "topic": "llm",
+    "date": "2026-05-24",
+    "fetched_date": "2026-05-25",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Everyone is navigating AI security in real time — even Google",
+    "abstract": "We're in the transition period -- all of us.",
+    "url": "https://techcrunch.com/2026/05/24/everyone-is-navigating-ai-security-in-real-time-even-google/",
+    "topic": "llm",
+    "date": "2026-05-24",
+    "fetched_date": "2026-05-25",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "I tried Amazon’s Bee wearable and am both intrigued and slightly creeped out",
+    "abstract": "Like other AI wearables, Amazon's Bee offers an odd combination of convenience and privacy anxiety.",
+    "url": "https://techcrunch.com/2026/05/24/i-tried-amazons-bee-wearable-and-am-both-intrigued-and-slightly-creeped-out/",
+    "topic": "llm",
+    "date": "2026-05-24",
+    "fetched_date": "2026-05-25",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "How Nocturnal Skincare created a spring campaign for under $100",
+    "abstract": "Two-year-old brand Nocturnal Skincare created its recent spring campaign on a $100 budget. Thanks to the DIY approach, the brand was able to save on creatives to invest in other areas of the business.",
+    "url": "https://www.modernretail.co/marketing/how-nocturnal-skincare-created-a-spring-campaign-for-under-100/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-05-25",
+    "fetched_date": "2026-05-25",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "What recent retail earnings revealed about the state of consumer health",
+    "abstract": "Last week, retail giants including Home Depot, Walmart, Target, TJX and Urban Outfitters, Inc. reported their quarterly earnings. And there were a surprising number of bright spots considering the inflationary pressure both retailers and consumers have faced over the past year.",
+    "url": "https://www.modernretail.co/operations/what-recent-retail-earnings-revealed-about-the-state-of-consumer-health/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-05-25",
+    "fetched_date": "2026-05-25",
+    "feed_name": "Modern Retail",
+    "source": "industry"
   }
 ]
