@@ -3818,5 +3818,85 @@
     "fetched_date": "2026-05-29",
     "feed_name": "TechCrunch",
     "source": "startup"
+  },
+  {
+    "title": "Founders seize on Indian court ruling to revive criticism of Google’s ad business",
+    "abstract": "The ruling drew support from founders, while lawyers said it could force platforms to revisit how they handle trademarked keywords.",
+    "url": "https://techcrunch.com/2026/05/29/founders-seize-on-indian-court-ruling-to-revive-criticism-of-googles-ad-business/",
+    "topic": "startup",
+    "date": "2026-05-30",
+    "fetched_date": "2026-05-30",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Coders are refusing to work without AI — and that could come back to bite them",
+    "abstract": "While AI is helping coders produce code faster, it may not be producing better code, researchers warn. And that could cause problems down the road for them.",
+    "url": "https://techcrunch.com/2026/05/29/coders-are-refusing-to-work-without-ai-and-that-could-come-back-to-bite-them/",
+    "topic": "startup",
+    "date": "2026-05-29",
+    "fetched_date": "2026-05-30",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "So you’ve heard these AI terms and nodded along; let’s fix that",
+    "abstract": "The rise of AI has brought an avalanche of new terms and slang. Here is a glossary with definitions of some of the most important words and phrases you might encounter.",
+    "url": "https://techcrunch.com/2026/05/29/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
+    "topic": "startup",
+    "date": "2026-05-29",
+    "fetched_date": "2026-05-30",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "What happens when companies become too AI-pilled?",
+    "abstract": "The people deciding that AI can replace your job are also the ones least likely to understand what your job truly involves, according to Box founder Aaron Levie, who pointed to this as an example of “AI psychosis.” Indeed, ClickUp recently cut 22% of its workforce for AI agents, tech layoffs in 2026 are already nearly matching all of 2025, […]",
+    "url": "https://techcrunch.com/video/what-happens-when-companies-become-too-ai-pilled/",
+    "topic": "startup",
+    "date": "2026-05-29",
+    "fetched_date": "2026-05-30",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "After Nvidia’s $20B not-acqui-hire, AI chip startup Groq reportedly raising $650M",
+    "abstract": "Chipmaker Groq is looking to raise $650 million in internal funding as it pivots from hardware to focus more on AI inference, the process of refining the way AI models respond to prompted requests, per Axios.",
+    "url": "https://techcrunch.com/2026/05/29/after-nvidias-20b-not-acqui-hire-ai-chip-startup-groq-reportedly-raising-650m/",
+    "topic": "startup",
+    "date": "2026-05-29",
+    "fetched_date": "2026-05-30",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Cognition’s Scott Wu says AI coding agents shouldn’t replace humans",
+    "abstract": "Cognition makes Devin, the first and arguably most successful AI coding agent. But famed coder Wu says it isn't designed to supplant human programmers.",
+    "url": "https://techcrunch.com/2026/05/29/cognitions-scott-wu-says-ai-coding-agents-shouldnt-replace-humans/",
+    "topic": "startup",
+    "date": "2026-05-29",
+    "fetched_date": "2026-05-30",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Kiwibit’s AI-powered bird feeder is my new backyard buddy",
+    "abstract": "If you're looking for a fun way to connect with nature while collecting bird species on an app like Pokémon, give this smart feeder a try.",
+    "url": "https://techcrunch.com/2026/05/29/kiwibits-ai-powered-bird-feeder-is-my-new-backyard-buddy/",
+    "topic": "startup",
+    "date": "2026-05-29",
+    "fetched_date": "2026-05-30",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "This chip startup just raised $135M on a bet that AI’s biggest bottleneck isn’t compute — it’s memory",
+    "abstract": "South Korean chip startup XCENA is betting that AI's real bottleneck is not compute, but memory.",
+    "url": "https://techcrunch.com/2026/05/29/xcena-secures-135m-at-570m-valuation-betting-on-memory-as-ais-real-bottleneck/",
+    "topic": "startup",
+    "date": "2026-05-29",
+    "fetched_date": "2026-05-30",
+    "feed_name": "TechCrunch",
+    "source": "startup"
   }
 ]

@@ -81184,5 +81184,169 @@
       "Xueru Zhang"
     ],
     "article_type": "research"
+  },
+  {
+    "title": "On the Practice of Scaling Search Conversion Rate Prediction",
+    "abstract": "Scaling a Search Conversion Rate (CVR) prediction model, especially in high-traffic environments, presents a challenge: superior model quality needs to be balanced with strict constraints on training cost and serving latency. This paper details an effective approach for scaling modern search CVR prediction models. We begin with an empirical study to understand the scaling performance of search CVR models, analyzing how quality improves as we scale three key factors of model backbone computation, the size of embedding parameters, and the volume of training data.\n  We use a large-scale production dataset, comprising over a year of customer interaction logs from a high-traffic e-commerce platform, to evaluate the scalability of several state-of-the-art architectures and their ensembles. Our key findings are: (1) selecting the right backbone and scaling factors is crucial; (2) the impact of scaling backbone, embedding, and data is largely independent and additive, which has implications for more efficient scaling exploration; (3) a streamlined warmstart strategy can accelerate training iterations while simplifying new updates; (4) inference optimization strategies such as decoupled graph execution and dynamic batching can enable low-latency GPU serving even for high-capacity models. Compared to a baseline of a pre-scaling production model, we ultimately deployed a model trained on 2.5x larger training data with 8x more inference compute while having minimal latency impact. Online A/B tests also demonstrate that our launches achieved a combined +2.6% gain in a key metric of search conversion rate.",
+    "url": "http://arxiv.org/abs/2605.29232",
+    "pdf": "https://arxiv.org/pdf/2605.29232v1",
+    "keyword": "conversion rate prediction",
+    "date": "2026-05-28",
+    "fetched_date": "2026-05-30",
+    "authors": [
+      "James Pak",
+      "Jyun-Yu Jiang",
+      "Fan Zhang",
+      "Sen Wang",
+      "Taekmin Kim",
+      "Henry Tsai",
+      "Vijay Rajaram",
+      "Juexin Lin",
+      "Mohitdeep Singh",
+      "Alessandro Magnani",
+      "Johnny Chen",
+      "Qian Zhao",
+      "Rao Fu",
+      "Zhirong Liang",
+      "Jordan Gilliland",
+      "Winter Jiao"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "Experimentation for Different Scheduling Policies on Queues: Mixed Differences-in-Q Estimators Based on Little's Law",
+    "abstract": "In data centers, tasks are dispatched to various servers to evenly distribute the workload. When a data center considers implementing a new scheduling algorithm, it typically conducts an A/B test prior to deployment to assess the real-world impact of this new method. However, a straightforward A/B test might be interfered with so-called ``Markovian'' interference. We utilized the Differences-in-Q estimator, as developed by Farias et al. (2022), and introduced mixed Differences-in-Q estimators grounded in Little's Law. We show that our A/B testing methods significantly reduce bias and variance when testing various scheduling policies. Extensive simulations were conducted under scenarios like non-stationary arrival rates, heterogeneous service rates, and communication delays. These simulations highlight the robustness and efficacy of our A/B testing approach.",
+    "url": "http://arxiv.org/abs/2605.29641",
+    "pdf": "https://arxiv.org/pdf/2605.29641v1",
+    "keyword": "A/B testing",
+    "date": "2026-05-28",
+    "fetched_date": "2026-05-30",
+    "authors": [
+      "Nanshan Jia",
+      "Ramesh Johari",
+      "Nian Si",
+      "Zeyu Zheng"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "Generative Spatiotemporal Intent Sequence Recommendation via Implicit Reasoning in Amap",
+    "abstract": "Real-world user behavior rarely consists of isolated actions; instead, it often forms intent flows governed by spatiotemporal dependencies. To provide integrated service recommendations, we focus on the task of Generative Spatiotemporal Intent Sequence Recommendation (GSISR), which aims to generate intent sequences that are logically coherent and physically executable within complex spatiotemporal contexts. While LLMs offer strong reasoning potential for GSISR, direct industrial deployment is limited by high inference latency and context-mismatched or physically infeasible plans. To address these challenges, we propose a generative framework, GPlan, that internalizes LLM reasoning into lightweight models through two components. First, to enable reasoning under strict latency constraints, we introduce Progressive Implicit CoT Distillation, which compresses explicit reasoning processes into reserved latent tokens, allowing small models to inherit complex planning logic without generating long reasoning text. Second, to address the disconnect between general knowledge and real-world constraints, we design Spatiotemporal Counterfactual DPO. By aligning the model with counterfactual context-plan pairs, we improve sensitivity to spatiotemporal context and reduce context-mismatched plans. Offline experiments and online A/B testing demonstrate that our approach improves sequence coherence and context responsiveness. Our implementation and the anonymized GSISR dataset are available at https://github.com/alibaba/GPlan.",
+    "url": "http://arxiv.org/abs/2605.28888",
+    "pdf": "https://arxiv.org/pdf/2605.28888v1",
+    "keyword": "A/B testing",
+    "date": "2026-05-27",
+    "fetched_date": "2026-05-30",
+    "authors": [
+      "Sicong Wang",
+      "Ruiting Dong",
+      "Yue Liu",
+      "Bowen Zheng",
+      "Jun Meng",
+      "Jie Li",
+      "Shuaijun Guo",
+      "Yu Gu",
+      "Fanyi Di",
+      "Xin Li"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "Improved Guarantees for Heterogeneous Treatment-Effect Estimation via Matrix Completion",
+    "abstract": "A central goal of modern causal inference is estimating heterogeneous treatment effects to answer questions like \"how does an intervention affect each unit,\" rather than only on average. We study this problem with panel-data where we observe $n$ units across $m$ times under unknown, non-uniform treatment assignments. The data in this setting is naturally represented as a matrix of all unit--time treatment effects. Estimating heterogeneous treatment effects can then be expressed as obtaining a good estimation of each row's average in this matrix. This allows us to formulate the problem as matrix completion, which can be solved under natural low-rankness assumptions. However, existing matrix-completion guarantees are not powerful enough to get meaningful bounds for the per-row guarantee required for estimating the heterogeneous treatment effect; roughly speaking, they are only useful for estimating average treatment effect bounds, as also illustrated in a recent line of work. We give a simple, computationally efficient estimator that, without knowledge of the propensities and under standard low-rankness and regularity assumptions, achieves a row-wise $\\ell_2$ error of $\\tilde{O}(\\sqrt{\\frac{1}{n} + \\frac{n}{m^2}})$. Technically, our analysis establishes the first sharp row-wise $\\ell_2$-perturbation bound for low-rank approximation, complementing existing spectral-, Frobenius-, and entrywise perturbation theory.",
+    "url": "http://arxiv.org/abs/2605.30319",
+    "pdf": "https://arxiv.org/pdf/2605.30319v1",
+    "keyword": "causal inference",
+    "date": "2026-05-28",
+    "fetched_date": "2026-05-30",
+    "authors": [
+      "Anay Mehrotra",
+      "Phuc Tran",
+      "Van H. Vu",
+      "Manolis Zampetakis"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "Compute Allocation in Evolutionary Search: From Depth-Breadth to Multi-Armed Bandits",
+    "abstract": "LLM-guided evolutionary search (Evolve systems) has reached state-of-the-art results on mathematical and combinatorial tasks, yet most existing systems report only the best of many runs and leave the run-to-run distribution undocumented. We ask how a fixed budget of LLM calls should be allocated, and how reliably a single run reaches the reported numbers. Sweeping the depth-breadth grid over five models and three tasks, we identify two empirical regularities: a fitness-compute envelope along which capability ordering largely collapses on effective FLOPs, and a bilinear depth-breadth fit with task-specific interaction; both are gated by model-task capability. Motivated by these regularities, we propose BaSE (Bandit-based Self-Evolving), a multi-armed bandit that allocates LLM calls across parallel trajectories. Without changing the model, prompt, or evaluator, BaSE improves mean fitness by 12.3% over the strongest island-protocol baseline across 8 (model, task) cells, with the largest gains on high-variance settings: a reliability gain from allocation alone.",
+    "url": "http://arxiv.org/abs/2605.29268",
+    "pdf": "https://arxiv.org/pdf/2605.29268v1",
+    "keyword": "multi-armed bandit",
+    "date": "2026-05-28",
+    "fetched_date": "2026-05-30",
+    "authors": [
+      "Sixue Xing",
+      "Haoyu He",
+      "Kerui Wu",
+      "Zhuo Yang",
+      "Haozheng Luo",
+      "Tianfan Fu",
+      "Aarthy Nagarajan"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "Resolution Diagnostics for Paired LLM Evaluation",
+    "abstract": "Across two public LLM leaderboards, many displayed pairwise rankings do not meet a conventional paired-test resolution target under the actual paired evaluation design: 11 of 40 Open LLM Leaderboard v1 pairwise comparisons and 4 of 9 MMLU-Pro top-10 adjacent-rank pairs are unresolved at (alpha, 1-beta) = (0.05, 0.8). The MMLU-Pro count rises to 6/9 under real subject-level clustering and stays at 5-6 out of 9 in 99.9% of category-bootstrap resamples. We frame paired LLM evaluation as a hypothesis-testing problem, invert level-alpha, power-(1-beta) tests, and report a per-pair resolution ratio q = N/N* as the primary diagnostic. A sharp small-effect expansion with an explicit second-order constant shows that the widely-used unpaired Cohen-h-plus-(1-rho) shortcut deviates from the correct N* by approximately a factor of two in the close-comparison regime, a deficit that three of five off-the-shelf calculators(Cohen 1988, G*Power, R pwr) silently inherit when the user post-multiplies their per-arm output by (1-rho). The unresolved-pair pattern remains under multiplicity correction and anytime-valid sequential testing.",
+    "url": "http://arxiv.org/abs/2605.30315",
+    "pdf": "https://arxiv.org/pdf/2605.30315v1",
+    "keyword": "pairwise ranking",
+    "date": "2026-05-28",
+    "fetched_date": "2026-05-30",
+    "authors": [
+      "Anany Kotawala"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "Rethinking Literature Search Evaluation: Deep Research Helps, and Human Citation Lists Are Not a Ground Truth",
+    "abstract": "We study large-scale literature search from two complementary angles: improving the retrieval pipeline, and stress-testing the human reference list as an evaluation target. First, we implement a Deep Research pipeline that processes the full query paper and expands the retrieved results breadth-first along their bibliographies, and show that it substantially outperforms vanilla API-only search, raising recall on RollingEval-Jun25 (a 250-paper literature-search benchmark) from below 20% to above 80%. Second, we use a neutral LLM-as-a-judge to determine if human references are sound ground truth for the task. We find significant limitations: only 51% of human citations are judged moderately relevant or higher, against 86--88% for the strongest AI-based re-rankers. We study this gap on the OpenAlex co-authorship graph, finding that humans are 2.5x more likely than the best AI re-rankers to cite a direct collaborator. Together, our results argue against single-axis literature-search evaluation: recall, topical-relevance scoring, ranked-list diversity, and a co-authorship-distance diagnostic each measure complementary properties of citation quality and should be reported jointly.",
+    "url": "http://arxiv.org/abs/2605.29234",
+    "pdf": "https://arxiv.org/pdf/2605.29234v1",
+    "keyword": "relevance scoring",
+    "date": "2026-05-28",
+    "fetched_date": "2026-05-30",
+    "authors": [
+      "Gaurav Sahu",
+      "Laurent Charlin",
+      "Christopher Pal"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "VPG: Visual Prefix Guidance for Autoregressive Image and Video Generation",
+    "abstract": "Autoregressive image and video generators are trained with teacher-forced histories but must sample from their own generated prefixes at inference time, making them vulnerable to exposure bias and prefix drift. Existing remedies either modify training or apply sampling-time guidance aimed primarily at external semantic conditions, such as class labels or text prompts, rather than testing whether a next-step prediction provides strong posterior support for the generated prefix itself. We propose Visual Prefix Guidance (VPG), a training-free inference-time guidance method for autoregressive image and video generation. VPG improves next-step prediction by contrasting the model's output under the generated prefix with its output under a corrupted prefix, then extrapolating logits toward candidates that strengthen the posterior support of the generated prefix. Across class-conditional image generation with VAR, text-to-image generation with Infinity, and text-to-video generation with InfinityStar, VPG improves generation quality without retraining the base model, reducing FID on VAR by 0.36 on average and improving benchmark performance on both image and video generation.",
+    "url": "http://arxiv.org/abs/2605.30317",
+    "pdf": "https://arxiv.org/pdf/2605.30317v1",
+    "keyword": "exposure bias",
+    "date": "2026-05-28",
+    "fetched_date": "2026-05-30",
+    "authors": [
+      "Xinyao Liao",
+      "Qiyuan He",
+      "Yicong Li",
+      "Jiayin Zhu",
+      "Xiaoye Qu",
+      "Wei Wei",
+      "Angela Yao"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "PROTOCOL: Late Interaction Retrieval for Protein Homolog Search",
+    "abstract": "Protein homology search underlies function annotation, structure prediction, and evolutionary analysis, but remains challenging in the \"twilight zone,\" where global sequence similarity is weak and classical alignment methods lose sensitivity. Protein language models provide context-aware representations that could improve alignment sensitivity in this regime. However, prior protein embedding-based retrieval pipelines often pool these representations into a single vector, potentially obscuring local motifs, domains, or conserved residues that reveal remote homology. We introduce ProtoCol, a model which represents proteins as sets of residue embeddings and uses ColBERT-style late interaction to test whether residue-level comparison improves homolog retrieval. ProtoCol encodes proteins independently, keeps candidate representations pre-computable, and scores candidates with MaxSim over residue embeddings. On SCOPe superfamily and Pfam clan benchmarks, ProtoCol outperforms sequence-composition, alignment-based, pooled PLM, and trained single-vector baselines, supporting late interaction as an effective retrieval layer for remote homology search.",
+    "url": "http://arxiv.org/abs/2605.29158",
+    "pdf": "https://arxiv.org/pdf/2605.29158v1",
+    "keyword": "embedding-based retrieval",
+    "date": "2026-05-27",
+    "fetched_date": "2026-05-30",
+    "authors": [
+      "Gabrielle Cohn",
+      "Rohan Gumaste",
+      "Minh Hoang",
+      "Vihan Lakshman"
+    ],
+    "article_type": "research"
   }
 ]

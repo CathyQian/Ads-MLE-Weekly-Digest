@@ -9678,5 +9678,175 @@
     "fetched_date": "2026-05-29",
     "feed_name": "Modern Retail",
     "source": "industry"
+  },
+  {
+    "title": "Boston Children’s uses AI to unlock new diagnoses",
+    "abstract": "Boston Children’s Hospital uses OpenAI technology to improve patient care, reduce operational burden, and help diagnose more than 40 rare disease cases.",
+    "url": "https://openai.com/index/boston-childrens-hospital",
+    "topic": "llm",
+    "date": "2026-05-29",
+    "fetched_date": "2026-05-30",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "How Braintrust turns customer requests into code with Codex",
+    "abstract": "How Braintrust engineers use Codex with GPT-5.5 to run experiments and code faster.",
+    "url": "https://openai.com/index/braintrust",
+    "topic": "llm",
+    "date": "2026-05-29",
+    "fetched_date": "2026-05-30",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Strengthening societal resilience with Rosalind Biodefense",
+    "abstract": "OpenAI launches Rosalind Biodefense, expanding trusted access to GPT-Rosalind for vetted developers and U.S. government partners advancing biodefense, public health, and pandemic preparedness through frontier AI.",
+    "url": "https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense",
+    "topic": "llm",
+    "date": "2026-05-29",
+    "fetched_date": "2026-05-30",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "A shared playbook for trustworthy third party evaluations",
+    "abstract": "OpenAI shares guidance on third-party AI evaluations, covering how to assess model capabilities, safeguards, and validity for frontier systems.",
+    "url": "https://openai.com/index/trustworthy-third-party-evaluations-foundations",
+    "topic": "llm",
+    "date": "2026-05-29",
+    "fetched_date": "2026-05-30",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Profiling in PyTorch (Part 1): A Beginner's Guide to torch.profiler",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/torch-profiler",
+    "topic": "llm",
+    "date": "2026-05-29",
+    "fetched_date": "2026-05-30",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "The Charts the AI Industry Doesn’t Want You to See",
+    "abstract": "This is what the AI story looks like",
+    "url": "https://www.thealgorithmicbridge.com/p/the-charts-the-ai-industry-doesnt",
+    "topic": "llm",
+    "date": "2026-05-29",
+    "fetched_date": "2026-05-30",
+    "feed_name": "The Algorithmic Bridge",
+    "source": "industry"
+  },
+  {
+    "title": "Coders are refusing to work without AI — and that could come back to bite them",
+    "abstract": "While AI is helping coders produce code faster, it may not be producing better code, researchers warn. And that could cause problems down the road for them.",
+    "url": "https://techcrunch.com/2026/05/29/coders-are-refusing-to-work-without-ai-and-that-could-come-back-to-bite-them/",
+    "topic": "llm",
+    "date": "2026-05-29",
+    "fetched_date": "2026-05-30",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "So you’ve heard these AI terms and nodded along; let’s fix that",
+    "abstract": "The rise of AI has brought an avalanche of new terms and slang. Here is a glossary with definitions of some of the most important words and phrases you might encounter.",
+    "url": "https://techcrunch.com/2026/05/29/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
+    "topic": "llm",
+    "date": "2026-05-29",
+    "fetched_date": "2026-05-30",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "What happens when companies become too AI-pilled?",
+    "abstract": "The people deciding that AI can replace your job are also the ones least likely to understand what your job truly involves, according to Box founder Aaron Levie, who pointed to this as an example of “AI psychosis.” Indeed, ClickUp recently cut 22% of its workforce for AI agents, tech layoffs in 2026 are already nearly matching all of 2025, […]",
+    "url": "https://techcrunch.com/video/what-happens-when-companies-become-too-ai-pilled/",
+    "topic": "llm",
+    "date": "2026-05-29",
+    "fetched_date": "2026-05-30",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "After Nvidia’s $20B not-acqui-hire, AI chip startup Groq reportedly raising $650M",
+    "abstract": "Chipmaker Groq is looking to raise $650 million in internal funding as it pivots from hardware to focus more on AI inference, the process of refining the way AI models respond to prompted requests, per Axios.",
+    "url": "https://techcrunch.com/2026/05/29/after-nvidias-20b-not-acqui-hire-ai-chip-startup-groq-reportedly-raising-650m/",
+    "topic": "llm",
+    "date": "2026-05-29",
+    "fetched_date": "2026-05-30",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Cognition’s Scott Wu says AI coding agents shouldn’t replace humans",
+    "abstract": "Cognition makes Devin, the first and arguably most successful AI coding agent. But famed coder Wu says it isn't designed to supplant human programmers.",
+    "url": "https://techcrunch.com/2026/05/29/cognitions-scott-wu-says-ai-coding-agents-shouldnt-replace-humans/",
+    "topic": "llm",
+    "date": "2026-05-29",
+    "fetched_date": "2026-05-30",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Today is the last day to apply to speak at TechCrunch Disrupt 2026",
+    "abstract": "Submit your session topic before today ends for a chance to speak at TechCrunch Disrupt 2026. Apply now to share your insight and help shape the conversations defining the tech industry.",
+    "url": "https://techcrunch.com/2026/05/29/today-is-the-last-day-to-apply-to-speak-at-techcrunch-disrupt-2026/",
+    "topic": "llm",
+    "date": "2026-05-29",
+    "fetched_date": "2026-05-30",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Final 24 hours to save up to $410 on your TechCrunch Disrupt 2026 ticket",
+    "abstract": "You now have until tonight at 11:59 p.m. PT to lock in Early Bird savings of up to $410 for TechCrunch Disrupt 2026 before prices increase. Join 10,000+ tech leaders in October for one of the most anticipated tech events of the year. Register now.",
+    "url": "https://techcrunch.com/2026/05/29/final-24-hours-to-save-up-to-410-on-your-techcrunch-disrupt-2026-ticket/",
+    "topic": "llm",
+    "date": "2026-05-29",
+    "fetched_date": "2026-05-30",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Does your CEO have AI psychosis? Aaron Levie thinks most of them do.",
+    "abstract": "The people deciding that AI can replace your job are also the ones least likely to understand what your job truly involves, according to Box founder Aaron Levie, who pointed to this as an example of “AI psychosis.” Indeed, ClickUp recently cut 22% of its workforce for AI agents, tech layoffs in 2026 are already nearly matching all of 2025, […]",
+    "url": "https://techcrunch.com/podcast/does-your-ceo-have-ai-psychosis-aaron-levie-thinks-most-of-them-do/",
+    "topic": "llm",
+    "date": "2026-05-29",
+    "fetched_date": "2026-05-30",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Kiwibit’s AI-powered bird feeder is my new backyard buddy",
+    "abstract": "If you're looking for a fun way to connect with nature while collecting bird species on an app like Pokémon, give this smart feeder a try.",
+    "url": "https://techcrunch.com/2026/05/29/kiwibits-ai-powered-bird-feeder-is-my-new-backyard-buddy/",
+    "topic": "llm",
+    "date": "2026-05-29",
+    "fetched_date": "2026-05-30",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "This chip startup just raised $135M on a bet that AI’s biggest bottleneck isn’t compute — it’s memory",
+    "abstract": "South Korean chip startup XCENA is betting that AI's real bottleneck is not compute, but memory.",
+    "url": "https://techcrunch.com/2026/05/29/xcena-secures-135m-at-570m-valuation-betting-on-memory-as-ais-real-bottleneck/",
+    "topic": "llm",
+    "date": "2026-05-29",
+    "fetched_date": "2026-05-30",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Pacsun’s CEO on how the brand cracked its Gen Z strategy",
+    "abstract": "Pacsun's strategy to connect with Gen Z is focused on co-creation with customers. CEO Brie Olson joins the Modern Retail Podcast this week to give her insights on how the brand regained relevance among young people.",
+    "url": "https://www.modernretail.co/marketing/pacsuns-ceo-on-how-the-brand-cracked-its-gen-z-strategy/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-05-30",
+    "fetched_date": "2026-05-30",
+    "feed_name": "Modern Retail",
+    "source": "industry"
   }
 ]
