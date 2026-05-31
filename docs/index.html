@@ -312,7 +312,7 @@
       </select>
       <button class="starred-btn" id="toggle-starred" style="display:none;">&#9733; Starred (0)</button>
     </div>
-    <p class="stats" id="arxiv-stats">4671 papers &bull; last updated 2026-05-30 04:53 UTC</p>
+    <p class="stats" id="arxiv-stats">4671 papers &bull; last updated 2026-05-31 05:24 UTC</p>
     
   <section class="run-group">
     <h2 class="run-header">Week of 2026-05-30</h2>
@@ -103925,8 +103925,222 @@ or equivalently, up to universal constants, of order \[
       <option value="ml-engineering">ml-engineering</option>
       </select>
     </div>
-    <p class="stats" id="industry-stats">985 items &bull; last updated 2026-05-30 04:53 UTC</p>
+    <p class="stats" id="industry-stats">996 items &bull; last updated 2026-05-31 05:24 UTC</p>
     
+  <section class="run-group">
+    <h2 class="run-header">Week of 2026-05-31</h2>
+    
+    <article class="card industry-item" data-keyword="llm" data-url="https://simonwillison.net/2026/May/31/anthropic-run-rate/#atom-everything" data-type="industry" data-industry="1" data-source="industry">
+      <div class="card-meta">
+        <span class="date">2026-05-31</span>
+        <span class="keyword">llm</span>
+        <span class="feed-badge">Simon Willison</span>
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="https://simonwillison.net/2026/May/31/anthropic-run-rate/#atom-everything" target="_blank" rel="noopener">Quoting Karen Kwok for Reuters Breakingviews</a>
+      </h2>
+      <p class="abstract">Anthropic defines “run-rate revenue” in two parts. Use the last 28 days of sales ⁠from customers charged on a consumption basis and multiply it by 13. Then, multiply the monthly subscription take by 12, ​and add the two together. — Karen Kwok for Reuters Breakingviews , citing "a person familiar with the matter" Tags: anthropic , ai</p>
+      <div class="card-links">
+        <a href="https://simonwillison.net/2026/May/31/anthropic-run-rate/#atom-everything" target="_blank" rel="noopener">Read article &#8594;</a>
+      </div>
+    </article>
+    <article class="card industry-item" data-keyword="llm" data-url="https://simonwillison.net/2026/May/30/how-we-contain-claude/#atom-everything" data-type="industry" data-industry="1" data-source="industry">
+      <div class="card-meta">
+        <span class="date">2026-05-30</span>
+        <span class="keyword">llm</span>
+        <span class="feed-badge">Simon Willison</span>
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="https://simonwillison.net/2026/May/30/how-we-contain-claude/#atom-everything" target="_blank" rel="noopener">How we contain Claude across products</a>
+      </h2>
+      <p class="abstract">How we contain Claude across products A complaint I often have about sandboxing products is that they are rarely thoroughly documented , and in the absence of detailed documentation it's hard to know how much I can trust them. Anthropic just published a fantastic overview of how their various sandbox techniques work across Claude.ai , Claude Code, and Cowork. We constrain where and how an agent can act with process sandboxes, VMs, filesystem boundaries, and egress controls. The goal is to set a hard boundary on what an agent can reach. For example, if credentials never enter the sandbox, they can't be exfiltrated, regardless of whether the cause is a user, a model finding a “creative” path, or an attacker. Claude.ai uses gVisor. Claude Code, run locally, uses Seatbelt on macOS and Bubblewrap on Linux. Claude Cowork runs a full VM (Apple's Virtualization framework on macOS, HCS on Windows). There's a lot in here, including some interesting stories of risks they missed such as the api.anthropic.com/v1/files exfiltration vector covered here previously . This reminded me it's time I took another look at Anthropic's open source srt (Anthropic Sandbox Runtime) tool - it's mature enough know that I'm ready to give it a proper go. Tags: sandboxing , security , ai , generative-ai , llms , anthropic , claude , claude-code</p>
+      <div class="card-links">
+        <a href="https://simonwillison.net/2026/May/30/how-we-contain-claude/#atom-everything" target="_blank" rel="noopener">Read article &#8594;</a>
+      </div>
+    </article>
+    <article class="card industry-item" data-keyword="llm" data-url="https://simonwillison.net/2026/May/30/pyodide-asgi-browser/#atom-everything" data-type="industry" data-industry="1" data-source="industry">
+      <div class="card-meta">
+        <span class="date">2026-05-30</span>
+        <span class="keyword">llm</span>
+        <span class="feed-badge">Simon Willison</span>
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="https://simonwillison.net/2026/May/30/pyodide-asgi-browser/#atom-everything" target="_blank" rel="noopener">Running Python ASGI apps in the browser via Pyodide + a service worker</a>
+      </h2>
+      <p class="abstract">Research: Running Python ASGI apps in the browser via Pyodide + a service worker Datasette Lite is my version of Datasette that runs entirely in the browser using Pyodide in WebAssembly. When I first built it four years ago I used Web Workers and code that intercepts navigation operations and fetches the generated HTML by running the Python app. This worked, but had the disadvantage that any JavaScript in &lt;script&gt; tags would not be executed - breaking some Datasette functionality and a whole lot of Datasette plugins. This morning I set Claude Opus 4.8 the task (in Claude Code for web) of figuring out how to run Python ASGI apps in Pyodide using Service Workers instead, and it seems to work! Here's a basic ASGI FastCGI demo and here's a demo that runs Datasette 1.0a31 . I'm still getting my head around exactly how it works, but once I've done that I plan to upgrade Datasette Lite itself. Tags: javascript , python , datasette , asgi , service-workers , pyodide , datasette-lite , claude-code</p>
+      <div class="card-links">
+        <a href="https://simonwillison.net/2026/May/30/pyodide-asgi-browser/#atom-everything" target="_blank" rel="noopener">Read article &#8594;</a>
+      </div>
+    </article>
+    <article class="card industry-item" data-keyword="llm" data-url="https://simonwillison.net/2026/May/30/retiring-from-tech-to-live-offline/#atom-everything" data-type="industry" data-industry="1" data-source="industry">
+      <div class="card-meta">
+        <span class="date">2026-05-30</span>
+        <span class="keyword">llm</span>
+        <span class="feed-badge">Simon Willison</span>
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="https://simonwillison.net/2026/May/30/retiring-from-tech-to-live-offline/#atom-everything" target="_blank" rel="noopener">I Am Retiring from Tech to Live Offline</a>
+      </h2>
+      <p class="abstract">I Am Retiring from Tech to Live Offline I've seen a lot of posts on forums from people threatening to quit their careers over AI. This is not one of those: Chad Whitacre is taking concrete steps, starting with this typewritten, scanned letter I'm retiring from tech. Well, "retiring" is euphemistic. I'm stepping away from tech, and that includes Open Source. [...] AI was the last straw. Have you heard of that island off India where the indigenous population kills any outsiders fool-hardy enough to land? They are doing the rest of us a favor by preserving a way of life we may need again someday, or at the very least should not want to see completely extinguished. A reminder. Never forget your roots. Here in Pennsylvania we have the Amish performing a similar function. Significantly less hostile, though still set apart, they bear witness to what was normal for all of us a couple short centuries ago: horse and buggy, wood stoves and lanterns. My intent is to be AI Amish, which means Internet Amish. Not 1780, but 1980. Neo-Amish. I'm fine driving a car and flipping a lightswitch, by which I mean that they don't make me into something I hate, which AI and [struck through: social media] [handwritten above: doomscrolling] do. I'll admit that at first I wasn't entirely sure if this was serious. Then I found this earlier post by Chad from Feb 19 2026, Spitting Out the Agentic Kool-Aid : I figured I’d better taste the Kool-Aid in order to form an opinion, so I dove into Claude Code with Opus 4.5 on a side project. I spent three 12+ hour days with it. I was intoxicated. My family was weirded out. [...] It weirded me out too, when I unplugged for a long weekend. Something felt off. It was like I had another “person” in my head, sharing my inner monologue—but the “person” was a computer system owned by a budding megacorp. [...] I am now also committing myself to disembarking from the titantic of technological accelerationism. All efforts to address the problems of invasive technology are worthwhile, even those that are only partially effective. For my part, I have started trying to return more fully to a pre-screen, analog life. It's accompanied by a video version of the essay which I found touching and sincere. Chad has been trying to solve the open source sustainability problem for years - I talked with him about this at PyCon 2025 in Cleveland. That's a very tough nut to crack, and the disruption caused by AI looks to be making it even harder. I'm glad that the Open Source Endowment will continue without him. I'm very much going to miss his online voice. Via Hacker News Tags: open-source , ai , generative-ai , llms , chad-whitacre , ai-ethics , deep-blue</p>
+      <div class="card-links">
+        <a href="https://simonwillison.net/2026/May/30/retiring-from-tech-to-live-offline/#atom-everything" target="_blank" rel="noopener">Read article &#8594;</a>
+      </div>
+    </article>
+    <article class="card industry-item" data-keyword="llm" data-url="https://simonwillison.net/2026/May/30/daniel-jalkut/#atom-everything" data-type="industry" data-industry="1" data-source="industry">
+      <div class="card-meta">
+        <span class="date">2026-05-30</span>
+        <span class="keyword">llm</span>
+        <span class="feed-badge">Simon Willison</span>
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="https://simonwillison.net/2026/May/30/daniel-jalkut/#atom-everything" target="_blank" rel="noopener">Quoting Daniel Jalkut</a>
+      </h2>
+      <p class="abstract">My take on AI is, essentially, everybody who’s against it is too against it and everybody who’s for it is too for it. — Daniel Jalkut , via John Gruber Tags: ai , john-gruber</p>
+      <div class="card-links">
+        <a href="https://simonwillison.net/2026/May/30/daniel-jalkut/#atom-everything" target="_blank" rel="noopener">Read article &#8594;</a>
+      </div>
+    </article>
+    <article class="card industry-item" data-keyword="llm" data-url="https://www.thealgorithmicbridge.com/p/what-apple-knows-about-ai-that-silicon" data-type="industry" data-industry="1" data-source="industry">
+      <div class="card-meta">
+        <span class="date">2026-05-30</span>
+        <span class="keyword">llm</span>
+        <span class="feed-badge">The Algorithmic Bridge</span>
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="https://www.thealgorithmicbridge.com/p/what-apple-knows-about-ai-that-silicon" target="_blank" rel="noopener">What Apple Knows About AI That Silicon Valley Won't Admit</a>
+      </h2>
+      <p class="abstract">Apple looked at AI and said: this changes nothing</p>
+      <div class="card-links">
+        <a href="https://www.thealgorithmicbridge.com/p/what-apple-knows-about-ai-that-silicon" target="_blank" rel="noopener">Read article &#8594;</a>
+      </div>
+    </article>
+    <article class="card industry-item" data-keyword="llm" data-url="https://techcrunch.com/2026/05/30/softbank-says-it-will-invest-up-to-e75-billion-to-build-french-data-centers/" data-type="industry" data-industry="1" data-source="industry">
+      <div class="card-meta">
+        <span class="date">2026-05-30</span>
+        <span class="keyword">llm</span>
+        <span class="feed-badge">TechCrunch AI</span>
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="https://techcrunch.com/2026/05/30/softbank-says-it-will-invest-up-to-e75-billion-to-build-french-data-centers/" target="_blank" rel="noopener">SoftBank says it will invest up to €75 billion to build French data centers</a>
+      </h2>
+      <p class="abstract">The goal, the firm said, is to develop and operate up to 5 gigawatts of additional data center capacity.</p>
+      <div class="card-links">
+        <a href="https://techcrunch.com/2026/05/30/softbank-says-it-will-invest-up-to-e75-billion-to-build-french-data-centers/" target="_blank" rel="noopener">Read article &#8594;</a>
+      </div>
+    </article>
+    <article class="card industry-item" data-keyword="llm" data-url="https://techcrunch.com/2026/05/30/what-a-joke-github-copilots-new-token-based-billing-spurs-consternation-among-devs/" data-type="industry" data-industry="1" data-source="industry">
+      <div class="card-meta">
+        <span class="date">2026-05-30</span>
+        <span class="keyword">llm</span>
+        <span class="feed-badge">TechCrunch AI</span>
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="https://techcrunch.com/2026/05/30/what-a-joke-github-copilots-new-token-based-billing-spurs-consternation-among-devs/" target="_blank" rel="noopener">‘What a joke’: Github Copilot’s new token-based billing spurs consternation among devs</a>
+      </h2>
+      <p class="abstract">The golden age of Microsoft's Github Copilot appears to be at an end.</p>
+      <div class="card-links">
+        <a href="https://techcrunch.com/2026/05/30/what-a-joke-github-copilots-new-token-based-billing-spurs-consternation-among-devs/" target="_blank" rel="noopener">Read article &#8594;</a>
+      </div>
+    </article>
+    <article class="card industry-item" data-keyword="llm" data-url="https://techcrunch.com/2026/05/30/meta-is-reportedly-developing-an-ai-pendant/" data-type="industry" data-industry="1" data-source="industry">
+      <div class="card-meta">
+        <span class="date">2026-05-30</span>
+        <span class="keyword">llm</span>
+        <span class="feed-badge">TechCrunch AI</span>
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="https://techcrunch.com/2026/05/30/meta-is-reportedly-developing-an-ai-pendant/" target="_blank" rel="noopener">Meta is reportedly developing an AI pendant</a>
+      </h2>
+      <p class="abstract">Meta seems to be making big bets on AI-powered hardware.</p>
+      <div class="card-links">
+        <a href="https://techcrunch.com/2026/05/30/meta-is-reportedly-developing-an-ai-pendant/" target="_blank" rel="noopener">Read article &#8594;</a>
+      </div>
+    </article>
+    <article class="card industry-item" data-keyword="llm" data-url="https://techcrunch.com/2026/05/30/i-put-googles-24-7-ai-assistant-gemini-spark-to-work-and-its-actually-pretty-useful/" data-type="industry" data-industry="1" data-source="industry">
+      <div class="card-meta">
+        <span class="date">2026-05-30</span>
+        <span class="keyword">llm</span>
+        <span class="feed-badge">TechCrunch AI</span>
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="https://techcrunch.com/2026/05/30/i-put-googles-24-7-ai-assistant-gemini-spark-to-work-and-its-actually-pretty-useful/" target="_blank" rel="noopener">I put Google’s 24/7 AI assistant Gemini Spark to work, and it’s actually pretty useful</a>
+      </h2>
+      <p class="abstract">Gemini Spark helps automate everyday tasks, from inbox summaries to local event planning, but it’s unclear why Google made it a separate product.</p>
+      <div class="card-links">
+        <a href="https://techcrunch.com/2026/05/30/i-put-googles-24-7-ai-assistant-gemini-spark-to-work-and-its-actually-pretty-useful/" target="_blank" rel="noopener">Read article &#8594;</a>
+      </div>
+    </article>
+    <article class="card industry-item" data-keyword="llm" data-url="https://techcrunch.com/2026/05/30/as-the-browser-wars-heat-up-here-are-the-hottest-alternatives-to-chrome-and-safari-in-2026/" data-type="industry" data-industry="1" data-source="industry">
+      <div class="card-meta">
+        <span class="date">2026-05-30</span>
+        <span class="keyword">llm</span>
+        <span class="feed-badge">TechCrunch AI</span>
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="https://techcrunch.com/2026/05/30/as-the-browser-wars-heat-up-here-are-the-hottest-alternatives-to-chrome-and-safari-in-2026/" target="_blank" rel="noopener">As the browser wars heat up, here are the hottest alternatives to Chrome and Safari in 2026</a>
+      </h2>
+      <p class="abstract">We’ve compiled an overview of some of the top alternative browsers available today aiming to challenge Chrome and Safari.</p>
+      <div class="card-links">
+        <a href="https://techcrunch.com/2026/05/30/as-the-browser-wars-heat-up-here-are-the-hottest-alternatives-to-chrome-and-safari-in-2026/" target="_blank" rel="noopener">Read article &#8594;</a>
+      </div>
+    </article>
+  </section>
+
   <section class="run-group">
     <h2 class="run-header">Week of 2026-05-30</h2>
     
@@ -122832,8 +123046,127 @@ or equivalently, up to universal constants, of order \[
       <option value="startup">startup</option>
       </select>
     </div>
-    <p class="stats" id="startup-stats">390 items &bull; last updated 2026-05-30 04:53 UTC</p>
+    <p class="stats" id="startup-stats">396 items &bull; last updated 2026-05-31 05:24 UTC</p>
     
+  <section class="run-group">
+    <h2 class="run-header">Week of 2026-05-31</h2>
+    
+    <article class="card startup-item" data-keyword="startup" data-url="https://techcrunch.com/2026/05/30/softbank-says-it-will-invest-up-to-e75-billion-to-build-french-data-centers/" data-type="startup" data-source="startup">
+      <div class="card-meta">
+        <span class="date">2026-05-30</span>
+        <span class="keyword">startup</span>
+        <span class="feed-badge startup-badge">TechCrunch</span>
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="https://techcrunch.com/2026/05/30/softbank-says-it-will-invest-up-to-e75-billion-to-build-french-data-centers/" target="_blank" rel="noopener">SoftBank says it will invest up to €75 billion to build French data centers</a>
+      </h2>
+      <p class="abstract">The goal, the firm said, is to develop and operate up to 5 gigawatts of additional data center capacity.</p>
+      <div class="card-links">
+        <a href="https://techcrunch.com/2026/05/30/softbank-says-it-will-invest-up-to-e75-billion-to-build-french-data-centers/" target="_blank" rel="noopener">Read article &#8594;</a>
+      </div>
+    </article>
+    <article class="card startup-item" data-keyword="startup" data-url="https://techcrunch.com/2026/05/30/meta-is-reportedly-developing-an-ai-pendant/" data-type="startup" data-source="startup">
+      <div class="card-meta">
+        <span class="date">2026-05-30</span>
+        <span class="keyword">startup</span>
+        <span class="feed-badge startup-badge">TechCrunch</span>
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="https://techcrunch.com/2026/05/30/meta-is-reportedly-developing-an-ai-pendant/" target="_blank" rel="noopener">Meta is reportedly developing an AI pendant</a>
+      </h2>
+      <p class="abstract">Meta seems to be making big bets on AI-powered hardware.</p>
+      <div class="card-links">
+        <a href="https://techcrunch.com/2026/05/30/meta-is-reportedly-developing-an-ai-pendant/" target="_blank" rel="noopener">Read article &#8594;</a>
+      </div>
+    </article>
+    <article class="card startup-item" data-keyword="startup" data-url="https://techcrunch.com/2026/05/30/i-put-googles-24-7-ai-assistant-gemini-spark-to-work-and-its-actually-pretty-useful/" data-type="startup" data-source="startup">
+      <div class="card-meta">
+        <span class="date">2026-05-30</span>
+        <span class="keyword">startup</span>
+        <span class="feed-badge startup-badge">TechCrunch</span>
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="https://techcrunch.com/2026/05/30/i-put-googles-24-7-ai-assistant-gemini-spark-to-work-and-its-actually-pretty-useful/" target="_blank" rel="noopener">I put Google’s 24/7 AI assistant Gemini Spark to work, and it’s actually pretty useful</a>
+      </h2>
+      <p class="abstract">Gemini Spark helps automate everyday tasks, from inbox summaries to local event planning, but it’s unclear why Google made it a separate product.</p>
+      <div class="card-links">
+        <a href="https://techcrunch.com/2026/05/30/i-put-googles-24-7-ai-assistant-gemini-spark-to-work-and-its-actually-pretty-useful/" target="_blank" rel="noopener">Read article &#8594;</a>
+      </div>
+    </article>
+    <article class="card startup-item" data-keyword="startup" data-url="https://techcrunch.com/2026/05/30/the-groupthink-boom-what-three-top-vcs-really-think-about-the-ai-frenzy/" data-type="startup" data-source="startup">
+      <div class="card-meta">
+        <span class="date">2026-05-30</span>
+        <span class="keyword">startup</span>
+        <span class="feed-badge startup-badge">TechCrunch</span>
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="https://techcrunch.com/2026/05/30/the-groupthink-boom-what-three-top-vcs-really-think-about-the-ai-frenzy/" target="_blank" rel="noopener">The groupthink boom: what three top VCs really think about the AI frenzy</a>
+      </h2>
+      <p class="abstract">"If you're 22 years old in San Francisco and building something in AI, there may be a seed term sheet in your inbox — but if you're 19, oh my God, this means you're really good; you might already have a Series A [offer]," said one, half-kiddingly.</p>
+      <div class="card-links">
+        <a href="https://techcrunch.com/2026/05/30/the-groupthink-boom-what-three-top-vcs-really-think-about-the-ai-frenzy/" target="_blank" rel="noopener">Read article &#8594;</a>
+      </div>
+    </article>
+    <article class="card startup-item" data-keyword="startup" data-url="https://techcrunch.com/2026/05/30/as-the-browser-wars-heat-up-here-are-the-hottest-alternatives-to-chrome-and-safari-in-2026/" data-type="startup" data-source="startup">
+      <div class="card-meta">
+        <span class="date">2026-05-30</span>
+        <span class="keyword">startup</span>
+        <span class="feed-badge startup-badge">TechCrunch</span>
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="https://techcrunch.com/2026/05/30/as-the-browser-wars-heat-up-here-are-the-hottest-alternatives-to-chrome-and-safari-in-2026/" target="_blank" rel="noopener">As the browser wars heat up, here are the hottest alternatives to Chrome and Safari in 2026</a>
+      </h2>
+      <p class="abstract">We’ve compiled an overview of some of the top alternative browsers available today aiming to challenge Chrome and Safari.</p>
+      <div class="card-links">
+        <a href="https://techcrunch.com/2026/05/30/as-the-browser-wars-heat-up-here-are-the-hottest-alternatives-to-chrome-and-safari-in-2026/" target="_blank" rel="noopener">Read article &#8594;</a>
+      </div>
+    </article>
+    <article class="card startup-item" data-keyword="startup" data-url="https://techcrunch.com/2026/05/30/this-300-pizza-oven-can-easily-help-elevate-your-summer-pizza-nights/" data-type="startup" data-source="startup">
+      <div class="card-meta">
+        <span class="date">2026-05-30</span>
+        <span class="keyword">startup</span>
+        <span class="feed-badge startup-badge">TechCrunch</span>
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="https://techcrunch.com/2026/05/30/this-300-pizza-oven-can-easily-help-elevate-your-summer-pizza-nights/" target="_blank" rel="noopener">This $300 pizza oven can easily help elevate your summer pizza nights</a>
+      </h2>
+      <p class="abstract">The Ninja Artisan Outdoor Pizza Oven is aimed at people who want delicious pizza nights without having to deal with things like propane or wood pellets, unlike many other pizza ovens.</p>
+      <div class="card-links">
+        <a href="https://techcrunch.com/2026/05/30/this-300-pizza-oven-can-easily-help-elevate-your-summer-pizza-nights/" target="_blank" rel="noopener">Read article &#8594;</a>
+      </div>
+    </article>
+  </section>
+
   <section class="run-group">
     <h2 class="run-header">Week of 2026-05-30</h2>
     
@@ -130562,7 +130895,7 @@ or equivalently, up to universal constants, of order \[
         sec.classList.toggle('hidden', !sec.querySelector('.card:not(.hidden)')));
       const label = kw
         ? visible + ' paper' + (visible !== 1 ? 's' : '') + ' in “' + kw + '”'
-        : visible + ' papers • last updated 2026-05-30 04:53 UTC';
+        : visible + ' papers • last updated 2026-05-31 05:24 UTC';
       document.getElementById('arxiv-stats').textContent = label;
     }
 
@@ -130581,7 +130914,7 @@ or equivalently, up to universal constants, of order \[
       });
       document.querySelectorAll('#panel-industry .run-group').forEach(sec =>
         sec.classList.toggle('hidden', !sec.querySelector('.card:not(.hidden)')));
-      document.getElementById('industry-stats').textContent = visible + ' items • last updated 2026-05-30 04:53 UTC';
+      document.getElementById('industry-stats').textContent = visible + ' items • last updated 2026-05-31 05:24 UTC';
     }
 
     // Startup filter
@@ -130599,7 +130932,7 @@ or equivalently, up to universal constants, of order \[
       });
       document.querySelectorAll('#panel-startup .run-group').forEach(sec =>
         sec.classList.toggle('hidden', !sec.querySelector('.card:not(.hidden)')));
-      document.getElementById('startup-stats').textContent = visible + ' items • last updated 2026-05-30 04:53 UTC';
+      document.getElementById('startup-stats').textContent = visible + ' items • last updated 2026-05-31 05:24 UTC';
     }
 
     // Keyword override (arXiv panel only)
