@@ -9958,5 +9958,85 @@
     "fetched_date": "2026-05-31",
     "feed_name": "TechCrunch AI",
     "source": "industry"
+  },
+  {
+    "title": "Welcome NVIDIA Cosmos 3: The First Open Omni-model for Physical AI Reasoning and Action",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/nvidia/cosmos-3-for-physical-ai",
+    "topic": "llm",
+    "date": "2026-06-01",
+    "fetched_date": "2026-06-01",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "May 2026 newsletter",
+    "abstract": "I just sent out the May edition of my sponsors-only monthly newsletter . If you are a sponsor (or if you start a sponsorship now) you can access it here . This month: Al got expensive, and Anthropic had a really good month The model releases were a little disappointing Conferences and podcasts I launched Datasette Agent and made a lot of progress on Datasette What I'm using, May 2026 edition Miscellaneous extras Here's a copy of the April newsletter as a preview of what you'll get. Pay $10/month to stay a month ahead of the free copy! Tags: newsletter",
+    "url": "https://simonwillison.net/2026/Jun/1/may-newsletter/#atom-everything",
+    "topic": "llm",
+    "date": "2026-06-01",
+    "fetched_date": "2026-06-01",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "datasette 1.0a32",
+    "abstract": "Release: datasette 1.0a32 A minor bugfix release. Fixes a bug with INSERT ... RETURNING queries via the new /db/-/execute-write endpoint and a bunch of base_url issues which showed up when I was experimenting with Service Workers yesterday. Tags: datasette , annotated-release-notes",
+    "url": "https://simonwillison.net/2026/May/31/datasette/#atom-everything",
+    "topic": "llm",
+    "date": "2026-05-31",
+    "fetched_date": "2026-06-01",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "The solution might be cancelling my AI subscription",
+    "abstract": "The solution might be cancelling my AI subscription I find this post by David Wilson very relatable. David lists 16+ projects he's spun up with AI tooling, and concludes: I didn't mean to build most of these things. Usually the Claude session started with something like \" write a quick script for X \", and one hour later the result is not a quick script for X , nor in the usual case is my problem solved, whatever the original itch happened to be. On that last point, this technology is horrific for attention. It's a thermonuclear ADHD amplifier and I have seen the same effect in every single one of my adult friends. Folk running 3 screens simultaneously working on totally unrelated \"projects\" they have little hope of maintaining, and such little commitment to the outcome that the time is obviously wasted. This is a very real problem. I'm finding that coding agents can take me from a vague idea to a working solution, one with tests and documentation and that looks like a carefully considered project evolved over the course of many weeks... in less than an hour. Even if the code is rock solid, there's a limit to how many projects like that I can sensibly care for - and if they're instantly abandoned, what value was there from creating them in the first place? David doesn't think this is sustainable at all: I have no idea how to manage AI at present except by curtailing use, because a tool producing a cheap reward with minimal input and no friction can only be a liability, and achieving that realisation is probably the only real contribution of AI to date. I'm hopeful that the critical skill to develop here is discipline . That’s not great news for me: I’ve been trying to figure that one out for decades! Interestingly, the Hacker News thread has gathered a number of comments from people with ADHD who are finding agents help them achieve the focus they've been missing: \"... for me (also ADHD) it's kind of the opposite. I'm finishing side projects for the first time ever because I can actually get them working before I get bored of them\" \"As someone with ADHD I feel like AI is a salve for my mind. I used to listen to intense EDM while working. Now I sit in silence and talk to my agents. I maintain inbox zero. I absorb and comment across all relevant projects, even outside my team. I literally feel like I have a support team for the first time.\" \"For those of us prone to hyperfocus, working with AI can provide the kinds of stimulation we crave. I can hardly remember a time when I've felt more engaged with my work, more productive, and more badass.\" Via Hacker News Tags: productivity , ai , generative-ai , llms , coding-agents , ai-misuse",
+    "url": "https://simonwillison.net/2026/May/31/the-solution-might-be-cancelling-my-ai-subscription/#atom-everything",
+    "topic": "llm",
+    "date": "2026-05-31",
+    "fetched_date": "2026-06-01",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Erin Brockovich takes aim at data center secrecy",
+    "abstract": "Environmental activist Erin Brockovich has a new mission.",
+    "url": "https://techcrunch.com/2026/05/31/erin-brockovich-takes-aim-at-data-center-secrecy/",
+    "topic": "llm",
+    "date": "2026-05-31",
+    "fetched_date": "2026-06-01",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Making sense of the debate over AI psychosis",
+    "abstract": "On the latest episode of Equity, we debate whether tech CEOs are \"uniquely prone to AI psychosis.\"",
+    "url": "https://techcrunch.com/2026/05/31/making-sense-of-the-debate-over-ai-psychosis/",
+    "topic": "llm",
+    "date": "2026-05-31",
+    "fetched_date": "2026-06-01",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "‘How people are shopping today’: Why Shoe Palace is doing more multi-brand marketing campaigns",
+    "abstract": "Shoe Palace is featuring brands like Nike, On and New Balance in united campaigns to better \"reflect how people are shopping today,\" executives say.",
+    "url": "https://www.modernretail.co/marketing/how-people-are-shopping-today-why-shoe-palace-is-doing-more-multi-brand-marketing-campaigns/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-06-01",
+    "fetched_date": "2026-06-01",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Quince is testing physical retail with pop-ups",
+    "abstract": "Quince is embarking on a series of physical pop-ups this year. The latest in-person event took place over the weekend in Los Angeles, highlighting the brand's growing homeware collection.",
+    "url": "https://www.modernretail.co/marketing/quince-is-testing-physical-retail-with-pop-ups/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-06-01",
+    "fetched_date": "2026-06-01",
+    "feed_name": "Modern Retail",
+    "source": "industry"
   }
 ]
