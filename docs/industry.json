@@ -10238,5 +10238,275 @@
     "fetched_date": "2026-06-02",
     "feed_name": "Modern Retail",
     "source": "industry"
+  },
+  {
+    "title": "Travelers deploys AI-powered claims countrywide with OpenAI",
+    "abstract": "Travelers built an AI-powered Claim Assistant with OpenAI to guide customers through filing claims, provide 24/7 support, and scale operations during peak demand.",
+    "url": "https://openai.com/index/travelers",
+    "topic": "llm",
+    "date": "2026-06-02",
+    "fetched_date": "2026-06-03",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Codex for every role, tool, and workflow",
+    "abstract": "Discover new Codex plugins, sites, and annotations that help analysts, marketers, designers, investors, and other teams get more done with AI.",
+    "url": "https://openai.com/index/codex-for-every-role-tool-workflow",
+    "topic": "llm",
+    "date": "2026-06-02",
+    "fetched_date": "2026-06-03",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Advancing youth safety and opportunity through global leadership",
+    "abstract": "OpenAI calls for global action on youth AI safety, proposing an international institute to strengthen safeguards, standards, and opportunities for young people.",
+    "url": "https://openai.com/index/advancing-youth-safety-and-opportunity-through-global-leadership",
+    "topic": "llm",
+    "date": "2026-06-02",
+    "fetched_date": "2026-06-03",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Codex is becoming a productivity tool for everyone",
+    "abstract": "The Next Era of Knowledge Work report explores how Codex is transforming productivity through AI-powered research, data analysis, workflow automation, and content creation.",
+    "url": "https://openai.com/index/codex-for-knowledge-work",
+    "topic": "llm",
+    "date": "2026-06-02",
+    "fetched_date": "2026-06-03",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Holo3.1: Fast & Local Computer Use Agents",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/Hcompany/holo31",
+    "topic": "llm",
+    "date": "2026-06-02",
+    "fetched_date": "2026-06-03",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "When history fails you, borrow from geography",
+    "abstract": "",
+    "url": "https://medium.com/airbnb-engineering/when-history-fails-you-borrow-from-geography-915a72b91b5c?source=rss----53c7c27702d5---4",
+    "topic": "ml-engineering",
+    "date": "2026-06-02",
+    "fetched_date": "2026-06-03",
+    "feed_name": "Airbnb Engineering",
+    "source": "industry"
+  },
+  {
+    "title": "Microsoft's new MAI models",
+    "abstract": "Microsoft announced two new text LLMs this morning - MAI-Thinking-1 (reasoning, 1T parameters, 35B active, available to \"select early partners\") and MAI-Code-1-Flash (137B Parameters, 5B active, \"purpose-built for GitHub Copilot and VS Code to deliver high performance and lower cost [...] rolling out to GitHub Copilot individual users in Visual Studio Code\"). I've not been able to try either of them just yet. It's very interesting to see Microsoft releasing models with such low parameter counts, especially given how expensive larger models are to access right now. They claim MAI-Thinking-1 \"is preferred to Sonnet 4.6 in our blind human side-by-side evaluations\", which is impressive for a 35B model seeing as I frequently run models larger than that on my own laptop. (UPDATE: I got this entirely wrong, see note below.) Also of note : We trained [MAI-Thinking-1] from the ground up on enterprise grade, clean and commercially licensed data, without distillation from third-party models. And for MAI-Code-1-Flash as well: It is built end-to-end by Microsoft using clean and appropriately licensed data. I would very much like to learn more about this \"appropriately licensed\" data! Could these be the first generally useful code-specialist models that didn't train on an unlicensed dump of the web? ( Update : the answer is no, see note below.) Update : My initial published notes got the size of the models wrong. I misread Microsoft's announcements and interpreted the MoE active parameter count as the total parameter count, but the model card for MAI-Code-1-Flash lists it as 137B with 5B active and the MAI-Thinking-1 technical paper reveals it to be a 1T model with 35B active. I deeply regret this error. Update 2 : That technical paper describes the training data in some detail from page 80 onwards. It has the same licensing problems as all of the other major LLMs: it's trained on a crawl of the public web: The majority of our web HTML corpus comes from a proprietary crawl. After initial page discovery and selection, approximately 1.2 trillion pages are crawled and parsed. [...] In addition to Microsoft standard policy Sec. 2.4, we apply UT1 block list (Prigent, 2026) to remove adult content and piracy-related domains. In all, this filtering reduces the corpus from 1.2 trillion pages to 794 billion pages. Given the prevalence of AI-generated content on the web, we also score pages with a proprietary AI-content detection model and use manual inspection to identify domains with extensive AI-generated content; those domains are filtered out of the training corpus. [...] We process Common Crawl with the same pipeline. [...] After filtering, deduplication, merging with the proprietary web corpus, and a final round of exact-URL and content-level fuzzy deduplication, the Common Crawl portion contains 24.2 billion pages. I did not cover this one at all well, which is somewhat ironic since I was at the Microsoft Build conference when I wrote this up! I'm sorry for not digging deeper before publishing my initial notes. Tags: llm-release , generative-ai , ai , microsoft , llms , training-data",
+    "url": "https://simonwillison.net/2026/Jun/2/microsofts-new-models/#atom-everything",
+    "topic": "llm",
+    "date": "2026-06-02",
+    "fetched_date": "2026-06-03",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "datasette-agent-micropython 0.1a0",
+    "abstract": "Release: datasette-agent-micropython 0.1a0 I want Datasette Agent to be able to generate and execute Python code safely. This alpha is looking promising so far. GPT-5.5 has so far failed to break out of the sandbox! Tags: python , sandboxing , datasette , webassembly , datasette-agent",
+    "url": "https://simonwillison.net/2026/Jun/2/datasette-agent-micropython/#atom-everything",
+    "topic": "llm",
+    "date": "2026-06-02",
+    "fetched_date": "2026-06-03",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "micropython-wasm 0.1a1",
+    "abstract": "Release: micropython-wasm 0.1a1 Fixes for some limitations that emerged while I was trying to use this to build datasette-agent-micropython . Tags: python , sandboxing , webassembly",
+    "url": "https://simonwillison.net/2026/Jun/2/micropython-wasm/#atom-everything",
+    "topic": "llm",
+    "date": "2026-06-02",
+    "fetched_date": "2026-06-03",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "California Brown Pelican",
+    "abstract": "California Brown Pelican, in Fort Mason, CA, US I'm at the Microsoft Build conference today, held at Fort Mason in San Francisco. There are California Brown Pelicans diving into the water directly behind venue! Tags: microsoft , ai , generative-ai , llms , llm-release",
+    "url": "https://simonwillison.net/2026/Jun/2/sighting-367841339/#atom-everything",
+    "topic": "llm",
+    "date": "2026-06-02",
+    "fetched_date": "2026-06-03",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Cyera eyes $12B valuation at 80x ARR multiple despite operating losses",
+    "abstract": "The cybersecurity company is nearing a $300 million round led by Evolution Equity Partners.",
+    "url": "https://techcrunch.com/2026/06/02/cyera-eyes-12b-valuation-at-80x-arr-multiple-despite-operating-losses/",
+    "topic": "llm",
+    "date": "2026-06-02",
+    "fetched_date": "2026-06-03",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Uber caps employee AI spending after blowing through budget in 4 months",
+    "abstract": "Uber's cutback has occurred after the company had reportedly encouraged staff to use AI as much as possible.",
+    "url": "https://techcrunch.com/2026/06/02/uber-caps-employee-ai-spending-after-blowing-through-budget-in-four-months/",
+    "topic": "llm",
+    "date": "2026-06-02",
+    "fetched_date": "2026-06-03",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "New Microsoft tool lets devs spin up AI behavior tests using text descriptions",
+    "abstract": "Microsoft on Tuesday took the wraps off Adaptive Spec-driven Scoring for Evaluation and Regression Testing, an open source framework for spinning up AI evaluations.",
+    "url": "https://techcrunch.com/2026/06/02/new-microsoft-tool-lets-devs-spin-up-ai-behavior-tests-using-text-descriptions/",
+    "topic": "llm",
+    "date": "2026-06-02",
+    "fetched_date": "2026-06-03",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Martin Scorsese becomes the latest — and most unlikely — Hollywood voice for AI",
+    "abstract": "The caveat is that one of the world's most famous living directors is using the tech solely for storyboarding.",
+    "url": "https://techcrunch.com/2026/06/02/martin-scorsese-becomes-the-latest-and-most-unlikely-hollywood-voice-for-ai/",
+    "topic": "llm",
+    "date": "2026-06-02",
+    "fetched_date": "2026-06-03",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Microsoft launches Scout, an OpenClaw-inspired personal assistant",
+    "abstract": "Launched at Build, Microsoft Scout is a new AI assistant meant to bring the power and flexibility of OpenClaw into the Microsoft 365 system.",
+    "url": "https://techcrunch.com/2026/06/02/microsoft-launches-scout-an-openclaw-inspired-personal-assistant/",
+    "topic": "llm",
+    "date": "2026-06-02",
+    "fetched_date": "2026-06-03",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Google rolls out fake call detection to protect against AI deepfake impersonation scams",
+    "abstract": "As people increasingly refuse to answer calls from unknown numbers, scammers are shifting their tactics by spoofing trusted phone numbers and using AI deepfake technology to sound like authority figures, family members, or employers.",
+    "url": "https://techcrunch.com/2026/06/02/google-rolls-out-fake-call-detection-to-protect-against-ai-deepfake-impersonation-scams/",
+    "topic": "llm",
+    "date": "2026-06-02",
+    "fetched_date": "2026-06-03",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Microsoft offers devs a better way to control AI agent behavior",
+    "abstract": "The specification lets developer, compliance, and security teams define their own policies for agents to follow in portable policy files.",
+    "url": "https://techcrunch.com/2026/06/02/microsoft-offers-devs-a-better-way-to-control-ai-agent-behavior/",
+    "topic": "llm",
+    "date": "2026-06-02",
+    "fetched_date": "2026-06-03",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Amazon faces class action lawsuit over Ring facial-recognition feature",
+    "abstract": "The class action lawsuit, filed in Seattle by Virginia resident Charles Sigwalt, claims that Ring's Familiar Faces feature stores images of passersby without consent.",
+    "url": "https://techcrunch.com/2026/06/02/amazon-faces-class-action-lawsuit-over-ring-facial-recognition-feature/",
+    "topic": "llm",
+    "date": "2026-06-02",
+    "fetched_date": "2026-06-03",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Trump signs narrower executive order on AI oversight after industry objections",
+    "abstract": "After industry objections, President Trump signed a revised AI executive order requiring only voluntary prerelease government reviews of advanced models.",
+    "url": "https://techcrunch.com/2026/06/02/trump-signs-narrower-executive-order-on-ai-oversight-after-industry-objections/",
+    "topic": "llm",
+    "date": "2026-06-02",
+    "fetched_date": "2026-06-03",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "OpenAI launches new Codex tools for white-collar work",
+    "abstract": "OpenAI released a set of six plug-ins aimed at specific jobs: data analytics, creative production, sales, product design, equity investing, and investment banking. Available from within the Codex app, each of the new tools bundles integrations, instructions, and context to allow Codex to approximate a specific job.",
+    "url": "https://techcrunch.com/2026/06/02/openai-launches-new-codex-tools-for-white-collar-work/",
+    "topic": "llm",
+    "date": "2026-06-02",
+    "fetched_date": "2026-06-03",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Anthropic scales Claude Mythos  to critical infrastructure in 15+ countries",
+    "abstract": "Anthropic is expanding Project Glasswing, its security vulnerability program, and access to Mythos to 150 organizations across 15 countries — targeting critical infrastructure in power, water, healthcare, and communications where a cyberattack could affect 100 million people.",
+    "url": "https://techcrunch.com/2026/06/02/anthropic-scales-claude-mythos-to-critical-infrastructure-in-15-countries/",
+    "topic": "llm",
+    "date": "2026-06-02",
+    "fetched_date": "2026-06-03",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "ZeroDrift raises $10M to protect AI models from themselves",
+    "abstract": "A new AI compliance service sits between AI models and end users to flag and replace any messages that might present a compliance problem.",
+    "url": "https://techcrunch.com/2026/06/02/zerodrift-raises-10-million-to-protect-ai-models-from-themselves/",
+    "topic": "llm",
+    "date": "2026-06-02",
+    "fetched_date": "2026-06-03",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Rocket engine startup Impulse raises $500 million to hire people, not AI",
+    "abstract": "Engineering physical systems still depends on human talent, according to Impulse Space president Eric Romo.",
+    "url": "https://techcrunch.com/2026/06/02/rocket-engine-startup-impulse-raises-500-million-to-hire-people-not-ai/",
+    "topic": "llm",
+    "date": "2026-06-02",
+    "fetched_date": "2026-06-03",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "How The Cycle convinced Sprouts to find a place for its menstrual cycle-synced drinks in stores",
+    "abstract": "The Cycle believes its menstrual cycle-synced drinks are poised for explosive retail growth. But first, it has to convince buyers to carry its products -- and, where to put them in stores.",
+    "url": "https://www.modernretail.co/operations/how-the-cycle-convinced-sprouts-to-find-a-place-for-its-menstrual-cycle-synced-drinks-in-stores/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-06-03",
+    "fetched_date": "2026-06-03",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "ThredUp bets wedding guest outfits can drive secondhand growth",
+    "abstract": "With a new landing page and AI tool, ThredUp is working to become a go-to destination for wedding guest outfits.",
+    "url": "https://www.modernretail.co/marketing/thredup-bets-wedding-guest-outfits-can-drive-secondhand-growth/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-06-03",
+    "fetched_date": "2026-06-03",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Brands Briefing: Stanley 1913’s next era focuses on storage, international growth and sports",
+    "abstract": "Stanley 1913's Quencher tumbler became the \"it\" product of the early 2020s. Now, the company wants to prove it's more than a viral water bottle, through various expansions.",
+    "url": "https://www.modernretail.co/operations/brands-briefing-stanley-1913s-next-era-focuses-on-storage-international-growth-and-sports/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-06-02",
+    "fetched_date": "2026-06-03",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Apparel brand Dad Gang teams up with Shopify on limited-edition hat drop as sales top $35 million",
+    "abstract": "Four years ago, three friends spent $750 to launch a dad-focused hat brand. Now, Dad Gang does $35 million in sales and just landed a collab with Shopify.",
+    "url": "https://www.modernretail.co/marketing/apparel-brand-dad-gang-teams-up-with-shopify-on-limited-edition-hat-drop-as-sales-top-35-million/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-06-02",
+    "fetched_date": "2026-06-03",
+    "feed_name": "Modern Retail",
+    "source": "industry"
   }
 ]
