@@ -10508,5 +10508,185 @@
     "fetched_date": "2026-06-03",
     "feed_name": "Modern Retail",
     "source": "industry"
+  },
+  {
+    "title": "Introducing new capabilities to GPT-Rosalind",
+    "abstract": "GPT-Rosalind advances life sciences research with enhanced biological reasoning, medicinal chemistry expertise, genomics analysis, and experimental workflow capabilities.",
+    "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind",
+    "topic": "llm",
+    "date": "2026-06-03",
+    "fetched_date": "2026-06-04",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "How Wasmer used Codex to build a Node.js runtime for the edge",
+    "abstract": "See how Wasmer used Codex with GPT-5.5 to build a Node.js runtime for the edge, accelerating development 10x to 20x and shipping in weeks instead of months.",
+    "url": "https://openai.com/index/wasmer",
+    "topic": "llm",
+    "date": "2026-06-03",
+    "fetched_date": "2026-06-04",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "A blueprint for democratic governance of frontier AI",
+    "abstract": "OpenAI outlines a blueprint for U.S. governance of frontier AI, proposing a federal framework for safety, resilience, and national security.",
+    "url": "https://openai.com/index/frontier-safety-blueprint",
+    "topic": "llm",
+    "date": "2026-06-03",
+    "fetched_date": "2026-06-04",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "OpenAI public policy agenda",
+    "abstract": "OpenAI outlines its public policy agenda for AI, including safety, youth protection, workforce transition, and global standards to ensure AI benefits society.",
+    "url": "https://openai.com/index/public-policy-agenda",
+    "topic": "llm",
+    "date": "2026-06-03",
+    "fetched_date": "2026-06-04",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Direct Preference Optimization Beyond Chatbots",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/Dharma-AI/direct-preference-optimization-beyond-chatbots",
+    "topic": "llm",
+    "date": "2026-06-03",
+    "fetched_date": "2026-06-04",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Adding MCP Tools to Reachy Mini",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/adding-mcp-tools-to-reachy-mini",
+    "topic": "llm",
+    "date": "2026-06-03",
+    "fetched_date": "2026-06-04",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Uber Caps Usage of AI Tools Like Claude Code to Manage Costs",
+    "abstract": "Uber Caps Usage of AI Tools Like Claude Code to Manage Costs I wrote the other day about Uber blowing its 2026 AI budget in four months, and how that wasn't particularly surprising given they would have set that budget in 2025, before anyone could have predicted how popular token-burning coding agents were about to become. Natalie Lung for Bloomberg: The rideshare giant is limiting all employees to $1,500 in monthly token spending per AI coding tool, an Uber spokesperson said in response to a Bloomberg News inquiry. That means spending on one tool doesn’t have a bearing on the budget for another. The limits, which have been instituted in recent months, only apply to agentic coding software such as Cursor or Anthropic PBC’s Claude Code. A $1,500 monthly limit per tool strikes me as a rational policy response to over-spending, and much more sensible than those tokenmaxxing leaderboards encouraging employees to compete for as much AI usage as possible. It's also interesting in that it hints at a real dollar value for what Uber is getting out of these tools. If we assume two actively used tools per engineer that's $3,000 * 12 = $36,000 cap per engineer per year. Levels.fyi lists the median yearly compensation package for Uber software engineers in the USA at $330,000. That means each employee's AI spending cap is ~11% of that median compensation package. I noted that my own token usage comes to about $1,000/month against each of Anthropic and OpenAI - which currently costs me just $100 per provider thanks to their generous subsidized plans for individual subscribers. Those plans are no longer available to larger companies like Uber. Their new policy means if I were working at Uber I'd still have ~$500/month of tokens to spare for each of those tools, given my current usage patterns. Tags: ai , generative-ai , llms , llm-pricing , coding-agents , uber",
+    "url": "https://simonwillison.net/2026/Jun/3/uber-caps-usage/#atom-everything",
+    "topic": "llm",
+    "date": "2026-06-03",
+    "fetched_date": "2026-06-04",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Lovable signs multiyear deal with Google Cloud to up usage 5x, source says",
+    "abstract": "Lovable and Google signed an expanded multiyear deal that involves a 5x expansion of Lovable's footprint on Google Cloud, and expanded access to Anthropic Claude.",
+    "url": "https://techcrunch.com/2026/06/03/lovable-signs-multi-year-deal-with-google-cloud-to-up-usage-5x-source-says/",
+    "topic": "llm",
+    "date": "2026-06-03",
+    "fetched_date": "2026-06-04",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Alphabet’s record-breaking $85B raise for Google’s AI business is a helluva good signal",
+    "abstract": "If Alphabet's record-breaking $85 billion stock sale signals investor appetite for AI-related offerings, we can see that investors are ready to chow.",
+    "url": "https://techcrunch.com/2026/06/03/alphabets-record-breaking-85b-raise-for-googles-ai-business-is-a-helluva-good-signal/",
+    "topic": "llm",
+    "date": "2026-06-03",
+    "fetched_date": "2026-06-04",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Google’s Dreambeans, its weirdest-named AI tool to date, will turn your life into a cartoon",
+    "abstract": "Dreambeans is a curated list of AI-illustrated \"stories\" culled from the personal data in your Google account.",
+    "url": "https://techcrunch.com/2026/06/03/googles-dreambeans-its-weirdest-named-ai-tool-to-date-will-turn-your-life-into-a-cartoon/",
+    "topic": "llm",
+    "date": "2026-06-03",
+    "fetched_date": "2026-06-04",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Amazon will show AI product images when you search for some reason",
+    "abstract": "Amazon will use visual search and AI to show AI-generated product images that match your search queries. The retailer says it will help guide users to products.",
+    "url": "https://techcrunch.com/2026/06/03/amazon-will-show-ai-product-images-when-you-search-for-some-reason/",
+    "topic": "llm",
+    "date": "2026-06-03",
+    "fetched_date": "2026-06-04",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "These two founders left Goldman and Meta to build voice AI for markets everyone else overlooked",
+    "abstract": "The startup's own stack for Africa and Middle East is now handling more than 17,000 calls per day.",
+    "url": "https://techcrunch.com/2026/06/03/these-two-founders-left-goldman-and-meta-to-build-voice-ai-for-markets-everyone-else-overlooked/",
+    "topic": "llm",
+    "date": "2026-06-03",
+    "fetched_date": "2026-06-04",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Publishers will be able to opt out of AI Search, thanks to new regulation",
+    "abstract": "U.K. regulators are requiring Google offer a tool allowing website publishers to opt-out of generative AI search features. The option will be tested in the U.K. then rolled out globally.",
+    "url": "https://techcrunch.com/2026/06/03/publishers-will-be-able-to-opt-out-of-ai-search-thanks-to-new-regulation/",
+    "topic": "llm",
+    "date": "2026-06-03",
+    "fetched_date": "2026-06-04",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Meta’s AI agent for WhatsApp Business is now available globally",
+    "abstract": "WhatsApp will charge businesses for using its AI agent based on token usage.",
+    "url": "https://techcrunch.com/2026/06/03/metas-ai-agent-for-whatsapp-business-is-now-available-globally/",
+    "topic": "llm",
+    "date": "2026-06-03",
+    "fetched_date": "2026-06-04",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Coralogix raises $200M on bet that someone needs to watch the AI agents",
+    "abstract": "Coralogix is among a growing number of infrastructure firms betting that as AI systems move into production, demand will rise for tools that can monitor their behavior, troubleshoot failures, and provide the operational data needed to keep them running reliably.",
+    "url": "https://techcrunch.com/2026/06/03/coralogix-raises-200m-in-race-to-build-the-monitoring-layer-for-ai-agents/",
+    "topic": "llm",
+    "date": "2026-06-03",
+    "fetched_date": "2026-06-04",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "From Manual Audits to Intelligent Certification",
+    "abstract": "As data platforms grow, governance rarely keeps pace. TrustTier is an AI-powered data tier governance agent that automates how datasets are verified, reviewed, and audited — turning manual, fragmented reviews into a single guided workflow. The post From Manual Audits to Intelligent Certification appeared first on GoDaddy Blog .",
+    "url": "https://www.godaddy.com/resources/news/from-manual-audits-to-intelligent-certification",
+    "topic": "ml-engineering",
+    "date": "2026-06-03",
+    "fetched_date": "2026-06-04",
+    "feed_name": "GoDaddy Engineering",
+    "source": "industry"
+  },
+  {
+    "title": "Google’s Universal Cart will soon be available to Walmart, Target shoppers — getting their buy-in may be the hard part",
+    "abstract": "Google wants to build the go-to AI-powered shopping cart of the future. But whether shoppers will latch onto it is another question.",
+    "url": "https://www.modernretail.co/technology/google-attracts-retailers-like-walmart-target-to-universal-cart-getting-shoppers-will-be-the-harder-part/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-06-04",
+    "fetched_date": "2026-06-04",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Inside Chewy’s push to build a pet-focused retail media network",
+    "abstract": "Chewy says its retail media network has doubled the number of campaigns and advertisers on the platform year-over-year. Here's how it has sought to stand out from other retail media networks in the space.",
+    "url": "https://www.modernretail.co/marketing/inside-chewys-push-to-build-a-pet-focused-retail-media-network/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-06-04",
+    "fetched_date": "2026-06-04",
+    "feed_name": "Modern Retail",
+    "source": "industry"
   }
 ]
