@@ -10688,5 +10688,235 @@
     "fetched_date": "2026-06-04",
     "feed_name": "Modern Retail",
     "source": "industry"
+  },
+  {
+    "title": "How Endava is redesigning software delivery around AI agents",
+    "abstract": "Learn how Endava is using AI agents, ChatGPT Enterprise, and Codex to accelerate software delivery, automate workflows, and build an AI-native culture across the enterprise.",
+    "url": "https://openai.com/index/endava-frontiers",
+    "topic": "llm",
+    "date": "2026-06-04",
+    "fetched_date": "2026-06-05",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Dreaming: Better memory for a more helpful ChatGPT",
+    "abstract": "ChatGPT introduces a new memory system to better remember preferences, keeping context fresh and relevant across conversations.",
+    "url": "https://openai.com/index/chatgpt-memory-dreaming",
+    "topic": "llm",
+    "date": "2026-06-04",
+    "fetched_date": "2026-06-05",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Biodefense in the Intelligence Age",
+    "abstract": "An action plan for AI-powered biological resilience",
+    "url": "https://openai.com/index/biodefense-in-the-intelligence-age",
+    "topic": "llm",
+    "date": "2026-06-04",
+    "fetched_date": "2026-06-05",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Nemotron 3.5 Content Safety: Customizable Multimodal Safety for Global Enterprise AI",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/nvidia/nemotron-3-5-content-safety",
+    "topic": "llm",
+    "date": "2026-06-04",
+    "fetched_date": "2026-06-05",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "EVA-Bench Data 2.0: 3 Domains, 121 Tools, 213 Scenarios",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/ServiceNow-AI/eva-bench-data",
+    "topic": "llm",
+    "date": "2026-06-04",
+    "fetched_date": "2026-06-05",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Designing the hf CLI as an agent-optimized way to work with the Hub",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/hf-cli-for-agents",
+    "topic": "llm",
+    "date": "2026-06-04",
+    "fetched_date": "2026-06-05",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Sitar-agent: Building a reliable dynamic configuration sidecar at scale",
+    "abstract": "",
+    "url": "https://medium.com/airbnb-engineering/sitar-agent-building-a-reliable-dynamic-configuration-sidecar-at-scale-b7e00c152068?source=rss----53c7c27702d5---4",
+    "topic": "ml-engineering",
+    "date": "2026-06-04",
+    "fetched_date": "2026-06-05",
+    "feed_name": "Airbnb Engineering",
+    "source": "industry"
+  },
+  {
+    "title": "AI enthusiasts are in a race against time, AI skeptics are in a race against entropy",
+    "abstract": "AI enthusiasts are in a race against time, AI skeptics are in a race against entropy Charity Majors neatly captures the dynamic between AI enthusiasts and AI skeptics, both of whom are trying to build great software, often in the same teams: The enthusiasts are not wrong . We are starting to see real, non-imaginary, discontinuous leaps in capabilities from teams that lean in hard to working with AI. And this does not feel like a normal technology cycle where you can wait for the dust to settle; teams that sit this out while competitors are hustling could be out of business before the dust settles. That’s a real, existential threat. The skeptics are also not wrong . When you ship code faster than engineers can read it, in domains where nobody has full context, you are making withdrawals from a trust account that took years to build. Reliability degrades, institutional knowledge evaporates. You end up with systems nobody understands, products burbling into incoherence, and on-call rotations that grind people up and spit them out. That is ALSO a real existential threat. Charity recommends treating this as both a leadership challenge and an engineering challenge. The key issue: There is no natural feedback loop connecting enthusiasts with skeptics. Designing feedback loops to help \"mend the gap in shared reality\" between the two groups is a fascinating organizational design problem. Via Lobste.rs Tags: ai , charity-majors , agentic-engineering",
+    "url": "https://simonwillison.net/2026/Jun/4/ai-enthusiasts-ai-skeptics/#atom-everything",
+    "topic": "llm",
+    "date": "2026-06-04",
+    "fetched_date": "2026-06-05",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Quoting Emanuel Maiberg, 404 Media",
+    "abstract": "After this story was published Google's spokesperson reached out and asked us to publish a slightly different version of that statement. The new statement no longer stated that \"it's critical that we maintain humans in the loop.\" — Emanuel Maiberg, 404 Media , Google Employees Internally Share Memes About How Its AI Sucks Tags: ai-ethics , journalism , ai , google",
+    "url": "https://simonwillison.net/2026/Jun/4/a-slightly-different-version/#atom-everything",
+    "topic": "llm",
+    "date": "2026-06-04",
+    "fetched_date": "2026-06-05",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "The AI Industry Is Running Out of Time",
+    "abstract": "Why the sudden rush, guys?",
+    "url": "https://www.thealgorithmicbridge.com/p/the-ai-industry-is-running-out-of",
+    "topic": "llm",
+    "date": "2026-06-04",
+    "fetched_date": "2026-06-05",
+    "feed_name": "The Algorithmic Bridge",
+    "source": "industry"
+  },
+  {
+    "title": "Mira Murati steps back into the spotlight, carefully",
+    "abstract": "In the current environment, remaining heads down has diminishing returns; at some point, you have to make some noise just to remind the market you exist.",
+    "url": "https://techcrunch.com/2026/06/04/mira-murati-steps-back-into-the-spotlight-carefully/",
+    "topic": "llm",
+    "date": "2026-06-05",
+    "fetched_date": "2026-06-05",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Ahead of its IPO, Anthropic’s Daniela Amodei shrugs off doubts about AI’s returns",
+    "abstract": "Anthropic has been growing at a breakneck pace. The company announced that annualized revenue crossed $47 billion in May, up dramatically from roughly $9 billion at the end of 2025. That trajectory faces a real test, though.",
+    "url": "https://techcrunch.com/2026/06/04/ahead-of-its-ipo-anthropics-daniela-amodei-shrugs-off-doubts-about-ais-returns/",
+    "topic": "llm",
+    "date": "2026-06-04",
+    "fetched_date": "2026-06-05",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Airbnb’s Brian Chesky plans to launch a new AI lab",
+    "abstract": "The Airbnb CEO said last year it hasn't struck an LLM partnership because existing products weren't quite ready.",
+    "url": "https://techcrunch.com/2026/06/04/airbnbs-brian-chesky-plans-to-launch-a-new-ai-lab/",
+    "topic": "llm",
+    "date": "2026-06-04",
+    "fetched_date": "2026-06-05",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Defense tech, AI, and fundraising take center stage at StrictlyVC Los Angeles on June 18",
+    "abstract": "On Thursday, June 18, at The Aerospace Corporation Campus, investors, founders, and tech leaders will gather for an evening of conversation exploring some of the most consequential shifts taking place across venture capital, defense technology, artificial intelligence, and advanced industry. Secure your spot today.",
+    "url": "https://techcrunch.com/2026/06/04/defense-tech-ai-and-fundraising-take-center-stage-at-strictlyvc-los-angeles-on-june-18/",
+    "topic": "llm",
+    "date": "2026-06-04",
+    "fetched_date": "2026-06-05",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Meta steals a tactic from Tesla and builds data centers in tents",
+    "abstract": "Meta may have found one way to slash its massive data center bill: tents.",
+    "url": "https://techcrunch.com/2026/06/04/meta-steals-a-tactic-from-tesla-and-builds-data-centers-in-tents/",
+    "topic": "llm",
+    "date": "2026-06-04",
+    "fetched_date": "2026-06-05",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Apple approves Poke as the first AI agent on its Messages for Business platform",
+    "abstract": "Poke, the startup that lets people use AI agents through simple text messages, has become the first AI agent approved for Apple’s Messages for Business platform.",
+    "url": "https://techcrunch.com/2026/06/04/apple-approves-poke-as-the-first-ai-agent-on-its-messages-for-business-platform/",
+    "topic": "llm",
+    "date": "2026-06-04",
+    "fetched_date": "2026-06-05",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Meta rolls out a new AI creator assistant on Facebook",
+    "abstract": "Creators often have to parse through charts and dashboards to understand their performance, but with the new AI assistant, they can get quick answers to questions like \"When should I post?\" and \"What are people saying in my comments?\"",
+    "url": "https://techcrunch.com/2026/06/04/meta-rolls-out-a-new-ai-creator-assistant-on-facebook/",
+    "topic": "llm",
+    "date": "2026-06-04",
+    "fetched_date": "2026-06-05",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "What to expect from WWDC 2026: Siri’s highly anticipated revamp and Apple Intelligence updates",
+    "abstract": "Apple's WWDC nears: Here's what you can look forward to.",
+    "url": "https://techcrunch.com/2026/06/04/what-to-expect-from-wwdc-2026-siris-highly-anticipated-revamp-and-apple-intelligence-updates/",
+    "topic": "llm",
+    "date": "2026-06-04",
+    "fetched_date": "2026-06-05",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Is Silicon Valley ready to put robots in people’s homes? Hello Robot is.",
+    "abstract": "The California startup released the fourth-generation of its home assistance robot, Stretch.",
+    "url": "https://techcrunch.com/2026/06/04/is-silicon-valley-ready-to-put-robots-in-peoples-homes-hello-robot-is/",
+    "topic": "llm",
+    "date": "2026-06-04",
+    "fetched_date": "2026-06-05",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Apple touts $1.4 trillion in App Store billings and sales, 90% without a commission",
+    "abstract": "Apple's App Store generated $1.4 trillion in sales, up from $1.3 trillion last year, with $149 billion in sales for digital goods.",
+    "url": "https://techcrunch.com/2026/06/04/apple-touts-1-4-trillion-in-app-store-billings-and-sales-90-without-a-commission/",
+    "topic": "llm",
+    "date": "2026-06-04",
+    "fetched_date": "2026-06-05",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Walmart is getting into restaurant delivery, beginning with Subway",
+    "abstract": "Walmart could soon start eating DoorDash and Uber Eats' lunch as it begins to experiment in the restaurant delivery space.",
+    "url": "https://www.modernretail.co/technology/walmart-is-getting-into-restaurant-delivery-beginning-with-subway/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-06-04",
+    "fetched_date": "2026-06-05",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Marketplace Briefing: How Rhino USA is building a 182‑acre ‘content factory’ in Texas after riding TikTok Shop to 8-figure sales",
+    "abstract": "Rhino USA is building a 182-acre Texas campus to fuel content creation after becoming an unlikely TikTok Shop success story, surpassing eight figures in revenue on the platform.",
+    "url": "https://www.modernretail.co/operations/marketplace-briefing-how-rhino-usa-is-building-a-182-acre-content-factory-in-texas-after-riding-tiktok-shop-to-8-figure-sales/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-06-04",
+    "fetched_date": "2026-06-05",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Walmart executives see the promise of AI, but also the costs",
+    "abstract": "Artificial intelligence is allowing Walmart to achieve levels of personalization it has long dreamed of. At the same time, the company is also cracking down on redundant or inefficient uses of AI internally, knowing the technology has a price tag.",
+    "url": "https://www.modernretail.co/technology/walmart-executives-see-the-promise-of-ai-but-also-the-costs/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-06-04",
+    "fetched_date": "2026-06-05",
+    "feed_name": "Modern Retail",
+    "source": "industry"
   }
 ]
