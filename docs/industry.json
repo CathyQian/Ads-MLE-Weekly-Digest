@@ -11108,5 +11108,95 @@
     "fetched_date": "2026-06-07",
     "feed_name": "TechCrunch AI",
     "source": "industry"
+  },
+  {
+    "title": "Amazing Digital Dentures (a failed project)",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/build-small-hackathon/amazingdigitaldentures",
+    "topic": "llm",
+    "date": "2026-06-07",
+    "fetched_date": "2026-06-08",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "datasette-agent-edit 0.1a0",
+    "abstract": "Release: datasette-agent-edit 0.1a0 I'm planning several plugins for Datasette Agent which can make edits to existing pieces of text - things like collaborative Markdown editing, updating large SQL queries, and editing SVG files. Agentic editing of text is a little tricky to get right. My favorite published design for this is for the Claude text editor , which implements the following tools: view - view sections of a file, with line numbers added to every line. str_replace - find an exact old_str and replace it with new_str - fail if the original string is not unique insert - insert the specified text after the specified line number Rather than recreate these patterns for every plugin that needs them I decided to create this base plugin, datasette-agent-edit , which implements the core tools in a way that allows them to be adapted for other plugins. Tags: ai , datasette , generative-ai , llms , llm-tool-use , datasette-agent",
+    "url": "https://simonwillison.net/2026/Jun/7/datasette-agent-edit/#atom-everything",
+    "topic": "llm",
+    "date": "2026-06-07",
+    "fetched_date": "2026-06-08",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "How Anthropic Courted Trump",
+    "abstract": "The company lobbied for government oversight of AI with its most persuasive tool",
+    "url": "https://www.thealgorithmicbridge.com/p/how-anthropic-courted-trump",
+    "topic": "llm",
+    "date": "2026-06-07",
+    "fetched_date": "2026-06-08",
+    "feed_name": "The Algorithmic Bridge",
+    "source": "industry"
+  },
+  {
+    "title": "Is this the dawn of the Tokenpocalypse?",
+    "abstract": "We're likely to see more price increases as the big AI companies plan to go public.",
+    "url": "https://techcrunch.com/2026/06/07/is-this-the-dawn-of-the-tokenpocalypse/",
+    "topic": "llm",
+    "date": "2026-06-07",
+    "fetched_date": "2026-06-08",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Notion restores access to Anthropic after service disruption",
+    "abstract": "Notion's head of product said he was \"astonished\" at “the amount of people RT-ing this.\"",
+    "url": "https://techcrunch.com/2026/06/07/notion-restores-access-to-anthropic-after-service-disruption/",
+    "topic": "llm",
+    "date": "2026-06-07",
+    "fetched_date": "2026-06-08",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "OpenAI is still working on that ‘super app’",
+    "abstract": "\"Chat is dead\" — at least, according to a senior OpenAI employee.",
+    "url": "https://techcrunch.com/2026/06/07/openai-is-still-working-on-that-super-app/",
+    "topic": "llm",
+    "date": "2026-06-07",
+    "fetched_date": "2026-06-08",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Brami’s and Mosh’s recent funding rounds show what’s winning in food right now",
+    "abstract": "Big VC rounds are becoming rare among CPG brands. But some, like Brami and Mosh, are proving to be the exception to the rule when it comes to attracting big venture dollars. Here's what worked for them in securing new funding.",
+    "url": "https://www.modernretail.co/operations/bramis-and-moshs-recent-funding-rounds-show-whats-winning-in-food-right-now/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-06-08",
+    "fetched_date": "2026-06-08",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Walmart goes global with its Amazon-like flywheel",
+    "abstract": "Walmart executives are beginning to take a more international approach to growing its higher-margin businesses such as advertising, memberships and its third-party marketplace. On Thursday, Walmart+, the retailer's paid membership program, launched in Canada — the first time it has been available outside of the U.S.",
+    "url": "https://www.modernretail.co/technology/walmart-goes-global-with-its-amazon-like-flywheel/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-06-08",
+    "fetched_date": "2026-06-08",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Brands are catching World Cup fever even without official sponsorships",
+    "abstract": "Even without official FIFA sponsorship, Crumbl and Olipop are getting into the spirit of soccer this summer, with product releases and activations tied to the World Cup.",
+    "url": "https://www.modernretail.co/marketing/brands-are-catching-world-cup-fever-even-without-official-sponsorships/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-06-08",
+    "fetched_date": "2026-06-08",
+    "feed_name": "Modern Retail",
+    "source": "industry"
   }
 ]
