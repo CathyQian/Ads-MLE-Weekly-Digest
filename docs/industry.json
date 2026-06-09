@@ -11198,5 +11198,305 @@
     "fetched_date": "2026-06-08",
     "feed_name": "Modern Retail",
     "source": "industry"
+  },
+  {
+    "title": "Confidential submission of draft S-1 to the SEC",
+    "abstract": "OpenAI confirms a confidential S-1 submission to the SEC and has not yet determined timing for further action.",
+    "url": "https://openai.com/index/openai-submits-confidential-s-1",
+    "topic": "llm",
+    "date": "2026-06-08",
+    "fetched_date": "2026-06-09",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Built to benefit everyone: our plan",
+    "abstract": "A vision for the future of AI, focusing on access, safety, and shared prosperity as OpenAI works to ensure AGI benefits everyone.",
+    "url": "https://openai.com/index/built-to-benefit-everyone-our-plan",
+    "topic": "llm",
+    "date": "2026-06-08",
+    "fetched_date": "2026-06-09",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Introducing the OpenAI Economic Research Exchange",
+    "abstract": "OpenAI launches the Economic Research Exchange to study AI’s impact on jobs, productivity, and the economy. Applications are now open for selected research projects.",
+    "url": "https://openai.com/index/economic-research-exchange",
+    "topic": "llm",
+    "date": "2026-06-08",
+    "fetched_date": "2026-06-09",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Paving the way for agents in biology",
+    "abstract": "",
+    "url": "https://www.anthropic.com/research/agents-in-biology",
+    "topic": "llm",
+    "date": "2026-06-08",
+    "fetched_date": "2026-06-09",
+    "feed_name": "Anthropic Research",
+    "source": "industry"
+  },
+  {
+    "title": "The Open Source Community is backing OpenEnv for Agentic RL",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/openenv-agentic-rl",
+    "topic": "llm",
+    "date": "2026-06-08",
+    "fetched_date": "2026-06-09",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Siri AI at WWDC 2026",
+    "abstract": "Given how badly burned anyone who took Apple's 2024 WWDC Apple Intelligence announcements at face value was, I'm holding to a strict \"I'll believe it when I see it\" policy for everything they announced today . The new Siri AI features do at least look feasible with today's technology, especially since Apple are licensing a custom Gemini-derived model that they can run on their own Private Cloud Compute . It sounds like they'll be taking advantage of vision LLMs to extract information from the user's screen, which neatly sidesteps the need for every existing application to ship custom code in order to integrate with Apple Intelligence. Vision LLMs were a much less mature category in June 2024. The new Core AI library looks like a good step in enabling developers to finally take full advantage of Apple's hardware for running their own models. It integrates with Meta's open source PyTorch ecosystem, using these Core AI PyTorch extensions : Core AI PyTorch Extensions ( coreai-torch ) is a Python package that bridges PyTorch and Core AI. You can use it to bring up an existing PyTorch model — exported as a torch.export.ExportedProgram — into a Core AI AIProgram ready to run on Apple hardware, traversing the FX graph node-by-node and mapping ATen operators to Core AI operations. You can install an iOS 27 Developer Beta today, which supposedly has the new features - but you then have to make it through a waiting list for access to the new Siri AI. Aaron Perris from MacRumors reports having made it off the waitlist so we may start seeing credible reports on how well Siri AI works in the very near future. Update : These Private Cloud Compute Gemini models are running in Google Cloud, and using NVIDIA hardware. According to Expanding Private Cloud Compute on Apple's Security Research blog: For the most demanding tasks, including agentic tool-use and complex reasoning, we worked with Google and NVIDIA to extend our PCC infrastructure to Google Cloud systems using NVIDIA GPUs, while maintaining Apple's powerful security and privacy protections. [...] PCC on Google Cloud leverages many of the same architectural security patterns as PCC on Apple silicon to implement these layered protections: initial network data parsing for each request happens in a dedicated process within its own namespace, shared inference software is recycled with a short time-to-live duration, and attested keys are held in a separate, dedicated confidential VM isolated from external inputs. [...] As with PCC on Apple silicon, all binaries will be published for public inspection. Tags: vision-llms , apple , generative-ai , ai , llms , gemini , nvidia , google",
+    "url": "https://simonwillison.net/2026/Jun/8/wwdc/#atom-everything",
+    "topic": "llm",
+    "date": "2026-06-08",
+    "fetched_date": "2026-06-09",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "How to Prepare for the Next 5 Years",
+    "abstract": "You will want to have read this framework guide",
+    "url": "https://www.thealgorithmicbridge.com/p/how-to-prepare-for-the-next-5-years",
+    "topic": "llm",
+    "date": "2026-06-08",
+    "fetched_date": "2026-06-09",
+    "feed_name": "The Algorithmic Bridge",
+    "source": "industry"
+  },
+  {
+    "title": "Why Apple’s slow-and-steady AI bet is starting to look pretty smart",
+    "abstract": "Can Apple's new AI glow up put to bed accusations that it's losing an all-important industry race?",
+    "url": "https://techcrunch.com/2026/06/08/why-apples-slow-and-steady-ai-bet-is-starting-to-look-pretty-smart/",
+    "topic": "llm",
+    "date": "2026-06-09",
+    "fetched_date": "2026-06-09",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Mercor’s Brendan Foody calls out Sequoia, accusing it of ‘dual-pricing’ valuation tricks",
+    "abstract": "Sequoia is just one of the top firms that sells same equity at two different prices.",
+    "url": "https://techcrunch.com/2026/06/08/mercors-brendan-foody-calls-out-sequoia-over-dual-pricing-valuation-tricks/",
+    "topic": "llm",
+    "date": "2026-06-09",
+    "fetched_date": "2026-06-09",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "As OpenAI files for IPO, Sam Altman’s eye-scanning company is doing layoffs, report says",
+    "abstract": "Tools for Humanity, Sam Altman's identity verification company, is reportedly struggling to generate revenue and will downsize its staff.",
+    "url": "https://techcrunch.com/2026/06/08/as-openai-files-for-ipo-sam-altmans-eye-scanning-company-is-doing-layoffs-report-says/",
+    "topic": "llm",
+    "date": "2026-06-08",
+    "fetched_date": "2026-06-09",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Apple’s WWDC AI demos looked more real after $250M false ad settlement",
+    "abstract": "The vibe of Apple's 2026 WWDC keynote felt like a spouse proudly listing all the honey-do-list items tackled. One subtle example: the many AI demos of someone standing, phone in hand.",
+    "url": "https://techcrunch.com/2026/06/08/apples-wwdc-ai-demos-looked-more-real-after-250m-false-ad-settlement/",
+    "topic": "llm",
+    "date": "2026-06-08",
+    "fetched_date": "2026-06-09",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "OpenAI files confidentially for IPO, following Anthropic",
+    "abstract": "The filing comes a little more than a week after its main rival, Anthropic, also filed to go public, ramping up the race between the two AI firms.",
+    "url": "https://techcrunch.com/2026/06/08/following-anthropic-openai-files-confidentially-for-ipo/",
+    "topic": "llm",
+    "date": "2026-06-08",
+    "fetched_date": "2026-06-09",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Apple plays catch-up at WWDC",
+    "abstract": "Apple spent much of its WWDC keynote highlighting fixes, performance improvements, and long-requested features before unveiling its upgraded AI-powered Siri, signaling that the company wants users to see AI as just one part of a broader effort to improve its software.",
+    "url": "https://techcrunch.com/2026/06/08/apple-plays-catch-up-at-wwdc/",
+    "topic": "llm",
+    "date": "2026-06-08",
+    "fetched_date": "2026-06-09",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Apple bets cheaper AI will woo small developers",
+    "abstract": "As AI experimentation grows more expensive, Apple is waiving cloud API costs for developers with fewer than 2 million first-time App Store downloads.",
+    "url": "https://techcrunch.com/2026/06/08/apple-bets-cheaper-ai-will-woo-small-developers/",
+    "topic": "llm",
+    "date": "2026-06-08",
+    "fetched_date": "2026-06-09",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "WWDC 2026: Everything announced on Siri AI, iOS 27, Apple Intelligence and more",
+    "abstract": "Apple primarily made the case for an improved experience with its longstanding Siri assistant, which like most other announcements had a hefty helping of AI.",
+    "url": "https://techcrunch.com/2026/06/08/wwdc-2026-everything-announced-on-siri-ai-os-27-apple-intelligence-and-more/",
+    "topic": "llm",
+    "date": "2026-06-08",
+    "fetched_date": "2026-06-09",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Apple just taught your iPhone to finish your sentences, your photos, and your workflows",
+    "abstract": "Apple is adding new AI-powered features to Safari, Shortcuts, and Password apps.",
+    "url": "https://techcrunch.com/2026/06/08/apple-just-taught-your-iphone-to-finish-your-sentences-your-photos-and-your-workflows/",
+    "topic": "llm",
+    "date": "2026-06-08",
+    "fetched_date": "2026-06-09",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Apple will let you build workflows using AI in its new Shortcuts app",
+    "abstract": "Shortcuts gets an AI upgrade, letting you describe the workflow you want in a prompt.",
+    "url": "https://techcrunch.com/2026/06/08/apple-will-let-you-build-workflows-using-ai-in-its-new-shortcuts-app/",
+    "topic": "llm",
+    "date": "2026-06-08",
+    "fetched_date": "2026-06-09",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Apple’s Image Playground doesn’t suck anymore",
+    "abstract": "Apple's AI image generator is getting a makeover that could make it more competitive.",
+    "url": "https://techcrunch.com/2026/06/08/apples-image-playground-doesnt-suck-anymore/",
+    "topic": "llm",
+    "date": "2026-06-08",
+    "fetched_date": "2026-06-09",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Apple’s Photos app is getting new AI editing features",
+    "abstract": "A new spatial \"Reframe\" feature will let users use AI to adjust perspectives.",
+    "url": "https://techcrunch.com/2026/06/08/apples-photos-app-is-getting-new-ai-editing-features/",
+    "topic": "llm",
+    "date": "2026-06-08",
+    "fetched_date": "2026-06-09",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Apple gives Siri its own dedicated app",
+    "abstract": "Siri is finally getting its own app.",
+    "url": "https://techcrunch.com/2026/06/08/apple-gives-siri-its-own-dedicated-app/",
+    "topic": "llm",
+    "date": "2026-06-08",
+    "fetched_date": "2026-06-09",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Apple is fixing the headache of splitting the bill with its new Siri in Camera feature",
+    "abstract": "\"If you're grabbing a bite with friends and point your iPhone at the bill, then [you can] select what you ordered to split the tab with Apple Cash,\" said Apple VP of Software Sebastien Marineau-Mes.",
+    "url": "https://techcrunch.com/2026/06/08/apple-is-fixing-the-headache-of-splitting-the-bill-with-its-new-siri-in-camera-feature/",
+    "topic": "llm",
+    "date": "2026-06-08",
+    "fetched_date": "2026-06-09",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Apple’s long-awaited AI Siri overhaul is finally here",
+    "abstract": "The idea behind the new \"Siri AI\" is to turn the assistant from a voice controlled assistant into an AI companion that can do a lot more.",
+    "url": "https://techcrunch.com/2026/06/08/apples-long-awaited-ai-siri-overhaul-is-finally-here/",
+    "topic": "llm",
+    "date": "2026-06-08",
+    "fetched_date": "2026-06-09",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Amazon now lets you design custom merch using AI",
+    "abstract": "A new feature in the Amazon Shopping app allows users to generate designs with Alexa, then print them on products like T-shirts, hoodies, and tumblers.",
+    "url": "https://techcrunch.com/2026/06/08/amazon-now-lets-you-design-custom-merch-using-ai/",
+    "topic": "llm",
+    "date": "2026-06-08",
+    "fetched_date": "2026-06-09",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "WWDC 2026: What to expect, from Siri’s highly anticipated revamp to Apple Intelligence and iOS 27",
+    "abstract": "Apple's WWDC nears: Here's what you can look forward to.",
+    "url": "https://techcrunch.com/2026/06/08/wwdc-2026-what-to-expect-from-siris-highly-anticipated-revamp-to-apple-intelligence-and-ios-27/",
+    "topic": "llm",
+    "date": "2026-06-08",
+    "fetched_date": "2026-06-09",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Beyond SAST: Automating AI Agent Security with Nemesis",
+    "abstract": "Nemesis is an automated adversarial red-teaming framework developed at GoDaddy to continuously stress-test our Generative AI agents against agent specific prompt injection, jailbreaks, and social engineering attacks. Nemesis tries to break our agents in a safe and observable environment before a real hacker does. The post Beyond SAST: Automating AI Agent Security with Nemesis appeared first on GoDaddy Blog .",
+    "url": "https://www.godaddy.com/resources/news/beyond-sast-automating-ai-agent-security-with-nemesis",
+    "topic": "ml-engineering",
+    "date": "2026-06-08",
+    "fetched_date": "2026-06-09",
+    "feed_name": "GoDaddy Engineering",
+    "source": "industry"
+  },
+  {
+    "title": "Malls break down their World Cup strategies",
+    "abstract": "Shopping center owners hope the World Cup will provide a much-needed win for American malls. From American Dream's 39-day fan fest to Atlantic Village's restaurant play, here's how various malls are looking to attract both tourists and locals.",
+    "url": "https://www.modernretail.co/marketing/malls-break-down-their-world-cup-strategies/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-06-09",
+    "fetched_date": "2026-06-09",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "‘It’s not our approach’: Walmart COO says digital shelf labels aren’t for surge pricing",
+    "abstract": "As digital price tags have gained more prominence over the last few years, some shoppers and legislators have feared they would lead to \"dynamic pricing,\" charging customers different prices based on the timing of their purchase or, worse, their individual data.",
+    "url": "https://www.modernretail.co/technology/its-not-our-approach-walmart-coo-says-digital-shelf-labels-arent-for-surge-pricing/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-06-09",
+    "fetched_date": "2026-06-09",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Brand Substacks are starting to show real results",
+    "abstract": "One year after launching on Substack, brands are finding sales, subscribers and new customers. Here are the results brands like The RealReal and Rare Beauty have seen a year into their Substack journey.",
+    "url": "https://www.modernretail.co/marketing/brand-substacks-are-starting-to-show-real-results/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-06-09",
+    "fetched_date": "2026-06-09",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "What brands are paying to advertise around the World Cup",
+    "abstract": "One in three Americans is set to watch the World Cup this summer, leading many brands to look into last-minute partnerships, proximity marketing initiatives and social campaigns tied to the tournament. Official partnerships are pricey, but there are still opportunities across host cities for brands seeking a timely halo effect. Modern Retail sat down with media buying experts to learn more.",
+    "url": "https://www.modernretail.co/marketing/what-brands-are-paying-to-advertise-around-the-world-cup/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-06-09",
+    "fetched_date": "2026-06-09",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "How an earlier Prime Day created new supply chain challenges for brands",
+    "abstract": "Brands have to pull up their inventory orders and change forecasts due to an earlier Prime Day, which will take place on June 23-26 this year.",
+    "url": "https://www.modernretail.co/operations/how-an-earlier-prime-day-created-new-supply-chain-challenges-for-brands/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-06-08",
+    "fetched_date": "2026-06-09",
+    "feed_name": "Modern Retail",
+    "source": "industry"
   }
 ]
