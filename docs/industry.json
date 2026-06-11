@@ -11828,5 +11828,255 @@
     "fetched_date": "2026-06-10",
     "feed_name": "Modern Retail",
     "source": "industry"
+  },
+  {
+    "title": "How an astrophysicist uses Codex to help simulate black holes",
+    "abstract": "Discover how astrophysicist Chi-kwan Chan uses Codex to build black hole simulations, helping scientists study extreme physics and test Einstein’s theory of general relativity.",
+    "url": "https://openai.com/index/using-codex-to-simulate-black-holes",
+    "topic": "llm",
+    "date": "2026-06-11",
+    "fetched_date": "2026-06-11",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Access OpenAI models and Codex through your Oracle cloud commitment",
+    "abstract": "Access OpenAI models and Codex through Oracle Cloud, using existing commitments to build and deploy AI with enterprise security and governance.",
+    "url": "https://openai.com/index/openai-on-oracle-cloud",
+    "topic": "llm",
+    "date": "2026-06-10",
+    "fetched_date": "2026-06-11",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "PRC-linked influence operations are targeting AI debates in the US",
+    "abstract": "A new report from OpenAI details PRC-linked influence operations using AI to target U.S. tech debates, data center narratives, tariffs, and false claims about ChatGPT.",
+    "url": "https://openai.com/index/prc-linked-influence-operations-ai-debates",
+    "topic": "llm",
+    "date": "2026-06-10",
+    "fetched_date": "2026-06-11",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "From data to decisions: how LSEG is scaling trusted AI",
+    "abstract": "See how LSEG uses OpenAI to scale trusted AI across its global business, accelerating insights, shrinking release cycles, and empowering 4,000 employees.",
+    "url": "https://openai.com/index/lseg",
+    "topic": "llm",
+    "date": "2026-06-10",
+    "fetched_date": "2026-06-11",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "DiffusionGemma: 4x faster text generation",
+    "abstract": "",
+    "url": "https://deepmind.google/blog/diffusiongemma-4x-faster-text-generation/",
+    "topic": "generative-ai",
+    "date": "2026-06-10",
+    "fetched_date": "2026-06-11",
+    "feed_name": "DeepMind Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Anthropic Walks Back Policy That Could Have ‘Sabotaged’ AI Researchers Using Claude",
+    "abstract": "Anthropic Walks Back Policy That Could Have ‘Sabotaged’ AI Researchers Using Claude Big scoop for Maxwell Zeff at Wired: “We’re changing Fable 5’s safeguards for frontier LLM development to make them visible.” Anthropic said in a statement to WIRED. “We made the wrong tradeoff and we apologize for not getting the balance right.” There's been a huge outcry about Anthropic's policy, tucked away in their system card , that Claude Fable/Mythos would identify \"requests targeting frontier LLM development\" and \"limit effectiveness\" without notifying the user. It's very good news that they're dropping this. Tags: ai , generative-ai , llms , anthropic , claude , ai-ethics , claude-mythos",
+    "url": "https://simonwillison.net/2026/Jun/11/anthropic-walks-back-policy/#atom-everything",
+    "topic": "llm",
+    "date": "2026-06-11",
+    "fetched_date": "2026-06-11",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "datasette-agent 0.2a0",
+    "abstract": "Release: datasette-agent 0.2a0 Highlights from the release notes: Tools can now ask the user questions mid-execution. Tools that declare a context parameter receive a ToolContext object, and await context.ask_user(...) can ask a yes/no, multiple-choice ( options=[...] ) or free-text ( free_text=True ) question. While a question is unanswered the agent turn suspends: the question renders as a form in the chat UI and persists to the internal database, so suspended conversations survive a server restart. Once answered, the tool re-executes from the top with stored answers replayed, so call ask_user() before performing side effects. #20 New built-in save_query tool: the agent can save SQL it has written as a Datasette stored query . Saving always requires human approval - the agent shows the full SQL plus the proposed name, database and visibility, and nothing is stored until you click Yes. #20 The ask_user() feature was enabled by the new LLM alpha I built yesterday with the help of Claude Fable 5. Tags: ai , datasette , generative-ai , llms , datasette-agent",
+    "url": "https://simonwillison.net/2026/Jun/10/datasette-agent/#atom-everything",
+    "topic": "llm",
+    "date": "2026-06-10",
+    "fetched_date": "2026-06-11",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "DiffusionGemma",
+    "abstract": "DiffusionGemma Last May Google briefly released an experimental Gemini Diffusion model. I tried the preview at the time and recorded it running at 857 tokens/second. It was an exciting model, but Google made no further announcements about it. That research has returned in the best possible way: as a new open weight (Apache 2 licensed) Gemma model, google/diffusiongemma-26B-A4B-it . NVIDIA are currently hosting the model for free on their NIM cloud API. I used that API to generate this pelican , which took 4.4s (according to time uv run generate.py ) to return 2,409 tokens - so at least 500 tokens/second. Via Hacker News Tags: google , ai , generative-ai , llms , nvidia , pelican-riding-a-bicycle , gemma , llm-release , llm-performance",
+    "url": "https://simonwillison.net/2026/Jun/10/diffusiongemma/#atom-everything",
+    "topic": "llm",
+    "date": "2026-06-10",
+    "fetched_date": "2026-06-11",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Quoting Jeremy Howard",
+    "abstract": "Easy solution to slow down recursive AI self improvement: The lab with the top-ranked model must agree THEY must not use it for working on frontier AI But everyone else should have access to it. By definition, this means the frontier doesn't advance. It also has the critical benefit of avoiding a dangerous power imbalance. Anthropic has chosen the opposite of the safe path: they are allowing themselves, the current top lab, to use their top model for frontier AI research. They've said they'll sabotage others who try. This means the AI frontier advances, & power imbalance increases. (To be clear, I don't think we should try to slow down recursive AI self improvement - I think we should open it up and democratize it as much as possible. My point is: if you claim we should slow down, and you have the best model, you should ensure your org can't use it.) — Jeremy Howard , in a Twitter thread Tags: ai-ethics , anthropic , generative-ai , claude-mythos , jeremy-howard , ai , llms",
+    "url": "https://simonwillison.net/2026/Jun/10/jeremy-howard/#atom-everything",
+    "topic": "llm",
+    "date": "2026-06-10",
+    "fetched_date": "2026-06-11",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Opendoor’s India exit is fueling a bigger conversation about AI and outsourcing",
+    "abstract": "The decision comes as India emerges as the world’s largest GCC market.",
+    "url": "https://techcrunch.com/2026/06/10/opendoors-india-exit-is-fueling-a-bigger-conversation-about-ai-and-outsourcing/",
+    "topic": "llm",
+    "date": "2026-06-11",
+    "fetched_date": "2026-06-11",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Anthropic’s Dario Amodei has just one direct report",
+    "abstract": "If you doubted his genius, doubt no more.",
+    "url": "https://techcrunch.com/2026/06/10/anthropics-dario-amodei-has-just-one-direct-report/",
+    "topic": "llm",
+    "date": "2026-06-11",
+    "fetched_date": "2026-06-11",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "xAI fired an engineer who raised alarms about Grok safety, new lawsuit claims",
+    "abstract": "A former xAI engineer is suing the company and SpaceX, alleging he was fired for raising AI safety concerns about Grok days before SpaceX's historic IPO.",
+    "url": "https://techcrunch.com/2026/06/10/xai-fired-an-engineer-who-raised-alarms-about-grok-safety-new-lawsuit-claims/",
+    "topic": "llm",
+    "date": "2026-06-10",
+    "fetched_date": "2026-06-11",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Fresh off bond sale, Amazon borrows $17.5B from banks as AI spending continues",
+    "abstract": "Companies are burning through exorbitant sums of money to keep pace in the AI arms race. Debt is climbing.",
+    "url": "https://techcrunch.com/2026/06/10/fresh-off-bond-sale-amazon-borrows-17-5-billion-from-banks-as-ai-spending-continues/",
+    "topic": "llm",
+    "date": "2026-06-10",
+    "fetched_date": "2026-06-11",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "‘AI-pilled’ firms spend $7,500 per employee each month on AI",
+    "abstract": "The most AI-obsessed firms are spending roughly $7,500 monthly per employee on AI, per Ramp AI Index. That's not more than an engineer's salary — yet.",
+    "url": "https://techcrunch.com/2026/06/10/ai-pilled-firms-spend-7500-per-employee-each-month-on-ai/",
+    "topic": "llm",
+    "date": "2026-06-10",
+    "fetched_date": "2026-06-11",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "How memory tools can make AI models worse",
+    "abstract": "New research suggests that AI memory systems can degrade model performance and encourage sycophantic tendencies.",
+    "url": "https://techcrunch.com/2026/06/10/how-memory-tools-can-make-ai-models-worse/",
+    "topic": "llm",
+    "date": "2026-06-10",
+    "fetched_date": "2026-06-11",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Cybersecurity researchers aren’t happy about the guardrails on Anthropic’s Fable",
+    "abstract": "Cybersecurity researchers are complaining that Anthropic's new model Fable has guardrails that are too strict for any cybersecurity work.",
+    "url": "https://techcrunch.com/2026/06/10/cybersecurity-researchers-arent-happy-about-the-guardrails-on-anthropics-fable/",
+    "topic": "llm",
+    "date": "2026-06-10",
+    "fetched_date": "2026-06-11",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Datadog veterans launch AI coding startup Niteshift on a bet against Big AI lock-in",
+    "abstract": "AI coding agent startup Niteshift has raised a $7 million seed round from a who's who of angels. It's betting companies will want power over, not lock-in with model makers.",
+    "url": "https://techcrunch.com/2026/06/10/datadog-veterans-launch-ai-coding-startup-niteshift-on-a-bet-against-big-ai-lock-in/",
+    "topic": "llm",
+    "date": "2026-06-10",
+    "fetched_date": "2026-06-11",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "The three hard-tech moonshots fueling SpaceX’s unbelievable IPO",
+    "abstract": "Most of the value in SpaceX's IPO is effectively a call option on the company's ambitious space data center plans.",
+    "url": "https://techcrunch.com/2026/06/10/the-three-hard-tech-moonshots-fueling-spacexs-unbelievable-ipo/",
+    "topic": "llm",
+    "date": "2026-06-10",
+    "fetched_date": "2026-06-11",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Warner Music acquires AI attribution startup Sureel AI",
+    "abstract": "Through the acquisition, WMG aims to better track when its artists' work is used in AI-generated content or for training AI models.",
+    "url": "https://techcrunch.com/2026/06/10/warner-music-acquires-ai-attribution-startup-sureel-ai/",
+    "topic": "llm",
+    "date": "2026-06-10",
+    "fetched_date": "2026-06-11",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Jedify raises $24M to help companies arm AI agents with context on their business",
+    "abstract": "The funding round was led by Norwest, with participation from S Capital VC, Cerca Partners, and Oceans Ventures. Snowflake Ventures also participated as a strategic investor.",
+    "url": "https://techcrunch.com/2026/06/10/jedify-raises-24m-to-help-companies-arm-ai-agents-with-context-on-their-business/",
+    "topic": "llm",
+    "date": "2026-06-10",
+    "fetched_date": "2026-06-11",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Decart’s new world model can simulate hours of photorealistic driving — with some caveats",
+    "abstract": "Decart is launching Oasis 3, a real-time world model that generates photorealistic driving environments for autonomous vehicle testing, now available via API for developers to build on.",
+    "url": "https://techcrunch.com/2026/06/10/decarts-new-world-model-can-simulate-hours-of-photorealistic-driving-with-some-caveats/",
+    "topic": "llm",
+    "date": "2026-06-10",
+    "fetched_date": "2026-06-11",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Meta signs first AI data center deal in India with Reliance",
+    "abstract": "The 168-megawatt facility will support Meta's global AI computing needs and can be expanded over time.",
+    "url": "https://techcrunch.com/2026/06/10/meta-signs-first-ai-data-center-deal-in-india-with-reliance/",
+    "topic": "llm",
+    "date": "2026-06-10",
+    "fetched_date": "2026-06-11",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "How meat sticks players are trying to find white space in the red-hot category",
+    "abstract": "The growing meat snacks market is attracting new brands like Singing Pastures to jump in to challenge incumbents, even as major startups like Chomps and Archer continue to dominate the better-for-you subcategory.",
+    "url": "https://www.modernretail.co/operations/how-meat-sticks-players-are-trying-to-find-white-space-in-the-red-hot-category/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-06-11",
+    "fetched_date": "2026-06-11",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Walmart is training store-level employees to use AI",
+    "abstract": "Walmart executives are training associates to use AI widely throughout the organization. For example, store managers can create digital dashboards for scheduling, or merchandising associates can turn dense text into useful graphics.",
+    "url": "https://www.modernretail.co/technology/walmart-is-training-store-level-employees-to-use-ai/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-06-11",
+    "fetched_date": "2026-06-11",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "The men’s grooming opportunity at the World Cup",
+    "abstract": "The quadrennial men’s World Cup is one of the biggest sporting events in the world, giving global soccer players and fans a once-in-a-lifetime chance to see their team take home the prize. And with billions of viewers tuning in from around the world, it is also a rare opportunity for brands to capitalize on the frenzy. Four years after Qatar, that now includes grooming brands looking to use the power of soccer to reach the evolving male beauty consumer base.",
+    "url": "https://www.modernretail.co/marketing/the-mens-grooming-opportunity-at-the-world-cup/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-06-11",
+    "fetched_date": "2026-06-11",
+    "feed_name": "Modern Retail",
+    "source": "industry"
   }
 ]
