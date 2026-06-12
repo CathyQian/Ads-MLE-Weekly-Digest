@@ -12078,5 +12078,155 @@
     "fetched_date": "2026-06-11",
     "feed_name": "Modern Retail",
     "source": "industry"
+  },
+  {
+    "title": "Profiling in PyTorch (Part 2): From nn.Linear to a Fused MLP",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/torch-mlp-fusion",
+    "topic": "llm",
+    "date": "2026-06-11",
+    "fetched_date": "2026-06-12",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Claude Fable is relentlessly proactive",
+    "abstract": "After two days of experience with Claude Fable 5 I think the best way to describe it is relentlessly proactive . It knows a whole lot of tricks and it will deploy pretty much any of them to get to its goal. I'll illustrate this with an example. I was hacking on Datasette Agent today when I noticed a glitch: a horizontal scrollbar that shouldn't be there in the jump menu chat prompt. I snapped this screenshot: Then I started a fresh claude session in my datasette-agent checkout, dragged in the screenshot and told it: Look at dependencies to help figure out why there is a horizontal scrollbar here I had a hunch the cause was in a dependency of Datasette Agent (likely Datasette itself) and I knew Fable was good at digging into dependency code, either by inspecting installed files in its own virtual environment site-packages or by referencing a local checkout on disk. Telling it to start with dependencies felt like a good bet. I got distracted by a domestic task and wandered away from my computer. When I came back a few minutes later I saw my machine open a browser window in my regular Firefox and then navigate to the dialog in question . I had not told Claude Code to use any browser automation, and I was pretty sure it wasn't possible for it to trigger mouse movements or keyboard shortcuts within a window, so how was it doing that? I watched in fascination as it continued with its explorations, then saw it open a Safari window instead of Firefox. I also grabbed this snapshot from the Claude terminal: What was it doing there with uv run --with pyobjc-framework-Quartz ? It turns out Fable had hacked up its own pattern for taking screenshots of browser windows. It was using Python to iterate through all available windows on my machine, then filtering for Safari windows with expected strings such as \"textarea\" in the window name. It used that to find their window number - an integer like 153551 - which it could then use with the screencapture CLI tool to grab a PNG. OK fine, that's a neat way of taking screenshots. But what was it taking screenshots of? Turns out it had been writing its own scratch HTML pages to try and recreate the bug, then opening Safari and grabbing screenshots. Here's that /tmp/textarea-scrollbar-test.html page it created, and the screenshot it took with screencapture -x -o -l 153551 /tmp/safari-cases.png : (I have way too many open tabs!) OK, so I can see how it's opening test pages and taking screenshots, but how on earth was it triggering the modal dialog that was meant to be under test? That's only available via a click or a keyboard shortcut, and I couldn't see a mechanism for it to run those in Safari. I eventually figured out what it had done. Claude was running in a folder that contained the source code for the application. It knows enough about Datasette to be able to run a local development server. It turns out it was editing Datasette's own templates to add JavaScript that would trigger the correct keyboard shortcut as soon as the window opened, adding code like this: < script > window . addEventListener ( \"load\" , function ( ) { setTimeout ( function ( ) { document . dispatchEvent ( new KeyboardEvent ( \"keydown\" , { key : \"/\" , bubbles : true } ) ) ; } , 1200 ) ; } ) ; </ script > 1.2 seconds after the window opens, this code triggers a simulated / key, which is the keyboard shortcut for opening the modal dialog. There was one challenge left. In order to understand what was going on, Claude needed to run JavaScript on the page to take measurements for itself. It wrote its own custom web application to capture information via CORS, then ran that as a local server and opened a page with JavaScript that would POST directly to it! Here's the Python web app it wrote, using the standard library http.server package: from http . server import HTTPServer , BaseHTTPRequestHandler class H ( BaseHTTPRequestHandler ): def do_POST ( self ): n = int ( self . headers . get ( \"Content-Length\" , 0 )) open ( \"/tmp/diag.json\" , \"w\" ). write ( self . rfile . read ( n ). decode ()) self . send_response ( 200 ) self . send_header ( \"Access-Control-Allow-Origin\" , \"*\" ) self . end_headers () def do_OPTIONS ( self ): self . send_response ( 200 ) self . send_header ( \"Access-Control-Allow-Origin\" , \"*\" ) self . send_header ( \"Access-Control-Allow-Headers\" , \"*\" ) self . end_headers () def log_message ( self , * a ): # quiet pass HTTPServer (( \"127.0.0.1\" , 9999 ), H ). serve_forever () All this does is accept a POST request full of JSON and write that to the /tmp/diag.json file. It sends Access-Control-Allow-Origin: * headers (including from OPTIONS requests) so that code running on another domain can still communicate back to it. Then Claude injected this code into the template that it was loading in a browser: const host = document . querySelector ( \"navigation-search\" ) ; const ta = host . shadowRoot . querySelector ( \"textarea\" ) ; const cs = getComputedStyle ( ta ) ; fetch ( \"http://127.0.0.1:9999/diag\" , { method : \"POST\" , body : JSON . stringify ( { dpr : window . devicePixelRatio , scrollWidth : ta . scrollWidth , clientWidth : ta . clientWidth , whiteSpace : cs . whiteSpace , width : cs . width , } ) , } ) ; This took measurements of the <textarea> inside the <navigation-search> Web Component and sent them to the server, which wrote them to a file on disk, which Claude could then read. Having figured out all of these tricks Fable... hit some invisible guardrail and downgraded itself to Opus. Thankfully Opus had access to the full transcript and could continue using the tricks pioneered by Fable, and shortly afterwards found, tested and verified the fix . I prompted Opus to: Write a report in /tmp/automation-report.md where you note down all of the tricks you have used in this session to test against real browsers on my computer, include runnable code examples Which produced this report , which was invaluable for piecing together the details of what had happened for this post. I've shared the full terminal transcript of the Claude Code session as well. A review of everything it did Based on a screenshot and a one-line prompt, Claude Fable 5 + Claude Code: Figured out the recipe to run the local development server (with fake environment variables needed to get it running) Fired up a Playwright Chrome session Turned on the visible scrollbars setting for Chrome defaults write com.google.chrome.for.testing AppleShowScrollBars Always (it turned that off again later) Cycled through Firefox and WebKit in Playwright too, failing to recreate the bug Worked out my default browser was Safari Built a textarea-scrollbar-test.html HTML document Opened that in real (not Playwright) Firefox Found that osascript -e 'tell application \"System Events\" to tell process \"firefox\" to id of window 1' was blocked because \"osascript is not allowed assistive access\" Figured out that uv run --with pyobjc-framework-Quartz python workaround, described above Added JavaScript to the site templates in order to trigger the / key Built its own little Python CORS web server to capture JSON data Rewrote the template to capture that data and send it to the server Scripted its way through the Web Component shadow DOM to the information it needed Opened Safari to confirm the source of the bug Modified its custom template to hack in a potential fix Confirmed the hacked fix worked Reported back on how to fix the problem Like I said, relentlessly proactive! An estimate of the cost I'm currently on the $100/month Claude Max plan, which includes a generous allowance for Fable up until June 22nd after which Anthropic say they'll start charging full API prices for it. I'm using AgentsView to track my spending (see this TIL ). Here's what AgentsView says this session would have cost me if I was paying full price for it: ~ % uvx agentsview session usage be8850a7-6119-46a0-b5d6-79c7fff5ae2b Session: be8850a7-6119-46a0-b5d6-79c7fff5ae2b Agent: claude Output: 68606 Peak ctx: 113178 Cost: ~$12.11 (claude-fable-5, claude-opus-4-8) I really need to lock this thing down On the one hand, watching Fable go to extreme lengths to get the information that it needed to debug what was, in the end, a two-line CSS fix, was fascinating . But on the other hand... this is a robust reminder that coding agents can do anything you can do by typing commands into a terminal - and frontier models know every trick in the book, and evidently a few that nobody has ever written down before. If Fable had been acting on malicious instructions - a prompt injection attack hidden in code or an issue thread, or something I'd carelessly pasted into my terminal - it's alarming to think quite how far it could go to exfiltrate data or cause other forms of mischief. Running coding agents outside of a sandbox has always been a bad idea - it's my top contendor for a Challenger disaster incident, as described by Johann Rehberger in The Normalization of Deviance in AI . Fable is arguably smarter and hence more suspicious of potentially malicious instructions. But that smartness is very much a two-edged sword: if it does get subverted by instructions, the amount of damage it can do given its relentless proactivity is terrifying. Tags: ai , prompt-injection , generative-ai , llms , ai-assisted-programming , coding-agents , claude-code , claude-mythos",
+    "url": "https://simonwillison.net/2026/Jun/11/fable-is-relentlessly-proactive/#atom-everything",
+    "topic": "llm",
+    "date": "2026-06-11",
+    "fetched_date": "2026-06-12",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "datasette 1.0a33",
+    "abstract": "Release: datasette 1.0a33 This alpha is a significant step on the road to a stable 1.0, finally extending the ?_extra= pattern I introduced in Datasette 1.0a3 to cover queries and rows in addition to tables. That pattern is also now documented ! I wrote a whole lot more about the new release on the Datasette project blog: Datasette 1.0a33 with JSON extras in the API . Because API explorer tools are almost free to build now I had Claude Fable 5 in Claude Code (for the plan ) and GPT-5.5 xhigh in Codex Desktop (for the implementation ) build me this custom extras API explorer to help demonstrate the feature: Tags: projects , datasette , annotated-release-notes , ai-assisted-programming",
+    "url": "https://simonwillison.net/2026/Jun/11/datasette/#atom-everything",
+    "topic": "llm",
+    "date": "2026-06-11",
+    "fetched_date": "2026-06-12",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "asyncinject 0.7",
+    "abstract": "Release: asyncinject 0.7 I built this utility library to support an asyncio dependency injection pattern a few years ago. I was using it with Datasette and Claude Fable 5 spotted some bugs in the dependency which it then fixed for me. It's a very proactive model! Tags: async , projects , python , claude-mythos",
+    "url": "https://simonwillison.net/2026/Jun/11/asyncinject/#atom-everything",
+    "topic": "llm",
+    "date": "2026-06-11",
+    "fetched_date": "2026-06-12",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Cheaper, faster, and culturally aware, Avataar’s video AI is built for India’s scale",
+    "abstract": "Avataar AI's distilled video model is priced at $0.005 for every second of generation",
+    "url": "https://techcrunch.com/2026/06/11/cheaper-faster-and-culturally-aware-avataars-video-ai-is-built-for-indias-scale/",
+    "topic": "llm",
+    "date": "2026-06-12",
+    "fetched_date": "2026-06-12",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Theker just raised $85M to build the factory robot that doesn’t specialize in anything",
+    "abstract": "Unlike humanoid robots designed around a fixed form — think Boston Dynamics — Theker's machines are built to be reconfigured.",
+    "url": "https://techcrunch.com/2026/06/11/theker-just-raised-85m-to-build-the-factory-robot-that-doesnt-specialize-in-anything/",
+    "topic": "llm",
+    "date": "2026-06-12",
+    "fetched_date": "2026-06-12",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Jeff Bezos’s Prometheus raises $12B to build an ‘artificial general engineer’ for the physical world",
+    "abstract": "The new round values the physical AI startup that aims to automate heavy engineering and drug design at $41 billion.",
+    "url": "https://techcrunch.com/2026/06/11/jeff-bezoss-prometheus-raises-12b-to-build-an-artificial-general-engineer-for-the-physical-world/",
+    "topic": "llm",
+    "date": "2026-06-12",
+    "fetched_date": "2026-06-12",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "SpaceX officially prices shares at $135 in the largest IPO ever",
+    "abstract": "Wits its official share pricing announcement, SpaceX's IPO has begun.",
+    "url": "https://techcrunch.com/2026/06/11/spacex-officially-prices-shares-at-135-in-the-largest-ipo-ever/",
+    "topic": "llm",
+    "date": "2026-06-11",
+    "fetched_date": "2026-06-12",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "SpaceX SPV investors won’t know their true holdings until post-IPO lock-ups lift",
+    "abstract": "After SpaceX makes its public debut, lower-tier SPV investors face hidden fees, lengthy payout delays, and the risk of outright fraud.",
+    "url": "https://techcrunch.com/2026/06/11/spacex-spv-investors-wont-know-their-true-holdings-until-post-ipo-lock-ups-lift/",
+    "topic": "llm",
+    "date": "2026-06-11",
+    "fetched_date": "2026-06-12",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Deezer’s new tool can identify AI music from Spotify, Apple Music, and others",
+    "abstract": "Deezer introduced a tool that scans playlists from Spotify, Apple Music, and other platforms to identify AI music.",
+    "url": "https://techcrunch.com/2026/06/11/deezers-new-tool-can-identify-ai-music-from-spotify-apple-music-and-others/",
+    "topic": "llm",
+    "date": "2026-06-11",
+    "fetched_date": "2026-06-12",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Pool’s new app turns your screenshots into something useful",
+    "abstract": "Pool's new app automatically sorts screenshots into personalized collections, tracks down the original links behind saved content, and helps you rediscover products, recipes, travel ideas, and other things you meant to revisit.",
+    "url": "https://techcrunch.com/2026/06/11/pools-new-app-turns-your-screenshots-into-a-searchable-memory-bank/",
+    "topic": "llm",
+    "date": "2026-06-11",
+    "fetched_date": "2026-06-12",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "DoorDash’s new AI chatbot lets you order with prompts and photos",
+    "abstract": "The new chatbot, called Ask DoorDash, allows users to search the app for what they're looking for in their own words instead of having to scroll through restaurants and stores to build a cart.",
+    "url": "https://techcrunch.com/2026/06/11/doordashs-new-ai-chatbot-lets-you-order-with-prompts-and-photos/",
+    "topic": "llm",
+    "date": "2026-06-11",
+    "fetched_date": "2026-06-12",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Open-box marketplace Rebel is now selling better-for-you snacks",
+    "abstract": "Open-box marketplace Rebel, which raised a $25 million Series B last November, is now getting into the snacks category. The new section launched with better-for-you, shelf-stable brands like MadeGood, Purely Elizabeth, Chomps and Annie's, at discounts of 12-70%.",
+    "url": "https://www.modernretail.co/operations/open-box-marketplace-rebel-is-now-selling-better-for-you-snacks/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-06-12",
+    "fetched_date": "2026-06-12",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Scenes from Walmart’s annual Associates Week and shareholder meeting",
+    "abstract": "Walmart is on a mission to prove that it has the latest, greatest and trendiest assortment, and that it can get it to you faster than anyone else. Last week, reporter Mitchell Parton flew down to the retailer's hometown of Bentonville, Arkansas for Associates Week, its annual shareholder meeting and event where it brings in thousands of employees from around the world. Here's what he found.",
+    "url": "https://www.modernretail.co/operations/scenes-from-walmarts-annual-associates-week-and-shareholder-meeting/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-06-11",
+    "fetched_date": "2026-06-12",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Marketplace Briefing: Online merchants welcome Trump customs crackdown amid wave of tariff evasion pitches",
+    "abstract": "Online merchants are encouraged by a new Trump administration effort to crack down on customs fraud after a surge in tariff evasion schemes rattled sellers over the past year.",
+    "url": "https://www.modernretail.co/operations/marketplace-briefing-online-merchants-welcome-trump-customs-crackdown-amid-wave-of-tariff-evasion-pitches/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-06-11",
+    "fetched_date": "2026-06-12",
+    "feed_name": "Modern Retail",
+    "source": "industry"
   }
 ]
