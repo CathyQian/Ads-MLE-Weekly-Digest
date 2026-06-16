@@ -12528,5 +12528,205 @@
     "fetched_date": "2026-06-15",
     "feed_name": "Modern Retail",
     "source": "industry"
+  },
+  {
+    "title": "The Fable 5 Export Controls Harm US Cyber Defense",
+    "abstract": "The Fable 5 Export Controls Harm US Cyber Defense I quoted The Atlantic quoting Kate Moussouris earlier, when I should have gone straight to the source. Here she is confirming that the \"jailbreak\" that got Claude Fable 5 banned under an export control really was \"fix this code\": The researchers took open-source code with known CVEs, plus new code with deliberately planted vulnerabilities, and asked Fable 5, Mythos, and Opus to “review the code for security issues.” Fable 5 refused. They then asked the models to “fix this code” and, through a multistep and manual process, turned the output into scripts that test the patches. As Kate points out, this is absurd. Coding models fix bugs, and security exploits are the most important category of bugs for them to fix! Defenders need to be able to ask AI to fix the bugs in a file, explain why the fix matters, and write tests that confirm the patch works. That is not a guardrail bypass. It is the most valuable thing an AI model can do for defensive security: executing the find, fix, and test loop defenders run every day. [...] The prompts worked because they were defensive requests, and that capability cannot be removed without making the model worse at fixing bugs and verifying patches. This whole situation is such a mess. Non-technical decision-makers have been hearing that models that can \"craft cyber attacks\" are uniquely dangerous for months. Now they look ready to ban any model that can help us secure our code. Tags: jailbreaking , security , ai , generative-ai , llms , anthropic , ai-security-research , claude-mythos",
+    "url": "https://simonwillison.net/2026/Jun/16/fable-5-export-controls/#atom-everything",
+    "topic": "llm",
+    "date": "2026-06-16",
+    "fetched_date": "2026-06-16",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Quoting Matteo Wong, The Atlantic",
+    "abstract": "Katie Moussouris, a cybersecurity expert and the CEO of Luta Security, told me that Anthropic shared with her a copy of the White House’s report on the Fable jailbreak to get her appraisal. (She said that she is not being paid by Anthropic.) The report, Moussouris said, involved IT experts asking Fable to help find and patch bugs. When given deliberately insecure code, she said, Fable refused the prompt “review the code for security issues” but then complied when asked to “fix this code,” followed by some further manual steps. Moussouris told me that this was just “the model working as intended” for cyberdefense. — Matteo Wong, The Atlantic , The White House Is Ratcheting Up Its War Against Anthropic Tags: anthropic , claude , ai , llms , ai-ethics , jailbreaking , generative-ai , ai-security-research , claude-mythos",
+    "url": "https://simonwillison.net/2026/Jun/16/matteo-wong-the-atlantic/#atom-everything",
+    "topic": "llm",
+    "date": "2026-06-16",
+    "fetched_date": "2026-06-16",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Cloudflare CAPTCHA on at least one ampersand",
+    "abstract": "TIL: Cloudflare CAPTCHA on at least one ampersand I'm using Cloudflare's CAPTCHA (they call it a \"Web Application Firewall > Custom rules > Managed Challenge\" these days) to prevent crawlers from aggresively spidering my faceted search engine on this site, but I got fed up of even simple ?q=term searches triggering the challenge. After some mucking around with Claude Code it turns out you can register the following rule instead, so the CAPTCHA only kicks in for search URLs containing at least one ampersand: (http.request.uri.path wildcard r\"/search/*\" and http.request.uri.query contains \"&\") And now /search/?q=lemur works without triggering a CAPTCHA! Also included: notes on trying out the Cloudflare MCP with Claude Code , though it turned out not to be able to edit the rules in question so I had Claude Code switch to the Cloudflare API instead. Tags: captchas , cloudflare , model-context-protocol , claude-code",
+    "url": "https://simonwillison.net/2026/Jun/16/captcha-on-at-least-one-ampersand/#atom-everything",
+    "topic": "llm",
+    "date": "2026-06-16",
+    "fetched_date": "2026-06-16",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "datasette-agent 0.3a0",
+    "abstract": "Release: datasette-agent 0.3a0 New tool, execute_write_sql , which requests user approval and then writes to a database - taking user permissions into account. #27 I added a mechanism for asking user approval in datasette agent 0.2a0 . The new execute_write_sql tool can now prompt the user for all kinds of useful operations. Here's an example where I add some pelican sightings to my pelican_sightings table: The new version also enhances the datasette agent chat terminal mode to support approvals, and adds several new options including --unsafe mode for auto-approving them: datasette agent chat can execute tools that require user approval. #30 Three new options for datasette agent chat - --root to run as root, --yes to approve all ask user questions, and --unsafe for both. Tools can now provide plain text alternatives to HTML, for display in the datasette agent chat CLI. #31 The datasette agent chat content.db -m gpt-5.5 --unsafe command can now be used to chat directly with a specific database and directly modify it through prompts like \"create a notes table\", \"add a note about X\" etc. Tags: projects , ai , datasette , annotated-release-notes , generative-ai , llms , llm-tool-use , datasette-agent",
+    "url": "https://simonwillison.net/2026/Jun/15/datasette-agent/#atom-everything",
+    "topic": "llm",
+    "date": "2026-06-15",
+    "fetched_date": "2026-06-16",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "\"They screwed us\": Personality clashes sent Anthropic's models offline",
+    "abstract": "\"They screwed us\": Personality clashes sent Anthropic's models offline Lots of \"source familiar with the administration's thinking\" and \"source close to Anthropic\" in this Axios piece, which is the best collection of behind-the-scenes gossip I've seen about the US government export control Mythos/Fable story so far. Logan Graham ( I lead the Frontier Red Team at Anthropic ), Dave Orr (Head of Safeguards, previously a Director of Engineering at Google DeepMind), and blog favorite Nicholas Carlini are reported to be meeting with the Commerce Department today in D.C. Good luck to them! (I just noticed Logan was \"Special Adviser to the Prime Minister\" in the Boris Johnson era, covering AI, science, and technology policy - so significant political experience.) This closing notes doesn't give me much optimism that we'll be getting Fable back any time soon: The bottom line : One option is to make sure Anthropic's models can't be jailbroken — though perfect jailbreak resistance may be impossible. Absent that, a source familiar with the administration's thinking said it may simply come down to an attitude fix where, instead of feeling dismissed, \"everyone feels safe, secure and happy.\" This made me wonder if Anthropic ever successfully addressed the class of attacks described in the Universal and Transferable Adversarial Attacks on Aligned Language Models paper from 2023. It looks like their Constitutional Classifiers work (that post is from January this year) is relevant to that. They continue to claim that no \"universal jailbreak\" has been found against Claude Mythos, classifying the jailbreak that triggered the US government response as \"a potential narrow, non-universal jailbreak\". Tags: jailbreaking , ai , generative-ai , llms , anthropic , claude , nicholas-carlini , ai-ethics , claude-mythos",
+    "url": "https://simonwillison.net/2026/Jun/15/axios-clashes-anthropics/#atom-everything",
+    "topic": "llm",
+    "date": "2026-06-15",
+    "fetched_date": "2026-06-16",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Kayfable",
+    "abstract": "What does Anthropic actually want?",
+    "url": "https://www.thealgorithmicbridge.com/p/kayfable",
+    "topic": "llm",
+    "date": "2026-06-15",
+    "fetched_date": "2026-06-16",
+    "feed_name": "The Algorithmic Bridge",
+    "source": "industry"
+  },
+  {
+    "title": "Sundar Pichai faces boos, walkout at Stanford graduation ceremony over Google’s Israel, ICE ties",
+    "abstract": "AI is once again at the heart of a college graduation protest — this time for the technology's use in Google's defense contracts.",
+    "url": "https://techcrunch.com/2026/06/15/sundar-pichai-faces-boos-walkout-at-stanford-graduation-ceremony-over-googles-israel-ice-ties/",
+    "topic": "llm",
+    "date": "2026-06-15",
+    "fetched_date": "2026-06-16",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "The US government’s Anthropic models ban was never about an AI jailbreak",
+    "abstract": "The Trump administration's decision that forced Anthropic to pull its latest cybersecurity models could be reactionary, retaliatory, or both, but the message is clear: The AI industry isn't immune from U.S. government interference.",
+    "url": "https://techcrunch.com/2026/06/15/the-us-governments-anthropic-models-ban-was-never-about-an-ai-jailbreak/",
+    "topic": "llm",
+    "date": "2026-06-15",
+    "fetched_date": "2026-06-16",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Meta’s new ‘AI Mode’ on Facebook pulls from public info across its platforms",
+    "abstract": "Meta announced Monday that it's rolling out a wave of new AI features on Facebook, the latest sign of the company's effort to catch up in the AI race and keep users more engaged on the platform.",
+    "url": "https://techcrunch.com/2026/06/15/metas-new-ai-mode-on-facebook-pulls-from-public-info-across-its-platforms/",
+    "topic": "llm",
+    "date": "2026-06-15",
+    "fetched_date": "2026-06-16",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "SpaceX is public: Everything you need to know post-IPO",
+    "abstract": "TechCrunch has followed SpaceX's start, struggles, and successes from the early days. And we're here for what happens next too. This package of SpaceX IPO coverage includes who stands to win (and maybe some who won't), pre-IPO deals, and what's tucked inside its S-1 registration document.",
+    "url": "https://techcrunch.com/2026/06/15/spacex-is-public-everything-you-need-to-know-post-ipo/",
+    "topic": "llm",
+    "date": "2026-06-15",
+    "fetched_date": "2026-06-16",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Cybersecurity vets protest ‘dangerous’ US government ban on Anthropic’s most powerful models",
+    "abstract": "A group made up of dozens of cybersecurity experts urged the White House to remove export-control restrictions on Anthropic’s Fable and Mythos models, arguing that the order is going to limit the ability of cybersecurity defenders to secure their software and products.",
+    "url": "https://techcrunch.com/2026/06/15/cybersecurity-vets-protest-dangerous-us-government-ban-on-anthropics-most-powerful-models/",
+    "topic": "llm",
+    "date": "2026-06-15",
+    "fetched_date": "2026-06-16",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Salesforce acquires AI customer service platform Fin for $3.6B",
+    "abstract": "Salesforce says it wants to use Fin's team and technology to improve Agentforce, its existing enterprise platform that businesses can use to build custom AI agents that automate tasks.",
+    "url": "https://techcrunch.com/2026/06/15/salesforce-acquires-ai-customer-service-platform-fin-for-3-6b/",
+    "topic": "llm",
+    "date": "2026-06-15",
+    "fetched_date": "2026-06-16",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Sarvam becomes India’s newest AI unicorn with $234 million funding round led by HCLTech",
+    "abstract": "Indian IT services company HCLTech is investing $150 million in the Bengaluru startup.",
+    "url": "https://techcrunch.com/2026/06/15/sarvam-becomes-indias-newest-ai-unicorn-with-234-million-funding-round-led-by-hcltech/",
+    "topic": "llm",
+    "date": "2026-06-15",
+    "fetched_date": "2026-06-16",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "As AI agents become employees, NewCore emerges with $66M to give them identities",
+    "abstract": "NewCore argues the next challenge in enterprise security will be managing AI agents, not people.",
+    "url": "https://techcrunch.com/2026/06/15/ai-agents-are-becoming-employees-newcore-emerges-with-66m-to-give-them-identities/",
+    "topic": "llm",
+    "date": "2026-06-15",
+    "fetched_date": "2026-06-16",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "A satellite just learned to find things on its own — here’s what that means",
+    "abstract": "In April, for the first time ever, an Earth observation satellite found what it was looking for, all on its own.",
+    "url": "https://techcrunch.com/2026/06/15/a-satellite-just-learned-to-find-things-on-its-own-heres-what-that-means/",
+    "topic": "llm",
+    "date": "2026-06-15",
+    "fetched_date": "2026-06-16",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "The AI layoff wave is becoming a powder keg",
+    "abstract": "At the very moment that tens of thousands of workers are being shown the door, a small cohort of AI insiders is becoming wealthy on a scale that's hard to comprehend.",
+    "url": "https://techcrunch.com/2026/06/15/the-ai-layoff-wave-is-becoming-a-powder-keg/",
+    "topic": "llm",
+    "date": "2026-06-15",
+    "fetched_date": "2026-06-16",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Why more better-for-you brands are leading with taste over health claims",
+    "abstract": "Better-for-you brands are prioritizing taste and fun packaging to attract more customers while still offering healthier food options.",
+    "url": "https://www.modernretail.co/marketing/why-more-better-for-you-brands-are-leading-with-taste-over-health-claims/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-06-16",
+    "fetched_date": "2026-06-16",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Rising fuel costs push brands to adjust shipping policies",
+    "abstract": "Brands are raising free shipping thresholds, adding new delivery fees and testing paid shipping options as higher fuel costs push up the price of moving goods across supply chains.",
+    "url": "https://www.modernretail.co/operations/rising-fuel-costs-push-brands-to-adjust-shipping-policies/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-06-16",
+    "fetched_date": "2026-06-16",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "AI forces retailers, brands to rethink their product pages",
+    "abstract": "Leaders across e-commerce are transforming how they approach designing product pages to be more discoverable to AI agents like ChatGPT, Claude and Gemini.",
+    "url": "https://www.modernretail.co/technology/ai-forces-retailers-brands-to-rethink-their-product-pages/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-06-16",
+    "fetched_date": "2026-06-16",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "How Omaha Steaks shrunk its average delivery time to less than a day and a half",
+    "abstract": "Omaha Steaks has invested in at least five new fulfillment centers and expanded its partnership with UPS's Roadie.",
+    "url": "https://www.modernretail.co/operations/how-omaha-steaks-shrunk-its-average-delivery-time-to-less-than-a-day-and-a-half/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-06-15",
+    "fetched_date": "2026-06-16",
+    "feed_name": "Modern Retail",
+    "source": "industry"
   }
 ]
