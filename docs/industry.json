@@ -12728,5 +12728,315 @@
     "fetched_date": "2026-06-16",
     "feed_name": "Modern Retail",
     "source": "industry"
+  },
+  {
+    "title": "Predicting model behavior before release by simulating deployment",
+    "abstract": "OpenAI introduces Deployment Simulation, a method to predict AI model behavior before deployment using real conversation data to improve safety and evaluation accuracy.",
+    "url": "https://openai.com/index/deployment-simulation",
+    "topic": "llm",
+    "date": "2026-06-16",
+    "fetched_date": "2026-06-17",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Agentic coding and persistent returns to expertise",
+    "abstract": "",
+    "url": "https://www.anthropic.com/research/claude-code-expertise",
+    "topic": "llm",
+    "date": "2026-06-16",
+    "fetched_date": "2026-06-17",
+    "feed_name": "Anthropic Research",
+    "source": "industry"
+  },
+  {
+    "title": "Unlocking UK house-building with AI-accelerated planning",
+    "abstract": "UK government partners with Google DeepMind to build a new AI-powered prototype aimed at faster housing decisions.",
+    "url": "https://deepmind.google/blog/unlocking-uk-house-building-with-ai-accelerated-planning/",
+    "topic": "generative-ai",
+    "date": "2026-06-16",
+    "fetched_date": "2026-06-17",
+    "feed_name": "DeepMind Blog",
+    "source": "industry"
+  },
+  {
+    "title": "NetNewsWire Status",
+    "abstract": "NetNewsWire Status I find this inspiring. Brent Simmons retired a year ago, and his retirement project is making one piece of software really, really good - free from any commercial pressure. The software is NetNewsWire, first released in 2002 and made open source in 2018. I've been using it on Mac and iPhone for several years now and I'm finding it indispensable. Via Lobste.rs Tags: brent-simmons , netnewswire , open-source",
+    "url": "https://simonwillison.net/2026/Jun/17/netnewswire-status/#atom-everything",
+    "topic": "llm",
+    "date": "2026-06-17",
+    "fetched_date": "2026-06-17",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "datasette-tailscale 0.1a0",
+    "abstract": "Release: datasette-tailscale 0.1a0 A very experimental alpha plugin which lets you do this: datasette tailscale mydata.db \\ --ts-authkey tskey-auth-xxxx --ts-hostname datasette-preview This starts a localhost Datasette server with a Tailscale sidecar that connects it to your Tailnet, such that http://datasette-preview/ serves Datasette. It's using the Python bindings for the experimental tailscale-rs library. I filed an issue asking if there's a cleaner way of setting up the proxy mechanism. Tags: datasette , tailscale",
+    "url": "https://simonwillison.net/2026/Jun/16/datasette-tailscale/#atom-everything",
+    "topic": "llm",
+    "date": "2026-06-16",
+    "fetched_date": "2026-06-17",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Quoting Georgi Gerganov",
+    "abstract": "I can 100% attest to the fact that Qwen3.6-27B is a very capable local model for coding tasks. Over the last month and a half I've been using it almost daily, either on my M2 Ultra or on my RTX 5090 box. I use it for small mundane tasks at ggml-org - nothing really impressive, but definitely a helpful tool for a maintainer. I think I would be using it much more, if I didn't have to spend a lot of my time on reviewing PRs. Currently, I have a very lightweight harness - the pi agent with everything stripped ( pi -nc --offline ) and a short system prompt to align it a bit with my style. — Georgi Gerganov , Hacker News comment on Running local models is good now by Boykis Tags: georgi-gerganov , llms , ai , generative-ai , pi , ai-assisted-programming , local-llms , qwen , coding-agents",
+    "url": "https://simonwillison.net/2026/Jun/16/georgi-gerganov/#atom-everything",
+    "topic": "llm",
+    "date": "2026-06-16",
+    "fetched_date": "2026-06-17",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Anthropic’s latest feud with the Trump admin may actually help it, sales data suggests",
+    "abstract": "Anthropic's popularity with business users is growing so well that the latest beef with the government might actually boost it, data from Ramp suggests.",
+    "url": "https://techcrunch.com/2026/06/16/anthropics-latest-feud-with-the-trump-admin-may-actually-help-it-sales-data-suggests/",
+    "topic": "llm",
+    "date": "2026-06-16",
+    "fetched_date": "2026-06-17",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "SpaceX valuation balloons to $2.6T, briefly passes Amazon",
+    "abstract": "SpaceX's valuation has increased by $1 trillion since its shares started trading on Friday.",
+    "url": "https://techcrunch.com/2026/06/16/spacex-valuation-balloons-to-2-6t-briefly-passes-amazon/",
+    "topic": "llm",
+    "date": "2026-06-16",
+    "fetched_date": "2026-06-17",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Android 17 launches with new multitasking tools as Google expands Gemini features",
+    "abstract": "Google has released Android 17 and Wear OS 7, introducing new multitasking features, parental controls, security tools, and smartwatch upgrades. The launch is also accompanied by a Pixel Drop that brings Google’s latest AI models to its devices.",
+    "url": "https://techcrunch.com/2026/06/16/android-17-launches-with-new-multitasking-tools-as-google-expands-gemini-features/",
+    "topic": "llm",
+    "date": "2026-06-16",
+    "fetched_date": "2026-06-17",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Sixty percent of US consumers say ‘AI’ in brand messaging is a turnoff, survey finds",
+    "abstract": "WordPress VIP’s latest survey suggests consumers are wary of AI-generated answers even as companies increasingly view AI search as an important referral channel.",
+    "url": "https://techcrunch.com/2026/06/16/sixty-percent-of-u-s-consumers-say-ai-in-brand-messaging-is-a-turnoff-survey-finds/",
+    "topic": "llm",
+    "date": "2026-06-16",
+    "fetched_date": "2026-06-17",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "SpaceX is public: Everything you need to know post-IPO",
+    "abstract": "TechCrunch has followed SpaceX's start, struggles, and successes from the early days. And we're here for what happens next too. This package of SpaceX IPO coverage includes who stands to win (and maybe some who won't), pre-IPO deals, and what's tucked inside its S-1 registration document.",
+    "url": "https://techcrunch.com/2026/06/16/spacex-is-public-everything-you-need-to-know-post-ipo/",
+    "topic": "llm",
+    "date": "2026-06-16",
+    "fetched_date": "2026-06-17",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "DOJ claims xAI’s unpermitted gas turbines are a matter of ‘national, economic, and energy security’",
+    "abstract": "The Justice department says the Pentagon needs xAI to keep using its unpermitted gas turbines.",
+    "url": "https://techcrunch.com/2026/06/16/doj-claims-xais-unpermitted-gas-turbines-are-a-matter-of-national-economic-and-energy-security/",
+    "topic": "llm",
+    "date": "2026-06-16",
+    "fetched_date": "2026-06-17",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Plaud says its software business topped $100M in ARR after shipping over 2M AI notetakers",
+    "abstract": "Plaud is trying to make a mark in a crowded market full of AI-powered meeting notetakers.",
+    "url": "https://techcrunch.com/2026/06/16/plaud-says-its-software-business-topped-100m-in-arr-after-shipping-over-2m-ai-notetakers/",
+    "topic": "llm",
+    "date": "2026-06-16",
+    "fetched_date": "2026-06-17",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Robinhood’s note on 10% layoffs shows blaming AI isn’t cutting it",
+    "abstract": "Unlike many of his tech industry peers who have cut thousands of jobs citing the need to restructure to make the most of AI, Robinhood's CEO Vlad Tenev conspicuously made no mention of AI in his note about layoffs.",
+    "url": "https://techcrunch.com/2026/06/16/robinhoods-note-on-10-layoffs-shows-blaming-ai-isnt-cutting-it/",
+    "topic": "llm",
+    "date": "2026-06-16",
+    "fetched_date": "2026-06-17",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Probably raises $9M to build a more reliable kind of AI",
+    "abstract": "Probably wants to prevent hallucinations and factual errors from reaching users, and achieve accuracy on par with deterministic systems.",
+    "url": "https://techcrunch.com/2026/06/16/probably-raises-9m-to-build-a-more-reliable-kind-of-ai/",
+    "topic": "llm",
+    "date": "2026-06-16",
+    "fetched_date": "2026-06-17",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "SpaceX to acquire Cursor for $60B in stock, days after blockbuster IPO",
+    "abstract": "The deal is supposed to help SpaceX's struggling AI division. The company told IPO investors it sees a $26 trillion addressable market in AI.",
+    "url": "https://techcrunch.com/2026/06/16/spacex-to-acquire-cursor-for-60b-in-stock-days-after-blockbuster-ipo/",
+    "topic": "llm",
+    "date": "2026-06-16",
+    "fetched_date": "2026-06-17",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "ChatGPT’s market share slips below 50% for first time",
+    "abstract": "The chatbot still remains the most popular AI assistant worldwide with over 1.1 billion monthly users, followed by Gemini with 662 million and Claude with 245 million.",
+    "url": "https://techcrunch.com/2026/06/16/chatgpts-market-share-slips-below-50-for-first-time/",
+    "topic": "llm",
+    "date": "2026-06-16",
+    "fetched_date": "2026-06-17",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Malaysia’s AI agent-powered messaging app Respond.io raises $62.5M, eyes acquisitions",
+    "abstract": "Respond.io, one of Malaysia's startups to watch, uses AI agents to handle high volumes of customer inquiries and charges per convo, not per seat.",
+    "url": "https://techcrunch.com/2026/06/15/malaysias-respond-io-raises-62-5m-eyes-acquisitions-in-north-america-and-europe/",
+    "topic": "llm",
+    "date": "2026-06-16",
+    "fetched_date": "2026-06-17",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "From Scoring to Spelling: Rebuilding Ads Retrieval at Instacart",
+    "abstract": "",
+    "url": "https://tech.instacart.com/from-scoring-to-spelling-rebuilding-ads-retrieval-at-instacart-cf36b4e8d1bb?source=rss----587883b5d2ee---4",
+    "topic": "ml-engineering",
+    "date": "2026-06-02",
+    "fetched_date": "2026-06-17",
+    "feed_name": "Instacart Tech",
+    "source": "industry"
+  },
+  {
+    "title": "Semantic IDs: Product Understanding at Scale",
+    "abstract": "",
+    "url": "https://tech.instacart.com/semantic-ids-product-understanding-at-scale-5283e0288f5a?source=rss----587883b5d2ee---4",
+    "topic": "ml-engineering",
+    "date": "2026-06-02",
+    "fetched_date": "2026-06-17",
+    "feed_name": "Instacart Tech",
+    "source": "industry"
+  },
+  {
+    "title": "How AI Changes the Role of Applied Scientists",
+    "abstract": "",
+    "url": "https://tech.instacart.com/how-ai-changes-the-role-of-applied-scientists-895192d5e114?source=rss----587883b5d2ee---4",
+    "topic": "ml-engineering",
+    "date": "2026-05-22",
+    "fetched_date": "2026-06-17",
+    "feed_name": "Instacart Tech",
+    "source": "industry"
+  },
+  {
+    "title": "Scaling Personalized Marketing for Multi-Tenant Commerce Platforms",
+    "abstract": "",
+    "url": "https://tech.instacart.com/scaling-personalized-marketing-for-multi-tenant-commerce-platforms-816f0c6a046b?source=rss----587883b5d2ee---4",
+    "topic": "ml-engineering",
+    "date": "2026-05-14",
+    "fetched_date": "2026-06-17",
+    "feed_name": "Instacart Tech",
+    "source": "industry"
+  },
+  {
+    "title": "Empowering Carrot Ads with Domain Adaptive Learning",
+    "abstract": "",
+    "url": "https://tech.instacart.com/empowering-carrot-ads-with-domain-adaptive-learning-870730e6add5?source=rss----587883b5d2ee---4",
+    "topic": "ml-engineering",
+    "date": "2026-05-04",
+    "fetched_date": "2026-06-17",
+    "feed_name": "Instacart Tech",
+    "source": "industry"
+  },
+  {
+    "title": "Our Early Journey to Transform Instacart’s Discovery Recommendations with LLMs",
+    "abstract": "",
+    "url": "https://tech.instacart.com/our-early-journey-to-transform-instacarts-discovery-recommendations-with-llms-cf4591a8602b?source=rss----587883b5d2ee---4",
+    "topic": "ml-engineering",
+    "date": "2026-02-26",
+    "fetched_date": "2026-06-17",
+    "feed_name": "Instacart Tech",
+    "source": "industry"
+  },
+  {
+    "title": "Turning Data into Velocity: Caper’s Edge and Cloud Data Flywheel with Capsight",
+    "abstract": "",
+    "url": "https://tech.instacart.com/turning-data-into-velocity-capers-edge-and-cloud-data-flywheel-with-capsight-544a49ca3db7?source=rss----587883b5d2ee---4",
+    "topic": "ml-engineering",
+    "date": "2026-02-17",
+    "fetched_date": "2026-06-17",
+    "feed_name": "Instacart Tech",
+    "source": "industry"
+  },
+  {
+    "title": "From print to digital: Making weekly flyers shoppable at Instacart through computer vision and LLMs",
+    "abstract": "",
+    "url": "https://tech.instacart.com/from-print-to-digital-making-weekly-flyers-shoppable-at-instacart-through-computer-vision-and-llms-739cae1f5629?source=rss----587883b5d2ee---4",
+    "topic": "ml-engineering",
+    "date": "2026-02-09",
+    "fetched_date": "2026-06-17",
+    "feed_name": "Instacart Tech",
+    "source": "industry"
+  },
+  {
+    "title": "Migrating to Jetpack Compose",
+    "abstract": "",
+    "url": "https://tech.instacart.com/migrating-to-jetpack-compose-587e912ca858?source=rss----587883b5d2ee---4",
+    "topic": "ml-engineering",
+    "date": "2026-02-03",
+    "fetched_date": "2026-06-17",
+    "feed_name": "Instacart Tech",
+    "source": "industry"
+  },
+  {
+    "title": "Building The Intent Engine: How Instacart is Revamping Query Understanding with LLMs",
+    "abstract": "",
+    "url": "https://tech.instacart.com/building-the-intent-engine-how-instacart-is-revamping-query-understanding-with-llms-3ac8051ae7ac?source=rss----587883b5d2ee---4",
+    "topic": "ml-engineering",
+    "date": "2025-11-13",
+    "fetched_date": "2026-06-17",
+    "feed_name": "Instacart Tech",
+    "source": "industry"
+  },
+  {
+    "title": "GoDaddy Annual Cybersecurity Report: Website Malware Threat Landscape",
+    "abstract": "Executive summary The 2025 threat landscape was characterized by notable evolution: long-running campaigns that dominated for years suddenly disappeared, more threat actors started using ClickFix style social engineering tactics, and many major malware campaigns shifted toward using stolen credentials as their primary attack vector. These changes reflect attackers’ strategic adaptation to shifting economic incentives and […] The post GoDaddy Annual Cybersecurity Report: Website Malware Threat Landscape appeared first on GoDaddy Blog .",
+    "url": "https://www.godaddy.com/resources/news/godaddy-annual-cybersecurity-report",
+    "topic": "ml-engineering",
+    "date": "2026-06-16",
+    "fetched_date": "2026-06-17",
+    "feed_name": "GoDaddy Engineering",
+    "source": "industry"
+  },
+  {
+    "title": "260 Sample Sale sees foot traffic jump as luxury customers seek value",
+    "abstract": "260 Sample Sale, which holds sample sales for Balmain and Diane von Furstenberg, is seeing increased demand from brands and customers alike.",
+    "url": "https://www.modernretail.co/marketing/260-sample-sale-sees-foot-traffic-jump-as-luxury-customers-seek-value/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-06-17",
+    "fetched_date": "2026-06-17",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Brands Briefing: Anthropologie’s tabletop games play",
+    "abstract": "Anthropologie has seen a spike in sales for games like backgammon, mancala and mahjong as consumers seek out tactile, offline experiences.",
+    "url": "https://www.modernretail.co/operations/brands-briefing-anthropologies-table-top-games-play/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-06-16",
+    "fetched_date": "2026-06-17",
+    "feed_name": "Modern Retail",
+    "source": "industry"
   }
 ]
