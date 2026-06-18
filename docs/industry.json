@@ -13038,5 +13038,295 @@
     "fetched_date": "2026-06-17",
     "feed_name": "Modern Retail",
     "source": "industry"
+  },
+  {
+    "title": "A near-autonomous AI chemist improves a challenging reaction in medicinal chemistry",
+    "abstract": "OpenAI and Molecule.one show how a near-autonomous AI chemist using GPT-5.4 improved a key drug-making reaction, advancing medicinal chemistry research.",
+    "url": "https://openai.com/index/ai-chemist-improves-reaction",
+    "topic": "llm",
+    "date": "2026-06-17",
+    "fetched_date": "2026-06-18",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Introducing LifeSciBench",
+    "abstract": "Introducing LifeSciBench, an expert-authored, expert-reviewed benchmark for evaluating how AI systems handle real-world life science research tasks and decisions.",
+    "url": "https://openai.com/index/introducing-life-sci-bench",
+    "topic": "llm",
+    "date": "2026-06-17",
+    "fetched_date": "2026-06-18",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "MolmoMotion: Language-guided 3D motion forecasting",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/allenai/molmomotion",
+    "topic": "llm",
+    "date": "2026-06-17",
+    "fetched_date": "2026-06-18",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "From the Hugging Face Hub to robot hardware with Strands Agents and LeRobot",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/amazon/strands-lerobot-hub-to-hardware",
+    "topic": "llm",
+    "date": "2026-06-17",
+    "fetched_date": "2026-06-18",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "GLM-5.2: Built for Long-Horizon Tasks",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/zai-org/glm-52-blog",
+    "topic": "llm",
+    "date": "2026-06-17",
+    "fetched_date": "2026-06-18",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Agentic Resource Discovery: Let agents search",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/agentic-resource-discovery-launch",
+    "topic": "llm",
+    "date": "2026-06-17",
+    "fetched_date": "2026-06-18",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "GLM-5.2 is probably the most powerful text-only open weights LLM",
+    "abstract": "Chinese AI lab Z.ai released GLM-5.2 to their coding plan subscribers on June 13th, and then yesterday (June 16th) released the full open weights under an MIT license. Similar in size to their previous GLM-5 and GLM-5.1 releases, this is 753B parameter, 1.51TB monster - with 40 active parameters (Mixture of Experts). GLM-5.2 is a text input only model - Z.ai have a separate vision family most recently represented by GLM-5V-Turbo , but that one isn't open weights. GLM-5.2 has a 1 million token context window, up from GLM-5.1's 200,000. The buzz around this model is strong. Artificial Analysis, who run one of the most widely respected independent benchmarks: GLM-5.2 is the new leading open weights model on the Artificial Analysis Intelligence Index . GLM-5.2 is the leading open weights model on the Intelligence Index v4.1. At 51, it leads MiniMax-M3 (44), DeepSeek V4 Pro (max, 44) and Kimi K2.6 (43) They did however find it to be quite token-hungry: GLM-5.2 uses more output tokens per task than other leading open weights models: the model uses 43k output tokens per Intelligence Index task, up from GLM-5.1 (26k) and above MiniMax-M3 (24k), Kimi K2.6 (35k) and DeepSeek V4 Pro (max, 37k) The model is also now ranked 2nd on the Code Arena WebDev leaderboard , behind only Claude Fable 5. That leaderboard measures \"front-end web development tasks, including agentic coding workflows\". I'm impressed to see it rank so highly given the lack of image input, which I had incorrectly assumed was a key part of building a truly great frontend coding model. I've been trying it out via OpenRouter , which has it from 9 different providers, almost all of which are charging $1.40/million for input and $4.40/million for output. For comparison, GPT-5.5 is $5/$30 and Claude Opus 4.5-4.8 is $5/$25. Excellent pelican, disappointing opossum GLM-5.1 gave me one of my favorite pelicans and my all time favorite opossum (for the prompt \"Generate an SVG of a NORTH VIRGINIA OPOSSUM ON AN E-SCOOTER\".) Interestingly, in both of those cases the model chose to return SVG wrapped in an HTML document that added additional animations using CSS. Let's try GLM-5.2. For \"Generate an SVG of a pelican riding a bicycle\" I got this : It's a self-contained fully animated SVG, and the animations aren't broken! Often I'll see eyes falling off or wheels rotating independently of the bicycle but here everything works great. It's a very nice vector illustration of a pelican too. Very impressive. Sadly, the NORTH VIRGINIA OPOSSUM ON AN E-SCOOTER did not come out nearly as well : This is such a step down from GLM-5.1! As a reminder, that possum looked like this: 5.2 didn't even try to animate it. Tags: ai , generative-ai , llms , pelican-riding-a-bicycle , llm-release , openrouter , ai-in-china , glm",
+    "url": "https://simonwillison.net/2026/Jun/17/glm-52/#atom-everything",
+    "topic": "llm",
+    "date": "2026-06-17",
+    "fetched_date": "2026-06-18",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Quoting Charity Majors",
+    "abstract": "What happened in 2025 was this: the economics of code production were turned upside down . Instead of being very hard, time-consuming, and expensive to generate code, it became effectively free and instant. Lines of code went from being treasured, reused, cared for and carefully curated, to being disposable and regenerable, practically overnight. — Charity Majors , AI demands more engineering discipline. Not less Tags: charity-majors , ai-assisted-programming , generative-ai , ai , llms",
+    "url": "https://simonwillison.net/2026/Jun/17/charity-majors/#atom-everything",
+    "topic": "llm",
+    "date": "2026-06-17",
+    "fetched_date": "2026-06-18",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "<click-to-play> — a still that plays",
+    "abstract": "Tool: <click-to-play> — a still that plays A progressive enchantment Web Component that turns this markup: <click-to-play> <a href=\"URL to GIF\"> <img src=\"URL to first frame\" alt=\"...\"> </a> </click-to-play> Into a still frame with a click to play button which loads the GIF on demand. For when you don't want big GIFs to be loaded unless people want to play them. Here's an example that demonstrates the new row editing tools in Datasette - in fact I built this Web Component for that post. Tags: gif , javascript , progressive-enhancement , web-components",
+    "url": "https://simonwillison.net/2026/Jun/17/click-to-play-component/#atom-everything",
+    "topic": "llm",
+    "date": "2026-06-17",
+    "fetched_date": "2026-06-18",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "How to Be Irreplaceable",
+    "abstract": "Don't let AI flatten your uniqueness",
+    "url": "https://www.thealgorithmicbridge.com/p/how-to-be-irreplaceable",
+    "topic": "llm",
+    "date": "2026-06-17",
+    "fetched_date": "2026-06-18",
+    "feed_name": "The Algorithmic Bridge",
+    "source": "industry"
+  },
+  {
+    "title": "How to turn off AI in your Google Docs",
+    "abstract": "Here's what you need to do to get those pesky \"write with Gemini\" pop-ups to go away.",
+    "url": "https://techcrunch.com/2026/06/17/how-to-turn-off-ai-in-your-google-docs/",
+    "topic": "llm",
+    "date": "2026-06-18",
+    "fetched_date": "2026-06-18",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Roelof Botha joins SpaceX’s board of directors",
+    "abstract": "The former Sequoia Capital leader is filling an \"existing vacancy\" on SpaceX's board, days after the company went public in the largest IPO ever.",
+    "url": "https://techcrunch.com/2026/06/17/roelof-botha-joins-spacexs-board-of-directors/",
+    "topic": "llm",
+    "date": "2026-06-17",
+    "fetched_date": "2026-06-18",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "After unveiling ridiculously expensive AR glasses, Snap’s stock takes a dive",
+    "abstract": "Snap's long-awaited smart glasses debut hasn't exactly done wonders for the company's stock.",
+    "url": "https://techcrunch.com/2026/06/17/after-unveiling-ridiculously-expensive-ar-glasses-snaps-stock-takes-a-dive/",
+    "topic": "llm",
+    "date": "2026-06-17",
+    "fetched_date": "2026-06-18",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "NEA’s Tiffany Luck says enterprises are still figuring out their AI ROI",
+    "abstract": "Tokenmaxxing was the hottest trend in Silicon Valley earlier this year, with CEOs encouraging employees to push AI usage as far as it would go. Then the bill came due. Uber reportedly blew through its annual AI budget in a few months, some companies cut Claude licenses for parts of their org, and Meta killed its internal leaderboard. This tension between […]",
+    "url": "https://techcrunch.com/video/neas-tiffany-luck-says-enterprises-are-still-figuring-out-their-ai-roi/",
+    "topic": "llm",
+    "date": "2026-06-17",
+    "fetched_date": "2026-06-18",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "World leaders want American AI. They just don’t want America to be able to turn it off.",
+    "abstract": "French President Macron and Indian PM Modi raised alarms at the G7 summit that the U.S. could cut off access to American AI overnight — a fear the Anthropic blackout just made real.",
+    "url": "https://techcrunch.com/2026/06/17/world-leaders-want-american-ai-they-just-dont-want-america-to-be-able-to-turn-it-off/",
+    "topic": "llm",
+    "date": "2026-06-17",
+    "fetched_date": "2026-06-18",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Anthropic becomes first AI startup to join the Frontier carbon removal coalition",
+    "abstract": "Anthropic has joined the Frontier coalition, which received another $915M in pledges to fund carbon removal projects.",
+    "url": "https://techcrunch.com/2026/06/17/anthropic-becomes-first-ai-startup-to-join-the-frontier-carbon-removal-coalition/",
+    "topic": "llm",
+    "date": "2026-06-17",
+    "fetched_date": "2026-06-18",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Social media’s next evolution: user-controlled algorithms",
+    "abstract": "Social media feeds are becoming more customizable as platforms like Threads, Instagram, and TikTok introduce tools that let users directly influence the algorithms powering their recommendations.",
+    "url": "https://techcrunch.com/2026/06/17/social-medias-next-evolution-user-controlled-algorithms/",
+    "topic": "llm",
+    "date": "2026-06-17",
+    "fetched_date": "2026-06-18",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "NEA’s Tiffany Luck on AI IPOs, personal agents, and the ROI reckoning",
+    "abstract": "Tokenmaxxing was the hottest trend in Silicon Valley earlier this year, with CEOs encouraging employees to push AI usage as far as it would go. Then the bill came due. Uber reportedly blew through its annual AI budget in a few months, some companies cut Claude licenses for parts of their org, and Meta killed its internal leaderboard. This tension between […]",
+    "url": "https://techcrunch.com/podcast/neas-tiffany-luck-on-ai-ipos-personal-agents-and-the-roi-reckoning/",
+    "topic": "llm",
+    "date": "2026-06-17",
+    "fetched_date": "2026-06-18",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "World model maker Odyssey nabs $1.45B valuation backed by Amazon and other big names",
+    "abstract": "World models are the next big thing in AI beyond LLMs and, with this round, Odyssey has cemented itself as one of the startups to watch.",
+    "url": "https://techcrunch.com/2026/06/17/world-model-maker-odyssey-nabs-1-45b-valuation-backed-by-amazon-and-other-big-names/",
+    "topic": "llm",
+    "date": "2026-06-17",
+    "fetched_date": "2026-06-18",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Only 16 percent of Americans think AI will have a positive impact on society, a new study shows",
+    "abstract": "Although Wall Street loves AI, every day Americans are significantly less optimistic about the industry, a new report from Pew Research shows.",
+    "url": "https://techcrunch.com/2026/06/17/only-16-percent-of-americans-think-ai-will-have-a-positive-impact-on-society-a-new-study-shows/",
+    "topic": "llm",
+    "date": "2026-06-17",
+    "fetched_date": "2026-06-18",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Google bets on Gemini to reinvent the smart home speaker",
+    "abstract": "Google is betting generative AI can breathe new life into the smart speaker. The company's new $99.99 Google Home Speaker replaces the rigid commands of the Google Assistant era with more conversational Gemini interactions.",
+    "url": "https://techcrunch.com/2026/06/17/google-bets-on-gemini-to-reinvent-the-smart-home-speaker/",
+    "topic": "llm",
+    "date": "2026-06-17",
+    "fetched_date": "2026-06-18",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "The slowtech revolution is here to kill your phone addiction and rescue your attention span",
+    "abstract": "“People just really want to take back control of their time, their lives, their attention... They’re down for whatever helps them do that.”",
+    "url": "https://techcrunch.com/2026/06/17/the-slowtech-revolution-is-here-to-kill-your-phone-addiction-and-rescue-your-attention-span/",
+    "topic": "llm",
+    "date": "2026-06-17",
+    "fetched_date": "2026-06-18",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Collecting robot training data is dirty, unglamorous work. Some AI labs are already paying XDOF to do it.",
+    "abstract": "If physical AI is going to match the accomplishments of LLMs, there's a data problem that needs to be solved.",
+    "url": "https://techcrunch.com/2026/06/17/collecting-robot-training-data-is-dirty-unglamorous-work-some-ai-labs-are-already-paying-xdof-to-do-it/",
+    "topic": "llm",
+    "date": "2026-06-17",
+    "fetched_date": "2026-06-18",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Pramaana Labs raises $27M seed round from Khosla Ventures to bring formal verification to AI",
+    "abstract": "Pramaana will focus on highly sensitive verticals like law, drug discovery, and tax preparation — where errors can be costly and reliability is at a premium.",
+    "url": "https://techcrunch.com/2026/06/17/pramaana-labs-raises-27-million-seed-round-from-khosla-ventures-to-bring-formal-verification-to-ai/",
+    "topic": "llm",
+    "date": "2026-06-17",
+    "fetched_date": "2026-06-18",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Canadian pension giant joins race to fund India’s AI-fueled data center boom",
+    "abstract": "The Canadian pension giant will acquire an 8.2% stake in CtrlS, a tech giant that operates more than 15 data centers across India.",
+    "url": "https://techcrunch.com/2026/06/17/canadian-pension-giant-joins-race-to-fund-indias-ai-fueled-data-center-boom/",
+    "topic": "llm",
+    "date": "2026-06-17",
+    "fetched_date": "2026-06-18",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "DeepL acquires Mixhalo for live-event audio streaming and translation",
+    "abstract": "With this acquisition, DeepL is opening an office in San Francisco to expand its U.S. business.",
+    "url": "https://techcrunch.com/2026/06/17/deepl-acquires-mixhalo-for-live-event-audio-streaming-and-translation/",
+    "topic": "llm",
+    "date": "2026-06-17",
+    "fetched_date": "2026-06-18",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Pinterest launches an experimental AI shopping app called ‘Ask Pinterest’",
+    "abstract": "Pinterest has launched 'Ask Pinterest,' an experimental AI-powered shopping app that lets users seek recommendations and inspiration through a conversational interface.",
+    "url": "https://techcrunch.com/2026/06/17/pinterest-launches-an-experimental-ai-shopping-app-called-ask-pinterest/",
+    "topic": "llm",
+    "date": "2026-06-17",
+    "fetched_date": "2026-06-18",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Faire opens its marketplace up to hotels, offices and non-retail customers",
+    "abstract": "Faire is growing beyond boutiques by allowing business buyers to use the platform for their own purposes, like stocking mini bars, for client gifts or for front desk amenities.",
+    "url": "https://www.modernretail.co/operations/faire-opens-its-marketplace-up-to-hotels-offices-and-non-retail-customers/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-06-18",
+    "fetched_date": "2026-06-18",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "How brands like Goldbelly, Chobani and Xochitl are showing up for America 250",
+    "abstract": "Expect more limited-edition red, white and blue packaging on retail shelves this summer, as brands turn out to celebrate America 250. Brand leaders at Xochitl, Goldbelly and more spoke with Modern Retail about why they are turning out for the occasion and what purpose they think America 250-themed products serve.",
+    "url": "https://www.modernretail.co/marketing/how-brands-like-goldbelly-chobani-and-xochitl-are-showing-up-for-america-250/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-06-18",
+    "fetched_date": "2026-06-18",
+    "feed_name": "Modern Retail",
+    "source": "industry"
   }
 ]
