@@ -13558,5 +13558,85 @@
     "fetched_date": "2026-06-19",
     "feed_name": "Modern Retail",
     "source": "industry"
+  },
+  {
+    "title": "Quoting Sean Lynch",
+    "abstract": "The real valuable capability MCP offers over skills/CLI is isolating the auth flow outside of the agent’s context window, and potentially out of the harness completely. [...] Maybe the idealized form of MCP is just an auth gateway for the API and nothing else. That’d still be a win. — Sean Lynch , comment on Hacker News Tags: model-context-protocol , llms , ai , generative-ai , skills",
+    "url": "https://simonwillison.net/2026/Jun/19/sean-lynch/#atom-everything",
+    "topic": "llm",
+    "date": "2026-06-19",
+    "fetched_date": "2026-06-20",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "From PGP to Mythos: a brief history of export controls that didn’t stop anyone",
+    "abstract": "For the last 30 years, stopping the flow of cybersecurity-related software has proven to be ineffective. It's unclear why it would work now with Anthropic’s cybersecurity model Mythos.",
+    "url": "https://techcrunch.com/2026/06/19/encryption-spyware-and-now-mythos-history-shows-why-cyber-export-control-doesnt-work/",
+    "topic": "llm",
+    "date": "2026-06-19",
+    "fetched_date": "2026-06-20",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Is the US government’s Anthropic ban accidentally helping the brand?",
+    "abstract": "Just as last week was ending, the US government forced Anthropic to pull its two newest models, Fable 5 and Mythos 5, citing national security concerns after Amazon researchers allegedly found a way to bypass Fable 5’s guardrails. Cybersecurity researchers have since signed an open letter calling the move dangerous, and Anthropic itself noted the same jailbreaks exist in other models. So is […]",
+    "url": "https://techcrunch.com/video/is-the-us-governments-anthropic-ban-accidentally-helping-the-brand/",
+    "topic": "llm",
+    "date": "2026-06-19",
+    "fetched_date": "2026-06-20",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "The US banned Anthropic’s Fable 5 release, but the numbers don’t seem to care",
+    "abstract": "Just as last week was ending, the US government forced Anthropic to pull its two newest models, Fable 5 and Mythos 5, citing national security concerns after Amazon researchers allegedly found a way to bypass Fable 5’s guardrails. Cybersecurity researchers have since signed an open letter calling the move dangerous, and Anthropic itself noted the same jailbreaks exist in other models. So is […]",
+    "url": "https://techcrunch.com/podcast/the-us-banned-anthropics-fable-5-release-but-the-numbers-dont-seem-to-care/",
+    "topic": "llm",
+    "date": "2026-06-19",
+    "fetched_date": "2026-06-20",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Billionaire Ambani wants AI in every call, app, and home",
+    "abstract": "Reliance is weaving AI into telecom services used by more than 500 million people.",
+    "url": "https://techcrunch.com/2026/06/19/billionaire-ambani-wants-ai-in-every-call-app-and-home/",
+    "topic": "llm",
+    "date": "2026-06-19",
+    "fetched_date": "2026-06-20",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "The CEO of Allbirds’ new AI biz has a plan, but no team",
+    "abstract": "Call it a startup with a sole founder and a very large seed round, but what's next is less clear.",
+    "url": "https://techcrunch.com/2026/06/19/the-ceo-of-allbirds-new-ai-biz-has-a-plan-but-no-employees/",
+    "topic": "llm",
+    "date": "2026-06-19",
+    "fetched_date": "2026-06-20",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "The US says ASML’s top chip tool may be in China, but how?",
+    "abstract": "There's a commercial logic that cuts against the idea that ASML would risk its export license to arm a Chinese customer.",
+    "url": "https://techcrunch.com/2026/06/19/the-us-says-asmls-top-chip-tool-may-be-in-china-asml-says-it-isnt/",
+    "topic": "llm",
+    "date": "2026-06-19",
+    "fetched_date": "2026-06-20",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Is Prime Day still worth it?",
+    "abstract": "This week's Modern Retail Podcast looked at the pros and cons of participating in Prime Day.",
+    "url": "https://www.modernretail.co/operations/is-prime-day-still-worth-it/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-06-20",
+    "fetched_date": "2026-06-20",
+    "feed_name": "Modern Retail",
+    "source": "industry"
   }
 ]
