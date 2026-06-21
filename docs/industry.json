@@ -13638,5 +13638,35 @@
     "fetched_date": "2026-06-20",
     "feed_name": "Modern Retail",
     "source": "industry"
+  },
+  {
+    "title": "Signal’s Meredith Whittaker wants you to remember that AI chatbots ‘are not your friends’",
+    "abstract": "\"These are not your friends. These are not conscious beings. These are not sentient interlocutors.”",
+    "url": "https://techcrunch.com/2026/06/20/signals-meredith-whittaker-wants-you-to-remember-that-ai-chatbots-are-not-your-friends/",
+    "topic": "llm",
+    "date": "2026-06-20",
+    "fetched_date": "2026-06-21",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "In the Weights is your new AI-centric vanity search",
+    "abstract": "So ... what's your In the Weights score?",
+    "url": "https://techcrunch.com/2026/06/20/in-the-weights-is-your-new-ai-centric-vanity-search/",
+    "topic": "llm",
+    "date": "2026-06-20",
+    "fetched_date": "2026-06-21",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Nobel laureate John Jumper is leaving DeepMind for rival Anthropic",
+    "abstract": "Jumper isn't the only big name leaving Google DeepMind.",
+    "url": "https://techcrunch.com/2026/06/20/nobel-laureate-john-jumper-is-leaving-deepmind-for-rival-anthropic/",
+    "topic": "llm",
+    "date": "2026-06-20",
+    "fetched_date": "2026-06-21",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
   }
 ]
