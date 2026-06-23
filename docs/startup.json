@@ -6128,5 +6128,145 @@
     "fetched_date": "2026-06-22",
     "feed_name": "TechCrunch",
     "source": "startup"
+  },
+  {
+    "title": "The running list: major tech layoffs in 2026 where employers cited AI",
+    "abstract": "A running look — in reverse chronological order — at the bigger tech companies that have announced significant layoffs this year with AI as a stated factor.",
+    "url": "https://techcrunch.com/2026/06/22/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/",
+    "topic": "startup",
+    "date": "2026-06-23",
+    "fetched_date": "2026-06-23",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "OpenAI launches new initiative to help find and patch open-source bugs",
+    "abstract": "OpenAI is attempting to tackle the security issues of the open source software community.",
+    "url": "https://techcrunch.com/2026/06/22/openai-launches-new-initiative-to-help-find-and-patch-open-source-bugs/",
+    "topic": "startup",
+    "date": "2026-06-23",
+    "fetched_date": "2026-06-23",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "The AI world is getting ‘loopy’",
+    "abstract": "The loop takes agentic AI a step further by authorizing a swarm of agents to work continuously in the background, endlessly.",
+    "url": "https://techcrunch.com/2026/06/22/the-ai-world-is-getting-loopy/",
+    "topic": "startup",
+    "date": "2026-06-22",
+    "fetched_date": "2026-06-23",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "AI chipmaker Groq confirms $650M raise, re-staffs after Nvidia’s $20B not-acqui-hire deal",
+    "abstract": "What does an AI company do after one of those not-acqui-hire deals? Groq raised money, is leaning into its neocloud business, and is hiring new execs.",
+    "url": "https://techcrunch.com/2026/06/22/ai-chipmaker-groq-confirms-650m-raise-re-staffs-after-nvidias-20b-not-acqui-hire-deal/",
+    "topic": "startup",
+    "date": "2026-06-22",
+    "fetched_date": "2026-06-23",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Nvidia wants to cut data center water use, but that’s not the same as fixing AI’s water problem",
+    "abstract": "Nvidia announced a new cooling system that cuts water use inside the data center. But it does nothing to address AI's biggest water use — fossil fuel power plants.",
+    "url": "https://techcrunch.com/2026/06/22/nvidia-wants-to-cut-data-center-water-use-but-thats-not-the-same-as-fixing-ais-water-problem/",
+    "topic": "startup",
+    "date": "2026-06-22",
+    "fetched_date": "2026-06-23",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Tata Electronics, a major tech supplier to Apple and Tesla, confirms data breach",
+    "abstract": "The incident comes as Tata Electronics expands its role in global technology supply chains.",
+    "url": "https://techcrunch.com/2026/06/22/tata-electronics-a-major-tech-supplier-to-apple-and-tesla-confirms-data-breach/",
+    "topic": "startup",
+    "date": "2026-06-22",
+    "fetched_date": "2026-06-23",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "A new unpatchable flaw in Apple chips opens the door to an iPhone jailbreak",
+    "abstract": "European offensive cybersecurity company Paradigm Shift released details of a flaw and a technique to exploit it that opens the door for hackers to unlock and break into older iPhones.",
+    "url": "https://techcrunch.com/2026/06/22/a-new-unpatchable-flaw-in-apple-chips-opens-the-door-to-an-iphone-jailbreak/",
+    "topic": "startup",
+    "date": "2026-06-22",
+    "fetched_date": "2026-06-23",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Google DeepMind bets $75M on AI’s future in Hollywood with A24 deal",
+    "abstract": "Google DeepMind and A24 are teaming up to build AI filmmaking tools.",
+    "url": "https://techcrunch.com/2026/06/22/google-deepmind-bets-75m-on-ais-future-in-hollywood-with-a24-deal/",
+    "topic": "startup",
+    "date": "2026-06-22",
+    "fetched_date": "2026-06-23",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Anthropic says Claude may want to see your ID",
+    "abstract": "Claude's chatbot may ask to verify your age and identity \"in certain circumstances,\" such as with a passport or driver's license, according to a privacy policy change.",
+    "url": "https://techcrunch.com/2026/06/22/anthropic-says-claude-may-want-to-see-your-id/",
+    "topic": "startup",
+    "date": "2026-06-22",
+    "fetched_date": "2026-06-23",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Amazon is testing Alexa+ in India with Hindi support",
+    "abstract": "Amazon is planning to increase the footprint of its new conversational AI assistant Alexa+ to India and is inviting users in the country to test out a Hindi-language version.",
+    "url": "https://techcrunch.com/2026/06/22/amazon-is-testing-alexa-in-india-with-hindi-support/",
+    "topic": "startup",
+    "date": "2026-06-22",
+    "fetched_date": "2026-06-23",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "SpaceX inks compute deal with Reflection AI, an open source AI lab",
+    "abstract": "Reflection AI will pay $150 million a month beginning July 1, 2026 through 2029 for immediate access to Nvidia's latest GB300 AI chips and supporting hardware across SpaceX's Colossus 2 data center near Memphis, Tennessee.",
+    "url": "https://techcrunch.com/2026/06/22/spacex-inks-compute-deal-with-reflection-ai-an-open-source-ai-lab/",
+    "topic": "startup",
+    "date": "2026-06-22",
+    "fetched_date": "2026-06-23",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "WhatsApp gets new chief as Meta taps India’s CRED founder Kunal Shah and invests $900M in startup",
+    "abstract": "WhatsApp gets a new boss, as Will Cathcart moves to a new role at Meta, while Shah steps down as CEO of Indian fintech giant CRED to replace Cathcart.",
+    "url": "https://techcrunch.com/2026/06/22/whatsapp-gets-new-chief-as-meta-taps-indias-cred-founder-kunal-shah-and-invests-900m-in-startup/",
+    "topic": "startup",
+    "date": "2026-06-22",
+    "fetched_date": "2026-06-23",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "The founder conference built for growth: TechCrunch Founder Summit pass rates increase June 26",
+    "abstract": "Save up to $190 on your pass to TechCrunch Founder Summit 2026 by June 26, 11:59 p.m. PT. Designed for founders first on November 4 in Boston. Register today.",
+    "url": "https://techcrunch.com/2026/06/22/the-founder-conference-built-for-growth-techcrunch-founder-summit-pass-rates-increase-june-26/",
+    "topic": "startup",
+    "date": "2026-06-22",
+    "fetched_date": "2026-06-23",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Seedcamp raises $320M for its new fund to expand its US footprint",
+    "abstract": "After 18 years of focusing on Europe, early-stage investor Seedcamp said that it has raised $320 million for its latest fund, which will see it expanding its presence in the United States.",
+    "url": "https://techcrunch.com/2026/06/22/seedcamp-raises-320m-for-its-new-fund-to-expand-its-us-footprint/",
+    "topic": "startup",
+    "date": "2026-06-22",
+    "fetched_date": "2026-06-23",
+    "feed_name": "TechCrunch",
+    "source": "startup"
   }
 ]
