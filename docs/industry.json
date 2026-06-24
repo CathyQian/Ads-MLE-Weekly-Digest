@@ -14048,5 +14048,155 @@
     "fetched_date": "2026-06-23",
     "feed_name": "Modern Retail",
     "source": "industry"
+  },
+  {
+    "title": "Helping build shared standards for advanced AI",
+    "abstract": "OpenAI helps build shared standards for advanced AI, supporting evaluation frameworks, safety practices, and global cooperation through the Appia Foundation.",
+    "url": "https://openai.com/index/helping-build-shared-standards-for-advanced-ai",
+    "topic": "llm",
+    "date": "2026-06-23",
+    "fetched_date": "2026-06-24",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "How GPT-5 helped immunologist Derya Unutmaz solve a 3-year-old mystery",
+    "abstract": "GPT-5 Pro helped solve a 3-year-old immunology mystery, offering insights into T cell behavior. The breakthrough could support cancer and autoimmune research.",
+    "url": "https://openai.com/index/gpt-5-immunology-mystery",
+    "topic": "llm",
+    "date": "2026-06-23",
+    "fetched_date": "2026-06-24",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "How Omio is building the future of conversational travel",
+    "abstract": "Discover how Omio uses OpenAI to power conversational travel experiences, accelerate product development, and transform into an AI-native company.",
+    "url": "https://openai.com/index/omio",
+    "topic": "llm",
+    "date": "2026-06-23",
+    "fetched_date": "2026-06-24",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Build real agentic apps using CUGA: two dozen working examples on a lightweight harness",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/ibm-research/cuga-apps",
+    "topic": "llm",
+    "date": "2026-06-23",
+    "fetched_date": "2026-06-24",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Shipping huggingface_hub every week with AI, open tools, and a human in the loop",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/huggingface-hub-release-ci",
+    "topic": "llm",
+    "date": "2026-06-23",
+    "fetched_date": "2026-06-24",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Experimenting with the proposed Cross-Origin Storage API in Transformers.js",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/cross-origin-storage",
+    "topic": "llm",
+    "date": "2026-06-23",
+    "fetched_date": "2026-06-24",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "datasette 1.0a35",
+    "abstract": "Release: datasette 1.0a35 I'll write more about this one tomorrow, but it's a big release. Three highlights from the release notes: New \"Create table\" interface in the database actions menu, backed by the /<database>/-/create JSON API . It can define columns, primary keys, custom column types, NOT NULL constraints, literal defaults, expression defaults and single-column foreign keys. ( #2787 ) New \"Alter table\" table action and /<database>/<table>/-/alter JSON API for changing existing tables: add, rename, reorder and drop columns; change column types, defaults, NOT NULL constraints, primary keys and foreign keys; and rename the table. The alter table dialog also includes a \"Drop table\" button. ( #2788 ) New Template context documentation listing the variables available to custom templates for Datasette's core pages. Variables documented there are treated as a stable API for custom templates until Datasette 2.0. The documentation is generated from dataclass definitions next to the view code, with tests that compare the documented fields against the actual contexts rendered by the database, table, query and row pages. ( #1510 , #2127 , #1477 , #2803 ) Here's a rough video demo I made of the new create/alter table feature as part of reviewing the PR : Tags: datasette",
+    "url": "https://simonwillison.net/2026/Jun/23/datasette/#atom-everything",
+    "topic": "llm",
+    "date": "2026-06-23",
+    "fetched_date": "2026-06-24",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "OPFS + Pyodide test harness",
+    "abstract": "Tool: OPFS + Pyodide test harness I've been pondering if Datasette Lite - the Python Datasette application run entirely in the browser using Pyodide and WebAssembly - might be able to edit persistent SQLite files stored on the user's computer. That's what OFPS (Origin Private File System) is for, so I had Claude Code for web build me this playground UI to try it out in different browsers. Tags: browsers , pyodide , datasette-lite",
+    "url": "https://simonwillison.net/2026/Jun/23/opfs-pyodide/#atom-everything",
+    "topic": "llm",
+    "date": "2026-06-23",
+    "fetched_date": "2026-06-24",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "India’s MoEngage bets that the future of marketing is millions of AI agents",
+    "abstract": "The all-cash deal gives MoEngage access to technology that assigns AI agents to individual customers.",
+    "url": "https://techcrunch.com/2026/06/23/indias-moengage-bets-marketings-future-on-millions-of-ai-agents/",
+    "topic": "llm",
+    "date": "2026-06-23",
+    "fetched_date": "2026-06-24",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Anthropic’s Claude Tag is learning your company, one Slack message at a time",
+    "abstract": "Anthropic’s new Claude Tag brings an always-on AI teammate to Slack. But beyond productivity, the feature is a strategic play to capture organizational context, institutional knowledge, and enterprise workflows.",
+    "url": "https://techcrunch.com/2026/06/23/anthropics-claude-tag-is-learning-your-company-one-slack-message-at-a-time/",
+    "topic": "llm",
+    "date": "2026-06-23",
+    "fetched_date": "2026-06-24",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "4 days left to save up to $190 on TechCrunch Founder Summit 2026",
+    "abstract": "Four days left to save up to $190 on your pass to TechCrunch Founder Summit 2026 — the ultimate founder bootcamp — before Early Bird rates end on June 26 at 11:59 p.m. PT. Register today.",
+    "url": "https://techcrunch.com/2026/06/23/4-days-left-to-save-up-to-190-on-techcrunch-founder-summit-2026/",
+    "topic": "llm",
+    "date": "2026-06-23",
+    "fetched_date": "2026-06-24",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Fika Jobs raises $4M to build a video-first hiring platform where AI agents interview candidates",
+    "abstract": "Stockholm-based startup Fika Jobs is building a video-first hiring platform that combines AI interview agents with short-form video profiles, creating something that feels like a cross between LinkedIn and TikTok.",
+    "url": "https://techcrunch.com/2026/06/23/fika-jobs-raises-4m-to-build-a-video-first-hiring-platform-where-ai-agents-interview-candidates/",
+    "topic": "llm",
+    "date": "2026-06-23",
+    "fetched_date": "2026-06-24",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Brands target multi-generational appeal with ‘Toy Story 5’ collabs",
+    "abstract": "\"Toy Story 5\" is proving to be a summer box office smash, which is good news for the brands that have leaned into the franchise IP.",
+    "url": "https://www.modernretail.co/marketing/brands-aim-for-multi-generational-appeal-with-toy-story-5-collabs/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-06-24",
+    "fetched_date": "2026-06-24",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Announcing the 2026 Modern Retail Top Workplaces",
+    "abstract": "Modern Retail Top Workplaces is an annual list of the best brands and retailers to work for. This year’s honorees are setting the standard for workplace excellence, leading with purpose, investing in their people and building cultures that drive both employee success and business growth. Modern Retail’s Top Workplaces: Boll & BranchBoll & Branch is […]",
+    "url": "https://www.modernretail.co/announcement/announcing-the-2026-digiday-media-top-workplaces/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-06-23",
+    "fetched_date": "2026-06-24",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Brands Briefing: How brands aim to stand out this summer as it’s become ‘harder to create momentum’",
+    "abstract": "Consumer spending has held up surprisingly well amid rising gas prices and sustained inflation — but that doesn’t mean it’s easy to get shoppers to open their wallets. Modern Retail spoke with some brand execs and agency heads about what results they saw during the first half of the year, and how they are looking to keep consumers engaged over the summer.",
+    "url": "https://www.modernretail.co/marketing/brands-briefing-how-brands-aim-to-stand-out-this-summer-as-its-become-harder-to-create-momentum/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-06-23",
+    "fetched_date": "2026-06-24",
+    "feed_name": "Modern Retail",
+    "source": "industry"
   }
 ]
