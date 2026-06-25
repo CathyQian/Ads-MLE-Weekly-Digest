@@ -14198,5 +14198,235 @@
     "fetched_date": "2026-06-24",
     "feed_name": "Modern Retail",
     "source": "industry"
+  },
+  {
+    "title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
+    "abstract": "OpenAI and Broadcom introduce Jalapeño, a custom AI chip built for LLM inference to improve performance, efficiency, and scale across AI systems.",
+    "url": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
+    "topic": "llm",
+    "date": "2026-06-24",
+    "fetched_date": "2026-06-25",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Accelerating Transformers Fine-Tuning with NVIDIA NeMo AutoModel",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel",
+    "topic": "llm",
+    "date": "2026-06-24",
+    "fetched_date": "2026-06-25",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Introducing the FFASR Leaderboard: Benchmarking ASR in the Real World",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/ffasr-leaderboard",
+    "topic": "llm",
+    "date": "2026-06-24",
+    "fetched_date": "2026-06-25",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Introducing computer use in Gemini 3.5 Flash",
+    "abstract": "",
+    "url": "https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash/",
+    "topic": "generative-ai",
+    "date": "2026-06-24",
+    "fetched_date": "2026-06-25",
+    "feed_name": "DeepMind Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Automated Schema Evolution in Pinterest’s Next-Generation DB Ingestion Framework",
+    "abstract": "",
+    "url": "https://medium.com/pinterest-engineering/automated-schema-evolution-in-pinterests-next-generation-db-ingestion-framework-36c5c07070de?source=rss----4c5a5f6279b6---4",
+    "topic": "ads-tech",
+    "date": "2026-06-24",
+    "fetched_date": "2026-06-25",
+    "feed_name": "Pinterest Engineering",
+    "source": "industry"
+  },
+  {
+    "title": "simonw/browser-compat-db",
+    "abstract": "simonw/browser-compat-db Inspired by Mozilla's new MDN MCP service - source code here - I decided to try converting their comprehensive mdn/browser-compat-data repository full of browser compatibility data into a SQLite database. This new GitHub repo includes a Claude Code for web (Opus 4.8) generated script for doing that using sqlite-utils . I wanted the resulting ~66MB SQLite database to be available via the GitHub CDN with open CORS headers. GitHub releases don't have those, but any file stored in a regular GitHub repository does - so I had Codex Desktop (GPT-5.5) build a GitHub Actions workflow that builds the database and then force-pushes it to a db \"orphan\" branch. You can download the resulting database from here , and since it's hosted with open CORS headers you can also explore it with Datasette Lite . Tags: github , mozilla , projects , github-actions , datasette-lite , ai-assisted-programming , model-context-protocol , mdn",
+    "url": "https://simonwillison.net/2026/Jun/24/browser-compat-db/#atom-everything",
+    "topic": "llm",
+    "date": "2026-06-24",
+    "fetched_date": "2026-06-25",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Quoting Tom MacWright",
+    "abstract": "In the last few months, I've started to see [job applications] that were clearly cowritten by an LLM, link to an LLM-generated portfolio site, which then links to LLM-generated GitHub projects, with purely LLM-generated commit messages. [...] My other reaction is that I don't know anything about these people . They haven't put themselves out there. They haven't said anything true. [...] The perfected, generated, prompted resume is generic and impersonal. It tells me nothing about this person, other than that they use particular tools. — Tom MacWright , Accidental anonymity Tags: careers , ai , tom-macwright , ai-misuse",
+    "url": "https://simonwillison.net/2026/Jun/24/tom-macwright/#atom-everything",
+    "topic": "llm",
+    "date": "2026-06-24",
+    "fetched_date": "2026-06-25",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "The State of AI, 2026",
+    "abstract": "A nuanced analysis and a glimpse of the future",
+    "url": "https://www.thealgorithmicbridge.com/p/the-state-of-ai-2026",
+    "topic": "llm",
+    "date": "2026-06-24",
+    "fetched_date": "2026-06-25",
+    "feed_name": "The Algorithmic Bridge",
+    "source": "industry"
+  },
+  {
+    "title": "Europe is pushing back on Washington’s chip war",
+    "abstract": "As ASML CEO Christophe Fouquet told TechCrunch in May, what China can currently buy are older-generation deep ultraviolet tools — gear first shipped about a decade ago — the same machines the MATCH Act would now put off-limits.",
+    "url": "https://techcrunch.com/2026/06/24/europe-is-pushing-back-on-washingtons-chip-war/",
+    "topic": "llm",
+    "date": "2026-06-25",
+    "fetched_date": "2026-06-25",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Former Infosys chief has a new startup that wants to challenge the IT services world",
+    "abstract": "Backed by Mayfield and Aramco Ventures, Vishal Sikka’s new venture brings together veterans from SAP, Infosys, and VianAI.",
+    "url": "https://techcrunch.com/2026/06/24/former-infosys-chief-has-a-new-startup-that-wants-to-challenge-the-it-services-world/",
+    "topic": "llm",
+    "date": "2026-06-24",
+    "fetched_date": "2026-06-25",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Cerebras stock plunges after earnings as CEO says margin outlook was misunderstood",
+    "abstract": "In its first earnings report since going public, the AI chipmaker forecast a narrower gross margin in its core business, scaring investors.",
+    "url": "https://techcrunch.com/2026/06/24/cerebras-stock-plunges-after-earnings-as-ceo-says-margin-outlook-was-misunderstood/",
+    "topic": "llm",
+    "date": "2026-06-24",
+    "fetched_date": "2026-06-25",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "AI was supposed to kill engineering jobs, but new data suggests they’re the most resilient",
+    "abstract": "While AI dominates the layoff narrative, engineers are actually making up a larger share of new hires, according to SignalFire data.",
+    "url": "https://techcrunch.com/2026/06/24/ai-was-supposed-to-kill-engineering-jobs-but-new-data-suggests-theyre-the-most-resilient/",
+    "topic": "llm",
+    "date": "2026-06-24",
+    "fetched_date": "2026-06-25",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "AI researchers continue to leave Google for its rivals",
+    "abstract": "Top AI researchers Jonas Adler and Alexander Pritzel are leaving Google for Anthropic, following departures from top scientists Noam Shazeer and John Jumper.",
+    "url": "https://techcrunch.com/2026/06/24/ai-researchers-continue-to-leave-google-for-its-rivals/",
+    "topic": "llm",
+    "date": "2026-06-24",
+    "fetched_date": "2026-06-25",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "The memory chip crunch is paying off for this US company",
+    "abstract": "Revenue quadrupled to $41.45 billion compared with the same period a year ago. The company's profit, meanwhile, rose from $1.88 billion to an incredible $28.2 billion year-over-year.",
+    "url": "https://techcrunch.com/2026/06/24/the-memory-chip-crunch-is-paying-off-for-this-u-s-company/",
+    "topic": "llm",
+    "date": "2026-06-24",
+    "fetched_date": "2026-06-25",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Companies are scrambling to stop employees from maxing out AI budgets with small tasks",
+    "abstract": "The tokenmaxxing era was brief. We now appear to be entering the era of token rationing.",
+    "url": "https://techcrunch.com/2026/06/24/companies-are-scrambling-to-stop-employees-from-maxing-out-ai-budgets-with-small-tasks/",
+    "topic": "llm",
+    "date": "2026-06-24",
+    "fetched_date": "2026-06-25",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Facebook rolls out an AI companion app for creators",
+    "abstract": "The new app, which is currently being tested with select creators, will have Facebook's recently launched AI creator assistant built into it.",
+    "url": "https://techcrunch.com/2026/06/24/facebook-rolls-out-an-ai-companion-app-for-creators/",
+    "topic": "llm",
+    "date": "2026-06-24",
+    "fetched_date": "2026-06-25",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Agility Robotics plans to go public via SPAC in a $2.5B deal",
+    "abstract": "Agility Robotics, the humanoid robotics startup that spun out of Oregon State University in 2015, expects to generate $620 million in proceeds.",
+    "url": "https://techcrunch.com/2026/06/24/agility-robotics-plans-to-go-public-via-spac-in-a-2-5b-deal/",
+    "topic": "llm",
+    "date": "2026-06-24",
+    "fetched_date": "2026-06-25",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Figma adds code layers, support for animations, more AI features in new update",
+    "abstract": "Figma's update adds a new code layer, support for motion and shaders, and the ability to create custom plug-ins for various tasks using AI.",
+    "url": "https://techcrunch.com/2026/06/24/figma-adds-code-layers-support-for-animations-more-ai-features-in-new-update/",
+    "topic": "llm",
+    "date": "2026-06-24",
+    "fetched_date": "2026-06-25",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "OpenAI unveils its first custom chip, built by Broadcom",
+    "abstract": "Named Jalapeño, the new processor was designed specifically for the unique needs of OpenAI's inference systems.",
+    "url": "https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/",
+    "topic": "llm",
+    "date": "2026-06-24",
+    "fetched_date": "2026-06-25",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "3 days left to save up to $190 on your TechCrunch Founder Summit 2026 pass",
+    "abstract": "You have just 3 days left to save up to $190 on your pass to TechCrunch Founder Summit 2026 before Early Bird rates end on June 26 at 11:59 p.m. PT. Register today.",
+    "url": "https://techcrunch.com/2026/06/24/3-days-left-to-save-up-to-190-on-techcrunch-founder-summit-2026/",
+    "topic": "llm",
+    "date": "2026-06-24",
+    "fetched_date": "2026-06-25",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Trashie looks to tackle toy waste with new $35 service",
+    "abstract": "Trashie, which has run a take-back program for textiles since 2024, is now getting into toys. Here's why the company believes toys is a category that's ripe for a new method of recycling.",
+    "url": "https://www.modernretail.co/operations/trashie-looks-to-tackle-toy-waste-with-new-35-service/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-06-25",
+    "fetched_date": "2026-06-25",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "How brands, retailers are using AI — and what they won’t let it touch",
+    "abstract": "As retailers and brands continue to build out both customer-facing and internal functionalities using AI, the conversation has also shifted toward what executives don't want it being used for.",
+    "url": "https://www.modernretail.co/technology/how-brands-retailers-are-using-ai-and-what-they-wont-let-it-touch/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-06-25",
+    "fetched_date": "2026-06-25",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "TikTok Shop’s Deals For You Days is a growth opportunity for early movers ahead of peak shopping season",
+    "abstract": "As e-commerce becomes increasingly discovery-driven, brands are looking to capture demand year-round through new sales events, such as Deals For You Days. Sponsored by TikTok Shop",
+    "url": "https://www.modernretail.co/retailers/tik-tok-shop-deals-for-you-days-2026/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-06-24",
+    "fetched_date": "2026-06-25",
+    "feed_name": "Modern Retail",
+    "source": "industry"
   }
 ]
