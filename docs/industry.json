@@ -14428,5 +14428,185 @@
     "fetched_date": "2026-06-25",
     "feed_name": "Modern Retail",
     "source": "industry"
+  },
+  {
+    "title": "How agents are transforming work",
+    "abstract": "A new OpenAI research paper shows how AI agents are transforming work, enabling longer, more complex tasks and expanding productivity across roles.",
+    "url": "https://openai.com/index/how-agents-are-transforming-work",
+    "topic": "llm",
+    "date": "2026-06-25",
+    "fetched_date": "2026-06-26",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Run a vLLM Server on HF Jobs in One Command",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/vllm-jobs",
+    "topic": "llm",
+    "date": "2026-06-26",
+    "fetched_date": "2026-06-26",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Which tokens does a hybrid model predict better?",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/allenai/hybrid-token-prediction",
+    "topic": "llm",
+    "date": "2026-06-25",
+    "fetched_date": "2026-06-26",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Achieving Near-Linear Training Scalability for Pinterest’s Foundation Models",
+    "abstract": "",
+    "url": "https://medium.com/pinterest-engineering/achieving-near-linear-training-scalability-for-pinterests-foundation-models-14d4f59fe6f6?source=rss----4c5a5f6279b6---4",
+    "topic": "ads-tech",
+    "date": "2026-06-25",
+    "fetched_date": "2026-06-26",
+    "feed_name": "Pinterest Engineering",
+    "source": "industry"
+  },
+  {
+    "title": "AI and Liability",
+    "abstract": "AI and Liability Bruce Schneier on the recent German ruling that Google be held liable for errors introduced in their AI overviews: AI agents are agents of the person or organization that deploys them—and should be treated by the law as such. If a company hired human writers to write its summaries, that company would be liable for inaccuracies in those summaries. [...] To allow businesses to hide behind the excuse of faulty AI in those same circumstances would be a massive handout to companies, and would introduce disastrous incentives for corporate misbehavior. Why hire human writers, lawyers or doctors when AIs are not only cheaper, but also absolve employers whenever they make a mistake? Tags: bruce-schneier , google , law , ai , generative-ai , llms , ai-ethics , hallucinations",
+    "url": "https://simonwillison.net/2026/Jun/25/ai-and-liability/#atom-everything",
+    "topic": "llm",
+    "date": "2026-06-25",
+    "fetched_date": "2026-06-26",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "datasette-export-database 0.3a2",
+    "abstract": "Release: datasette-export-database 0.3a2 An embarrassingly tiny release. The pyproject.toml had pinned to datasette==1.0a27 , inadvertently making this plugin incompatible with all other Datasette versions. It's now datasette>=1.0a27 instead. Tags: datasette",
+    "url": "https://simonwillison.net/2026/Jun/25/datasette-export-database/#atom-everything",
+    "topic": "llm",
+    "date": "2026-06-25",
+    "fetched_date": "2026-06-26",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Scaling Laws, Carefully",
+    "abstract": "Scaling laws are one of the most critical empirical findings in deep learning. The observation is simple in form: the training loss $L$ decreases predictably as we scale up model size $N$, dataset size $D$, and compute $C$, following a power-law curve, which appears as a straight line on a log-log plot. We can view scaling laws as a framework for describing the relationship between compute, loss, model size and data; at its core, it is about how to allocate precious compute optimally between $N$ and $D$.",
+    "url": "https://lilianweng.github.io/posts/2026-06-24-scaling-laws/",
+    "topic": "llm",
+    "date": "2026-06-24",
+    "fetched_date": "2026-06-26",
+    "feed_name": "Lilian Weng",
+    "source": "industry"
+  },
+  {
+    "title": "The White House is asking OpenAI to slow roll the release of its new model over safety concerns",
+    "abstract": "penAI reportedly plans to share its newest model, GPT 5.6, with a select group of partners instead of to the broader public. The reason: the Trump administration told it to.",
+    "url": "https://techcrunch.com/2026/06/25/the-white-house-is-asking-openai-to-slow-roll-the-release-of-its-new-model-over-safety-concerns/",
+    "topic": "llm",
+    "date": "2026-06-25",
+    "fetched_date": "2026-06-26",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Patronus AI lands $50M to build ‘digital worlds’ that stress-test AI agents",
+    "abstract": "Agent-testing startup Patronus AI, founded by former Meta AI researchers, is experiencing nearly insatiable demand, its investor says.",
+    "url": "https://techcrunch.com/2026/06/25/patronus-ai-lands-50m-to-build-digital-worlds-that-stress-test-ai-agents/",
+    "topic": "llm",
+    "date": "2026-06-25",
+    "fetched_date": "2026-06-26",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Anthropic’s Claude is winning over paid consumers, a market owned by ChatGPT",
+    "abstract": "Despite ChatGPT's commanding market lead, consumers who pay for AI have been increasingly choosing Anthropic's Claude, data shows.",
+    "url": "https://techcrunch.com/2026/06/25/anthropics-claude-is-winning-over-paid-consumers-a-market-owned-by-chatgpt/",
+    "topic": "llm",
+    "date": "2026-06-25",
+    "fetched_date": "2026-06-26",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "General Intuition’s $2.3B bet that video games can train AI agents for the real world",
+    "abstract": "General Intuition has raised $320 million to scale AI trained on millions of hours of gameplay, betting action data can help AI develop something closer to human intuition.",
+    "url": "https://techcrunch.com/2026/06/25/general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world/",
+    "topic": "llm",
+    "date": "2026-06-25",
+    "fetched_date": "2026-06-26",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Databricks’ former AI chief thinks he can cut AI’s power bill by 1,000x",
+    "abstract": "Un-0 is an image-generation system tool that shows for the first time how the company's technology can replicate conventional AI systems.",
+    "url": "https://techcrunch.com/2026/06/25/databricks-former-ai-chief-thinks-he-can-cut-ais-power-bill-by-1000x/",
+    "topic": "llm",
+    "date": "2026-06-25",
+    "fetched_date": "2026-06-26",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Netris raises $15M Series A from a16z to help AI neoclouds go live faster",
+    "abstract": "Netris provides software that runs on network switches, and offers a platform that helps neocloud operators reduce the time it takes to go live.",
+    "url": "https://techcrunch.com/2026/06/25/netris-raises-15m-series-a-from-a16z-to-help-ai-neoclouds-go-live-faster/",
+    "topic": "llm",
+    "date": "2026-06-25",
+    "fetched_date": "2026-06-26",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "2 days left to save up to $190: Join 1,000+ founders and investors at TechCrunch Founder Summit",
+    "abstract": "Two days left to lock in your spot at TechCrunch Founder Summit 2026 and save up to $190 before Early Bird rates expire on June 26 at 11:59 p.m. PT. Register today.",
+    "url": "https://techcrunch.com/2026/06/25/2-days-left-to-save-up-to-190-join-1000-founders-and-investors-at-techcrunch-founder-summit/",
+    "topic": "llm",
+    "date": "2026-06-25",
+    "fetched_date": "2026-06-26",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Adobe acquires image and video enhancement tool maker Topaz Labs",
+    "abstract": "Adobe said that it will integrate Topaz Labs' tools across its apps.",
+    "url": "https://techcrunch.com/2026/06/25/adobe-acquires-image-and-video-enhancement-tool-maker-topaz-labs/",
+    "topic": "llm",
+    "date": "2026-06-25",
+    "fetched_date": "2026-06-26",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Amazon ups India bet with fresh $13B AI infrastructure investment",
+    "abstract": "Amazon’s latest India investment comes as global tech companies race to expand AI infrastructure in the country.",
+    "url": "https://techcrunch.com/2026/06/25/amazon-ups-india-bet-with-fresh-13b-ai-infrastructure-investment/",
+    "topic": "llm",
+    "date": "2026-06-25",
+    "fetched_date": "2026-06-26",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Lowe’s makes it easier to order decorative geese, above-ground pools and other marketplace items in over 1,700 stores",
+    "abstract": "Lowe's recently integrated its third-party marketplace into My Red Vest, the software employees use in stores to help customers place orders.",
+    "url": "https://www.modernretail.co/operations/lowes-makes-it-easier-to-order-decorative-geese-above-ground-pools-and-other-marketplace-items-in-over-1700-stores/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-06-26",
+    "fetched_date": "2026-06-26",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Marketplace Briefing: Prime Day starts softly as consumers buy gift cards, stock up on essentials, hold out for deeper discounts",
+    "abstract": "Average household spending so far during Prime Day is down 16% from the same point last year, data from Numerator shows.",
+    "url": "https://www.modernretail.co/operations/marketplace-briefing-prime-day-starts-softly-as-consumers-buy-gift-cards-stock-up-on-essentials-hold-out-for-deeper-discounts/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-06-25",
+    "fetched_date": "2026-06-26",
+    "feed_name": "Modern Retail",
+    "source": "industry"
   }
 ]
