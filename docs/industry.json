@@ -14898,5 +14898,205 @@
     "fetched_date": "2026-06-29",
     "feed_name": "Modern Retail",
     "source": "industry"
+  },
+  {
+    "title": "Mapping Europe’s AI Workforce Opportunity",
+    "abstract": "A new OpenAI report maps how AI could reshape jobs across the EU, highlighting which occupations may face automation, growth, or workflow changes.",
+    "url": "https://openai.com/index/mapping-ai-jobs-transition-eu",
+    "topic": "llm",
+    "date": "2026-06-29",
+    "fetched_date": "2026-06-30",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "DiScoFormer: One transformer for density and score, across distributions",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/allenai/discoformer",
+    "topic": "llm",
+    "date": "2026-06-29",
+    "fetched_date": "2026-06-30",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "GenPage: Towards End-to-End Generative Homepage Construction at Netflix",
+    "abstract": "",
+    "url": "https://netflixtechblog.com/genpage-towards-end-to-end-generative-homepage-construction-at-netflix-77146fba8a08?source=rss----2615bd06b42e---4",
+    "topic": "ml-engineering",
+    "date": "2026-06-29",
+    "fetched_date": "2026-06-30",
+    "feed_name": "Netflix Tech Blog",
+    "source": "industry"
+  },
+  {
+    "title": "HTML table extractor",
+    "abstract": "Tool: HTML table extractor Yet another in my growing collection of paste-conversion tools. This one accepts pasted rich text from browsers (with embedded HTML tables) and converts every detected table into HTML, Markdown, CSV, TSV, or JSON. Try it out by selecting everything on the Wikipedia List of cities and towns in the San Francisco Bay Area page and pasting it directly into the tool: On a similar note, I recently rebuilt my Rich text to markdown tool to add support for tables and generally improve the UI. Update : It turns out Wikipedia has an open CORS API for retrieving the full rendered HTML content of any page - demo here - so I had Codex add the ability to search Wikipedia for a page and then automatically import and display any tables from that page. Tags: html , tools , wikipedia , cors",
+    "url": "https://simonwillison.net/2026/Jun/29/html-table-extractor/#atom-everything",
+    "topic": "llm",
+    "date": "2026-06-29",
+    "fetched_date": "2026-06-30",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Count the number of Safari tabs",
+    "abstract": "Tiniest TIL, using AppleScript to count the number of open browser tabs in Safari: osascript -e 'tell application \"Safari\" to count tabs of every window' Tags: safari , til , applescript",
+    "url": "https://simonwillison.net/2026/Jun/29/safari-tab-count/#atom-everything",
+    "topic": "llm",
+    "date": "2026-06-29",
+    "fetched_date": "2026-06-30",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Ornith-1.0: Self-Scaffolding LLMs for Agentic Coding",
+    "abstract": "Ornith-1.0: Self-Scaffolding LLMs for Agentic Coding This is an interesting new open weights (MIT licensed) model, the first model release from DeepReinforce. [...] with variants including 9B Dense, 31B Dense, 35B MoE, and 397B MoE. Built on top of pretrained Gemma 4 and Qwen 3.5, it achieves state-of-the-art performance among open-source models of comparable size on coding benchmarks. As far as I can tell the licenses of those underlying models is compatible with being used in this way - Gemma 4 is Apache 2.0 licensed (and not bound by the janky additional Gemma Terms of Use that afflicted the previous Gemma models) and Qwen 3.5 is Apache 2.0 licensed as well. I've been running the model using LM Studio and the ornith-1.0-35b-Q4_K_M.gguf (20GB) GGUF, hooked up to Pi . Initial impressions are very good - it seems to be able to run the agent harness over many tool calls in a proficient way. Here's a terminal session where I asked it to \"find the code that decodes the actor cookie\" and then \"find the code that opens the insert dialog when thebutton is clicked\" against a Datasette checkout, which it handled with ease. I also had it draw this pelican , which came out at 103 tokens/second: It's a little bit mangled but the pelican is clearly a pelican. I couldn't find much information about DeepReinforce themselves. The earliest paper I could find from the was CUDA-L1: Improving CUDA Optimization via Contrastive Reinforcement Learning from June 2025. Tags: ai , generative-ai , local-llms , llms , qwen , pelican-riding-a-bicycle , gemma , llm-release , lm-studio",
+    "url": "https://simonwillison.net/2026/Jun/29/ornith/#atom-everything",
+    "topic": "llm",
+    "date": "2026-06-29",
+    "fetched_date": "2026-06-30",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "The AI jobs debate just got messier",
+    "abstract": "A new report finds \"high-intensity AI adopters” saw headcount increase 10.2%. Among those companies, entry-level headcount rose by 12%, countering the rhetoric that AI kills junior jobs.",
+    "url": "https://techcrunch.com/2026/06/29/the-ai-jobs-debate-just-got-messier/",
+    "topic": "llm",
+    "date": "2026-06-30",
+    "fetched_date": "2026-06-30",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Vibe coding platform Base44 launches own model as AI startups seek defensibility",
+    "abstract": "Wix-owned vibe coding platform Base44 has started rolling out its own AI model — with hopes that it will eventually outperform frontier models.",
+    "url": "https://techcrunch.com/2026/06/29/vibe-coding-platform-base44-launches-own-model-as-ai-startups-seek-defensibility/",
+    "topic": "llm",
+    "date": "2026-06-30",
+    "fetched_date": "2026-06-30",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Gemini’s personalized AI image generation is now free for US users",
+    "abstract": "Google is expanding Gemini’s personalized AI image generation to eligible free users in the U.S., allowing the chatbot to create images based on your interests and data from connected Google apps.",
+    "url": "https://techcrunch.com/2026/06/29/geminis-personalized-ai-image-generation-is-now-free-for-u-s-users/",
+    "topic": "llm",
+    "date": "2026-06-29",
+    "fetched_date": "2026-06-30",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Anthropic and Gov. Newsom forge deal allowing California government to use Claude at half price",
+    "abstract": "As Anthropic forges a closer relationship with the state of California, the federal government has made an enemy out of the OpenAI rival.",
+    "url": "https://techcrunch.com/2026/06/29/anthropic-and-gov-newsom-forge-deal-allowing-california-government-to-use-claude-at-half-price/",
+    "topic": "llm",
+    "date": "2026-06-29",
+    "fetched_date": "2026-06-30",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "South Korean tech giants commit over $550B to ease ‘RAMageddon’",
+    "abstract": "The world's two largest memory chip companies vow to build more memory lab fabs as South Korea positions itself as an AI tech powerhouse country.",
+    "url": "https://techcrunch.com/2026/06/29/south-korean-tech-giants-commit-over-550b-to-ease-ramageddon/",
+    "topic": "llm",
+    "date": "2026-06-29",
+    "fetched_date": "2026-06-30",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Arena, the AI leaderboard everyone uses, is now a $100M business",
+    "abstract": "The startup, which runs a popular free AI leaderboard, launched its commercial service just last September.",
+    "url": "https://techcrunch.com/2026/06/29/arena-the-ai-leaderboard-everyone-uses-is-now-a-100m-business/",
+    "topic": "llm",
+    "date": "2026-06-29",
+    "fetched_date": "2026-06-30",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Cursor now has a mobile app for guiding your coding agent on the go",
+    "abstract": "Cursor has launched a new mobile app for remote oversight over coding agents.",
+    "url": "https://techcrunch.com/2026/06/29/cursor-now-has-a-mobile-app-for-guiding-your-coding-agent-on-the-go/",
+    "topic": "llm",
+    "date": "2026-06-29",
+    "fetched_date": "2026-06-30",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "TIDAL cracks down on AI music by cutting off monetization",
+    "abstract": "In addition, TIDAL will use automated tools to remove AI-generated music that attempts to impersonate an artist or a group, the company said.",
+    "url": "https://techcrunch.com/2026/06/29/tidal-cracks-down-on-ai-music-by-cutting-off-monetization/",
+    "topic": "llm",
+    "date": "2026-06-29",
+    "fetched_date": "2026-06-30",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Robot hand company settles Tesla trade secret suit and announces $11M raise",
+    "abstract": "The startup, Proception, is taking a unique approach to collecting training data to tackle one of the hardest problems in robotics: hands.",
+    "url": "https://techcrunch.com/2026/06/29/robot-hand-company-settles-tesla-trade-secret-suit-and-announces-11m-raise/",
+    "topic": "llm",
+    "date": "2026-06-29",
+    "fetched_date": "2026-06-30",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Omen AI’s plan to optimize data centers is all wet",
+    "abstract": "Omen AI raised a $31 million Series A to monitor chip coolant and stop bacterial outbreaks in data centers.",
+    "url": "https://techcrunch.com/2026/06/29/omen-ais-plan-to-optimize-data-centers-is-all-wet/",
+    "topic": "llm",
+    "date": "2026-06-29",
+    "fetched_date": "2026-06-30",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Leveraging PyFixest for High-Cardinality Marketplace Modeling at Instacart",
+    "abstract": "",
+    "url": "https://tech.instacart.com/leveraging-pyfixest-for-high-cardinality-marketplace-modeling-at-instacart-3913df91a04b?source=rss----587883b5d2ee---4",
+    "topic": "ml-engineering",
+    "date": "2026-06-29",
+    "fetched_date": "2026-06-30",
+    "feed_name": "Instacart Tech",
+    "source": "industry"
+  },
+  {
+    "title": "Logs As Runtime Documentation",
+    "abstract": "On an iOS prototype with Claude Code in the loop, we burned tokens on file reads and wrong guesses when the device's real behavior was unclear. Scoped, consistent logs in Console worked as runtime documentation and cut estimated session spend by about 40%, for engineers and for the assistant alike. The post Logs As Runtime Documentation appeared first on GoDaddy Blog .",
+    "url": "https://www.godaddy.com/resources/news/logs-as-runtime-documentation",
+    "topic": "ml-engineering",
+    "date": "2026-06-29",
+    "fetched_date": "2026-06-30",
+    "feed_name": "GoDaddy Engineering",
+    "source": "industry"
+  },
+  {
+    "title": "Electronics prices are starting to soar, adding to the stress consumers are facing",
+    "abstract": "Major electronics companies like Apple and Microsoft announced significant price hikes this month, largely driven by the increased cost of memory chips. It will leave consumers feeling even more squeezed.",
+    "url": "https://www.modernretail.co/technology/electronics-prices-are-starting-to-soar-adding-to-the-stress-consumers-are-facing/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-06-30",
+    "fetched_date": "2026-06-30",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "What’s next for international shipping as EU ends de minimis exemption",
+    "abstract": "Starting July 1, low-value packages heading to the European Union will have a flat €3 customs duty per each declared line item.",
+    "url": "https://www.modernretail.co/operations/whats-next-for-international-shipping-as-eu-ends-de-minimis-exemption/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-06-29",
+    "fetched_date": "2026-06-30",
+    "feed_name": "Modern Retail",
+    "source": "industry"
   }
 ]
