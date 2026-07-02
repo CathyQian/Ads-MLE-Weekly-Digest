@@ -15428,5 +15428,145 @@
     "fetched_date": "2026-07-01",
     "feed_name": "Modern Retail",
     "source": "industry"
+  },
+  {
+    "title": "Hugging Face and Cerebras bring Gemma 4 to real-time voice AI",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/cerebras-gemma4-voice-ai",
+    "topic": "llm",
+    "date": "2026-07-01",
+    "fetched_date": "2026-07-02",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Fable is Back: This Safeguard Has Some AI in It!",
+    "abstract": "Let's analyze Anthropic and the US government's comms",
+    "url": "https://www.thealgorithmicbridge.com/p/fable-is-back-this-safeguard-has",
+    "topic": "llm",
+    "date": "2026-07-01",
+    "fetched_date": "2026-07-02",
+    "feed_name": "The Algorithmic Bridge",
+    "source": "industry"
+  },
+  {
+    "title": "SpaceX has an AI device prototype, and it sure sounds phone-ish",
+    "abstract": "SpaceX reportedly showed investors a \"handset-like\" AI device before going public. It could be another signal SpaceX wants to expand into wireless.",
+    "url": "https://techcrunch.com/2026/07/01/spacex-has-an-ai-device-prototype-and-it-sure-sounds-phone-ish/",
+    "topic": "llm",
+    "date": "2026-07-01",
+    "fetched_date": "2026-07-02",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Ashton Kutcher leaving Sound Ventures to launch new VC firm with Morgan Beller",
+    "abstract": "Sound built its reputation on concentrated, high-conviction bets in category-leading AI labs, while Kutcher's new fund appears to be chasing the layer underneath those companies — the infrastructure and energy that power them.",
+    "url": "https://techcrunch.com/2026/07/01/ashton-kutcher-leaving-sound-ventures-to-launch-new-vc-firm-with-morgan-beller/",
+    "topic": "llm",
+    "date": "2026-07-01",
+    "fetched_date": "2026-07-02",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Cloudflare’s new policy pushes AI companies to pay for publishers’ content",
+    "abstract": "Cloudflare is giving AI companies until September 15 to separate web crawlers used for search from those used for AI training and agents, or risk being blocked by default on many publisher sites.",
+    "url": "https://techcrunch.com/2026/07/01/cloudflares-new-policy-pushes-ai-companies-to-pay-for-publishers-content/",
+    "topic": "llm",
+    "date": "2026-07-01",
+    "fetched_date": "2026-07-02",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Venice AI becomes a unicorn with $65M Series A as its privacy-first AI platform takes off",
+    "abstract": "Venice AI is already profitable, with annualized run-rate revenues of over $70 million, CEO Erik Voorhees said.",
+    "url": "https://techcrunch.com/2026/07/01/venice-ai-becomes-a-unicorn-with-65m-series-a-as-its-privacy-first-ai-platform-takes-off/",
+    "topic": "llm",
+    "date": "2026-07-01",
+    "fetched_date": "2026-07-02",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Gemini Spark, Google’s agentic assistant, is now available on Mac",
+    "abstract": "Google's 24/7 agentic assistant, Gemini Spark, comes to Mac alongside other improvements, like real-time tracking and support for more apps.",
+    "url": "https://techcrunch.com/2026/07/01/gemini-spark-googles-agentic-assistant-is-now-available-on-mac/",
+    "topic": "llm",
+    "date": "2026-07-01",
+    "fetched_date": "2026-07-02",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Builders Stage agenda revealed: Practical strategies for scaling startups at TechCrunch Disrupt 2026",
+    "abstract": "The Builders Stage is returning to TechCrunch Disrupt 2026, bringing together 10,000+ founders, startup operators, and investors for practical conversations. and Q&A on what it takes to build and scale successful companies. Register now to save up to $330.",
+    "url": "https://techcrunch.com/2026/07/01/builders-stage-agenda-revealed-practical-strategies-for-scaling-startups-at-techcrunch-disrupt-2026/",
+    "topic": "llm",
+    "date": "2026-07-01",
+    "fetched_date": "2026-07-02",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Meta, like SpaceX, looks to turn excess AI compute into cash",
+    "abstract": "Meta is developing plans for a cloud infrastructure business, selling access to AI compute power and models. The move would pit it against the big cloud providers like Amazon Web Services, Google Cloud, and Microsoft Azure.",
+    "url": "https://techcrunch.com/2026/07/01/meta-like-spacex-looks-to-turn-excess-ai-compute-into-cash/",
+    "topic": "llm",
+    "date": "2026-07-01",
+    "fetched_date": "2026-07-02",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Variance Reduction Below the Randomization Grain",
+    "abstract": "",
+    "url": "https://tech.instacart.com/variance-reduction-below-the-randomization-grain-31719f87a7d2?source=rss----587883b5d2ee---4",
+    "topic": "ml-engineering",
+    "date": "2026-07-01",
+    "fetched_date": "2026-07-02",
+    "feed_name": "Instacart Tech",
+    "source": "industry"
+  },
+  {
+    "title": "Why Amy’s Kitchen is championing a new certification for non-ultra-processed foods",
+    "abstract": "In an interview with Modern Retail, Amy’s Kitchen CEO Paul Schiefer explains how a new Non-UPF Verified certification aims to clarify food processing standards. Here's what it requires.",
+    "url": "https://www.modernretail.co/operations/why-amys-kitchen-is-championing-a-new-certification-for-non-ultra-processed-foods/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-07-02",
+    "fetched_date": "2026-07-02",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Kroger is back in growth mode with Giant Eagle acquisition",
+    "abstract": "On Wednesday, Kroger announced that it would buy Giant Eagle for just under $1.7 billion, a signal of the grocer's urgency to boost its footprint. The deal will expand Kroger's reach and abilities beyond just growing the store count.",
+    "url": "https://www.modernretail.co/operations/kroger-is-back-in-growth-mode-with-giant-eagle-acquisition/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-07-01",
+    "fetched_date": "2026-07-02",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Prime Day results suggest shoppers are saving splurges for Black Friday",
+    "abstract": "Amazon's Prime Day sale looked a little more like a Costco run this year, as shoppers stocked up on essentials. Here's what shopper behavior during the event could mean for Black Friday this year.",
+    "url": "https://www.modernretail.co/operations/prime-day-results-suggest-shoppers-are-saving-splurges-for-black-friday/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-07-01",
+    "fetched_date": "2026-07-02",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Bogg, on track for record sales, expands into Urban Outfitters and Anthropologie",
+    "abstract": "Bogg, known for its colorful and washable Croc-like totes, is entering new retailers like Urban Outfitters and Anthropologie, as sales are on track to surpass last year's revenue high of $140 million.",
+    "url": "https://www.modernretail.co/operations/bogg-on-track-for-record-sales-expands-into-urban-outfitters-and-anthropologie/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-07-01",
+    "fetched_date": "2026-07-02",
+    "feed_name": "Modern Retail",
+    "source": "industry"
   }
 ]
