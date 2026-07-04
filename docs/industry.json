@@ -15708,5 +15708,85 @@
     "fetched_date": "2026-07-03",
     "feed_name": "Modern Retail",
     "source": "industry"
+  },
+  {
+    "title": "Google DeepMind and A24 announce first-of-its-kind research partnership",
+    "abstract": "",
+    "url": "https://deepmind.google/blog/google-deepmind-and-a24-announce-first-of-its-kind-research-partnership/",
+    "topic": "generative-ai",
+    "date": "2026-07-03",
+    "fetched_date": "2026-07-04",
+    "feed_name": "DeepMind Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Open Source AI Gap Map",
+    "abstract": "Open Source AI Gap Map Current AI is \"a global partnership building a public option for AI\", founded as a non-profit at the AI Action Summit in Paris in February 2025 and backed by serious capital ($400m already committed). They launched their Gap Map a couple of days ago - an attempt at indexing the current state of open source AI: The Gap Map v0.1 details 421 products in depth: 266 software tools and libraries, 85 models, 50 datasets, and 20 hardware projects, produced by 228 organizations. These products are organized into 14 categories across 3 layers of the stack (model components, product / UX, and infrastructure). The remaining 24,400 artifacts constitute the uncategorized long tail of the open source AI ecosystem, and will carry no score until they are researched and cited. The map itself is interesting to explore, but I'm more excited about the underlying data - released under an MIT license in the currentai-org/os-ai-map GitHub account: 1,184 YAML files plus the notebooks, schemas and other scripts used to help gather them. Since the files are on GitHub you can use Datasette Lite to explore some of them - here are 16,185 GitHub repos the project is tracking as a CSV file loaded into Datasette Lite. Tags: open-source , ai , datasette-lite , generative-ai , local-llms , llms",
+    "url": "https://simonwillison.net/2026/Jul/3/open-source-ai-gap-map/#atom-everything",
+    "topic": "llm",
+    "date": "2026-07-03",
+    "fetched_date": "2026-07-04",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Quoting Josh W. Comeau",
+    "abstract": "I just launched my third course, Whimsical Animations, and so far, it’s on track to sell roughly ⅓ as many copies as a typical course launch. It’s a similar story with my two existing courses. Sales are down significantly from last year. There are likely a lot of reasons for this, but I think the biggest is AI. There’s sort of a double whammy with AI: Many people are wondering whether developer jobs will even exist in a few months, so they’re reluctant to spend time/money learning new dev skills. Even if they do want to learn new dev skills, LLMs can provide personalized tutoring, so there’s less incentive to buy a paid course. [...] I’ve spoken to a few course creators now, and we’re all seeing the same trend. Revenue down 50%+. Fewer people engaging with our content. People switching to LLMs, which slurp up all of our work and regurgitate it, without consent or compensation. — Josh W. Comeau , via Salma Alam-Naylor Tags: ai-ethics , llms , ai , generative-ai , careers , josh-comeau",
+    "url": "https://simonwillison.net/2026/Jul/3/josh-w-comeau/#atom-everything",
+    "topic": "llm",
+    "date": "2026-07-03",
+    "fetched_date": "2026-07-04",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Fable's judgement",
+    "abstract": "One of the most interesting tips I got from the Fireside Chat I hosted with Cat Wu and Thariq Shihipar from the Claude Code team at AIE on Wednesday was to let Fable (and to a certain extent Opus) use their own judgement rather than dictating how they should work. The example they gave was testing. You can tell Fable \"only use automated testing for larger features, don't update and run tests for small copy or design changes\" - but it's better to just tell Fable to use its own judgement when deciding to write tests instead. Jesse Vincent just gave me a related tip to help avoid burning too many of those valuable Fable tokens in the few days we have left before the prices go up. Tell Fable to use other models for smaller tasks, applying its own judgement about which model to use. I prompted Claude Code just now with: For all coding tasks use your judgement to decide an appropriate lower power model and run that in a subagent Claude saved this memory file in ~/.claude/projects/name-of-project/memory/delegate-coding-to-subagents.md : --- name: delegate-coding-to-subagents description: Simon wants coding tasks delegated to subagents running an appropriately lower-power model metadata: node_type: memory type: feedback originSessionId: 30068d78-43a9-4fb1-bb29-9799e18c526a --- Stated by Simon on 2026-07-03: \"For all coding tasks use your judgement to decide an appropriate lower power model and run that in a subagent.\" Why: cost/efficiency — implementation work rarely needs the top-tier model; judgment, review, and synthesis stay with the main loop. How to apply: when a task in this project is primarily writing/editing code, spawn an Agent with a model override (sonnet for substantive implementation, haiku for trivial/mechanical edits) and a self-contained prompt; review the result in the main loop before committing. Design, auditing, data synthesis, and anything judgment-heavy stays in the main model. See also [[project-goals]]. So far it seems to be working well. I'm getting a ton of work done and my Fable allowance is shrinking less quickly than before. Tags: claude , ai , claude-code , llms , prompt-engineering , coding-agents , generative-ai , claude-mythos-fable , anthropic",
+    "url": "https://simonwillison.net/2026/Jul/3/judgement/#atom-everything",
+    "topic": "llm",
+    "date": "2026-07-03",
+    "fetched_date": "2026-07-04",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "June 2026 newsletter",
+    "abstract": "The June edition of my sponsors-only monthly newsletter is out. If you are a sponsor (or if you start a sponsorship now) you can access it here . This month: Claude Fable 5, GPT-5.6, and US export restrictions GLM-5.2 is the new best open weights model Tokenmaxxing is so over Datasette Apps sqlite-utils and shot-scraper and Datasette Miscellaneous WASM projects Other model releases What I'm using Here's a copy of the May newsletter as a preview of what you'll get. Pay $10/month to stay a month ahead of the free copy! Tags: newsletter",
+    "url": "https://simonwillison.net/2026/Jul/3/june-newsletter/#atom-everything",
+    "topic": "llm",
+    "date": "2026-07-03",
+    "fetched_date": "2026-07-04",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "The only AI glossary you’ll need this year",
+    "abstract": "The rise of AI has brought an avalanche of new terms and slang. Here is a glossary with definitions of some of the most important words and phrases you might encounter.",
+    "url": "https://techcrunch.com/2026/07/03/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
+    "topic": "llm",
+    "date": "2026-07-03",
+    "fetched_date": "2026-07-04",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "The browser wars aren’t about search anymore — here are the best alternatives to Chrome and Safari",
+    "abstract": "We’ve compiled an overview of some of the top alternative browsers available today aiming to challenge Chrome and Safari.",
+    "url": "https://techcrunch.com/2026/07/03/as-the-browser-wars-heat-up-here-are-the-hottest-alternatives-to-chrome-and-safari-in-2026/",
+    "topic": "llm",
+    "date": "2026-07-03",
+    "fetched_date": "2026-07-04",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "AI Adoption in Applied ML – A Human-centric Report",
+    "abstract": "After five months of intensive AI adoption, a GoDaddy Applied ML team shares the human side of the journey — from identity crises and review fatigue to borrowed cognition and the emerging question of what expertise means when execution is automated. The post AI Adoption in Applied ML – A Human-centric Report appeared first on GoDaddy Blog .",
+    "url": "https://www.godaddy.com/resources/news/ai-adoption-in-applied-ml-a-human-centric-report",
+    "topic": "ml-engineering",
+    "date": "2026-07-03",
+    "fetched_date": "2026-07-04",
+    "feed_name": "GoDaddy Engineering",
+    "source": "industry"
   }
 ]
