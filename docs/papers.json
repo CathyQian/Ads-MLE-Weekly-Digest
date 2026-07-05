@@ -142343,5 +142343,169 @@
       "Zekun Cai"
     ],
     "article_type": "research"
+  },
+  {
+    "title": "RadiomicNet: A Hybrid Radiomics-Guided Lightweight Architecture for Interpretable Medical Image Segmentation",
+    "abstract": "Deep learning has achieved remarkable performance in medical image segmentation, yet it suffers from critical limitations: mathematical intractability, substantial parameter requirements, and lack of clinical interpretability. We propose RadiomicNet, a novel two-stream hybrid architecture that enhances standard deep learning by integrating handcrafted radiomics features directly into the segmentation learning process. The key contribution is the Radiomics Attention Gate (RAG), which leverages Gray-Level Co-occurrence Matrix (GLCM) and Local Binary Pattern (LBP) features to modulate skip-connection attention in a lightweight MobileNetV2-based encoder-decoder, providing ante-hoc interpretability without post-hoc approximations. A novel Radiomics Consistency Loss further enforces alignment between texture complexity and prediction uncertainty, reducing Expected Calibration Error (ECE) from 0.142 to 0.118. RadiomicNet achieves a Dice Similarity Coefficient (DSC) of 0.763 +/- 0.231 on the Breast Ultrasound Images (BUSI) dataset and 0.854 +/- 0.112 on Kvasir-SEG, outperforming U-KAN by 1.2% and 1.8%, respectively (p < 0.05, Wilcoxon signed-rank test), with only 3.27M parameters, 9.5x fewer than standard U-Net and 4.3x fewer than U-KAN. Gradient-based feature importance analysis reveals that GLCM dissimilarity (15.24%), GLCM energy (14.56%), and LBP entropy (11.49%) are the dominant radiomics cues, providing clinically meaningful explanations for segmentation decisions. The proposed approach demonstrates that compact, interpretable models grounded in domain knowledge can deliver state-of-the-art segmentation performance with substantially reduced computational overhead.",
+    "url": "http://arxiv.org/abs/2607.02185",
+    "pdf": "https://arxiv.org/pdf/2607.02185v1",
+    "keyword": "expected calibration error",
+    "date": "2026-07-02",
+    "fetched_date": "2026-07-05",
+    "authors": [
+      "Mohammad Amanour Rahman"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "SA-HGNN: Sample-Adaptive Hyperbolic Graph Neural Network for EEG-Based Depression Recognition",
+    "abstract": "Graph Neural Networks (GNNs) have been widely used to capture spatial functional connectivity patterns to improve electroencephalography (EEG)-based depression recognition performance. However, the functional connectivity of brain networks in patients with depression exhibits an inherent hierarchical structure, making it difficult to capture accurate connection patterns. To address these issues, this paper proposes a novel model named Sample-Adaptive Hyperbolic Graph Neural Network (SA-HGNN), which aims to accurately extract the authentic hierarchical structure of depression-affected brain networks. Specifically, the proposed model comprises three core modules. First, a Sample-Adaptive Graph Construction module dynamically constructs personalized brain network topologies to capture more complex spatial relationships within the brain network. Second, hyperbolic graph convolution is employed to overcome the representation bottlenecks of Euclidean space, leveraging hyperbolic geometry to precisely capture latent hierarchical relationships within the brain network. Finally, an Attention Pooling module adaptively filters out highly redundant noise channels in EEG signals, effectively mitigating the interference of inherent noise on the authentic hierarchical topology. Extensive experiments on public EEG datasets demonstrate the superior performance of our method across resting-state and task-related paradigms, validating its robustness to noise and efficacy in capturing abnormal functional connectivity patterns in brain networks of patients with depression.",
+    "url": "http://arxiv.org/abs/2607.02063",
+    "pdf": "https://arxiv.org/pdf/2607.02063v1",
+    "keyword": "graph neural network",
+    "date": "2026-07-02",
+    "fetched_date": "2026-07-05",
+    "authors": [
+      "Yang Li",
+      "Pan Hu",
+      "Yan Zhang",
+      "Wenfan Yang",
+      "Tao Wu",
+      "Lianbo Guo"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "Scene-Conditioned PINN-GNN for Multipath RF Maps: Cross-Scene Generation and In-Scene Completion",
+    "abstract": "Radio frequency (RF) maps provide a compact representation of multipath propagation characteristics and are fundamental to channel modeling, coverage analysis, and environment-aware wireless optimization. This paper proposes a unified RF map construction framework based on a physics-informed neural network (PINN) and a graph neural network (GNN), supporting both cross-scene generation and in-scene completion with 2D and 2.5D environmental representations. The PINN embeds electromagnetic propagation constraints to establish a physically consistent mapping from receiver locations to multipath parameters, including path gain, time of arrival, and angles, while the GNN enforces spatial consistency by modeling correlations among neighboring receivers. To comprehensively evaluate multipath reconstruction quality, we propose a peak-weighted dynamic time warping metric that jointly accounts for amplitude errors and peak delay misalignment in channel impulse responses. Extensive experiments demonstrate that the proposed method consistently outperforms image-based, diffusion-based, and interpolation baselines across both map-level and multipath-level metrics, achieving robust generalization and high-fidelity RF map construction under sparse observations.",
+    "url": "http://arxiv.org/abs/2607.01777",
+    "pdf": "https://arxiv.org/pdf/2607.01777v1",
+    "keyword": "graph neural network",
+    "date": "2026-07-02",
+    "fetched_date": "2026-07-05",
+    "authors": [
+      "Lizhou Liu",
+      "Xiaohui Chen",
+      "Zihan Tang",
+      "Mengyao Ma",
+      "Wenyi Zhang"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "Spatial Support Matters: Geometry-Aware Graph Fusion for Rainfall Field Reconstruction",
+    "abstract": "Fine-scale rainfall reconstruction is critical for urban flood modeling, but real rainfall sensing systems observe the field through incompatible spatial supports: gauges measure points, microwave links measure paths, and radar/satellite products measure gridded areas. These differences in measurement support impose geometrically distinct constraints on the rainfall field, yet existing heterogeneous graph approaches reconcile such sources in feature space, giving each its own embedding while discarding the geometry of its support. We propose a geometry-aware multi-support heterogeneous graph neural network that represents each observation according to its support type (0D point, 1D line, or 2D grid) as a distinct node layer, and fuses them through cross-support message passing into a point-support prediction layer from which the field is reconstructed. An inductive masked-node formulation decouples prediction resolution from sensing resolution, allowing the same trained model to reconstruct the field at user-defined target locations or display grids. On Singapore data, the proposed method reduces RMSE by 23.2\\% over the classical interpolation baseline, inverse-distance weighting, and consistently outperforms other neural architectures such as convolutional fusion and support-agnostic heterogeneous graph baselines. A generalization study using data from Sydney, Australia lets us characterize when multi-support fusion helps: the available skill appears to depend on gauge spacing relative to the spatial correlation length of the field, so fusion delivers the largest gains where the field is under-sampled relative to its correlation length and little when it is already resolved. Code and models will be open-sourced upon paper acceptance.",
+    "url": "http://arxiv.org/abs/2607.01621",
+    "pdf": "https://arxiv.org/pdf/2607.01621v1",
+    "keyword": "graph neural network",
+    "date": "2026-07-02",
+    "fetched_date": "2026-07-05",
+    "authors": [
+      "Low Jun Yu",
+      "Niramay Kachhadiya",
+      "Herath Mudiyanselage Viraj Vidura Herath",
+      "Sanka Rasnayaka",
+      "Lucy Amanda Marshall"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "EO-Agents: A Three-Agent LLM Pipeline for Earth Observation Hypothesis Generation",
+    "abstract": "Large language models have recently been explored for scientific hypothesis generation, but most prior work relies on unstructured literature and free-form textual claims. We present a pipeline for Earth observation that grounds hypothesis generation directly in the NASA Earth Observation Knowledge Graph. A heterogeneous graph neural network trained on historical co-usage relations ranks candidate dataset pairings, and a three-agent LLM pipeline filters, generates, and evaluates structured research hypotheses. Applied to 1,475 NASA datasets, the system produces 160 hypotheses spanning multiple Earth-science domains, including ecohydrology, glaciology, aerosol--cloud interactions, vegetation phenology, and stratospheric chemistry. Model-predicted novel dataset pairings are rated nearly as plausible as held-out real co-usages from the literature, indicating that the pipeline surfaces scientifically coherent yet unexplored combinations. A 2*2*2 factorial experiment across GPT-5.2 and Claude Sonnet 4.6 shows that hypothesis rankings remain stable, while absolute scores depend strongly on judge identity, highlighting limitations of single-judge LLM evaluation.",
+    "url": "http://arxiv.org/abs/2607.01584",
+    "pdf": "https://arxiv.org/pdf/2607.01584v1",
+    "keyword": "graph neural network",
+    "date": "2026-07-02",
+    "fetched_date": "2026-07-05",
+    "authors": [
+      "Mahyar Ghazanfari",
+      "Amin Tabrizian",
+      "Armin Mehrabian",
+      "Peng Wei"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "Robust and Explainable 3D Mode Shape Recognition Using Region-Aware Graph Neural Networks",
+    "abstract": "Mode shape recognition is a fundamental task in automotive NVH development, yet it remains dependent on manual visual inspection by experienced engineers. Existing approaches based on engineering heuristics, Modal Assurance Criterion (MAC), or geometry-dependent AI representations often exhibit limited robustness across different vehicle architectures, finite element (FE) meshes, and experimental measurement layouts, restricting their industrial applicability. This paper presents a Canonical Engineering Graph Representation and region-aware graph learning framework for robust and explainable 3D mode shape recognition. Rather than learning directly from vehicle-specific FE meshes, heterogeneous FE models and experimental measurements are transformed into a common graph whose nodes represent semantically meaningful structural regions connected through engineering-informed relationships. Geometry-independent regional descriptors are combined with graph attention learning and region-aware pooling to capture structural interactions while preserving engineering semantics and enabling physically interpretable predictions. The resulting representation decouples engineering knowledge from numerical discretization, allowing transfer across different vehicle programs without requiring identical mesh topology or sensor configurations. The proposed framework is validated using FE and experimental datasets from four vehicle programs under severe label scarcity. Results demonstrate high classification accuracy, cross-vehicle transferability, and physically meaningful explanations by directly relating predictions to engineering-defined structural regions used in NVH analysis. Beyond mode shape recognition, the proposed Canonical Engineering Graph Representation provides a reusable engineering abstraction for trustworthy and transferable AI across heterogeneous simulation and experimental workflows.",
+    "url": "http://arxiv.org/abs/2607.01522",
+    "pdf": "https://arxiv.org/pdf/2607.01522v1",
+    "keyword": "graph neural network",
+    "date": "2026-07-01",
+    "fetched_date": "2026-07-05",
+    "authors": [
+      "Tong Duy Son",
+      "Marc Brughmans",
+      "Andrey Hense",
+      "Kohta Sugiura",
+      "Sebastian Ciceo",
+      "Paolo di Carlo",
+      "Theo Geluk"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "Visual Analytics of Neighborhood Attribute Profiles for Exploring Structural Equivalence",
+    "abstract": "Exploring similar nodes in attributed networks represents a key challenge in data mining. While recent representation learning methods embed networks into low-dimensional vectors, they often implicitly assume a uniform and continuous feature space. This paper proposes a visual analytics approach using dimensionality reduction to help clarify the true topological structure of high-dimensional feature spaces formed by nodes' neighborhood attribute profiles. Analyzing inter-firm transaction networks indicates that structural roles can form complex, non-linear manifolds with density biases. Comparing this feature space with industry classifications suggested: (1) supply chain hierarchies transition continuously; (2) categories treated identically under general semantics can be clearly separated by actual transaction networks; and (3) a single industry label may fragment into multiple regions. These findings suggest potential limitations in assuming identical semantics imply similar structural roles and highlight the possible need for new similarity metrics aligned with manifold topology.",
+    "url": "http://arxiv.org/abs/2607.02163",
+    "pdf": "https://arxiv.org/pdf/2607.02163v1",
+    "keyword": "representation learning",
+    "date": "2026-07-02",
+    "fetched_date": "2026-07-05",
+    "authors": [
+      "Kohei Arimoto",
+      "Masahiko Itoh"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "Low-Latency Task-Oriented Image Transmission with Opportunistic Spectrum Access",
+    "abstract": "Communication systems designed for reliable data reconstruction, rather than task-oriented communication, typically rely on separate source and channel coding and incur high latency under limited spectrum availability and fading channels. To address this, we propose a transmission framework with opportunistic spectrum access, in which the transmitter sends discrete latent representations learned via a vector-quantized variational autoencoder (VQ-VAE) over idle licensed channels using standard digital modulation. The AI-powered receiver is still able to reconstruct task-related information from the heavily compressed data. We develop a cross-layer latency model that accounts for compression, block errors, retransmissions, and stochastic channel access. Results on latency-accuracy trade-offs show that the proposed scheme achieves at least 79- and 3.3-fold latency reductions with only 5.7% and 2.4% drops in classification accuracy compared to benchmarks using conventional source and channel coding. The framework enables low-latency communication and reliable task execution even under limited spectrum availability and challenging channel conditions.",
+    "url": "http://arxiv.org/abs/2607.01921",
+    "pdf": "https://arxiv.org/pdf/2607.01921v1",
+    "keyword": "representation learning",
+    "date": "2026-07-02",
+    "fetched_date": "2026-07-05",
+    "authors": [
+      "João Henrique Inacio de Souza",
+      "Mattia Merluzzi",
+      "Mateus P. Mota",
+      "Beatriz Soret",
+      "Petar Popovski"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "Role-Aware Neural Convex Divergence Heads for Asymmetric Representation Learning",
+    "abstract": "Many representation learning problems involve directed relations, such as lexical entailment, sentence entailment, ontology hierarchy, and citation links. Standard Euclidean, cosine, and Mahalanobis heads are symmetric, while generic neural scorers can model directionality but provide limited geometric structure. This paper proposes a role-aware neural convex divergence head for asymmetric representation learning. The head applies source- and target-role projections before evaluating an input-convex neural Bregman divergence, yielding a nonnegative structured score in the role-projected space. We characterize its projected-space identity, source-role convexity, directional-gap decomposition, and Hessian-based local curvature. Experiments on lexical, sentence, ontology, and directed graph benchmarks compare symmetric distances, unstructured asymmetric scorers, order/hyperbolic baselines, plain ICNN-Bregman heads, and the proposed role-aware variant. Across ten random seeds on the main semantic and ontology benchmarks, role-aware projections consistently improve directional accuracy over plain ICNN-Bregman heads while preserving zero observed negative divergence rate. The results also identify a boundary case: on large fixed-feature citation prediction, specialized symmetric or hyperbolic baselines remain stronger in ranking accuracy. Overall, the proposed head is best understood as a structured and interpretable plug-in distance module for tasks where directional relations matter.",
+    "url": "http://arxiv.org/abs/2607.01762",
+    "pdf": "https://arxiv.org/pdf/2607.01762v1",
+    "keyword": "representation learning",
+    "date": "2026-07-02",
+    "fetched_date": "2026-07-05",
+    "authors": [
+      "He Huang",
+      "Lu Shen",
+      "Yunfeng Huang",
+      "Li Qi"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "Embracing Intra-Class Heterogeneity for Semi-Supervised Medical Image Segmentation: From Diversity to Precision",
+    "abstract": "Due to the scarcity of expert-annotated data, Semi-Supervised Medical Image Segmentation (SSMIS) has emerged as a promising approach. Many anatomical structures in medical images exhibit significant intra-class heterogeneity, with different regions showing heterogeneous intensity patterns within the same structure. However, existing methods inadequately exploit this intensity-manifested intra-class heterogeneity, resulting in uniform structural representations and imprecise segmentation. Furthermore, the scarcity of labeled data makes it more difficult to effectively capture such complex heterogeneity. To address this, we propose Multiple Prototype Contrastive Learning (MPCL), an SSMIS framework that possesses better diversity and better precision. It consists of three novel designs: First, we provide structural representations with better diversity and propose Intensity-aligned Heterogeneous Prototype Generation (IHPG) that effectively models intra-class heterogeneity by generating multiple prototypes aligned with intensity characteristics. Second, we further enhance more diverse structural representations and build a solid foundation for more precise segmentation through Prototypical Space Optimization (PSO) that systematically optimizes a more discriminative and generalizable prototypical space. Finally, we achieve segmentation results with better precision through Dual-branch Knowledge Alignment (DKA) that efficiently promotes intra-class heterogeneity knowledge transfer from prototypical space to the segmentation network. Extensive experiments on three medical image datasets with significant intra-class heterogeneity demonstrate that MPCL significantly outperforms existing methods, especially under extremely limited labeled data.",
+    "url": "http://arxiv.org/abs/2607.02051",
+    "pdf": "https://arxiv.org/pdf/2607.02051v1",
+    "keyword": "contrastive learning",
+    "date": "2026-07-02",
+    "fetched_date": "2026-07-05",
+    "authors": [
+      "Yuqi Liu",
+      "Yufei Chen",
+      "Wei Fu",
+      "Xiaodong Yue",
+      "Shuo Li"
+    ],
+    "article_type": "research"
   }
 ]
