@@ -15868,5 +15868,55 @@
     "fetched_date": "2026-07-05",
     "feed_name": "TechCrunch AI",
     "source": "industry"
+  },
+  {
+    "title": "🤗 Kernels: Major Updates",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/revamped-kernels",
+    "topic": "llm",
+    "date": "2026-07-06",
+    "fetched_date": "2026-07-06",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Amazon will stop accepting new customers for Mechanical Turk",
+    "abstract": "These may be the last days of Amazon’s Mechanical Turk.",
+    "url": "https://techcrunch.com/2026/07/05/amazon-will-stop-accepting-new-customers-for-mechanical-turk/",
+    "topic": "llm",
+    "date": "2026-07-05",
+    "fetched_date": "2026-07-06",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Retailers like Target, Aldi take pages from collectibles culture with drops, blind boxes",
+    "abstract": "Retailers are bringing sales tactics from the collectibles industry, such as \"blind boxes\" and limited drops, into new categories like food and apparel.",
+    "url": "https://www.modernretail.co/marketing/retailers-like-target-aldi-take-pages-from-collectibles-culture-with-drops-blind-boxes/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-07-06",
+    "fetched_date": "2026-07-06",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Modern Retail+ Research: The marketers’ 2026 guide to creator marketing, with Duolingo, Ulta and YouTube",
+    "abstract": "The latest installment of our CMO Strategies series, this Modern Retail+ Research report provides an analysis of creator marketing and its current role in marketers’ playbooks.",
+    "url": "https://www.modernretail.co/marketing/modern-retail-research-the-marketers-2026-guide-to-creator-marketing-with-duolingo-ulta-and-youtube/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-07-06",
+    "fetched_date": "2026-07-06",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "OluKai is tapping Hawaiian lifeguards as brand ambassadors and product testers",
+    "abstract": "Hawaiian-inspired footwear brand OluKai is pairing up with professional lifeguards on product testing and videos, to prove out the extreme durability of its products.",
+    "url": "https://www.modernretail.co/marketing/olukai-is-tapping-hawaiian-lifeguards-as-brand-ambassadors-and-product-testers/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-07-06",
+    "fetched_date": "2026-07-06",
+    "feed_name": "Modern Retail",
+    "source": "industry"
   }
 ]
