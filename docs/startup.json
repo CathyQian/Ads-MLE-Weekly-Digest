@@ -7408,5 +7408,115 @@
     "fetched_date": "2026-07-06",
     "feed_name": "TechCrunch",
     "source": "startup"
+  },
+  {
+    "title": "The ‘first’ AI-run ransomware attack still needed a human",
+    "abstract": "An AI agent carried out the technical execution of a real-world ransomware attack for the first known time, but new details show a human still chose the victim, set up the infrastructure, and supplied stolen credentials — meaning it wasn't quite the fully autonomous cybercrime debut that last week's headlines suggested.",
+    "url": "https://techcrunch.com/2026/07/06/the-first-ai-run-ransomware-attack-still-needed-a-human/",
+    "topic": "startup",
+    "date": "2026-07-06",
+    "fetched_date": "2026-07-07",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "US investors will soon get access to SK Hynix, another memory maker riding the AI boom",
+    "abstract": "SK Hynix is experiencing a boom credited to AI. It will ride that to a multibillion-dollar U.S. IPO, expected to take place on Friday.",
+    "url": "https://techcrunch.com/2026/07/06/us-investors-will-soon-get-access-to-sk-hynix-another-memory-maker-riding-the-ai-boom/",
+    "topic": "startup",
+    "date": "2026-07-06",
+    "fetched_date": "2026-07-07",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "You can now customize Siri’s pace and expressivity in the latest iOS 27 beta",
+    "abstract": "The update is part of Apple's broader effort to make Siri feel more natural and personal, as it rebuilds the assistant around generative AI.",
+    "url": "https://techcrunch.com/2026/07/06/you-can-now-customize-siris-pace-and-expressivity-in-the-latest-ios-27-beta/",
+    "topic": "startup",
+    "date": "2026-07-06",
+    "fetched_date": "2026-07-07",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Every major tech layoff in 2026 that has name-checked AI",
+    "abstract": "A running look — in reverse chronological order — at the bigger tech companies that have announced significant layoffs this year with AI as a stated factor.",
+    "url": "https://techcrunch.com/2026/07/06/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/",
+    "topic": "startup",
+    "date": "2026-07-06",
+    "fetched_date": "2026-07-07",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Amazon competitor Bookshop.org says Kobo eReader support will happen this year after all",
+    "abstract": "Bookship.org seemed to delay this anticipated partnership again, but tells TechCrunch that it has settled business terms and is working on integration.",
+    "url": "https://techcrunch.com/2026/07/06/amazon-competitor-bookshop-org-says-kobo-e-reader-support-will-happen-this-year-after-all/",
+    "topic": "startup",
+    "date": "2026-07-06",
+    "fetched_date": "2026-07-07",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "If you use Google, you’re training its AI. Here’s how to opt out.",
+    "abstract": "Consider this a belated PSA: A recent change to Google’s privacy settings is allowing the company to store more of your data, including media such as “images, files, and audio and video recordings,” to improve its AI models.",
+    "url": "https://techcrunch.com/2026/07/06/if-you-use-google-youre-training-its-ai-heres-how-to-opt-out/",
+    "topic": "startup",
+    "date": "2026-07-06",
+    "fetched_date": "2026-07-07",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Microsoft lays off nearly 5,000 employees across Xbox, commercial sales",
+    "abstract": "Microsoft cut around 4,800 roles, or 2.1% of its global workforce, on Monday — the latest in a series of layoffs that’s stoking fears of AI replacing jobs. The layoffs will hit Xbox and commercial sales the hardest.",
+    "url": "https://techcrunch.com/2026/07/06/microsoft-lays-off-nearly-5000-employees-across-xbox-commercial-sales/",
+    "topic": "startup",
+    "date": "2026-07-06",
+    "fetched_date": "2026-07-07",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Reddit is using LLMs to solve a problem LLMs largely created",
+    "abstract": "In the AI era, platforms have no choice but to fight fire with fire to cull spam.",
+    "url": "https://techcrunch.com/2026/07/06/reddit-is-using-llms-to-solve-a-problem-llms-largely-created/",
+    "topic": "startup",
+    "date": "2026-07-06",
+    "fetched_date": "2026-07-07",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Station F ramps up as a launchpad for Europe’s hottest AI startups",
+    "abstract": "Station F, a Paris-based startup hub founded by French billionaire Xavier Niel, is gearing up for a new edition of its F/ai accelerator program in a bid to strengthen its positioning as a stepping stone for promising AI startups.",
+    "url": "https://techcrunch.com/2026/07/06/station-f-ramps-up-as-a-launchpad-for-europes-hottest-ai-startups/",
+    "topic": "startup",
+    "date": "2026-07-06",
+    "fetched_date": "2026-07-07",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Smart glasses maker Even Realities hits $1B valuation with $150M funding led by Meituan, Tencent",
+    "abstract": "Even Realities, an ex-Apple team building camera-free smart glasses, raised $150 million from Meituan and Tencent at a $1 billion valuation.",
+    "url": "https://techcrunch.com/2026/07/06/smart-glasses-maker-even-realities-hits-1b-valuation-with-150m-funding-led-by-meituan-tencent/",
+    "topic": "startup",
+    "date": "2026-07-06",
+    "fetched_date": "2026-07-07",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "This humanoid robotics company is going public, but its CEO isn’t promising a robot in your home anytime soon",
+    "abstract": "While other humanoid startups chase sky-high valuations, Agility Robotics is betting its future on execution — and a SPAC.",
+    "url": "https://techcrunch.com/2026/07/05/this-humanoid-robotics-company-is-going-public-but-its-ceo-isnt-promising-a-robot-in-your-home-anytime-soon/",
+    "topic": "startup",
+    "date": "2026-07-06",
+    "fetched_date": "2026-07-07",
+    "feed_name": "TechCrunch",
+    "source": "startup"
   }
 ]

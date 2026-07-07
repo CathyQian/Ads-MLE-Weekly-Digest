@@ -15918,5 +15918,205 @@
     "fetched_date": "2026-07-06",
     "feed_name": "Modern Retail",
     "source": "industry"
+  },
+  {
+    "title": "A global workspace in language models",
+    "abstract": "Interpretability research on Claude's internal thoughts.",
+    "url": "https://www.anthropic.com/research/global-workspace",
+    "topic": "llm",
+    "date": "2026-07-06",
+    "fetched_date": "2026-07-07",
+    "feed_name": "Anthropic Research",
+    "source": "industry"
+  },
+  {
+    "title": "LeRobot v0.6.0: Imagine, Evaluate, Improve",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/lerobot-release-v060",
+    "topic": "llm",
+    "date": "2026-07-07",
+    "fetched_date": "2026-07-07",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "PRX Part 4: Our Data Strategy",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/Photoroom/prx-part4-data",
+    "topic": "llm",
+    "date": "2026-07-06",
+    "fetched_date": "2026-07-07",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "tencent/Hy3",
+    "abstract": "tencent/Hy3 New Apache 2.0 licensed model from Tencent in China: Hy3 is a 295B-parameter Mixture-of-Experts (MoE) model with 21B active parameters and 3.8B MTP layer parameters, developed by the Tencent Hy Team. Following the Hy3 Preview launch in late April, we gathered feedback from 50+ products and scaled up post-training with higher quality data. Today, we introduce Hy3, which outperforms similar-size models and rivals flagship open-source models with 2-5x parameters. It also shows significant gains in utility across various products and productivity tasks. The full-sized model is 598GB on Hugging Face, and the FP8 quantized one is 300GB . The context length is 256K. It's available for free on OpenRouter until July 21st . I had it \"Generate an SVG of a pelican riding a bicycle\" there and got this: Tags: ai , generative-ai , llms , pelican-riding-a-bicycle , llm-release , ai-in-china",
+    "url": "https://simonwillison.net/2026/Jul/6/hy3/#atom-everything",
+    "topic": "llm",
+    "date": "2026-07-06",
+    "fetched_date": "2026-07-07",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "sqlite-utils 4.0rc3",
+    "abstract": "Release: sqlite-utils 4.0rc3 I hoped to release sqlite-utils 4.0 stable this weekend, but as I worked through the backlog of issues and PRs with a combination of Claude Fable 5 and GPT-5.5 the changelog since rc2 kept getting bigger . The biggest new feature is support for introspecting and creating compound foreign keys - a feature that involves a subtle breaking change to table.foreign_keys and hence needed to land for the 4.0 stable release. sqlite-utils also now follows SQLite's convention for case insensitive column names, which turned out to touch a bunch of different places at once . Tags: projects , sqlite , sqlite-utils , annotated-release-notes , gpt , claude-mythos-fable",
+    "url": "https://simonwillison.net/2026/Jul/6/sqlite-utils/#atom-everything",
+    "topic": "llm",
+    "date": "2026-07-06",
+    "fetched_date": "2026-07-07",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "How to Squeeze AI Tools to Get the Most Out of Every Dollar",
+    "abstract": "Use AI, yes, but be smart about it",
+    "url": "https://www.thealgorithmicbridge.com/p/how-to-squeeze-ai-tools-to-get-the",
+    "topic": "llm",
+    "date": "2026-07-06",
+    "fetched_date": "2026-07-07",
+    "feed_name": "The Algorithmic Bridge",
+    "source": "industry"
+  },
+  {
+    "title": "Harness Engineering for Self-Improvement",
+    "abstract": "The concept of recursive self-improvement (RSI) dates back to I. J. Good (1965) , where he defined an “ultraintelligent machine” as a system that can surpass humans in all intellectual activities and design better machines to improve itself. Yudkowsky (2008) used the phrase “recursive self-improvement” for a specific feedback loop: an AI uses its current intelligence to improve the cognitive machinery that produces its intelligence. This feedback loop in modern AI may indicate the model rewriting its own weights directly, or more broadly the model improves the training pipeline and the deployment system , which in turn enables a better successor model with improved performance across economically valuable tasks. The speed of research development in AI has been shown to drastically accelerated in frontier labs ( Anthropic ; OpenAI ).",
+    "url": "https://lilianweng.github.io/posts/2026-07-04-harness/",
+    "topic": "llm",
+    "date": "2026-07-04",
+    "fetched_date": "2026-07-07",
+    "feed_name": "Lilian Weng",
+    "source": "industry"
+  },
+  {
+    "title": "The ‘first’ AI-run ransomware attack still needed a human",
+    "abstract": "An AI agent carried out the technical execution of a real-world ransomware attack for the first known time, but new details show a human still chose the victim, set up the infrastructure, and supplied stolen credentials — meaning it wasn't quite the fully autonomous cybercrime debut that last week's headlines suggested.",
+    "url": "https://techcrunch.com/2026/07/06/the-first-ai-run-ransomware-attack-still-needed-a-human/",
+    "topic": "llm",
+    "date": "2026-07-06",
+    "fetched_date": "2026-07-07",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "US investors will soon get access to SK Hynix, another memory maker riding the AI boom",
+    "abstract": "SK Hynix is experiencing a boom credited to AI. It will ride that to a multibillion-dollar U.S. IPO, expected to take place on Friday.",
+    "url": "https://techcrunch.com/2026/07/06/us-investors-will-soon-get-access-to-sk-hynix-another-memory-maker-riding-the-ai-boom/",
+    "topic": "llm",
+    "date": "2026-07-06",
+    "fetched_date": "2026-07-07",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Vercel CEO Guillermo Rauch on the fight to split off models from agents",
+    "abstract": "\"The reality is, when you're optimizing for production, you start looking at a price/performance,\" Guillermo Rauch tells TechCrunch.",
+    "url": "https://techcrunch.com/2026/07/06/vercel-ceo-guillermo-rauch-on-the-fight-to-split-off-models-from-agents/",
+    "topic": "llm",
+    "date": "2026-07-06",
+    "fetched_date": "2026-07-07",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "You can now customize Siri’s pace and expressivity in the latest iOS 27 beta",
+    "abstract": "The update is part of Apple's broader effort to make Siri feel more natural and personal, as it rebuilds the assistant around generative AI.",
+    "url": "https://techcrunch.com/2026/07/06/you-can-now-customize-siris-pace-and-expressivity-in-the-latest-ios-27-beta/",
+    "topic": "llm",
+    "date": "2026-07-06",
+    "fetched_date": "2026-07-07",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Every major tech layoff in 2026 that has name-checked AI",
+    "abstract": "A running look — in reverse chronological order — at the bigger tech companies that have announced significant layoffs this year with AI as a stated factor.",
+    "url": "https://techcrunch.com/2026/07/06/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/",
+    "topic": "llm",
+    "date": "2026-07-06",
+    "fetched_date": "2026-07-07",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "If you use Google, you’re training its AI. Here’s how to opt out.",
+    "abstract": "Consider this a belated PSA: A recent change to Google’s privacy settings is allowing the company to store more of your data, including media such as “images, files, and audio and video recordings,” to improve its AI models.",
+    "url": "https://techcrunch.com/2026/07/06/if-you-use-google-youre-training-its-ai-heres-how-to-opt-out/",
+    "topic": "llm",
+    "date": "2026-07-06",
+    "fetched_date": "2026-07-07",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Microsoft lays off nearly 5,000 employees across Xbox, commercial sales",
+    "abstract": "Microsoft cut around 4,800 roles, or 2.1% of its global workforce, on Monday — the latest in a series of layoffs that’s stoking fears of AI replacing jobs. The layoffs will hit Xbox and commercial sales the hardest.",
+    "url": "https://techcrunch.com/2026/07/06/microsoft-lays-off-nearly-5000-employees-across-xbox-commercial-sales/",
+    "topic": "llm",
+    "date": "2026-07-06",
+    "fetched_date": "2026-07-07",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Reddit is using LLMs to solve a problem LLMs largely created",
+    "abstract": "In the AI era, platforms have no choice but to fight fire with fire to cull spam.",
+    "url": "https://techcrunch.com/2026/07/06/reddit-is-using-llms-to-solve-a-problem-llms-largely-created/",
+    "topic": "llm",
+    "date": "2026-07-06",
+    "fetched_date": "2026-07-07",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Station F ramps up as a launchpad for Europe’s hottest AI startups",
+    "abstract": "Station F, a Paris-based startup hub founded by French billionaire Xavier Niel, is gearing up for a new edition of its F/ai accelerator program in a bid to strengthen its positioning as a stepping stone for promising AI startups.",
+    "url": "https://techcrunch.com/2026/07/06/station-f-ramps-up-as-a-launchpad-for-europes-hottest-ai-startups/",
+    "topic": "llm",
+    "date": "2026-07-06",
+    "fetched_date": "2026-07-07",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Rust Is the Native Language of Agentic Development",
+    "abstract": "As autonomous coding agents make implementation cheap, the bottleneck shifts to verification. After nearly 30 years building software and a year deep in agentic workflows, I argue that Rust's constrained solution space, rich compiler feedback, and strong correctness guarantees make it the best mainstream language for autonomous software generation and long-term maintenance. The post Rust Is the Native Language of Agentic Development appeared first on GoDaddy Blog .",
+    "url": "https://www.godaddy.com/resources/news/rust-is-the-native-language-of-agentic-development",
+    "topic": "ml-engineering",
+    "date": "2026-07-06",
+    "fetched_date": "2026-07-07",
+    "feed_name": "GoDaddy Engineering",
+    "source": "industry"
+  },
+  {
+    "title": "Anthropologie Chief Creative Officer Richa Srivastava on Japanese stationery, chore jackets and her ‘body bag’ duffel",
+    "abstract": "In the latest installment of \"What's in Your Cart,\" the Chief Creative Officer at Anthropologie, Richa Srivastava, shares her personal shopping habits with Modern Retail.",
+    "url": "https://www.modernretail.co/marketing/anthropologies-chief-creative-officer-richa-srivastava-on-japanese-stationery-chore-jackets-and-her-body-bag-duffel/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-07-07",
+    "fetched_date": "2026-07-07",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Why Forme launched a World Cup promotion hedged on Kalshi",
+    "abstract": "Forme used Kalshi to hedge a World Cup refund promo, which helped lift the brand's menswear traffic on its site. The campaign is a novel example of how e-commerce brands could use predictions markets as marketing tools.",
+    "url": "https://www.modernretail.co/marketing/why-forme-launched-a-world-cup-promotion-hedged-on-kalshi/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-07-07",
+    "fetched_date": "2026-07-07",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "California’s new packaging laws are changing the economics of plastic",
+    "abstract": "California's new packaging extended producer responsibility law means thousands of brands may wind up changing their packaging.",
+    "url": "https://www.modernretail.co/operations/californias-new-packaging-laws-are-changing-the-economics-of-plastic/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-07-06",
+    "fetched_date": "2026-07-07",
+    "feed_name": "Modern Retail",
+    "source": "industry"
   }
 ]
