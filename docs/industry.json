@@ -16298,5 +16298,305 @@
     "fetched_date": "2026-07-08",
     "feed_name": "Modern Retail",
     "source": "industry"
+  },
+  {
+    "title": "Our approach to government and national security partnerships",
+    "abstract": "Learn how OpenAI approaches government and national security partnerships, with principles for responsible AI use, democratic accountability, and public safety.",
+    "url": "https://openai.com/index/government-national-security-partnerships",
+    "topic": "llm",
+    "date": "2026-07-08",
+    "fetched_date": "2026-07-09",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Separating signal from noise in coding evaluations",
+    "abstract": "A new analysis from OpenAI reveals issues in SWE-Bench Pro, a popular coding benchmark, raising concerns about reliability and accuracy in evaluating AI models.",
+    "url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
+    "topic": "llm",
+    "date": "2026-07-08",
+    "fetched_date": "2026-07-09",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Helping K–12 educators build practical AI skills",
+    "abstract": "OpenAI Academy and the Walton Family Foundation are bringing hands-on AI Skills Jams to help K–12 educators build practical AI skills for the classroom.",
+    "url": "https://openai.com/index/k-12-educators-practical-skills",
+    "topic": "llm",
+    "date": "2026-07-08",
+    "fetched_date": "2026-07-09",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Introducing GPT-Live",
+    "abstract": "A new generation of voice models for natural human-AI interaction, now powering ChatGPT Voice.",
+    "url": "https://openai.com/index/introducing-gpt-live",
+    "topic": "llm",
+    "date": "2026-07-08",
+    "fetched_date": "2026-07-09",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "An off switch for dual use knowledge in AI models",
+    "abstract": "New results on a method of controlling access to potentially dangerous AI capabilities",
+    "url": "https://www.anthropic.com/research/off-switch-dual-use",
+    "topic": "llm",
+    "date": "2026-07-08",
+    "fetched_date": "2026-07-09",
+    "feed_name": "Anthropic Research",
+    "source": "industry"
+  },
+  {
+    "title": "Data for Agents",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/nvidia/open-data-for-agents",
+    "topic": "llm",
+    "date": "2026-07-08",
+    "fetched_date": "2026-07-09",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Native-speed vLLM transformers modeling backend",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/native-speed-vllm-transformers-backend",
+    "topic": "llm",
+    "date": "2026-07-08",
+    "fetched_date": "2026-07-09",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Rewriting Bun in Rust",
+    "abstract": "Rewriting Bun in Rust Jarred Sumner has been promising this blog post ( since May 9th ) about his Zig to Rust rewrite of Bun for significantly longer than it took him to finish the rewrite. Honestly, it was worth the wait. This is a detailed description of an extremely sophisticated piece of agentic engineering, featuring dynamic workflows, trial runs, adversarial review and all sorts of other interesting tricks. Jarred spends the first half of the post praising Zig for getting Bun this far. Then we get to a core idea in the piece, emphasis mine: Our bugfix list felt bad and I was tired of going to sleep worrying about crashes in Bun. I don't blame Zig for that - other users of Zig don't have the bugs we had, and mixing GC with manually-managed memory is an uncommon enough thing for software to need that no language really designs for it. We wouldn't have gotten this far if not for Zig, and I'll always be grateful. Until very recently, programming language choice was a one-way decision for a project like Bun. Everyone knows you should never stop the world and rewrite a large piece of software from the ground up. Joel Spolsky highlighted that in Things You Should Never Do, Part I back in April 2000! Coding agents powered by today's frontier models change that equation. Why pick Rust? It all came down to those challenges with memory management: A large percentage of bugs from that list are use-after-free, double-free, and \"forgot to free\" in an error path. In safe Rust, these are compiler errors and RAII-like automatic cleanup with Drop . A crucial enabling factor for the rewrite was that the Bun test suite was written in TypeScript, which meant it could act as a conformance suite . This allowed an agent harness to automate much of the initial port from Bun to Rust, initially as an experiment to try out an earlier version of the model we now have access to as Mythos/Fable. At first, I didn't expect it to work. A few days in, a high % of the test suite started passing and I saw how much the new Rust code matched up with the original Zig codebase. My opinion went from \"this is worth trying\" to \"I'm going to merge this\". [...] For most of those 11 days (and after), I monitored workflows - manually reading the outputs to check for issues and bugs, and prompting Claude to edit the loop to fix things. How do you review a PR with +1 million lines added? How do you start to build the confidence needed to responsibly merge large quantities of LLM-authored code? A language-independent test suite with a million assertions, adversarial code review and when something does go wrong, fixing the process that generates the code instead of hand-fixing the code. The new implementation of Bun has been live in Claude Code for nearly a month now: Claude Code v2.1.181 (released June 17th) and later use the Rust port of Bun. Startup got 10% faster on Linux but otherwise, barely anyone noticed. Boring is good. A perk of working at Anthropic is that you don't have to pay for your tokens - handy when the estimated cost is $165,000! Pre-merge, this took 5.9 billion uncached input tokens, 690 million output tokens, and 72 billion cached input token reads — around $165,000 at API pricing. This whole thing is a fascinating case study in taking on wildly ambitious projects with the help of coordinated parallel agents. Via Hacker News Tags: ai , rust , zig , generative-ai , llms , ai-assisted-programming , anthropic , bun , conformance-suites , agentic-engineering , claude-mythos-fable",
+    "url": "https://simonwillison.net/2026/Jul/8/rewriting-bun-in-rust/#atom-everything",
+    "topic": "llm",
+    "date": "2026-07-08",
+    "fetched_date": "2026-07-09",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Introducing GPT‑Live",
+    "abstract": "Introducing GPT‑Live OpenAI finally upgraded the model used by ChatGPT voice mode! I've had preview access for a few weeks in the iPhone app, and the new model is very impressive. It also has the ability to spin off harder tasks to GPT-5.5: For questions that require web search, deeper reasoning, or more complex work, it delegates to our latest frontier model behind the scenes and brings the result back into the conversation when it’s ready. While it works, GPT‑Live can keep talking with you and maintain the flow of conversation. At launch, GPT‑Live will use GPT‑5.5 in the background. As we release new frontier models, we’ll continuously update the model used by GPT‑Live. The previous voice mode in the ChatGPT app was based on a GPT-4o era model, with a knowledge cut-off some time in 2024. I had mostly stopped using voice mode because the age and relative weakness of the model greatly limited how useful it was as a brainstorming partner. During the preview period I encountered a pretty obscure bug: the model was interrupting me to laugh at things I said, which weren't even intended as jokes! It felt rude and condescending - I reported it to OpenAI and as far as I can tell they made some tweaks and it's now less likely to happen. From looking back at my transcripts I think it was this bit that triggered the interrupting laugh: so where are the owls when they're not, like before dusk? The owls exist, right? Are they hiding in holes? Where are they hiding? My longest conversation with the new model has been a full hour while walking the dog (and taking photos of pelicans ). I have not yet managed to take a photo of an owl. Via Hacker News Tags: text-to-speech , ai , openai , generative-ai , llms , multi-modal-output , llm-release , speech-to-text",
+    "url": "https://simonwillison.net/2026/Jul/8/introducing-gptlive/#atom-everything",
+    "topic": "llm",
+    "date": "2026-07-08",
+    "fetched_date": "2026-07-09",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Quoting Kenton Varda",
+    "abstract": "I just declared a moratorium against AI-written change descriptions (e.g. PR and commit messages, also issues/tickets) from my team. AI was writing change descriptions that were worse than useless to me as I tried to review PRs: outlining details of the code that could easily be seen by looking at the code, but omitting the higher-level framing needed to understand broadly what the code is doing. — Kenton Varda Tags: kenton-varda , ai-assisted-programming , generative-ai , ai , llms",
+    "url": "https://simonwillison.net/2026/Jul/8/kenton-varda/#atom-everything",
+    "topic": "llm",
+    "date": "2026-07-08",
+    "fetched_date": "2026-07-09",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "The AI Industry Has a Really Dark Secret You're Better Off Not Knowing",
+    "abstract": "To be clear, you shouldn't read this",
+    "url": "https://www.thealgorithmicbridge.com/p/the-ai-industry-has-a-really-dark",
+    "topic": "llm",
+    "date": "2026-07-08",
+    "fetched_date": "2026-07-09",
+    "feed_name": "The Algorithmic Bridge",
+    "source": "industry"
+  },
+  {
+    "title": "Lovable reportedly in talks to double its valuation to $13.2B",
+    "abstract": "The $300 million round is expected to be led by Menlo Ventures, Sifted reported.",
+    "url": "https://techcrunch.com/2026/07/08/lovable-reportedly-in-talks-to-double-its-valuation-to-13-2b/",
+    "topic": "llm",
+    "date": "2026-07-08",
+    "fetched_date": "2026-07-09",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Google’s deepfake detector system used to debunk McConnell hoax pic",
+    "abstract": "Earlier this week, a picture seemed to show Kentucky Senator Mitch McConnell covered in tubes in a hospital bed in a state of extreme distress. It turned out to be an AI-generated fake.",
+    "url": "https://techcrunch.com/2026/07/08/googles-deepfake-detector-system-used-to-debunk-mcconnell-hoax-pic/",
+    "topic": "llm",
+    "date": "2026-07-08",
+    "fetched_date": "2026-07-09",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "SpaceXAI releases Grok 4.5, which Elon describes as an ‘Opus-class model’",
+    "abstract": "Elon Musk's tech company released the newest version of Grok on Wednesday, promising a cheaper, more efficient alternative to other powerful AI models.",
+    "url": "https://techcrunch.com/2026/07/08/spacexai-releases-grok-4-5-which-elon-describes-as-an-opus-class-model/",
+    "topic": "llm",
+    "date": "2026-07-08",
+    "fetched_date": "2026-07-09",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "This startup thinks robotics is about to have its ChatGPT moment",
+    "abstract": "General Intuition is betting millions of hours of video game data can train the foundation models for physical AI, making it easier to build smarter robots with minimal real-world data.",
+    "url": "https://techcrunch.com/2026/07/08/this-startup-thinks-robotics-is-about-to-have-its-chatgpt-moment/",
+    "topic": "llm",
+    "date": "2026-07-08",
+    "fetched_date": "2026-07-09",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Google Photos adds a new AI ‘Video Remix’ tool",
+    "abstract": "The feature can do things like apply cinematic relighting to brighten up a dark clip, swap out a plain background for something fun, or add artistic styles to videos.",
+    "url": "https://techcrunch.com/2026/07/08/google-photos-adds-a-new-ai-video-remix-tool/",
+    "topic": "llm",
+    "date": "2026-07-08",
+    "fetched_date": "2026-07-09",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Why this CEO thinks video games make better training data than the internet",
+    "abstract": "When it comes to achieving artificial general intelligence (AGI), large language models just don’t have what it takes. Models like ChatGPT and Claude are great at text, but they’re less skilled at understanding how things actually move through space and time — an essential skill for producing intelligence that generalizes. That gap, it turns out, might be filled by gaming data. That’s the bet behind General Intuition, a […]",
+    "url": "https://techcrunch.com/video/why-this-ceo-thinks-video-games-make-better-training-data-than-the-internet/",
+    "topic": "llm",
+    "date": "2026-07-08",
+    "fetched_date": "2026-07-09",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Meta wants its AI glasses to seem less creepy. Its AI strategy says otherwise.",
+    "abstract": "Meta is adding a new safeguard to stop people from secretly recording others with its AI glasses. But the update comes as the company continues to expand how much personal data its AI products collect and use.",
+    "url": "https://techcrunch.com/2026/07/08/meta-wants-its-ai-glasses-to-seem-less-creepy-its-ai-strategy-says-otherwise/",
+    "topic": "llm",
+    "date": "2026-07-08",
+    "fetched_date": "2026-07-09",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "OpenAI releases new voice models for more natural live conversations",
+    "abstract": "OpenAI says its new voice mode can speak and listen at the same time, a key ability for live translation.",
+    "url": "https://techcrunch.com/2026/07/08/openai-releases-new-voice-models-for-more-natural-live-conversations/",
+    "topic": "llm",
+    "date": "2026-07-08",
+    "fetched_date": "2026-07-09",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Prime Intellect raises $130M Series A to help enterprises build their own AI agents",
+    "abstract": "Founded in 2024, Prime Intellect’s goal is to give organizations capabilities to train their own agentic systems without relying on frontier AI labs.",
+    "url": "https://techcrunch.com/2026/07/08/prime-intellect-raises-130m-series-a-to-help-enterprises-build-their-own-ai-agents/",
+    "topic": "llm",
+    "date": "2026-07-08",
+    "fetched_date": "2026-07-09",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "These AI startups are growing  revenue at faster and faster rates",
+    "abstract": "There are a lot of fast-growing AI startups, but some are growing even faster, they say.",
+    "url": "https://techcrunch.com/2026/07/08/these-ai-startups-are-growing-revenue-at-faster-and-faster-rates/",
+    "topic": "llm",
+    "date": "2026-07-08",
+    "fetched_date": "2026-07-09",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Your gaming data could be the secret to AGI, according to this Bezos-backed startup",
+    "abstract": "When it comes to achieving artificial general intelligence (AGI), large language models just don’t have what it takes. Models like ChatGPT and Claude are great at text, but they’re less skilled at understanding how things actually move through space and time — an essential skill for producing intelligence that generalizes. That gap, it turns out, might be filled by gaming data. That’s the bet behind General Intuition, a […]",
+    "url": "https://techcrunch.com/podcast/your-gaming-data-could-be-the-secret-to-agi-according-to-this-bezos-backed-startup/",
+    "topic": "llm",
+    "date": "2026-07-08",
+    "fetched_date": "2026-07-09",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Former OpenAI exec Kevin Weil is now on the board of Stoke Space",
+    "abstract": "Kevin Weil's new role at Stoke Space suggests reusable rockets are the next hot thing in Silicon Valley.",
+    "url": "https://techcrunch.com/2026/07/08/former-openai-exec-kevin-weil-is-now-on-the-board-of-stoke-space/",
+    "topic": "llm",
+    "date": "2026-07-08",
+    "fetched_date": "2026-07-09",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Hot French startup ZML releases free product to speed inference across lots of AI chips",
+    "abstract": "ZML, a hot French AI startup endorsed by Turing Award winner Yann LeCun, has now released ZML/LLMD, software that could make running AI less costly.",
+    "url": "https://techcrunch.com/2026/07/08/hot-french-startup-zml-releases-free-product-to-speed-inference-across-lots-of-ai-chips/",
+    "topic": "llm",
+    "date": "2026-07-08",
+    "fetched_date": "2026-07-09",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "AI chip maker SambaNova raises $1B at $11B valuation, 5 months after last mega round",
+    "abstract": "AI chip maker SambaNova has raised at an $11 billion valuation months after Intel was rumored to be trying to buy it for about $1.6 billion.",
+    "url": "https://techcrunch.com/2026/07/08/sambanova-draws-1b-at-11b-valuation-in-series-f-first-close/",
+    "topic": "llm",
+    "date": "2026-07-08",
+    "fetched_date": "2026-07-09",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Levi’s has filed 2 new lawsuits this year to protect its red tab trademark",
+    "abstract": "Levi's has sought to protect its red tab trademark this year by filing lawsuits against Farm Rio and the Australian brand S/Double. The lawsuits accuse the brands of using similar design elements that risk customer confusion and cause harm to the Levi's brand.",
+    "url": "https://www.modernretail.co/operations/levis-has-filed-2-new-lawsuits-this-year-to-protect-its-red-tab-trademark/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-07-09",
+    "fetched_date": "2026-07-09",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Meta’s AI glasses are already among the fastest sellers at America’s Best, Eyeglass World",
+    "abstract": "AI-powered glasses are beginning to make an impact on one of the largest vision retailers in the country.",
+    "url": "https://www.modernretail.co/technology/metas-ai-glasses-are-already-among-the-fastest-sellers-at-americas-best-eyeglass-world/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-07-09",
+    "fetched_date": "2026-07-09",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "How Dollar Shave Club decides when to use AI-generated creative",
+    "abstract": "Dollar Shave Club has started to embrace using generative AI for ad creative, most recently for its Fourth of July campaign.",
+    "url": "https://www.modernretail.co/marketing/how-dollar-shave-club-decides-when-to-use-ai-generated-creative/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-07-09",
+    "fetched_date": "2026-07-09",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Why a brand’s reputation precedes it in the AI-driven search era",
+    "abstract": "In the AI-driven search era, a brand’s reputation precedes it. Earned media is the mechanism through which brands can build the trust and credibility that makes them worth recommending. It’s the difference between being present and being chosen. Sponsored by Journey Further",
+    "url": "https://www.modernretail.co/sponsored/why-a-brands-reputation-precedes-it-in-the-ai-driven-search-era/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-07-08",
+    "fetched_date": "2026-07-09",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Kohl’s zeroes in on Nike for back-to-school marketing",
+    "abstract": "Kohl's is \"leaning heavily\" into Nike as part of its new back-to-school campaign, executives shared. The investment includes a broader assortment, as well as Nike-themed tunnel-walk installations in stores.",
+    "url": "https://www.modernretail.co/marketing/kohls-zeroes-in-on-nike-for-back-to-school-marketing/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-07-08",
+    "fetched_date": "2026-07-09",
+    "feed_name": "Modern Retail",
+    "source": "industry"
   }
 ]
