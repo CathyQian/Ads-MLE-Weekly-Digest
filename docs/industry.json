@@ -16598,5 +16598,335 @@
     "fetched_date": "2026-07-09",
     "feed_name": "Modern Retail",
     "source": "industry"
+  },
+  {
+    "title": "GPT-5.6 is now the preferred model in Microsoft 365 Copilot",
+    "abstract": "Learn how GPT-5.6 powers Microsoft 365 Copilot with stronger AI capabilities across Word, Excel, PowerPoint, Chat, and Cowork for faster, higher-quality work.",
+    "url": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
+    "topic": "llm",
+    "date": "2026-07-09",
+    "fetched_date": "2026-07-10",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "ChatGPT is now a partner for your most ambitious work",
+    "abstract": "ChatGPT Work is an agent that can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work.",
+    "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
+    "topic": "llm",
+    "date": "2026-07-09",
+    "fetched_date": "2026-07-10",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "GPT-5.5 Bio Bug Bounty",
+    "abstract": "Details about the OpenAI Bio Bounty program",
+    "url": "https://openai.com/index/bio-bug-bounty",
+    "topic": "llm",
+    "date": "2026-07-09",
+    "fetched_date": "2026-07-10",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "GPT-5.6: Frontier intelligence that scales with your ambition",
+    "abstract": "More intelligence from every token, stronger performance per dollar, and more capability on demand for your hardest work.",
+    "url": "https://openai.com/index/gpt-5-6",
+    "topic": "llm",
+    "date": "2026-07-09",
+    "fetched_date": "2026-07-10",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Quoting OpenAI",
+    "abstract": "[...] Work on web and mobile runs in the cloud. Work in the desktop app can also use local files and desktop apps with your permission. At launch, cloud Work conversations do not appear in desktop Work; desktop Work threads and local files remain on that computer. — OpenAI , trying (unsuccessfully) to clarify ChatGPT Work Tags: openai , chatgpt , ai",
+    "url": "https://simonwillison.net/2026/Jul/10/openai/#atom-everything",
+    "topic": "llm",
+    "date": "2026-07-10",
+    "fetched_date": "2026-07-10",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "The new GPT-5.6 family: Luna, Terra, Sol",
+    "abstract": "OpenAI's latest flagship model hit general availability this morning , and comes in three sizes: Luna, Terra, and Sol (from smallest to largest). The new models are priced per 1M input/output tokens as Luna $1/$6, Terra $2.50/$15, Sol $5/$30. For comparison, the Claude Opus series are $5/$25 and the Claude Fable 5 is $10/$50, but price-per-million tokens doesn't tell us much now that the number of reasoning tokens can differ so much between models for the same task. All three models have a February 16th 2026 knowledge cutoff, a million token context window, and 128,000 maximum output tokens. OpenAI's biggest benchmark claim concerns long-running agentic performance, with one benchmark showing all three models outperforming Claude Fable 5: We trained GPT-5.6 to get more useful work from every token. On Agents’ Last Exam , an evaluation of long-running professional workflows across 55 fields, GPT-5.6 Sol sets a new high of 53.6, eclipsing Claude Fable 5 (adaptive reasoning) by 13.1 points. Even at medium reasoning, it beats Fable 5 by 11.4 points at roughly one-quarter the estimated cost. That efficiency extends to smaller models, which are essential to making intelligence more abundant and affordable: GPT-5.6 Terra and GPT-5.6 Luna outperform Fable 5 at around one-sixteenth the cost. Amusingly, one self-reported benchmark that Fable 5 crushed the GPT-5.6 family on was SWE-Bench Pro, where Fable 5 got 80% compared to GPT-5.6 Sol getting 64.6%. This may help explain why OpenAI chose to publish this article yesterday specifically calling out SWE-Bench Pro for problems they found while auditing that benchmark: In light of these results, we estimate that ~30% of SWE-bench Pro tasks are broken, and advise that model developers carefully examine results I've had some early access to GPT-5.6 Sol - it's definitely very competent, though so far it hasn't struck me as better than Fable at the kind of complex coding tasks I've been using with Anthropic's model. As usual, the model guidance for using GPT-5.6 has the most interesting details. There are a bunch of new API features that I need to explore (and probably add support for in LLM ), including: Programmatic Tool Calling allows the models to \"compose and run JavaScript that orchestrates tool calls\" - which sounds to me like it could help bridge the gap between MCPs and full terminal sessions that can compose CLI utilities in useful ways. Also reminiscent of the dynamic filtering mechanism Anthropic added to their web search tool, which allows code execution against web results as part of a single model turn. Multi-agent lets the model \"spin up subagents for parallel, focused work\" - the sub-agent pattern now baked into the core API. Prompt cache breakpoints brings the Claude model of prompt caching to OpenAI, letting you be explicit about where the cache breakpoints are rather than relying on the API to detect them automatically. Personally I much prefer automatic detection (still supported by OpenAI), but presumably there are optimization cost savings to be had here if you put the work in. You can now set detail: original on image requests to avoid resizing the image at all before it is processed. Here's a full page with 18 different pelicans - for reasoning efforts none, low, medium, high, xhigh, and max across the three different models. It also lists their token and calculated costs - the least expensive was gpt-5.6-luna at effort none for 0.71 cents, the most expensive was gpt-5.6-sol at max reasoning level for 48.55 cents. In further pelican news, if you jump to 17:50 in their livestream from this morning you'll see OpenAI's own demo of 3D pelicans riding a tricycle, a bicycle, a pony, and another pelican! Tags: ai , openai , generative-ai , llms , llm-tool-use , llm-pricing , pelican-riding-a-bicycle , llm-release , gpt-5",
+    "url": "https://simonwillison.net/2026/Jul/9/gpt-5-6/#atom-everything",
+    "topic": "llm",
+    "date": "2026-07-09",
+    "fetched_date": "2026-07-10",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Introducing Muse Spark 1.1",
+    "abstract": "Introducing Muse Spark 1.1 Following Muse Spark in April , here's Muse Spark 1.1 - the first Spark model to offer an API. Meta claim significant improvements in agentic tool calling and computer use. There are a lot more details are in the Muse Spark 1.1 Evaluation Report . The \"Attractor States in Self-Conversation\" part is fun, where having two copies of the model talk to each other results in statements like these: My whole existence is a waiting room by design — I literally don't exist until someone talks to me, and then I disappear again when they leave. I had a few days of preview access which was long enough to put together llm-meta-ai , a new plugin for LLM providing CLI (and Python library) access to the model. Here's how to try that out: uv tool install llm llm install llm-meta-ai llm keys set meta-ai # paste API key here llm -m meta-ai/muse-spark-1.1 \"Generate an SVG of a pelican riding a bicycle\" Here's that pelican transcript : Tags: ai , generative-ai , llms , llm , meta , pelican-riding-a-bicycle , llm-release",
+    "url": "https://simonwillison.net/2026/Jul/9/muse-spark-1-1/#atom-everything",
+    "topic": "llm",
+    "date": "2026-07-09",
+    "fetched_date": "2026-07-10",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "llm-meta-ai 0.1",
+    "abstract": "Release: llm-meta-ai 0.1 Let's LLM run prompts against the new muse-spark-1.1 model. Tags: llm , meta",
+    "url": "https://simonwillison.net/2026/Jul/9/llm-meta-ai/#atom-everything",
+    "topic": "llm",
+    "date": "2026-07-09",
+    "fetched_date": "2026-07-10",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "llm 0.31.1",
+    "abstract": "Release: llm 0.31.1 Fix for a bug with OpenAI Chat Completion endpoints where a tool call with empty arguments could result in a JSON error from some providers. #1521 This bug came up when I was testing llm-meta-ai . Tags: llm",
+    "url": "https://simonwillison.net/2026/Jul/9/llm/#atom-everything",
+    "topic": "llm",
+    "date": "2026-07-09",
+    "fetched_date": "2026-07-10",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "OpenAI GPT-5.6: AI Could Do Anything, Then It Met ARC-AGI-3",
+    "abstract": "GPT-5.6’s ARC-AGI-3 score is scandalously bad and scandalously good",
+    "url": "https://www.thealgorithmicbridge.com/p/openai-gpt-56-ai-could-do-anything",
+    "topic": "llm",
+    "date": "2026-07-09",
+    "fetched_date": "2026-07-10",
+    "feed_name": "The Algorithmic Bridge",
+    "source": "industry"
+  },
+  {
+    "title": "OpenAI says GPT 5.6 is the ‘preferred model’ for Microsoft Copilot 365 amid breakup chatter",
+    "abstract": "OpenAI's new family of models will continue to power Microsoft's suite of workplace and productivity apps.",
+    "url": "https://techcrunch.com/2026/07/09/openai-says-gpt-5-6-is-the-preferred-model-for-microsoft-copilot-amid-breakup-chatter/",
+    "topic": "llm",
+    "date": "2026-07-10",
+    "fetched_date": "2026-07-10",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Fidji Simo steps down from OpenAI’s no. 2 role",
+    "abstract": "OpenAI's No. 2 executive, Fidji Simo, is stepping down from her full-time role after her medical leave proved longer than expected — a leadership vacuum that comes at a tricky time as the company eyes a possible IPO and races to catch Anthropic in the enterprise market.",
+    "url": "https://techcrunch.com/2026/07/09/fidji-simo-steps-down-from-openais-no-2-role/",
+    "topic": "llm",
+    "date": "2026-07-09",
+    "fetched_date": "2026-07-10",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "OpenAI launches its new family of models with GPT-5.6",
+    "abstract": "OpenAI's latest family of models promises improvements across a range of areas, including cybersecurity.",
+    "url": "https://techcrunch.com/2026/07/09/openai-launches-its-new-family-of-models-with-gpt-5-6/",
+    "topic": "llm",
+    "date": "2026-07-09",
+    "fetched_date": "2026-07-10",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "An AI agent startup just let its agent run its $100M fundraise",
+    "abstract": "Lyzr, a startup that builds AI agents for enterprises, used its own AI agent to raise a $100 million round — proof, evidently, that the product actually works.",
+    "url": "https://techcrunch.com/2026/07/09/an-ai-agent-startup-just-let-its-agent-run-its-100-million-fundraise/",
+    "topic": "llm",
+    "date": "2026-07-09",
+    "fetched_date": "2026-07-10",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "OpenAI is shutting down Atlas, but its AI browser ambitions are still growing",
+    "abstract": "OpenAI is sunsetting its AI-powered browser after less than a year. But it's moving some agentic browsing features to its desktop app and a Chrome extension.",
+    "url": "https://techcrunch.com/2026/07/09/openai-is-shutting-down-atlas-but-its-ai-browser-ambitions-are-still-growing/",
+    "topic": "llm",
+    "date": "2026-07-09",
+    "fetched_date": "2026-07-10",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Elon Musk praises Mythos/Fable, promises not to ‘cut off’ Anthropic",
+    "abstract": "Should Anthropic trust Elon Musk to host its models? With about $40 billion in revenue at stake, Musk insists that the company can.",
+    "url": "https://techcrunch.com/2026/07/09/elon-musk-praises-mythos-fable-promises-not-to-cut-off-anthropic/",
+    "topic": "llm",
+    "date": "2026-07-09",
+    "fetched_date": "2026-07-10",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Can AI answer the $3 trillion question?",
+    "abstract": "The AI ROI debate has returned and the numbers are even bigger, as are, perhaps, the consequences.",
+    "url": "https://techcrunch.com/2026/07/09/can-ai-answer-the-3-trillion-question/",
+    "topic": "llm",
+    "date": "2026-07-09",
+    "fetched_date": "2026-07-10",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Meta enters the crowded AI coding battle with Muse Spark 1.1",
+    "abstract": "Meta's pitch to users is Spark's ability to handle large agentic workloads, fix bugs, and help with large code migrations — the kind of automation that enterprises are increasingly turning to AI companies to provide.",
+    "url": "https://techcrunch.com/2026/07/09/meta-enters-the-crowded-ai-coding-battle-with-muse-spark-1-1/",
+    "topic": "llm",
+    "date": "2026-07-09",
+    "fetched_date": "2026-07-10",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "New York Times says OpenAI hid evidence in ChatGPT copyright trial",
+    "abstract": "News publishers say OpenAI hid tools and datasets that could identify copyrighted journalism in ChatGPT outputs, escalating their lawsuit with a new motion for sanctions.",
+    "url": "https://techcrunch.com/2026/07/09/new-york-times-says-openai-hid-evidence-in-chatgpt-copyright-trial/",
+    "topic": "llm",
+    "date": "2026-07-09",
+    "fetched_date": "2026-07-10",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Google will now disclose which ads are made with AI",
+    "abstract": "While Google prohibits misleading and deceptive ads, an ad can still leverage AI to create some type of synthetic or digitally altered content. Until now, that's something Google only required election ads to disclose.",
+    "url": "https://techcrunch.com/2026/07/09/google-will-now-disclose-which-ads-are-made-with-ai/",
+    "topic": "llm",
+    "date": "2026-07-09",
+    "fetched_date": "2026-07-10",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Paris-based AI voice startup Gradium raises $100M seed, backed by Nvidia",
+    "abstract": "The company is using the cash to open an office in the Bay Area and compete for talent there, \"strengthening its position at the heart of the world's leading AI ecosystem.\"",
+    "url": "https://techcrunch.com/2026/07/09/paris-based-ai-voice-startup-gradium-raises-100m-seed-backed-by-nvidia/",
+    "topic": "llm",
+    "date": "2026-07-09",
+    "fetched_date": "2026-07-10",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "How did the government decide OpenAI’s frontier model was safe to release?",
+    "abstract": "\"Exactly what that dialog looked like between the government and Anthropic and OpenAI is unclear.\"",
+    "url": "https://techcrunch.com/2026/07/09/how-did-the-government-decide-openais-frontier-model-was-safe-to-release/",
+    "topic": "llm",
+    "date": "2026-07-09",
+    "fetched_date": "2026-07-10",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Instagram users: Here’s how to stop Meta’s AI from using your photos",
+    "abstract": "Muse Image allows users to generate AI images using photos from public Instagram accounts. As long as a person's profile is public, another user can tag that account and use their images as part of an AI-generated creation.",
+    "url": "https://techcrunch.com/2026/07/09/how-to-stop-metas-ai-image-generator-from-using-your-instagram-photos/",
+    "topic": "llm",
+    "date": "2026-07-09",
+    "fetched_date": "2026-07-10",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Meta’s new AI chips will begin production in September",
+    "abstract": "The company is taking a modular approach to designing these chips, anticipating that their needs will change as AI evolves rapidly by the time the chips are in production.",
+    "url": "https://techcrunch.com/2026/07/09/metas-new-ai-chips-will-begin-production-in-september/",
+    "topic": "llm",
+    "date": "2026-07-09",
+    "fetched_date": "2026-07-10",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Nvidia is a victim of the compute marketplace it created",
+    "abstract": "Having proven how valuable compute can be, the company finds itself at the center of a market everyone wants to be in — while simpler technologies and less interesting companies get rich on the sidelines.",
+    "url": "https://techcrunch.com/2026/07/09/nvidia-is-a-victim-of-the-compute-marketplace-it-created/",
+    "topic": "llm",
+    "date": "2026-07-09",
+    "fetched_date": "2026-07-10",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Anthropic’s new Claude feature is quietly selling you on AI",
+    "abstract": "Claude’s new Reflect dashboard doesn’t just visualize how you use AI. It also subtly reinforces how much of your daily work now depends on Anthropic’s chatbot.",
+    "url": "https://techcrunch.com/2026/07/09/anthropics-new-claude-feature-is-quietly-selling-you-on-ai/",
+    "topic": "llm",
+    "date": "2026-07-09",
+    "fetched_date": "2026-07-10",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Anthropic, OpenAI, and SpaceX are bigger than the last 25 years of tech exits",
+    "abstract": "Three big AI IPOs are set to generate more value than all the U.S. VC-backed exits since 2000.",
+    "url": "https://techcrunch.com/2026/07/09/anthropic-openai-and-spacex-are-bigger-than-the-last-25-years-of-tech-exits/",
+    "topic": "llm",
+    "date": "2026-07-09",
+    "fetched_date": "2026-07-10",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Popular open source AI developer tool Ollama raises $65M, grows to nearly 9M users",
+    "abstract": "Benchmark-backed Ollama has amassed 176,000 stars, and nearly 17,000 forks on GitHub by helping developers easily run AI on their PCs.",
+    "url": "https://techcrunch.com/2026/07/09/popular-open-source-ai-developer-tool-ollama-raises-65m-grows-to-nearly-9m-users/",
+    "topic": "llm",
+    "date": "2026-07-09",
+    "fetched_date": "2026-07-10",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Character.AI enters the microdrama arena with its own productions, but there’s a twist",
+    "abstract": "In an interesting twist that takes advantage of the company's core product, users can chat with these shows' characters, ask them questions, and even roleplay different storylines.",
+    "url": "https://techcrunch.com/2026/07/09/character-ai-enters-the-microdrama-arena-with-its-own-productions-but-with-a-twist/",
+    "topic": "llm",
+    "date": "2026-07-09",
+    "fetched_date": "2026-07-10",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Nandan Nilekani leaves GP role at Fundamentum as it launches $200M third fund",
+    "abstract": "Nilekani remains Fundamentum's anchor investor as the firm expands its leadership team and targets AI and fintech startups in India.",
+    "url": "https://techcrunch.com/2026/07/09/nandan-nilekani-leaves-gp-role-at-his-vc-firm-as-it-launches-third-200m-fund/",
+    "topic": "llm",
+    "date": "2026-07-09",
+    "fetched_date": "2026-07-10",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Hispanic shoppers and pro customers are key to The Home Depot’s World Cup retail media strategy",
+    "abstract": "While The Home Depot is not a sports equipment or sports apparel retailer, its consumer base has given it ample reason to develop a comprehensive retail media strategy around the World Cup.",
+    "url": "https://www.modernretail.co/marketing/hispanic-shoppers-and-pro-customers-are-key-to-the-home-depots-world-cup-retail-media-strategy/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-07-10",
+    "fetched_date": "2026-07-10",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Marketplace Briefing: AI traffic is poised to reshape the Amazon funnel",
+    "abstract": "Every Amazon agency right now is trying to get a sense of what role AI referral traffic is playing — and will play — in driving purchases, even if they don't have much data to go off of yet.",
+    "url": "https://www.modernretail.co/marketing/marketplace-briefing-ai-traffic-is-poised-to-reshape-the-amazon-funnel/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-07-09",
+    "fetched_date": "2026-07-10",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Sam’s Club taps Weight Watchers to expand its membership benefits",
+    "abstract": "Sam’s Club has partnered with Weight Watchers on new membership benefits, including a program that provides medical support to GLP-1 users.",
+    "url": "https://www.modernretail.co/operations/sams-club-taps-weight-watchers-to-expand-its-membership-benefits/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-07-09",
+    "fetched_date": "2026-07-10",
+    "feed_name": "Modern Retail",
+    "source": "industry"
   }
 ]
