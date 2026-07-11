@@ -16928,5 +16928,95 @@
     "fetched_date": "2026-07-10",
     "feed_name": "Modern Retail",
     "source": "industry"
+  },
+  {
+    "title": "How Deutsche Telekom is rewiring telecommunications with AI",
+    "abstract": "How Deutsche Telekom is becoming an AI-native telco with OpenAI-transforming customer service, employee workflows, network operations, and the future of voice.",
+    "url": "https://openai.com/index/deutsche-telekom",
+    "topic": "llm",
+    "date": "2026-07-10",
+    "fetched_date": "2026-07-11",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Profiling in PyTorch (Part 3): Attention is all you profile",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/torch-attention-profile",
+    "topic": "llm",
+    "date": "2026-07-10",
+    "fetched_date": "2026-07-11",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Quoting Nilay Patel",
+    "abstract": "The reality is to make augmented reality glasses, you need to put a camera next to your eyes that is continuously recording everything you see and processing that to put information over it. There is not another way around it. And there's certainly not a chip that can fit in the stem of a glasses that is both powerful enough and power miserly enough to do that in real time. You have to send that data to a cloud. You gotta do it. [...] Or you can build something the size of a Vision Pro with a battery pack that lives somewhere else. Those are the current choices in this world. And it means if you want to build the product that everyone thinks is the next thing, you are going to have to invade people's privacy. And maybe you shouldn't. Like, there's an incredible argument for, nope, you shouldn't do that. Nope, the trade-offs required to make this product are so high at a societal level that we should stop it. — Nilay Patel , The Vergecast Tags: ai-ethics , augmented-reality , nilay-patel , privacy , ai",
+    "url": "https://simonwillison.net/2026/Jul/10/nilay-patel/#atom-everything",
+    "topic": "llm",
+    "date": "2026-07-10",
+    "fetched_date": "2026-07-11",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Meta removes controversial AI feature on Instagram after backlash",
+    "abstract": "\"Our intent was to provide a useful creative tool and to give people control over whether their public content could be referenced in this way,\" the company said in a blog post. \"We've heard the feedback that this feature missed the mark, so it's no longer available.\"",
+    "url": "https://techcrunch.com/2026/07/10/meta-removes-controversial-ai-feature-on-instagram-after-backlash/",
+    "topic": "llm",
+    "date": "2026-07-10",
+    "fetched_date": "2026-07-11",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Apple sues OpenAI over alleged trade secret theft",
+    "abstract": "Apple alleges the misconduct was directed by OpenAI's senior leadership, including a longtime former employee.",
+    "url": "https://techcrunch.com/2026/07/10/apple-sues-openai-over-alleged-trade-secret-theft/",
+    "topic": "llm",
+    "date": "2026-07-10",
+    "fetched_date": "2026-07-11",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Open source AI matters more than ever, according to Hugging Face’s Clem Delangue",
+    "abstract": "Open source AI is booming, according to Hugging Face CEO Clem Delangue. The company has grown into something like a GitHub for AI in recent years, where AI builders can share and download open models and datasets, now used by roughly half the Fortune 500. Delangue has seen the same story play out again and again: companies start […]",
+    "url": "https://techcrunch.com/podcast/open-source-ai-matters-more-than-ever-according-to-hugging-faces-clem-delangue/",
+    "topic": "llm",
+    "date": "2026-07-10",
+    "fetched_date": "2026-07-11",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "SK Hynix raises $26.5B in the biggest foreign IPO in US history, is urged to build new US fabs",
+    "abstract": "The AI chip boom just produced its biggest Wall Street moment yet. Now SK Hynix and Samsung are being asked to build U.S. factories.",
+    "url": "https://techcrunch.com/2026/07/10/sk-hynix-raises-26-5b-in-the-biggest-foreign-ipo-in-us-history-is-urged-to-build-new-us-fabs/",
+    "topic": "llm",
+    "date": "2026-07-10",
+    "fetched_date": "2026-07-11",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Hugging Face’s CEO on why companies are done renting their AI",
+    "abstract": "Open source AI is booming, according to Hugging Face CEO Clem Delangue. The company has grown into something like a GitHub for AI in recent years, where AI builders can share and download open models and datasets, now used by roughly half the Fortune 500. Delangue has seen the same story play out again and again: companies start […]",
+    "url": "https://techcrunch.com/2026/07/10/hugging-faces-ceo-on-why-companies-are-done-renting-their-ai/",
+    "topic": "llm",
+    "date": "2026-07-10",
+    "fetched_date": "2026-07-11",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Brands won this season of ‘Love Island USA’",
+    "abstract": "\"Love Island USA\" has become a cultural phenomenon that many brands can no longer ignore. Ad sales were up 73% across the hit show this season, and \"Love Island\" has now become an integral part of summer-long marketing campaigns for brands like Poppi.",
+    "url": "https://www.modernretail.co/marketing/brands-won-this-season-of-love-island-usa/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-07-10",
+    "fetched_date": "2026-07-11",
+    "feed_name": "Modern Retail",
+    "source": "industry"
   }
 ]
