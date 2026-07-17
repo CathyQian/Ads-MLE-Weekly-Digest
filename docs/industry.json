@@ -17868,5 +17868,275 @@
     "fetched_date": "2026-07-16",
     "feed_name": "Modern Retail",
     "source": "industry"
+  },
+  {
+    "title": "Why teens deserve access to safe AI",
+    "abstract": "Learn how OpenAI is making ChatGPT safer for teens with age-appropriate protections, learning tools, parental controls, and expert partnerships.",
+    "url": "https://openai.com/index/why-teens-deserve-access-safe-ai",
+    "topic": "llm",
+    "date": "2026-07-16",
+    "fetched_date": "2026-07-17",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "How Cars24 scales conversations and builds faster with OpenAI",
+    "abstract": "Cars24 uses OpenAI-powered voice and chat agents to handle 1M+ monthly conversation minutes, recover 12% of lost leads, and bring agentic workflows to teams across the company.",
+    "url": "https://openai.com/index/cars24",
+    "topic": "llm",
+    "date": "2026-07-16",
+    "fetched_date": "2026-07-17",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "NVIDIA Nemotron 3 Embed Ranks #1 Overall on RTEB, Advancing Agentic Retrieval",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/nvidia/nemotron-3-embed-wins-rteb",
+    "topic": "llm",
+    "date": "2026-07-16",
+    "fetched_date": "2026-07-17",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Newer Models, Same Advantage",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/Dharma-AI/newer-models-same-advantages",
+    "topic": "llm",
+    "date": "2026-07-16",
+    "fetched_date": "2026-07-17",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Security incident disclosure — July 2026",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/security-incident-july-2026",
+    "topic": "llm",
+    "date": "2026-07-16",
+    "fetched_date": "2026-07-17",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Our approach to bioresilience",
+    "abstract": "Google DeepMind and Isomorphic Labs are sharing our joint approach to bioresilience and AI models.",
+    "url": "https://deepmind.google/blog/our-approach-to-bioresilience/",
+    "topic": "generative-ai",
+    "date": "2026-07-16",
+    "fetched_date": "2026-07-17",
+    "feed_name": "DeepMind Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Spot birds not golf",
+    "abstract": "Suggestion for hyperscalers feeling pressure over data center water use: Buy up a few exclusive country clubs, convert the golf courses into public parks, pay for guides and binoculars to get the previous members into birdwatching - help them embrace a more sustainable hobby! Google used 10.9 billion gallons in 2025 , so about 30 million gallons per day. The Coachella Valley has 120 golf courses each using ~800 acre-feet per year , which is ~750,000 gallons per day. So Google buying up 40 of those courses (1/3) should do the trick. Tags: ai-energy-usage , ai",
+    "url": "https://simonwillison.net/2026/Jul/17/spot-birds-not-golf/#atom-everything",
+    "topic": "llm",
+    "date": "2026-07-17",
+    "fetched_date": "2026-07-17",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Firefox in WebAssembly",
+    "abstract": "Firefox in WebAssembly This is absurdly cool: Puter compiled Firefox to WebAssembly such that the whole browser runs in another browser. Here's my blog, running in Firefox, running in WebAssembly, running in Chrome: They chose Firefox/Gecko because it has strong single-process support. The project used an estimated $25,000 worth of Claude Opus and Fable tokens, but took advantage of a Claude Max subscription plan so cost much less in actual dollars. The demo funnels all traffic over a WebSocket protocol (using the Wisp protocol ) through Puter's server - a requirement to get this kind of thing to work because code running in browsers can't open arbitrary network connections. (That proxying sounds expensive! The team had to scale the servers up to handle the traffic during the Hacker News conversation about the project.) Puter claim this supports end-to-end encryption and that looks to be true - I inspected the WebSocket messages and traffic to my own HTTPS site was encrypted whereas requests and responses to http://www.example.com/ were in cleartext. Here's the repo for firefox-wasm . theogbob/WebkitWasm is a similar project that compiles WebKit to WASM, but that one doesn't currently have an accessible online demo. Via Hacker News Tags: browsers , firefox , ai , webassembly , generative-ai , llms , ai-assisted-programming , claude , claude-mythos-fable",
+    "url": "https://simonwillison.net/2026/Jul/16/firefox-in-webassembly/#atom-everything",
+    "topic": "llm",
+    "date": "2026-07-16",
+    "fetched_date": "2026-07-17",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Kimi K3, and what we can still learn from the pelican benchmark",
+    "abstract": "Chinese AI lab Moonshot AI announced Kimi K3 this morning, describing it as their \"most capable model to date, with 2.8 trillion parameters\". It's currently available via their website and API, but an open weight release is promised \"by July 27, 2026\". Moonshot are calling this the first \"open 3T-class model\" (I guess they're rounding 2.8 trillion up to 3 trillion), taking the crown from DeepSeek's 1.6T v4 Pro . Their self-reported benchmarks have K3 mostly beating Claude Opus 4.8 max and GPT-5.5 high, while losing out to Claude Fable 5 and GPT-5.6 Sol. A few highlights from the Artificial Analysis report on the model: \"On our private long-horizon knowledge work evaluation, Kimi K3 reaches an overall Elo of 1547, +732 points from Kimi K2.6 and behind only Claude Fable 5.\" \"Cost per task ($0.94) is similar to GPT-5.6 Sol ($1.04), ~1/2 the price of Opus 4.8 ($1.80) and higher than open weights peers\" \"Kimi K3’s token usage on the Artificial Analysis Intelligence Index decreased significantly, using 21% fewer output tokens than K2.6.\" The model is also now the leading model on Arena.ai's Frontend Code arena , surpassing even Claude Fable 5. The new model is notable for the pricing: $3/million input tokens and $15/million output tokens, putting it at the same level as Anthropic's Claude Sonnet series and making it the most expensive model released by a Chinese AI lab to date. This is a significant increase on their earlier models such as Kimi K2.6 at $0.95/$4. 2.8 trillion parameters is also more than twice the size of that 1T model. But how does it pelican? I used OpenRouter (to avoid signing up for a Moonshot API key) with the llm-openrouter plugin to generate an SVG of a pelican riding a bicycle: llm -m openrouter/moonshotai/kimi-k3 'Generate an SVG of a pelican riding a bicycle' Here's the transcript . It looks like this: That pelican took 95 input tokens and 16,658 output tokens (13,241 were reasoning tokens), for a total cost of 25 cents ! Since K3 accepts image input I ran it against that rendered SVG above (with my alt text prompt ) and got back (for 0.6 cents ): Cartoon illustration of a white pelican wearing a red scarf, riding a red bicycle along a gray road with white dashed lines; the pelican has a large orange beak and webbed orange feet pedaling, with white motion lines behind it; the background shows a light blue sky with white clouds, a yellow sun, two small black birds in flight, and green grass with tiny white flowers in the foreground What can we learn from the pelican? My Generate an SVG of a pelican riding a bicycle test is 21 months old now. It was never a particularly great benchmark. It started out as a joke on how absurdly difficult it is to compare these models, but then for the first year it turned out to have a surprising correlation to how good the models actually were. That connection has been mostly severed now. The GPT-5.6 and Claude Fable 5 pelicans are outclassed by GLM-5.2 , and much as I love GLM I don't think that's a Fable-class model. (I'm still not convinced that labs are training for the benchmark - if they were, I'd expect much better results. There's a chance that Gemini has optimized for any combination of an animal on a vehicle though!) The biggest limitation of the pelican is that it doesn't touch at all on the thing that matters most for today's model: agentic tool calling and the ability to operate tools reliably as conversations grow in length. So don't go using pelicans to compare models! All of that said, I still get a decent amount of value out of running the benchmark myself. Firstly, it's a forcing function for actually trying the model. If I show you a pelican, that means I've managed to run a prompt through it. If the model has an official API I'll use that, if it's open weight (and small enough to fit a 128GB M5 MacBook Pro) I'll try running it on my own machine, usually via llama.cpp or LM Studio or Ollama . I'll frequently use OpenRouter since that usually provides a proxy to an official API without me needing a new API key. Most of my pelicans are generated using my LLM CLI tool , which helps encourage me to ensure the latest models are supported by that (via one of its plugins). More importantly though, even the act of a single prompt to \"Generate an SVG of a pelican riding a bicycle\" can reveal interesting model characteristics. Consider the result for Kimi K3 today. Running those simple prompts helped emphasize several points about the model. It only has one reasoning effort right now, \"max\" - and it shows. The model consumed 13,241 reasoning tokens to output 3,417 tokens of response. This is expensive - the pelican cost 25 cents! How does the prompt \"Generate an SVG of a pelican riding a bicycle\" add up to 95 input tokens? OpenAI's tokenizer counts 10, Anthropic's counts 10 for Opus 4.6, 30 for Opus 4.7 and 25 for Sonnet 5/Fable 5. Prompting \"hi\" to Kimi K3 counted 86 tokens, suggesting there may be an 85 token hidden system prompt. It refused to leak it though. Vision works well: the alt text it generated is very good. K3 currently only has one thinking effort level, but I've been deriving quite a bit of value recently from running the same pelican prompt through different effort levels to get a quick idea for what impact those have. Here's my matrix for the GPT-5.6 model family , for example. Really though the main things I gain from the pelican test are: It's a \"hello world\" exercise for prompting a model A rough cost and reasoning estimate for a simple task Confirmation that the model can output valid SVG and has a basic idea of geometry and spatial awareness. This is a much bigger deal for the smaller models that run on my laptop. It's still interesting to compare pelicans between releases in the same model family. K3's pelican is a notable improvement from Kimi 2.5 . It's something I can share that demonstrates I've tried it. Plus a comment with a pelican in it is kind of a tradition on Hacker News at this point, any time I'm late I get comments asking where it is! Tags: ai , generative-ai , llms , llm-pricing , pelican-riding-a-bicycle , llm-release , ai-in-china , artificial-analysis , moonshot , kimi",
+    "url": "https://simonwillison.net/2026/Jul/16/kimi-k3/#atom-everything",
+    "topic": "llm",
+    "date": "2026-07-16",
+    "fetched_date": "2026-07-17",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Quoting Thibault Sottiaux",
+    "abstract": "On file deletions. We’ve investigated a handful of reports where GPT-5.6 unexpectedly deleted files. What we have found is that this most commonly occurs when: Full access mode is enabled and codex is run without sandboxing protections, including without auto review being enabled The model attempts to override the $HOME env var to define a temporary directory. The model makes an honest mistake and mistakenly deletes $HOME instead. — Thibault Sottiaux , describing a pretty gnarly Codex bug Tags: codex , coding-agents , generative-ai , ai , llms",
+    "url": "https://simonwillison.net/2026/Jul/16/bad-codex-bug/#atom-everything",
+    "topic": "llm",
+    "date": "2026-07-16",
+    "fetched_date": "2026-07-17",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Inkling: Our open-weights model",
+    "abstract": "Inkling: Our open-weights model Mira Murati's Thinking Machines Lab just released their first open-weights model. Inkling is \"a Mixture-of-Experts transformer with 975B total parameters, 41B active\" - an Apache-2.0 licensed multimodal model trained on 45 trillion tokens of text, images, audio and video. They're also promising Inkling-Small, a 276B (12B active) model, but that's still being tested and the weights will be released \"once that work is complete\". The model card is much shorter than I've come to expect from US AI labs. It links to even shorter Training Data Documentation with almost nothing of interest in it - it's best summarized by these two paragraphs: The datasets Thinking Machines Lab uses to develop its AI services includes content that is in the public domain as well as content that may be subject to intellectual property protection. Thinking Machines Lab’s services were developed using publicly available content obtained from the open internet and publicly accessible data repositories. Certain datasets were also obtained from third parties. By Thinking Machines' own admission, this is not a frontier model. It's instead intended as a strong base model for fine-tuning using their own Tinker training platform : Inkling is not the strongest overall model available today, open or closed. Instead, a combination of qualities makes it a good open-weights base for customization: multimodal capabilities, efficient thinking, and availability on Tinker for fine-tuning. There's a lot to like about this release. It's Apache-2.0 licensed, and looks competitive with the open weight models coming out of China - it's good to see the US open weights ecosystem gain a new viable contender to join NVIDIA Nemotron and Gemma 4. Here's its attempt at an SVG pelican riding a bicycle, which I generated using this curl command against the Thinking Machines API: curl \" https://tinker.thinkingmachines.dev/services/tinker-prod/oai/api/v1/chat/completions \" \\ -H \" Authorization: Bearer $TINKER_API_KEY \" \\ -H \" Content-Type: application/json \" \\ -d ' { \"model\": \"thinkingmachines/Inkling\", \"messages\": [ {\"role\": \"user\", \"content\": \"Generate an SVG of a pelican riding a bicycle\"} ], \"stream\": false } ' Full response here . Since it's a multi-modal model I had it describe its own image (after I rendered it to a JPEG) by sending this JSON: { \"model\" : \" thinkingmachines/Inkling \" , \"messages\" : [{ \"role\" : \" user \" , \"content\" : [ { \"type\" : \" image_url \" , \"image_url\" : { \"url\" : \" data:image/jpeg;base64,$BASE_64_JPEG \" }}, { \"type\" : \" text \" , \"text\" : \" Describe this image in detail \" }, ], }], \"stream\" : false } Here's the full response . It thought it had drawn a \"stork or seagull\": This is a cheerful, flat-vector cartoon illustration featuring a white bird riding a bicycle across a green landscape. The Bird: The central figure is a stylized white bird—resembling a stork or seagull—with a plump, rounded body. It has a long, prominent orange beak that is slightly open, revealing a black line for the mouth. Its eye is small and black with a tiny white highlight. The bird has black wing and tail feathers with white edges, and thin orange legs ending in black feet that rest on the bicycle's orange pedals. The Bicycle: The bike has a simple black frame with two large wheels featuring black tires, gray inner rims, and black spokes arranged in a cross pattern. The handlebars are black, and there are bright orange pedals attached to a black crank. A white seat is visible behind the bird's body. The Setting: The scene is set against a clear, light blue sky. There are two fluffy white clouds—one on the left side and a smaller one near the bird's head on the right. A bright, solid yellow sun shines in the upper right corner. At the bottom, there are rolling green hills with a smooth, curved top edge where the bicycle rests. The overall style is playful, simple, and colorful, with clean lines and a bright, sunny atmosphere. Via Hacker News Tags: ai , generative-ai , llms , training-data , pelican-riding-a-bicycle , llm-release",
+    "url": "https://simonwillison.net/2026/Jul/16/inkling/#atom-everything",
+    "topic": "llm",
+    "date": "2026-07-16",
+    "fetched_date": "2026-07-17",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Mermaid to ASCII art (mermaid-ascii)",
+    "abstract": "Tool: Mermaid to ASCII art (mermaid-ascii) After building the Mermaid to ASCII tool based on Grok Build's Rust code I learned that there's an older, more fully-featured Go library called AlexanderGrooff/mermaid-ascii that implements a similar pattern, so I had Claude Fable 5 compile that one to WebAssembly as well so I could compare the two. This one includes support for colors! Tags: go , tools , webassembly , mermaid",
+    "url": "https://simonwillison.net/2026/Jul/16/mermaid-ascii/#atom-everything",
+    "topic": "llm",
+    "date": "2026-07-16",
+    "fetched_date": "2026-07-17",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Quoting Linus Torvalds",
+    "abstract": "I realize that some people really dislike AI, but this is an area where I'm willing to absolutely put my foot down as the top-level maintainer. Linux is not one of those anti-AI projects, and if somebody has issues with that, they can do the open-source thing and fork it. Or just walk away. AI is a tool, just like other tools we use. And it's clearly a useful one. It may not have been that \"clearly\" even just a year ago, but it's no longer in question today. There are other questions around AI (like what the economy of it will actually look like in the end), but \"is it useful\" is no longer one of those questions. Anybody who doubts that clearly hasn't actually used it. — Linus Torvalds , Linux Media Mailing List Tags: open-source , linus-torvalds , linux , generative-ai , ai , llms",
+    "url": "https://simonwillison.net/2026/Jul/16/linus-torvalds/#atom-everything",
+    "topic": "llm",
+    "date": "2026-07-16",
+    "fetched_date": "2026-07-17",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "How a Blind Professor Saw Through His Students’ Cheating",
+    "abstract": "This is the end of the university as you know it",
+    "url": "https://www.thealgorithmicbridge.com/p/how-a-blind-professor-saw-through",
+    "topic": "llm",
+    "date": "2026-07-16",
+    "fetched_date": "2026-07-17",
+    "feed_name": "The Algorithmic Bridge",
+    "source": "industry"
+  },
+  {
+    "title": "Google Vids now lets you star in your own AI videos",
+    "abstract": "Google is adding personalized AI avatars to Vids that let users create videos starring a digital version of themselves, alongside Gemini Omni-powered tools for generating and editing videos from prompts and reference images.",
+    "url": "https://techcrunch.com/2026/07/16/google-vids-now-lets-you-star-in-your-own-ai-videos/",
+    "topic": "llm",
+    "date": "2026-07-16",
+    "fetched_date": "2026-07-17",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Roblox launches an AI-powered game-creation feature in its mobile app",
+    "abstract": "Roblox's new \"Build\" feature lets users generate basic games using a single text prompt.",
+    "url": "https://techcrunch.com/2026/07/16/roblox-launches-an-ai-powered-game-creation-feature-in-its-mobile-app/",
+    "topic": "llm",
+    "date": "2026-07-16",
+    "fetched_date": "2026-07-17",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Google’s AI Mode now lets you link and interact with select apps",
+    "abstract": "With this new update, Google is expanding AI Mode beyond answering questions and into completing tasks across the apps they use regularly.",
+    "url": "https://techcrunch.com/2026/07/16/googles-ai-mode-now-lets-you-link-and-interact-with-select-apps/",
+    "topic": "llm",
+    "date": "2026-07-16",
+    "fetched_date": "2026-07-17",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Yes, you can now order DoorDash from the command line",
+    "abstract": "DoorDash is opening a limited beta of dd-cli, a command-line tool that lets developers and AI agents search stores, build carts, and place orders from the terminal, marking another step toward software designed for AI agents instead of just humans.",
+    "url": "https://techcrunch.com/2026/07/16/yes-you-can-now-order-doordash-from-the-command-line/",
+    "topic": "llm",
+    "date": "2026-07-16",
+    "fetched_date": "2026-07-17",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Why is OpenAI selling a ChatGPT basketball?",
+    "abstract": "You may have heard that OpenAI released its first piece of hardware this week. You may not have heard about the ChatGPT basketball.",
+    "url": "https://techcrunch.com/2026/07/16/why-is-openai-selling-a-chatgpt-basketball/",
+    "topic": "llm",
+    "date": "2026-07-16",
+    "fetched_date": "2026-07-17",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "How a former DeepMind researcher raised at a $300M pre-seed valuation before launching a product",
+    "abstract": "Drawing on more than a decade spent helping build some of the world's most influential AI systems, including research that later informed the development of ChatGPT, Andrew Dai explains why he believes visual AI is one of the next major frontiers in artificial intelligence.",
+    "url": "https://techcrunch.com/2026/07/16/how-a-former-deepmind-researcher-raised-at-a-300m-pre-seed-valuation-before-launching-a-product/",
+    "topic": "llm",
+    "date": "2026-07-16",
+    "fetched_date": "2026-07-17",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Why AMI Labs’ Alexandre LeBrun won’t call his AI ‘AGI’ or ‘superintelligence’",
+    "abstract": "While everyone in AI is chasing \"superintelligence,\" Alexandre LeBrun, CEO of Yann LeCun’s world model startup, AMI Labs, dismisses the word.",
+    "url": "https://techcrunch.com/2026/07/16/why-ami-labs-alexandre-lebrun-wont-call-his-ai-agi-or-superintelligence/",
+    "topic": "llm",
+    "date": "2026-07-16",
+    "fetched_date": "2026-07-17",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Moonshot’s upcoming Kimi 3 is expected to close the gap with Anthropic’s Opus 4.8",
+    "abstract": "The FT reports Kimi K3 will be the largest open AI model from China, with a parameter count between 2 trillion and 3 trillion.",
+    "url": "https://techcrunch.com/2026/07/16/moonshots-upcoming-kimi-3-is-expected-to-close-the-gap-with-anthropics-opus-4-8/",
+    "topic": "llm",
+    "date": "2026-07-16",
+    "fetched_date": "2026-07-17",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Apple Intelligence approved for launch in China with Alibaba and Baidu",
+    "abstract": "The deal, which was rumored to be in the works last year, marks an important step for Apple's AI ambitions in a key market.",
+    "url": "https://techcrunch.com/2026/07/16/apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai/",
+    "topic": "llm",
+    "date": "2026-07-16",
+    "fetched_date": "2026-07-17",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Applied Computing wants to give oil and gas operators an AI model for the entire plant",
+    "abstract": "Applied Computing has raised a $20M Series A to build a foundation AI model for the oil, gas and petrochemical industry.",
+    "url": "https://techcrunch.com/2026/07/15/applied-computing-wants-to-give-oil-and-gas-operators-an-ai-model-for-the-entire-plant/",
+    "topic": "llm",
+    "date": "2026-07-16",
+    "fetched_date": "2026-07-17",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "‘The store is a lemonade stand’: Brands are lending their retail spaces to other brands for events",
+    "abstract": "Brands like P.F. Candle Co. and Sorbara’s are lending their physical spaces to other brands for guest pop-ups. The strategy helps lift foot traffic and offset real estate costs.",
+    "url": "https://www.modernretail.co/operations/the-store-is-a-lemonade-stand-brands-are-lending-their-retail-spaces-to-other-brands-for-events/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-07-17",
+    "fetched_date": "2026-07-17",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Sam’s Club takes Manhattan for wellness event with creators",
+    "abstract": "On Thursday, Sam's Club hosted its first-ever Sam's Wellness Club, an exclusive event bringing together creators, media and merchants at a loft event space overlooking Midtown Manhattan. Here's why the club retailer is so keen on promoting its health and wellness offerings right now.",
+    "url": "https://www.modernretail.co/marketing/sams-club-takes-manhattan-for-wellness-event-with-creators/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-07-17",
+    "fetched_date": "2026-07-17",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Marketplace Briefing: What’s driving a surge in Amazon sales for 3 startups",
+    "abstract": "Amid a challenging macroeconomic year, Amazon has proven to be a powerful sales engine for many digitally native startups. Modern Retail spoke with three startups — Suri, P.F. Candle Co, and Pretty Tasty Tea – about what they believe is driving their surge in Amazon sales this year.",
+    "url": "https://www.modernretail.co/operations/marketplace-briefing-whats-driving-a-surge-in-amazon-sales-for-3-startups/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-07-16",
+    "fetched_date": "2026-07-17",
+    "feed_name": "Modern Retail",
+    "source": "industry"
   }
 ]

@@ -8518,5 +8518,165 @@
     "fetched_date": "2026-07-16",
     "feed_name": "TechCrunch",
     "source": "startup"
+  },
+  {
+    "title": "Coca-Cola suspended production at its Fairlife dairy after a ransomware attack",
+    "abstract": "Coca Cola said dairy production at its Fairlife unit will \"remain suspended\" in the United States following a hack.",
+    "url": "https://techcrunch.com/2026/07/16/coca-cola-suspended-production-at-its-fairlife-dairy-after-a-ransomware-attack/",
+    "topic": "startup",
+    "date": "2026-07-16",
+    "fetched_date": "2026-07-17",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Founders Fund hires former OpenAI exec Ryan Beiermeister (and not because of her ‘Mafia’ skills)",
+    "abstract": "Ryan Beiermeister, who demonstrated cool analysis in the Founders Fund YouTube series \"Mafia,\" has joined the firm as a partner.",
+    "url": "https://techcrunch.com/2026/07/16/founders-fund-hires-former-openai-exec-ryan-beiermeister-and-not-because-of-her-mafia-skills/",
+    "topic": "startup",
+    "date": "2026-07-16",
+    "fetched_date": "2026-07-17",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Google Vids now lets you star in your own AI videos",
+    "abstract": "Google is adding personalized AI avatars to Vids that let users create videos starring a digital version of themselves, alongside Gemini Omni-powered tools for generating and editing videos from prompts and reference images.",
+    "url": "https://techcrunch.com/2026/07/16/google-vids-now-lets-you-star-in-your-own-ai-videos/",
+    "topic": "startup",
+    "date": "2026-07-16",
+    "fetched_date": "2026-07-17",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Roblox launches an AI-powered game-creation feature in its mobile app",
+    "abstract": "Roblox's new \"Build\" feature lets users generate basic games using a single text prompt.",
+    "url": "https://techcrunch.com/2026/07/16/roblox-launches-an-ai-powered-game-creation-feature-in-its-mobile-app/",
+    "topic": "startup",
+    "date": "2026-07-16",
+    "fetched_date": "2026-07-17",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Oil giant BP shutters its corporate venture arm after 20 years",
+    "abstract": "BP Ventures is shutting down, ending a nearly 20-year run that was marked by reportedly lackluster returns.",
+    "url": "https://techcrunch.com/2026/07/16/oil-giant-bp-shutters-its-corporate-venture-arm-after-20-years/",
+    "topic": "startup",
+    "date": "2026-07-16",
+    "fetched_date": "2026-07-17",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Newsletter platform Beehiiv now lets subscribers chat with each other, adds AI",
+    "abstract": "Beehiiv is launching an AI Copilot to help publishers with user growth and analytics.",
+    "url": "https://techcrunch.com/2026/07/16/newsletter-platform-beehiiv-now-lets-subscribers-chat-with-each-other-adds-ai/",
+    "topic": "startup",
+    "date": "2026-07-16",
+    "fetched_date": "2026-07-17",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "X cracks down on creators who steal content",
+    "abstract": "X will use Grok AI to better detect stolen content, redirect payouts to original creators, and crack down on engagement bait.",
+    "url": "https://techcrunch.com/2026/07/16/x-cracks-down-on-creators-who-steal-content/",
+    "topic": "startup",
+    "date": "2026-07-16",
+    "fetched_date": "2026-07-17",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "AI-powered travel agency Fora hits unicorn status, raises $60M",
+    "abstract": "Travel agency Fora announced a $60 million Series D round led by Forerunner and Tactile Ventures, valuing the company at $1 billion.",
+    "url": "https://techcrunch.com/2026/07/16/ai-powered-travel-agency-fora-hits-unicorn-status-raises-60m/",
+    "topic": "startup",
+    "date": "2026-07-16",
+    "fetched_date": "2026-07-17",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Google’s AI Mode now lets you link and interact with select apps",
+    "abstract": "With this new update, Google is expanding AI Mode beyond answering questions and into completing tasks across the apps they use regularly.",
+    "url": "https://techcrunch.com/2026/07/16/googles-ai-mode-now-lets-you-link-and-interact-with-select-apps/",
+    "topic": "startup",
+    "date": "2026-07-16",
+    "fetched_date": "2026-07-17",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Google continues its renaming streak by turning NotebookLM to Gemini Notebook",
+    "abstract": "Google said users can soon access their notebooks through AI Mode in Search.",
+    "url": "https://techcrunch.com/2026/07/16/google-continues-its-renaming-streak-by-turning-notebooklm-to-gemini-notebook/",
+    "topic": "startup",
+    "date": "2026-07-16",
+    "fetched_date": "2026-07-17",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Yes, you can now order DoorDash from the command line",
+    "abstract": "DoorDash is opening a limited beta of dd-cli, a command-line tool that lets developers and AI agents search stores, build carts, and place orders from the terminal, marking another step toward software designed for AI agents instead of just humans.",
+    "url": "https://techcrunch.com/2026/07/16/yes-you-can-now-order-doordash-from-the-command-line/",
+    "topic": "startup",
+    "date": "2026-07-16",
+    "fetched_date": "2026-07-17",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "UK cops say arrest of two young hackers disrupted the operations of an infamous hacking group",
+    "abstract": "Owen Flowers and Thalha Jubair, two members of the prolific Scattered Spider hacking group, pleaded guilty and were sentenced to five years and six months in jail for hacking London’s metropolitan transit system.",
+    "url": "https://techcrunch.com/2026/07/16/uk-cops-say-arrest-of-two-young-hackers-disrupted-the-operations-of-an-infamous-hacking-group/",
+    "topic": "startup",
+    "date": "2026-07-16",
+    "fetched_date": "2026-07-17",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Why is OpenAI selling a ChatGPT basketball?",
+    "abstract": "You may have heard that OpenAI released its first piece of hardware this week. You may not have heard about the ChatGPT basketball.",
+    "url": "https://techcrunch.com/2026/07/16/why-is-openai-selling-a-chatgpt-basketball/",
+    "topic": "startup",
+    "date": "2026-07-16",
+    "fetched_date": "2026-07-17",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "How a former DeepMind researcher raised at a $300M pre-seed valuation before launching a product",
+    "abstract": "Drawing on more than a decade spent helping build some of the world's most influential AI systems, including research that later informed the development of ChatGPT, Andrew Dai explains why he believes visual AI is one of the next major frontiers in artificial intelligence.",
+    "url": "https://techcrunch.com/2026/07/16/how-a-former-deepmind-researcher-raised-at-a-300m-pre-seed-valuation-before-launching-a-product/",
+    "topic": "startup",
+    "date": "2026-07-16",
+    "fetched_date": "2026-07-17",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Sheryl Sandberg leads $10 million investment in AI-powered vehicle inspection service",
+    "abstract": "The startup, founded in 2021, lets enterprise customers use smartphones to scan and spot vehicle damage.",
+    "url": "https://techcrunch.com/2026/07/16/sheryl-sandberg-leads-10-million-investment-in-ai-powered-vehicle-inspection-service/",
+    "topic": "startup",
+    "date": "2026-07-16",
+    "fetched_date": "2026-07-17",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Why AMI Labs’ Alexandre LeBrun won’t call his AI ‘AGI’ or ‘superintelligence’",
+    "abstract": "While everyone in AI is chasing \"superintelligence,\" Alexandre LeBrun, CEO of Yann LeCun’s world model startup, AMI Labs, dismisses the word.",
+    "url": "https://techcrunch.com/2026/07/16/why-ami-labs-alexandre-lebrun-wont-call-his-ai-agi-or-superintelligence/",
+    "topic": "startup",
+    "date": "2026-07-16",
+    "fetched_date": "2026-07-17",
+    "feed_name": "TechCrunch",
+    "source": "startup"
   }
 ]
