@@ -18368,5 +18368,85 @@
     "fetched_date": "2026-07-19",
     "feed_name": "Modern Retail",
     "source": "industry"
+  },
+  {
+    "title": "Quoting Sam Altman",
+    "abstract": "We have been having extensive discussions around open source strategy. We will discuss it more at our next board meeting, but one thing we’d like to do soon is to create a language model with the approximate capability of GPT-3 that can run locally on consumer hardware and release that. We’d like to do it soon, before Stability or someone else does. In general, we think this helps discourage others from releasing similarly-powerful models, and makes it harder for new efforts to get funded. — Sam Altman , Email to OpenAI's board, October 1, 2022 - exposed in Musk v. Altman (2026) Tags: ai-ethics , sam-altman , generative-ai , openai , ai , llms",
+    "url": "https://simonwillison.net/2026/Jul/20/sam-altman/#atom-everything",
+    "topic": "llm",
+    "date": "2026-07-20",
+    "fetched_date": "2026-07-20",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "AI Mania Is Eviscerating Global Decision-Making",
+    "abstract": "AI Mania Is Eviscerating Global Decision-Making Here's an entertaining perspective from Nik Suresh on the AI mania that is overwhelming the large companies that he consults with. It's crammed with spicy anecdotes from anonymous sources. In one extreme case, I have seen an executive confess that they had never even used ChatGPT or any AI tool in their life, immediately after producing a technical strategy for an organisation with $2B+ in revenue which was entirely centered around AI. Here's a report from an engineer at a company with a token leaderboard: Checking out a parallel copy of our Go repository and telling the AI to rewrite the whole thing in Zig while I work on something else just so I can keep my job. I particularly enjoyed this conversation with a skeptical executive at an over-enthusiastic company: I asked why this was being repeated without opposition. Was it just sales fluff? The answer was a lot more interesting. It was partially ridiculous sales material being delivered to an easily excitable audience, but this was not the dominant factor constraining honesty. Executives at their customers were saying absurd things about achieving 100x productivity, and this meant that if any executive at the vendor said that these gains were not plausible, it would undermine the credibility of the customer’s executive, be perceived as an attack (or heresy), and possibly result in an enterprise contract cancellation. And getting enterprise contracts cancelled because you wanted to opine on something that doesn’t really matter to your organisation’s mission is a great way to get fired. Via Hacker News Tags: ai , ai-ethics , ai-misuse",
+    "url": "https://simonwillison.net/2026/Jul/19/ai-mania/#atom-everything",
+    "topic": "llm",
+    "date": "2026-07-19",
+    "fetched_date": "2026-07-20",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "What to watch for after Jensen Huang’s Japan visit",
+    "abstract": "Jensen Huang left Tokyo with deals spanning Japan's entire tech ecosystem.",
+    "url": "https://techcrunch.com/2026/07/19/what-to-watch-for-after-jensen-huangs-japan-visit/",
+    "topic": "llm",
+    "date": "2026-07-19",
+    "fetched_date": "2026-07-20",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Can an Apple lawsuit derail OpenAI’s hardware plans?",
+    "abstract": "On the latest episode of Equity, we debate whether Apple's lawsuit will cast over OpenAi's much-discussed plans to get into hardware and go public.",
+    "url": "https://techcrunch.com/2026/07/19/can-an-apple-lawsuit-derail-openais-hardware-plans/",
+    "topic": "llm",
+    "date": "2026-07-19",
+    "fetched_date": "2026-07-20",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "‘Odyssey’ director Christopher Nolan calls AI an obvious ‘Trojan horse’",
+    "abstract": "\"Everybody knows the Greeks are inside.\"",
+    "url": "https://techcrunch.com/2026/07/19/odyssey-director-christopher-nolan-calls-ai-an-obvious-trojan-horse/",
+    "topic": "llm",
+    "date": "2026-07-19",
+    "fetched_date": "2026-07-20",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Nonprofit Current AI is racing to build the World Wide Web of AI, free for all",
+    "abstract": "Current AI, a non-profit building AI that leaves no one culture behind, has made remarkable progress across devices, AI chat and more.",
+    "url": "https://techcrunch.com/2026/07/19/nonprofit-current-ai-is-racing-to-build-the-world-wide-web-of-ai-free-for-all/",
+    "topic": "llm",
+    "date": "2026-07-19",
+    "fetched_date": "2026-07-20",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Guitar Center plots its turnaround, with a focus on serving ‘serious musicians’",
+    "abstract": "Nearly six years after it declared bankruptcy, Guitar Center says its turnaround efforts are striking a chord. After redoing its merchandise, holding more events and refocusing on \"serious musicians\", Guitar Center is seeing sales climb, CEO Gabe Dalporto told Modern Retail.",
+    "url": "https://www.modernretail.co/operations/guitar-center-plots-its-turnaround-with-a-focus-on-serving-serious-musicians/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-07-20",
+    "fetched_date": "2026-07-20",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "The World Cup provided a much-needed boost to the retail industry this summer",
+    "abstract": "Despite some initial fears that fans wouldn't show up over hefty ticket prices, World Cup tourism helped lift sales in host cities. The tournament helped boost business for restaurants, retailers and even cannabis dispensaries.",
+    "url": "https://www.modernretail.co/marketing/the-world-cup-provided-a-much-needed-boost-to-the-retail-industry-this-summer/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-07-20",
+    "fetched_date": "2026-07-20",
+    "feed_name": "Modern Retail",
+    "source": "industry"
   }
 ]
