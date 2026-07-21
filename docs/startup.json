@@ -8888,5 +8888,145 @@
     "fetched_date": "2026-07-20",
     "feed_name": "TechCrunch",
     "source": "startup"
+  },
+  {
+    "title": "Anthropic’s landmark $1.5B copyright settlement is approved",
+    "abstract": "The final approval settles one case, but it doesn't resolve the broader issue of using copyrighted works to train AI models.",
+    "url": "https://techcrunch.com/2026/07/20/anthropics-landmark-1-5b-copyright-settlement-is-approved/",
+    "topic": "startup",
+    "date": "2026-07-21",
+    "fetched_date": "2026-07-21",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Colossal Biosciences reportedly in talks to raise new capital at $20B–$30B valuation",
+    "abstract": "The de-extinction startup is looking to double or triple its previous valuation, according to the report.",
+    "url": "https://techcrunch.com/2026/07/20/colossal-biosciences-reportedly-in-talks-to-raise-new-capital-at-20b-30b-valuation/",
+    "topic": "startup",
+    "date": "2026-07-20",
+    "fetched_date": "2026-07-21",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Trump’s latest AI czar has already resigned",
+    "abstract": "The director role for the Center for AI Standards and Innovation (CAISI) has become a revolving door since David Sacks left his position as czar.",
+    "url": "https://techcrunch.com/2026/07/20/trumps-latest-ai-czar-has-already-resigned/",
+    "topic": "startup",
+    "date": "2026-07-20",
+    "fetched_date": "2026-07-21",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Google is working on a new AI chip designed to make Gemini more efficient",
+    "abstract": "Alphabet, Google's parent company, is reportedly working on a new chip designed to make its Gemini models run much more efficiently.",
+    "url": "https://techcrunch.com/2026/07/20/google-is-working-on-a-new-ai-chip-designed-to-make-gemini-more-efficient/",
+    "topic": "startup",
+    "date": "2026-07-20",
+    "fetched_date": "2026-07-21",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "AI’s most important protocol is getting a little bit easier to use",
+    "abstract": "Under the new system, the protocol will take a looser, \"stateless\" approach to session IDs on the server side, similar to how most ordinary websites already work.",
+    "url": "https://techcrunch.com/2026/07/20/ais-most-important-protocol-is-getting-a-little-bit-easier-to-use/",
+    "topic": "startup",
+    "date": "2026-07-20",
+    "fetched_date": "2026-07-21",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "X relaunches a rebuilt Android app after year-long effort",
+    "abstract": "X says the rebuilt version of its Android app is now available globally.",
+    "url": "https://techcrunch.com/2026/07/20/x-relaunches-a-rebuilt-android-app-after-year-long-effort/",
+    "topic": "startup",
+    "date": "2026-07-20",
+    "fetched_date": "2026-07-21",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "OpenAI is scared of open-weight models. Should the US be?",
+    "abstract": "Talk of banning Chinese-made open-weight LLMs reveals the challenge of turning AI into a business.",
+    "url": "https://techcrunch.com/2026/07/20/openai-is-scared-of-open-weight-models-should-the-us-be/",
+    "topic": "startup",
+    "date": "2026-07-20",
+    "fetched_date": "2026-07-21",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Natural raises $30M to reinvent payments for AI agents — and take on Stripe",
+    "abstract": "The one-year-old startup aims to reinvent financial architecture for autonomous AI transactions.",
+    "url": "https://techcrunch.com/2026/07/20/natural-raises-30m-to-reinvent-payments-for-ai-agents-and-take-on-stripe/",
+    "topic": "startup",
+    "date": "2026-07-20",
+    "fetched_date": "2026-07-21",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Adobe camera app’s new feature will critique your photos using AI",
+    "abstract": "Adobe's Project Indigo can now remove all kinds of backgrounds from photos you snap using the app.",
+    "url": "https://techcrunch.com/2026/07/20/adobe-camera-apps-new-feature-will-critique-your-photos-using-ai/",
+    "topic": "startup",
+    "date": "2026-07-20",
+    "fetched_date": "2026-07-21",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "YouTube clarifies policies around AI slop and upsetting videos",
+    "abstract": "YouTube has updated its monetization policies to more clearly define the kinds of AI-generated and low-quality videos that can’t earn ad revenue.",
+    "url": "https://techcrunch.com/2026/07/20/youtube-clarifies-policies-around-ai-slop-and-upsetting-videos/",
+    "topic": "startup",
+    "date": "2026-07-20",
+    "fetched_date": "2026-07-21",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Inference startup Infinity raises $15M from Touring Capital, OpenAI and Anthropic researchers",
+    "abstract": "AI infrastructure company Infinity announced Monday a $15 million raise at a $100 million valuation from investors including Touring Capital, Principal VC, and researchers from companies such as OpenAI and Anthropic.",
+    "url": "https://techcrunch.com/2026/07/20/inference-startup-infinity-raises-15m-from-touring-capital-openai-and-athropic-researchers/",
+    "topic": "startup",
+    "date": "2026-07-20",
+    "fetched_date": "2026-07-21",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Hackers stole ‘significant’ amount of data from tech firm relied on by thousands of US hospitals and pharmacies",
+    "abstract": "Edinburgh-based tech firm Craneware said customer data was stolen during a cyberattack. The company makes software that thousands of U.S. hospitals, pharmacies, and clinics rely on for billing patients, potentially exposing health data.",
+    "url": "https://techcrunch.com/2026/07/20/hackers-stole-significant-amount-of-data-from-tech-firm-relied-on-by-thousands-of-us-hospitals-and-pharmacies/",
+    "topic": "startup",
+    "date": "2026-07-20",
+    "fetched_date": "2026-07-21",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Watch Flock Safety CEO Garrett Langley discuss the future of surveillance at TechCrunch Disrupt 2026",
+    "abstract": "Flock Safety sits right at the center of the debate over where the line should be drawn between privacy and public safety. That’s why we’re bringing Flock’s founder and CEO Garrett Langley to the stage to speak about those very issues.",
+    "url": "https://techcrunch.com/2026/07/20/watch-flock-safety-ceo-garrett-langley-discuss-the-future-of-surveillance-at-techcrunch-disrupt-2026/",
+    "topic": "startup",
+    "date": "2026-07-20",
+    "fetched_date": "2026-07-21",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "StrictlyVC returns to New York City September 10 to celebrate a huge year for the city’s startup community",
+    "abstract": "For the first time since 2024, StrictlyVC is coming back to New York City — and we're bringing the kind of access you’d expect from an under-wraps event to the whole startup, VC, and dealmaking community.",
+    "url": "https://techcrunch.com/2026/07/20/strictlyvc-returns-to-new-york-city-september-10-to-celebrate-a-huge-year-for-the-citys-startup-community/",
+    "topic": "startup",
+    "date": "2026-07-20",
+    "fetched_date": "2026-07-21",
+    "feed_name": "TechCrunch",
+    "source": "startup"
   }
 ]
