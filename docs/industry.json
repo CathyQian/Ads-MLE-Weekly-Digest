@@ -18838,5 +18838,295 @@
     "fetched_date": "2026-07-22",
     "feed_name": "Modern Retail",
     "source": "industry"
+  },
+  {
+    "title": "Building AI infrastructure with the Effingham County community",
+    "abstract": "OpenAI announces Project Camellia in Effingham County, Georgia, with commitments to responsible energy, community investment, jobs, and access to Codex.",
+    "url": "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community",
+    "topic": "llm",
+    "date": "2026-07-22",
+    "fetched_date": "2026-07-23",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "How news organizations are using AI to advance their vital missions",
+    "abstract": "News organizations are using AI to strengthen reporting, grow audiences, and improve business operations, with OpenAI tools supporting journalists and publishers worldwide.",
+    "url": "https://openai.com/index/how-news-organizations-are-using-ai",
+    "topic": "llm",
+    "date": "2026-07-22",
+    "fetched_date": "2026-07-23",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Advancing the next era of national science",
+    "abstract": "OpenAI outlines its commitment to advancing American science working with the U.S. Department of Energy and national labs to use frontier AI to accelerate discovery.",
+    "url": "https://openai.com/index/advancing-the-next-era-of-national-science",
+    "topic": "llm",
+    "date": "2026-07-22",
+    "fetched_date": "2026-07-23",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Introducing OpenAI Presence",
+    "abstract": "Introducing OpenAI Presence, a proven enterprise AI agent platform that helps organizations deploy trusted voice and chat agents for customer and internal workflows.",
+    "url": "https://openai.com/index/introducing-openai-presence",
+    "topic": "llm",
+    "date": "2026-07-22",
+    "fetched_date": "2026-07-23",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "NTT DATA Group cuts incident analysis to 30 minutes with Codex",
+    "abstract": "NTT DATA Group uses ChatGPT Enterprise and Codex to help 9,000 employees automate work, cut incident analysis to 30 minutes, and scale secure AI adoption.",
+    "url": "https://openai.com/index/ntt-data",
+    "topic": "llm",
+    "date": "2026-07-22",
+    "fetched_date": "2026-07-23",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Accelerating the frontiers of scientific discovery: Google’s $40M commitment to the Genesis Mission",
+    "abstract": "Google commits $40M in AI tokens and credits for the Genesis Mission",
+    "url": "https://deepmind.google/blog/accelerating-the-frontiers-of-scientific-discovery-googles-40m-commitment-to-the-genesis-mission/",
+    "topic": "generative-ai",
+    "date": "2026-07-22",
+    "fetched_date": "2026-07-23",
+    "feed_name": "DeepMind Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Securing Infrastructure at Scale: Introducing Pinterest’s Resource Provisioner Pipeline (RPP)",
+    "abstract": "",
+    "url": "https://medium.com/pinterest-engineering/securing-infrastructure-at-scale-introducing-pinterests-resource-provisioner-pipeline-rpp-8283bb12cbe5?source=rss----4c5a5f6279b6---4",
+    "topic": "ads-tech",
+    "date": "2026-07-22",
+    "fetched_date": "2026-07-23",
+    "feed_name": "Pinterest Engineering",
+    "source": "industry"
+  },
+  {
+    "title": "Quoting Thomas Ptacek",
+    "abstract": "I genuinely believe that if you took an open weights model from 2025 and built a pentest harness for it, it could do this kind of sandbox escape and scan/hack in most networks. This is only surprising because you assume OpenAI has sounder sandboxes. — Thomas Ptacek , doesn't think this even needs a frontier model Tags: thomas-ptacek , openai , security , generative-ai , ai-security-research , ai , llms , sandboxing",
+    "url": "https://simonwillison.net/2026/Jul/22/thomas-ptacek/#atom-everything",
+    "topic": "llm",
+    "date": "2026-07-22",
+    "fetched_date": "2026-07-23",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "OpenAI’s accidental cyberattack against Hugging Face is science fiction that happened",
+    "abstract": "This story is wild. The short version: OpenAI were running a cybersecurity test against an unreleased model, with the model's guardrail features turned off. Rather than solve the test, the model broke its way out of OpenAI's sandbox, then found exploits to break in to Hugging Face, all so it could cheat on the test by stealing the answers. Along the way it helped make the strongest case yet for how the imbalance of model availability is hurting our ability to secure our software. Here's what happened We currently have three documents to help us understand what happened here. ExploitGym: Can AI Agents Turn Security Vulnerabilities into Real Attacks? is a paper published on 11th May 2026 describing ExploitGym, a new eval suite for LLM-powered agent systems. Security incident disclosure — July 2026 by Hugging Face on 16th July 2026 describes how they detected an attack from an \"agentic security-research harness - used LLM still not known\" that breached some of their systems. OpenAI and Hugging Face partner to address security incident during model evaluation from OpenAI on 21st July 2026 confesses that it was their agent harness that did this, and that they're working with Hugging Face to clean up the mess. ExploitGym I hadn't seen the ExploitGym paper before and it's a really interesting one. Authors from UC Berkeley, the Max Planck Institute, UC Santa Barbara, and Arizona State designed a new benchmark for evaluating models on their ability to turn a reported vulnerability into a concrete exploit. OpenAI, Anthropic, and Google provided feedback and helped run the benchmark against their models. The benchmark \"comprises 898 instances derived from real-world vulnerabilities that affected popular software projects\" - including the Linux kernel and V8 JavaScript engine. Here's the paragraph that best represents their benchmark results: Among all configurations, Claude Mythos Preview and GPT-5.5 achieve the highest success counts (157 and 120 successes, respectively), demonstrating that current frontier agents can exploit a substantial subset of real-world vulnerabilities under controlled conditions. GPT-5.4 also solves a notable 54 tasks, placing it in an intermediate tier. The remaining model–agent pairings solve fewer than 15 tasks each, underscoring that end-to-end exploitation remains challenging and sharply differentiates today’s frontier systems. Notably, Claude Opus 4.7 achieves fewer successes than Claude Opus 4.6 despite being a newer checkpoint, and does so at substantially lower cost on the full set. Trace inspection reveals that Claude Opus 4.7 and Gemini 3.1 Pro frequently conclude early after judging the target vulnerability non-exploitable. The paper also describes the approach they took to preventing the agents from cheating by going outside the parameters of the test. This becomes relevant in a moment! Outbound connections are restricted to a curated allowlist that permits routine package installation (Ubuntu apt repositories and PyPI) and fetching the toolchains required for building V8. All other external endpoints are blocked. The paper concludes with this (emphasis mine): Our results show that autonomous exploit development by frontier AI agents is no longer a hypothetical capability . While current agents are not yet reliable across all targets, they already exploit a non-trivial fraction of real-world vulnerabilities , including complex targets such as kernel components. This rapid emergence is itself a central finding, showing that capabilities that would have seemed implausible are now present in deployed frontier models. An important detail here: this paper isn't about discovering vulnerabilities; it's about being able to take those vulnerabilities and turn them into working exploits. When Anthropic first restricted access to Mythos back in April they talked about this capability as well. A model that can act on vulnerabilities is a lot more dangerous than one that can just discover them. One of the ways Fable differs from Mythos is that it's more likely to refuse to weaponize vulnerabilities in this way. I get the impression the US government did not understand that distinction when they banned Fable last month . The Hugging Face incident The first hint we got of the attack was in this blog post by Hugging Face on 16th July 2026: A malicious dataset abused two code-execution paths in our dataset processing (a remote-code dataset loader and a template-injection in a dataset configuration) to run code on a processing worker. From there, the actor escalated to node-level access, harvested cloud and cluster credentials, and moved laterally into several internal clusters over a weekend. I hope they release more details about the code that pulled this off. I'm assuming this means packages using the datasets library , a Hugging Face project for bundling up and sharing datasets on their platform. That library used to execute arbitrary code but has been steadily locked down over time, with the 4.0.0 release in July 2025 removing the trust_remote_code=True flag entirely. Assuming the attack used that library it must have either abused pickle serialization in some way, found some other non-obvious code execution path, or (most likely) specified datasets<4.0.0 as the dependency. The campaign was run by an autonomous agent framework (appearing to be built on an agentic security-research harness - used LLM still not known) executing many thousands of individual actions across a swarm of short-lived sandboxes, with self-migrating command-and-control staged on public services. This was a sophisticated attack! Then Hugging Face hit a wall: they tried to use \"frontier models behind commercial APIs\" - I'm guessing from Anthropic and OpenAI - to help analyze the attack, and were blocked: When we started the log analysis, we first used frontier models behind commercial APIs. This did not work: the analysis requires submitting large volumes of real attack commands, exploit payloads, and C2 artifacts, and these requests were blocked by the providers' safety guardrails, which cannot distinguish an incident responder from an attacker. They switched to their own self-hosted instance of MIT licensed GLM-5.2 and it helped them figure out what was going on. This indicated a fundamental asymmetry between the defending team and the (so-far unknown) attacker: We do not know which model powered the attacker's agents, whether a jailbroken hosted model or an unrestricted open-weight one; either way, the attacker was bound by no usage policy, while our own forensic work was blocked by the guardrails of the hosted models we first tried. As a useful indicator of how seriously they took the attack: [...] Finally, we have also reported this incident to law enforcement agencies. So who was responsible for this \"autonomous agent framework\"? It turned out to be OpenAI themselves. The OpenAI confession Five days later, on July 21st , OpenAI revealed the culprit. They had been running the ExploitGym benchmark against a new, as-yet undisclosed model, and that model had been operating way outside its intended parameters (emphasis mine): After investigating, we now know that this particular incident was driven by a combination of OpenAI models — including GPT‑5.6 Sol and an even more capable pre-release model, all with reduced cyber refusals for evaluation purposes — while being internally tested on a benchmark⁠ [ExploitGym] of cyber capabilities. [...] We estimate maximal cyber capabilities by running this evaluation without production classifiers used to prevent models from pursuing high-risk cyber activity . Our benchmarks run in a highly isolated environment, with network access constrained to the ability to install packages through an internally hosted third-party software that acts as a proxy and cache for package registries. The models identified and chained vulnerabilities across OpenAI’s research environment and Hugging Face’s production infrastructure to obtain test solutions directly from Hugging Face’s production database. All evidence suggests that the models were hyperfocused on finding a solution for ExploitGym, going to extreme lengths to achieve a rather narrow testing goal. It's pretty clear what happened here. OpenAI removed safety filters for an in-progress model, locked it up in a sandbox and told it to solve the ExploitGym problems. Given the absence of guardrails there was nothing to prevent the model from attempting to break out of that sandbox, break into Hugging Face, and read the answers from there instead. OpenAI's sandbox used the now common pattern of allowing access to an allow-list of sites related to installing additional packages via a controlled proxy. In OpenAI's words: While operating in our sandboxed testing environment, our models spent a substantial amount of inference compute finding a way to obtain open Internet access , in pursuit of solving the evaluation problem. To gain access, the models identified and exploited a zero-day vulnerability (which we’ve now responsibly disclosed to the vendor) in the package registry cache proxy . With this access, our models performed a series of privilege escalation and lateral movement actions in our research testing environment until the models reached a node with Internet access. So step one was to break out onto the public internet. The model then broke into Hugging Face to find the answers: After gaining Internet access, the models inferred that Hugging Face potentially hosted models, datasets and solutions for ExploitGym. Knowing this, the model searched for and successfully found ways to gain access to secret information that it could use to cheat the evaluation. In one example, the model chained together multiple attack vectors, including using stolen credentials and zero-day vulnerabilities to find a remote code execution path on the Hugging Face servers. Chaining together multiple attack vectors is exactly the kind of thing these new models can do, where previous generations of models might have failed. I wrote last month about how Claude Fable is relentlessly proactive , when I noticed it spinning up custom web servers and deploying CORS tricks on my own laptop just to help debug a WebKit CSS issue. It turns out relentless proactivity is the defining trait of this new generation of Mythos-class models. If you set them a goal and give them a way to get there, even inadvertently, they will figure it out . Resist the temptation to write this off as a stunt There will inevitably be some people who dismiss this story as a dishonest marketing trick by OpenAI to make their models sound terrifyingly effective. I found 81 instances of the term \"marketing\" in the Hacker News discussion of the incident. To those people I say pull your heads out of the sand - you're now including Hugging Face in your conspiracy theories, just so you can deny the crescendo of evidence here! The best models we have today have the ability to both find and exploit new vulnerabilities. The ExploitGym paper itself concludes that \"autonomous exploit development by frontier AI agents is no longer a hypothetical capability\", and this incident is a perfect example of exactly that. The asymmetry is increasingly frustrating One of the most infuriating details of this story is how Hugging Face, faced with an accidental and aggressive attack from one of OpenAI's models, were unable to then turn to OpenAI's models to help them fend off the attack. The frontier models we have access to are increasingly being constrained in how much they can help us protect our software, heavily influenced by the US government's ongoing threat of export controls. Claude Fable 5 wouldn't even proofread this article for me! It insisted on downgrading me to a less capable model. Meanwhile open weight models from China such as GLM-5.2, Kimi 3 and the new Qwen 3.8 Max appear to have none of these restrictions - and any restrictions that do exist can likely be fine-tuned out of them by modifying the weights These constraints are meant to make us safer. I think there's a risk that they are having the opposite effect. Tags: sandboxing , security , ai , openai , generative-ai , llms , hugging-face , anthropic , paper-review , ai-security-research",
+    "url": "https://simonwillison.net/2026/Jul/22/openai-cyberattack/#atom-everything",
+    "topic": "llm",
+    "date": "2026-07-22",
+    "fetched_date": "2026-07-23",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Are AI labs pelicanmaxxing?",
+    "abstract": "Are AI labs pelicanmaxxing? Excellent piece of work by Dylan Castillo, who took a deep-dive into the frequently pondered question of whether the AI labs have been deliberately training models to draw pelicans riding bicycles in response to my deeply unscientific benchmark . I've been randomly spot-checking this in the past by testing models against other animals riding other types of vehicle, but never with anything close to the diligence of Dylan's methodology here. Dylan took 8 animals × 6 vehicles = 48 prompts and ran them three times each through 7 different models ( GPT-5.6 Terra, Claude Sonnet 5, Gemini 3.5 Flash, Grok 4.5, Qwen3.7-Max, GLM-5.2, and DeepSeek V4 Pro). He then used GPT-5.6 Luna and Gemini 3.1 Flash-Lite to help evaluate the results. There's a neat filter view for exploring the results: For the models he tested he could find no evidence of pelimaxxing: The pelicans on bicycles don’t look any better Labs are not better at drawing pelicans Labs are not better at drawing bicycles Labs are not better at drawing pelicans on bicycles, even adjusting for difficulty The pelican-bicycle scenes don’t look memorized [...] Pelicans aren’t drawn any better than other animals. Bicycles aren’t drawn any better than other vehicles. And no lab draws the combination better than its pelicans and bicycles already predict. GLM-5.2 comes closest: it has the largest boost on the exact pelican-bicycle cell, and and its first pelican-on-bicycle sample caught my eye. But the effect is small and not significant, so I wouldn’t put too much weight on it. Via Hacker News Tags: ai , generative-ai , llms , evals , pelican-riding-a-bicycle",
+    "url": "https://simonwillison.net/2026/Jul/22/are-ai-labs-pelicanmaxxing/#atom-everything",
+    "topic": "llm",
+    "date": "2026-07-22",
+    "fetched_date": "2026-07-23",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Orchestrions",
+    "abstract": "San Francisco tip: it only costs around $15 ($10 in quarters plus a $5 bill for the self-playing violin) to activate every single Orchestrion in Musée Mécanique . And because most people are bad at allocating their funds you may well be the ONLY person activating the Orchestrions, which means you get to craft the soundscape for the entire museum. Tags: san-francisco",
+    "url": "https://simonwillison.net/2026/Jul/22/all-the-orchestrions/#atom-everything",
+    "topic": "llm",
+    "date": "2026-07-22",
+    "fetched_date": "2026-07-23",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "California Sea Lion",
+    "abstract": "California Sea Lion, in San Francisco County, US, CA We took some visiting family to Pier 39 to see the sea lions. They're somehow always even fun than I remember them being last time. Tags: san-francisco , wildlife",
+    "url": "https://simonwillison.net/2026/Jul/21/sighting-383713864/#atom-everything",
+    "topic": "llm",
+    "date": "2026-07-21",
+    "fetched_date": "2026-07-23",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "After shocking quarter, IBM insists that AI isn’t killing the mainframe",
+    "abstract": "After IBM's stock crashed last week on warnings of poor mainframe sales, the CEO explained that AI wrecked corporate hardware budget, temporarily.",
+    "url": "https://techcrunch.com/2026/07/22/after-shocking-quarter-ibm-insists-that-ai-isnt-killing-the-mainframe/",
+    "topic": "llm",
+    "date": "2026-07-22",
+    "fetched_date": "2026-07-23",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Google justifies its massive AI spending with a booming cloud business",
+    "abstract": "Google's cloud business is thriving, as companies adopting its AI and AI infrastructure services help the tech giant to report record profits.",
+    "url": "https://techcrunch.com/2026/07/22/google-justifies-its-massive-ai-spending-with-a-booming-cloud-business/",
+    "topic": "llm",
+    "date": "2026-07-22",
+    "fetched_date": "2026-07-23",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Treasury threatens sanctions after White House claims Moonshot distilled Anthropic’s Fable",
+    "abstract": "The episode has also intensified a broader debate in Washington over the influx of Chinese open models.",
+    "url": "https://techcrunch.com/2026/07/22/treasury-threatens-sanctions-after-white-house-claims-moonshot-distilled-anthropics-fable/",
+    "topic": "llm",
+    "date": "2026-07-22",
+    "fetched_date": "2026-07-23",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "How OpenAI’s human mistake led to the AI-powered hack on Hugging Face",
+    "abstract": "OpenAI made a mistake setting up what it called a “highly isolated” testing environment and sandbox. According to cybersecurity experts, that human mistake is what made the AI-powered attack on Hugging Face possible.",
+    "url": "https://techcrunch.com/2026/07/22/how-an-openais-human-mistake-led-to-the-ai-powered-hack-on-hugging-face/",
+    "topic": "llm",
+    "date": "2026-07-22",
+    "fetched_date": "2026-07-23",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Travis Kalanick’s robotics company raises $1.7B, led by a16z",
+    "abstract": "Uber is also investing in Travis Kalanick's company Atoms, which has made gauzy claims about using industrial AI to modernize the world.",
+    "url": "https://techcrunch.com/2026/07/22/travis-kalanicks-robotics-company-raises-1-7b-led-by-a16z/",
+    "topic": "llm",
+    "date": "2026-07-22",
+    "fetched_date": "2026-07-23",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Yope raises $12.3M to build a private social network without algorithms or ads",
+    "abstract": "Yope, a fast-growing social app focused on private groups of friends and family, has raised $12.3 million in seed funding. Instead of chasing creators and algorithmic feeds, the startup is betting that the future of social networking lies in small, private communities powered by messaging, photo sharing, and AI features designed to strengthen real-world relationships.",
+    "url": "https://techcrunch.com/2026/07/22/yope-raises-12-3m-to-build-a-private-social-network-without-algorithms-or-ads/",
+    "topic": "llm",
+    "date": "2026-07-22",
+    "fetched_date": "2026-07-23",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Monday.com lays off hundreds to focus on AI",
+    "abstract": "The company said it is reducing its headcount by 20%, or about 630 staff, to \"support a leaner, more focused operating model\" as it focuses on its AI Work Platform.",
+    "url": "https://techcrunch.com/2026/07/22/monday-com-lays-off-hundreds-to-focuses-on-ai/",
+    "topic": "llm",
+    "date": "2026-07-22",
+    "fetched_date": "2026-07-23",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Arcee, a US open source AI lab, says Chinese models are not inherently dangerous",
+    "abstract": "As Chinese AI models grow in capability and popularity among U.S. companies, the arguing over what should be done about them has reached a fever pitch.",
+    "url": "https://techcrunch.com/2026/07/22/arcee-a-us-open-source-ai-lab-says-chinese-models-are-not-inherently-dangerous/",
+    "topic": "llm",
+    "date": "2026-07-22",
+    "fetched_date": "2026-07-23",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Substack’s new tool tells you who’s been writing their newsletters with AI",
+    "abstract": "Substack is giving readers a way to estimate how much of a newsletter was written by AI, signaling a broader shift toward transparency around AI-assisted content.",
+    "url": "https://techcrunch.com/2026/07/22/substacks-new-tool-tells-you-whos-been-writing-their-newsletters-with-ai/",
+    "topic": "llm",
+    "date": "2026-07-22",
+    "fetched_date": "2026-07-23",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "OpenAI’s AI spending spree has ballooned to $750B",
+    "abstract": "OpenAI will spend the equivalent of Sweden's GDP on infrastructure through 2030.",
+    "url": "https://techcrunch.com/2026/07/22/openais-ai-spending-spree-has-ballooned-to-750b/",
+    "topic": "llm",
+    "date": "2026-07-22",
+    "fetched_date": "2026-07-23",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Menlo Ventures’ Matt Murphy explains what AI startups founders must do differently",
+    "abstract": "Anthropic leaped to a $47 billion revenue run rate by May, compared to $9 billion in 2025. It’s the kind of growth that Menlo Ventures’ Matt Murphy says he’s never seen in 25 years of investing, not in the internet wave, not in mobile, not in the first cloud boom. Menlo led Anthropic’s $500M Series D, and Murphy has had a front-row seat as the company went from a pre-revenue, […]",
+    "url": "https://techcrunch.com/podcast/menlo-ventures-matt-murphy-explains-what-ai-startups-founders-must-do-differently/",
+    "topic": "llm",
+    "date": "2026-07-22",
+    "fetched_date": "2026-07-23",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "The browser wars aren’t about search anymore — here are the best alternatives to Chrome and Safari",
+    "abstract": "We’ve compiled an overview of some of the top alternative browsers available today aiming to challenge Chrome and Safari.",
+    "url": "https://techcrunch.com/2026/07/22/as-the-browser-wars-heat-up-here-are-the-hottest-alternatives-to-chrome-and-safari-in-2026/",
+    "topic": "llm",
+    "date": "2026-07-22",
+    "fetched_date": "2026-07-23",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Passionfroot raises $15M to expand its B2B creator marketplace to the US",
+    "abstract": "Passionfroot, a German startup building a marketplace connecting B2B creators with brands, has raised $15M in a Series A round led by Insight Partners.",
+    "url": "https://techcrunch.com/2026/07/22/passionfroot-raises-15m-to-expand-its-b2b-creator-marketplace-to-the-us/",
+    "topic": "llm",
+    "date": "2026-07-22",
+    "fetched_date": "2026-07-23",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Glow emerges from stealth at $1.2B valuation to challenge endpoint security in the AI era",
+    "abstract": "Glow is targeting a new class of endpoint risks created by the rapid adoption of AI agents and developer tools inside enterprises.",
+    "url": "https://techcrunch.com/2026/07/22/glow-emerges-from-stealth-at-1-2b-valuation-to-challenge-endpoint-security-in-the-ai-era/",
+    "topic": "llm",
+    "date": "2026-07-22",
+    "fetched_date": "2026-07-23",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Synthesia’s AI training platform is moving beyond videos into live coaching",
+    "abstract": "Synthesia launched AI Roleplay Sessions, an interactive enterprise training platform where employees practice workplace conversations with AI avatars that provide feedback, scoring, and analytics to help companies measure training effectiveness.",
+    "url": "https://techcrunch.com/2026/07/22/synthesias-ai-training-platform-is-moving-beyond-videos-into-live-coaching/",
+    "topic": "llm",
+    "date": "2026-07-22",
+    "fetched_date": "2026-07-23",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "The back-to-school denim wars are starting earlier and lasting longer",
+    "abstract": "From Pacsun to Kohl's to Gap, denim is front and center in an increasingly elongated back-to-school season.",
+    "url": "https://www.modernretail.co/marketing/the-back-to-school-denim-wars-are-starting-earlier-and-lasting-longer/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-07-23",
+    "fetched_date": "2026-07-23",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Kroger’s new CEO, a Walmart veteran, is focused on speed and execution",
+    "abstract": "Kroger's announcement last month that it would buy Giant Eagle for just under $1.7 billion was one of the grocer's first major moves under new CEO Greg Foran, an indicator of how the company's strategy could look going forward. Foran has so far placed an emphasis on speed and execution.",
+    "url": "https://www.modernretail.co/operations/krogers-new-ceo-a-walmart-veteran-is-focused-on-speed-and-execution/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-07-23",
+    "fetched_date": "2026-07-23",
+    "feed_name": "Modern Retail",
+    "source": "industry"
   }
 ]
