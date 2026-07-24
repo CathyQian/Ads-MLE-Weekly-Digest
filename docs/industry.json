@@ -19128,5 +19128,195 @@
     "fetched_date": "2026-07-23",
     "feed_name": "Modern Retail",
     "source": "industry"
+  },
+  {
+    "title": "Launching Health in ChatGPT",
+    "abstract": "Health in ChatGPT now lets eligible U.S. users securely connect medical records and Apple Health to get more personalized insights and better understand their health.",
+    "url": "https://openai.com/index/health-in-chatgpt",
+    "topic": "llm",
+    "date": "2026-07-23",
+    "fetched_date": "2026-07-24",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Bringing Nunchaku 4-bit Diffusion Inference to Diffusers",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/nunchaku-diffusers",
+    "topic": "llm",
+    "date": "2026-07-23",
+    "fetched_date": "2026-07-24",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "The first known runaway AI agent - or a very bad marketing stunt?",
+    "abstract": "The first known runaway AI agent - or a very bad marketing stunt? Martin Alderson's commentary on the OpenAI accidental cyberattack against Hugging Face includes a couple of details I hadn't considered. First, Hugging Face offers a truly rich target if you're trying to find potential vulnerabilities that require executing arbitrary code: Hugging Face has an enormous attack surface. They have more interfaces than I can count which run untrusted models and code. While they definitely have invested in defences, by nature of their operating model they do have many more opportunities to be attacked than many other services. I certainly don't envy their cybersecurity teams. Secondly, one of the things that has puzzled me is how OpenAI didn't notice that their sandbox had been so thoroughly breached by the agent. Surely they'd be monitoring network traffic closely? Martin points out that: It's also likely they were running a huge amount of benchmarks simultaneously with ~unlimited token budgets - you want as many samples as possible to figure out how good a model is at a certain benchmark. It may also be they are testing various different checkpoints of the model too, understanding how the model is improving as it goes through the various training stages. The mistakes made by the OpenAI team running this benchmark are easier to imagine when you think about the scale at which benchmarks of this kind usually operate. For all we know they could have been subjecting a new model to dozens of benchmarks at the same time, in dozens of different environments. Via Lobste.rs Tags: security , ai , openai , generative-ai , llms , hugging-face , ai-security-research",
+    "url": "https://simonwillison.net/2026/Jul/23/the-first-known-runaway-ai-agent/#atom-everything",
+    "topic": "llm",
+    "date": "2026-07-23",
+    "fetched_date": "2026-07-24",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Quoting Seth Larson",
+    "abstract": "The Python Package Index (PyPI) now rejects new files being uploaded to releases that are older than 14 days. This restriction was put in place to prevent old and long-stable releases from being poisoned in case publishing tokens or workflows of PyPI projects were compromised. As far as we are aware this has not yet been abused, but there is no technical reason beyond that attackers weren't aware it was possible. — Seth Larson , PyPI blog Tags: packaging , python , supply-chain , pypi , seth-michael-larson",
+    "url": "https://simonwillison.net/2026/Jul/23/seth-larson/#atom-everything",
+    "topic": "llm",
+    "date": "2026-07-23",
+    "fetched_date": "2026-07-24",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "How AI guardrails are impeding the work of offensive cybersecurity researchers",
+    "abstract": "We spoke with several cybersecurity researchers, who look for unknown vulnerabilities and develop tools to exploit them, about how OpenAI’s and Anthropic’s guardrails affect their work.",
+    "url": "https://techcrunch.com/2026/07/23/how-ai-guardrails-are-impeding-the-work-of-offensive-cybersecurity-researchers/",
+    "topic": "llm",
+    "date": "2026-07-24",
+    "fetched_date": "2026-07-24",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "AMD takes on Nvidia with its Helios AI rack-scale system",
+    "abstract": "AMD is challenging its chipmaker rival with a new rack-scale system that will start shipping to customers later this year.",
+    "url": "https://techcrunch.com/2026/07/23/amd-takes-on-nvidia-with-its-helios-ai-rack-scale-system/",
+    "topic": "llm",
+    "date": "2026-07-23",
+    "fetched_date": "2026-07-24",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Anthropic updates Claude voice mode with more capable models",
+    "abstract": "Claude's new voice model will let you reschedule your meeting or draft an email.",
+    "url": "https://techcrunch.com/2026/07/23/anthropic-updates-claude-voice-mode-with-more-capable-models/",
+    "topic": "llm",
+    "date": "2026-07-23",
+    "fetched_date": "2026-07-24",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "AegisAI, founded by former Google security execs, lands $36M to stop AI-driven spear phishing",
+    "abstract": "AegisAI co-founders developed AI agents that quickly analyze each message as a human would, paying attention to small anomalies that even the most elaborate checklist wouldn’t catch.",
+    "url": "https://techcrunch.com/2026/07/23/aegisai-founded-by-former-google-security-execs-lands-36m-to-stop-ai-driven-spear-phishing/",
+    "topic": "llm",
+    "date": "2026-07-23",
+    "fetched_date": "2026-07-24",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Runway launches AI model router as generative media gets crowded",
+    "abstract": "The Media Router is a tool that automatically selects the best image, video, or audio generation model for a request based on whether a developer prioritizes quality, speed or cost.",
+    "url": "https://techcrunch.com/2026/07/23/runway-bets-on-ai-model-routing-as-generative-media-gets-crowded/",
+    "topic": "llm",
+    "date": "2026-07-23",
+    "fetched_date": "2026-07-24",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "OpenAI makes ChatGPT Health available to all US users",
+    "abstract": "Users can also integrate their personal data from services like Apple Health, Function, and MyFitnessPal.",
+    "url": "https://techcrunch.com/2026/07/23/openai-makes-chatgpt-health-available-to-all-u-s-users/",
+    "topic": "llm",
+    "date": "2026-07-23",
+    "fetched_date": "2026-07-24",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Meta launched a new AI optimism ad set to a song about human extinction",
+    "abstract": "David Bowie's song \"Five Years,\" which Meta used in a supposedly inspiring advertisement, is about humans learning that they have five years left to live before the apocalypse.",
+    "url": "https://techcrunch.com/2026/07/23/meta-launched-a-new-ai-optimism-ad-set-to-a-song-about-human-extinction/",
+    "topic": "llm",
+    "date": "2026-07-23",
+    "fetched_date": "2026-07-24",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Nvidia is sending GPUs to the moon",
+    "abstract": "If there's a place in the universe without GPUs, Nvidia is sending them there.",
+    "url": "https://techcrunch.com/2026/07/23/nvidia-is-sending-gpus-to-the-moon/",
+    "topic": "llm",
+    "date": "2026-07-23",
+    "fetched_date": "2026-07-24",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "AI chip startup Etched defies skeptics, hits $10.3B valuation from big-name investors",
+    "abstract": "Etched, founded by three Harvard dropouts, has created new chips and memory components that speed up inference on any AI model -- no GPUs required, it says.",
+    "url": "https://techcrunch.com/2026/07/23/ai-chip-startup-etched-defies-skeptics-hits-10-3b-valuation-from-big-name-investors/",
+    "topic": "llm",
+    "date": "2026-07-23",
+    "fetched_date": "2026-07-24",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Google’s Gemini nears billion-user milestone",
+    "abstract": "Gemini had over 750 million monthly users in February.",
+    "url": "https://techcrunch.com/2026/07/23/google-closes-in-on-another-billion-user-product-with-gemini/",
+    "topic": "llm",
+    "date": "2026-07-23",
+    "fetched_date": "2026-07-24",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Experts say exploiting Anthropic’s Fable isn’t how Kimi K3 got so good",
+    "abstract": "\"I don't think you get a model this strong and this quickly on the heels of Fable doing strictly distillation,\" one expert told TechCrunch.",
+    "url": "https://techcrunch.com/2026/07/23/experts-say-exploiting-anthropics-fable-isnt-how-kimi-k3-got-so-good/",
+    "topic": "llm",
+    "date": "2026-07-23",
+    "fetched_date": "2026-07-24",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "ServiceNow bets $40 million on Indian banking software specialist to expand its financial services push",
+    "abstract": "ServiceNow's investment gives BusinessNext a strategic partner to expand its AI-powered banking software globally.",
+    "url": "https://techcrunch.com/2026/07/22/servicenow-bets-40m-on-indian-firm-businessnext-at-700m-valuation-to-deepen-banking-ai-push/",
+    "topic": "llm",
+    "date": "2026-07-23",
+    "fetched_date": "2026-07-24",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "What to know about new proposed tariffs on Canadian goods",
+    "abstract": "A fresh round of Trump tariffs on Canadian goods were announced this week that target industries like dairy, alcohol and automobiles.",
+    "url": "https://www.modernretail.co/operations/what-to-know-about-new-proposed-tariffs-on-canadian-goods/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-07-24",
+    "fetched_date": "2026-07-24",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Michaels says Google-powered AI assistant doubles conversion rate of traditional search",
+    "abstract": "Michaels has lifted the curtain on how its new Google Gemini-powered AI assistant has performed so far.",
+    "url": "https://www.modernretail.co/technology/michaels-says-google-powered-ai-assistant-doubles-conversion-rate-of-traditional-search/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-07-24",
+    "fetched_date": "2026-07-24",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Marketplace Briefing: How Whatnot’s AI-powered recommendation system gives it a competitive edge",
+    "abstract": "Whatnot believes its recommendation systems — which now refresh in just minutes — are what set the company apart from competitors. Whatnot chief product officer Tom Verrilli spoke with Modern Retail about what makes recommendations uniquely challenging in live commerce.",
+    "url": "https://www.modernretail.co/technology/marketplace-briefing-how-whatnots-ai-powered-recommendation-system-gives-it-a-competitive-edge/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-07-23",
+    "fetched_date": "2026-07-24",
+    "feed_name": "Modern Retail",
+    "source": "industry"
   }
 ]
