@@ -170745,5 +170745,100 @@
       "Haq Nawaz Malik"
     ],
     "article_type": "research"
+  },
+  {
+    "title": "Controlled Periodic Synchronization for Efficient Data-Parallel Training",
+    "abstract": "Data-parallel training relies on frequent gradient synchronization across workers. Standard DDP synchronizes gradients at every iteration, which is effective on fast local-area networks but increasingly sensitive to communication latency and network variability in geographically distributed environments. Periodic methods such as LocalSGD reduce synchronization frequency but rely mainly on parameter averaging, which may be insufficient when worker trajectories diverge. This paper studies synchronization frequency as a systems parameter for communication-constrained distributed training. We evaluate Controlled Periodic Data Parallelism (CPDP), a PyTorch-DDP-compatible strategy that alternates local updates with a reconciliation step combining gradient AllReduce and SlowMo parameter averaging. Experiments are conducted on Grid'5000 across intra-site clusters and a cross-site WAN deployment spanning Nancy and Sophia with 16.6 ms RTT. In the main fixed learning-rate setting of 0.1 on ResNet-50/CIFAR-100, CPDP achieves the highest peak test accuracy among the evaluated configurations. At K=2, CPDP improves over DDP by 2.28 percentage points but incurs additional wall-clock time. At K=4, CPDP improves over DDP by 2.44 percentage points while reducing average wall-clock time by 13.8%. Direct profiling shows that exposed synchronization time at K=4 is roughly half that of DDP, explaining the improved WAN accuracy-time trade-off. Additional experiments on ViT-S/CIFAR-100 and ResNet-50/TinyImageNet show that CPDP remains competitive with DDP and generally improves over LocalSGD. Overall, the results show that synchronization frequency is a practical control parameter for distributed training under communication constraints.",
+    "url": "http://arxiv.org/abs/2607.21224",
+    "pdf": "https://arxiv.org/pdf/2607.21224v1",
+    "keyword": "distributed training",
+    "date": "2026-07-23",
+    "fetched_date": "2026-07-25",
+    "authors": [
+      "Imane Ettifouri",
+      "Mostapha Zbakh",
+      "Claude Tadonki"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "Pipelined Gradient Coding",
+    "abstract": "In large-scale machine learning, distributed training commonly involves multiple workers evaluating the gradients of the model on different dataset partitions. A common challenge is the presence of straggling workers, which may significantly slow down training. Traditional gradient coding (GC) addresses this by duplicating dataset partitions across workers, allowing for the replacement of missing gradients from stragglers. However, GC requires workers to evaluate gradients on multiple dataset partitions in each step, potentially increasing overall training time. In this paper, we propose to pipeline GC, such that gradient evaluation is segmented across multiple steps and each worker evaluates gradients on just a single dataset partition per step. We develop the pipelined version for fractional repetition (FR) and cyclic repetition (CR), two representative dataset placement schemes in GC, and prove convergence guarantees for both. Through extensive simulations and experiments on cloud infrastructure, our schemes not only significantly reduce training time but also accelerate convergence compared to GC and other baselines.",
+    "url": "http://arxiv.org/abs/2607.20739",
+    "pdf": "https://arxiv.org/pdf/2607.20739v1",
+    "keyword": "distributed training",
+    "date": "2026-07-22",
+    "fetched_date": "2026-07-25",
+    "authors": [
+      "Xian Su",
+      "Jun Li"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "Towards Privacy-Preserving Federated Prompt Tuning under Data Heterogeneity: A Subspace-Decomposed Expert Approach",
+    "abstract": "Federated prompt tuning (FPT) enables collaborative adaptation of vision--language models (VLMs) using lightweight prompts. Existing methods often address heterogeneity and privacy through a split-prompt design under local differential privacy (DP), combining a shared prompt for global transfer with private prompts for local adaptation. However, a single shared prompt may over-smooth diverse transferable knowledge, weakening the balance between personalization and generalization. Multi-expert prompts (MEPs) can better capture this diversity, but enlarge the communicated space, increasing DP noise and communication cost while making robust expert composition more difficult. We propose FedSEPT, a privacy-preserving Fed}erated Subspace-decomposed Expert Prompt Tuning. Specifically, we employ Subspace-decomposed Expert Modeling (SEM) to parameterize multiple prompt experts with shared low-rank factors, a fixed public basis, and private residuals, thereby confining communication and DP perturbation to a compact factor space while enabling direct server aggregation in a common coordinate system. We further design Instance-aware Expert Fusion (IEF), which adaptively combines semantically complementary experts via on-device routing and performs efficient logit-level fusion using cached expert-specific text features. Extensive experiments on 11 heterogeneous benchmarks show that, under the same privacy constraints, FedSEPT achieves a better trade-off between local adaptation and global generalization than strong baselines.",
+    "url": "http://arxiv.org/abs/2607.21417",
+    "pdf": "https://arxiv.org/pdf/2607.21417v1",
+    "keyword": "differential privacy",
+    "date": "2026-07-23",
+    "fetched_date": "2026-07-25",
+    "authors": [
+      "Yuhua Wang",
+      "Xiaodong Li",
+      "Yihao Guo",
+      "Yuxiang Jia",
+      "Qinnan Zhang",
+      "Yifan Sun",
+      "Hainan Zhang",
+      "Yongxin Tong",
+      "Zhiming Zheng"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "Edit-Neighboring Data Streams and Privacy under Continual Observation",
+    "abstract": "Differential privacy under Continual Observation (CO) quantifies the loss in privacy that occurs when outputs generated using a stream of sensitive input data are published in the online setting. In this paper, we consider a more stringent notion of privacy compared to prior work wherein an individual's participation may shift the entire stream by a time-step. We define a new notion of edit-neighboring streams that captures this scenario.\n  Our findings are as follows. First, we prove that on a stream of length $T$, every additive-noise mechanism incurs error $\\tildeΩ(\\min\\{T^{1/3}/\\varepsilon^{2/3}, T\\})$ when required to be $\\varepsilon$-DP under CO for edit-neighboring streams. This includes state-of-the-art continual counters constructed via the factorization mechanism that in the standard neighboring setting incur only polylogarithmic additive error. Second, we construct the first mechanisms with polylogarithmic additive error for our more stringent notion of privacy. We show that we can recover the same additive error as in the standard notion of privacy albeit with worse constant coefficients for both arbitrary input streams and sparse streams. Third, we show that the notion of edit-neighboring streams inhabits a `sweet-spot' in terms of generality and additive error incurred. More precisely, we show that the even more general notion of prefix-sum neighboring streams---which arises naturally in reductions for problems under CO---must incur additive error scaling as $\\tildeΩ(\\min\\{T^{1/3}/\\varepsilon^{2/3}, T\\})$ for any mechanism that is $\\varepsilon$-DP under continual observation. Finally, we show empirically on synthetic data that when compared with prior work, our mechanism achieves a superior trade-off between the success probability of a simple distinguishing attack, and the additive error incurred by the respective mechanisms.",
+    "url": "http://arxiv.org/abs/2607.20727",
+    "pdf": "https://arxiv.org/pdf/2607.20727v1",
+    "keyword": "differential privacy",
+    "date": "2026-07-22",
+    "fetched_date": "2026-07-25",
+    "authors": [
+      "Joel Daniel Andersson",
+      "Anamay Chaturvedi",
+      "Monika Henzinger",
+      "Roodabeh Safavi"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "Information-Theoretically Secure Aggregation for Lightweight Federated Learning: Resilient to Dropouts and Adversaries",
+    "abstract": "On-device federated learning (FL) enables privacy-preserving and personalized model training on resource-constrained devices such as smartphones and IoT nodes. To reduce communication cost, sign-based methods (e.g., signSGD) transmit one-bit gradients. However, exposing gradient signs makes them vulnerable to inference attacks, while existing secure aggregation schemes are often incompatible with such methods or incur significant computational and communication overhead. We propose a lightweight and information-theoretically secure aggregation framework tailored for sign-based FL. The framework securely computes the majority vote (MV) polynomial through single-round secure multiplication, ensuring end-to-end information-theoretic security under the honest-majority assumption while revealing only the final aggregated sign to the server. To enhance efficiency and scalability, we introduce two key techniques. First, inverse-form exponent reduction halves the effective MV polynomial degree, reducing both communication and computation costs. Second, we propose single-round secure multiplication, achieving linear offline complexity and storage with only a single online communication. Together, these techniques reduce online communication by up to 99.5% and latency by up to 85.7% compared to conventional approaches. Also, by leveraging inherent MDS-code-based decoding, the framework achieves robustness against both dropouts and adversarial behaviors, yielding accuracy gains of up to 20.65% and 10.74%, respectively. Overall, the proposed framework establishes a practical foundation for large-scale, low-latency, and information-theoretically secure aggregation in sign-based FL.",
+    "url": "http://arxiv.org/abs/2607.20890",
+    "pdf": "https://arxiv.org/pdf/2607.20890v1",
+    "keyword": "federated learning",
+    "date": "2026-07-23",
+    "fetched_date": "2026-07-25",
+    "authors": [
+      "Hyeong-Gun Joo",
+      "Songnam Hong",
+      "Dong-Joon Shin"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "One Round Is All You Need: Analytic Federated Learning for Task-Heterogeneous Multi-Label Medical Image Classification",
+    "abstract": "Federated learning (FL) enables multiple clinical institutions to collaboratively train a shared disease classifier without centralizing patient data. In practice, however, each institution annotates only the pathologies within its area of expertise, so the federation operates under task heterogeneity: each client holds labels for a strict subset of the target disease categories while the remaining classes are entirely unobserved at that site. Existing gradient-based FL methods fail under this setting because they require hundreds of communication rounds to converge and because missing class labels introduce systematic false-negative bias that the model cannot correct without a principled mechanism. We propose an analytic federated learning framework for multi-label medical image classification under task heterogeneity. The proposed method replaces iterative gradient optimization with three closed-form operations: a balanced label projection that neutralizes class-imbalance bias by normalizing positive and negative contributions to equal total mass; a per-class absolute aggregation law that independently assembles the optimal ridge-regression classifier for each disease category from the sufficient statistics uploaded by its annotating clients; and an optional analytic pseudo-label refinement round that propagates missing-class knowledge from a confidence-filtered teacher classifier to non-annotating clients. The entire procedure requires at most two communication rounds, irrespective of the degree of task heterogeneity or the number of participating clients. Experiments on ChestXray14 under four progressively severe missing-class configurations demonstrate that the proposed method consistently outperforms the state-of-the-art federated multi-label method FedMLP by up to 18.44 BACC points and 13.24 AUC points, while reducing the communication.",
+    "url": "http://arxiv.org/abs/2607.20641",
+    "pdf": "https://arxiv.org/pdf/2607.20641v1",
+    "keyword": "federated learning",
+    "date": "2026-07-22",
+    "fetched_date": "2026-07-25",
+    "authors": [
+      "Afsaneh Mahanipour",
+      "Hana Khamfroush"
+    ],
+    "article_type": "research"
   }
 ]

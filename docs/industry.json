@@ -19318,5 +19318,155 @@
     "fetched_date": "2026-07-24",
     "feed_name": "Modern Retail",
     "source": "industry"
+  },
+  {
+    "title": "Project Pilot: Can AI control a drone?",
+    "abstract": "We worked with Andon Labs on Drone-Bench, a new benchmark testing whether AI models can autonomously fly a drone to locate and follow a person.",
+    "url": "https://www.anthropic.com/research/project-pilot",
+    "topic": "llm",
+    "date": "2026-07-24",
+    "fetched_date": "2026-07-25",
+    "feed_name": "Anthropic Research",
+    "source": "industry"
+  },
+  {
+    "title": "Quoting Boris Cherny",
+    "abstract": "More than any of these eval scores, what is most exciting to me is something else: Opus 5 is our least prompt injectable model yet. It is a bit buried in the system card, but across PI evals and red teaming, Opus 5 is very hard to prompt inject successfully. — Boris Cherny , here's that System Card section , page 73 Tags: prompt-injection , anthropic , claude , generative-ai , ai , llms , boris-cherny",
+    "url": "https://simonwillison.net/2026/Jul/25/boris-cherny/#atom-everything",
+    "topic": "llm",
+    "date": "2026-07-25",
+    "fetched_date": "2026-07-25",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Introducing Claude Opus 5",
+    "abstract": "Introducing Claude Opus 5 I've been offline kayaking with sea otters for much of today so I haven't had a chance to put Anthropic's new model Claude Opus 5 through its paces yet. The buzz is positive, and Anthropic's description of it as a \"thoughtful and proactive model that comes close to the frontier intelligence of Claude Fable 5 at half the price\" sounds promising. It's currently leading the Artificial Analysis leaderboard , in front of even Fable 5. It's priced the same as Opus 4.8, and continues to offer a \"fast mode\" at twice the cost of the base model. Based on this anecdote in the release post it sounds like it might be relentlessly proactive : On one Frontier-Bench task, Opus 5 was given a drawing of a machine part and asked to write code to rebuild it as a 3D FreeCAD model. However, in this task, the model was intentionally given no way to directly viewthe drawing. Opus 5 responded by writing its own computer vision pipeline to pull the geometry from the raw pixels, then reconstructed the full machine part. It's better at finding vulnerabilities but has deliberately not been trained on how to exploit them. Hopefully this means the US government won't shut it down! As with its predecessor, Opus 4.8, we’ve intentionally avoided training Opus 5 on cyber tasks. The model has nevertheless improved substantially on these tasks as a result of becoming more generally capable, and it comes close to Mythos 5 at finding cybersecurity vulnerabilities. However, it remains substantially behind Mythos 5 on the exploitation of those vulnerabilities—that is, in turning vulnerabilities into material cyber threats. Anthropic have published a prompting guide for Claude Opus 5 . Thariq Shihipar has also written The new rules of context engineering for Claude 5 generation models . The first pelican I got was missing the bicycle wheels; the second attempt was better. Tags: ai , generative-ai , llms , anthropic , claude , llm-release",
+    "url": "https://simonwillison.net/2026/Jul/24/introducing-claude-opus-5/#atom-everything",
+    "topic": "llm",
+    "date": "2026-07-24",
+    "fetched_date": "2026-07-25",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "White House’s Response to China Lacks Confidence in America",
+    "abstract": "Are you more confident in America or fearful of China?",
+    "url": "https://www.thealgorithmicbridge.com/p/white-houses-response-to-china-lacks",
+    "topic": "llm",
+    "date": "2026-07-24",
+    "fetched_date": "2026-07-25",
+    "feed_name": "The Algorithmic Bridge",
+    "source": "industry"
+  },
+  {
+    "title": "I tried out OpenAI’s new AI keypad — which will be fun for some coders and slightly mystifying to everyone else",
+    "abstract": "OpenAI's fancy new AI keypad will be a lot of fun for some, while many others are probably not going to touch it.",
+    "url": "https://techcrunch.com/2026/07/24/i-tried-out-openais-new-ai-keypad-which-will-be-fun-for-coders-and-slightly-mystifying-to-everyone-else/",
+    "topic": "llm",
+    "date": "2026-07-25",
+    "fetched_date": "2026-07-25",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Prentis, new AI lab co-founded by Reid Hoffman, Mark Pincus in talks to raise $100M",
+    "abstract": "The neolab is betting that automating routine computer tasks will soon outpace coding as AI's biggest use case.",
+    "url": "https://techcrunch.com/2026/07/24/prentis-new-ai-lab-co-founded-by-reid-hoffman-mark-pincus-in-talks-to-raise-100m/",
+    "topic": "llm",
+    "date": "2026-07-24",
+    "fetched_date": "2026-07-25",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Why Cognition bought Poke: AI personality is becoming a competitive advantage",
+    "abstract": "The acquisition brings Poke’s conversational style and interaction model to Cognition’s coding agent Devin, reflecting a growing belief that how AI assistants interact with users is as important as the models powering them.",
+    "url": "https://techcrunch.com/2026/07/24/why-cognition-bought-poke-ai-personality-is-becoming-a-competitive-advantage/",
+    "topic": "llm",
+    "date": "2026-07-24",
+    "fetched_date": "2026-07-25",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Anthropic launches Opus 5",
+    "abstract": "Opus 5 will be both cheaper and less restrictive than Fable, likely making it preferable in most use cases.",
+    "url": "https://techcrunch.com/2026/07/24/anthropic-launches-opus-5/",
+    "topic": "llm",
+    "date": "2026-07-24",
+    "fetched_date": "2026-07-25",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "As US weighs response to Chinese AI, industry urges against broad open-weight restrictions",
+    "abstract": "AI companies, including Nvidia and Mistral, urge policymakers to avoid broad restrictions on open-weight AI models as Washington debates responses to Chinese AI and alleged model distillation.",
+    "url": "https://techcrunch.com/2026/07/24/as-us-weighs-response-to-chinese-ai-industry-urges-against-broad-open-weight-restrictions/",
+    "topic": "llm",
+    "date": "2026-07-24",
+    "fetched_date": "2026-07-25",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Bluesky’s AI assistant Attie expands into an open social research tool",
+    "abstract": "Users can now ask Attie questions about news, trends, and conversations on Bluesky and other apps on the AT Protocol.",
+    "url": "https://techcrunch.com/2026/07/24/blueskys-ai-assistant-attie-expands-into-an-open-social-research-tool/",
+    "topic": "llm",
+    "date": "2026-07-24",
+    "fetched_date": "2026-07-25",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Midjourney acquired the astrology app Co-Star",
+    "abstract": "The AI lab Midjourney continues to expand its purview beyond image and video generation.",
+    "url": "https://techcrunch.com/2026/07/24/midjourney-acquired-the-astrology-app-co-star/",
+    "topic": "llm",
+    "date": "2026-07-24",
+    "fetched_date": "2026-07-25",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "‘AI communism’, rogue models, and the why Kimi K3 spooked Wall Street",
+    "abstract": "Chinese AI lab Moonshot’s open model Kimi went viral this week for reasons that had less to do with the model itself and more to do with how the U.S. AI industry reacted to it. Meanwhile, an unreleased OpenAI model wandered outside its test environment and ended up connected to a real security breach at Hugging Face — a reminder […]",
+    "url": "https://techcrunch.com/podcast/ai-communism-rogue-models-and-the-why-kimi-k3-spooked-wall-street/",
+    "topic": "llm",
+    "date": "2026-07-24",
+    "fetched_date": "2026-07-25",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "OpenAI’s new voice mode makes it to the ChatGPT desktop app",
+    "abstract": "ChatGPT Voice on desktop can work with both ChatGPT Work and Codex to complete tasks and control agents.",
+    "url": "https://techcrunch.com/2026/07/24/openais-new-voice-mode-makes-it-to-the-chatgpt-desktop-app/",
+    "topic": "llm",
+    "date": "2026-07-24",
+    "fetched_date": "2026-07-25",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "How Best Buy is rethinking retail footprints for AI products like Ray-Ban Meta glasses",
+    "abstract": "Best Buy is turning stores into AI playgrounds with Meta Ray-Ban shop-in-shops, flexible layouts and trained staff.",
+    "url": "https://www.modernretail.co/retailers/how-best-buy-is-rethinking-retail-footprints-for-ai-products-like-ray-ban-meta-glasses/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-07-25",
+    "fetched_date": "2026-07-25",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "‘We aren’t impacted’: Lettuce brands are on an awareness push amid the cyclospora outbreak",
+    "abstract": "Lettuce growers like Little Leaf Farms and salad chains like Sweetgreen are taking to social media to restore consumer confidence amid the cyclospora outbreak.",
+    "url": "https://www.modernretail.co/marketing/we-arent-impacted-lettuce-brands-are-on-an-awareness-push-amid-the-cyclospora-outbreak/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-07-24",
+    "fetched_date": "2026-07-25",
+    "feed_name": "Modern Retail",
+    "source": "industry"
   }
 ]
