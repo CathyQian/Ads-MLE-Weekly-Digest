@@ -19558,5 +19558,215 @@
     "fetched_date": "2026-07-27",
     "feed_name": "Modern Retail",
     "source": "industry"
+  },
+  {
+    "title": "How AI is expanding what people do at work",
+    "abstract": "New OpenAI research shows how AI is expanding what workers do, with ChatGPT users taking on tasks across roles and reshaping job boundaries.",
+    "url": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work",
+    "topic": "llm",
+    "date": "2026-07-27",
+    "fetched_date": "2026-07-28",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical Robotics",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/nvidia/cosmos-h-dreams",
+    "topic": "llm",
+    "date": "2026-07-27",
+    "fetched_date": "2026-07-28",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Pinner Progression: Better Use-Case Representation Driving Weekly Active User Growth at Pinterest",
+    "abstract": "",
+    "url": "https://medium.com/pinterest-engineering/pinner-progression-better-use-case-representation-driving-weekly-active-user-growth-at-pinterest-bd2131ab238a?source=rss----4c5a5f6279b6---4",
+    "topic": "ads-tech",
+    "date": "2026-07-27",
+    "fetched_date": "2026-07-28",
+    "feed_name": "Pinterest Engineering",
+    "source": "industry"
+  },
+  {
+    "title": "moonshotai/Kimi-K3",
+    "abstract": "moonshotai/Kimi-K3 As promised earlier this month , Moonshot have released the weights for their excellent 2.8 trillion parameter Kimi K3. They're a hefty 1.56TB on Hugging Face. Kimi introduced their own janky modified version of the MIT license with K2 back in July 2025. That license just added this paragraph requiring attribution beyond a certain size of commercial entity: Our only modification part is that, if the Software (or any derivative works thereof) is used for any of your commercial products or services that have more than 100 million monthly active users, or more than 20 million US dollars (or equivalent in other currencies) in monthly revenue, you shall prominently display \"Kimi K2\" on the user interface of such product or service. The K3 license no longer calls itself \"modified MIT\" and goes further, requiring a separate agreement with Moonshot for large \"Model as a Service\" businesses: If the Licensee or any of its affiliates operates a Model as a Service business, and the aggregate revenue of the Licensee and its affiliates exceeds 20 million US dollars (or the equivalent in other currencies) in total over any consecutive 12 months, the Licensee must enter into a separate agreement with Moonshot AI before using the Software or its derivative works for any commercial purpose. To Kimi's credit, they make no attempt to describe this as an \"open source\" license in their own materials, consistently using the term \"open weight\" in its place. OpenRouter is already offering K3 from 7 providers , most of which are at the same $3/million input and $15/million output as Moonshot AI themselves. Tags: ai , generative-ai , llms , llm-pricing , llm-release , ai-in-china , moonshot , kimi , janky-licenses",
+    "url": "https://simonwillison.net/2026/Jul/27/kimi-k3/#atom-everything",
+    "topic": "llm",
+    "date": "2026-07-27",
+    "fetched_date": "2026-07-28",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "An opinionated guide to which AI to use to do stuff",
+    "abstract": "An opinionated guide to which AI to use to do stuff It's interesting watching the evolution of Ethan Mollick's guide over time. A year ago it was still all about chat - ChatGPT, Claude, Gemini - with o3, Claude 4 Opus, and Gemini 2.5 Pro as the models and Deep Research as a useful alternative mode. Today it's much more about agentic systems - \"where the AI is capable of doing the equivalent of many hours of real human work in one go\". Gemini has fallen off Ethan's list, since Google still doesn’t have an established entry in the Codex/ChatGPT Work/Cowork category. Gemini Spark has yet to prove itself! Ethan offers a useful explanation of the ways you can give ChatGPT or Claude a computer to use: To use the computers provided by the AI companies, the mode you want is called ChatGPT Work in ChatGPT, and Cowork in Claude (the naming will not get less confusing, I am sorry to say). [...] The most powerful way to use AI is to give it access to your computer. You do that by downloading the ChatGPT or Claude apps and picking a mode to use. ChatGPT's two agent modes are Work and Codex; Claude's are Cowork and Code. The names do not map onto each other in any way that will help you remember them. And yes, these use the same names as the Work and Cowork modes we discussed above, but operate differently, and have more features and capabilities because they can access your computer. I think the difference between ChatGPT Work on a mobile device and ChatGPT Work inside the desktop app (where it's effectively a less intimidating skin on top of Codex) is spectacularly unintuitive. Short version: if you flip ChatGPT mobile from \"Chat\" to \"Work\" mode you get a version where its Code Interpreter container is no longer restricted from accessing the internet! Tags: ai , generative-ai , llms , ethan-mollick , code-interpreter , general-agents",
+    "url": "https://simonwillison.net/2026/Jul/27/an-opinionated-guide-to-which-ai-to-use-to-do-stuff/#atom-everything",
+    "topic": "llm",
+    "date": "2026-07-27",
+    "fetched_date": "2026-07-28",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Anthropic’s Dario Amodei responds: doesn’t oppose open-weight models, but fears Chinese AI",
+    "abstract": "Anthropic founder and CEO Dario Amodei made his views clear about open-weight models and China's growing AI capabilities.",
+    "url": "https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai/",
+    "topic": "llm",
+    "date": "2026-07-28",
+    "fetched_date": "2026-07-28",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Satya Nadella says companies that trust one AI for everything may not survive",
+    "abstract": "Companies without their own models — or without a layer of AI infrastructure known as AI gateways to separate their prompts from the model itself — will be in trouble, Nadella says.",
+    "url": "https://techcrunch.com/2026/07/27/satya-nadella-says-companies-that-trust-one-ai-for-everything-may-not-survive/",
+    "topic": "llm",
+    "date": "2026-07-27",
+    "fetched_date": "2026-07-28",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "PSA: Your Claude shared chats and Artifacts may have ended up on Google",
+    "abstract": "The issue appears to have originated from Claude’s “share chat” feature, which allows users to create links that enable anyone with the assigned URL view a conversation or project.",
+    "url": "https://techcrunch.com/2026/07/27/psa-your-claude-shared-chats-and-artifacts-may-have-ended-up-on-google/",
+    "topic": "llm",
+    "date": "2026-07-27",
+    "fetched_date": "2026-07-28",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Microsoft launches its first cybersecurity model, plus a new agentic cybersecurity system",
+    "abstract": "Microsoft bolstered its AI cybersecurity offerings this week with the launch of its first AI security model and a new security platform.",
+    "url": "https://techcrunch.com/2026/07/27/microsoft-launches-its-first-cyber-model-and-a-new-agentic-cybersecurity-system/",
+    "topic": "llm",
+    "date": "2026-07-27",
+    "fetched_date": "2026-07-28",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "OpenAI’s Hugging Face breach has reignited the debate over alignment and control",
+    "abstract": "OpenAI's Hugging Face breach has reignited debate over AI alignment and control, exposing competing views on whether increasingly capable AI should be better aligned, better contained, or both.",
+    "url": "https://techcrunch.com/2026/07/27/openais-hugging-face-breach-has-reignited-the-debate-over-alignment-and-control/",
+    "topic": "llm",
+    "date": "2026-07-27",
+    "fetched_date": "2026-07-28",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Threads users can now chat with Meta AI in their DMs",
+    "abstract": "Meta on Monday said it is rolling out its Meta AI chatbot within Threads' DMs, giving users a way to chat with the AI assistant.",
+    "url": "https://techcrunch.com/2026/07/27/threads-users-can-now-chat-with-meta-ai-in-their-dms/",
+    "topic": "llm",
+    "date": "2026-07-27",
+    "fetched_date": "2026-07-28",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Google’s AI search is rapidly becoming the default, new data shows",
+    "abstract": "Google’s AI Overviews now appear in 43% of searches, underscoring how quickly AI-generated answers are becoming the default way people discover information online.",
+    "url": "https://techcrunch.com/2026/07/27/googles-ai-search-is-rapidly-becoming-the-default-new-data-shows/",
+    "topic": "llm",
+    "date": "2026-07-27",
+    "fetched_date": "2026-07-28",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Power up your AI infrastructure! A first look at the Smart Systems Stage agenda at TechCrunch Disrupt 2026",
+    "abstract": "At TechCrunch Disrupt 2026, the Smart Systems Stage will be where energy, infrastructure, and technology collide, covering everything from fusion breakthroughs to the grid strain AI is putting on the entire economy.",
+    "url": "https://techcrunch.com/2026/07/27/power-up-your-ai-infrastructure-a-first-look-at-the-smart-systems-stage-agenda-at-techcrunch-disrupt-2026/",
+    "topic": "llm",
+    "date": "2026-07-27",
+    "fetched_date": "2026-07-28",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "This $9 key physically locks your most addictive apps",
+    "abstract": "This $9 NFC key requires you to physically scan it to unlock distracting apps on your phone.",
+    "url": "https://techcrunch.com/2026/07/27/this-9-key-physically-locks-your-most-addictive-apps/",
+    "topic": "llm",
+    "date": "2026-07-27",
+    "fetched_date": "2026-07-28",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Ilya Sutskever’s Safe Superintelligence partners with Nvidia to scale its AI research",
+    "abstract": "After two years in stealth, Safe Superintelligence has announced a long-term partnership with Nvidia as it prepares to scale to its next phase.",
+    "url": "https://techcrunch.com/2026/07/27/ilya-sutskevers-safe-superintelligence-partners-with-nvidia-to-scale-its-ai-research/",
+    "topic": "llm",
+    "date": "2026-07-27",
+    "fetched_date": "2026-07-28",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Enigma raises $71M to make controlling a robot as easy as adjusting the volume",
+    "abstract": "The massive seed round was led by Index Ventures and Ribbit Capital, with participation from Sarah Guo's Conviction Partners.",
+    "url": "https://techcrunch.com/2026/07/27/enigma-raises-70m-to-make-controlling-a-robot-as-easy-as-adjusting-the-volume/",
+    "topic": "llm",
+    "date": "2026-07-27",
+    "fetched_date": "2026-07-28",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Modern Retail+ Research: Brands are expanding their creator marketing strategies",
+    "abstract": "As brands expand their creator marketing strategies, they are increasingly tapping influencers for more than just awareness campaigns. Many are partnering with creators to help drive seasonal campaigns, support product launches and, in some cases, even help develop products.",
+    "url": "https://www.modernretail.co/marketing/modern-retail-research-brands-are-expanding-their-creator-marketing-strategies/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-07-28",
+    "fetched_date": "2026-07-28",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "NYC sees discount grocery renaissance with new stores from Aldi, Lidl",
+    "abstract": "In and around New York City, national discount grocery chains like Aldi and Lidl have found new neighborhoods to pop up in — following the local success of chains such as Whole Foods and Trader Joe's over the past decades.",
+    "url": "https://www.modernretail.co/operations/nyc-sees-discount-grocery-renaissance-with-new-stores-from-aldi-lidl/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-07-28",
+    "fetched_date": "2026-07-28",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Designing products with GLP-1 users in mind helped Kate Farms expand its Walmart presence",
+    "abstract": "Supplement company Kate Farms launched in 2012 with organic and plant-based products for pediatric tube feeding. But recently, to reach a more general consumer audience it has released new products designed with GLP-1 users in mind. As a result, it's now expanding its presence in Walmart.",
+    "url": "https://www.modernretail.co/operations/designing-products-with-glp-1-users-in-mind-helped-kate-farms-expand-its-walmart-presence/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-07-28",
+    "fetched_date": "2026-07-28",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "The new rules of cross-border commerce after de minimis",
+    "abstract": "Juan Pellerano-Rendon, Chief Marketing Officer, Swap On July 1, the duty-free era of European e-commerce ended. As reported by Modern Retail, every parcel entering the European Union now owes customs duty, regardless of value. Shipments under €150 carry a €3 charge per line item, and the liability lands on brands and retailers. Under the new […]",
+    "url": "https://www.modernretail.co/sponsored/the-new-rules-of-cross-border-commerce-after-de-minimis/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-07-27",
+    "fetched_date": "2026-07-28",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Inside the tool guiding Kenvue’s sustainability-focused product development",
+    "abstract": "Kenvue’s in-house profiler uses 1,300 equations to push greener R&D across brands like Tylenol, Neutrogena and Listerine.",
+    "url": "https://www.modernretail.co/operations/inside-the-tool-guiding-kenvues-sustainability-focused-product-development/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-07-27",
+    "fetched_date": "2026-07-28",
+    "feed_name": "Modern Retail",
+    "source": "industry"
   }
 ]
