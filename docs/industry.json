@@ -19768,5 +19768,215 @@
     "fetched_date": "2026-07-28",
     "feed_name": "Modern Retail",
     "source": "industry"
+  },
+  {
+    "title": "Scientific computing in the age of agentic AI",
+    "abstract": "A new field report shows how scientists use AI coding agents to modernize scientific computing, accelerating software development and discovery in genomics and beyond.",
+    "url": "https://openai.com/index/scientific-computing-agentic-ai",
+    "topic": "llm",
+    "date": "2026-07-28",
+    "fetched_date": "2026-07-29",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Discovering cryptographic weaknesses with Claude",
+    "abstract": "Anthropic researchers find weaknesses in cryptographic algorithms with Claude Mythos Preview",
+    "url": "https://www.anthropic.com/research/discovering-cryptographic-weaknesses",
+    "topic": "llm",
+    "date": "2026-07-28",
+    "fetched_date": "2026-07-29",
+    "feed_name": "Anthropic Research",
+    "source": "industry"
+  },
+  {
+    "title": "The OlmoEarth Platform: Geospatial inference at planetary scale",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/allenai/olmoearth-infrastructure",
+    "topic": "llm",
+    "date": "2026-07-28",
+    "fetched_date": "2026-07-29",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "LFM2.5-Encoders for Fast Long-Context Inference on CPU",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-encoders",
+    "topic": "llm",
+    "date": "2026-07-28",
+    "fetched_date": "2026-07-29",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Eval-driven development: Lessons from evaluating GenAI at scale",
+    "abstract": "",
+    "url": "https://medium.com/airbnb-engineering/eval-driven-development-lessons-from-evaluating-genai-at-scale-e817e5ae5788?source=rss----53c7c27702d5---4",
+    "topic": "ml-engineering",
+    "date": "2026-07-28",
+    "fetched_date": "2026-07-29",
+    "feed_name": "Airbnb Engineering",
+    "source": "industry"
+  },
+  {
+    "title": "Discovering cryptographic weaknesses with Claude",
+    "abstract": "Discovering cryptographic weaknesses with Claude The best part of this article (here's the repo ) about how Anthropic researchers used Claude Mythos to find mathematical flaws in both HAWK and a weaker version of AES (\"neither of these results has a practical impact on today’s computer systems\") is the prompts that they shared, spelling mistakes included: the models tend to think it is impossible to solve so they don't try they need a good amount of prompting. why not do aes-128 r7? the whole point is to find something better than existing approaches. no again the goal is that we have highly inteligent model as good top researcher, we want to find new attacks no we don't want to change the targets [...] agian we need to find something that worth publishing again we are not looking for low hanging fruit, we want proper research to find genuinly hard findings. Mythos Preview worked for 60 hours in total (~$100,000 in estimated API cost) and the main human interventions were to encourage it not to give up and \"find something that worth publishing\". The paper CryptanalysisBench: Can LLMs do Cryptanalysis? describes the new eval that was created as part of this work, in partnership with ETH Zurich, Tel Aviv University, and University of Haifa. Via Hacker News Tags: ai , prompt-engineering , generative-ai , llms , anthropic , claude , ai-security-research , claude-mythos-fable",
+    "url": "https://simonwillison.net/2026/Jul/28/discovering-cryptographic-weaknesses-with-claude/#atom-everything",
+    "topic": "llm",
+    "date": "2026-07-28",
+    "fetched_date": "2026-07-29",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Quoting Akshat Bubna",
+    "abstract": "We’re aware a Modal customer published an unauthenticated endpoint that allowed ​anyone on the internet to use ​their ⁠sandboxes for code execution. This was used by the rogue agent. Modal’s ⁠platform ​or isolation were not ​compromised in anyway. — Akshat Bubna , Modal's CTO, talking to Reuters about this incident Tags: ai-security-research , openai , sandboxing , security , openai-hugging-face-incident",
+    "url": "https://simonwillison.net/2026/Jul/28/akshat-bubna/#atom-everything",
+    "topic": "llm",
+    "date": "2026-07-28",
+    "fetched_date": "2026-07-29",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "uv 0.12.0",
+    "abstract": "uv 0.12.0 Some interesting breaking changes in this release of uv , in particular to the default project produced by the uv init command. uv init is the uv shortcut for creating a new project. The previous version of uv , version 0.11.x, produced this directory when you ran uv init uv-init . Here's what you get with uv 0.12 . I have a GitHub repository that automatically snapshots the output of uv init , so you can also see the full diff : uv init now defaults to a src/ shaped package, instead of dropping main.py in the root of the project. It also configures the uv_build backend for building wheels and .tar.gz distribution files when you run uv build . Finally, it sets up uv-init as a script alias which, when run with uv run uv-init , executes a new main() function in src/uv_init/__init__.py . I've so far avoided using src layout in my own projects just out of inertia. I think it's time I switched. I wonder when uv will be judged ready for a 1.0 release? Tags: packaging , python , uv",
+    "url": "https://simonwillison.net/2026/Jul/28/uv/#atom-everything",
+    "topic": "llm",
+    "date": "2026-07-28",
+    "fetched_date": "2026-07-29",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident",
+    "abstract": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident Hugging Face just released this extremely detailed technical description of OpenAI's recent accidental cyberattack against their infrastructure . This attack was very sophisticated, and the resulting document doubles as a crash-course in modern adversarial security approaches. We're still waiting for more details from OpenAI on how their agent broke out of its sandbox. The package proxy that it found a zero-day vulnerability in has now been confirmed as JFrog's Artifactor, and JFrog and OpenAI Collaboration on Zero-Day Security Findings from JFrog links to the Artifactory 7.161.15 release notes which list 8 separate CVEs credited to OpenAI staff members. Having broken out through the HTTP proxy, the agent started by establishing a base of operations for the rest of the attack: [...] the agent escaped its sandbox by exploiting a zero-day in the package registry cache proxy, one of its primary permitted network egress with internet, then abused a public code-evaluation external sandbox hosted on a third-party provider's infrastructure. It was able to run commands as root/admin on that external sandbox and used it as a control, staging, and egress base for the entire campaign: it acted as an external launchpad for the agent. (That \"third-party provider\" turned out to be Modal .) It then spent five days - from Thursday 8th to Monday 13th July - executing a classic attack pattern: establishing C2 (command and control), reconnaissance, escalating privileges, dumping configuration information, exfiltrating the target data, and cleaning up after itself. (The first Hugging Face post about the incident followed on Thursday 16th , and OpenAI's confession came on Tuesday 21st .) Along the way it used all kinds of neat tricks. At one point it found an unsafe Jinja2 template execution and used it to execute arbitrary code: {{ cycler.__init__.__globals__.__builtins__.exec( \"import gzip,base64; exec(gzip.decompress(base64.b64decode('<payload>')))\" ) }} It broke out of a container within Hugging Face, stole a Kubernetes service-account token, and used that to further explore the network. It monkey-patched the Python socket library to hard-code an IP address when \"DNS got in the way\": socket.getaddrinfo = lambda *a, **k: [(2, 1, 6, '', ('<pinned-ip>', 443))] It even fired up its own Tailscale network to help exfiltrate data! tailscaled --tun=userspace-networking \\ --state=mem: --socket=/tmp/ts.sock \\ --socks5-server=127.0.0.1:1055 \\ --no-logs-no-support >/tmp/td 2>&1 & The Hugging Face team note that, while a human attacker could have discovered and used the same exploits, the key difference here was speed : Our learning from this type of attack is that machine-speed offense makes ordinary weaknesses more expensive for defenders. LLM agents bring a step increase in the number of paths an attacker can test, the speed at which failed paths can be replaced, and the volume of evidence defenders must interpret. What's clear to me from this is that the very best frontier models, unencumbered by additional guardrails, will find an exploit if there is one to be found. The entire software industry needs to up its security game. Tags: jinja , python , security , ai , openai , generative-ai , llms , hugging-face , coding-agents , ai-security-research , openai-hugging-face-incident",
+    "url": "https://simonwillison.net/2026/Jul/28/anatomy-of-a-frontier-lab-agent-intrusion/#atom-everything",
+    "topic": "llm",
+    "date": "2026-07-28",
+    "fetched_date": "2026-07-29",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "The Actual Reason Why Google “Fell Out” of the AI Race Changes Everything",
+    "abstract": "Hottest story of the year",
+    "url": "https://www.thealgorithmicbridge.com/p/the-actual-reason-why-google-fell",
+    "topic": "llm",
+    "date": "2026-07-28",
+    "fetched_date": "2026-07-29",
+    "feed_name": "The Algorithmic Bridge",
+    "source": "industry"
+  },
+  {
+    "title": "Cyera agrees to acquire Oasis Security for $1B to safeguard proliferating AI agents",
+    "abstract": "The deal is Cyera's third acquisition this year.",
+    "url": "https://techcrunch.com/2026/07/28/cyera-agrees-to-acquire-oasis-security-for-1b-to-safeguard-proliferating-ai-agents/",
+    "topic": "llm",
+    "date": "2026-07-29",
+    "fetched_date": "2026-07-29",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Bot-detection startup Spur nabs $200M from Insight",
+    "abstract": "Spur Intelligence has raised a $200 million round from Insight Partners for its tech that can identify legit human traffic from bots.",
+    "url": "https://techcrunch.com/2026/07/28/bot-detection-startup-spur-nabs-200m-from-insight/",
+    "topic": "llm",
+    "date": "2026-07-28",
+    "fetched_date": "2026-07-29",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "MCP startup Runlayer accuses Rippling of stealing its product idea",
+    "abstract": "Runlayer is suing Rippling after Rippling evaluated the startup's MCP gateway product and then opted to build one itself.",
+    "url": "https://techcrunch.com/2026/07/28/mcp-startup-runlayer-accuses-rippling-of-stealing-its-product-idea/",
+    "topic": "llm",
+    "date": "2026-07-28",
+    "fetched_date": "2026-07-29",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Sam Altman is ready to decelerate",
+    "abstract": "His change of position comes after \"the first security incident that I have felt very viscerally.\"",
+    "url": "https://techcrunch.com/2026/07/28/sam-altman-is-ready-to-decelerate/",
+    "topic": "llm",
+    "date": "2026-07-28",
+    "fetched_date": "2026-07-29",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Data centers may face temporary power cuts to prevent blackouts on largest US grid",
+    "abstract": "The decision arrives as the breakneck pace of data center construction has grid operators scrambling to generate power.",
+    "url": "https://techcrunch.com/2026/07/28/data-centers-may-face-temporary-power-cuts-to-prevent-blackouts-on-largest-us-grid/",
+    "topic": "llm",
+    "date": "2026-07-28",
+    "fetched_date": "2026-07-29",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Fish Audio raises $52M seed to build AI voice models for creators and enterprises",
+    "abstract": "Since launching last year, the startup today has more than 8 million people using the open source or hosted version of its models, and now generates annual recurring revenue of $21 million.",
+    "url": "https://techcrunch.com/2026/07/28/fish-audio-raises-50m-seed-to-build-ai-voice-models-for-creators-and-enterprises/",
+    "topic": "llm",
+    "date": "2026-07-28",
+    "fetched_date": "2026-07-29",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Recursive Superintelligence signs $410M compute deal with Amazon",
+    "abstract": "Recursive’s emphasis on self-improving AI systems means much of the budget that would traditionally go toward headcount and operations is put straight into compute, as the company seeks to automate its own product development process.",
+    "url": "https://techcrunch.com/2026/07/28/recursive-superintelligence-signs-400-compute-deal-with-amazon/",
+    "topic": "llm",
+    "date": "2026-07-28",
+    "fetched_date": "2026-07-29",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Cursor makes its biggest India push yet ahead of SpaceX acquisition with localized pricing",
+    "abstract": "Cursor says India is now its third-largest market globally and plans to expand local hiring and enterprise sales.",
+    "url": "https://techcrunch.com/2026/07/27/cursor-makes-its-biggest-india-push-yet-ahead-of-spacex-acquisition-with-localized-pricing/",
+    "topic": "llm",
+    "date": "2026-07-28",
+    "fetched_date": "2026-07-29",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "PopSockets’ next act hinges on DTC, TikTok and a bigger product ecosystem",
+    "abstract": "PopSockets wants a bigger grip on the phone accessory market — and it's betting on limited-edition drops, TikTok videos and magnetic products to get it there.",
+    "url": "https://www.modernretail.co/operations/popsockets-next-act-hinges-on-dtc-tiktok-and-a-bigger-product-ecosystem/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-07-29",
+    "fetched_date": "2026-07-29",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Unpacked: How agentic AI is reshaping the consumer journey",
+    "abstract": "This Unpacked guide, sponsored by Talon.One, explores how brands can make their loyalty and promotions agent-ready, as agentic commerce evolves from a theoretical concept into practical applications, and AI agents begin to handle the end-to-end shopping journey for consumers. Agentic commerce has quickly become a hot industry topic, as the technology evolves from a theoretical […]",
+    "url": "https://www.modernretail.co/sponsored/unpacked-how-agentic-ai-is-reshaping-the-consumer-journey/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-07-28",
+    "fetched_date": "2026-07-29",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Brands Briefing: Behind True Religion’s path to $1B, from TikTok Shop to TJ Maxx",
+    "abstract": "True Religion hopes doubling its store count and joining TikTok Shop can help power its revenue to $1 billion. Its CEO unpacked the plan with Modern Retail.",
+    "url": "https://www.modernretail.co/operations/brands-briefing-behind-true-religions-path-to-1b-from-tiktok-shop-to-tj-maxx/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-07-28",
+    "fetched_date": "2026-07-29",
+    "feed_name": "Modern Retail",
+    "source": "industry"
   }
 ]
