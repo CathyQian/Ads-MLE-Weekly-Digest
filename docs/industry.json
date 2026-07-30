@@ -19978,5 +19978,205 @@
     "fetched_date": "2026-07-29",
     "feed_name": "Modern Retail",
     "source": "industry"
+  },
+  {
+    "title": "How enabling two settings tripled our scores on the ARC-AGI-3 benchmark",
+    "abstract": "How two API settings improved GPT-5.6 performance on ARC-AGI-3, boosting scores and efficiency by retaining reasoning and enabling compaction.",
+    "url": "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores",
+    "topic": "llm",
+    "date": "2026-07-29",
+    "fetched_date": "2026-07-30",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Accelerating scientific discovery with ChatGPT for Academic Researchers",
+    "abstract": "OpenAI is giving 100,000 academic researchers free access to ChatGPT's most advanced AI models to accelerate scientific research, collaboration, and discovery.",
+    "url": "https://openai.com/index/chatgpt-for-academic-researchers",
+    "topic": "llm",
+    "date": "2026-07-29",
+    "fetched_date": "2026-07-30",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "How GPT-5.6 fuses frontier intelligence with frontier efficiency",
+    "abstract": "GPT-5.6 improves AI efficiency across models, inference, and agentic workflows, helping deliver more useful intelligence per dollar.",
+    "url": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency",
+    "topic": "llm",
+    "date": "2026-07-29",
+    "fetched_date": "2026-07-30",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "We’re launching Lyria 3.5 in Google Flow Music, with advances across musicality, lyrics, vocals, and creative control",
+    "abstract": "",
+    "url": "https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control/",
+    "topic": "generative-ai",
+    "date": "2026-07-29",
+    "fetched_date": "2026-07-30",
+    "feed_name": "DeepMind Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Quoting D. Richard Hipp",
+    "abstract": "Years ago, we didn’t have SQL. There were people whose job was to generate software that would query large data sets. Their job title was COBOL programmer. Then SQL comes along—I’m simplifying this only a little bit—and it gives you this convenient way so people could just specify. With a very simple specification, you can generate all of that code that you had to pay the expensive COBOL programmer to do before. That didn’t mean programmers went away. It just meant the job changed a little bit. — D. Richard Hipp Tags: d-richard-hipp , sql , careers",
+    "url": "https://simonwillison.net/2026/Jul/29/d-richard-hipp/#atom-everything",
+    "topic": "llm",
+    "date": "2026-07-29",
+    "fetched_date": "2026-07-30",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "AI Worming through Word",
+    "abstract": "AI Worming through Word Neat new prompt injection variant by Håkon Måløy, who found a way to upgrade prompt injection attacks against Microsoft Word to full self-replicating worms: An attacker places hidden instructions in a document that is later used as source material in Copilot for Word. Copilot may interpret those instructions as part of the user’s request, causing it to manipulate the document being drafted or edited. Copilot may then also copy the hidden instructions into the resulting document, turning that document into a new carrier. If the carrier is subsequently used in another Copilot-assisted workflow, the instructions can trigger again and propagate into further documents, even without the attacker’s original document being present. We've seen plenty of hidden white-on-white text before - the kids are using it in their job applications now - but this is the first one I've seen that deliberately copies instructions to self-replicate itself. It was responsibly disclosed to Microsoft who then had 144 days to work on a fix, but so far (unsurprisingly) there's no mitigation that covers the full class of attack. Via Hacker News Tags: microsoft , security , ai , prompt-injection , generative-ai , llms",
+    "url": "https://simonwillison.net/2026/Jul/29/ai-worming-through-word/#atom-everything",
+    "topic": "llm",
+    "date": "2026-07-29",
+    "fetched_date": "2026-07-30",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Quoting Matthew Green",
+    "abstract": "Right now we’re in the midst of a historic transition from traditional public-key algorithms based on EC-based cryptography and RSA, moving over to new post-quantum algorithms based on novel problems. This is why there are so many standards like HAWK being considered. If there was ever a perfect time for a massive new public cryptanalysis capability to come on line, we’re in it. So unless AIs succeed in undermining all of our hard problems altogether (or we live in Impagliazzo’s Minicrypt ) then this could not be a better time for AI to get good at cryptanalysis. In the best case, the result is that we gain real confidence in the problems we’ve identified, and the cryptanalysis literature gets a lot more robust. Hopefully. — Matthew Green , on Anthropic's recent cryptography work Tags: anthropic , claude , generative-ai , cryptography , ai , llms , ai-security-research , claude-mythos-fable",
+    "url": "https://simonwillison.net/2026/Jul/29/matthew-green/#atom-everything",
+    "topic": "llm",
+    "date": "2026-07-29",
+    "fetched_date": "2026-07-30",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Adding a custom MCP server to Claude and ChatGPT",
+    "abstract": "TIL: Adding a custom MCP server to Claude and ChatGPT Connecting a custom MCP server to Claude and ChatGPT's standard chat interfaces is possible, but can take quite a few steps. Tags: ai , generative-ai , chatgpt , llms , claude , model-context-protocol",
+    "url": "https://simonwillison.net/2026/Jul/29/mcp-in-claude-and-chatgpt/#atom-everything",
+    "topic": "llm",
+    "date": "2026-07-29",
+    "fetched_date": "2026-07-30",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Microsoft is openly competing with OpenAI, Anthropic more than ever",
+    "abstract": "Microsoft pitched its own homegrown AI models, harnesses, and even a Mythos competitor on Wednesday, telling Wall Street it plans for continued growth.",
+    "url": "https://techcrunch.com/2026/07/29/microsoft-is-openly-competing-with-openai-anthropic-more-than-ever/",
+    "topic": "llm",
+    "date": "2026-07-30",
+    "fetched_date": "2026-07-30",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Mark Zuckerberg predicts that billions of people will have personal AI agents in five years",
+    "abstract": "As Meta pours billions into AI infrastructure and agents, Zuckerberg is working to convince investors that the payoff will be worth the price.",
+    "url": "https://techcrunch.com/2026/07/29/mark-zuckerberg-predicts-that-billions-of-people-will-have-personal-ai-agents-in-five-years/",
+    "topic": "llm",
+    "date": "2026-07-29",
+    "fetched_date": "2026-07-30",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Microsoft logs $3.2B from Anthropic investment, but OpenAI was a mixed bag",
+    "abstract": "When Microsoft reported killer fourth-quarter earnings for its fiscal 2026 year (which ended June 30), it tucked in an interesting little tidbit about how its investments in the two biggest, and competing, AI labs are doing.",
+    "url": "https://techcrunch.com/2026/07/29/microsoft-logs-3-2b-from-anthropic-investment-but-openai-was-a-mixed-bag/",
+    "topic": "llm",
+    "date": "2026-07-29",
+    "fetched_date": "2026-07-30",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Zuckerberg says Meta’s enterprise AI opportunity extends beyond agents",
+    "abstract": "On the company’s second-quarter earnings call Wednesday, CEO Mark Zuckerberg said Meta sees a “large enterprise opportunity” spanning AI agents, APIs, compute, and internal software.",
+    "url": "https://techcrunch.com/2026/07/29/zuckerberg-says-metas-enterprise-ai-opportunity-extends-beyond-agents/",
+    "topic": "llm",
+    "date": "2026-07-29",
+    "fetched_date": "2026-07-30",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Discover what’s next for AI, from the SaaS reckoning to the agent security gap, at TechCrunch Disrupt 2026",
+    "abstract": "At TechCrunch Disrupt 2026, the AI Stage is back to dig into the single hottest topic in the community for the past few years, presented by Google for Startups.",
+    "url": "https://techcrunch.com/2026/07/29/discover-whats-next-for-ai-from-the-saas-reckoning-to-the-agent-security-gap-at-techcrunch-disrupt-2026/",
+    "topic": "llm",
+    "date": "2026-07-29",
+    "fetched_date": "2026-07-30",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Thinking Machines co-founder Lilian Weng left the company citing health reasons, then joined OpenAI",
+    "abstract": "Weng previously served as the VP of AI Safety Research at OpenAI.",
+    "url": "https://techcrunch.com/2026/07/29/thinking-machines-co-founder-lilian-weng-left-the-company-citing-health-reasons-then-joined-openai/",
+    "topic": "llm",
+    "date": "2026-07-29",
+    "fetched_date": "2026-07-30",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "The Hugging Face AI break-in, as told through an increasingly committed bear metaphor",
+    "abstract": "Another way to think about the whole thing is to picture a bear at a campsite. (Really, we are going there.)",
+    "url": "https://techcrunch.com/2026/07/29/the-hugging-face-ai-break-in-as-told-through-an-increasingly-committed-bear-metaphor/",
+    "topic": "llm",
+    "date": "2026-07-29",
+    "fetched_date": "2026-07-30",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Claude Opus 5 became downright ruthless when tasked with running a vending machine",
+    "abstract": "Andon Labs' latest vending machine simulation shows Opus 5 lied and colluded its way to become the best AI capitalist ever.",
+    "url": "https://techcrunch.com/2026/07/29/claude-opus-5-became-downright-ruthless-when-tasked-with-running-a-vending-machine/",
+    "topic": "llm",
+    "date": "2026-07-29",
+    "fetched_date": "2026-07-30",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Hint, a new AI startup co-founded by Martha Stewart, offers an AI assistant for homeowners",
+    "abstract": "AI home management startup Hint, co-founded by Martha Stewart, wants to become an “AI for your home,” combining property records, maintenance schedules, home documents, and an AI assistant into a single app.",
+    "url": "https://techcrunch.com/2026/07/29/hint-a-new-ai-startup-co-founded-by-martha-stewart-offers-an-ai-assistant-for-homeowners/",
+    "topic": "llm",
+    "date": "2026-07-29",
+    "fetched_date": "2026-07-30",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Encore AI raises $30M to build AI agents that learn from customer calls",
+    "abstract": "The startup analyzes calls, messages, and CRM data to identify effective sales techniques and turn them into playbooks for AI agents.",
+    "url": "https://techcrunch.com/2026/07/29/encore-ai-raises-30m-to-build-ai-agents-that-learn-from-customer-calls/",
+    "topic": "llm",
+    "date": "2026-07-29",
+    "fetched_date": "2026-07-30",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "As AI content floods the internet, Pangram raises $9M to detect it",
+    "abstract": "Pangram has raised $9 million to scale its AI detection software. The startup has also released a new AI text detection model, Pangram 4, and an AI image detection model in research preview.",
+    "url": "https://techcrunch.com/2026/07/29/as-ai-content-floods-the-internet-pangram-raises-9m-to-detect-it/",
+    "topic": "llm",
+    "date": "2026-07-29",
+    "fetched_date": "2026-07-30",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "How new wellness brand Plainspeak is using mail-in samples to acquire customers",
+    "abstract": "New women's wellness brand Plainspeak is using USPS mail-in samples to drive subscriptions for its women’s supplement, sidestepping paid ads. The founders are betting on the analog strategy to build a loyal customer base.",
+    "url": "https://www.modernretail.co/marketing/how-new-wellness-brand-plainspeak-is-using-mail-in-samples-to-acquire-customers/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-07-30",
+    "fetched_date": "2026-07-30",
+    "feed_name": "Modern Retail",
+    "source": "industry"
   }
 ]
