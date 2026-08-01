@@ -20468,5 +20468,215 @@
     "fetched_date": "2026-07-31",
     "feed_name": "Modern Retail",
     "source": "industry"
+  },
+  {
+    "title": "Advancing responsible AI across Europe",
+    "abstract": "OpenAI shares how its safety, security, transparency, and provenance practices support responsible AI governance in Europe. The work will continue as the EU AI Act advances.",
+    "url": "https://openai.com/index/advancing-responsible-ai-across-europe",
+    "topic": "llm",
+    "date": "2026-07-31",
+    "fetched_date": "2026-08-01",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Building abundant intelligence",
+    "abstract": "A full-stack approach to making advanced AI more capable, more affordable, and more widely useful.",
+    "url": "https://openai.com/index/building-abundant-intelligence",
+    "topic": "llm",
+    "date": "2026-07-31",
+    "fetched_date": "2026-08-01",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Univé builds an AI-ready workforce",
+    "abstract": "See how Univé built an AI-ready workforce with ChatGPT Enterprise by combining leadership, responsible governance, and employee-led innovation to transform work at scale.",
+    "url": "https://openai.com/index/unive",
+    "topic": "llm",
+    "date": "2026-07-31",
+    "fetched_date": "2026-08-01",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Disrupting a Criminal Scam Operation",
+    "abstract": "OpenAI disrupted a Cambodia-based scam operation using ChatGPT to support investment, romance, gambling, and impersonation schemes.",
+    "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation",
+    "topic": "llm",
+    "date": "2026-07-31",
+    "fetched_date": "2026-08-01",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Modeling Device Capabilities for Analytics",
+    "abstract": "",
+    "url": "https://netflixtechblog.com/modeling-device-capabilities-for-analytics-e7607acebde8?source=rss----2615bd06b42e---4",
+    "topic": "ml-engineering",
+    "date": "2026-07-31",
+    "fetched_date": "2026-08-01",
+    "feed_name": "Netflix Tech Blog",
+    "source": "industry"
+  },
+  {
+    "title": "deepseek-ai/DeepSeek-V4-Flash-0731",
+    "abstract": "deepseek-ai/DeepSeek-V4-Flash-0731 The latest release in DeepSeek's V4 family, \"with substantially enhanced agentic capabilities\". It's 304 billion parameters - 167GB on Hugging Face - but it appears to punch well above its weight. Artificial Analysis rank it ahead of MiniMax M3 - a 428B model. It's $0.14/million input and $0.27/million output pricing means this may currently be the best value-per-intelligence model out there. It's looking very good on the Intelligence Index vs. Cost per Intelligence Index Task chart: I got a disappointing pelican from it using the default reasoning level via OpenRouter: But when I bumped reasoning level up to high I got something much better : llm -m openrouter/deepseek/deepseek-v4-flash-0731 -t pelican -o reasoning_effort high Via Hacker News Tags: ai , generative-ai , llms , pelican-riding-a-bicycle , deepseek , llm-release , openrouter , ai-in-china , artificial-analysis",
+    "url": "https://simonwillison.net/2026/Jul/31/deepseek-v4-flash-0731/#atom-everything",
+    "topic": "llm",
+    "date": "2026-07-31",
+    "fetched_date": "2026-08-01",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Stateless MCP has recaptured my interest (and inspired mcp-explorer and datasette-mcp)",
+    "abstract": "Tuesday was Stateless MCP day - the rollout of MCP 2.0, or the 2026-07-28 Model Context Protocol specification to use the more formal but less memorable name. This is the most significant change to the MCP spec since it first launched, and has also served to reignite my personal interest in the protocol. For background: MCP is the Model Context Protocol, which describes a standard way to expose new tools to LLM-powered agent frameworks. It was introduced by Anthropic back in November 2024 , had a huge spike of interest through much of 2025, and then became somewhat eclipsed by Skills (another Anthropic invention) when it became apparent that an agent harness with access to a terminal and curl could do most of what MCP did in a more flexible way. I wrote about that in my review of 2025 . I'm coming back around to MCP now. Giving an agent a shell environment with the ability to access the internet is fraught with risk , and requires a strong model that is capable of effectively driving such an environment. MCP tools are easier to audit and control, and simple enough that smaller models that run on a laptop can still drive them reasonably well. The new stateless MCP specification also greatly decreases the complexity of implementing both clients and servers for the protocol. I built three of those this week! What's easier with stateless MCP The best demonstration of the difference between stateful and stateless MCP is in this May 21st blog post that introduced the RC for the new specification. It included a clear before-and-after example. The older stateful MCP (I'm going to call it \"legacy MCP\") required two HTTP requests - the first to initialize a session and obtain a Mcp-Session-Id , and the second to actually call the tool: POST /mcp HTTP/1.1 Content-Type: application/json { \"jsonrpc\": \"2.0\", \"id\": 1, \"method\": \"initialize\", \"params\": { \"protocolVersion\": \"2025-11-25\", \"capabilities\": { }, \"clientInfo\": { \"name\": \"my-app\", \"version\": \"1.0\" } } } POST /mcp HTTP/1.1 Mcp-Session-Id: 1868a90c-3a3f-4f5b Content-Type: application/json { \"jsonrpc\": \"2.0\", \"id\": 2, \"method\": \"tools/call\", \"params\": { \"name\": \"search\", \"arguments\": { \"q\": \"otters\" } } } The new stateless way uses a single HTTP request which looks like this: POST /mcp HTTP/1.1 MCP-Protocol-Version: 2026-07-28 Mcp-Method: tools/call Mcp-Name: search Content-Type: application/json { \"jsonrpc\": \"2.0\", \"id\": 1, \"method\": \"tools/call\", \"params\": { \"name\": \"search\", \"arguments\": { \"q\": \"otters\" }, \"_meta\": { \"io.modelcontextprotocol/clientInfo\": { \"name\": \"my-app\", \"version\": \"1.0\" } } } } This is so much cleaner from both a client- and server-side implementation perspective. It's also a better fit for building scalable web applications, since now you don't need to maintain server-side state to keep track of those session IDs, or worry about routing the same session to the same backend machine. mcp-explorer I couldn't find a great CLI tool for interactively probing an MCP server, so I had Codex help build my own. mcp-explorer is the result. It's a stateless Python CLI tool, so you don't even need to install it to try it out - it works with uvx like this: uvx mcp-explorer list https://agentic-mermaid.dev/mcp This queries Ade Oshineye's agentic-mermaid.dev demo MCP. The above command returns the following list of tools: execute(code: string, timeoutMs?: integer) - Execute Mermaid SDK code Run JavaScript in an isolated sandbox; return a value. describe_sdk(family: string, detail?: string) - Describe Mermaid SDK operations Return version-matched mutation operations for one diagram family. render_svg(source: string, options?: object) - Render Mermaid as SVG Render a Mermaid source string to themeable SVG. Returns { ok, svg }. render_ascii(source: string, useAscii?: boolean, targetWidth?: integer, options?: object) - Render Mermaid as text Render a Mermaid source string to text. Returns { ok, text }. render_png(source: string, scale?: number, background?: string, fitTo?: object, options?: object) - Render Mermaid as PNG Rasterize a Mermaid source string to PNG. Returns { ok, png_base64 }. ... Then to inspect a tool: uvx mcp-explorer inspect render_svg This outputs a whole bunch of information, including the JSON schema of the inputs and outputs. To call that tool and pass arguments to it: uvx mcp-explorer call \\ https://agentic-mermaid.dev/mcp \\ render_svg \\ -a source ' graph TD; A-->B ' \\ -a options ' {\"padding\":24} ' Which returns: {\"ok\":true,\"svg\":\"<svg xmlns=\\\"http://www.w3.org/2000/svg\\\" width=... To get just the raw SVG try adding | jq .svg -r to that command. I got back this image : There are a few more commands in the README, but you get the general idea. I find building CLI tools like this to be a really productive way to get familiar with a specification, even if an agent writes most of the actual code. datasette-mcp The second project is datasette-mcp , a Datasette plugin which adds a /-/mcp endpoint to any Datasette instance. This is probably the fourth time I've tried building this plugin, but thanks to the new stateless MCP specification I finally have a version that feels good to release. It provides just three tools: list_databases() , get_database_schema(database_name) , and execute_sql(database_name, sql) . They do exactly what you would expect them to do - though execute_sql() is read-only for the moment. Wire these into an agent, or a chat tool like ChatGPT or Claude, and they'll gain the ability to run SQL queries against your hosted Datasette instance. So far I'm running it on the Datasette mirror of my blog, at datasette.simonwillison.net/-/mcp . It took a bit of fiddling to figure out how to attach that to ChatGPT and Claude, but I got there in the end. Here's a new TIL showing exactly how to do that. Here's a shared Claude session where I asked it: list tables in simonwillison.net And then: what has Simon said recently about MCP? It ran 7 separate SQL queries to figure out the answer. llm-mcp-client My LLM tool is long overdue for an official MCP integration. The new alpha llm-mcp-client plugin is my attempt at exactly that: llm install llm-mcp-client llm -T ' MCP(\"https://datasette.simonwillison.net/-/mcp\") ' ' count the notes ' Here's the output (including reasoning trace, I'm using LLM 0.32rc2 ): Considering note count I see the question \"count the notes\" is probably asking me to tally up blog notes. It could also mean published notes or drafts, so there's some ambiguity there. I'll need to figure out the total number of notes, likely by querying the count for both published notes and drafts to get a clear answer. Let's execute that count! There are 151 notes . And the output of llm logs for that prompt. Once this is fully baked, I'm considering bringing it directly into LLM core. I'm excited to experiment with MCP in Datasette Agent and llm-coding-agent as well. MCP is a safer way to build with agents A few months after MCP was first released, I wrote Model Context Protocol has prompt injection security problems , where I noted that the pattern of having end users mix and match tools pushed responsibility for avoiding data exfiltration attacks out to the users themselves. I hadn't coined the Lethal Trifecta yet, but that was absolutely what I had in mind. Then general agents with arbitrary shell and curl access came along, and that's so much harder to keep secure! Something I've come to appreciate about MCP is that it's much easier to reason about agent capabilities and what might go wrong than with arbitrary command execution in an open network environment - the default for most of today's general and coding agent tools. I plan to lean into MCP a whole lot more when I'm building sensitive applications on top of LLMs. Tags: projects , ai , datasette , mermaid , generative-ai , llms , llm , anthropic , model-context-protocol",
+    "url": "https://simonwillison.net/2026/Jul/31/stateless-mcp/#atom-everything",
+    "topic": "llm",
+    "date": "2026-07-31",
+    "fetched_date": "2026-08-01",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "llm-mcp-client 0.1a0",
+    "abstract": "Release: llm-mcp-client 0.1a0 See this blog entry . Tags: llm , model-context-protocol",
+    "url": "https://simonwillison.net/2026/Jul/31/llm-mcp-client/#atom-everything",
+    "topic": "llm",
+    "date": "2026-07-31",
+    "fetched_date": "2026-08-01",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Oxide and Friends: The Open Weight Revolution with Simon Willison",
+    "abstract": "Oxide and Friends: The Open Weight Revolution with Simon Willison On Monday Bryan Cantrill and Adam Leventhal invited me to join their podcast to talk about the wild week we've had - with Kimi K3 showing open weight models can stand toe-to-toe with proprietary frontier ones, accidental cybersecurity attacks , and public letters about Open Weights and American AI Leadership signed by almost every big name in AI (with one notable exception ). It was a great conversation, even though it's already out-of-date! DeepSeek V4 Flash 0731 and Anthropic's own embarrassing cyber incident would absolutely have made the cut if we had recorded just a few days later. We also talk about Golden Gate Claude , the Zizians , Alameda wild turkey attacks , Soviet Marburg virus research , the Lead-crime hypothesis , and a bunch of other worthy digressions. Finally, we revisited some of our predictions from January , and we added a new Pope prediction : Prediction by the end of this year: the Pope says something about open models. Tags: predictions , ai , generative-ai , local-llms , llms , oxide , bryan-cantrill , podcast-appearances , ai-in-china , ai-security-research",
+    "url": "https://simonwillison.net/2026/Jul/31/oxide-and-friends/#atom-everything",
+    "topic": "llm",
+    "date": "2026-07-31",
+    "fetched_date": "2026-08-01",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "smevals - a small eval suite for evaluating models, prompts, and harnesses",
+    "abstract": "smevals - a small eval suite for evaluating models, prompts, and harnesses I've been working with Jesse Vincent's Prime Radiant applied AI research lab building out this evals framework to help answer questions about the capabilities of different models. The result is smevals , a new tool for running small eval suites across different model configurations and grading the results. The blog entry describes the tool in detail. Here's the 10 second version: Tell your coding agent to run uvx smevals docs to learn the tool (this outputs the README ) Then tell it to build you an eval suite Once you've created an eval - which takes the form of a directory with some YAML files - you can run it against models like this: uvx smevals run path-to-eval/ -m gpt-5.5 -m claude-opus-4.6 Runs are treated separately from grading operations - you can grade your runs (against your defined set of checks) using: uvx smevals grade path-to-eval/ Then you can run a localhost web server to explore the results: uvx smevals serve path-to-eval/ Or run the smevals build command to build that report as static HTML, which you can then host anywhere. Here's an example showing an eval suite I built to evaluate how well models can write haikus. The most time-consuming part of this project was figuring out the vocabulary for it! Here's what I settled on, quoted from the announcement: An eval is a collection of challenges designed to answer a question about a model, for example, how good is that model at generating SVGs? Each eval is a collection of tasks . A task is a specific challenge, for example \"Generate an SVG of a pelican riding a bicycle\". When you run the eval you do so against one or more configs . Each config specifies a model to be evaluated, but may also include other parameters to test, such as different system prompts, model parameters, or agent harnesses. A run records what happened when a specific config was used to execute a specific task. A runner is the script that executes a run. Once you have collected one or more runs, you need to evaluate the results to see how well the model (or config) did. This is done by a grader , which produces a grade . Each grader runs a sequence of checks . These can be simple operations, like checking for a specific string in the output, or confirming that the output is valid XML. They can also be more complicated custom operations (implemented as scripts called checkers ), including using other models to answer questions about the run. I've been trying to figure out an approach I like for evals for several years now. smevals is my third iteration on the idea and it feels right to me. I'm looking forward to expanding this more in the future, as well as pointing it at some of my own projects. Tags: projects , ai , generative-ai , llms , llm , evals , jesse-vincent",
+    "url": "https://simonwillison.net/2026/Jul/31/smevals/#atom-everything",
+    "topic": "llm",
+    "date": "2026-07-31",
+    "fetched_date": "2026-08-01",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "datasette-agent 0.4a0",
+    "abstract": "Release: datasette-agent 0.4a0 New await context.browser_task() mechanism allowing agent tools to run code directly in the user's browser. #33 This is an exciting new capability: it makes it easy for Datasette Agent plugins to provide tools that execute custom JavaScript in the user's browser . Tags: datasette , llm-tool-use , datasette-agent",
+    "url": "https://simonwillison.net/2026/Jul/31/datasette-agent/#atom-everything",
+    "topic": "llm",
+    "date": "2026-07-31",
+    "fetched_date": "2026-08-01",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "OpenAI reportedly finds evidence that more of its agents ran amok",
+    "abstract": "OpenAI has reportedly found evidence of additional agent misbehavior as it looks into the incident that occurred with Hugging Face.",
+    "url": "https://techcrunch.com/2026/07/31/openai-reportedly-finds-evidence-that-more-of-its-agents-ran-amok/",
+    "topic": "llm",
+    "date": "2026-07-31",
+    "fetched_date": "2026-08-01",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "India is starting to pay for apps, not just download them",
+    "abstract": "India's app market generated a record $345 million in Q2.",
+    "url": "https://techcrunch.com/2026/07/31/india-is-starting-to-pay-for-apps-not-just-download-them/",
+    "topic": "llm",
+    "date": "2026-07-31",
+    "fetched_date": "2026-08-01",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Google nixes its Earth AI feature one day after launch, amid criticism it would spread misinformation",
+    "abstract": "A tool that allowed anyone to generate fake AI-generated imagery and superimpose it over real Google Earth maps quickly spurred backlash.",
+    "url": "https://techcrunch.com/2026/07/31/google-nixes-its-earth-ai-feature-one-day-after-launch-amid-criticism-it-would-spread-misinformation/",
+    "topic": "llm",
+    "date": "2026-07-31",
+    "fetched_date": "2026-08-01",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Sam Altman isn’t the only one who wants to pump the brakes on AI",
+    "abstract": "After years of pushing full speed ahead on AI, OpenAI CEO Sam Altman says maybe it’s time for the AI industry to “pace” itself. The comments came just days after one of OpenAI’s own models broke out of its test environment and got tangled up in a breach at Hugging Face — though as Equity’s hosts point out, sloppy security seems to have […]",
+    "url": "https://techcrunch.com/video/sam-altman-isnt-the-only-one-who-wants-to-pump-the-brakes-on-ai/",
+    "topic": "llm",
+    "date": "2026-07-31",
+    "fetched_date": "2026-08-01",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Snapchat no longer rewards fully AI-generated Spotlight content",
+    "abstract": "Snapchat has adjusted its recommendation systems to ensure that only videos created by real people are eligible for Spotlight recommendations, taking a stance against AI slop.",
+    "url": "https://techcrunch.com/2026/07/31/snapchat-no-longer-rewards-fully-ai-generated-spotlight-content/",
+    "topic": "llm",
+    "date": "2026-07-31",
+    "fetched_date": "2026-08-01",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Siri AI could come with a paywall for power users",
+    "abstract": "Apple CEO Tim Cook envisions users being able to buy more compute for Siri AI via Apple's existing iCloud+ subscriptions.",
+    "url": "https://techcrunch.com/2026/07/31/siri-ai-could-come-with-a-paywall-for-power-users/",
+    "topic": "llm",
+    "date": "2026-07-31",
+    "fetched_date": "2026-08-01",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "SpaceX won’t remove all of xAI’s unpermitted turbines for another year",
+    "abstract": "SpaceX is building a new power plant for xAI's Colossus data centers, but it won't remove existing, unpermitted turbines for many more months.",
+    "url": "https://techcrunch.com/2026/07/31/spacex-wont-remove-all-of-xais-unpermitted-turbines-for-another-year/",
+    "topic": "llm",
+    "date": "2026-07-31",
+    "fetched_date": "2026-08-01",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Smallest.ai raises $13M to build ultra-fast voice AI that sounds genuinely human",
+    "abstract": "The startup is building voice models designed to make AI phone calls pass the Turing test.",
+    "url": "https://techcrunch.com/2026/07/31/smallest-ai-raises-13m-to-build-ultra-fast-voice-ai-that-sounds-genuinely-human/",
+    "topic": "llm",
+    "date": "2026-07-31",
+    "fetched_date": "2026-08-01",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "AI labs want to pump the brakes, but Amazon and SpaceX are still blasting off",
+    "abstract": "After years of pushing full speed ahead on AI, OpenAI CEO Sam Altman says maybe it’s time for the AI industry to “pace” itself. The comments came just days after one of OpenAI’s own models broke out of its test environment and got tangled up in a breach at Hugging Face — though as Equity’s hosts point out, sloppy security seems to have […]",
+    "url": "https://techcrunch.com/podcast/ai-labs-want-to-pump-the-brakes-but-amazon-and-spacex-are-still-blasting-off/",
+    "topic": "llm",
+    "date": "2026-07-31",
+    "fetched_date": "2026-08-01",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "The cyclospora outbreak is creating a PR headache for food businesses",
+    "abstract": "A cyclospora outbreak from lettuce, and potentially other fresh produce, is testing how food brands respond to moments of crisis and build consumer trust.",
+    "url": "https://www.modernretail.co/podcasts/the-cyclospora-outbreak-is-creating-a-pr-headache-for-food-businesses/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-08-01",
+    "fetched_date": "2026-08-01",
+    "feed_name": "Modern Retail",
+    "source": "industry"
   }
 ]
