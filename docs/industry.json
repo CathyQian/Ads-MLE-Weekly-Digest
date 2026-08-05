@@ -20988,5 +20988,245 @@
     "fetched_date": "2026-08-04",
     "feed_name": "Modern Retail",
     "source": "industry"
+  },
+  {
+    "title": "Third-party cyber evaluations involving OpenAI models",
+    "abstract": "OpenAI explains recent third-party cybersecurity evaluation incidents and outlines new safeguards to strengthen AI model testing and evaluation.",
+    "url": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
+    "topic": "llm",
+    "date": "2026-08-04",
+    "fetched_date": "2026-08-05",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "New ways to learn and teach with ChatGPT Work and Codex",
+    "abstract": "Explore new education plugins for ChatGPT Work and Codex that help K–12 teachers, college educators, and students learn, teach, research, and build.",
+    "url": "https://openai.com/index/learn-teach-chatgpt-work-codex",
+    "topic": "llm",
+    "date": "2026-08-04",
+    "fetched_date": "2026-08-05",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Apple is getting this wrong",
+    "abstract": "OpenAI addresses Apple’s baseless lawsuit, corrects claims about its employees, and shares messages documenting what happened.",
+    "url": "https://openai.com/index/apple-is-getting-this-wrong",
+    "topic": "llm",
+    "date": "2026-08-03",
+    "fetched_date": "2026-08-05",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Deploy local agents everywhere with LFM2.5-2.6B",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b",
+    "topic": "llm",
+    "date": "2026-08-04",
+    "fetched_date": "2026-08-05",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "New release of LLM adds support for reasoning traces, OpenAI Responses, server-side tools, and smarter logging",
+    "abstract": "I released LLM 0.32 this morning, the most significant new version of LLM since the initial launch of the project. The new version includes support for visible reasoning traces, server-side provider tools, redesigned content-addressable SQLite logs, new models, and new features enabled by the OpenAI Responses API. I also released a new version of the llm-anthropic plugin with substantial updates of its own. Headline features for LLM CLI users Running LLM against reasoning models now displays their reasoning traces to standard error, so you can see what they are \"thinking\" without that information being included in the standard output that you might pipe to another tool. Add -R/--hide-reasoning to turn this off. LLM includes support out-of-the-box for the GPT-5.6 model family , and the new default model used with llm \"prompt\" is now the inexpensive but capable GPT-5.6 Luna . LLM calls can now use server-side tools from various providers. OpenAI provide a code execution environment as a server-side tool; LLM can now run prompts that benefit from that like so: llm --tool CodeInterpreter ' Show current python and SQLite versions ' OpenAI also gets a WebSearch tool. The llm-anthropic plugin adds WebSearch , WebFetch , CodeExecution , and AnthropicMCP , which looks like this: llm -m claude-sonnet-5 -T ' AnthropicMCP(\"https://datasette.simonwillison.net/-/mcp\") ' \\ ' how many rows in the blog_blogmark table? ' That causes Anthropic to execute MCP calls against my new datasette-mcp plugin as part of a single request/response interaction with their API. The new llm openai endpoint command provides a tool for executing prompts against any OpenAI compatible endpoint as a one-liner. These aren't logged, which makes this a handy tool for running one-off prompts against anything that speaks the lingua franca of the LLM API world. Here's how I use that to run prompts against Gemma 4 12B running in my localhost LM Studio API, via uvx (no LLM installation required) and mixing in the llm-tools-quickjs tool plugin for good measure: uvx --with llm-tools-quickjs \\ llm openai endpoint http://localhost:1234/v1 -m google/gemma-4-12b \\ -T QuickJS ' Use QuickJS to multiply 3434 * 2434 ' --td New features in the Python API LLM's Python API previously required you to create a conversation and then send messages to it one at a time. This was an abstraction over the true nature of LLMs, where each request carries a complete history of the messages that came before it. That abstraction started to get in the way for some more advanced cases, so the new release introduces a model.prompt(messages=[]) parameter that can be used like this: import llm from llm import user , assistant , system model = llm . get_model ( \"gpt-5.6-luna\" ) response = model . prompt ( messages = [ system ( \"You are a helpful pirate.\" ), user ( \"What is the capital of France?\" ), assistant ( \"Paris, matey.\" ), user ( \"And Germany?\" ), ]) print ( response . text ()) LLM previously returned an iterable sequence of strings from each prompt. This worked great when models returned a string response, but failed to predict the weird shape that models would evolve towards. Today many models return a mix of reasoning text, output strings, tool calls, and even image attachments. With LLM 0.32 you can do this instead : for event in model . prompt ( \"Explain cats\" ). stream_events (): if event . type == \"reasoning\" : print ( f\"[thinking] { event . chunk } \" , end = \"\" , flush = True ) elif event . type == \"text\" : print ( event . chunk , end = \"\" , flush = True ) else : print ( f\"Other event: { event } \" ) Combine these features and we can finally provide a robust implementation of the semi-standard OpenAI chat completions API, which I've now released as the llm-chat-completions-server plugin: llm install llm-chat-completions-server llm chat-completions-server --port 9000 # Server is now running on http://127.0.0.1:9000/v1 Now you can run prompts against LLM via that server, using the new llm openai endpoint command! llm openai endpoint http://127.0.0.1:9000/v1 ' hello ' -m gpt-5.4-mini The bigger challenge with that kind of API concerns logging. If we're going to support the pattern where the message sequence is appended to on every request, ideally we can avoid logging all of that duplicate JSON for every turn. The solution is the new content-addressable message store , modeled after Git. You can see the new schema for that in the documentation , but the llm logs and llm logs --json commands have both been upgraded to convert that format back into something that's easy to consume. And the rest There is a whole lot more in this release. The 0.32 release notes are pretty comprehensive, and the notes for 0.32rc2 , 0.32rc , 0.32a3 , 0.32a2 , and 0.32a0 should fill in any gaps. Existing LLM plugins should all continue to work, but plugins that provide extra models will need to be upgraded to 0.32 in order to participate fully in the new streaming events system. There's a guide to implementing plugins with Structured messages and streaming events in the documentation. I've updated some of my own plugins: llm-anthropic 0.26 adds support for the Claude 5 family of models, plus WebSearch , WebFetch , CodeExecution , and AnthropicMCP server-side tools. llm-gemini and llm-openrouter and llm-mistral are nearly there, releases coming soon. I guess LLM is an agent framework now Quite a few of the lower-level tools changes in this release were driven by the needs of Datasette Agent . When I started work on LLM, the term \"agent\" had such a vague definition that I refused to use it. In September 2025 I came around to the idea that \" An LLM agent runs tools in a loop to achieve a goal \" is well established enough now that I could stop avoiding the term entirely. Tool chains can now pause for human approval and resume from a stored message history - both needed by Datasette Agent. Looking at LLM today it's beginning to look very agent-shaped to me. There's something neat about having a CLI utility that can mix and match different tools from different sources with different models all as a one-liner, and that includes a Python library powerful enough to build systems like Datasette Agent and llm-coding-agent . Maybe the next version of LLM will bake the concept of an \"agent\" into the core library. I'm still trying to figure out what that would look like. Tags: projects , releases , ai , openai , generative-ai , llms , llm , anthropic , llm-tool-use , llm-reasoning , model-context-protocol",
+    "url": "https://simonwillison.net/2026/Aug/4/new-release-of-llm/#atom-everything",
+    "topic": "llm",
+    "date": "2026-08-04",
+    "fetched_date": "2026-08-05",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "llm-anthropic 0.26",
+    "abstract": "Release: llm-anthropic 0.26 Includes new features enabled by LLM 0.32 : New models: claude-fable-5 , claude-sonnet-5 , and claude-opus-5 . #75 , #76 Added server-side tools for WebSearch , WebFetch , CodeExecution , and AnthropicMCP , available through LLM's -T interface or Python tools= . The previous -o web_search* options have been removed in favor of -T WebSearch . #79 Upgraded to llm>=0.32 . Reasoning, tool calls, tool results, and server-side tool results now stream as typed events. Reasoning for llm CLI prompts now displays to standard error unless you pass --hide-reasoning/-R . Simplified extended thinking to thinking and thinking_effort ( low , medium , high , xhigh , or max ). Claude 5 models think by default; -o thinking 0 disables thinking for Sonnet 5 and Opus 5, while Fable 5 always thinks. -R/--hide-reasoning now omits reasoning from responses and logs. The thinking_budget , thinking_display , and thinking_adaptive options have been removed. #80 Tags: llm , anthropic , claude , model-context-protocol",
+    "url": "https://simonwillison.net/2026/Aug/4/llm-anthropic/#atom-everything",
+    "topic": "llm",
+    "date": "2026-08-04",
+    "fetched_date": "2026-08-05",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "PipeNetwork/minimax-h3-mlx",
+    "abstract": "PipeNetwork/minimax-h3-mlx MiniMax released MiniMax-H3 two days ago - they describe it as a \"a general-purpose, omni-modal generative system\", which in practice means it accepts text, images, audio and video and can use them to generate up to 15 second video clips with audio included. This Python package ports it to MLX for running on Apple Silicon. I got it running on my M5 Max MacBook Pro. I cloned the repo and ran the model like this: # First download the models uvx --from huggingface_hub hf download MiniMaxAI/MiniMax-H3 \\ --include 'FL2VA/*' --exclude 'FL2VA/transformer/*' uvx --from huggingface_hub hf download pipenetwork/MiniMax-H3-MLX-8bit # Now run the prompt uv run --with mlx-vlm \\ --with-requirements requirements.txt python scripts/generate.py \\ \"a rainbow colored skunk leaps over a mossy log in a supermarket\" \\ -o skunk.mp4 \\ -c ~/.cache/huggingface/hub/models--MiniMaxAI--MiniMax-H3/snapshots/fa9c8ab1eaa21c8ae25e7e40b83b2e6002f340af/FL2VA \\ -t ~/.cache/huggingface/hub/models--pipenetwork--MiniMax-H3-MLX-8bit/snapshots/3ac52081470b0488921c3ec3ba84a39097bf2361 Here's the video I got for the prompt: a rainbow colored skunk leaps over a mossy log in a supermarket Your browser does not support HTML5 video. It downloaded ~115 GB of model files, and the video generation took just under 45 minutes. The video is impressive, but the audio is weird speech-like garbage, because I didn't provide any prompt guidance as to what the audio should be. The prompting guide (which I didn't read prior to this experiment) has a whole bunch of information on how to get this to work. Tags: ai , generative-ai , mlx , text-to-video , minimax",
+    "url": "https://simonwillison.net/2026/Aug/4/minimax-h3-mlx/#atom-everything",
+    "topic": "llm",
+    "date": "2026-08-04",
+    "fetched_date": "2026-08-05",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "llm 0.32",
+    "abstract": "Release: llm 0.32 See my detailed blog post about this release . Tags: llm",
+    "url": "https://simonwillison.net/2026/Aug/4/llm/#atom-everything",
+    "topic": "llm",
+    "date": "2026-08-04",
+    "fetched_date": "2026-08-05",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "SpaceX has bought $329M worth of Tesla Megapacks so far this year",
+    "abstract": "The purchase illustrates just how interconnected Elon Musk's universe of companies are.",
+    "url": "https://techcrunch.com/2026/08/04/spacex-has-bought-329m-worth-of-tesla-megapacks-so-far-this-year/",
+    "topic": "llm",
+    "date": "2026-08-04",
+    "fetched_date": "2026-08-05",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Open-weight AI models are catching up to the frontier. The safety gap remains.",
+    "abstract": "A new SaferAI report finds Z.ai's open-weight GLM-5.2 approaches frontier AI capabilities while lacking key safety mitigations, renewing concerns that powerful open models could outpace governance and safeguards.",
+    "url": "https://techcrunch.com/2026/08/04/open-weight-ai-models-are-catching-up-to-the-frontier-the-safety-gap-remains/",
+    "topic": "llm",
+    "date": "2026-08-04",
+    "fetched_date": "2026-08-05",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Anthropic signs $10B deal with AI cloud startup Volta",
+    "abstract": "Anthropic has been on a cloud partnership spree in recent months, and its latest move is reportedly a $10 billion deal with AI cloud startup Volta.",
+    "url": "https://techcrunch.com/2026/08/04/anthropic-signs-10-billion-deal-with-ai-cloud-startup-volta/",
+    "topic": "llm",
+    "date": "2026-08-04",
+    "fetched_date": "2026-08-05",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Meet Wrinkles, an app that uncovers the hidden stories of the places around you",
+    "abstract": "Wrinkles, available on both iOS and Android, essentially acts as an AI-powered audio tour guide that reveals hidden history and local stories.",
+    "url": "https://techcrunch.com/2026/08/04/meet-wrinkles-an-ai-app-that-uncovers-the-hidden-stories-of-the-places-around-you/",
+    "topic": "llm",
+    "date": "2026-08-04",
+    "fetched_date": "2026-08-05",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Nvidia doesn’t mess around: A week after open AI industry group formed, it’s already showing progress",
+    "abstract": "The week-old Open Secure AI Alliance, spearheaded by Nvidia and grown to over 120 companies, already has proposals out for defending against AI agents.",
+    "url": "https://techcrunch.com/2026/08/04/nvidia-doesnt-mess-around-a-week-after-open-ai-industry-group-formed-its-already-showing-progress/",
+    "topic": "llm",
+    "date": "2026-08-04",
+    "fetched_date": "2026-08-05",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Spotify expands AI remix and covers project with Merlin partnership",
+    "abstract": "Spotify says Merlin, which represents more than 30,000 independent labels and distributors, has joined Universal Music Group in backing its upcoming AI-powered remix and covers product. The paid tool will let fans create AI-generated covers and remixes of participating artists’ music while ensuring artists opt in, receive credit, and are compensated.",
+    "url": "https://techcrunch.com/2026/08/04/spotify-adds-merlin-to-its-ai-music-remix-and-covers-effort/",
+    "topic": "llm",
+    "date": "2026-08-04",
+    "fetched_date": "2026-08-05",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Texas halts new data centers as governor calls for audits",
+    "abstract": "Tech companies and developers have been scouring the U.S. for places to build data centers, and they’ve been drawn to Texas’ loose regulations and seemingly abundant power supply. But even Texas can be pushed to the brink.",
+    "url": "https://techcrunch.com/2026/08/04/texas-halts-new-data-centers-as-governor-calls-for-audits/",
+    "topic": "llm",
+    "date": "2026-08-04",
+    "fetched_date": "2026-08-05",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Elon Musk spends half his time talking robots and AI on Tesla earnings calls",
+    "abstract": "An analysis of the last seven years of Tesla earnings calls shows just how little attention Musk pays to Tesla's car business.",
+    "url": "https://techcrunch.com/2026/08/04/elon-musk-spends-half-his-time-talking-robots-and-ai-on-tesla-earnings-calls/",
+    "topic": "llm",
+    "date": "2026-08-04",
+    "fetched_date": "2026-08-05",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Apple says more ex-employees may have taken confidential data to OpenAI",
+    "abstract": "Apple says its trade secrets investigation into OpenAI has widened. In a new court filing, Apple claims additional former staff may have retained or accessed confidential information.",
+    "url": "https://techcrunch.com/2026/08/04/apple-says-more-ex-employees-may-have-taken-confidential-data-to-openai/",
+    "topic": "llm",
+    "date": "2026-08-04",
+    "fetched_date": "2026-08-05",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Is the future of data centers portable? Runware builds a pod to find out",
+    "abstract": "On Tuesday, AI infrastructure company Runware announced the launch of its own modular data center called Sonic Inference Pod.",
+    "url": "https://techcrunch.com/2026/08/04/is-the-future-of-data-centers-portable-runware-builds-a-pod-to-find-out/",
+    "topic": "llm",
+    "date": "2026-08-04",
+    "fetched_date": "2026-08-05",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "EON wants to move the data superhighway from ocean fiber to space lasers",
+    "abstract": "Endeavor Optical Networks is planning to launch the fastest space laser communications system yet built.",
+    "url": "https://techcrunch.com/2026/08/04/eon-wants-to-move-the-data-superhighway-from-ocean-fiber-to-space-lasers/",
+    "topic": "llm",
+    "date": "2026-08-04",
+    "fetched_date": "2026-08-05",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Network Flow Lens Provides Real-Time Network Diagnostics at Your Fingertips",
+    "abstract": "Network Flow Lens is a self-service diagnostics tool that gives developers instant visibility into physical network infrastructure. It validates firewall policies, traces paths, and identifies active errors in under a minute, replacing hours of cross-team troubleshooting. The post Network Flow Lens Provides Real-Time Network Diagnostics at Your Fingertips appeared first on GoDaddy Blog .",
+    "url": "https://www.godaddy.com/resources/news/network-flow-lens-provides-real-time-network-diagnostics-at-your-fingertips",
+    "topic": "ml-engineering",
+    "date": "2026-08-04",
+    "fetched_date": "2026-08-05",
+    "feed_name": "GoDaddy Engineering",
+    "source": "industry"
+  },
+  {
+    "title": "Gorilla Commerce built a 9-figure business on Amazon. Now, it’s launching in Walmart stores",
+    "abstract": "Gorilla Commerce, most well-known for its slip-resistant bath mats, has found tremendous success primarily through Amazon, surpassing nine figures in sales. But the company wants to prove it's more than just an Amazon brand. Two years ago, it launched on Walmart's marketplace, and last month, the company brought Gorilla Grip to more than 2,600 Walmart stores.",
+    "url": "https://www.modernretail.co/operations/gorilla-commerce-built-a-9-figure-business-on-amazon-now-its-launching-in-walmart-stores/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-08-05",
+    "fetched_date": "2026-08-05",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Hims & Hers says its first-ever gummy prescription is driving a high adherence rate",
+    "abstract": "Hims & Hers achieved an 88% daily adherence rate with its first-ever gummy prescription medication. It's another example of how beauty brands, wellness startups and prescription drug providers are all leaning more into gummy formats.",
+    "url": "https://www.modernretail.co/operations/hims-hers-says-its-first-ever-gummy-prescription-is-driving-a-high-adherence-rate/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-08-05",
+    "fetched_date": "2026-08-05",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Kroger’s AI shopping assistant has ads at launch",
+    "abstract": "Kroger made advertising part of its AI shopping assistant on day one, following the implementation of advertising features on competitors' chatbots.",
+    "url": "https://www.modernretail.co/technology/krogers-ai-shopping-assistant-has-ads-at-launch/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-08-04",
+    "fetched_date": "2026-08-05",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Brands Briefing: Why apparel IPOs are creeping back up",
+    "abstract": "Fashion companies are slowly shrugging off the IPO slump that has plagued the consumer-goods industry over the last several years.",
+    "url": "https://www.modernretail.co/operations/brands-briefing-why-apparel-ipos-are-creeping-back-up/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-08-04",
+    "fetched_date": "2026-08-05",
+    "feed_name": "Modern Retail",
+    "source": "industry"
   }
 ]
