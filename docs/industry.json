@@ -21398,5 +21398,205 @@
     "fetched_date": "2026-08-06",
     "feed_name": "Modern Retail",
     "source": "industry"
+  },
+  {
+    "title": "Improving GPT‑5.6 Sol in ChatGPT—and expanding access to GPT-5.6 Luna for free users",
+    "abstract": "ChatGPT introduces improved GPT-5.6 Sol with better accuracy and consistency, plus expanded access for free users and unlimited everyday chats with GPT-5.6 Luna.",
+    "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
+    "topic": "llm",
+    "date": "2026-08-06",
+    "fetched_date": "2026-08-07",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Working with the American Psychological Association on youth mental health and AI",
+    "abstract": "OpenAI and the American Psychological Association advance evidence-based guidance, resources, and safeguards for responsible AI use and youth mental health.",
+    "url": "https://openai.com/index/openai-and-apa-partner-to-advance-responsible-ai",
+    "topic": "llm",
+    "date": "2026-08-06",
+    "fetched_date": "2026-08-07",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "From asking to doing: How the world is putting ChatGPT to work",
+    "abstract": "New OpenAI Signals data shows how people use ChatGPT worldwide, with country-level insights on adoption, usage trends, and evolving behavior.",
+    "url": "https://openai.com/index/how-the-world-is-putting-chatgpt-to-work",
+    "topic": "llm",
+    "date": "2026-08-06",
+    "fetched_date": "2026-08-07",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Baseten on Hugging Face Inference Providers 🔥",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/baseten",
+    "topic": "llm",
+    "date": "2026-08-06",
+    "fetched_date": "2026-08-07",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "WeatherNext: AI model achieves breakthrough in forecasting cyclones",
+    "abstract": "",
+    "url": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/",
+    "topic": "generative-ai",
+    "date": "2026-08-06",
+    "fetched_date": "2026-08-07",
+    "feed_name": "DeepMind Blog",
+    "source": "industry"
+  },
+  {
+    "title": "datasette 1.0a38",
+    "abstract": "Release: datasette 1.0a38 This release fixes a SQL injection security issue that affects Datasette instances that serve a mixture of public and private tables in the same database, with access configured using the Datasette permissions system . Site administrators who serve private tables in this way are advised to disable the execute-sql permission ` on that database to prevent users from accessing private tables using raw SQL queries. The bug that has been fixed would have allowed users with access to any public table to execute SQL injection attacks despite that restriction, giving them read-only access to data in private tables in the same database. This fix is also available in Datasette 0.65.3 . Thankfully this particular configuration - private tables and public tables exposed for the same database within the same instance - is likely to be rare. I've not encountered an instance like that myself. Tags: security , sql-injection , datasette",
+    "url": "https://simonwillison.net/2026/Aug/6/datasette/#atom-everything",
+    "topic": "llm",
+    "date": "2026-08-06",
+    "fetched_date": "2026-08-07",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "datasette 0.65.3",
+    "abstract": "Release: datasette 0.65.3 Back-ported the SQL Injection security fix from 1.0a38 . Tags: datasette",
+    "url": "https://simonwillison.net/2026/Aug/6/datasette-2/#atom-everything",
+    "topic": "llm",
+    "date": "2026-08-06",
+    "fetched_date": "2026-08-07",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Simon Willison on Technical Blogging",
+    "abstract": "Simon Willison on Technical Blogging I was interviewed by Cynthia Dunlop for her \"Write that blog!\" series back in January, but I just realized I never linked to the interview from my own blog! It includes my answers to the following questions: Why did you start blogging – and why do you continue? What has been the most surprising impact of blogging for you? What blog post are you most proud of and why? What post was the most difficult to write and how did you tackle it? Any lessons learned that you want to share with the community? Your advice for people just getting started with blogging? A few blogs that you particularly enjoy? I'll repeat my most important piece of advice here: My number one tip for blogging is to lower your standards! Aim to hit publish while you are still actively unhappy with what you have written, because the only alternative is a huge folder full of drafts and never publishing anything at all. Nobody will ever know how perfect the thing you intended to write would have been. The flaws you see in your writing are invisible to everyone else. Tags: blogging , interviews",
+    "url": "https://simonwillison.net/2026/Aug/6/simon-willison-on-technical-blogging/#atom-everything",
+    "topic": "llm",
+    "date": "2026-08-06",
+    "fetched_date": "2026-08-07",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "OpenAI’s new AI smart speaker will reportedly sell for between $300 and $400",
+    "abstract": "Additional details about OpenAI's mysterious new AI device make it sound like a pricey smart speaker.",
+    "url": "https://techcrunch.com/2026/08/06/openais-new-ai-smart-speaker-will-reportedly-sell-for-between-300-and-400/",
+    "topic": "llm",
+    "date": "2026-08-06",
+    "fetched_date": "2026-08-07",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "ChatGPT brings unlimited text chats to free users",
+    "abstract": "OpenAI said that ChatGPT free and Go users are also getting a new think button for complex queries.",
+    "url": "https://techcrunch.com/2026/08/06/openai-brings-unlimited-chatgpt-text-chats-to-free-users/",
+    "topic": "llm",
+    "date": "2026-08-06",
+    "fetched_date": "2026-08-07",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Naïve raises $28.5M to automate the grunt work of setting up and running a company",
+    "abstract": "Taking vibe-coding a step further, Naïve claims its infra can automate most of the work in setting up and running a business.",
+    "url": "https://techcrunch.com/2026/08/06/naive-raises-28-5m-to-automate-the-grunt-work-of-setting-up-and-running-a-company/",
+    "topic": "llm",
+    "date": "2026-08-06",
+    "fetched_date": "2026-08-07",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Gen Z dating apps like Ditto ditch swiping in favor of AI matchmaking",
+    "abstract": "This generation of twentysomethings is so disillusioned with swipe-based dating apps that they'll try literally anything else — even an AI matchmaker.",
+    "url": "https://techcrunch.com/2026/08/06/gen-z-dating-apps-like-ditto-ditch-swiping-in-favor-of-ai-matchmaking/",
+    "topic": "llm",
+    "date": "2026-08-06",
+    "fetched_date": "2026-08-07",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "OpenAI says Apple’s own security practices undermine its trade secrets case",
+    "abstract": "Newly filed court exhibits show OpenAI’s legal strategy in Apple’s trade secrets lawsuit: argue that Apple’s own security and offboarding practices — including allowing an Apple manager to access a former engineer’s iCloud account after he left the company —undermine its claims that the allegedly stolen information was properly protected.",
+    "url": "https://techcrunch.com/2026/08/06/openai-says-apples-own-security-practices-undermine-its-trade-secrets-case/",
+    "topic": "llm",
+    "date": "2026-08-06",
+    "fetched_date": "2026-08-07",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Amid legal battles, Suno says it will start watermarking songs",
+    "abstract": "Suno's watermarking feature comes as the company is fighting legal battles on several fronts.",
+    "url": "https://techcrunch.com/2026/08/06/amid-legal-battles-suno-says-it-will-start-watermarking-songs/",
+    "topic": "llm",
+    "date": "2026-08-06",
+    "fetched_date": "2026-08-07",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Ex-Spotify employees raise $10M to bring the AI behind its recommendations to e-commerce",
+    "abstract": "The startup's platform predicts which product a shopper wants next, learns their general taste, and fine-tunes continuously based on what they do in real time.",
+    "url": "https://techcrunch.com/2026/08/06/ex-spotify-employees-raise-10m-to-bring-the-ai-behind-its-recommendations-to-e-commerce/",
+    "topic": "llm",
+    "date": "2026-08-06",
+    "fetched_date": "2026-08-07",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Exclusive: Mirendil inks $100M+ Google Cloud deal to scale self-improving AI",
+    "abstract": "Mirendil has signed a $100 million-plus Google Cloud partnership to expand its compute infrastructure, powering research into self-improving AI systems designed to accelerate scientific discovery and AI development.",
+    "url": "https://techcrunch.com/2026/08/06/exclusive-mirendil-inks-100m-google-cloud-deal-to-scale-self-improving-ai/",
+    "topic": "llm",
+    "date": "2026-08-06",
+    "fetched_date": "2026-08-07",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Google Maps adds agentic features, including food ordering and hotel bookings",
+    "abstract": "The launch of these new features reflects Google’s ambitions to transform Google Maps from a navigation tool into an assistant that's capable of helping users complete real-world tasks.",
+    "url": "https://techcrunch.com/2026/08/06/google-maps-adds-agentic-features-including-food-ordering-and-hotel-bookings/",
+    "topic": "llm",
+    "date": "2026-08-06",
+    "fetched_date": "2026-08-07",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Omilia raises $67M to scale its customer support platform",
+    "abstract": "The Series B is the company's second fundraise since it last raised capital in 2020. In that time, it has increased its ARR by 10x to $60 million.",
+    "url": "https://techcrunch.com/2026/08/06/omilia-raises-67m-to-scale-its-customer-support-platform/",
+    "topic": "llm",
+    "date": "2026-08-06",
+    "fetched_date": "2026-08-07",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Cyclospora fears threaten Sweetgreen’s turnaround plan",
+    "abstract": "During its second-quarter earnings call on Thursday, Sweetgreen lowered its full-year guidance as cyclospora concerns hurt foot traffic — even though the chain hasn't been implicated in any outbreaks. Here's how consumer concerns around fresh produce could hurt Sweetgreen amid a critical inflection point for the company.",
+    "url": "https://www.modernretail.co/operations/cyclospora-fears-threaten-sweetgreens-turnaround-plan/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-08-06",
+    "fetched_date": "2026-08-07",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Big-Box Briefing: This back-to-school season is all about low prices and social trends",
+    "abstract": "For major brick-and-mortar retailers, back-to-school season this year is largely about a race to the bottom in price and a push to offer the most popular products seen on social media.",
+    "url": "https://www.modernretail.co/operations/big-box-briefing-this-back-to-school-season-is-all-about-low-prices-and-social-trends/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-08-06",
+    "fetched_date": "2026-08-07",
+    "feed_name": "Modern Retail",
+    "source": "industry"
   }
 ]
