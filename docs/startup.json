@@ -11218,5 +11218,25 @@
     "fetched_date": "2026-08-08",
     "feed_name": "TechCrunch",
     "source": "startup"
+  },
+  {
+    "title": "OpenAI acquires presentation startup NextSlide",
+    "abstract": "NextSlide says its team members are now working on ChatGPT.",
+    "url": "https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide/",
+    "topic": "startup",
+    "date": "2026-08-08",
+    "fetched_date": "2026-08-09",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Google’s top hacker hunter explains why hacking groups get codenames",
+    "abstract": "Google recently changed how it refers and assigns names to hacking groups. TechCrunch spoke with one of the world’s foremost experts on tracking hackers to understand why companies give hackers codenames.",
+    "url": "https://techcrunch.com/2026/08/08/googles-top-hacker-hunter-explains-why-hacking-groups-get-codenames/",
+    "topic": "startup",
+    "date": "2026-08-08",
+    "fetched_date": "2026-08-09",
+    "feed_name": "TechCrunch",
+    "source": "startup"
   }
 ]
