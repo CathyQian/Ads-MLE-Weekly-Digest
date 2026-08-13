@@ -22278,5 +22278,275 @@
     "fetched_date": "2026-08-12",
     "feed_name": "Modern Retail",
     "source": "industry"
+  },
+  {
+    "title": "From assistance to execution: How enterprises put AI to work",
+    "abstract": "OpenAI research reveals how enterprises are adopting agentic AI, using ChatGPT and Codex, and how frontier firms are pulling ahead in AI adoption.",
+    "url": "https://openai.com/index/how-enterprises-put-ai-to-work",
+    "topic": "llm",
+    "date": "2026-08-12",
+    "fetched_date": "2026-08-13",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "How RingCentral builds AI-native work from engineering to ops",
+    "abstract": "See how RingCentral uses ChatGPT Work and Codex to accelerate AI product development and centralize operational intelligence across engineering and operations.",
+    "url": "https://openai.com/index/ringcentral",
+    "topic": "llm",
+    "date": "2026-08-12",
+    "fetched_date": "2026-08-13",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Patterns and problems in emerging multiagent systems",
+    "abstract": "We ran experiments on swarms of Claude agents and found coordination failures, collusion, and sabotage. Here, we share what they mean for AI safety.",
+    "url": "https://www.anthropic.com/research/multiagent-systems",
+    "topic": "llm",
+    "date": "2026-08-13",
+    "fetched_date": "2026-08-13",
+    "feed_name": "Anthropic Research",
+    "source": "industry"
+  },
+  {
+    "title": "Reviewing the evidence on worker retraining programs",
+    "abstract": "An evidence review from Anthropic's Economic Research team",
+    "url": "https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs",
+    "topic": "llm",
+    "date": "2026-08-12",
+    "fetched_date": "2026-08-13",
+    "feed_name": "Anthropic Research",
+    "source": "industry"
+  },
+  {
+    "title": "Introducing OlmoEarth embeddings: Custom embedding exports from OlmoEarth Studio for downstream analysis",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/allenai/olmoearth-embeddings",
+    "topic": "llm",
+    "date": "2026-08-12",
+    "fetched_date": "2026-08-13",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "LFM2.5-VL-3B for Better and Faster Vision Capabilities for the Edge",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-3b",
+    "topic": "llm",
+    "date": "2026-08-12",
+    "fetched_date": "2026-08-13",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Putting sign language AI into users’ hands",
+    "abstract": "Introducing sign-language-to-text (SL2T), our breakthrough model powering new sign language features for Deaf and hard of hearing users.",
+    "url": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/",
+    "topic": "generative-ai",
+    "date": "2026-08-12",
+    "fetched_date": "2026-08-13",
+    "feed_name": "DeepMind Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Flexible Authentication: Reimagining authentication for millions of users at Airbnb",
+    "abstract": "",
+    "url": "https://medium.com/airbnb-engineering/flexible-authentication-reimagining-authentication-for-millions-of-users-at-airbnb-3a8a4c917137?source=rss----53c7c27702d5---4",
+    "topic": "ml-engineering",
+    "date": "2026-08-12",
+    "fetched_date": "2026-08-13",
+    "feed_name": "Airbnb Engineering",
+    "source": "industry"
+  },
+  {
+    "title": "DeepSeek V4 Pro 0813 (on OpenRouter)",
+    "abstract": "DeepSeek V4 Pro 0813 (on OpenRouter) The latest DeepSeek Pro model is now available, via API only. I had to link to OpenRouter because DeepSeek don't have any obvious announcement page for their new model. I haven't been able to confirm if they plan to release the open weights, but given the weights are available for both April's deepseek-ai/DeepSeek-V4-Pro and July's deepseek-ai/DeepSeek-V4-Flash-0731 it seems likely. Interestingly I got very different looking pelicans for the three different reasoning levels of low, medium, and high. I've not noticed this kind of difference from any other model: Low: Medium: High: In terms of benchmarks... as far as I can tell those were released to the Official DeepSeek WeChat Group, then copied and pasted into a post on Reddit which was deleted by the moderators for being \"low-effort\", then copied into this ASCII-art table on Hacker News . Tags: ai , generative-ai , llms , pelican-riding-a-bicycle , deepseek , llm-release , ai-in-china",
+    "url": "https://simonwillison.net/2026/Aug/12/deepseek-v4-pro-0813/",
+    "topic": "llm",
+    "date": "2026-08-12",
+    "fetched_date": "2026-08-13",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "alchemy-utils 0.1a0",
+    "abstract": "Release: alchemy-utils 0.1a0 I've long pondered what a database agnostic version of my sqlite-utils Python library and CLI utility might look like. This morning (literally a shower project) I tasked Codex and GPT-5.6 Sol Ultra with building a prototype: Do a research spike to see what it would take to build a library with the same core API as SQLite-utils - in particular the insert and upsert and insert_all and upsert_all and create and update methods, and the table introspection stuff - but backed by SQLalchemy so it works for multiple database engines Test against PostgreSQL and SQLite and duckdb Use ~/dev/sqlite-utils for reference Create a git repo for this and commit and early and often - use uv init to start the project - use red/green TDD and pytest, see ~/dev/django-sql-dashboard for one idea as to how the PostgreSQL tests could work It took very few follow-up prompts to produce this project in a state good enough to release as an alpha. Here's a one-liner I can use to list the rows in a table in my local PostgreSQL copy of my blog's database: uvx --with 'alchemy-utils[postgresql]' alchemy-utils rows 'postgresql+psycopg://simon@localhost:5432/simonwillisonblog' redirects_redirect The output from that starts like this: [ { \"id\": 2328, \"domain\": \"simonwillison.net\", \"path\": \"2020/May/21/apple-photos-sqlite/\", \"target\": \"/2020/May/21/dogsheep-photos/\", \"created\": \"2020-05-21T13:03:46.591692-07:00\" }, { \"id\": 3, \"domain\": \"feeds.simonwillison.net\", \"path\": \"swn-links\", \"target\": \"https://simonwillison.net/atom/links/\", \"created\": \"2017-10-01T14:12:54.820729-07:00\" } Or if you'd like a DuckDB database with every tree in San Francisco , schema created automatically to match the file: curl 'https://raw.githubusercontent.com/simonw/sf-tree-history/refs/heads/main/Street_Tree_List.csv' | uvx --with 'alchemy-utils[duckdb]' alchemy-utils insert 'duckdb:////tmp/trees.db' trees - --csv (That one took nearly an hour the first time I ran it, so I had Codex optimize it and got it down to around 35 seconds.) Tags: databases , postgresql , projects , python , sql , sqlalchemy , sqlite , sqlite-utils , duckdb , coding-agents , codex",
+    "url": "https://simonwillison.net/2026/Aug/12/alchemy-utils/",
+    "topic": "llm",
+    "date": "2026-08-12",
+    "fetched_date": "2026-08-13",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Quoting Florian Herrengt",
+    "abstract": "But then users start to report a weird bug. It's the 4th time your team has been trying to fix it. I mean... asking AI to fix it. Unfortunately, it seems like not even Fable can figure it out. You go talk to the person who worked on this feature. \"So where does the data come from?\" \"Hmm... actually I don't know. Let me ask Claude.\" You sit next to each other watching an endless wall of text appear on the screen. Neither of you has any idea whether any of it is true but Claude seems very confident. [...] This project has become so convoluted, with so many layers and services, that no one on your team could possibly start to understand what's going on. — Florian Herrengt , AI is removing the middle class of software engineering Tags: ai-misuse , cognitive-debt , generative-ai , ai , llms , ai-assisted-programming",
+    "url": "https://simonwillison.net/2026/Aug/12/florian-herrengt/",
+    "topic": "llm",
+    "date": "2026-08-12",
+    "fetched_date": "2026-08-13",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "On Substack-Pangram Partnership: It's About Sending a Message",
+    "abstract": "A bunch of false positives for a slop-free internet? Yeah, you can count me in",
+    "url": "https://www.thealgorithmicbridge.com/p/on-substack-pangram-partnership-its",
+    "topic": "llm",
+    "date": "2026-08-12",
+    "fetched_date": "2026-08-13",
+    "feed_name": "The Algorithmic Bridge",
+    "source": "industry"
+  },
+  {
+    "title": "Some Claude users are mad that Anthropic’s new watermarks will catch them using it at their jobs, classes",
+    "abstract": "Is Anthropic's new watermarking system a travesty? Some have taken to social media to complain that it is.",
+    "url": "https://techcrunch.com/2026/08/12/some-claude-users-are-mad-that-anthropics-new-watermarks-will-catch-them-cheating-at-their-jobs-classes/",
+    "topic": "llm",
+    "date": "2026-08-12",
+    "fetched_date": "2026-08-13",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Amazon will train on Twitch streamers’ content by default, unless they opt out",
+    "abstract": "\"If this was opt-in, nobody would opt in,\" Twitch CPO Mike Minton said on a livestream responding to user feedback. \"That's honestly the answer.\"",
+    "url": "https://techcrunch.com/2026/08/12/amazon-will-train-on-twitch-streamers-content-by-default-unless-they-opt-out/",
+    "topic": "llm",
+    "date": "2026-08-12",
+    "fetched_date": "2026-08-13",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "AI coding startup Cognition reportedly already in talks to raise at $40B valuation",
+    "abstract": "Cognition may be looking to raise another mega round just a few months after raising $1 billion at a $26 billion valuation.",
+    "url": "https://techcrunch.com/2026/08/12/ai-coding-startup-cognition-reportedly-already-in-talks-to-raise-at-40b-valuation/",
+    "topic": "llm",
+    "date": "2026-08-12",
+    "fetched_date": "2026-08-13",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "As AI safety concerns mount, three pioneers make the case for staying open",
+    "abstract": "At Ai4, three of the world's most respected AI experts — Geoffrey Hinton, Fei-Fei Li, and Andrew Ng — debated regulation, open source access, and how America can compete as China advances in Asia.",
+    "url": "https://techcrunch.com/2026/08/12/as-ai-safety-concerns-mount-three-pioneers-make-the-case-for-staying-open/",
+    "topic": "llm",
+    "date": "2026-08-12",
+    "fetched_date": "2026-08-13",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "OpenAI-backed Thrive Holdings raises $2B to bring AI to the enterprise",
+    "abstract": "Thrive Holdings has raised $2 billion in new funding at a $12 billion valuation from investors like SoftBank, D1 Capital Partners, and Altimeter Capital.",
+    "url": "https://techcrunch.com/2026/08/12/openai-backed-thrive-holdings-raises-2b-to-bring-ai-to-the-enterprise/",
+    "topic": "llm",
+    "date": "2026-08-12",
+    "fetched_date": "2026-08-13",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Mesh, Automattic’s CRM for everyone, comes to Android",
+    "abstract": "Mesh, an AI-powered contacts app and relationship manager from Automattic, is now an Android app.",
+    "url": "https://techcrunch.com/2026/08/12/mesh-automattics-crm-for-everyone-comes-to-android/",
+    "topic": "llm",
+    "date": "2026-08-12",
+    "fetched_date": "2026-08-13",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Why Stream ring-maker Sandbar says the future of AI wearables is voice",
+    "abstract": "AI notetaking hardware has taken off over the past couple of years, with credit-card-sized devices, pendants, pins, and even transcribing earbuds all promising to capture your meetings and turn them into summaries and action items. Now, a whole wave of wearables — rings especially — are betting people want to capture stray thoughts and ideas the same way. One of […]",
+    "url": "https://techcrunch.com/video/why-stream-ring-maker-sandbar-says-the-future-of-ai-wearables-is-voice/",
+    "topic": "llm",
+    "date": "2026-08-12",
+    "fetched_date": "2026-08-13",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Lovable confirms new $13.3B valuation, raises another $400M",
+    "abstract": "This new funding comes after Lovable hit $500 million in annualized run rate revenue in June, the startup told TechCrunch.",
+    "url": "https://techcrunch.com/2026/08/12/lovable-confirms-new-13-3b-valuation-raises-another-400m/",
+    "topic": "llm",
+    "date": "2026-08-12",
+    "fetched_date": "2026-08-13",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "How a $250 million acquisition collapsed into allegations of fraud and forged signatures",
+    "abstract": "Investors are still waiting for their share of the $250 million windfall, and VideoVerse co-founder Vinayak Shrivastav is now at the center of multiple legal cases.",
+    "url": "https://techcrunch.com/2026/08/12/how-a-250-million-acquisition-collapsed-into-allegations-of-fraud-and-forged-signatures/",
+    "topic": "llm",
+    "date": "2026-08-12",
+    "fetched_date": "2026-08-13",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Why Sandbar thinks it’s voice-enabled ring can avoid the AI hardware graveyard",
+    "abstract": "AI notetaking hardware has taken off over the past couple of years, with credit-card-sized devices, pendants, pins, and even transcribing earbuds all promising to capture your meetings and turn them into summaries and action items. Now, a whole wave of wearables — rings especially — are betting people want to capture stray thoughts and ideas the same way. One of […]",
+    "url": "https://techcrunch.com/podcast/why-sandbar-thinks-its-voice-enabled-ring-can-avoid-the-ai-hardware-graveyard/",
+    "topic": "llm",
+    "date": "2026-08-12",
+    "fetched_date": "2026-08-13",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Everything announced at Made by Google ’26: Pixel 11, Pixel Watch 5, Pixel Tag, and tons of Gemini features",
+    "abstract": "From the Pixel 11 series and a brand new competitor to Apple’s AirTag, here are all the announcements from the Made by Google 2026 event.",
+    "url": "https://techcrunch.com/2026/08/12/google-unveils-pixel-11-lineup-new-airtag-rival-and-gemini-features-at-made-by-google-2026/",
+    "topic": "llm",
+    "date": "2026-08-12",
+    "fetched_date": "2026-08-13",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "AI code-testing startup Blacksmith’s valuation jumps almost 10x in less than a year",
+    "abstract": "Blacksmith says revenue has grown more than tenfold over the past year.",
+    "url": "https://techcrunch.com/2026/08/12/blacksmiths-valuation-jumps-10x-to-550m-as-ai-coding-fuels-software-validation/",
+    "topic": "llm",
+    "date": "2026-08-12",
+    "fetched_date": "2026-08-13",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Five holiday advertising lessons for brands planning for Black Friday now",
+    "abstract": "Black Friday and Cyber Monday have evolved into a weeks-long shopping event. That makes early planning more critical than ever. Drawing on insights from brands like Bylt, Tecovas, Manscaped and Bearbottom Clothing, these five key findings help marketers sharpen their holiday ad strategies. Sponsored by Tatari.",
+    "url": "https://www.modernretail.co/sponsored/five-holiday-advertising-lessons-for-brands-planning-for-black-friday-now/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-08-12",
+    "fetched_date": "2026-08-13",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Walmart-backed gaming publication lays off editorial team",
+    "abstract": "In December 2024, Walmart did something perhaps out of character: It helped start a video gaming news website. But the publication's editor-in-chief said she has been laid off alongside the \"entire editorial team.\"",
+    "url": "https://www.modernretail.co/marketing/walmart-backed-gaming-publication-lays-off-editorial-team/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-08-12",
+    "fetched_date": "2026-08-13",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Frida aims to solve personal care gap with new product line for older kids",
+    "abstract": "Frida is getting into the kids personal care and hygiene category as its core demographic raises older children.",
+    "url": "https://www.modernretail.co/operations/frida-aims-to-solve-personal-care-gap-with-new-product-line-for-older-kids/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-08-12",
+    "fetched_date": "2026-08-13",
+    "feed_name": "Modern Retail",
+    "source": "industry"
   }
 ]
