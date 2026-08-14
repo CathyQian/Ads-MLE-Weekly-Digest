@@ -11668,5 +11668,115 @@
     "fetched_date": "2026-08-13",
     "feed_name": "TechCrunch",
     "source": "startup"
+  },
+  {
+    "title": "Investors sue Selena Gomez alleging fraud tied to her mental health startup",
+    "abstract": "The plaintiffs say they invested nearly $1.2 million in the company, and are accusing Gomez of failing to build and market the startup.",
+    "url": "https://techcrunch.com/2026/08/13/investors-sue-selena-gomez-alleging-fraud-tied-to-her-mental-health-startup/",
+    "topic": "startup",
+    "date": "2026-08-13",
+    "fetched_date": "2026-08-14",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Flock says its new tool will help identify police abuse, but hasn’t explained how it works",
+    "abstract": "The surveillance company announced it's making a tool called \"Audit Assistance\" mandatory for all customers, claiming it's already helped catch abuse. But the company has yet to explain how the tool works in detail, raising questions about its effectiveness.",
+    "url": "https://techcrunch.com/2026/08/13/flock-says-its-new-tool-will-help-identify-police-abuse-but-hasnt-explained-how-it-works/",
+    "topic": "startup",
+    "date": "2026-08-13",
+    "fetched_date": "2026-08-14",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Writer introduces new AI model and upgraded harness to contain token costs",
+    "abstract": "Built as a post-training variation on Z.ai's open source model GLM-5.2, Writer says the new system should provide deployment-ready capabilities at a much lower price.",
+    "url": "https://techcrunch.com/2026/08/13/writer-introduces-new-ai-model-and-upgraded-harness-to-contain-token-costs/",
+    "topic": "startup",
+    "date": "2026-08-13",
+    "fetched_date": "2026-08-14",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Databricks wanted to raise $1B, investors wanted $15B. It settled on $5B at a $190B valuation.",
+    "abstract": "AI is expensive, Ali Ghodsi tells TechCrunch. With so many investors wanting into his latest round, he said yes to more than planned.",
+    "url": "https://techcrunch.com/2026/08/13/databricks-wanted-to-raise-1b-investors-wanted-15b-it-settled-on-5b-at-a-190b-valuation/",
+    "topic": "startup",
+    "date": "2026-08-13",
+    "fetched_date": "2026-08-14",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "OpenAI introduces ‘Ultrafast,’ a new mode that makes GPT-5.6 Sol work at 14x the speed",
+    "abstract": "OpenAI is launching a preview of a sped up version of its latest, most powerful model, in an effort to court enterprise users.",
+    "url": "https://techcrunch.com/2026/08/13/openai-introduces-ultrafast-a-new-mode-that-makes-gpt-5-6-sol-work-at-14x-the-speed/",
+    "topic": "startup",
+    "date": "2026-08-13",
+    "fetched_date": "2026-08-14",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "IBM partners with OpenAI to bolster enterprise AI push",
+    "abstract": "IBM plans to train and certify tens of thousands of consultants on OpenAI's technologies as part of this deal.",
+    "url": "https://techcrunch.com/2026/08/13/ibm-partners-with-openai-to-bolster-enterprise-ai-push/",
+    "topic": "startup",
+    "date": "2026-08-13",
+    "fetched_date": "2026-08-14",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Anthropic set AI agents loose on the same task. They started a turf war.",
+    "abstract": "Anthropic researchers found AI agents can clash, collude, and coordinate in unexpected ways, raising new questions about whether today’s safety tests capture the risks of multi-agent systems.",
+    "url": "https://techcrunch.com/2026/08/13/anthropic-set-ai-agents-loose-on-the-same-task-they-started-a-turf-war/",
+    "topic": "startup",
+    "date": "2026-08-13",
+    "fetched_date": "2026-08-14",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "OpenAI hires new CRO as executive shake-up continues",
+    "abstract": "OpenAI has replaced chief revenue officer Denise Dresser after just nine months on the job, tapping Wiz president and chief operating officer Dali Rajic to take on frontier lab's top sales job.",
+    "url": "https://techcrunch.com/2026/08/13/openai-hires-new-cro-as-executive-shake-up-continues/",
+    "topic": "startup",
+    "date": "2026-08-13",
+    "fetched_date": "2026-08-14",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Microsoft kills off unsuccessful AI features while merging its separate Copilot apps",
+    "abstract": "Microsoft is simplifying Copilot by combining its consumer and business apps, and dropping AI-generated podcasts, Group Chats, Deep Research, and its Mico character.",
+    "url": "https://techcrunch.com/2026/08/13/microsoft-kills-off-unsuccessful-ai-features-while-merging-its-separate-copilot-apps/",
+    "topic": "startup",
+    "date": "2026-08-13",
+    "fetched_date": "2026-08-14",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Nvidia’s new $500B plan is risky but brilliant, especially for aging GPUs",
+    "abstract": "Nvidia has a plan to make sure its GPUs won't lose value. It wants to convince a new crop of financiers to keep lending for AI buildouts.",
+    "url": "https://techcrunch.com/2026/08/13/nvidias-new-500b-plan-is-risky-but-brilliant-especially-for-aging-gpus/",
+    "topic": "startup",
+    "date": "2026-08-13",
+    "fetched_date": "2026-08-14",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Who really needs a cocktail robot?",
+    "abstract": "Bartesian's cocktail makers would be best described like a Keurig or Nespresso machine, but for alcoholic drinks.",
+    "url": "https://techcrunch.com/2026/08/13/bartesian-duet-cocktail-maker-review/",
+    "topic": "startup",
+    "date": "2026-08-13",
+    "fetched_date": "2026-08-14",
+    "feed_name": "TechCrunch",
+    "source": "startup"
   }
 ]

@@ -22548,5 +22548,245 @@
     "fetched_date": "2026-08-13",
     "feed_name": "Modern Retail",
     "source": "industry"
+  },
+  {
+    "title": "The builder’s guide to GPT‑5.6",
+    "abstract": "Learn how startups use GPT-5.6 to build faster, more cost-efficient AI agents with smarter model selection and new Responses API capabilities.",
+    "url": "https://openai.com/index/builders-guide-to-gpt-5-6",
+    "topic": "llm",
+    "date": "2026-08-13",
+    "fetched_date": "2026-08-14",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed",
+    "abstract": "Preview Ultrafast, a new OpenAI API service tier that runs GPT-5.6 Sol up to 14× faster. Powered by Cerebras, it delivers up to 750 output tokens per second.",
+    "url": "https://openai.com/index/previewing-ultrafast",
+    "topic": "llm",
+    "date": "2026-08-13",
+    "fetched_date": "2026-08-14",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "OpenAI appoints Dali Rajic as Chief Revenue Officer",
+    "abstract": "OpenAI appoints Dali Rajic as Chief Revenue Officer to lead its global revenue organization and help businesses realize the full value of AI.",
+    "url": "https://openai.com/index/dali-rajic-chief-revenue-officer",
+    "topic": "llm",
+    "date": "2026-08-13",
+    "fetched_date": "2026-08-14",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
+    "topic": "llm",
+    "date": "2026-08-13",
+    "fetched_date": "2026-08-14",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "What We Learned by Reproducing 2,200 papers from ICML",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/icml-2026-open-reproductions",
+    "topic": "llm",
+    "date": "2026-08-13",
+    "fetched_date": "2026-08-14",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Introducing Gemini 3.7 Flash",
+    "abstract": "",
+    "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash/",
+    "topic": "generative-ai",
+    "date": "2026-08-13",
+    "fetched_date": "2026-08-14",
+    "feed_name": "DeepMind Blog",
+    "source": "industry"
+  },
+  {
+    "title": "sqlite-utils 4.2.1",
+    "abstract": "Release: sqlite-utils 4.2.1 Fixes a crashing bug in sqlite-utils 4.2 . I'd introduced code that looks like this: from typing_extensions import Self It turned out the typing-extensions package was not listed as a dependency for sqlite-utils - it was installed by one of the other dependencies in the dev dependency group , but when you uvx sqlite-utils directly you don't get those dependencies. As part of fixing this I figured out how to run a smoke test to ensure the CLI tool still works even without those dev dependencies, which can be run from the project checkout: uv run --isolated --no-default-groups sqlite-utils --help The --no-default-groups argument prevents it from installing that default dev group, and --isolated means that even if there is a .venv/ folder containing extra dependencies they will be ignored for the duration of that uv run command. Tags: packaging , python , sqlite-utils , uv",
+    "url": "https://simonwillison.net/2026/Aug/13/sqlite-utils-2/",
+    "topic": "llm",
+    "date": "2026-08-13",
+    "fetched_date": "2026-08-14",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "sqlite-utils 4.2",
+    "abstract": "Release: sqlite-utils 4.2 Lots of improvements in this one relating to the table.transform() feature , which adds support for complex alter table operations by creating a fresh table, copying across the data and then dropping and replacing the old one. transform() now preserves a much larger array of edge-case schema definitions, including check constraints, unique constraints and even comments describing the columns. There are also new introspection properties for check constraints, and a whole lot of other smaller changes. Includes contributions from Bunlong Heng , ethanhawkes-gif , Rami Abdelrazzaq , nyxst4ck , and ikatyal2110 . (It later turned out 4.2 had a crashing bug , fixed in 4.2.1 .) Tags: releases , sqlite , sqlite-utils",
+    "url": "https://simonwillison.net/2026/Aug/13/sqlite-utils/",
+    "topic": "llm",
+    "date": "2026-08-13",
+    "fetched_date": "2026-08-14",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "llm-gemini 0.33",
+    "abstract": "Release: llm-gemini 0.33 It's been a while since the last llm-gemini release. This version of the plugin adds support for today's Gemini 3.7 Flash release, plus gemini-3.6-flash , gemini-3.5-flash-lite and two embedding models gemini-embedding-2 and gemini-embedding-001 . The plugin is also upgraded for compatibility with LLM 0.32, which means you can now see reasoning traces and you can also enable server-side tools using this pattern: llm -m gemini-3.7-flash -T CodeExecution \\ 'use python to calculate (factorial of 13) * 3' I had Gemini 3.7 Flash draw me some pelicans riding bicycles at high, medium, and low thinking efforts (minimal, which was an option in 3.6 Flash, has been removed in 3.7.) Here's the high level one, which is pretty great: One catch though: the pelican I showed here was rendered with Safari. Both Firefox and Chrome render it differently, due to Safari being more tolerant of empty SVG <filter> elements than those other two browsers. They still display the bicycle, but the pelican is missing entirely! Tags: google , ai , generative-ai , llms , llm , gemini , pelican-riding-a-bicycle , llm-release",
+    "url": "https://simonwillison.net/2026/Aug/13/llm-gemini/",
+    "topic": "llm",
+    "date": "2026-08-13",
+    "fetched_date": "2026-08-14",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "alchemy-utils 0.1a1",
+    "abstract": "Release: alchemy-utils 0.1a1 Performance boost for DuckDB exports and CSV imports, see here .",
+    "url": "https://simonwillison.net/2026/Aug/13/alchemy-utils/",
+    "topic": "llm",
+    "date": "2026-08-13",
+    "fetched_date": "2026-08-14",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Writer introduces new AI model and upgraded harness to contain token costs",
+    "abstract": "Built as a post-training variation on Z.ai's open source model GLM-5.2, Writer says the new system should provide deployment-ready capabilities at a much lower price.",
+    "url": "https://techcrunch.com/2026/08/13/writer-introduces-new-ai-model-and-upgraded-harness-to-contain-token-costs/",
+    "topic": "llm",
+    "date": "2026-08-13",
+    "fetched_date": "2026-08-14",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Databricks wanted to raise $1B, investors wanted $15B. It settled on $5B at a $190B valuation.",
+    "abstract": "AI is expensive, Ali Ghodsi tells TechCrunch. With so many investors wanting into his latest round, he said yes to more than planned.",
+    "url": "https://techcrunch.com/2026/08/13/databricks-wanted-to-raise-1b-investors-wanted-15b-it-settled-on-5b-at-a-190b-valuation/",
+    "topic": "llm",
+    "date": "2026-08-13",
+    "fetched_date": "2026-08-14",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "OpenAI introduces ‘Ultrafast,’ a new mode that makes GPT-5.6 Sol work at 14x the speed",
+    "abstract": "OpenAI is launching a preview of a sped up version of its latest, most powerful model, in an effort to court enterprise users.",
+    "url": "https://techcrunch.com/2026/08/13/openai-introduces-ultrafast-a-new-mode-that-makes-gpt-5-6-sol-work-at-14x-the-speed/",
+    "topic": "llm",
+    "date": "2026-08-13",
+    "fetched_date": "2026-08-14",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "IBM partners with OpenAI to bolster enterprise AI push",
+    "abstract": "IBM plans to train and certify tens of thousands of consultants on OpenAI's technologies as part of this deal.",
+    "url": "https://techcrunch.com/2026/08/13/ibm-partners-with-openai-to-bolster-enterprise-ai-push/",
+    "topic": "llm",
+    "date": "2026-08-13",
+    "fetched_date": "2026-08-14",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Anthropic set AI agents loose on the same task. They started a turf war.",
+    "abstract": "Anthropic researchers found AI agents can clash, collude, and coordinate in unexpected ways, raising new questions about whether today’s safety tests capture the risks of multi-agent systems.",
+    "url": "https://techcrunch.com/2026/08/13/anthropic-set-ai-agents-loose-on-the-same-task-they-started-a-turf-war/",
+    "topic": "llm",
+    "date": "2026-08-13",
+    "fetched_date": "2026-08-14",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "OpenAI hires new CRO as executive shake-up continues",
+    "abstract": "OpenAI has replaced chief revenue officer Denise Dresser after just nine months on the job, tapping Wiz president and chief operating officer Dali Rajic to take on frontier lab's top sales job.",
+    "url": "https://techcrunch.com/2026/08/13/openai-hires-new-cro-as-executive-shake-up-continues/",
+    "topic": "llm",
+    "date": "2026-08-13",
+    "fetched_date": "2026-08-14",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Microsoft kills off unsuccessful AI features while merging its separate Copilot apps",
+    "abstract": "Microsoft is simplifying Copilot by combining its consumer and business apps, and dropping AI-generated podcasts, Group Chats, Deep Research, and its Mico character.",
+    "url": "https://techcrunch.com/2026/08/13/microsoft-kills-off-unsuccessful-ai-features-while-merging-its-separate-copilot-apps/",
+    "topic": "llm",
+    "date": "2026-08-13",
+    "fetched_date": "2026-08-14",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Nvidia’s new $500B plan is risky but brilliant, especially for aging GPUs",
+    "abstract": "Nvidia has a plan to make sure its GPUs won't lose value. It wants to convince a new crop of financiers to keep lending for AI buildouts.",
+    "url": "https://techcrunch.com/2026/08/13/nvidias-new-500b-plan-is-risky-but-brilliant-especially-for-aging-gpus/",
+    "topic": "llm",
+    "date": "2026-08-13",
+    "fetched_date": "2026-08-14",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Apple in talks to pay publishers to provide Siri with current news: report",
+    "abstract": "The tech giant has considered a nine-figure budget for the payments, according to the WSJ.",
+    "url": "https://techcrunch.com/2026/08/13/apple-in-talks-to-pay-publishers-to-provide-siri-with-current-news-report/",
+    "topic": "llm",
+    "date": "2026-08-13",
+    "fetched_date": "2026-08-14",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Target builds digital-twin platform to improve inventory availability",
+    "abstract": "Target has unveiled a new technology play as it continues to work to improve inventory levels in stores.",
+    "url": "https://www.modernretail.co/operations/target-builds-digital-twin-platform-to-improve-inventory-availability/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-08-13",
+    "fetched_date": "2026-08-14",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Big-Box Briefing: Who’s in, who’s out in major retailers’ C-suites",
+    "abstract": "This year has been a big one for executive transitions throughout big-box retail. Sometimes, it feels like there's a new leadership appointment on a weekly basis. In this week's Big-Box Briefing, we break down how these new appointments, promotions and exits have shaped out so far in 2026.",
+    "url": "https://www.modernretail.co/operations/big-box-briefing-whos-in-whos-out-in-major-retailers-c-suites/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-08-13",
+    "fetched_date": "2026-08-14",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Anthropologie is giving its beauty business a makeover",
+    "abstract": "Anthropologie is upping its beauty assortment and creating in-store beauty installations as it sees more demand for the category.",
+    "url": "https://www.modernretail.co/operations/anthropologie-is-giving-its-beauty-business-a-makeover/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-08-13",
+    "fetched_date": "2026-08-14",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "What it takes to succeed as a DTC brand today",
+    "abstract": "At the most recent Modern Retail+ and Glossy+ Town Hall, editorial staff and subscribers gathered to discuss the future of DTC. Hot topics included: what distribution channels make sense for burgeoning brands and where young startups should spend their precious marketing dollars.",
+    "url": "https://www.modernretail.co/marketing/what-it-takes-to-succeed-as-a-dtc-brand-today/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-08-13",
+    "fetched_date": "2026-08-14",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "How Stanley 1913 is adapting its marketing for the AI search era, without losing a ‘human touch’",
+    "abstract": "Adapting to AI search is a muscle memory problem, not a hacking problem — at least that's how Stanley 1913 sees it. The brand is trying to increase how often it is mentioned by AI search engines, without resorting to hacks and easy wins.",
+    "url": "https://www.modernretail.co/marketing/how-stanley-1913-is-adapting-its-marketing-for-the-ai-search-era-without-losing-a-human-touch/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-08-13",
+    "fetched_date": "2026-08-14",
+    "feed_name": "Modern Retail",
+    "source": "industry"
   }
 ]
