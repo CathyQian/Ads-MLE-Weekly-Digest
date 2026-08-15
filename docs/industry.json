@@ -22788,5 +22788,85 @@
     "fetched_date": "2026-08-14",
     "feed_name": "Modern Retail",
     "source": "industry"
+  },
+  {
+    "title": "State of Open Models: Summer 2026 Observations",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
+    "topic": "llm",
+    "date": "2026-08-14",
+    "fetched_date": "2026-08-15",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Don't classify. Hallucinate!",
+    "abstract": "Don't classify. Hallucinate! I still have quite a bit of older content on my blog that I never got round to tagging. My blog has 1,856 tags - likely too many to feed to an LLM in one go and say \"which of these tags match the following content\". Doug Turnbull has a neat solution. Tell the model to output tags without any details of the existing vocabulary, then use vector embeddings against the existing corpus to find the concrete tags that are closest to the ones the model imagined might fit! His example prompt suggests including an example of the shape of your tags to help the model make a more useful guess: Your task is to create novel, never seen before, furniture, home goods, or hardware classification that best fit a search query. Product classifications might look like: Furniture / Living Room Furniture / Coffee Tables & End Tables / Coffee Tables Décor & Pillows / Decorative Pillows & Blankets / Throw Pillows Furniture / Bedroom Furniture / Dressers & Chests Kitchen & Tabletop / Kitchen Organization / Food Storage & Canisters School Furniture and Supplies / School Furniture / School Chairs & Seating / Stackable Chairs Baby & Kids / Toddler & Kids Bedroom Furniture / Kids Beds Here's the query to generate classifications for: brown coffee table Tags: search , ai , generative-ai , llms , embeddings , doug-turnbull",
+    "url": "https://simonwillison.net/2026/Aug/14/dont-classify-hallucinate/",
+    "topic": "llm",
+    "date": "2026-08-14",
+    "fetched_date": "2026-08-15",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Google will now allow users to remove visible watermark from its AI generations",
+    "abstract": "Turning off this setting won't affect invisible benchmarks used to identify an AI generated file.",
+    "url": "https://techcrunch.com/2026/08/14/google-will-now-allow-users-to-remove-visible-watermark-from-its-ai-generations/",
+    "topic": "llm",
+    "date": "2026-08-14",
+    "fetched_date": "2026-08-15",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Does Mark Zuckerberg really believe AI is ‘for everyone’?",
+    "abstract": "Meta released Glimmer this week, an open-weight AI model anyone can download and run on their own hardware — a contrast to Muse Spark, the company’s more powerful model that stays locked behind its own APIs. The release landed alongside a letter from Mark Zuckerberg arguing AI should be “for everyone” rather than controlled by a handful of labs, but as Equity’s […]",
+    "url": "https://techcrunch.com/video/does-mark-zuckerberg-really-believe-ai-is-for-everyone/",
+    "topic": "llm",
+    "date": "2026-08-14",
+    "fetched_date": "2026-08-15",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Kog is going deeper to squeeze more inference out of GPUs",
+    "abstract": "The idea that GPUs are poorly suited for agentic workflows may be a misconception, according to French startup Kog.",
+    "url": "https://techcrunch.com/2026/08/14/kog-is-going-deeper-to-squeeze-more-inference-out-of-gpus/",
+    "topic": "llm",
+    "date": "2026-08-14",
+    "fetched_date": "2026-08-15",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Hyperscalers might regret embracing natural gas if new forecast proves correct",
+    "abstract": "Natural gas prices could triple in some parts of the U.S., which could saddle hyperscalers with massive bills to power their AI data centers.",
+    "url": "https://techcrunch.com/2026/08/14/hyperscalers-might-regret-embracing-natural-gas-if-new-forecast-proves-correct/",
+    "topic": "llm",
+    "date": "2026-08-14",
+    "fetched_date": "2026-08-15",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Meta’s ‘open’ AI, and a $250M deal gone very wrong",
+    "abstract": "Meta released Glimmer this week, an open-weight AI model anyone can download and run on their own hardware — a contrast to Muse Spark, the company’s more powerful model that stays locked behind its own APIs. The release landed alongside a letter from Mark Zuckerberg arguing AI should be “for everyone” rather than controlled by a handful of labs, but as Equity’s […]",
+    "url": "https://techcrunch.com/podcast/metas-open-ai-and-a-250m-deal-gone-very-wrong/",
+    "topic": "llm",
+    "date": "2026-08-14",
+    "fetched_date": "2026-08-15",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "How H&M, Chobani, UrbanStems and Teleties are refining their partnership strategies",
+    "abstract": "Brands like UrbanStems, H&M and Chobani are refining partnerships to match audiences, drive cultural relevance and unlock new growth. Here's more on how execs from these brands say their approach to partnerships has changed over the years.",
+    "url": "https://www.modernretail.co/marketing/how-hm-chobani-urbanstems-and-teleties-are-refining-their-partnership-strategies/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-08-14",
+    "fetched_date": "2026-08-15",
+    "feed_name": "Modern Retail",
+    "source": "industry"
   }
 ]
