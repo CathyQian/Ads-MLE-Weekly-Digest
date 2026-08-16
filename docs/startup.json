@@ -11848,5 +11848,55 @@
     "fetched_date": "2026-08-15",
     "feed_name": "TechCrunch",
     "source": "startup"
+  },
+  {
+    "title": "Woman claims her stepfather used Grok to transform childhood photo into explicit imagery",
+    "abstract": "The woman claimed that AI tools are \"taking everyday life and turning it into child sexual abuse.\"",
+    "url": "https://techcrunch.com/2026/08/15/woman-claims-her-stepfather-used-grok-to-transform-childhood-photo-into-explicit-imagery/",
+    "topic": "startup",
+    "date": "2026-08-15",
+    "fetched_date": "2026-08-16",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Anthropic shares more details about how Claude’s new watermarks will work",
+    "abstract": "How will the watermarking actually work? Can it be hidden with editing? And how does this affect code?",
+    "url": "https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work/",
+    "topic": "startup",
+    "date": "2026-08-15",
+    "fetched_date": "2026-08-16",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "SpaceX officially closes its Cursor acquisition",
+    "abstract": "AI coding startup Cursor is now officially a part of SpaceX.",
+    "url": "https://techcrunch.com/2026/08/15/spacex-officially-closes-its-cursor-acquisition/",
+    "topic": "startup",
+    "date": "2026-08-15",
+    "fetched_date": "2026-08-16",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "How to tell if your AI platforms’ accounts have been hacked",
+    "abstract": "A guide on how to check if hackers have broken into your accounts on the most popular AI platforms.",
+    "url": "https://techcrunch.com/2026/08/15/how-to-tell-if-your-ai-platforms-accounts-have-been-hacked/",
+    "topic": "startup",
+    "date": "2026-08-15",
+    "fetched_date": "2026-08-16",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Every fusion startup that has raised over $100M",
+    "abstract": "Fusion startups have raised $7.1 billion to date, with the majority of it going to a handful of companies.",
+    "url": "https://techcrunch.com/2026/08/15/every-fusion-startup-that-has-raised-over-100m/",
+    "topic": "startup",
+    "date": "2026-08-15",
+    "fetched_date": "2026-08-16",
+    "feed_name": "TechCrunch",
+    "source": "startup"
   }
 ]
