@@ -23368,5 +23368,235 @@
     "fetched_date": "2026-08-19",
     "feed_name": "Modern Retail",
     "source": "industry"
+  },
+  {
+    "title": "Offering Zero Data Retention for frontier models",
+    "abstract": "OpenAI reaffirms Zero Data Retention for eligible API customers and previews Private Safety Processing for advanced AI safety without compromising data privacy.",
+    "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
+    "topic": "llm",
+    "date": "2026-08-19",
+    "fetched_date": "2026-08-20",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Replit expands access to software creation with GPT-5.6 Luna",
+    "abstract": "Replit introduces Free Mode, powered by GPT-5.6 Luna, so anyone can turn ideas into working software without worrying about token costs.",
+    "url": "https://openai.com/index/replit",
+    "topic": "llm",
+    "date": "2026-08-19",
+    "fetched_date": "2026-08-20",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "ChatGPT Ads expands across Europe",
+    "abstract": "ChatGPT Ads is expanding to 31 European markets. Learn how advertisers can reach people as they explore, compare options, and make decisions.",
+    "url": "https://openai.com/index/chatgpt-ads-expands-across-europe",
+    "topic": "llm",
+    "date": "2026-08-18",
+    "fetched_date": "2026-08-20",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "LFM2.5 Q4\\_0 Checkpoints from Quantization-Aware Distillation",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/LiquidAI/qad",
+    "topic": "llm",
+    "date": "2026-08-19",
+    "fetched_date": "2026-08-20",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "How we knew COVID was over (and what our models had to unlearn)",
+    "abstract": "",
+    "url": "https://medium.com/airbnb-engineering/how-we-knew-covid-was-over-and-what-our-models-had-to-unlearn-c606b9bdb0ab?source=rss----53c7c27702d5---4",
+    "topic": "ml-engineering",
+    "date": "2026-08-19",
+    "fetched_date": "2026-08-20",
+    "feed_name": "Airbnb Engineering",
+    "source": "industry"
+  },
+  {
+    "title": "smolmachines / smolvm as a sandbox for untrusted Python & JavaScript",
+    "abstract": "Research: smolmachines / smolvm as a sandbox for untrusted Python & JavaScript I tasked Claude Fable 5 running in Claude Code for web with the following research task: Put https://smolmachines.com through its paces as a fast secure sandbox. Explore what it would take to use this to run untrusted Python and JavaScript code in a way that is limited in what RAM and CPU time it can take up (protection against \"while true\") with no network access and filesystem access only to designated files Goal is to be able to use this to execute user-provided tasks for things like data transformations It quickly ran into a problem: the Claude Code for web environment can't run smol machines . Quoting the notes it wrote : This Claude Code container: Linux 6.18.5-fc-v20 (itself a Firecracker guest), 4 vCPU, 15GB RAM. No /dev/kvm, no vmx/svm CPU flags → no nested virt. smolvm machine run fails as expected: \"kvm not available\". Plan B: GitHub Actions ubuntu runners DO expose /dev/kvm → run the real test battery via a temporary workflow on this branch, collect logs, remove workflow in final commit. And Plan B is what it did , installing smolvm and running these tests directly in a GitHub Actions runner against that branch. That was a creative solution to the environmental limits posed by Claude Code for web. Another example of Fable being relentlessly proactive . Tags: research , sandboxing , ai , github-actions , generative-ai , llms , claude-mythos-fable",
+    "url": "https://simonwillison.net/2026/Aug/19/smolmachines-untrusted-sandbox/",
+    "topic": "llm",
+    "date": "2026-08-19",
+    "fetched_date": "2026-08-20",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Quoting Jeremy Morrell",
+    "abstract": "My hypothesis is that there is a new opportunity for Extensible Software on the web . LLMs radically lower the cost of authoring extensions, and modern sandbox primitives lower the deployment cost and provide good security boundaries. We can build our app as a solid, accountable core, and allow users to safely extend it in many directions by having LLMs fill in the missing pieces. We can give our users super powers. — Jeremy Morrell , Extensible Software in the age of LLMs Tags: sandboxing , llms , ai , generative-ai",
+    "url": "https://simonwillison.net/2026/Aug/19/jeremy-morrell/",
+    "topic": "llm",
+    "date": "2026-08-19",
+    "fetched_date": "2026-08-20",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Conceptual integrity and counting lines of code",
+    "abstract": "Last week I recorded an episode of the Talking Postgres podcast with Claire Giordano on the subject of \"How AI is changing software development\". We had a really great conversation. Here are a couple of my highlights from a lightly edited transcript (prompt to Claude: \"very minor edits to remove disfluencies\"). This is the latest version of an argument I've been trying to build about why sometimes it does make sense to talk about lines of code as an indicator of productivity with coding agents, at 35:01 : A lot of people will tell you it makes no sense to measure productivity in lines of code. I’d actually disagree, because there’s a hard limit. In the before-times, a software engineer could produce a few hundred lines of production-ready code per day — and 200 lines of working, debugged, production-level code is an incredibly good day. Most days you’d produce 50 or 60. If agents let you produce a thousand lines of debugged code, that really is a very meaningful improvement — as long as the code is the same quality: maintainable, tested, all of that. You can get to that point with agents, but it takes a huge amount of skill and knowledge and experience. That’s what senior engineers are made of. I can do way more work as a single engineer than I could without agents. So you could argue, why should a company have more than one engineer? Beyond the obvious bus factor thing — a team of one is a very badly designed team — the answer is that the new limiting factor is cognitive capacity. I can churn out code a hundred times faster. I don’t have the cognitive capacity to stay on top of 100 times the amount of code. So you still need a team of engineers, so you can load balance that cognitive capacity across the team. And this section on conceptual integrity at 46:03 , which Claire equated to the Winchester Mystery House ! Simon : There’s a concept in The Mythical Man-Month — conceptual integrity — where well-designed software has an integrity to it: there are no surprises in it, it covers exactly the right domain of things, everything fits together and makes sense. That’s so much harder with coding agents, where you can have an idea for a feature, run a prompt, and five minuteslater you’ve got the feature. Your software grows little weird bumps in funny different directions. Claire : You know my analogy for that? The Winchester Mystery House. Simon : It’s got 140 rooms, because the woman who built it was the widow of the guy who invented the Winchester rifle, and her psychic told her she’d be haunted by the ghosts of everyone killed with that rifle unless she kept building the house forever. So for 40 years she kept adding new rooms. That’s exactly the problem with coding agents and software: it’s very easy to keep adding new rooms, because the cost of adding those rooms is so much cheaper. What you end up with is something where the conceptual integrity falls apart — and then it’s harder to make decisions about it. It all keeps coming back to discipline. It used to be that the discipline was enforced on you by the amount of time it took. You’d come up with an idea for a crazy feature and think “yeah, but that would take me a week — I cannot justify that, so I’ll forget about it.” If it takes an hour, it’s so much easier to justify. (Side-note: the Wikipedia article includes credible sources that dispute the story about the psychic.) Tags: ai , generative-ai , llms , podcast-appearances , coding-agents",
+    "url": "https://simonwillison.net/2026/Aug/19/conceptual-integrity-and-counting-lines-of-code/",
+    "topic": "llm",
+    "date": "2026-08-19",
+    "fetched_date": "2026-08-20",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Stripe didn’t really buy OpenRouter because of the ‘singularity’",
+    "abstract": "What does a payments giant want with a startup that routes prompts between different AI models? Stripe says it's because of \"the singularity\" but it's really for a far more real and powerful reason.",
+    "url": "https://techcrunch.com/2026/08/19/stripe-didnt-really-buy-openrouter-because-of-the-singularity/",
+    "topic": "llm",
+    "date": "2026-08-19",
+    "fetched_date": "2026-08-20",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "OpenAI seeks to one-up Anthropic with new customer privacy protections",
+    "abstract": "A competition is developing between OpenAI and Anthropic over who can provide the best privacy protections for enterprise customer data.",
+    "url": "https://techcrunch.com/2026/08/19/openai-seeks-to-one-up-anthropic-with-new-customer-privacy-protections/",
+    "topic": "llm",
+    "date": "2026-08-19",
+    "fetched_date": "2026-08-20",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Cognition CEO denies report that SpaceX tried to acquire the startup",
+    "abstract": "SpaceX was reportedly in talks to buy AI coding startup Cognition. SpaceX has already acquired Cursor as it races to catch up to rivals like OpenAI and Anthropic in enterprise AI.",
+    "url": "https://techcrunch.com/2026/08/19/cognition-ceo-denies-report-that-spacex-tried-to-acquire-the-startup/",
+    "topic": "llm",
+    "date": "2026-08-19",
+    "fetched_date": "2026-08-20",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "AI was supposed to win people over by now — it hasn’t",
+    "abstract": "As AI becomes harder to avoid, consumers are growing more wary of the technology — and Silicon Valley is discovering that widespread adoption doesn’t necessarily lead to acceptance.",
+    "url": "https://techcrunch.com/2026/08/19/ai-was-supposed-to-win-people-over-by-now-it-hasnt/",
+    "topic": "llm",
+    "date": "2026-08-19",
+    "fetched_date": "2026-08-20",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Google packs Search and Gemini with new AI study tools",
+    "abstract": "The launch of the new study features marks Google's latest effort to make Gemini the AI assistant that students turn to when learning and studying, as it continues to compete with companies like OpenAI.",
+    "url": "https://techcrunch.com/2026/08/19/google-launches-new-study-tools-for-students-across-search-and-gemini/",
+    "topic": "llm",
+    "date": "2026-08-19",
+    "fetched_date": "2026-08-20",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Researchers say OpenAI revoked their access to limited cyber program",
+    "abstract": "The idea behind OpenAI's Trusted Access for Cyber program is to give trusted defenders better models so they can report bugs and vulnerabilities to companies, with the aim of getting flaws patched faster.",
+    "url": "https://techcrunch.com/2026/08/19/researchers-complain-that-openai-revoked-their-access-to-limited-cyber-program/",
+    "topic": "llm",
+    "date": "2026-08-19",
+    "fetched_date": "2026-08-20",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Meet the startup helping Wall Street put a price on AI compute",
+    "abstract": "The AI buildout shows no signs of slowing. And with hundreds of billions of dollars a year going into data centers and GPUs, compute has become the single biggest cost for anyone building AI products. But for all that spending, there still isn’t a straightforward way to put a price on compute — or for firms to hedge their exposure when the price changes. Silicon Data […]",
+    "url": "https://techcrunch.com/video/meet-the-startup-helping-wall-street-put-a-price-on-ai-compute/",
+    "topic": "llm",
+    "date": "2026-08-19",
+    "fetched_date": "2026-08-20",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "TerraPower’s nuclear reactor has a secret weapon for powering AI data centers",
+    "abstract": "TerraPower's nuclear power plant possesses a strategic advantage over competitors, especially when chasing after data center deals.",
+    "url": "https://techcrunch.com/2026/08/19/terrapowers-nuclear-reactor-has-a-secret-weapon-for-powering-ai-data-centers/",
+    "topic": "llm",
+    "date": "2026-08-19",
+    "fetched_date": "2026-08-20",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Amazon makes its AI-powered Alexa+ free on Fire TV, no Prime required",
+    "abstract": "Amazon is making its AI-powered Alexa+ assistant free on all compatible Fire TV devices in the U.S., automatically upgrading users whether or not they subscribe to Prime.",
+    "url": "https://techcrunch.com/2026/08/19/amazon-makes-its-ai-powered-alexa-free-on-fire-tv-no-prime-required/",
+    "topic": "llm",
+    "date": "2026-08-19",
+    "fetched_date": "2026-08-20",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Calendly throws its hat into meeting note-taker circus",
+    "abstract": "Calendly is also releasing a meeting scheduling assistant called Callie.",
+    "url": "https://techcrunch.com/2026/08/19/calendly-throws-its-hat-into-meeting-note-taker-circus/",
+    "topic": "llm",
+    "date": "2026-08-19",
+    "fetched_date": "2026-08-20",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "AI isn’t close to curing cancer. This startup says it knows what it will take.",
+    "abstract": "It's the data, stupid.",
+    "url": "https://techcrunch.com/2026/08/19/ai-isnt-close-to-curing-cancer-this-startup-says-it-knows-what-it-will-take/",
+    "topic": "llm",
+    "date": "2026-08-19",
+    "fetched_date": "2026-08-20",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Relativity Networks raises $22 million to bring a faster kind of fiber to data centers",
+    "abstract": "Relativity Networks deals in hollow-core fiber, a rarely deployed technology that allows data to be transmitted 30% faster than conventional fiber.",
+    "url": "https://techcrunch.com/2026/08/19/relativity-networks-raises-22-million-to-bring-a-faster-kind-of-fiber-to-data-centers/",
+    "topic": "llm",
+    "date": "2026-08-19",
+    "fetched_date": "2026-08-20",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "TJX to accelerate store openings as off-price continues its hot streak",
+    "abstract": "The parent company of TJ Maxx, Marshalls and HomeGoods is ramping up its store count as it sees gains in the off-price channel.",
+    "url": "https://www.modernretail.co/operations/tjx-to-accelerate-store-openings-as-off-price-continues-its-hot-streak/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-08-19",
+    "fetched_date": "2026-08-20",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Target receives almost $1 billion in tariff refunds, plans to lower prices",
+    "abstract": "Tariff refunds were a massive tailwind for Target last quarter that could help it continue to lower prices.",
+    "url": "https://www.modernretail.co/operations/target-receives-almost-1-billion-in-tariff-refunds-plans-to-lower-prices/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-08-19",
+    "fetched_date": "2026-08-20",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Inside Sticki Rolls’ YouTube strategy to tap Gen Alpha",
+    "abstract": "Toy brand Sticki Rolls is hoping to turn its YouTube creator-generated buzz into a Gen Alpha collectible brand through pop-ups and retail expansion.",
+    "url": "https://www.modernretail.co/marketing/inside-sticki-rolls-youtube-strategy-to-tap-gen-alpha/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-08-19",
+    "fetched_date": "2026-08-20",
+    "feed_name": "Modern Retail",
+    "source": "industry"
   }
 ]
