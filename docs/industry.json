@@ -23598,5 +23598,255 @@
     "fetched_date": "2026-08-20",
     "feed_name": "Modern Retail",
     "source": "industry"
+  },
+  {
+    "title": "Introducing AI Futures",
+    "abstract": "Introducing AI Futures, a new OpenAI blog exploring how transformative AI could reshape power, governance, the economy, and individual freedom.",
+    "url": "https://openai.com/index/introducing-ai-futures",
+    "topic": "llm",
+    "date": "2026-08-20",
+    "fetched_date": "2026-08-21",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Stampli cuts launch hours by 68% using ChatGPT Work",
+    "abstract": "With a fixed deadline and design resources committed elsewhere, Stampli used Codex and ChatGPT Work to compress weeks of launch production into days.",
+    "url": "https://openai.com/index/stampli",
+    "topic": "llm",
+    "date": "2026-08-20",
+    "fetched_date": "2026-08-21",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Up to 3.2x Faster Inference with LFM2.5-DSpark",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/LiquidAI/lfm25-dspark",
+    "topic": "llm",
+    "date": "2026-08-20",
+    "fetched_date": "2026-08-21",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "ChatGPT search now uses the site:operator at scale",
+    "abstract": "ChatGPT search now uses the site:operator at scale Promptwatch is part of the emerging \"GEO\" space, for Generative Engine Optimization - the chatbot version of SEO, where companies offer tools and consulting to help your site increase its presence in replies to prompts inside tools like ChatGPT. The Promptwatch product uses automation to track responses to prompts across end-user chat products like ChatGPT, Claude, and Gemini. They publish aggregate reports on this as part of their own content marketing strategy, which do seem to provide credible hints as to otherwise invisible design changes to those products. Their own tracking shows a notable change aligned with the GPT-5.6 rollout earlier this month: The percentage of all ChatGPT Search fanout queries that contain the site:operator, per day. The share hovered between 0.3% and 0.5% for weeks, dipped briefly to 0.15% on August 3 to 5 (consistent with a staged rollout or pre-launch experiment), then jumped to 16-17% on August 8. It's important to note that these figures only reflect the prompts for which they have automated tracking enabled. This corresponds to OpenAI's somewhat vague August 6th announcement : For Plus and Pro users, we’re updating GPT‑5.6 Sol in Chat to be more reliable with facts and provide more focused answers. Once again I am hampered by OpenAI's decision to actively obscure their system prompts, but from poking at ChatGPT I believe their latest search tool has a shape like search(query, recency, domains) rather than encouraging a site: operator directly. In a follow-up on August 18th Promptwatch reported that ChatGPT appeared to have greatly reduced the likelihood of Reddit being used in those searches. My own attempts to ascertain if the system prompt has been updated to discourage Reddit sourcing have been unsuccessful - the most thorough leaked system prompt collection I know of doesn't yet show any relevant changes. Tags: reddit , seo , openai , chatgpt , ai-assisted-search , system-prompts",
+    "url": "https://simonwillison.net/2026/Aug/20/chatgpt-search-now-uses-the-siteoperator-at-scale/",
+    "topic": "llm",
+    "date": "2026-08-20",
+    "fetched_date": "2026-08-21",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "A shot-scraper-style JSON API on Bun 1.4's new Bun.WebView",
+    "abstract": "Research: A shot-scraper-style JSON API on Bun 1.4's new Bun.WebView Today saw the long awaited release of Bun 1.4 , the first stable version since the infamous Rust rewrite a few months ago . Interestingly, the Rust rewrite was downplayed in the release notes, which introduced a bewildering array of new features and claimed 2,900 additional bug fixes: Bun 1.4 adds +1,517 tests from the Node.js test suite - our biggest jump in Node.js compatibility since Bun 1.0. Bun v1.4 also fixes over 2,900 issues. It reduces idle CPU usage by 5x, reduces memory usage by up to 35%, and starts 50% faster on Linux. It adds Bun.Image , Bun.WebView , Bun.markdown , Bun.cron() , Bun.Terminal , bun run --parallel , bun test --parallel , bun audit fix , bun dedupe , and bun prune . And it rewrites Bun from Zig to Rust. Of these the one that most caught my eye was Bun.WebView , which adds first class support for browser automation to Bun core using either macOS WebKit or control of a local Chromium process via the Chrome DevTools Protocol (CDP). I had Claude Code for web build a prototype of a web API providing the ability to load a web page and then execute JavaScript against it, inspired by my shot-scraper javascript CLI tool - partly to see how much RAM would be needed by such a service. Here's that TypeScript server implementation , which appears to need a 192MB-256MB container to run a full Chrome against complex web pages - tested using cgroups. Tags: browsers , javascript , ai , rust , typescript , generative-ai , llms , coding-agents , bun",
+    "url": "https://simonwillison.net/2026/Aug/20/bun-webview-json-api/",
+    "topic": "llm",
+    "date": "2026-08-20",
+    "fetched_date": "2026-08-21",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "AI data startup Micro1 reaches $500M gross run rate amid AI training boom",
+    "abstract": "Surging demand for AI training data is driving rapid growth for the startup and its rivals.",
+    "url": "https://techcrunch.com/2026/08/20/ai-data-startup-micro1-reaches-500m-gross-run-rate-amid-ai-training-boom/",
+    "topic": "llm",
+    "date": "2026-08-21",
+    "fetched_date": "2026-08-21",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "OpenAI is gaining on Anthropic with business users, new data indicates",
+    "abstract": "Businesses are willing to flop back and forth as each lab releases new models, volatility that should give both companies' investors pause about how \"sticky\" enterprise AI spending really is.",
+    "url": "https://techcrunch.com/2026/08/20/openai-is-gaining-on-anthropic-with-business-users-new-data-indicates/",
+    "topic": "llm",
+    "date": "2026-08-20",
+    "fetched_date": "2026-08-21",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "ChatGPT can now send texts for you with new Apple Messages plug-in",
+    "abstract": "Ever wanted someone else to do your texting for you? ChatGPT is being offered up as an automated text scribe via a new Apple Messages integration.",
+    "url": "https://techcrunch.com/2026/08/20/chatgpt-can-now-send-texts-for-you-with-new-apple-messages-plugin/",
+    "topic": "llm",
+    "date": "2026-08-20",
+    "fetched_date": "2026-08-21",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "OK, can we actually cool data centers with our pee?",
+    "abstract": "Jason Kelce joked that people should cool data centers with their pee, rather than potable water -- but his suggestion is not completely ludicrous.",
+    "url": "https://techcrunch.com/2026/08/20/ok-can-we-actually-cool-data-centers-with-our-pee/",
+    "topic": "llm",
+    "date": "2026-08-20",
+    "fetched_date": "2026-08-21",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Google gives publishers a new way to fight AI-driven traffic losses",
+    "abstract": "Google is giving publishers a new button that lets readers make them a preferred source across Search, Discover, and Google News, potentially boosting their traffic as AI search sends fewer clicks to the web.",
+    "url": "https://techcrunch.com/2026/08/20/google-gives-publishers-a-new-way-to-fight-ai-driven-traffic-losses/",
+    "topic": "llm",
+    "date": "2026-08-20",
+    "fetched_date": "2026-08-21",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Runlayer, Rippling drop lawsuits — but the brouhaha is still a cautionary tale for founders",
+    "abstract": "Runlayer and Rippling have dropped their lawsuits. No money was paid. Rippling celebrated by releasing a competing product.",
+    "url": "https://techcrunch.com/2026/08/20/runlayer-rippling-drop-lawsuits-but-the-brouhaha-is-still-a-cautionary-tale-for-founders/",
+    "topic": "llm",
+    "date": "2026-08-20",
+    "fetched_date": "2026-08-21",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Linkdaze’s smart calendar is built to run a household, not just track a schedule",
+    "abstract": "Linkdaze's smart digital calendar stands out for not putting its features behind a paywall, including an AI meal planner tool.",
+    "url": "https://techcrunch.com/2026/08/20/linkdazes-smart-calendar-is-built-to-run-a-household-not-just-track-a-schedule/",
+    "topic": "llm",
+    "date": "2026-08-20",
+    "fetched_date": "2026-08-21",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Grok keeps sending gibberish responses to users",
+    "abstract": "Affected users told TechCrunch they were using Grok Lite, and noticed the issues as early as Wednesday morning.",
+    "url": "https://techcrunch.com/2026/08/20/grok-keeps-sending-gibberish-responses-to-users/",
+    "topic": "llm",
+    "date": "2026-08-20",
+    "fetched_date": "2026-08-21",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "A third of web pages published since ChatGPT’s launch show signs of AI authorship, study finds",
+    "abstract": "ChatGPT and other AI models are now authoring and editing much of the new web.",
+    "url": "https://techcrunch.com/2026/08/20/a-third-of-webpages-published-since-chatgpts-launch-show-signs-of-ai-authorship-study-finds/",
+    "topic": "llm",
+    "date": "2026-08-20",
+    "fetched_date": "2026-08-21",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Ramp launches its own AI model router, called Router",
+    "abstract": "Ramp has launched its own AI model routing service, dubbed Router, that lets users and companies use and switch between various large language models via an API.",
+    "url": "https://techcrunch.com/2026/08/20/ramp-launches-its-own-ai-model-router-called-router/",
+    "topic": "llm",
+    "date": "2026-08-20",
+    "fetched_date": "2026-08-21",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Meta brings Pocket, an app that lets you vibe-code and share games, to US users",
+    "abstract": "Meta is bringing Pocket, its experimental AI-powered app for creating and sharing interactive games, to users across the U.S. after quietly testing it in Brazil.",
+    "url": "https://techcrunch.com/2026/08/20/meta-brings-pocket-an-app-that-lets-you-vibe-code-and-share-games-to-us-users/",
+    "topic": "llm",
+    "date": "2026-08-20",
+    "fetched_date": "2026-08-21",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Inertia Enterprises finds a way to make its fusion fuel fast",
+    "abstract": "Fusion power startup Inertia Enterprises reduced the fuel filling process from a week to just a few hours. It's one of 10 hurdles the company must overcome to make a profitable power plant.",
+    "url": "https://techcrunch.com/2026/08/20/inertia-enterprises-finds-a-way-to-make-its-fusion-fuel-fast/",
+    "topic": "llm",
+    "date": "2026-08-20",
+    "fetched_date": "2026-08-21",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Meta AI’s new Mac app wants you to talk to your apps",
+    "abstract": "The company said that the dictation feature works across all apps, just like other tools such as Wispr Flow, Superwhisper, and Monologue.",
+    "url": "https://techcrunch.com/2026/08/20/meta-ais-new-mac-app-wants-you-to-talk-to-your-apps/",
+    "topic": "llm",
+    "date": "2026-08-20",
+    "fetched_date": "2026-08-21",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Binance now lets AI agents trade, but keeping them in check is largely up to users",
+    "abstract": "Binance's Agent OS works with tools such as ChatGPT, Claude Code, and Cursor.",
+    "url": "https://techcrunch.com/2026/08/20/binance-now-lets-ai-agents-trade-but-keeping-them-in-check-is-largely-up-to-users/",
+    "topic": "llm",
+    "date": "2026-08-20",
+    "fetched_date": "2026-08-21",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "How We Scaled Platform Support 10x Without Scaling the Team",
+    "abstract": "Five engineers. Over 500 production applications. A user base doubling every year. Here's how the Katana platform team put AI at the front of its support workflow, automated more than 80% of support requests, turned the assistant into a feedback engine for continuous improvement, and freed the team to focus on the problems that need human expertise. The post How We Scaled Platform Support 10x Without Scaling the Team appeared first on GoDaddy Blog .",
+    "url": "https://www.godaddy.com/resources/news/how-we-scaled-platform-support-10x-without-scaling-the-team",
+    "topic": "ml-engineering",
+    "date": "2026-08-20",
+    "fetched_date": "2026-08-21",
+    "feed_name": "GoDaddy Engineering",
+    "source": "industry"
+  },
+  {
+    "title": "Walmart gets close to $3 billion in tariff refunds",
+    "abstract": "Tariff refunds continue to bolster the balance sheets of big retailers while consumers remain constrained by higher fuel prices and other macroeconomic factors.",
+    "url": "https://www.modernretail.co/operations/walmart-gets-close-to-3-billion-in-tariff-refunds/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-08-20",
+    "fetched_date": "2026-08-21",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Big-Box Briefing: Target sees sales boom in reinvented snack category",
+    "abstract": "Target has entered a new era of trendy snacks, creating more space for products like protein bars and meat sticks as part of a massive refresh of its grocery business.",
+    "url": "https://www.modernretail.co/operations/big-box-briefing-target-sees-sales-boom-in-reinvented-snack-category/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-08-20",
+    "fetched_date": "2026-08-21",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Walmart extends Scintilla data platform to Sam’s Club",
+    "abstract": "Sam's Club merchants and brands will soon be able to use Walmart's data analytics platform to better understand and predict member behavior.",
+    "url": "https://www.modernretail.co/technology/walmart-extends-scintilla-data-platform-to-sams-club/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-08-20",
+    "fetched_date": "2026-08-21",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "The new AI playbook: The rules brands are setting around customer-facing content",
+    "abstract": "While the majority of marketers say they're using AI, many are setting boundaries around use cases for customer-facing content.",
+    "url": "https://www.modernretail.co/marketing/the-new-ai-playbook-the-rules-brands-are-setting-around-customer-facing-content/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-08-20",
+    "fetched_date": "2026-08-21",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Beyond the backlash: What the Neutrogena controversy says about long-term brand loyalty",
+    "abstract": "The online backlash over Neutrogena’s handling of partnership with former ambassador Hayden Panettiere raises questions over brand cancellations, boycotts and long-term brand loyalty.",
+    "url": "https://www.modernretail.co/marketing/beyond-the-backlash-what-the-neutrogena-controversy-says-about-long-term-brand-loyalty/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-08-20",
+    "fetched_date": "2026-08-21",
+    "feed_name": "Modern Retail",
+    "source": "industry"
   }
 ]
