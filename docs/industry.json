@@ -23848,5 +23848,155 @@
     "fetched_date": "2026-08-21",
     "feed_name": "Modern Retail",
     "source": "industry"
+  },
+  {
+    "title": "Measuring benchmark optimization in speech recognition",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/asr-benchmark-optimization",
+    "topic": "llm",
+    "date": "2026-08-21",
+    "fetched_date": "2026-08-22",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "From Atari to EVE Online: Building on 15 Years of AI Research in Games",
+    "abstract": "Google DeepMind partners with game studios to prototype breakthrough AI gameplay.",
+    "url": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/",
+    "topic": "generative-ai",
+    "date": "2026-08-21",
+    "fetched_date": "2026-08-22",
+    "feed_name": "DeepMind Blog",
+    "source": "industry"
+  },
+  {
+    "title": "A Tale of Two Flink Autoscalers",
+    "abstract": "",
+    "url": "https://netflixtechblog.com/a-tale-of-two-flink-autoscalers-e9f6a1b1492b?source=rss----2615bd06b42e---4",
+    "topic": "ml-engineering",
+    "date": "2026-08-21",
+    "fetched_date": "2026-08-22",
+    "feed_name": "Netflix Tech Blog",
+    "source": "industry"
+  },
+  {
+    "title": "llm 0.32.1",
+    "abstract": "Release: llm 0.32.1 Fresh installs of LLM stopped working the other day because the OpenAI Python library dropped its usage of httpx , and it turned out LLM depended on that library but only installed it via a transitive openai dependency. This dot-release fixes that for the moment by pinning to openai<3 , and a soon-to-drop 0.33 release will switch from httpx to httpx2 . Tags: httpx , openai , llm",
+    "url": "https://simonwillison.net/2026/Aug/21/llm/",
+    "topic": "llm",
+    "date": "2026-08-21",
+    "fetched_date": "2026-08-22",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "llm-openrouter 0.7",
+    "abstract": "Release: llm-openrouter 0.7 Now that this plugin is compatible with LLM 0.32 it works much better with reasoning LLMs available through OpenRouter. Updated for compatibility with LLM 0.32 . Models now use OpenRouter's implementation of the Responses API . Three new server-side tools: Shell , WebFetch , and WebSearch . Enable these with options like -T WebSearch . Tags: llm , openrouter",
+    "url": "https://simonwillison.net/2026/Aug/21/llm-openrouter/",
+    "topic": "llm",
+    "date": "2026-08-21",
+    "fetched_date": "2026-08-22",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Stop Making TUIs",
+    "abstract": "Stop Making TUIs Thomas Ptacek advocates for building real native user interfaces for even the smallest of personal tools, because coding agents have reduced the cost of getting a usable-enough GUI up and running to almost nothing. I wrote about my vibe-coded bandwidth and GPU monitoring macOS task bar apps back in March , and I'm still using both of those on a daily basis. I'm not habitually knocking out real UIs for my other projects yet, but I'm running out of excuses! Thomas: If you haven’t tried your hand at turning one of your 500 throwaway CLIs into a native app, you’re doing yourself a disservice. Go build a native UI. It’ll probably change the way you think. Tags: thomas-ptacek , ai , generative-ai , llms , vibe-coding , coding-agents",
+    "url": "https://simonwillison.net/2026/Aug/21/stop-making-tuis/",
+    "topic": "llm",
+    "date": "2026-08-21",
+    "fetched_date": "2026-08-22",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Quoting Matt Webb",
+    "abstract": "After I released version 1.0, I figured I would have to do the rotations myself. So I sat down with ChatGPT and I didn’t get it to write the code, but I got it to educate me. With a patient, interactive tutor, I was able to finally do what I hadn’t by reading books and asking mathematician friends – I learnt how to use quaternions just enough to make the app work. So learning doesn’t stop just because I outsource a bunch of thinking to AI. It pushes me to learn more. I like that as an outcome. — Matt Webb , Galactic Compass 2: now with new augmented reality mode Tags: matt-webb , generative-ai , chatgpt , education , ai , llms",
+    "url": "https://simonwillison.net/2026/Aug/21/matt-webb/",
+    "topic": "llm",
+    "date": "2026-08-21",
+    "fetched_date": "2026-08-22",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "How America Turned Against the AI Industry",
+    "abstract": "Is this the final chapter of the story?",
+    "url": "https://www.thealgorithmicbridge.com/p/how-america-turned-against-the-ai",
+    "topic": "llm",
+    "date": "2026-08-21",
+    "fetched_date": "2026-08-22",
+    "feed_name": "The Algorithmic Bridge",
+    "source": "industry"
+  },
+  {
+    "title": "Anthropic’s Opus 4.6 is a smut-machine",
+    "abstract": "Anthropic forbids its Claude models from generating sexually explicit content. But a series of tests conducted by TechCrunch found that it didn't take much to get past the restriction.",
+    "url": "https://techcrunch.com/2026/08/21/anthropics-opus-4-6-is-a-smut-machine/",
+    "topic": "llm",
+    "date": "2026-08-21",
+    "fetched_date": "2026-08-22",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Nvidia partners with data center developer Cloverleaf",
+    "abstract": "Nvidia continues to pour money into data center development — just as AI data centers bring lots of money into Nvidia.",
+    "url": "https://techcrunch.com/2026/08/21/nvidia-partners-with-data-center-developer-cloverleaf/",
+    "topic": "llm",
+    "date": "2026-08-21",
+    "fetched_date": "2026-08-22",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Nvidia just showed that the harness, not the AI model, is now the real hero",
+    "abstract": "Nvidia research shows that AI agents can perform well, and not go off the deep end, through fine-tuning, even if the AI model isn't that great at the task.",
+    "url": "https://techcrunch.com/2026/08/21/nvidia-just-showed-that-the-harness-not-the-ai-model-is-now-the-real-hero/",
+    "topic": "llm",
+    "date": "2026-08-21",
+    "fetched_date": "2026-08-22",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "The DOJ is investigating a16z. What does this mean for venture capital?",
+    "abstract": "Andreessen Horowitz has two partners sitting on the boards of companies that now compete with each other: Ben Horowitz at Databricks and Martin Casado at Fivetran. Nothing too scandalous on the surface, except the Department of Justice has reportedly been investigating the arrangement for almost a year, dusting off a 112-year-old antitrust law that’s rarely used against VCs. Board conflicts aren’t exactly new, and these companies weren’t necessarily direct competitors when a16z first invested […]",
+    "url": "https://techcrunch.com/podcast/the-doj-is-investigating-a16z-what-does-this-mean-for-venture-capital/",
+    "topic": "llm",
+    "date": "2026-08-21",
+    "fetched_date": "2026-08-22",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Starcloud raises $250 million for orbital data centers as launch options dry up",
+    "abstract": "There's about to be a big fight to secure access to space.",
+    "url": "https://techcrunch.com/2026/08/21/starcloud-raises-200-million-for-orbital-data-centers-as-launch-options-dry-up/",
+    "topic": "llm",
+    "date": "2026-08-21",
+    "fetched_date": "2026-08-22",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Walmart finally starts supporting Apple Pay and Google Pay",
+    "abstract": "By the end of this year, shoppers will finally be able to use Apple Pay and Google Pay in Walmart stores, ending years of frustration that the retailer didn't support what is now a nearly ubiquitous payment option.",
+    "url": "https://www.modernretail.co/technology/walmart-finally-starts-supporting-apple-pay-and-google-pay/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-08-21",
+    "fetched_date": "2026-08-22",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "With a record $2.7B in sales, U.S. Polo Assn. is scoring points with younger audiences",
+    "abstract": "U.S. Polo Assn. is celebrating a record year, thanks to its larger store footprint and growing fanbase of teens and twenty-somethings.",
+    "url": "https://www.modernretail.co/operations/with-a-record-2-7b-in-sales-u-s-polo-assn-is-scoring-points-with-younger-audiences/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-08-21",
+    "fetched_date": "2026-08-22",
+    "feed_name": "Modern Retail",
+    "source": "industry"
   }
 ]
