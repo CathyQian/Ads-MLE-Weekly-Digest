@@ -12628,5 +12628,75 @@
     "fetched_date": "2026-08-22",
     "feed_name": "TechCrunch",
     "source": "startup"
+  },
+  {
+    "title": "Harvard’s $699 startup bootcamp offers AI avatars of its instructors",
+    "abstract": "In the HBS Foundry program, AI avatars provide feedback during practice pitches and board meetings.",
+    "url": "https://techcrunch.com/2026/08/22/harvards-699-startup-bootcamp-offers-ai-avatars-of-its-instructors/",
+    "topic": "startup",
+    "date": "2026-08-22",
+    "fetched_date": "2026-08-23",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Will the DOJ’s investigation into a16z spook other VCs?",
+    "abstract": "On the latest episode of Equity, we wonder why the DOJ is investigating startup board seats.",
+    "url": "https://techcrunch.com/2026/08/22/will-the-dojs-investigation-into-a16z-spook-other-vcs/",
+    "topic": "startup",
+    "date": "2026-08-22",
+    "fetched_date": "2026-08-23",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Inherent, founded by DeepMind alumni, says its AI ‘teammate’ just outperformed Anthropic and OpenAI at replicating research",
+    "abstract": "Built by DeepMind alumni, British AI lab Inherent released Faraday, an AI agent whose ability to replicate scientific papers could be a stepping stone for innovation.",
+    "url": "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/",
+    "topic": "startup",
+    "date": "2026-08-22",
+    "fetched_date": "2026-08-23",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "OpenAI says California should strengthen its AI safety bill",
+    "abstract": "OpenAI is calling for California to strengthen SB 53, an AI safety bill that the company previously opposed.",
+    "url": "https://techcrunch.com/2026/08/22/openai-says-california-should-strengthen-its-ai-safety-bill/",
+    "topic": "startup",
+    "date": "2026-08-22",
+    "fetched_date": "2026-08-23",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Frontier AI labs still won’t say how they’d contain a rogue model",
+    "abstract": "A new study finds leading AI labs have few publicly documented plans for containing rogue models, raising questions about preparedness as AI systems increasingly demonstrate unexpected and potentially dangerous behavior.",
+    "url": "https://techcrunch.com/2026/08/22/frontier-ai-labs-still-wont-say-how-theyd-contain-a-rogue-model/",
+    "topic": "startup",
+    "date": "2026-08-22",
+    "fetched_date": "2026-08-23",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "US battery startups have found a lifeline in defense",
+    "abstract": "U.S. battery startups pulled in $500 million in grants from the Department of Energy, throwing a lifeline to an industry that was on the ropes after EV incentives were slashed.",
+    "url": "https://techcrunch.com/2026/08/22/us-battery-startups-have-found-a-lifeline-in-defense/",
+    "topic": "startup",
+    "date": "2026-08-22",
+    "fetched_date": "2026-08-23",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Pixel 11 Pro XL review: Snappier cameras can’t hide an iterative upgrade",
+    "abstract": "Google’s Pixel 11 Pro XL brings snappier cameras and genuinely useful AI features like Rambler, but its iterative upgrades may not be enough to tempt recent Pixel owners.",
+    "url": "https://techcrunch.com/2026/08/22/pixel-11-pro-xl-review-snappier-cameras-cant-hide-an-iterative-upgrade/",
+    "topic": "startup",
+    "date": "2026-08-22",
+    "fetched_date": "2026-08-23",
+    "feed_name": "TechCrunch",
+    "source": "startup"
   }
 ]
