@@ -24078,5 +24078,65 @@
     "fetched_date": "2026-08-23",
     "feed_name": "Modern Retail",
     "source": "industry"
+  },
+  {
+    "title": "Anthropic’s best AI model struggles to attract users as cheaper tools thrive",
+    "abstract": "Anthropic’s best AI model struggles to attract users as cheaper tools thrive A few interesting numbers in this FT story gathered from \"people with knowledge of the matter\": Anthropic's \"annualized revenue\" for July is up to $65bn - it was $47bn in May, and I collected more historic numbers here . Anthropic expect Q3 to be profitable according to the same model they used to declare Q2 profitable. \"It also told investors that it had 6,000 customers that spend $100,000 annually or more.\" As for OpenAI, \"annualised revenue has jumped 35 per cent in the quarter to date and is now over $40bn, with the launch of GPT 5.6 in July jolting the company’s performance after a sluggish start to the year\". This article also introduced me to the Ramp AI index , which uses billing data from 70,000 Ramp credit card using companies to estimate model adoption. Here's Ramp's breakdown of Anthropic model spend for July 2026, which looks reasonable given that Opus 5 was only released on July 24th, and supports the idea that Fable's cost has made it a less popular model: Opus 4.8: 28.0% Sonnet 4.6: 8.3% Fable 5: 8.0% Opus 4.6: 6.9% Sonnet 5: 3.6% Opus 5: 3.5% Opus 4.7: 1.7% Sonnet 4.5: 1.3% Haiku 4.5: 1.0% Opus 4.5: 0.7% Via Hacker News Tags: ai , openai , generative-ai , llms , anthropic , claude , claude-mythos-fable",
+    "url": "https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t/",
+    "topic": "llm",
+    "date": "2026-08-23",
+    "fetched_date": "2026-08-24",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Quoting Drew Breunig",
+    "abstract": "Prior to Fable, it felt silly to waste too much time improving your coding harness or context strategies. A new model would arrive at the same price (or cheaper!) and paper over most of your problems. But then Fable landed. It was (and still is!) incredible . But the cost was so high and Opus was good enough (as was 5.6, K3, and even GLM) for most of the code we needed. So we started to think about what work went where. — Drew Breunig , Fable & The End of the Free Lunch Tags: drew-breunig , anthropic , claude , llm-pricing , ai , llms , generative-ai , claude-mythos-fable",
+    "url": "https://simonwillison.net/2026/Aug/23/drew-breunig/",
+    "topic": "llm",
+    "date": "2026-08-23",
+    "fetched_date": "2026-08-24",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Who’s behind the new ‘stealth model’ Ox Alpha?",
+    "abstract": "A mysterious new AI model called Ox Alpha has driven certain corners of the internet into a frenzy of speculation.",
+    "url": "https://techcrunch.com/2026/08/23/whos-behind-the-new-stealth-model-ox-alpha/",
+    "topic": "llm",
+    "date": "2026-08-23",
+    "fetched_date": "2026-08-24",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Linkdaze’s smart calendar is built to run a household, not just track a schedule",
+    "abstract": "Linkdaze's smart digital calendar stands out for not putting its features behind a paywall, including an AI meal planner tool.",
+    "url": "https://techcrunch.com/2026/08/23/linkdazes-smart-calendar-is-built-to-run-a-household-not-just-track-a-schedule/",
+    "topic": "llm",
+    "date": "2026-08-23",
+    "fetched_date": "2026-08-24",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Flock CEO calls for ‘compromise’ as surveillance company faces growing backlash",
+    "abstract": "Flock Safety faces a growing public outcry over concerns that its surveillance technology could be misused.",
+    "url": "https://techcrunch.com/2026/08/23/flock-ceo-calls-for-compromise-as-surveillance-company-faces-growing-backlash/",
+    "topic": "llm",
+    "date": "2026-08-23",
+    "fetched_date": "2026-08-24",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Is it legal to train AI models on copyrighted books? It’s complicated",
+    "abstract": "Most published authors have, without their knowledge or consent, contributed to the development of the same AI tools that threaten to undermine their livelihoods. That seems illegal, right?",
+    "url": "https://techcrunch.com/2026/08/23/is-it-legal-to-train-ai-models-on-copyrighted-books-its-complicated/",
+    "topic": "llm",
+    "date": "2026-08-23",
+    "fetched_date": "2026-08-24",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
   }
 ]
