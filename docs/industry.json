@@ -24138,5 +24138,125 @@
     "fetched_date": "2026-08-24",
     "feed_name": "TechCrunch AI",
     "source": "industry"
+  },
+  {
+    "title": "Advancing price-performance for developers with GPT‑5.6 in Kiro",
+    "abstract": "GPT‑5.6 is now available in Kiro, helping developers plan, build, review, and test software with better price-performance.",
+    "url": "https://openai.com/index/gpt-5-6-in-kiro",
+    "topic": "llm",
+    "date": "2026-08-24",
+    "fetched_date": "2026-08-25",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "llm-anthropic 0.27",
+    "abstract": "Release: llm-anthropic 0.27 This release of the Anthropic plugin for LLM mainly provides compatibility with the recently released anthropic v1.0.0 Python library, which switches from httpx to httpx2 . OpenAI made the same change in their v3.0.0 release two weeks ago. Anthropic provide this migration guide for upgrading to 1.0, so I prompted Fable 5 in Claude Code with: Upgrade to anthropic>=1 - read https://raw.githubusercontent.com/anthropics/anthropic-sdk-python/refs/heads/main/MIGRATION.md and get the tests passing Here's the resulting PR . Tags: python , httpx , llm , anthropic , claude",
+    "url": "https://simonwillison.net/2026/Aug/24/llm-anthropic/",
+    "topic": "llm",
+    "date": "2026-08-24",
+    "fetched_date": "2026-08-25",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Your executable is a SQLite database",
+    "abstract": "Your executable is a SQLite database Farid Zakaria describes a neat Linux pattern for creating a SQLite database file that can be directly used as an executable binary. The trick sets the SQLite file format's 4-byte application ID (68 bytes into the file) to SELF, standing for Structured Executable & Linkable Format. The various components of the ELF executable format are then arranged into a number of different SQLite tables, using this schema . Their self-exec interpreter ( C code here ) can then extract and execute the necessary pieces. You can additionally use a Linux mechanism called binfmt_misc to teach the kernel to execute that any time it encounters an executable matching that binary pattern. Farid uses NixOS here, but without NixOS I think registration looks something like this: printf '%s\\n' ':self:M:68:SELF::/usr/local/bin/self-exec:' \\ > /proc/sys/fs/binfmt_misc/register Via Hacker News Tags: c , linux , sqlite",
+    "url": "https://simonwillison.net/2026/Aug/24/your-executable-is-a-sqlite-database/",
+    "topic": "llm",
+    "date": "2026-08-24",
+    "fetched_date": "2026-08-25",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Situational Awareness, star AI hedge fund that nearly imploded, now being probed by the SEC",
+    "abstract": "The AI hedge fund went from \"the talk of Wall Street\" to \"subject of federal subpoenas\" faster than you can say \"diversify your portfolio.\"",
+    "url": "https://techcrunch.com/2026/08/24/situational-awareness-star-ai-hedge-fund-that-nearly-imploded-now-being-probed-by-the-sec/",
+    "topic": "llm",
+    "date": "2026-08-25",
+    "fetched_date": "2026-08-25",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Trump bought SpaceX shares two weeks after blockbuster IPO",
+    "abstract": "The president bought when the stock was in the mid-$150 range. SpaceX finished trading on Monday back at its IPO price of $135.",
+    "url": "https://techcrunch.com/2026/08/24/trump-bought-spacex-shares-two-weeks-after-blockbuster-ipo/",
+    "topic": "llm",
+    "date": "2026-08-24",
+    "fetched_date": "2026-08-25",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Amjad Masad, CEO and co-founder of Replit, joins the Disrupt Stage at TechCrunch Disrupt 2026",
+    "abstract": "At TechCrunch Disrupt 2026, Replit CEO Amjad Masad will share his perspective on the future of programming and Replit's role in developing it.",
+    "url": "https://techcrunch.com/2026/08/24/amjad-masad-ceo-and-co-founder-of-replit-joins-the-disrupt-stage-at-techcrunch-disrupt-2026/",
+    "topic": "llm",
+    "date": "2026-08-24",
+    "fetched_date": "2026-08-25",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Instinct’s powerful AI assistant is raising privacy and security concerns",
+    "abstract": "Early testers are raving about what Instinct can do, but some say the AI assistant’s sweeping access, broad terms and ability to act on users’ behalf come with uncomfortable trade-offs.",
+    "url": "https://techcrunch.com/2026/08/24/instincts-powerful-ai-assistant-is-raising-privacy-and-security-concerns/",
+    "topic": "llm",
+    "date": "2026-08-24",
+    "fetched_date": "2026-08-25",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Valor, Point72 back General Intuition at $6B valuation as AI startup pushes into robotics",
+    "abstract": "General Intuition, the startup building a foundation model that trains generalized AI agents how to move through space and time, is in talks to raise at a $6 billion pre-money valuation from new investors including Valor Ventures, Point72 Ventures, and Seven Seven Six.",
+    "url": "https://techcrunch.com/2026/08/24/valor-point72-back-general-intuition-at-6b-valuation-as-ai-startup-pushes-into-robotics/",
+    "topic": "llm",
+    "date": "2026-08-24",
+    "fetched_date": "2026-08-25",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "OpenAI is building AI agents for everything. Will everyone use them?",
+    "abstract": "Inside the frontier lab’s push to bring AI agents from software engineers to the masses.",
+    "url": "https://techcrunch.com/2026/08/24/openai-is-building-an-ai-agent-for-everything-will-everyone-use-them/",
+    "topic": "llm",
+    "date": "2026-08-24",
+    "fetched_date": "2026-08-25",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Hugging Face reportedly in talks to be acquired for $13B",
+    "abstract": "Hugging Face has reportedly been fielding acquisition offers that would value the company at around $13B. But with the founders' feeling of responsibility to community, doubts arise as to whether a sale will happen.",
+    "url": "https://techcrunch.com/2026/08/24/hugging-face-reportedly-in-talks-to-be-acquired-for-13b/",
+    "topic": "llm",
+    "date": "2026-08-24",
+    "fetched_date": "2026-08-25",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Why more companies are investing in same-day shipping",
+    "abstract": "More companies are rolling out services to speed up shipping and delivery as the costs to deploy such systems comes down.",
+    "url": "https://www.modernretail.co/operations/why-more-companies-are-investing-in-same-day-shipping/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-08-24",
+    "fetched_date": "2026-08-25",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Hershey is using AI to strategize for s’mores season",
+    "abstract": "The Hershey Company has started using new AI tools to maximize sales performance of s'mores ingredients in stores — including its own chocolates, as well as marshmallows and graham crackers.",
+    "url": "https://www.modernretail.co/marketing/hershey-starts-using-ai-to-strategize-for-smores-season/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-08-24",
+    "fetched_date": "2026-08-25",
+    "feed_name": "Modern Retail",
+    "source": "industry"
   }
 ]
