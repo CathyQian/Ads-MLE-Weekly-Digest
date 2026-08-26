@@ -12838,5 +12838,135 @@
     "fetched_date": "2026-08-25",
     "feed_name": "TechCrunch",
     "source": "startup"
+  },
+  {
+    "title": "Robotics startup Generalist reaches $3B valuation, sources say",
+    "abstract": "The $200 million extension comes just months after the physical AI startup reached a $2 billion valuation.",
+    "url": "https://techcrunch.com/2026/08/25/robotics-startup-generalist-reaches-3b-valuation-sources-say/",
+    "topic": "startup",
+    "date": "2026-08-26",
+    "fetched_date": "2026-08-26",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "OpenAI loses a top data center exec, as stream of high-profile departures continues",
+    "abstract": "Before Malone left, OpenAI had already reshuffled its infrastructure org, shifting his reporting line away from President Greg Brockman and putting Vice President Sachin Katti in charge of the group.",
+    "url": "https://techcrunch.com/2026/08/25/openai-loses-a-top-data-center-exec-as-stream-of-high-profile-departures-continues/",
+    "topic": "startup",
+    "date": "2026-08-26",
+    "fetched_date": "2026-08-26",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Instagram’s ‘First Draft’ feature aims to make editing Reels less tedious",
+    "abstract": "Instagram says the process can produce a first pass in under 10 seconds, potentially saving creators significant editing time while making video creation more approachable for people who don't have much experience with editing software.",
+    "url": "https://techcrunch.com/2026/08/25/instagrams-first-draft-feature-aims-to-make-editing-reels-less-tedious/",
+    "topic": "startup",
+    "date": "2026-08-25",
+    "fetched_date": "2026-08-26",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Stability AI, maker of image generator Stable Diffusion, raises $76 million in fresh funding",
+    "abstract": "The company's new fundraising total now stands at $232 million.",
+    "url": "https://techcrunch.com/2026/08/25/stability-ai-maker-of-image-generator-stable-diffusion-raises-76-million-in-fresh-funding/",
+    "topic": "startup",
+    "date": "2026-08-25",
+    "fetched_date": "2026-08-26",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Your vote matters! Decide which Audience Choice sessions will make it to TechCrunch Founder Summit",
+    "abstract": "Each year, we get a huge influx of applicants to speak at TechCrunch’s events, and this year’s Founder Summit in Boston on November 4 will be no different!",
+    "url": "https://techcrunch.com/2026/08/25/your-vote-matters-decide-which-audience-choice-sessions-will-make-it-to-techcrunch-founder-summit/",
+    "topic": "startup",
+    "date": "2026-08-25",
+    "fetched_date": "2026-08-26",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Tonight marks your last chance to save up to $300 on a TechCrunch Disrupt 2026 pass",
+    "abstract": "If you’ve been circling around Disrupt, then now’s the best time to lock in your pass and start getting ready to join the rest of the startup community gathering in San Francisco from October 13-15 at Moscone West!",
+    "url": "https://techcrunch.com/2026/08/25/tonight-marks-your-last-chance-to-save-up-to-300-on-a-techcrunch-disrupt-2026-pass/",
+    "topic": "startup",
+    "date": "2026-08-25",
+    "fetched_date": "2026-08-26",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Claude Cowork finally remembers what you told the app in chat",
+    "abstract": "Anthropic is giving Claude a shared memory across chat and Cowork, so users no longer have to repeatedly brief the AI on projects, preferences, and other context.",
+    "url": "https://techcrunch.com/2026/08/25/claude-cowork-finally-remembers-what-you-told-the-app-in-chat/",
+    "topic": "startup",
+    "date": "2026-08-25",
+    "fetched_date": "2026-08-26",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Pacific Fusion’s next fusion machine could clear a key hurdle to commercial power",
+    "abstract": "Fusion startup Pacific Fusion broke ground on a demonstration facility in New Mexico that it says will generate enough energy to power itself.",
+    "url": "https://techcrunch.com/2026/08/25/pacific-fusion-next-fusion-machine-could-clear-key-hurdle-to-commercial-power/",
+    "topic": "startup",
+    "date": "2026-08-25",
+    "fetched_date": "2026-08-26",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Gamma acquires Accel-backed design startup Lica",
+    "abstract": "Lica co-founders are going to work on Gamma's new research team.",
+    "url": "https://techcrunch.com/2026/08/25/gamma-acquires-accel-backed-design-startup-lica/",
+    "topic": "startup",
+    "date": "2026-08-25",
+    "fetched_date": "2026-08-26",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Apple rescues Hide My Email feature from the privacy scrap heap",
+    "abstract": "Apple says it will no longer ditch using its icloud.com domain for hiding people's email addresses.",
+    "url": "https://techcrunch.com/2026/08/25/apple-rescues-hide-my-email-feature-from-the-privacy-scrap-heap/",
+    "topic": "startup",
+    "date": "2026-08-25",
+    "fetched_date": "2026-08-26",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "OpenAI’s Jalapeño chip is built for fast inference at scale, benchmarks show",
+    "abstract": "Tested on SemiAnalysis’ InferenceX benchmark, Jalapeño registered both more tokens per user and more throughput per kilowatt than the currently available state-of-the art.",
+    "url": "https://techcrunch.com/2026/08/25/openais-jalapeno-chip-is-built-for-fast-inference-at-scale-benchmarks-show/",
+    "topic": "startup",
+    "date": "2026-08-25",
+    "fetched_date": "2026-08-26",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Self-driving truck startup Gatik raises $200M following PepsiCo deal",
+    "abstract": "The funding, Gatik's largest so far, was led by Qatar Investment Authority and Koch Disruptive Technologies.",
+    "url": "https://techcrunch.com/2026/08/25/self-driving-truck-startup-gatik-raises-200m-following-pepsico-deal/",
+    "topic": "startup",
+    "date": "2026-08-25",
+    "fetched_date": "2026-08-26",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Andy Dunn’s startup Pie becomes less of an events app and more of a social network",
+    "abstract": "The social app founded by Bonobos co-founder Andy Dunn is expanding beyond events with new digital homes for groups to connect, organize, and make plans.",
+    "url": "https://techcrunch.com/2026/08/25/andy-dunns-startup-pie-becomes-less-of-an-events-app-and-more-of-a-social-network/",
+    "topic": "startup",
+    "date": "2026-08-25",
+    "fetched_date": "2026-08-26",
+    "feed_name": "TechCrunch",
+    "source": "startup"
   }
 ]

@@ -24258,5 +24258,245 @@
     "fetched_date": "2026-08-25",
     "feed_name": "Modern Retail",
     "source": "industry"
+  },
+  {
+    "title": "The full stack behind abundant intelligence",
+    "abstract": "OpenAI CFO Sarah Friar explains how advances across chips, compute, models, and products compound to deliver more useful intelligence at greater scale and lower cost.",
+    "url": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
+    "topic": "llm",
+    "date": "2026-08-25",
+    "fetched_date": "2026-08-26",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
+    "abstract": "Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.",
+    "url": "https://openai.com/index/jalapeno-first-results",
+    "topic": "llm",
+    "date": "2026-08-25",
+    "fetched_date": "2026-08-26",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Disrupting a new covert influence campaign from Russia",
+    "abstract": "OpenAI banned Russia-origin accounts using AI to promote a fake Israel-based think tank and a “sovereignty” index praising Russia and criticizing the West.",
+    "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
+    "topic": "llm",
+    "date": "2026-08-25",
+    "fetched_date": "2026-08-26",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Introducing the Admin plugin for ChatGPT Work and Codex",
+    "abstract": "Use the Admin plugin for ChatGPT Work and Codex to analyze workspace usage, manage members and permissions, adjust limits, and act on admin requests.",
+    "url": "https://openai.com/index/introducing-admin-plugin",
+    "topic": "llm",
+    "date": "2026-08-25",
+    "fetched_date": "2026-08-26",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Granite 4.2 LLMs: How They're Built",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/ibm-granite/granite-4-2",
+    "topic": "llm",
+    "date": "2026-08-25",
+    "fetched_date": "2026-08-26",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
+    "topic": "llm",
+    "date": "2026-08-25",
+    "fetched_date": "2026-08-26",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Wire It, Run It, Deploy It: AI Workflows in Gradio",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/gradio-workflow-guide",
+    "topic": "llm",
+    "date": "2026-08-25",
+    "fetched_date": "2026-08-26",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Project Lighthouse — Part 3: Introducing project-lighthouse-anonymize",
+    "abstract": "",
+    "url": "https://medium.com/airbnb-engineering/project-lighthouse-part-3-introducing-project-lighthouse-anonymize-74f8b26653fb?source=rss----53c7c27702d5---4",
+    "topic": "ml-engineering",
+    "date": "2026-08-25",
+    "fetched_date": "2026-08-26",
+    "feed_name": "Airbnb Engineering",
+    "source": "industry"
+  },
+  {
+    "title": "EVE Online: The Move to Python 3 Begins!",
+    "abstract": "EVE Online: The Move to Python 3 Begins! EVE Online has been one of the most interesting case studies in Python at scale for over twenty years now. They've been running on Stackless Python since their launch in 2003, and their last major upgrade was 16 years ago, to Stackless Python 2.7 in 2010 . Their upgrade to Python 3 will start using the futurize script against 2.4 million lines of code, followed by careful manual review of the ~20,000 places where Python 2 and 3 behavior differ - for example 1 / 2 is 0 in Python 2 but is 0.5 in Python 3. There's nothing in this announcement about how they plan to replace Stackless, but at their conference last year they presented Scheduling in Carbon: Leaving Stackless Python Behind describing how they replaced Stackless in the Carbon engine for their more recent game EVE Frontier, using their (now open source) carbonengine/scheduler library. Via Lobster.rs Tags: eve-online , migrations , python , python3 , stackless",
+    "url": "https://simonwillison.net/2026/Aug/25/eve-online-move-to-python-3/",
+    "topic": "llm",
+    "date": "2026-08-25",
+    "fetched_date": "2026-08-26",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Robotics startup Generalist reaches $3B valuation, sources say",
+    "abstract": "The $200 million extension comes just months after the physical AI startup reached a $2 billion valuation.",
+    "url": "https://techcrunch.com/2026/08/25/robotics-startup-generalist-reaches-3b-valuation-sources-say/",
+    "topic": "llm",
+    "date": "2026-08-26",
+    "fetched_date": "2026-08-26",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "OpenAI loses a top data center exec, as stream of high-profile departures continues",
+    "abstract": "Before Malone left, OpenAI had already reshuffled its infrastructure org, shifting his reporting line away from President Greg Brockman and putting Vice President Sachin Katti in charge of the group.",
+    "url": "https://techcrunch.com/2026/08/25/openai-loses-a-top-data-center-exec-as-stream-of-high-profile-departures-continues/",
+    "topic": "llm",
+    "date": "2026-08-26",
+    "fetched_date": "2026-08-26",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Stability AI, maker of image generator Stable Diffusion, raises $76 million in fresh funding",
+    "abstract": "The company's new fundraising total now stands at $232 million.",
+    "url": "https://techcrunch.com/2026/08/25/stability-ai-maker-of-image-generator-stable-diffusion-raises-76-million-in-fresh-funding/",
+    "topic": "llm",
+    "date": "2026-08-25",
+    "fetched_date": "2026-08-26",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Claude Cowork finally remembers what you told the app in chat",
+    "abstract": "Anthropic is giving Claude a shared memory across chat and Cowork, so users no longer have to repeatedly brief the AI on projects, preferences, and other context.",
+    "url": "https://techcrunch.com/2026/08/25/claude-cowork-finally-remembers-what-you-told-the-app-in-chat/",
+    "topic": "llm",
+    "date": "2026-08-25",
+    "fetched_date": "2026-08-26",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Gamma acquires Accel-backed design startup Lica",
+    "abstract": "Lica co-founders are going to work on Gamma's new research team.",
+    "url": "https://techcrunch.com/2026/08/25/gamma-acquires-accel-backed-design-startup-lica/",
+    "topic": "llm",
+    "date": "2026-08-25",
+    "fetched_date": "2026-08-26",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "OpenAI’s Jalapeño chip is built for fast inference at scale, benchmarks show",
+    "abstract": "Tested on SemiAnalysis’ InferenceX benchmark, Jalapeño registered both more tokens per user and more throughput per kilowatt than the currently available state-of-the art.",
+    "url": "https://techcrunch.com/2026/08/25/openais-jalapeno-chip-is-built-for-fast-inference-at-scale-benchmarks-show/",
+    "topic": "llm",
+    "date": "2026-08-25",
+    "fetched_date": "2026-08-26",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Accel-backed Keenable is indexing the web for AI agents",
+    "abstract": "Now exiting stealth mode with a $26 million seed round, Keenable has been building a vast web search index for AI agents.",
+    "url": "https://techcrunch.com/2026/08/25/accel-backed-keenable-is-indexing-the-web-for-ai-agents/",
+    "topic": "llm",
+    "date": "2026-08-25",
+    "fetched_date": "2026-08-26",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "‘The world seems to be ready’: An interview with OpenAI head of product Thibault Sottiaux",
+    "abstract": "TechCrunch talks agents, UX, and reporting to Greg Brockman with OpenAI's head of product.",
+    "url": "https://techcrunch.com/2026/08/25/the-world-seems-to-be-ready-an-interview-with-openai-head-of-product-thibault-sottiaux/",
+    "topic": "llm",
+    "date": "2026-08-25",
+    "fetched_date": "2026-08-26",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Dick’s Sporting Goods says it’s ‘still early in the Foot Locker turnaround’ as it cites footwear challenges",
+    "abstract": "Dick's Sporting Goods says it remains bullish on its Foot Locker business, even as it lowered its yearly guidance for the segment, citing \"challenging conditions\" in the athletic footwear market.",
+    "url": "https://www.modernretail.co/operations/dicks-sporting-goods-says-its-still-early-in-the-foot-locker-turnaround-as-it-cites-footwear-challenges/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-08-25",
+    "fetched_date": "2026-08-26",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Brands Briefing: To grow sales on Amazon, brands are turning to TikTok Shop",
+    "abstract": "While TikTok Shop is still fairly young, it's proving crucial to brands' sales across other channels, particularly Amazon.",
+    "url": "https://www.modernretail.co/operations/brands-briefing-to-grow-sales-on-amazon-brands-are-turning-to-tiktok-shop/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-08-25",
+    "fetched_date": "2026-08-26",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Exclusive: Beauty service Ipsy is becoming a marketing solutions company, too",
+    "abstract": "Ipsy is now offering marketing services as it looks to onboard new brands and court more customers.",
+    "url": "https://www.modernretail.co/marketing/exclusive-beauty-service-ipsy-is-becoming-a-marketing-solutions-company-too/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-08-25",
+    "fetched_date": "2026-08-26",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Topgolf hasn’t done much retail media, licensing. Its new CEO wants to change that",
+    "abstract": "The new CEO of Topgolf believes the brand has significant opportunities to grow revenue both within its entertainment venues and at outside retailers.",
+    "url": "https://www.modernretail.co/marketing/topgolf-hasnt-done-much-retail-media-licensing-its-new-ceo-wants-to-change-that/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-08-25",
+    "fetched_date": "2026-08-26",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Why more celebrity-led brands are shutting down",
+    "abstract": "The latest celebrity brands to shut down are Messi's Mas+ and Alex Cooper's Unwell, proving that major buzz fades quickly in the saturated celebrity-led CPG space.",
+    "url": "https://www.modernretail.co/operations/why-more-celebrity-led-brands-are-shutting-down/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-08-25",
+    "fetched_date": "2026-08-26",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Brands face death by a ‘thousand cuts’ as supply chain pressures and material costs eat into profit margins",
+    "abstract": "One of the common themes of Modern Retail's recent Leaders Dinner was just how much retail today is a battle of inches. Margins are being eroded little by little by third-party fees, tariffs, increased operations costs and a thousand other small things.",
+    "url": "https://www.modernretail.co/operations/brands-face-death-by-a-thousand-cuts-as-supply-chain-pressures-and-material-costs-eat-into-profit-margins/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-08-25",
+    "fetched_date": "2026-08-26",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "AI Marketing Strategies: From experimentation to execution with Samsung, Bayer, David’s Bridal and Dolce&Gabbana Beauty",
+    "abstract": "On Sept. 24 in New York City, Digiday, Glossy and Modern Retail will host the second iteration of AI Marketing Strategies, bringing together brand leaders, agency executives, analysts and technology providers to explore what’s actually working as AI reshapes modern marketing.",
+    "url": "https://www.modernretail.co/announcement/ai-marketing-strategies-from-experimentation-to-execution-with-samsung-bayer-davids-bridal-and-dolcegabbana-beauty/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-08-25",
+    "fetched_date": "2026-08-26",
+    "feed_name": "Modern Retail",
+    "source": "industry"
   }
 ]
