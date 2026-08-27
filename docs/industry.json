@@ -24498,5 +24498,305 @@
     "fetched_date": "2026-08-26",
     "feed_name": "Modern Retail",
     "source": "industry"
+  },
+  {
+    "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
+    "abstract": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff.",
+    "url": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
+    "topic": "llm",
+    "date": "2026-08-26",
+    "fetched_date": "2026-08-27",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Learning never stops: How AI makes learning continuous",
+    "abstract": "OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom.",
+    "url": "https://openai.com/index/learning-never-stops",
+    "topic": "llm",
+    "date": "2026-08-26",
+    "fetched_date": "2026-08-27",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "The Hugging Face incident and the road ahead",
+    "abstract": "OpenAI shares findings from the Hugging Face security incident and the steps we’re taking to strengthen AI model security, monitoring, and alignment.",
+    "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
+    "topic": "llm",
+    "date": "2026-08-26",
+    "fetched_date": "2026-08-27",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "How loveholidays is making everyone a builder with Codex",
+    "abstract": "Discover how loveholidays uses OpenAI Codex to make software development accessible across the business, helping teams turn ideas into products faster.",
+    "url": "https://openai.com/index/loveholidays",
+    "topic": "llm",
+    "date": "2026-08-26",
+    "fetched_date": "2026-08-27",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Enabling independent research on how people use Claude",
+    "abstract": "Earlier this year, we ran a pilot giving external researchers access to aggregate, real-world Claude usage data. Three research groups designed their own studies for Anthropic Insights, our privacy-preserving analysis tool. In this post, we share high-level results from those studies and what we learned running this pilot.",
+    "url": "https://www.anthropic.com/research/enabling-independent-research",
+    "topic": "llm",
+    "date": "2026-08-26",
+    "fetched_date": "2026-08-27",
+    "feed_name": "Anthropic Research",
+    "source": "industry"
+  },
+  {
+    "title": "Training and Finetuning Multi-Vector Embedding Models with Sentence Transformers",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/train-multi-vector-encoder",
+    "topic": "llm",
+    "date": "2026-08-26",
+    "fetched_date": "2026-08-27",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Intelligent transcription with Gemini 3.5 Transcribe",
+    "abstract": "Now you can get more intelligent speech-to-text transcription with Gemini 3.5 Transcribe.",
+    "url": "https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe/",
+    "topic": "generative-ai",
+    "date": "2026-08-26",
+    "fetched_date": "2026-08-27",
+    "feed_name": "DeepMind Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Scaling Conditional Learned Retrieval for Pinterest Home Feed",
+    "abstract": "",
+    "url": "https://medium.com/pinterest-engineering/scaling-conditional-learned-retrieval-for-pinterest-home-feed-ecfba7e5a426?source=rss----4c5a5f6279b6---4",
+    "topic": "ads-tech",
+    "date": "2026-08-26",
+    "fetched_date": "2026-08-27",
+    "feed_name": "Pinterest Engineering",
+    "source": "industry"
+  },
+  {
+    "title": "Qwen3.8-Flash-Next",
+    "abstract": "Qwen3.8-Flash-Next Another open weights model from Qwen. This one is \"a multimodal MoE model that also serves as an early preview of the architecture used in Qwen4\". It's pretty big: 125B tokens, but only 6B active which means it gets a significant performance boost. I've been trying it out on a DGX Spark using these Unsloth quantized models . I'm still exploring the model - so far I've tried the 72.5GB UD-IQ1_S one (producing these pelicans ) and the 78.9GB UD-Q2_K_XL (producing these ). My favorite so far was this xhigh reasoning effort one from UD-Q2_K_XL: Via Hacker News Tags: ai , generative-ai , llms , qwen , pelican-riding-a-bicycle , ai-in-china , nvidia-spark",
+    "url": "https://simonwillison.net/2026/Aug/26/qwen38-flash-next/",
+    "topic": "llm",
+    "date": "2026-08-26",
+    "fetched_date": "2026-08-27",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Quoting Paul Dix",
+    "abstract": "The fact that AI wrote 1M LOC and then refined it over the course of the next couple of months to produce a reliable piece of software that is currently running on millions of developer machines is absolutely mind blowing. And you can say, “well it’s not that impressive because they had an oracle to compare against, so it was simple to go from one language to another”, but I think that’s selling this entire thing short. If you can build a verification system and give proper direction, AI can produce a highly complex, highly sophisticated piece of software and it can continue to refine it until it just works. — Paul Dix , The end of programming Tags: coding-agents , ai-assisted-programming , generative-ai , bun , ai , llms",
+    "url": "https://simonwillison.net/2026/Aug/26/paul-dix/",
+    "topic": "llm",
+    "date": "2026-08-26",
+    "fetched_date": "2026-08-27",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Nvidia closes in on Hugging Face acquisition",
+    "abstract": "Nvidia has reportedly agreed to buy Hugging Face, the popular open-source AI hub, for $12.9 billion in a move that would let Nvidia both protect its chip empire and jump back into the cloud business.",
+    "url": "https://techcrunch.com/2026/08/26/nvidia-closes-in-on-hugging-face-acquisition/",
+    "topic": "llm",
+    "date": "2026-08-27",
+    "fetched_date": "2026-08-27",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Viral AI startup Instinct has raised $350M at a $2.5B valuation",
+    "abstract": "The startup is only a year old but it has already generated a massive amount of hype (and money) while also spurring privacy concerns.",
+    "url": "https://techcrunch.com/2026/08/26/viral-ai-startup-instinct-has-raised-350-million-at-a-2-5-billion-valuation/",
+    "topic": "llm",
+    "date": "2026-08-27",
+    "fetched_date": "2026-08-27",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Amazon just tripled its order of Nvidia chips over ‘surging demand’",
+    "abstract": "Amazon is adding another 2 million Nvidia GPU chips to its data centers over the next two years. But this extended partnerships stretches beyond buying more chips.",
+    "url": "https://techcrunch.com/2026/08/26/amazon-just-tripled-its-order-of-nvidia-chips-over-surging-demand/",
+    "topic": "llm",
+    "date": "2026-08-26",
+    "fetched_date": "2026-08-27",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Anthropic continues compute-gobbling streak in $45B deal with Nscale",
+    "abstract": "The new deal with the infrastructure provider is the latest example of Anthropic's white-hot compute-gobbling streak.",
+    "url": "https://techcrunch.com/2026/08/26/anthropic-continues-compute-gobbling-streak-in-45-billion-deal-with-nscale/",
+    "topic": "llm",
+    "date": "2026-08-26",
+    "fetched_date": "2026-08-27",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Google’s Gemini has a branding problem, and so does the rest of AI",
+    "abstract": "Consumer AI apps need to stop making users learn their product architecture.",
+    "url": "https://techcrunch.com/2026/08/26/googles-gemini-has-a-branding-problem-and-so-does-the-rest-of-ai/",
+    "topic": "llm",
+    "date": "2026-08-26",
+    "fetched_date": "2026-08-27",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "How do we explain OpenAI’s executive exodus?",
+    "abstract": "Was Greg Brockman the right executive all along?",
+    "url": "https://techcrunch.com/2026/08/26/how-do-we-explain-openais-executive-exodus/",
+    "topic": "llm",
+    "date": "2026-08-26",
+    "fetched_date": "2026-08-27",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "OpenAI releases its official report on the Hugging Face breach",
+    "abstract": "The report, which spans several discrete cybersecurity compromises, is the most complete accounting of the incident to date.",
+    "url": "https://techcrunch.com/2026/08/26/openai-releases-its-official-report-on-the-hugging-face-breach/",
+    "topic": "llm",
+    "date": "2026-08-26",
+    "fetched_date": "2026-08-27",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Radar makes podcasts searchable — and usable by AI agents",
+    "abstract": "Particle’s new podcast intelligence platform transcribes and analyzes more than 130,000 podcasts, making their conversations searchable on the web and accessible to AI agents through an API and MCP.",
+    "url": "https://techcrunch.com/2026/08/26/radar-makes-podcasts-searchable-and-usable-by-ai-agents/",
+    "topic": "llm",
+    "date": "2026-08-26",
+    "fetched_date": "2026-08-27",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Ex-Meta scientists want to bring visual AI to the factory floor",
+    "abstract": "Perceptron offers an AI model that it says can help machines navigate the world while also providing in-depth visual intelligence.",
+    "url": "https://techcrunch.com/2026/08/26/ex-meta-scientists-want-to-bring-visual-ai-to-the-factory-floor/",
+    "topic": "llm",
+    "date": "2026-08-26",
+    "fetched_date": "2026-08-27",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Bill Gates wants to see a robot tax and ‘Human Reserved’ jobs to mitigate harms from AI",
+    "abstract": "Gates is mostly in the Responsible AI camp, but there are a few ideas in here we hadn't heard before.",
+    "url": "https://techcrunch.com/2026/08/26/bill-gates-wants-to-see-a-robot-tax-and-human-reserved-jobs-to-mitigate-harms-from-ai/",
+    "topic": "llm",
+    "date": "2026-08-26",
+    "fetched_date": "2026-08-27",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Surprise: Z.ai is the AI lab behind the mysterious Ox Alpha model",
+    "abstract": "Z.ai confirms it is behind Ox Alpha, the mysterious open AI model topping benchmarks and leaderboards, and its weights are set to be released soon.",
+    "url": "https://techcrunch.com/2026/08/26/surprise-z-ai-is-the-ai-lab-behind-the-mysterious-ox-alpha-model/",
+    "topic": "llm",
+    "date": "2026-08-26",
+    "fetched_date": "2026-08-27",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Robot brain builders are pushing out of their GPT-2 era",
+    "abstract": "Robot bodies are waiting for their AI brains to catch up.",
+    "url": "https://techcrunch.com/2026/08/26/robot-brain-builders-are-pushing-out-of-their-gpt-2-era/",
+    "topic": "llm",
+    "date": "2026-08-26",
+    "fetched_date": "2026-08-27",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "QueryStory wants you to believe what AI is telling you",
+    "abstract": "The startup came out of stealth with $6 million in seed funding and a plan to use LLMs and cybersecurity know-how to make AI queries coherent.",
+    "url": "https://techcrunch.com/2026/08/26/querystory-wants-you-to-believe-what-ai-is-telling-you/",
+    "topic": "llm",
+    "date": "2026-08-26",
+    "fetched_date": "2026-08-27",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Arga Labs is building a better way to train enterprise AI agents",
+    "abstract": "Arga has raised $10 million in a seed funding round that was led by General Catalyst, with participation from Box Group, Emergence, Gradient and SV Angel.",
+    "url": "https://techcrunch.com/2026/08/26/arga-is-building-a-better-way-to-train-enterprise-ai-agents/",
+    "topic": "llm",
+    "date": "2026-08-26",
+    "fetched_date": "2026-08-27",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Hearing tech startup Legato emerges from stealth with $12M and a peek at its AI hearing glasses",
+    "abstract": "The glasses, called Legato Frames, integrate the company’s patented hearing-assistance technology into the arms of eyewear frames.",
+    "url": "https://techcrunch.com/2026/08/26/hearing-tech-startup-legato-emerges-from-stealth-with-12m-and-a-peek-at-its-ai-hearing-glasses/",
+    "topic": "llm",
+    "date": "2026-08-26",
+    "fetched_date": "2026-08-27",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Runable hits $21M to bet AI agents can go from building businesses to growing them",
+    "abstract": "Runable says 60% to 70% of its 1 trillion-plus token usage in the last 90 days came from paying customers.",
+    "url": "https://techcrunch.com/2026/08/26/runable-hits-21m-to-bet-ai-agents-can-go-from-building-businesses-to-growing-them/",
+    "topic": "llm",
+    "date": "2026-08-26",
+    "fetched_date": "2026-08-27",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "India’s Ringg gets backing from Peak XV as it pushes voice AI past the phone call",
+    "abstract": "Ringg has raised $10 million from Peak XV as a part of its Series A extension.",
+    "url": "https://techcrunch.com/2026/08/25/indias-ringg-gets-backing-from-peak-xv-as-it-pushes-voice-ai-past-the-phone-call/",
+    "topic": "llm",
+    "date": "2026-08-26",
+    "fetched_date": "2026-08-27",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Carhartt is aligning with the NFL through the tradespeople building Highmark Stadium",
+    "abstract": "Tapping into sports and fandom has been a major trend for brands this year, but Carhartt looked off the field.",
+    "url": "https://www.modernretail.co/retailers/carhartt-is-aligning-with-the-nfl-through-the-tradespeople-building-highmark-stadium/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-08-27",
+    "fetched_date": "2026-08-27",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "New brands flock to Target’s post-Ulta beauty section",
+    "abstract": "Target's new beauty section in stores and online has attracted many new brands to the retailer for the first time. For some, this is their first entry into retail stores entirely.",
+    "url": "https://www.modernretail.co/operations/new-brands-flock-to-targets-post-ulta-beauty-section/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-08-26",
+    "fetched_date": "2026-08-27",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Modern Retail+ Research: The marketers’ 2026 guide to retail media marketing, including The Home Depot, Milani Cosmetics and Tinuiti",
+    "abstract": "As the retail media landscape evolves, marketers are rethinking where they invest, how they measure success and which retail media networks deserve a larger share of budget. Although they once viewed retail media primarily as a lower-funnel performance channel, marketers are expanding their ad businesses beyond sponsored product listings into off-site media, streaming and full-funnel marketing.",
+    "url": "https://www.modernretail.co/marketing/modern-retail-research-the-marketers-2026-guide-to-retail-media-marketing-including-the-home-depot-milani-cosmetics-and-tinuiti/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-08-26",
+    "fetched_date": "2026-08-27",
+    "feed_name": "Modern Retail",
+    "source": "industry"
   }
 ]
