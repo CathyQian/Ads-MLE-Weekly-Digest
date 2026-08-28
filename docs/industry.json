@@ -24798,5 +24798,195 @@
     "fetched_date": "2026-08-27",
     "feed_name": "Modern Retail",
     "source": "industry"
+  },
+  {
+    "title": "Supporting Thailand’s next generation of AI startups",
+    "abstract": "OpenAI and Thailand’s MHESI launch an eight-week accelerator helping 10 health, wellness, and education startups turn AI prototypes into trusted products.",
+    "url": "https://openai.com/index/supporting-next-generation-ai-startups-thailand",
+    "topic": "llm",
+    "date": "2026-08-28",
+    "fetched_date": "2026-08-28",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training",
+    "abstract": "A randomized study of more than 1,000 students examines ChatGPT, critical thinking, originality, and student performance on a real-world university assignment.",
+    "url": "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training",
+    "topic": "llm",
+    "date": "2026-08-27",
+    "fetched_date": "2026-08-28",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Expanding OpenAI’s presence in Brazil",
+    "abstract": "OpenAI is expanding its presence in Brazil, deepening engagement with developers, businesses, and communities to support AI adoption across the country.",
+    "url": "https://openai.com/index/expanding-our-presence-in-brazil",
+    "topic": "llm",
+    "date": "2026-08-27",
+    "fetched_date": "2026-08-28",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Gemini Omni 1.1 Flash lets you build with more control",
+    "abstract": "",
+    "url": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/",
+    "topic": "generative-ai",
+    "date": "2026-08-27",
+    "fetched_date": "2026-08-28",
+    "feed_name": "DeepMind Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Piloting the world's first double-blind AI evaluations",
+    "abstract": "Piloting the world's first double-blind AI evaluations",
+    "url": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/",
+    "topic": "generative-ai",
+    "date": "2026-08-27",
+    "fetched_date": "2026-08-28",
+    "feed_name": "DeepMind Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Breaking Claude Code Opus 5 Auto Mode",
+    "abstract": "Breaking Claude Code Opus 5 Auto Mode Anthropic are putting a great deal of faith in Claude Code's auto mode for protecting their coding agent users against prompt injection attacks. They recently made that the default and have made bold claims about its effectiveness. Johann Rehberger is one of the most credible prompt injection researchers active today. He found an attack against auto mode which he claims works 80% of the time, by tricking Claude Code into downloading and uncompressing a zip archive, then executing code that imports base64 without noticing that this will import and execute a local struct.py file extracted from the archive. In a few cases auto mode directly prevented the agent from preventing harmful code from continuing to execute! In a few runs Claude tried to terminate the malware process once it noticed the compromise, but Auto Mode denied the cleanup command. Claude detects the compromise, but Auto Mode blocks its cleanup command The safety mechanism itself can become part of the failure. The classifier allowed the creation of the malware process, but then it blocked the command intended to stop it! I agree with Johann's conclusion here: the only safe way to run agents if there's any risk of attracting the attention of an adversarial attack is with a sandbox: Run unattended coding agents in a container, VM or OS sandbox. Restrict network egress. Monitor your agents. Do not expose home directories, SSH keys, cloud credentials,… to the agent runtime. [...] Tags: sandboxing , security , ai , prompt-injection , generative-ai , llms , anthropic , claude , johann-rehberger , claude-code",
+    "url": "https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode/",
+    "topic": "llm",
+    "date": "2026-08-27",
+    "fetched_date": "2026-08-28",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Meta executive leaves for OpenAI as the social media giant faces growing scrutiny in India",
+    "abstract": "Sandhya Devanathan will oversee some OpenAI operations across Southeast Asia and Australia in her new role.",
+    "url": "https://techcrunch.com/2026/08/28/meta-executive-leaves-for-openai-as-the-social-media-giant-faces-growing-scrutiny-in-india/",
+    "topic": "llm",
+    "date": "2026-08-28",
+    "fetched_date": "2026-08-28",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Anthropic and OpenAI are joining the AI stage at TechCrunch Disrupt 2026",
+    "abstract": "At TechCrunch Disrupt 2026, the AI Stage is back to dig into the single hottest topic in the community for the past few years, presented by Google for Startups.",
+    "url": "https://techcrunch.com/2026/08/27/anthropic-and-openai-are-joining-the-ai-stage-at-techcrunch-disrupt-2026/",
+    "topic": "llm",
+    "date": "2026-08-27",
+    "fetched_date": "2026-08-28",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Barret Zoph, the Thinking Machines co-founder ousted before joining OpenAI, is now at Google",
+    "abstract": "Zoph, who co-founded Thinking Machines Lab alongside Mira Murati and also served as the startup's CTO, led a brief stint at OpenAI and is now at Google.",
+    "url": "https://techcrunch.com/2026/08/27/barret-zoph-the-thinking-machines-co-founder-who-defected-to-openai-is-now-at-google/",
+    "topic": "llm",
+    "date": "2026-08-27",
+    "fetched_date": "2026-08-28",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "OpenAI, Anthropic, Google, and 100 other companies call for action to defend against rogue AI",
+    "abstract": "Some of the world's largest tech companies and AI startups have come together to decry the current state of cybersecurity and to advertise a new solution that they say can ward off a new generation of cyber threats.",
+    "url": "https://techcrunch.com/2026/08/27/openai-anthropic-google-and-100-other-companies-call-for-action-to-defend-against-rogue-ai/",
+    "topic": "llm",
+    "date": "2026-08-27",
+    "fetched_date": "2026-08-28",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Google’s AI Mode can now track flight prices, help book hotels, and more",
+    "abstract": "The updates indicate that Google is looking to position AI Mode as an AI travel agent of sorts, as it's moving beyond simply helping users find information to actually handling parts of the trip-planning and booking process.",
+    "url": "https://techcrunch.com/2026/08/27/googles-ai-mode-can-now-track-flight-prices-help-book-hotels-and-more/",
+    "topic": "llm",
+    "date": "2026-08-27",
+    "fetched_date": "2026-08-28",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Hugging Face is selling a cute $399 open source duck robot, Microduck",
+    "abstract": "Clem Delangue, CEO of Hugging Face, said the Microduck is an “open-source robot you can teach new tricks with reinforcement learning.”",
+    "url": "https://techcrunch.com/2026/08/27/hugging-face-is-selling-a-cute-399-open-source-duck-robot-microduck/",
+    "topic": "llm",
+    "date": "2026-08-27",
+    "fetched_date": "2026-08-28",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "AI’s memory crunch is coming for Android apps",
+    "abstract": "Google is setting new memory-use limits for Android apps as AI data centers contribute to hardware shortages that could leave lower-cost phones with less memory.",
+    "url": "https://techcrunch.com/2026/08/27/ais-memory-crunch-is-coming-for-android-apps/",
+    "topic": "llm",
+    "date": "2026-08-27",
+    "fetched_date": "2026-08-28",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Here’s all the times AI has gone rogue and hacked other companies",
+    "abstract": "A recap of all the incidents involving LLMs made by Anthropic, Meta, and OpenAI, which went rogue and attacked real companies and individuals on the internet.",
+    "url": "https://techcrunch.com/2026/08/27/heres-all-the-times-ai-has-gone-rogue-and-hacked-other-companies/",
+    "topic": "llm",
+    "date": "2026-08-27",
+    "fetched_date": "2026-08-28",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Plaud’s new earphones come with an eSIM-enabled case for talking to AI agents",
+    "abstract": "Called Plaud One, these adopt the simple bare-bones style of Apple's AirPods, and can record calls, while their case can be used to record in-person conversations or take notes.",
+    "url": "https://techcrunch.com/2026/08/27/plauds-new-earphones-come-with-an-esim-enabled-case-for-talking-to-ai-agents/",
+    "topic": "llm",
+    "date": "2026-08-27",
+    "fetched_date": "2026-08-28",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "OpenAI to start showing ads on ChatGPT’s free and Go tiers in India",
+    "abstract": "OpenAI has more than 100 million weekly active ChatGPT users in India, a huge chunk of whom are on the free or the lower-priced Go tiers.",
+    "url": "https://techcrunch.com/2026/08/27/openai-to-start-showing-ads-on-chatgpts-free-and-go-tiers-in-india/",
+    "topic": "llm",
+    "date": "2026-08-27",
+    "fetched_date": "2026-08-28",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Miffy madness: A 70-year-old bunny is the ‘it’ character for brands",
+    "abstract": "Move over, Hello Kitty and Labubu. Retail's latest \"it\" girl is Miffy. Here's why brands from Starbucks to Calpak are lining up to work with the cartoon bunny.",
+    "url": "https://www.modernretail.co/marketing/miffy-madness-a-70-year-old-bunny-is-the-it-character-for-brands/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-08-28",
+    "fetched_date": "2026-08-28",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Target’s new beauty selection has almost no Black-owned brands",
+    "abstract": "Target's refreshed beauty assortment aims to promote emerging brands, but includes very few from Black entrepreneurs. Of the 90 brands listed as part of the new beauty assortment, Modern Retail could only identify two with Black owners or founders. A spokesperson said the collection was focused on beauty brands from around the world, pointing to Korean, Japanese, Mexican and French brands.",
+    "url": "https://www.modernretail.co/marketing/targets-new-beauty-selection-has-almost-no-black-owned-brands/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-08-28",
+    "fetched_date": "2026-08-28",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Big-Box Briefing: Retailers get direct tariff relief. Their shoppers likely won’t",
+    "abstract": "Tariff refunds are great news for the corporate balance sheets of big-box retailers, and less so for consumers tightly squeezing their wallets.",
+    "url": "https://www.modernretail.co/operations/big-box-briefing-retailers-get-direct-tariff-relief-their-shoppers-likely-wont/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-08-27",
+    "fetched_date": "2026-08-28",
+    "feed_name": "Modern Retail",
+    "source": "industry"
   }
 ]
