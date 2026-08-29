@@ -24988,5 +24988,105 @@
     "fetched_date": "2026-08-28",
     "feed_name": "Modern Retail",
     "source": "industry"
+  },
+  {
+    "title": "Our decision on Cursor following its acquisition by SpaceX",
+    "abstract": "Our decision to wind down our contract providing OpenAI models to Cursor following its acquisition by SpaceX.",
+    "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
+    "topic": "llm",
+    "date": "2026-08-28",
+    "fetched_date": "2026-08-29",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Automated researchers can reliably mitigate alignment failures",
+    "abstract": "We had Claude autonomously train models to improve their performance on several public benchmarks that measure 10 categories of alignment failure. For all 10, Claude found fixes that improved the target benchmarks without degrading capabilities.",
+    "url": "https://www.anthropic.com/research/automated-researchers-mitigate-alignment-failures",
+    "topic": "llm",
+    "date": "2026-08-28",
+    "fetched_date": "2026-08-29",
+    "feed_name": "Anthropic Research",
+    "source": "industry"
+  },
+  {
+    "title": "The Open ASR Leaderboard Adds Its First Global South Language",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/open-asr-leaderboard-global-south",
+    "topic": "llm",
+    "date": "2026-08-28",
+    "fetched_date": "2026-08-29",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "MAPS: Netflix’s Multimodal Asset Personalization at Scale",
+    "abstract": "",
+    "url": "https://netflixtechblog.com/maps-netflixs-multimodal-asset-personalization-at-scale-32f96320785e?source=rss----2615bd06b42e---4",
+    "topic": "ml-engineering",
+    "date": "2026-08-28",
+    "fetched_date": "2026-08-29",
+    "feed_name": "Netflix Tech Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Just a rumour of a bug is enough to find a security exploit these days",
+    "abstract": "Just a rumour of a bug is enough to find a security exploit these days Anil Madhavapeddy is a professor of computer science at Cambridge and a core maintainer of the OCaml compiler. In this somewhat alarming post he reports that security issues in OCaml projects are seeing evidence of attempted exploits within minutes of patches being shared for discussion: This normally takes a few days and a release within a week or two is reasonable. Within about ten minutes (!) this website was fielding probes for percent-encoded traversal sequences, indicating that automated watchers are keeping an eye on public repositories. Modern coding agents have become so effective at finding flaws that the slightest hint at a new bug can be enough information for them to find it, something Anil has been able to demonstrate using his own agents, switching to DeepSeek V4 Pro⁠ when Claude Fable refused the task. Anil points out that this rate of discovery appears incompatible with existing open source embargo practices for new issues. If an issue can become an exploit this fast, we need to figure out new processes for keeping our communities safe. rclone maintainer Nick Craig-Wood confirms in the Hacker News comments that his project is seeing this problem: In the first 10 years of the rclone project we received about 20 security disclosures through GitHub. We had to deal with over 40 in the last month! That has taken a huge amount of my time, even using AI tools to triage and come up with fixes for review. The hit rate for those security disclosures is pretty good - about 75% of them have a nugget of something which needs looking at. [...] GitHub assigns CVEs for the advisories. Before the AI apocalypse they took 2-3 days for an assignment but now it they are running at 3-4 weeks so I have to send the point releases out with CVE-PENDING in the changelog which isn't ideal. Via Hacker News Tags: open-source , security , ai , generative-ai , llms , coding-agents , ocaml , ai-security-research",
+    "url": "https://simonwillison.net/2026/Aug/28/just-a-rumour-of-a-bug/",
+    "topic": "llm",
+    "date": "2026-08-28",
+    "fetched_date": "2026-08-29",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Neocloud Lambda secures $1B in debt to buy more chips",
+    "abstract": "Neocloud Lambda has raised $1B in private debt to buy Nvidia AI chips and lease them to Microsoft. It's the latest in a string of loans, underscoring the high cost of the AI boom.",
+    "url": "https://techcrunch.com/2026/08/28/neocloud-lambda-secures-1b-in-debt-to-buy-more-chips/",
+    "topic": "llm",
+    "date": "2026-08-28",
+    "fetched_date": "2026-08-29",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "An Anthropic researcher just gave us a peek at self-improving AI",
+    "abstract": "Given 10 benchmarks for specific misaligned behaviors, the automated systems were able to improve performance on every single one without degrading overall performance.",
+    "url": "https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-gave-us-a-peek-at-self-improving-ai/",
+    "topic": "llm",
+    "date": "2026-08-28",
+    "fetched_date": "2026-08-29",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Open-weight AI companies are the Valley’s hottest acquisition targets",
+    "abstract": "There's a lot of capital pouring into the business of giving models away.",
+    "url": "https://techcrunch.com/2026/08/28/open-weight-ai-companies-are-the-valleys-hottest-acquisition-targets/",
+    "topic": "llm",
+    "date": "2026-08-28",
+    "fetched_date": "2026-08-29",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Anthropic gets its first court win over the Pentagon’s supply-chain risk label",
+    "abstract": "A federal judge ruled the Trump administration illegally labeled Anthropic a supply-chain risk, handing the AI company a victory as its second Pentagon lawsuit continues in Washington.",
+    "url": "https://techcrunch.com/2026/08/28/anthropic-gets-its-first-court-win-over-the-pentagons-supply-chain-risk-label/",
+    "topic": "llm",
+    "date": "2026-08-28",
+    "fetched_date": "2026-08-29",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "The new life cycle of a brand cancellation",
+    "abstract": "This week's episode of the Modern Retail Podcast digs into the new life cycle of brand cancellations and why many brands are still unable to address social media backlash in a manner that satisfies consumers.",
+    "url": "https://www.modernretail.co/marketing/the-new-life-cycle-of-a-brand-cancellation/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-08-29",
+    "fetched_date": "2026-08-29",
+    "feed_name": "Modern Retail",
+    "source": "industry"
   }
 ]
