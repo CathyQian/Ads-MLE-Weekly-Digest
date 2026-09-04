@@ -13918,5 +13918,145 @@
     "fetched_date": "2026-09-03",
     "feed_name": "TechCrunch",
     "source": "startup"
+  },
+  {
+    "title": "The sameness problem behind those unappetizing AI-generated menus",
+    "abstract": "While restaurant owners might look to generative AI as a shortcut to sprucing up their menu, customers can viscerally sense that something is wrong with the food.",
+    "url": "https://techcrunch.com/2026/09/03/the-sameness-problem-behind-those-unappetizing-ai-generated-menus/",
+    "topic": "startup",
+    "date": "2026-09-04",
+    "fetched_date": "2026-09-04",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Crusoe reportedly raises $3B at a  $30B valuation",
+    "abstract": "The round came together after the data center developer reportedly secured a $13 billion contract with Jane Street.",
+    "url": "https://techcrunch.com/2026/09/03/crusoe-reportedly-raises-3b-at-a-30b-valuation/",
+    "topic": "startup",
+    "date": "2026-09-04",
+    "fetched_date": "2026-09-04",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Startup ARR is less secure than ever, new research shows",
+    "abstract": "The AI era has completely broken enterprise buying patterns, and startups haven't yet figured out how to navigate.",
+    "url": "https://techcrunch.com/2026/09/03/startup-arr-is-less-secure-than-ever-new-research-shows/",
+    "topic": "startup",
+    "date": "2026-09-03",
+    "fetched_date": "2026-09-04",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Accel reportedly in talks to lead $1B round for Thinking Machines at $40B valuation",
+    "abstract": "The high-profile startup's annual revenue run rate stands at over $100 million.",
+    "url": "https://techcrunch.com/2026/09/03/accel-reportedly-in-talks-to-lead-1b-round-for-thinking-machines-at-40b-valuation/",
+    "topic": "startup",
+    "date": "2026-09-03",
+    "fetched_date": "2026-09-04",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Utilities are racing to link up with fusion startups, with Realta Fusion the latest to benefit",
+    "abstract": "The grid has been straining under the weight of new AI data centers, and that has utilities courting fusion startups.",
+    "url": "https://techcrunch.com/2026/09/03/utilities-are-racing-to-link-up-with-fusion-startups-with-realta-fusion-the-latest-to-benefit/",
+    "topic": "startup",
+    "date": "2026-09-03",
+    "fetched_date": "2026-09-04",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Abliteration.ai is making a business out of removing AI guardrails",
+    "abstract": "Abliteration.AI is making powerful AI models without guardrails easier to access, arguing that giving defenders the same tools as bad actors could ultimately improve cybersecurity.",
+    "url": "https://techcrunch.com/2026/09/03/abliteration-ai-is-making-a-business-out-of-removing-ai-guardrails/",
+    "topic": "startup",
+    "date": "2026-09-03",
+    "fetched_date": "2026-09-04",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Meta is paying to peek at how you use their latest AI model",
+    "abstract": "For its new Muse Spark model, intended for operating coding and other agents, Meta is offering an explicit discount averaging out to about 95% for users who \"contribute\" to the development of future models by sharing their prompts and model outputs.",
+    "url": "https://techcrunch.com/2026/09/03/meta-is-paying-to-peek-at-how-you-use-their-latest-ai-model/",
+    "topic": "startup",
+    "date": "2026-09-03",
+    "fetched_date": "2026-09-04",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "OpenAI launches Astra, its powerful (and controversial) new model",
+    "abstract": "OpenAI claims that Astra represents \"a new frontier on computer and browser use,\" and that it handles tasks with unmatched \"speed, accuracy, and safety.\"",
+    "url": "https://techcrunch.com/2026/09/03/openai-launches-astra-its-powerful-and-controversial-new-model/",
+    "topic": "startup",
+    "date": "2026-09-03",
+    "fetched_date": "2026-09-04",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Ollie is betting its focus on privacy can help it win the AI assistant race",
+    "abstract": "The family-focused AI assistant wants access to the details of your everyday life, but says it won’t use that data to train AI models or share it with others.",
+    "url": "https://techcrunch.com/2026/09/03/ollie-is-betting-privacy-can-win-the-ai-assistant-race/",
+    "topic": "startup",
+    "date": "2026-09-03",
+    "fetched_date": "2026-09-04",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Google launches AI voice features in Gmail, Docs, and Keep",
+    "abstract": "Users can search for emails or draft documents using the new conversational feature.",
+    "url": "https://techcrunch.com/2026/09/03/google-launches-ai-voice-features-in-gmail-docs-and-keep/",
+    "topic": "startup",
+    "date": "2026-09-03",
+    "fetched_date": "2026-09-04",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Google’s latest AI weather model gives you no excuse to forget your umbrella",
+    "abstract": "WeatherNext 3 is the latest wave of a sea change in meteorology brought out by deep learning techniques. Google says it will start feeding into weather information users see in search, Google Maps, and Gemini.",
+    "url": "https://techcrunch.com/2026/09/03/googles-latest-ai-weather-model-gives-you-no-excuse-to-forget-your-umbrella/",
+    "topic": "startup",
+    "date": "2026-09-03",
+    "fetched_date": "2026-09-04",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Volunteer at TechCrunch Founder Summit in Boston",
+    "abstract": "Our rebranded Boston event, TechCrunch Founder Summit (formerly All Stage), is back on November 4th! And we are looking for some incredible volunteers to help us make this event happen. If you are interested in finding out what goes into building tech events, apply to volunteer. If you are selected, not only will you get […]",
+    "url": "https://techcrunch.com/2026/09/03/volunteer-at-techcrunch-founder-summit-in-boston/",
+    "topic": "startup",
+    "date": "2026-09-03",
+    "fetched_date": "2026-09-04",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Nvidia confirms it will buy Hugging Face for $12.9 billion",
+    "abstract": "Nvidia said Hugging Face hosts over 3 million models and is used by over 18 million developers.",
+    "url": "https://techcrunch.com/2026/09/03/nvidia-confirms-it-will-buy-hugging-face-for-12-9-billion/",
+    "topic": "startup",
+    "date": "2026-09-03",
+    "fetched_date": "2026-09-04",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Amazon’s Zoox expands its robotaxi service to Las Vegas airport",
+    "abstract": "Zoox is expanding to this critical ride-hailing destination a few weeks after it started charging for robotaxi rides.",
+    "url": "https://techcrunch.com/2026/09/03/amazons-zoox-expands-its-robotaxi-service-to-las-vegas-airport/",
+    "topic": "startup",
+    "date": "2026-09-03",
+    "fetched_date": "2026-09-04",
+    "feed_name": "TechCrunch",
+    "source": "startup"
   }
 ]

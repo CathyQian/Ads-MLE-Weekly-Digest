@@ -25838,5 +25838,235 @@
     "fetched_date": "2026-09-03",
     "feed_name": "Modern Retail",
     "source": "industry"
+  },
+  {
+    "title": "Daybreak for Frontline Defenders: $1B to protect essential services",
+    "abstract": "OpenAI introduces Daybreak for Frontline Defenders. A $1 billion commitment expands access to frontier cyber AI, training, and support for essential services.",
+    "url": "https://openai.com/index/daybreak-for-frontline-defenders",
+    "topic": "llm",
+    "date": "2026-09-03",
+    "fetched_date": "2026-09-04",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
+    "abstract": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
+    "url": "https://openai.com/index/legora-financial-statement-review-with-astra",
+    "topic": "llm",
+    "date": "2026-09-03",
+    "fetched_date": "2026-09-04",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
+    "abstract": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
+    "url": "https://openai.com/index/playco-game-prototyping-with-astra",
+    "topic": "llm",
+    "date": "2026-09-03",
+    "fetched_date": "2026-09-04",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Safety overview: GPT-6 Astra",
+    "abstract": "GPT-6 Astra is our most capable broadly deployed model and our first to reach the Critical level of cybersecurity capability under our Preparedness Framework.",
+    "url": "https://openai.com/index/safety-overview-gpt-6-astra",
+    "topic": "llm",
+    "date": "2026-09-03",
+    "fetched_date": "2026-09-04",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "NeoMME: an efficient Multimodal-native and Multilingual Encoder",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/Hcompany/neomme",
+    "topic": "llm",
+    "date": "2026-09-03",
+    "fetched_date": "2026-09-04",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Fine-tuning a 350M Model for Better Structured Outputs in 100 GRPO Steps",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/grpo-with-trl-ifstruct",
+    "topic": "llm",
+    "date": "2026-09-03",
+    "fetched_date": "2026-09-04",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Give Your Coding Agents a Memory You Own",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/funes",
+    "topic": "llm",
+    "date": "2026-09-03",
+    "fetched_date": "2026-09-04",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Training a coding model to paint watercolours with TRL and OpenEnv",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/train-to-paint-with-code",
+    "topic": "llm",
+    "date": "2026-09-03",
+    "fetched_date": "2026-09-04",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
+    "abstract": "",
+    "url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/",
+    "topic": "generative-ai",
+    "date": "2026-09-03",
+    "fetched_date": "2026-09-04",
+    "feed_name": "DeepMind Blog",
+    "source": "industry"
+  },
+  {
+    "title": "GPT‑6 Astra",
+    "abstract": "GPT‑6 Astra GPT-6 Astra is \"rolling out today to a limited set of organizations and over the coming days will become available to all ChatGPT Plus, Pro, Business, and Enterprise users, as well as through the OpenAI API and AWS\" - I've not tried it yet myself, so I don't have a great deal to say about it yet. It's going to be API priced at the same rate as Claude Fable 5 and 5.1: $10/million input and $50/million output. This is clearly OpenAI's Fable competitor, and appears to score higher than Fable on most of OpenAI's self-reported benchmarks. Most impressively, Astra scores 99.9% on the recent (released in March) ARC-AGI 3 benchmark - though notably Fable 5 does not yet have a published result, and the ARC-AGI blog notes that the 99.9% score was achieved for $19K using OpenAI's custom \"Provider Adapter harness\", while the default ARC-AGI harness scored 62.7% for $26K. The Provider Adapter harness preserves opaque reasoning state between requests and uses compaction for longer conversations, allowing the model to reuse prior work. Unsurprisingly, given the recent Hugging Face incident , Astra is a beast at security tasks. It scores 100% on ExploitBench (GPT-5.6 Sol got 78.5%), 42.4% on ExploitGym (Sol got 30.3%), and 99.2% within four attempts on SRE-Bench binary reverse engineering compared to Sol's 68.7%. It's also better at long context: on OpenAI's eight-needle benchmark it got 100% at 256K–512K tokens and 96.3% at 512K–1M tokens. OpenAI may have vanquished one of the ongoing challenges with long context processing. It doesn't win at everything though. Artificial Analysis note that Astra is still beaten by Fable on their Intelligence Index: Sits beside GPT-5.6 Sol in Intelligence : GPT-6 Astra scores equal to GPT-5.6 Sol in the Index at 61. This is 5 points lower than Claude Fable 5.1 (max with fallback). The model also trails Meta’s newly released Muse Spark 1.3 (max). It did better on their Coding Agent Index: Leads Coding Agent Index cost efficiency frontier : At max effort, GPT-6 Astra costs about the same as GPT-5.6 Sol (max) while scoring 2 points higher on the Index. Per task, the model is less than half the cost of Claude Fable 5, for the same score. I'll write more about Astra once I get access to it. The API model label once it rolls out will be gpt-6-astra . OpenAI's blog keeps throwing 500 errors, but [here's a mirror](https://astratest.codergautam.workers.dev/GPT-6%20Astra_%20A%20new%20generation%20of%20intelligence%20_%20OpenAI) of the post I found [via Hacker News](https://news.ycombinator.com/item?id=49554273#49555070). --> Via Hacker News Tags: ai , openai , generative-ai , llms , llm-release",
+    "url": "https://simonwillison.net/2026/Sep/3/gpt6-astra/",
+    "topic": "llm",
+    "date": "2026-09-03",
+    "fetched_date": "2026-09-04",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "The sameness problem behind those unappetizing AI-generated menus",
+    "abstract": "While restaurant owners might look to generative AI as a shortcut to sprucing up their menu, customers can viscerally sense that something is wrong with the food.",
+    "url": "https://techcrunch.com/2026/09/03/the-sameness-problem-behind-those-unappetizing-ai-generated-menus/",
+    "topic": "llm",
+    "date": "2026-09-04",
+    "fetched_date": "2026-09-04",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Crusoe reportedly raises $3B at a  $30B valuation",
+    "abstract": "The round came together after the data center developer reportedly secured a $13 billion contract with Jane Street.",
+    "url": "https://techcrunch.com/2026/09/03/crusoe-reportedly-raises-3b-at-a-30b-valuation/",
+    "topic": "llm",
+    "date": "2026-09-04",
+    "fetched_date": "2026-09-04",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Accel reportedly in talks to lead $1B round for Thinking Machines at $40B valuation",
+    "abstract": "The high-profile startup's annual revenue run rate stands at over $100 million.",
+    "url": "https://techcrunch.com/2026/09/03/accel-reportedly-in-talks-to-lead-1b-round-for-thinking-machines-at-40b-valuation/",
+    "topic": "llm",
+    "date": "2026-09-03",
+    "fetched_date": "2026-09-04",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Abliteration.ai is making a business out of removing AI guardrails",
+    "abstract": "Abliteration.AI is making powerful AI models without guardrails easier to access, arguing that giving defenders the same tools as bad actors could ultimately improve cybersecurity.",
+    "url": "https://techcrunch.com/2026/09/03/abliteration-ai-is-making-a-business-out-of-removing-ai-guardrails/",
+    "topic": "llm",
+    "date": "2026-09-03",
+    "fetched_date": "2026-09-04",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Meta is paying to peek at how you use their latest AI model",
+    "abstract": "For its new Muse Spark model, intended for operating coding and other agents, Meta is offering an explicit discount averaging out to about 95% for users who \"contribute\" to the development of future models by sharing their prompts and model outputs.",
+    "url": "https://techcrunch.com/2026/09/03/meta-is-paying-to-peek-at-how-you-use-their-latest-ai-model/",
+    "topic": "llm",
+    "date": "2026-09-03",
+    "fetched_date": "2026-09-04",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "OpenAI launches Astra, its powerful (and controversial) new model",
+    "abstract": "OpenAI claims that Astra represents \"a new frontier on computer and browser use,\" and that it handles tasks with unmatched \"speed, accuracy, and safety.\"",
+    "url": "https://techcrunch.com/2026/09/03/openai-launches-astra-its-powerful-and-controversial-new-model/",
+    "topic": "llm",
+    "date": "2026-09-03",
+    "fetched_date": "2026-09-04",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Ollie is betting its focus on privacy can help it win the AI assistant race",
+    "abstract": "The family-focused AI assistant wants access to the details of your everyday life, but says it won’t use that data to train AI models or share it with others.",
+    "url": "https://techcrunch.com/2026/09/03/ollie-is-betting-privacy-can-win-the-ai-assistant-race/",
+    "topic": "llm",
+    "date": "2026-09-03",
+    "fetched_date": "2026-09-04",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Google’s latest AI weather model gives you no excuse to forget your umbrella",
+    "abstract": "WeatherNext 3 is the latest wave of a sea change in meteorology brought out by deep learning techniques. Google says it will start feeding into weather information users see in search, Google Maps, and Gemini.",
+    "url": "https://techcrunch.com/2026/09/03/googles-latest-ai-weather-model-gives-you-no-excuse-to-forget-your-umbrella/",
+    "topic": "llm",
+    "date": "2026-09-03",
+    "fetched_date": "2026-09-04",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Nvidia confirms it will buy Hugging Face for $12.9 billion",
+    "abstract": "Nvidia said Hugging Face hosts over 3 million models and is used by over 18 million developers.",
+    "url": "https://techcrunch.com/2026/09/03/nvidia-confirms-it-will-buy-hugging-face-for-12-9-billion/",
+    "topic": "llm",
+    "date": "2026-09-03",
+    "fetched_date": "2026-09-04",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Agentic Machine Learning Modeling at Instacart",
+    "abstract": "",
+    "url": "https://tech.instacart.com/agentic-machine-learning-modeling-at-instacart-fb3ecd295ee7?source=rss----587883b5d2ee---4",
+    "topic": "ml-engineering",
+    "date": "2026-09-03",
+    "fetched_date": "2026-09-04",
+    "feed_name": "Instacart Tech",
+    "source": "industry"
+  },
+  {
+    "title": "Beyond CNAME Flattening",
+    "abstract": "DNS standards have caught up with modern infrastructure needs. RFC 9460's SVCB and HTTPS record types provide a standards-compliant alternative to CNAME flattening at the zone apex, unlocking HTTP/3 signalling, faster connection setup, ECH support, and clean DNSSEC compatibility without the workarounds proprietary ALIAS/ANAME implementations required. The post Beyond CNAME Flattening appeared first on GoDaddy Blog .",
+    "url": "https://www.godaddy.com/resources/news/beyond-cname-flattening",
+    "topic": "ml-engineering",
+    "date": "2026-09-03",
+    "fetched_date": "2026-09-04",
+    "feed_name": "GoDaddy Engineering",
+    "source": "industry"
+  },
+  {
+    "title": "Lululemon’s identity crisis continues, with comp sales down 9%, as it prepares to welcome new CEO",
+    "abstract": "Lululemon reported second-quarter earnings on Thursday that came in below expectations, with executives facing plenty of questions from Wall Street analysts about whether or not the activewear brand had correctly diagnosed the challenges it faces.",
+    "url": "https://www.modernretail.co/operations/lululemons-identity-crisis-continues-with-comp-sales-down-9-as-it-prepares-to-welcome-new-ceo/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-09-03",
+    "fetched_date": "2026-09-04",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Big-Box Briefing: Sam’s Club targets high-retention members with new tire benefit",
+    "abstract": "The latest addition to Sam's Club's most premium membership aims to attract some of its stickiest members.",
+    "url": "https://www.modernretail.co/operations/big-box-briefing-sams-club-targets-high-retention-members-with-new-tire-benefit/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-09-03",
+    "fetched_date": "2026-09-04",
+    "feed_name": "Modern Retail",
+    "source": "industry"
   }
 ]
