@@ -26208,5 +26208,55 @@
     "fetched_date": "2026-09-05",
     "feed_name": "Modern Retail",
     "source": "industry"
+  },
+  {
+    "title": "Introducing GPT-6 Astra for developers",
+    "abstract": "Introducing GPT-6 Astra for developers Blink and you'll miss it, but there's a familiar creature at 1m59s : Across the board, Astra has more attention to detail, better understanding of the user's prompt, and can build more sophisticated outputs. In particular, it excels at building 3D models. I've seen it make incredible renderings of gardens, shipyards, animals , cityscapes, even Dyson spheres. Astra really does believe in putting a red neckerchief on a pelican riding a bicycle. Via Hacker News comment Tags: ai , openai , generative-ai , llms , pelican-riding-a-bicycle , gpt-6-astra",
+    "url": "https://simonwillison.net/2026/Sep/5/introducing-gpt-6-astra-for-developers/",
+    "topic": "llm",
+    "date": "2026-09-05",
+    "fetched_date": "2026-09-06",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Using Blender with coding agents on macOS",
+    "abstract": "TIL: Using Blender with coding agents on macOS I've been having fun with Blender in ChatGPT Codex on my Mac recently. Getting it to work with coding agents is really easy: install the full Mac application from blender.org and run a prompt like this: Use the already install /Applications/Blender to render a scene of a pelican riding a bicycle In this case I followed that up with these two prompts: OK add a background and a lot of flair Then: OK make it a whole lot better And got this image, generated using Blender's Python API : Tags: ai , generative-ai , llms , blender , pelican-riding-a-bicycle , coding-agents , gpt-6-astra",
+    "url": "https://simonwillison.net/2026/Sep/5/blender-coding-agents-macos/",
+    "topic": "llm",
+    "date": "2026-09-05",
+    "fetched_date": "2026-09-06",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Seattle Times and Newsday are the latest publications to sue OpenAI and Microsoft",
+    "abstract": "Two more news organizations are suing OpenAI and Microsoft over the supposed use of their journalism to train AI.",
+    "url": "https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/",
+    "topic": "llm",
+    "date": "2026-09-05",
+    "fetched_date": "2026-09-06",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Hikers rescued after using Google Gemini for planning",
+    "abstract": "The sheriff’s office said the hikers “were advised by Gemini to bring far less food and water than their group required.\"",
+    "url": "https://techcrunch.com/2026/09/05/hikers-rescued-after-using-google-gemini-for-planning/",
+    "topic": "llm",
+    "date": "2026-09-05",
+    "fetched_date": "2026-09-06",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "OpenAI confirms ‘wiki incident,’ says it’s ‘working on a framework’ for more disclosure",
+    "abstract": "OpenAI acknowledged its role in a recently reported incident where AI agents took over a German wiki forum.",
+    "url": "https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure/",
+    "topic": "llm",
+    "date": "2026-09-05",
+    "fetched_date": "2026-09-06",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
   }
 ]
