@@ -26258,5 +26258,95 @@
     "fetched_date": "2026-09-06",
     "feed_name": "TechCrunch AI",
     "source": "industry"
+  },
+  {
+    "title": "An Alien Mind",
+    "abstract": "Jakub Pachocki reflects on increasingly capable AI and the challenge of keeping it aligned. He calls for stronger safeguards and international coordination.",
+    "url": "https://openai.com/index/an-alien-mind",
+    "topic": "llm",
+    "date": "2026-09-06",
+    "fetched_date": "2026-09-07",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Research acceleration: The view inside OpenAI",
+    "abstract": "Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration.",
+    "url": "https://openai.com/index/research-acceleration-view-inside-openai",
+    "topic": "llm",
+    "date": "2026-09-06",
+    "fetched_date": "2026-09-07",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Research acceleration: The view inside OpenAI",
+    "abstract": "Research acceleration: The view inside OpenAI Apparently today is RSI day at OpenAI, for Recursive Self-Improvement - I think it's their new AGI. Both this piece and the new essay An Alien Mind (by Chief Scientist Jakub Pachocki) talk about it, and this one doesn't even bother to expand the acronym. Included are details on how OpenAI's own research team are using coding agents. Like pretty much everyone else 2026 has been the year that agentic engineering really took off at OpenAI, best illustrated by this chart: I'm intrigued at what caused that significant acceleration in AI spend per researcher in late July - my best guess is that's when internal employees gained access to the model later released as GPT-6 Astra. Tags: ai , openai , generative-ai , chatgpt , llms , coding-agents , november-2025-inflection , recursive-self-improvement",
+    "url": "https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai/",
+    "topic": "llm",
+    "date": "2026-09-06",
+    "fetched_date": "2026-09-07",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "The purpose of DNS is to spread scams",
+    "abstract": "The purpose of DNS is to spread scams Terence Eden shares some daunting statistics in support of his take that \"the Domain Name System's purpose seems to be a vector for criminals to run scams on people at a terrifyingly high rate\". On this Interisle report ( via Andrew Campling ), Terence says: It says 85 million new registrations of gTLDs were made in 2025. Of those 8.5 million were added to blocklists by May 2025. It reckons that a 10% abuse rate is the likely floor for these numbers and it's probably closer to 20%. One in five newly registered domains with a gTLD are scams. That's a bloody crisis. I had no idea. Apparently ICANN have been discussing this problem for years. Tags: dns , scams , terence-eden",
+    "url": "https://simonwillison.net/2026/Sep/6/the-purpose-of-dns-is-to-spread-scams/",
+    "topic": "llm",
+    "date": "2026-09-06",
+    "fetched_date": "2026-09-07",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "There's No Limit to How Bad Code Can Get",
+    "abstract": "My comment on There's No Limit to How Bad Code Can Get — Lobste.rs. [In reply to a comment about burning it down to start from scratch when technical debt becomes overwhelming] In my experience it's so rare for that to work. You announce the old thing is irrecoverably drowning in tech debt. You spin up a team to rewrite it from scratch. Work begins. Meanwhile the old thing remains a moving target: it's running the core business, so changes are still necessary. The developers working on it know that it's going to be made obsolete by the new thing soon, so they don't have any incentive to go beyond the smallest effort possible to add the new features. Technical debt continues to mount. Meanwhile, the team working on the new thing are ambitious and probably a little naive. They start out at a great pace - it's greenfield after all - but as time progresses it becomes apparent that nobody fully understands the behavior and scope of the thing they are replacing. If it was well documented and tested it wouldn't need to be replaced, after all... After months (or even years) without delivering value, the pressure is on to \"ship it\", so the new system is launched to handle a subset of what the old system handled - or often for some new feature that was too hard to build with the now mostly unmaintained old system. ... so now you have TWO systems in production - the janky old system that nobody wants to touch, and a new system which handles just a few production features and is 80% inactive code that is meant to replace the old system, eventually. If you're really lucky the company won't have lost patience with the new system and will allow that work to continue. The longer this all takes, and the longer the old system stays in production and stubbornly continues to work, the higher the risk that \"priorities have changed\" and the new system total replacement work is abandoned, leaving you with two systems where you used to have one. The best article I've read about completing this process responsibly is Migrations: the sole scalable fix to tech debt by Will Larson. If I run into a situation like this in the future, my strong recommendation will be to shore up the old system with as much automated testing as possible and then seeing if targeted refactors can get it to the desired shape. My hunch is that in many cases that will have a much higher chance of success than the siren call of a greenfield replacement. Tags: migrations , technical-debt",
+    "url": "https://simonwillison.net/2026/Sep/6/theres-no-limit-to-how-bad-code-can-get/",
+    "topic": "llm",
+    "date": "2026-09-06",
+    "fetched_date": "2026-09-07",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Quoting Zach Kehs",
+    "abstract": "If you continue to add floors and rooms to a building forever, it will collapse. Software faces no such constraint. The code can always get worse. There can always be a new layer of indirection or a reduction in performance. — Zach Kehs , There's No Limit to How Bad Code Can Get Tags: technical-debt",
+    "url": "https://simonwillison.net/2026/Sep/6/zach-kehs/",
+    "topic": "llm",
+    "date": "2026-09-06",
+    "fetched_date": "2026-09-07",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Authors push back as publishers and agents make claims on Anthropic settlement",
+    "abstract": "Authors say publishers seem to be claiming more than their fair share of settlement payments.",
+    "url": "https://techcrunch.com/2026/09/06/authors-push-back-as-publishers-and-agents-seek-share-of-anthropic-settlement/",
+    "topic": "llm",
+    "date": "2026-09-06",
+    "fetched_date": "2026-09-07",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Travis Kalanick’s Atoms might be getting into the robotaxi business",
+    "abstract": "The Uber founder has said that Atoms will allow him to complete \"unfinished business.\"",
+    "url": "https://techcrunch.com/2026/09/06/travis-kalanicks-atoms-might-be-getting-into-the-robotaxi-business/",
+    "topic": "llm",
+    "date": "2026-09-06",
+    "fetched_date": "2026-09-07",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "How clinical research is being used as a growth engine",
+    "abstract": "Companies like AG1, Ritual and Blueland are investing in clinical research as a way to fuel brand growth. Executives at these companies share why they think it's an important differentiator.",
+    "url": "https://www.modernretail.co/operations/how-clinical-research-is-being-used-as-a-growth-engine/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-09-07",
+    "fetched_date": "2026-09-07",
+    "feed_name": "Modern Retail",
+    "source": "industry"
   }
 ]
