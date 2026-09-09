@@ -26448,5 +26448,225 @@
     "fetched_date": "2026-09-08",
     "feed_name": "Modern Retail",
     "source": "industry"
+  },
+  {
+    "title": "How GPT-5.6 Sol helps run quantum computing experiments",
+    "abstract": "See how an MIT researcher uses GPT-5.6 Sol with Codex to autonomously run quantum computing experiments, analyze results, and calibrate qubits.",
+    "url": "https://openai.com/index/codex-quantum-computing-experiments",
+    "topic": "llm",
+    "date": "2026-09-08",
+    "fetched_date": "2026-09-09",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "The Work Now Within Reach",
+    "abstract": "Explore how more capable, affordable AI can expand the work people and businesses can accomplish—and make growth more economical.",
+    "url": "https://openai.com/index/the-work-now-within-reach",
+    "topic": "llm",
+    "date": "2026-09-08",
+    "fetched_date": "2026-09-09",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Introducing ChatGPT Images 2.5",
+    "abstract": "ChatGPT Images 2.5 helps turn your ideas, sketches, and reference photos into more personalized, polished images that better reflect your ideas.",
+    "url": "https://openai.com/index/introducing-chatgpt-images-2-5",
+    "topic": "llm",
+    "date": "2026-09-08",
+    "fetched_date": "2026-09-09",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "On the Navier–Stokes Millennium Prize Problem",
+    "abstract": "We’re sharing an AI-generated solution to the Navier–Stokes Millennium Prize Problem, including a writeup and a formal proof in Lean.",
+    "url": "https://openai.com/index/navier-stokes-solution",
+    "topic": "llm",
+    "date": "2026-09-08",
+    "fetched_date": "2026-09-09",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Funding grants for new research into AI and teen development",
+    "abstract": "Apply now for OpenAI’s $5 million grant program supporting independent research on how generative AI affects teen development, well-being, and safety.",
+    "url": "https://openai.com/index/teen-development-research-grants",
+    "topic": "llm",
+    "date": "2026-09-08",
+    "fetched_date": "2026-09-09",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "OpenAI expands initiatives to support journalism from classrooms to newsrooms",
+    "abstract": "OpenAI is expanding support for journalism with tools, training, and partnerships for students, educators, journalists, and news organizations.",
+    "url": "https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms",
+    "topic": "llm",
+    "date": "2026-09-08",
+    "fetched_date": "2026-09-09",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "1Password increases engineering productivity 21% with Codex",
+    "abstract": "Engineers at 1Password use Codex to rapidly build new features and internal tools, reaching production-readiness while maintaining rigorous security policies.",
+    "url": "https://openai.com/index/1password",
+    "topic": "llm",
+    "date": "2026-09-08",
+    "fetched_date": "2026-09-09",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Safety for Whom? Refusing the Right Subset of a Topic, Not the Whole Topic",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/MultiverseComputingCAI/safety-for-whom",
+    "topic": "llm",
+    "date": "2026-09-08",
+    "fetched_date": "2026-09-09",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
+    "abstract": "AlphaGenome Atlas maps the molecular effects of 9 billion single-letter DNA variants across the human genome.",
+    "url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
+    "topic": "generative-ai",
+    "date": "2026-09-08",
+    "fetched_date": "2026-09-09",
+    "feed_name": "DeepMind Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Quoting Terence Tao",
+    "abstract": "I wrote recently about how the collection of good, fruitful open problems is now being mined in a non-renewable fashion, leading to the potential scenario of these problems becoming scarce. [...] We have now seen that even the rumor of someone working on a problem can trigger a massive amount of AI-powered effort to flatten it before the original research project has time to reach its full potential. The incentives may now be pointing in the direction of no longer sharing any promising research directions with the broader community, which would reverse centuries of traditions of open science and do serious long-term damage to the future of the field. — Terence Tao Tags: ai-ethics , mathematics , ai",
+    "url": "https://simonwillison.net/2026/Sep/9/terence-tao/",
+    "topic": "llm",
+    "date": "2026-09-09",
+    "fetched_date": "2026-09-09",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "On the Navier–Stokes Millennium Prize Problem",
+    "abstract": "On the Navier–Stokes Millennium Prize Problem Impressive result from OpenAI, who used an unreleased model to produce a resolution to the Navier–Stokes existence and smoothness problem , one of the seven Millennium Prize Problems that have been subject to a $1,000,000 prize since May 24th, 2000. The discovery is somewhat overshadowed by accusations of skulduggery from Tristan Buckmaster, an NYU mathematics professor who was collaborating on related problems with Levent Alpöge, an accomplished mathematician who currently works for Anthropic. Tristan's complaint accompanied a hastily published version of their own results. Here's the PDF describing what happened . The very short version is that Tristan and Levent worked on the problem for almost a year, making extensive use of Claude and Codex (mainly GPT-5.6 Sol), then had a breakthrough on August 15th. The mathematical rumour mill kicked into gear and Tristan and Levent heard that OpenAI had heard that Anthropic had resolved \"a major open problem\", so they reached out and learned that OpenAI had a team working on a related problem, with a similar approach. Quoting Tristan: I asked when the first prompt had been sent by them. This question was not answered directly by OpenAI for some time. Eventually it was agreed that it had been sent in the past few days, after information about our work had reached OpenAI. I asked whether the model had been trained on, or had access to, our sessions in Codex, into which we had been putting all our drafts for the whole of this project. I was told the model did not look up user data. I asked again, about training, and I did not get an answer. It gets more complicated from there. The OpenAI team offered to wait for Tristan to publish, or to have him author a paper about their result, but were clear that Levent would not be invited as a co-author due to OpenAI's competitive relationship with his employer. Here's how OpenAI described their work: On Tuesday, September 1, we heard rumors that two Millennium Prize problems had been resolved. Inspired by these rumors and by the step change in performance of our internal model, we launched an effort to evaluate it on all open Millennium Prize problems and a few other high-impact problems. [...] The agents arrived at their resolution on Saturday, September 5, about 88 hours after the first agents were launched. Lean formalization and verification took an additional 17 hours via GPT‑6 Astra. Across all attempted problems, the agents sent 4.9 million messages and used about 300 billion output tokens. In the process of resolving the Navier–Stokes problem, the agents sent 2.7 million messages and used approximately 130 billion output tokens. (We don't know the cost structure of the internal model they used, but 300 billion output tokens at public API prices for GPT-6 Astra would cost $15,000,000 .) Here's where they provide their perspective on Tristan and Levent's work (emphasis mine): Our effort began on September 1st after hearing a rumor which we later realized was related to Levent Alpöge, an Anthropic employee, and Tristan Buckmaster, a math professor at NYU. After the completion of our full project and Lean verification (on September 6th), believing from the rumor they also had a solution of Navier–Stokes, we reached out to them to offer a concurrent release of our result and to recognize their priority in a joint announcement. [...] We (the researchers and the agents) did not see any of their work through any means until they released it publicly — in particular, no specific user data was accessed in order to solve this problem. While unlikely, we cannot rule out that de-identified data derived from their usage of our products helped improve our models . However, our proofs differ significantly and even the precise results proved are different in the Euler case (forced vs unforced). My interpretation of what happened here is that OpenAI heard that some Millennium Prize problems had been solved using LLMs and saw this as an opportunity to demonstrate the power of their latest model, without thinking too hard about the optics of scooping a team who had been using OpenAI's own models to work on this problem for the best part of a year. This situation appears to mirror what's happening in the world of computer security right now. Anil Madhavapeddy recently pointed out that Just a rumour of a bug is enough to find a security exploit these days , because if someone knows that some software has an unpatched vulnerability, they can set their agents the task of finding it. Is the same now true of mathematics? Just knowing that there is an unpublished solution to a problem might trigger millions of dollars in LLM spending to get there first. This also highlights one of my ongoing frustrations about how all of this works. When an AI lab says that my data is \"used to improve model performance\", what does that actually mean ? My two favourite hypothetical questions regarding this used to be: If I'm running Codex and one of my API keys accidentally gets consumed in the context, what are the chances that someone else might ask for an API key in the future and get mine back? (I asked someone at OpenAI once and they called this the \"regurgitation\" problem and assured me that they take great pains to prevent that... but wouldn't describe how.) If I brainstorm with ChatGPT about potential new directions for my company, what's the chance that information might be exposed to a competitor in six months' time who asks \"what might company X plan to do next\"? My new preferred hypothetical for this is: If I use ChatGPT to help me partially solve a Millennium Prize problem, what are the chances that my work will influence training such that a later model helps someone else solve it first? Via Hacker News Tags: mathematics , ai , openai , generative-ai , llms , training-data , ai-ethics",
+    "url": "https://simonwillison.net/2026/Sep/8/on-navier-stokes/",
+    "topic": "llm",
+    "date": "2026-09-08",
+    "fetched_date": "2026-09-09",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Introducing ChatGPT Images 2.5",
+    "abstract": "Introducing ChatGPT Images 2.5 OpenAI's image generation models are apparently used \"more than 3 billion images across ChatGPT Images and the GPT‑Image models in the API\". This latest release improves their instruction-following ability across multiple turns, responds faster, and \"is better at preserving the subjects in your reference photos\". There are two new model IDs in the API: gpt-image-2.5-sunburst and gpt-image-2.5-flare . Based on this I think Sunburst is the stronger option: Choose Sunburst for workflows where editing precision matters most, and Flare for fast, high-quality everyday image generation. I upgraded my openai_image.py CLI tool to support passing in one or more reference images, so now this works: uv run https://tools.simonwillison.net/python/openai_image.py \\ ' add a raccoon scientist studying the chart thoughtfully ' \\ -i https://static.simonwillison.net/static/2026/openai-agent-usage.webp \\ -m gpt-image-2.5-sunburst This is the original image , and here's what I got back from that prompt to \"add a raccoon scientist studying the chart thoughtfully\": Tags: tools , ai , openai , generative-ai , uv , text-to-image",
+    "url": "https://simonwillison.net/2026/Sep/8/introducing-chatgpt-images-25/",
+    "topic": "llm",
+    "date": "2026-09-08",
+    "fetched_date": "2026-09-09",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "A Bad Day For Humans, a Worse Day For Humanity",
+    "abstract": "A quick thought on the top stories this week",
+    "url": "https://www.thealgorithmicbridge.com/p/a-bad-day-for-humans-a-worse-day",
+    "topic": "llm",
+    "date": "2026-09-08",
+    "fetched_date": "2026-09-09",
+    "feed_name": "The Algorithmic Bridge",
+    "source": "industry"
+  },
+  {
+    "title": "Hackers are stealing Claude tokens from subscribers",
+    "abstract": "Last month, a Claude user noticed his account was consuming tokens even though he wasn't working. Anthropic has since warned users about hackers.",
+    "url": "https://techcrunch.com/2026/09/08/hackers-are-stealing-claude-tokens-from-subscribers/",
+    "topic": "llm",
+    "date": "2026-09-08",
+    "fetched_date": "2026-09-09",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Cognition hits $48B valuation, signaling investors believe AI coding is far from a winner-take-all market",
+    "abstract": "Cognition's valuation multiple is higher than Cursor's was before selling to SpaceX.",
+    "url": "https://techcrunch.com/2026/09/08/cognition-hits-48b-valuation-signaling-investors-believe-ai-coding-is-far-from-a-winner-take-all-market/",
+    "topic": "llm",
+    "date": "2026-09-08",
+    "fetched_date": "2026-09-09",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Meta debuts its Muse AI agent. Will consumers trust it?",
+    "abstract": "Meta's new personal AI agent Muse wants access to users' email, calendars, payments, health services, and more — making the company's biggest consumer AI bet yet a major test of whether people still trust Meta with their data.",
+    "url": "https://techcrunch.com/2026/09/08/meta-debuts-its-muse-ai-agent-will-consumers-trust-it/",
+    "topic": "llm",
+    "date": "2026-09-08",
+    "fetched_date": "2026-09-09",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "OpenAI fought dirty on career-making math problem, says NYU mathematician",
+    "abstract": "There is a $1 million bounty for the first person providing a solution to the Navier-Stokes existence and smoothness problem.",
+    "url": "https://techcrunch.com/2026/09/08/openai-fought-dirty-on-career-making-math-problem-says-nyu-mathematician/",
+    "topic": "llm",
+    "date": "2026-09-08",
+    "fetched_date": "2026-09-09",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Google Cloud races to catch up in the AI deployment wars with Accenture deal",
+    "abstract": "Google Cloud expands its enterprise AI push with Accenture, betting on forward-deployed engineers to drive adoption and overcome deployment bottlenecks.",
+    "url": "https://techcrunch.com/2026/09/08/google-cloud-races-to-catch-up-in-the-ai-deployment-wars-with-accenture-deal/",
+    "topic": "llm",
+    "date": "2026-09-08",
+    "fetched_date": "2026-09-09",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Chrome is now shipping updates every 2 weeks as AI changes the security landscape",
+    "abstract": "Google is speeding up Chrome’s release schedule to ship security patches and new features faster.",
+    "url": "https://techcrunch.com/2026/09/08/chrome-is-now-shipping-updates-every-2-weeks-as-ai-changes-the-security-landscape/",
+    "topic": "llm",
+    "date": "2026-09-08",
+    "fetched_date": "2026-09-09",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Mistral raises €3B as sovereign AI becomes big business",
+    "abstract": "The French AI lab has raised €3 billion at a €21 billion valuation in a Series D round led by Samsung, Scaleup Europe, and PSG Equity.",
+    "url": "https://techcrunch.com/2026/09/08/mistral-raises-e3b-as-sovereign-ai-becomes-big-business/",
+    "topic": "llm",
+    "date": "2026-09-08",
+    "fetched_date": "2026-09-09",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Why Lands’ End is showing up at college football game days this fall",
+    "abstract": "Lands’ End is doing a concerted marketing push around college football this fall, as part of its quest to introduce the brand to more people. Chief Marketing Officer Sarah Sylvester, who joined the company a little over six months ago, spoke with Modern Retail about why she thinks college football game days are a moment that Lands' End can own.",
+    "url": "https://www.modernretail.co/marketing/why-lands-end-is-showing-up-at-college-football-game-days-this-fall/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-09-09",
+    "fetched_date": "2026-09-09",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Brands Briefing: Instagram DMs are proving to be a gold mine for product development",
+    "abstract": "Made In, Plainspeak and Springrose are among the brands turning to Instagram DMs to collect feedback, talk with shoppers and source ideas for new products at a time in which digital marketing costs continue to skyrocket.",
+    "url": "https://www.modernretail.co/marketing/brands-briefing-instagram-dms-are-proving-to-be-a-gold-mine-for-product-development/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-09-08",
+    "fetched_date": "2026-09-09",
+    "feed_name": "Modern Retail",
+    "source": "industry"
   }
 ]
