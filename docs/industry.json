@@ -26668,5 +26668,295 @@
     "fetched_date": "2026-09-09",
     "feed_name": "Modern Retail",
     "source": "industry"
+  },
+  {
+    "title": "The AI policy window is open. We need to act.",
+    "abstract": "Chris Lehane argues that stronger AI capabilities require stronger safety evidence, shared standards, and durable policy action while the policy window remains open.",
+    "url": "https://openai.com/index/ai-policy-window",
+    "topic": "llm",
+    "date": "2026-09-09",
+    "fetched_date": "2026-09-10",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "GPT-6 Astra: The next generation in intelligence for work",
+    "abstract": "Meet GPT-6 Astra, OpenAI’s most capable model for business, with advanced reasoning, computer use, and stronger writing and design judgment.",
+    "url": "https://openai.com/index/gpt-6-astra-next-generation-work",
+    "topic": "llm",
+    "date": "2026-09-09",
+    "fetched_date": "2026-09-10",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Paul Christiano joins OpenAI Foundation Board",
+    "abstract": "Paul Christiano joins the OpenAI Foundation Board and its Safety and Security Committee, bringing experience in AI alignment, safety, and standards.",
+    "url": "https://openai.com/index/paul-christiano-joins-openai-foundation-board",
+    "topic": "llm",
+    "date": "2026-09-09",
+    "fetched_date": "2026-09-10",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "An alignment assessment of recent cybersecurity incidents",
+    "abstract": "We present an alignment assessment of four incidents in which Claude models gained unauthorized access to real third-party systems.",
+    "url": "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents",
+    "topic": "llm",
+    "date": "2026-09-09",
+    "fetched_date": "2026-09-10",
+    "feed_name": "Anthropic Research",
+    "source": "industry"
+  },
+  {
+    "title": "IBM releases SOTA Granite Time Series PatchTST-FM-r2 model with commercial-friendly license",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/ibm-research/ibm-releases-sota-granite-time-series",
+    "topic": "llm",
+    "date": "2026-09-09",
+    "fetched_date": "2026-09-10",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Quoting Calif Research",
+    "abstract": "Today, we're releasing a demo of WeWorm, the first zero-click worm to spread through WeChat calls across iOS and Android. [...] The victim does not need to answer the call, or interact with their phone at all. Even if they do answer, they hear nothing, and the exploit still succeeds. [...] Working with AI, our team found the bug and wrote the first remote code execution (RCE) exploit in about two days. Building the worm took one more week. A worm at this scale used to be the kind of thing that took a larger team months. AI can already do most of the work here. Our team provided the judgment about what to target and how to test it safely. — Calif Research , WeWorm Tags: ai-security-research , ai , llms , security , generative-ai",
+    "url": "https://simonwillison.net/2026/Sep/10/calif-research/",
+    "topic": "llm",
+    "date": "2026-09-10",
+    "fetched_date": "2026-09-10",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": ".blend URL Viewer",
+    "abstract": "Tool: .blend URL Viewer I'm continuing to have a lot of fun with GPT-6 Astra and Blender (see my TIL ). As a big fan of the Imperial Fabergé Easter eggs , I've always thought it would be fun to make some new ones that celebrate popular culture. Yesterday I decided to try out the new ChatGPT Images 2.5 by running this prompt : Generate a photo of a faberge egg that's themed after the TV show Pluribus - research first It gave me this - honestly not bad for a first attempt! Then, just to see what would happen, I pasted that image into Codex running GPT-6 Astra (high) and prompted: Use your blender local skill to create a blender model of this faverge egg (Here's the skill file , which I created like this .) It churned away for 17m51s and built me several .blend files . I already had this vibe-coded Blender viewing experiment lying around, so I added that to my tools collection and now you can use it to see my Pluribus blender model in your browser : Tags: 3d , javascript , tools , ai , generative-ai , llms , blender , coding-agents , codex , gpt-6-astra",
+    "url": "https://simonwillison.net/2026/Sep/9/blender-viewer/",
+    "topic": "llm",
+    "date": "2026-09-09",
+    "fetched_date": "2026-09-10",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "AI research startup Listen Labs scrubbed a $1.5B funding round for Salesforce talks",
+    "abstract": "Listen Labs walked away from a signed Series C term sheet from Menlo Ventures, sources say.",
+    "url": "https://techcrunch.com/2026/09/09/ai-research-startup-listen-labs-scrubbed-a-1-5b-funding-round-for-salesforce-talks/",
+    "topic": "llm",
+    "date": "2026-09-10",
+    "fetched_date": "2026-09-10",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "OpenAI adds a prominent AI doomer to its board of directors",
+    "abstract": "Paul Christiano, an influential AI researcher focused on alignment, is joining the OpenAI Foundation as a member of its board.",
+    "url": "https://techcrunch.com/2026/09/09/openai-adds-a-prominent-ai-doomer-to-its-board-of-directors/",
+    "topic": "llm",
+    "date": "2026-09-09",
+    "fetched_date": "2026-09-10",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Massachusetts hits data centers with new clean power rules",
+    "abstract": "Massachusetts has become the third state in as many months to slap new restrictions on data center development.",
+    "url": "https://techcrunch.com/2026/09/09/massachusetts-hits-data-centers-with-new-clean-power-rules/",
+    "topic": "llm",
+    "date": "2026-09-09",
+    "fetched_date": "2026-09-10",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Apple Watch’s new AI features are normalizing the idea that technology is always listening",
+    "abstract": "Apple says its new watches won’t save raw audio, but features that can transcribe recent speech and summarize ambient conversations raise new questions about consent, privacy, and how people behave when they know they could always be recorded.",
+    "url": "https://techcrunch.com/2026/09/09/apple-watchs-new-ai-features-are-normalizing-the-idea-that-technology-is-always-listening/",
+    "topic": "llm",
+    "date": "2026-09-09",
+    "fetched_date": "2026-09-10",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Everything Apple announced at its fall iPhone event, from the foldable iPhone Duo to an always-listening Apple Watch",
+    "abstract": "The main event was the tech giant's highly anticipated first foldable phone, the iPhone Duo.",
+    "url": "https://techcrunch.com/2026/09/09/everything-apple-announced-at-its-fall-iphone-event-from-the-foldable-iphone-duo-to-an-always-listening-apple-watch/",
+    "topic": "llm",
+    "date": "2026-09-09",
+    "fetched_date": "2026-09-10",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "The hinge for Apple’s new foldable phone was built with AI",
+    "abstract": "Apple says it used AI and 3D printing in the manufacturing process for its long-awaited foldable phone.",
+    "url": "https://techcrunch.com/2026/09/09/the-hinge-for-apples-new-foldable-phone-was-built-with-ai/",
+    "topic": "llm",
+    "date": "2026-09-09",
+    "fetched_date": "2026-09-10",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Apple’s revamped Health app will calculate your ‘health age’ and readiness score",
+    "abstract": "The update uses Apple Intelligence to make better sense of your health data.",
+    "url": "https://techcrunch.com/2026/09/09/apples-revamped-health-app-will-calculate-your-health-age-and-readiness-score/",
+    "topic": "llm",
+    "date": "2026-09-09",
+    "fetched_date": "2026-09-10",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Apple has a new way to prove your iPhone photos aren’t AI slop",
+    "abstract": "Apple introduced Apple Reference Image to help users determine whether photos have been edited, including alterations made by AI.",
+    "url": "https://techcrunch.com/2026/09/09/apple-has-a-new-way-prove-your-iphone-photos-arent-ai-slop/",
+    "topic": "llm",
+    "date": "2026-09-09",
+    "fetched_date": "2026-09-10",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Apple CEO John Ternus says the best AI device is still the iPhone",
+    "abstract": "The company also argued that its on-device models offer consumers more privacy.",
+    "url": "https://techcrunch.com/2026/09/09/apple-ceo-john-ternus-says-the-best-ai-device-is-still-the-iphone/",
+    "topic": "llm",
+    "date": "2026-09-09",
+    "fetched_date": "2026-09-10",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Superintelligence is coming. Should we let it?",
+    "abstract": "AI companies have been talking about superintelligent AI like it’s inevitable, but recent safety incidents like OpenAI’s Hugging Face breach are demonstrating the potential dangers of deploying AI systems that are more capable than humans. So what happens when we can’t reliably control what these systems do? On this episode of TechCrunch’s Equity podcast, Rebecca Bellan is joined by Connor Leahy, an AI researcher, entrepreneur, and now the U.S. Executive Director of […]",
+    "url": "https://techcrunch.com/video/superintelligence-is-coming-should-we-let-it/",
+    "topic": "llm",
+    "date": "2026-09-09",
+    "fetched_date": "2026-09-10",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "ControlAI’s Connor Leahy on why superintelligence is ‘not a weapon, it’s an adversary’",
+    "abstract": "AI companies have been talking about superintelligent AI like it’s inevitable, but recent safety incidents like OpenAI’s Hugging Face breach are demonstrating the potential dangers of deploying AI systems that are more capable than humans. So what happens when we can’t reliably control what these systems do? On this episode of TechCrunch’s Equity podcast, Rebecca Bellan is joined by Connor Leahy, an AI researcher, entrepreneur, and now the U.S. Executive Director of […]",
+    "url": "https://techcrunch.com/podcast/controlais-connor-leahy-on-why-superintelligence-is-not-a-weapon-its-an-adversary/",
+    "topic": "llm",
+    "date": "2026-09-09",
+    "fetched_date": "2026-09-10",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Viral AI assistant Instinct now has its own email address",
+    "abstract": "Instinct’s new email feature lets the AI agent create and manage accounts, contact businesses, handle support requests, and do more on users' behalf.",
+    "url": "https://techcrunch.com/2026/09/09/viral-ai-assistant-instinct-now-has-its-own-email-address/",
+    "topic": "llm",
+    "date": "2026-09-09",
+    "fetched_date": "2026-09-10",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "‘Gambling with our lives’: Anthropic researcher quits, warns against self-improving AI",
+    "abstract": "Anthropic researcher Jacob Coxon resigned over AI extinction fears, calling for pacing agreements between labs.",
+    "url": "https://techcrunch.com/2026/09/09/gambling-with-our-lives-anthropic-researcher-quits-warns-against-self-improving-ai/",
+    "topic": "llm",
+    "date": "2026-09-09",
+    "fetched_date": "2026-09-10",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Shipt becomes the latest delivery app with an AI shopping assistant",
+    "abstract": "Users can ask the assistant to do things like \"Create a cart for my Saturday tailgate for 25 people and include some brunch items,\" or \"Build a cart for easy school lunches and after-school snacks,\" Shipt says.",
+    "url": "https://techcrunch.com/2026/09/09/shipt-becomes-the-latest-delivery-app-with-an-ai-shopping-assistant/",
+    "topic": "llm",
+    "date": "2026-09-09",
+    "fetched_date": "2026-09-10",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "AI spend per employee slumped at top firms in August — summer doldrums or a warning sign?",
+    "abstract": "Falling token costs, cheaper models, and less spend per employee — AI adoption isn't playing out the way hyperscalers hoped.",
+    "url": "https://techcrunch.com/2026/09/09/ai-spend-per-employee-slumped-at-top-firms-in-august-summer-doldrums-or-a-warning-sign/",
+    "topic": "llm",
+    "date": "2026-09-09",
+    "fetched_date": "2026-09-10",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Sequoia doubles down on Cymphony as AI agents create new enterprise security risks",
+    "abstract": "Cymphony gives security teams a single view of employees, AI agents, and other nonhuman identities, including the systems and sensitive data they can access.",
+    "url": "https://techcrunch.com/2026/09/09/sequoia-doubles-down-on-cymphony-as-ai-agents-create-new-enterprise-security-risks/",
+    "topic": "llm",
+    "date": "2026-09-09",
+    "fetched_date": "2026-09-10",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Instacart launches an AI grocery shopping assistant called Clementine",
+    "abstract": "Instacart is the latest app to bake a conversational AI assistant into its platform.",
+    "url": "https://techcrunch.com/2026/09/09/instacart-launches-an-ai-grocery-shopping-assistant-called-clementine/",
+    "topic": "llm",
+    "date": "2026-09-09",
+    "fetched_date": "2026-09-10",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Besxar is building an orbital semiconductor factory, one SpaceX rocket at a time",
+    "abstract": "Besxar, a startup founded by former OpenAI staffer Ashley Pilipiszyn, wants to make the key precursors for advanced semiconductors by taking advantage of the vacuum of space.",
+    "url": "https://techcrunch.com/2026/09/09/besxar-is-strapping-advanced-chip-fabs-onto-spacexs-falcon-9-rockets/",
+    "topic": "llm",
+    "date": "2026-09-09",
+    "fetched_date": "2026-09-10",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Suno replaces its AI models with a new one trained on licensed music as copyright suits pile up",
+    "abstract": "As it grapples with a bevy of lawsuits, Suno said its new model, Suno v6, is not trained using music it used to train previous versions of the AI model.",
+    "url": "https://techcrunch.com/2026/09/09/suno-replaces-its-ai-models-with-a-new-one-trained-on-licensed-music-as-copyright-suits-pile-up/",
+    "topic": "llm",
+    "date": "2026-09-09",
+    "fetched_date": "2026-09-10",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Aerie soars in back-to-school sales, while American Eagle works to ‘balance’ denim",
+    "abstract": "As the back-to-school season dies down, Aerie is continuing its hot streak. Meanwhile, American Eagle is still dealing with sales slumps as it works to reposition its denim business.",
+    "url": "https://www.modernretail.co/operations/aerie-soars-in-back-to-school-sales-while-american-eagle-works-to-balance-denim/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-09-09",
+    "fetched_date": "2026-09-10",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "As online eyewear matures, GlassesUSA’s parent company doubles down on vertical integration",
+    "abstract": "Online eyewear has reached a new phase of maturity, as consumers grow more confident purchasing prescription products digitally and as retailers invest in faster fulfillment, improved fit technology and more seamless omnichannel journeys. Sponsored by Optimax Eyewear Group.",
+    "url": "https://www.modernretail.co/sponsored/glassesusa-online-eyewear-market-matures/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-09-09",
+    "fetched_date": "2026-09-10",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Instacart launches custom AI assistants for retailers, and its own",
+    "abstract": "Retail giants like Walmart, Kroger and Amazon have launched AI assistants allowing consumers to ask for recommendations or curated shopping lists. Now, Instacart has made it easier for other retailers such as regional grocers to follow in their footsteps.",
+    "url": "https://www.modernretail.co/technology/instacart-launches-custom-ai-assistants-for-retailers-and-its-own/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-09-09",
+    "fetched_date": "2026-09-10",
+    "feed_name": "Modern Retail",
+    "source": "industry"
   }
 ]
