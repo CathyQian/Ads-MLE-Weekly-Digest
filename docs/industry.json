@@ -26958,5 +26958,265 @@
     "fetched_date": "2026-09-10",
     "feed_name": "Modern Retail",
     "source": "industry"
+  },
+  {
+    "title": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
+    "abstract": "César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct genomes for antimicrobial candidates to fight drug-resistant infections.",
+    "url": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
+    "topic": "llm",
+    "date": "2026-09-10",
+    "fetched_date": "2026-09-11",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Now everyone can put data to work",
+    "abstract": "Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive dashboards with AI using natural language.",
+    "url": "https://openai.com/index/put-data-to-work",
+    "topic": "llm",
+    "date": "2026-09-10",
+    "fetched_date": "2026-09-11",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Introducing ChatGPT for Financial Services",
+    "abstract": "Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, modeling, and client-ready materials.",
+    "url": "https://openai.com/index/introducing-chatgpt-financial-services",
+    "topic": "llm",
+    "date": "2026-09-10",
+    "fetched_date": "2026-09-11",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Expanding AI access and cyber defense for federal, state, local, and tribal governments",
+    "abstract": "OpenAI and GSA will offer eligible federal, state, local, and tribal governments $0 license fees, 50% off usage, and expanded cyber defense support.",
+    "url": "https://openai.com/index/expanding-ai-access-us-government",
+    "topic": "llm",
+    "date": "2026-09-10",
+    "fetched_date": "2026-09-11",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Introducing the Agents API",
+    "abstract": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.",
+    "url": "https://openai.com/index/introducing-the-agents-api",
+    "topic": "llm",
+    "date": "2026-09-10",
+    "fetched_date": "2026-09-11",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Build more natural voice experiences with GPT‑Live‑1 in the API",
+    "abstract": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support.",
+    "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
+    "topic": "llm",
+    "date": "2026-09-10",
+    "fetched_date": "2026-09-11",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Measuring tactical intelligence targeting and conventional weapons capabilities of AI models",
+    "abstract": "Anthropic’s Frontier Red Team developed new evaluations to measure AI capabilities in tactical intelligence targeting and conventional weapons development.",
+    "url": "https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities",
+    "topic": "llm",
+    "date": "2026-09-10",
+    "fetched_date": "2026-09-11",
+    "feed_name": "Anthropic Research",
+    "source": "industry"
+  },
+  {
+    "title": "Rebuilding AUTOMATIC1111 with Gradio Workflow",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/gradio-workflow-1111",
+    "topic": "llm",
+    "date": "2026-09-10",
+    "fetched_date": "2026-09-11",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Building Pinterest’s VLM Serving Stack on NVIDIA Dynamo",
+    "abstract": "",
+    "url": "https://medium.com/pinterest-engineering/building-pinterests-vlm-serving-stack-on-nvidia-dynamo-0dce6e93d0f3?source=rss----4c5a5f6279b6---4",
+    "topic": "ads-tech",
+    "date": "2026-09-10",
+    "fetched_date": "2026-09-11",
+    "feed_name": "Pinterest Engineering",
+    "source": "industry"
+  },
+  {
+    "title": "Datasette 1.0a39 and 0.65.4 security releases",
+    "abstract": "Datasette 1.0a39 and 0.65.4 security releases Today we're releasing two new security patch versions of Datasette: 1.0a39 and 0.65.4 - one for the current alpha series and one for the stable 0.65.x family. These are security fixes which you should apply if you are running a Datasette instance on the public web - in particular if that instance mixes both public and private tables. Following issues reported by Sevban Dönmez , Alex Garcia and I ran an extensive audit of Datasette using Claude Fable 5.1, GPT-5.6, and GPT-6 Astra. We then spent almost a week collaborating on and reviewing the fixes. They helped find some very subtle bugs. We'll be incorporating security audits by frontier models into all of our development work going forward. Alex came up with a way of splitting the work which I found extremely productive: Alex Garcia and I worked together running and then responding to the audit, working in a shared private repository. For most of the issues we split the work: one of us would create the automated tests highlighting the issue, then the other would implement the fix. This ensured that two separate humans had eyes on each of the issues, in addition to our coding agents running different models. Tags: releases , security , ai , datasette , generative-ai , llms , agentic-engineering , ai-security-research",
+    "url": "https://simonwillison.net/2026/Sep/11/datasette-security/",
+    "topic": "llm",
+    "date": "2026-09-11",
+    "fetched_date": "2026-09-11",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Any Nix package, live in your browser",
+    "abstract": "Any Nix package, live in your browser Farid Zakaria calls this his \" magnum opus of Nix work\", and I can see why. trynix.dev provides a qemu-wasm powered x86_64 Linux virtual machine running entirely in your browser through WebAssembly. That VM can then be booted with any Nix package from the past 13 years. They are URL addressable, so you can navigate to this page: https://trynix.dev/?pkg=python3%403.6.2 Then click \"Load\" and get an interactive shell against a virtual machine running Python 3.6.2 from 2017. Farid is building all sorts of neat things on top of this. One recent example: Review a pull request by booting it introduces trynix-preview , described like this: GitHub action that comments a link on a pull request which lets you boot the PR’s build in the browser using https://trynix.dev . No servers, just browsers. Via Lobste.rs Tags: code-review , linux , webassembly , github-actions",
+    "url": "https://simonwillison.net/2026/Sep/10/trynix/",
+    "topic": "llm",
+    "date": "2026-09-10",
+    "fetched_date": "2026-09-11",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Native is now the future of mobile at Shopify",
+    "abstract": "Native is now the future of mobile at Shopify Shopify are moving from React Native back to separate Swift and Kotlin codebases for their native apps, for the exact reason you would expect: We decided to switch from native to React Native in 2020 for three reasons: Stop building the same features twice Allow developers to work across the stack Spend less time chasing feature parity and more time shipping value [...] Native still means building and maintaining software on two platforms, that cost has not disappeared. What changed is that agents can now do enough of the implementation, translation, testing, and review work that it’s no longer the deciding factor it was in 2020. It's a well-written post, which gives full credit to React Native as a great platform for the six years they were using it. Shopify are the maintainers of three significant React Native libraries: react-native-skia , flash-list , and restyle . The first two are finding new homes; the third \"has a smaller user base than our other libraries\" and will be archived at the end of 2026. Via Hacker News Tags: android , mobile , open-source , ios , ai , react , generative-ai , llms , ai-assisted-search , coding-agents , swift , shopify",
+    "url": "https://simonwillison.net/2026/Sep/10/shopify-react-native/",
+    "topic": "llm",
+    "date": "2026-09-10",
+    "fetched_date": "2026-09-11",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "The Singularity Paradox",
+    "abstract": "Or: why the singularity might not happen",
+    "url": "https://www.thealgorithmicbridge.com/p/the-singularity-paradox",
+    "topic": "llm",
+    "date": "2026-09-10",
+    "fetched_date": "2026-09-11",
+    "feed_name": "The Algorithmic Bridge",
+    "source": "industry"
+  },
+  {
+    "title": "Jensen Huang explains why Nvidia will grow an astounding 70% next year",
+    "abstract": "Nvidia has its finger in every pie, and sees another year of plenty in its future, Jensen Huang says. But, he insists, its deals are not circular.",
+    "url": "https://techcrunch.com/2026/09/10/jensen-huang-explains-why-nvidia-will-grow-an-astounding-70-next-year/",
+    "topic": "llm",
+    "date": "2026-09-10",
+    "fetched_date": "2026-09-11",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Mark Wahlberg is coming to TechCrunch Disrupt 2026, and he wants to talk about your work, not his",
+    "abstract": "Mark Wahlberg joins Bruce K. Lee at Disrupt to discuss investing, entrepreneurship, healthcare, wellness and building businesses.",
+    "url": "https://techcrunch.com/2026/09/10/mark-wahlberg-is-coming-to-techcrunch-disrupt-2026/",
+    "topic": "llm",
+    "date": "2026-09-10",
+    "fetched_date": "2026-09-11",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "OpenAI puts Pro subscriptions on hold due to Astra demand",
+    "abstract": "The company said Pro subscriptions put the most strain on its systems, so it's pausing sign-ups while adding more capacity.",
+    "url": "https://techcrunch.com/2026/09/10/openai-puts-pro-subscriptions-on-hold-due-to-astra-demand/",
+    "topic": "llm",
+    "date": "2026-09-10",
+    "fetched_date": "2026-09-11",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Anthropic details distillation campaigns from Alibaba, Moonshot AI, and DeepSeek",
+    "abstract": "A new report released Thursday by Anthropic alleges persistent distillation attacks by China-based AI companies, which have escalated in recent months as competition in the space has intensified.",
+    "url": "https://techcrunch.com/2026/09/10/anthropic-details-distillation-campaigns-from-alibaba-moonshot-ai-and-deepseek/",
+    "topic": "llm",
+    "date": "2026-09-10",
+    "fetched_date": "2026-09-11",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Meta’s AI agent Muse is now the No. 2 app in the US",
+    "abstract": "Meta's newest app Muse is off to a slower start than the company's other apps, like Meta AI or Threads.",
+    "url": "https://techcrunch.com/2026/09/10/metas-ai-agent-muse-is-now-the-no-2-app-in-the-us/",
+    "topic": "llm",
+    "date": "2026-09-10",
+    "fetched_date": "2026-09-11",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Anthropic reveals rogue AI agents hate CAPTCHAs, just like you",
+    "abstract": "Come inside the mind of a bot trying to convince the internet it's human.",
+    "url": "https://techcrunch.com/2026/09/10/anthropic-reveals-rogue-ai-agents-hate-captchas-just-like-you/",
+    "topic": "llm",
+    "date": "2026-09-10",
+    "fetched_date": "2026-09-11",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "India’s Pocket FM doubles revenue run rate to $500M as AI powers 93% of audio content",
+    "abstract": "Pocket FM uses AI to produce 99% of its new content, helping make content production about 80 times cheaper.",
+    "url": "https://techcrunch.com/2026/09/10/indias-pocket-fm-doubles-revenue-run-rate-to-500m-as-ai-powers-93-of-audio-content/",
+    "topic": "llm",
+    "date": "2026-09-10",
+    "fetched_date": "2026-09-11",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "AI agents are flooding public services with new requests",
+    "abstract": "“The vast majority of cases we find are people who are entitled to claim for something, claiming for that thing,” the researcher told TechCrunch.",
+    "url": "https://techcrunch.com/2026/09/10/ai-agents-are-flooding-public-services-with-new-requests/",
+    "topic": "llm",
+    "date": "2026-09-10",
+    "fetched_date": "2026-09-11",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Maven Robotics wants to steal your robot deployment deal",
+    "abstract": "Maven Robotics emerged from stealth today with a $100 million Series A and active deployments.",
+    "url": "https://techcrunch.com/2026/09/10/maven-robotics-wants-to-steal-your-robot-deployment-deal/",
+    "topic": "llm",
+    "date": "2026-09-10",
+    "fetched_date": "2026-09-11",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Walgreens says it’s focused on ‘higher-performing’ ad placements as it tries again with digital screens",
+    "abstract": "Walgreens wants to make digital in-store ad placements a bigger part of its retail media business. The chain plans to add digital screens with advertising and educational content in 1,200 of its stores beginning in October, a partnership with in-store media firm Looma.",
+    "url": "https://www.modernretail.co/marketing/walgreens-says-its-focused-on-higher-peforming-ad-placements-as-it-tries-again-with-digital-screens/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-09-11",
+    "fetched_date": "2026-09-11",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Reformation says active customers grew 23% in first public earnings report",
+    "abstract": "Reformation touted the strength of its loyal customer base during its first call as a publicly traded company, as executives sought to sell Wall Street analysts on the power of its direct-to-consumer flywheel.",
+    "url": "https://www.modernretail.co/operations/reformation-says-active-customers-grew-23-in-first-public-earnings-report/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-09-11",
+    "fetched_date": "2026-09-11",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Why seasonal success depends on early media allocation",
+    "abstract": "Seasonal demand may be predictable, but consumer behavior isn’t. By investing sooner and responding to evolving consumer signals, marketers can influence consideration, build momentum and capture demand before competition intensifies. Sponsored by Keen Decision Systems.",
+    "url": "https://www.modernretail.co/sponsored/seasonal-marketing-early-media-allocation/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-09-10",
+    "fetched_date": "2026-09-11",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Big-Box Briefing: Dick’s leans on youth sports in pitch to advertisers",
+    "abstract": "The leader of Dick’s Sporting Goods’ advertising division hopes to recruit CPG brands, quick-service restaurants and even automakers to run campaigns in its stores and other channels. His pitch to brands and agencies last week centered around the retailer’s presence in youth sports.",
+    "url": "https://www.modernretail.co/marketing/big-box-briefing-dicks-leans-on-youth-sports-in-pitch-to-advertisers/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-09-10",
+    "fetched_date": "2026-09-11",
+    "feed_name": "Modern Retail",
+    "source": "industry"
   }
 ]
