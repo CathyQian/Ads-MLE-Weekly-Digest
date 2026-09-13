@@ -14748,5 +14748,45 @@
     "fetched_date": "2026-09-12",
     "feed_name": "TechCrunch",
     "source": "startup"
+  },
+  {
+    "title": "Automattic confirms Mullenweg has returned as CEO after attempted ouster by board",
+    "abstract": "Automattic says Mullenweg is back as \"chairman and CEO of Automattic, with full support of the board.\"",
+    "url": "https://techcrunch.com/2026/09/12/automattic-confirms-mullenweg-has-returned-as-ceo-after-attempted-ouster-by-board/",
+    "topic": "startup",
+    "date": "2026-09-12",
+    "fetched_date": "2026-09-13",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "OpenAI’s Sam Altman says it would be ‘ill-advised’ to go public in 2026",
+    "abstract": "While OpenAI has filed confidentially for an IPO, the company will not be going public this year, according to CEO Sam Altman.",
+    "url": "https://techcrunch.com/2026/09/12/openais-sam-altman-says-it-would-be-ill-advised-to-go-public-in-2026/",
+    "topic": "startup",
+    "date": "2026-09-12",
+    "fetched_date": "2026-09-13",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Anthropic CEO outlines plan to slow AI development",
+    "abstract": "Anthropic's Dario Amodei and OpenAI's Sam Altman seem to agree that it's time to \"pace the frontier.\" What would that actually look like?",
+    "url": "https://techcrunch.com/2026/09/12/anthropic-ceo-outlines-plan-to-pace-the-frontier/",
+    "topic": "startup",
+    "date": "2026-09-12",
+    "fetched_date": "2026-09-13",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Revolut confirms customer data breach through fake government requests",
+    "abstract": "Revolut said it notified affected customers and alerted the relevant government agency, law enforcement, and financial regulators.",
+    "url": "https://techcrunch.com/2026/09/12/revolut-confirms-customer-data-breach-through-fake-government-requests/",
+    "topic": "startup",
+    "date": "2026-09-12",
+    "fetched_date": "2026-09-13",
+    "feed_name": "TechCrunch",
+    "source": "startup"
   }
 ]
