@@ -27588,5 +27588,55 @@
     "fetched_date": "2026-09-13",
     "feed_name": "Modern Retail",
     "source": "industry"
+  },
+  {
+    "title": "commit-rewriter 0.1",
+    "abstract": "Release: commit-rewriter 0.1 I built this little web app the other day to help edit the commit messages for the Datasette security releases . The initial commits were full of coding agent cruft and references to issue IDs from our private repository, so they weren't fit for publication. If you want to edit the commit messages for a repository you can run it like this: uvx commit-rewriter path/to/repo Omit the path if you are already in the directory for that repo. When you submit your edits the tool creates a timestamped branch of your current repo state - to allow you to revert if you need to - and then rewrites every commit from the first one you edited to the most recent. Tags: git , projects , python , ai-assisted-programming",
+    "url": "https://simonwillison.net/2026/Sep/14/commit-rewriter/",
+    "topic": "llm",
+    "date": "2026-09-14",
+    "fetched_date": "2026-09-14",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "shot-scraper 1.12",
+    "abstract": "Release: shot-scraper 1.12 I've added WebP support to my shot-scraper screenshot automation tool. You can now take a WebP screenshot of a web page like this: shot-scraper https://simonwillison.net -o screenshot.webp --quality 80 The --quality option sets the quality - without that option the WebP file will be lossless. In my experience WebP screenshots are almost always significantly smaller in file size than their JPEG or PNG equivalents. See the PR for some examples. I shipped this feature so I could use it to generate the screenshot for my new commit-rewriter tool . Tags: playwright , shot-scraper",
+    "url": "https://simonwillison.net/2026/Sep/13/shot-scraper/",
+    "topic": "llm",
+    "date": "2026-09-13",
+    "fetched_date": "2026-09-14",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "What’s behind the AI industry’s latest warnings of doom?",
+    "abstract": "On Equity, we discussed the AI industry's latest debate about whether it poses an existential threat to humanity.",
+    "url": "https://techcrunch.com/2026/09/13/whats-behind-the-ai-industrys-latest-warnings-of-doom/",
+    "topic": "llm",
+    "date": "2026-09-13",
+    "fetched_date": "2026-09-14",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Obama urges Democrats to have a ‘clear plan’ for AI safeguards",
+    "abstract": "Obama recently said that Democrats need to make artificial intelligence one of their “central agendas” and “have a very clear plan” to address concerns around the technology’s economic impact and safety.",
+    "url": "https://techcrunch.com/2026/09/13/obama-urges-democrats-to-have-a-clear-plan-for-ai-safeguards/",
+    "topic": "llm",
+    "date": "2026-09-13",
+    "fetched_date": "2026-09-14",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Meta Lab, known for AI glasses, is nearly doubling its retail store footprint",
+    "abstract": "Meta Lab plans to open six new locations this fall as it continues its push into wearables. The company took Modern Retail through its retail plans and addressed ongoing privacy concerns.",
+    "url": "https://www.modernretail.co/operations/meta-lab-known-for-ai-glasses-is-nearly-doubling-its-retail-store-footprint/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-09-14",
+    "fetched_date": "2026-09-14",
+    "feed_name": "Modern Retail",
+    "source": "industry"
   }
 ]
