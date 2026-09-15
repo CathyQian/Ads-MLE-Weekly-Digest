@@ -27638,5 +27638,175 @@
     "fetched_date": "2026-09-14",
     "feed_name": "Modern Retail",
     "source": "industry"
+  },
+  {
+    "title": "How Fyxer built an AI executive assistant people trust",
+    "abstract": "Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice.",
+    "url": "https://openai.com/index/fyxer",
+    "topic": "llm",
+    "date": "2026-09-14",
+    "fetched_date": "2026-09-15",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "The contagion of fear",
+    "abstract": "The contagion of fear Bryan Cantrill responds to the tweet by former Anthropic employee Jacob Coxon confirming that many Anthropic researchers believe AI \"could kill us all by the end of the decade\". Bryan shares a story of his own youthful mistakes causing unjustified panic among less technical peers, and warns against doing the same: These ghoulish claims strike brazenly at the hearth, and given the obvious importance of AI, it is unsurprising that they have leapt into the mainstream, with people asking the natural question: how would that happen? The answers always rely on hand-wavy extrapolation into the future; for example, Jacob Coxon cites \"hacking critical infrastructure\" and \"extinction-level bioweapons\" without further elaboration. But Coxon is not an expert on critical infrastructure, nor on bioweapons — nor, for that matter, on extinction. [...] That said, we should not expect the public to understand LLMs, critical infrastructure, bioweapons, extinction biology, etc. — that burden must lie with those making the claim. The lesson that I learned (shamefully) decades ago is that domain experts, by way of their expertise, implicitly hold the public’s trust — and we must not abuse it. It is incumbent upon us to be circumspect in our claims — and maximally so when raising the alarm. Bryan talked about his doubts about the bioweapons concerns in the recent episode of Oxide and Friends that I joined. You can hear more of his thoughts on that starting at 51m44s in that episode. Here's 57m04s : I really think we need to be careful because it's so easy to be overcome with fear when we kind of make up these... it can give you biological weapons. Like, how? I mean, can we please have a biologist weigh in on this? Or can we have like someone who's got experience with bioweapons? [...] The bioweapon thing just gets under my fingernails because it leaves so much to the imagination that we insert with fear. Via Lobste.rs Tags: ai , anthropic , bryan-cantrill , ai-ethics",
+    "url": "https://simonwillison.net/2026/Sep/14/the-contagion-of-fear/",
+    "topic": "llm",
+    "date": "2026-09-14",
+    "fetched_date": "2026-09-15",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "What blog posts influenced your thinking the most?",
+    "abstract": "My comment on What blog posts influenced your thinking the most? — Lobste.rs. An early Joel Spolsky one for me was The Law of Leaky Abstractions . I read that near the start of my career and it's encouraged me to always be looking for improved understanding of the layers under where I'm working, just in case one of those abstractions leaks. A more recent one, from 2018, is Migrations: the sole scalable fix to tech debt by Will Larson. I absolutely love his idea that migrations (e.g. replacing one service with a new one, or switching database engines, or whatever) are part and parcel of software engineering and are a skill that you should invest in and get good at, not avoid or treat as special one-offs. The Engineer/Manager Pendulum by Charity Majors was hugely influential for me. I was stuck in engineering management and worried that if I switched back to being an \"Individual Contributor\" (ugh I hate that term) I'd damage my career. Charity gave me permission to make the switch by pointing out that many of the most successful software developers pendulum from one track to the other multiple times over their career, and doing so makes you better at both sides. Tags: joel-spolsky , software-engineering , will-larson , charity-majors",
+    "url": "https://simonwillison.net/2026/Sep/14/influences/",
+    "topic": "llm",
+    "date": "2026-09-14",
+    "fetched_date": "2026-09-15",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Quoting Laurie Voss",
+    "abstract": "The cost of writing code collapsed, and the cost of reviewing, fixing and operating it is following, and I'm assuming it gets there. What's left of making software is finding out what people actually want, defining it precisely, and making it pleasant to use. That cost is per piece of software and doesn't transfer, so as the amount of software goes to infinity, which it will because there's no ceiling on demand, that cost becomes the whole job. — Laurie Voss , We are all Product Engineers now Tags: laurie-voss , generative-ai , agentic-engineering , ai , llms , deep-blue , careers",
+    "url": "https://simonwillison.net/2026/Sep/14/laurie-voss/",
+    "topic": "llm",
+    "date": "2026-09-14",
+    "fetched_date": "2026-09-15",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "The AI Industry Has Finally Discovered the Hardest Test: Politics",
+    "abstract": "AI CEOs want to pace the frontier. Here's what that means and why they can't do it",
+    "url": "https://www.thealgorithmicbridge.com/p/the-ai-industry-has-finally-discovered",
+    "topic": "llm",
+    "date": "2026-09-14",
+    "fetched_date": "2026-09-15",
+    "feed_name": "The Algorithmic Bridge",
+    "source": "industry"
+  },
+  {
+    "title": "Jensen Huang took a call from Trump, and showed off something else, too",
+    "abstract": "When Jensen Huang took a live call from Trump, some of us were more focused the phone he used to take it.",
+    "url": "https://techcrunch.com/2026/09/14/jensen-huang-took-a-call-from-trump-and-showed-off-something-else-too/",
+    "topic": "llm",
+    "date": "2026-09-15",
+    "fetched_date": "2026-09-15",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Nvidia CEO Jensen Huang tells Trump ‘we’re not going to let [an AI slowdown] happen’",
+    "abstract": "Though Elon Musk and Sam Altman have supported Dario Amodei's calls to slow the pace of AI development, Jensen Huang seems to feel differently.",
+    "url": "https://techcrunch.com/2026/09/14/nvidia-ceo-jensen-huang-tells-trump-were-not-going-to-let-an-ai-slowdown-happen/",
+    "topic": "llm",
+    "date": "2026-09-14",
+    "fetched_date": "2026-09-15",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "OpenAI buys smartphone camera maker Glass Imaging for $300 million, report says",
+    "abstract": "Glass Imaging was founded by a pair of former Apple engineers who previously led the team that developed Apple's Portrait Mode.",
+    "url": "https://techcrunch.com/2026/09/14/openai-buys-smartphone-camera-maker-glass-imaging-for-300-million-report-says/",
+    "topic": "llm",
+    "date": "2026-09-14",
+    "fetched_date": "2026-09-15",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "With iOS 27, I’m actually using Siri again",
+    "abstract": "Apple’s long-delayed Siri overhaul is finally here with iOS 27, and it changes how useful the assistant feels day to day.",
+    "url": "https://techcrunch.com/2026/09/14/with-ios-27-im-actually-using-siri-again/",
+    "topic": "llm",
+    "date": "2026-09-14",
+    "fetched_date": "2026-09-15",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Fashion app Daydream uses Apple Intelligence to help you shop the outfits in your camera roll",
+    "abstract": "Thanks to the launch of iOS 27, Daydream's app now includes features that can turn saved outfit photos into shoppable results and search for products through Siri without opening the app.",
+    "url": "https://techcrunch.com/2026/09/14/fashion-discovery-app-daydream-uses-apple-intelligence-to-help-you-shop-the-outfits-saved-in-your-camera-roll/",
+    "topic": "llm",
+    "date": "2026-09-14",
+    "fetched_date": "2026-09-15",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Microsoft’s new AI ‘code of conduct’ tells models not to hack systems or trick humans",
+    "abstract": "The code of conduct lays out general principles that Microsoft AI models should uphold — supporting humans rather than replacing them, for instance, and accelerating human flourishing — as well as specific safety constraints meant to implement those principles.",
+    "url": "https://techcrunch.com/2026/09/14/microsofts-new-ai-code-of-conduct-tells-models-not-to-hack-systems-or-trick-humans/",
+    "topic": "llm",
+    "date": "2026-09-14",
+    "fetched_date": "2026-09-15",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Only at TechCrunch Disrupt 2026: What happens when OpenAI ships your roadmap?",
+    "abstract": "If you're building an AI company, the question isn't whether foundation models will continue to evolve. It's whether your company will continue creating value as they do. Don't miss this interactive session on the Builders Stage at TechCrunch Disrupt 2026.",
+    "url": "https://techcrunch.com/2026/09/14/only-at-techcrunch-disrupt-2026-what-happens-when-openai-ships-your-roadmap/",
+    "topic": "llm",
+    "date": "2026-09-14",
+    "fetched_date": "2026-09-15",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Superhuman acquires YC-backed notetaker Fathom as productivity platforms push for agentic work",
+    "abstract": "The notetaker offers a generous free plan, and that has resulted in over 400,000 monthly active users. The company said that over 1 million people have recorded meetings until now.",
+    "url": "https://techcrunch.com/2026/09/14/superhuman-acquires-yc-backed-notetaker-fathom-as-productivity-platforms-push-for-agentic-work/",
+    "topic": "llm",
+    "date": "2026-09-14",
+    "fetched_date": "2026-09-15",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Hear how AI can engineer nature’s comeback at TechCrunch Disrupt 2026",
+    "abstract": "Not long ago, bringing an extinct species back to life belonged to science fiction. Today, it's the mission of a billion-dollar startup. Join the conversation with one of tech's most unconventional founders. Secure your Disrupt pass today.",
+    "url": "https://techcrunch.com/2026/09/14/hear-how-ai-can-engineer-natures-comeback-at-techcrunch-disrupt-2026/",
+    "topic": "llm",
+    "date": "2026-09-14",
+    "fetched_date": "2026-09-15",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "5 days left to exhibit at TechCrunch Disrupt 2026",
+    "abstract": "The last day to apply for an exhibit table at TechCrunch Disrupt 2026 on Sept 18. Just 5 days left. Secure your spot on the Expo Hall floor and put your business in front of 10,000+ founders, investors, and tech leaders.",
+    "url": "https://techcrunch.com/2026/09/14/techcrunch-disrupt-2026-exhibit-table-deadline-5-days/",
+    "topic": "llm",
+    "date": "2026-09-14",
+    "fetched_date": "2026-09-15",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "A Vinyl Bar in Shibuya is a startup from a former Spotify leader for making music apps",
+    "abstract": "Former Spotify exec's company releases experimental \"singles\" that involves users in music making.",
+    "url": "https://techcrunch.com/2026/09/14/a-vinyl-bar-in-shibuya-is-a-startup-offering-fun-music-apps/",
+    "topic": "llm",
+    "date": "2026-09-14",
+    "fetched_date": "2026-09-15",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "From prototype to Target shelves, inside Nori’s 10-month development timeline",
+    "abstract": "The Nori Cloud launched in Target in July 2026 after a 10-month development timeline.",
+    "url": "https://www.modernretail.co/operations/from-prototype-to-target-shelves-inside-noris-10-month-development-timeline/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-09-14",
+    "fetched_date": "2026-09-15",
+    "feed_name": "Modern Retail",
+    "source": "industry"
   }
 ]
