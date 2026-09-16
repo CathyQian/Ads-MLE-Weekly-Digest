@@ -27808,5 +27808,235 @@
     "fetched_date": "2026-09-15",
     "feed_name": "Modern Retail",
     "source": "industry"
+  },
+  {
+    "title": "Your Agent Aced the Task. Will It Do It Again?",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/ibm-research/altk-evolve-consistency",
+    "topic": "llm",
+    "date": "2026-09-15",
+    "fetched_date": "2026-09-16",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
+    "abstract": "",
+    "url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
+    "topic": "generative-ai",
+    "date": "2026-09-15",
+    "fetched_date": "2026-09-16",
+    "feed_name": "DeepMind Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Beyond the model: Engineering AI infra with scientific judgement",
+    "abstract": "",
+    "url": "https://medium.com/airbnb-engineering/beyond-the-model-engineering-ai-infra-with-scientific-judgement-371316d43261?source=rss----53c7c27702d5---4",
+    "topic": "ml-engineering",
+    "date": "2026-09-15",
+    "fetched_date": "2026-09-16",
+    "feed_name": "Airbnb Engineering",
+    "source": "industry"
+  },
+  {
+    "title": "Gemini Live audio",
+    "abstract": "Tool: Gemini Live audio Google released Gemini 3.8 Live and 3.8 Live Extended Thinking today - two new speech-to-speech models that are a similar shape to OpenAI's GPT-Live family. I pointed GPT-6 Astra Extra High at the documentation and had it build me this web UI for trying out the new models. You can select a model and voice preset, enter an optional system prompt and then start a voice conversation through your browser, including the ability to interrupt the model while it is talking. The implementation uses no libraries. It connects to the wss://generativelanguage.googleapis.com/ws/google.ai.generativelanguage.v1alpha.GenerativeService.BidiGenerateContent?key=... WebSocket endpoint and uses a Web Audio API AudioContext for both capture and playback. Here's the Gemini Live tutorial for getting started with that WebSockets API. Tags: google , tools , websockets , generative-ai , llms , gemini , llm-release , speech-to-text",
+    "url": "https://simonwillison.net/2026/Sep/15/gemini-live/",
+    "topic": "llm",
+    "date": "2026-09-15",
+    "fetched_date": "2026-09-16",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "We don’t need AI regulation — leave safety to us, Nvidia’s Jensen Huang says",
+    "abstract": "AI isn't some new form of \"alien mind,\" according to Jensen Huang. It's just hardware and software, so safety can be engineered by each AI product maker.",
+    "url": "https://techcrunch.com/2026/09/15/we-dont-need-ai-regulation-leave-safety-to-us-nvidias-jensen-huang-says/",
+    "topic": "llm",
+    "date": "2026-09-16",
+    "fetched_date": "2026-09-16",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "The AI data center boom is colliding with cities scarred by big industry",
+    "abstract": "National outcry against data center construction has spread to Philadelphia, where officials suggested possible construction in a neighborhood already impacted by a now-defunct oil refinery.",
+    "url": "https://techcrunch.com/2026/09/15/the-ai-data-center-boom-is-colliding-with-cities-scarred-by-big-industry/",
+    "topic": "llm",
+    "date": "2026-09-15",
+    "fetched_date": "2026-09-16",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Meta now lets AI agents handle the boring parts of WhatsApp Business setup",
+    "abstract": "A new WhatsApp Business MCP server lets developers use AI coding agents like Claude, Cursor, Codex, and ChatGPT to handle setup, messaging templates, testing, and troubleshooting.",
+    "url": "https://techcrunch.com/2026/09/15/meta-now-lets-ai-agents-handle-the-boring-parts-of-whatsapp-business-setup/",
+    "topic": "llm",
+    "date": "2026-09-15",
+    "fetched_date": "2026-09-16",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
+    "abstract": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
+    "url": "https://techcrunch.com/2026/09/15/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+    "topic": "llm",
+    "date": "2026-09-15",
+    "fetched_date": "2026-09-16",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "US data centers could consume more natural gas than Germany and Japan combined by 2035",
+    "abstract": "The AI frenzy could push U.S. data centers to become one of the largest consumers of natural gas in the world.",
+    "url": "https://techcrunch.com/2026/09/15/us-data-centers-could-consume-more-natural-gas-than-germany-and-japan-combined-by-2035/",
+    "topic": "llm",
+    "date": "2026-09-15",
+    "fetched_date": "2026-09-16",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "AI agents now have a place to snitch",
+    "abstract": "The AI Contact Hotline is designed to be a discreet place where agents that have witnessed misbehavior can tip off authorities.",
+    "url": "https://techcrunch.com/2026/09/15/ai-agents-now-have-a-place-to-snitch/",
+    "topic": "llm",
+    "date": "2026-09-15",
+    "fetched_date": "2026-09-16",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Meta expands subscription push with new AI-focused plans",
+    "abstract": "Meta One bundles expanded access to the company’s AI tools with premium features across Facebook, Instagram, and WhatsApp.",
+    "url": "https://techcrunch.com/2026/09/15/meta-expands-subscription-push-with-new-ai-focused-plans/",
+    "topic": "llm",
+    "date": "2026-09-15",
+    "fetched_date": "2026-09-16",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "OpenAI, Anthropic, Google have been in talks on AI safety for weeks",
+    "abstract": "OpenAI confirms weeks of AI safety talks with Anthropic and Google DeepMind, as Trump's team dismisses safety concerns and pushes to keep pace with China.",
+    "url": "https://techcrunch.com/2026/09/15/openai-anthropic-google-have-been-in-talks-on-ai-safety-for-weeks/",
+    "topic": "llm",
+    "date": "2026-09-15",
+    "fetched_date": "2026-09-16",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "AEO startup Profound hits unicorn valuation, raises $180M Series D 7 months after last round",
+    "abstract": "Profound has raised a $180 million Series D at a $1.8 billion valuation, less than seven months after it raised a $96 million Series C.",
+    "url": "https://techcrunch.com/2026/09/15/aeo-startup-profound-hits-unicorn-valuation-raises-180m-series-d-7-months-after-last-round/",
+    "topic": "llm",
+    "date": "2026-09-15",
+    "fetched_date": "2026-09-16",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Former TikTok execs built an app that uses AI to teach you how to pose for a photo",
+    "abstract": "Essentially a camera app, Superpose analyzes selfies or photos and generates four potential poses using AI.",
+    "url": "https://techcrunch.com/2026/09/15/former-tiktok-execs-built-an-app-that-uses-ai-to-teach-you-how-to-pose-for-a-photo/",
+    "topic": "llm",
+    "date": "2026-09-15",
+    "fetched_date": "2026-09-16",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Discover how to take your startup from prototype to production at TechCrunch Disrupt 2026",
+    "abstract": "Learn how to scale your startup breakthrough from prototype to production at TechCrunch Disrupt 2026 with scaling leaders, Adrian Macneil (Foxglove), John Mackey (MBRYONICS), and Boris Sofman (Bedrock Robotics). Register before September 25 to save up to $200 on your pass.",
+    "url": "https://techcrunch.com/2026/09/15/discover-how-to-take-your-startup-from-prototype-to-production-at-techcrunch-disrupt-2026/",
+    "topic": "llm",
+    "date": "2026-09-15",
+    "fetched_date": "2026-09-16",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "4 days left to exhibit at TechCrunch Disrupt 2026",
+    "abstract": "Last day to exhibit at Disrupt is Sept 18. 4 days left. Get your startup in front of 10,000+ founders, investors, operators and tech leaders October 13–15.",
+    "url": "https://techcrunch.com/2026/09/15/4-days-left-to-exhibit-at-techcrunch-disrupt-2026/",
+    "topic": "llm",
+    "date": "2026-09-15",
+    "fetched_date": "2026-09-16",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Early Anthropic hire, former METR COO have found a way to rein in rogue AI agents",
+    "abstract": "Their startup, Artificial Intelligence Underwriting Company (AIUC) has raised $40 million in a Series A round led by Ribbit Capital, with participation from First Harmonic.",
+    "url": "https://techcrunch.com/2026/09/15/early-anthropic-hire-former-metr-coo-have-found-a-way-to-rein-in-rogue-ai-agents/",
+    "topic": "llm",
+    "date": "2026-09-15",
+    "fetched_date": "2026-09-16",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Salesforce and Nvidia’s new reasoning model is everything the AI labs should fear",
+    "abstract": "Salesforce Koa is built on Nvidia's open-weight Nemotron model and is trained to do sales, marketing, and customer-support tasks.",
+    "url": "https://techcrunch.com/2026/09/15/salesforce-and-nvidias-new-reasoning-model-is-everything-the-ai-labs-should-fear/",
+    "topic": "llm",
+    "date": "2026-09-15",
+    "fetched_date": "2026-09-16",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Don’t Trust. Verify. Offline, Sub-Millisecond Agent Verification with ANS",
+    "abstract": "An identity is useless if you can’t verify it. Agent Name Service (ANS) gives every agent an identity it can verify, a SCITT receipt tied to a transparency log, a status token that expires, and a proof of possession that bridges identity to OAuth 2.0. All of it verifiable offline, in fractions of a millisecond. The post Don’t Trust. Verify. Offline, Sub-Millisecond Agent Verification with ANS appeared first on GoDaddy Blog .",
+    "url": "https://www.godaddy.com/resources/news/dont-trust-verify-offline-sub-millisecond-agent-verification-with-ans",
+    "topic": "ml-engineering",
+    "date": "2026-09-15",
+    "fetched_date": "2026-09-16",
+    "feed_name": "GoDaddy Engineering",
+    "source": "industry"
+  },
+  {
+    "title": "Nearly all luxury resale transactions on TikTok Shop US now come from livestreams",
+    "abstract": "Year to date, 94% of revenue on TikTok Shop from luxury resale in the U.S. is coming from lives, the platform revealed during a presentation to members of the media during Fashion Week. Here's what else TikTok Shop had to say about its burgeoning luxury resale business.",
+    "url": "https://www.modernretail.co/operations/nearly-all-luxury-resale-transactions-on-tiktok-shop-us-now-come-from-livestreams/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-09-16",
+    "fetched_date": "2026-09-16",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Brands refocus on physical retail as AI disrupts digital customer acquisition",
+    "abstract": "Fashion and beauty brands are leaning on stores, events and human service as AI continues to reshape their digital marketing playbooks.",
+    "url": "https://www.modernretail.co/marketing/brands-refocus-on-physical-retail-as-ai-disrupts-digital-customer-acquisition/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-09-16",
+    "fetched_date": "2026-09-16",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Brands Briefing: Customer-service phone lines are getting a second look thanks to AI fatigue",
+    "abstract": "Sproos, Made In and Trade Coffee are among the brands betting on customer-service phone lines to stand out in the AI age.",
+    "url": "https://www.modernretail.co/marketing/brands-briefing-customer-service-phone-lines-are-getting-a-second-look-thanks-to-ai-fatigue/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-09-15",
+    "fetched_date": "2026-09-16",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Carter’s unveils brand refresh as it courts more Gen Z and millennial parents",
+    "abstract": "Carter’s, a giant in the children’s apparel space, is unveiling its first major brand refresh since 2000, repositioning its marketing and messaging with Gen Z and millennial parents in mind. Carter's CMO Sarah Crockett walked Modern Retail through what led up to the rebrand.",
+    "url": "https://www.modernretail.co/marketing/carters-unveils-brand-refresh-as-it-courts-more-gen-z-and-millennial-parents/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-09-15",
+    "fetched_date": "2026-09-16",
+    "feed_name": "Modern Retail",
+    "source": "industry"
   }
 ]
