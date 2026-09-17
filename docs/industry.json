@@ -28038,5 +28038,285 @@
     "fetched_date": "2026-09-16",
     "feed_name": "Modern Retail",
     "source": "industry"
+  },
+  {
+    "title": "Helping older adults use AI in everyday life",
+    "abstract": "OpenAI and AARP are bringing free, hands-on ChatGPT workshops to 1,000 older adults across 10 U.S. cities to build practical AI skills safely.",
+    "url": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
+    "topic": "llm",
+    "date": "2026-09-16",
+    "fetched_date": "2026-09-17",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Reimagining advertising with AI",
+    "abstract": "Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify.",
+    "url": "https://openai.com/index/reimagining-advertising-with-ai",
+    "topic": "llm",
+    "date": "2026-09-16",
+    "fetched_date": "2026-09-17",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "How to connect AI usage to business value",
+    "abstract": "Learn how ChatGPT Work and Codex analytics help teams understand AI usage and spend, identify training needs, and connect adoption to business outcomes.",
+    "url": "https://openai.com/index/how-to-connect-ai-usage-to-business-value",
+    "topic": "llm",
+    "date": "2026-09-16",
+    "fetched_date": "2026-09-17",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Our framework for reporting model misalignment",
+    "abstract": "OpenAI shares a framework for tracking, investigating, and disclosing model misalignment, alongside six reports of unexpected or concerning model behavior.",
+    "url": "https://openai.com/index/model-misalignment-reporting-framework",
+    "topic": "llm",
+    "date": "2026-09-16",
+    "fetched_date": "2026-09-17",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "How workers are unlocking new ways of working",
+    "abstract": "New OpenAI Economic Research shows how workers use AI beyond traditional roles and which new activities become recurring parts of their work.",
+    "url": "https://openai.com/index/unlocking-new-ways-of-working",
+    "topic": "llm",
+    "date": "2026-09-16",
+    "fetched_date": "2026-09-17",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "datasette 1.0a40",
+    "abstract": "Release: datasette 1.0a40 Same security fix as 0.65.5 , plus some neat new features and bug fixes: Plugins can now launch and manage background tasks using the new datasette.add_background_task() method. Thanks, Alex Garcia . I've migrated Datasette to httpx2 for features like the internal datasette.client.get() method. A whole lot of bug fixes , many of them stemming from a recent effort to triage issues for a 1.0 stable release. Tags: security , datasette",
+    "url": "https://simonwillison.net/2026/Sep/16/datasette/",
+    "topic": "llm",
+    "date": "2026-09-16",
+    "fetched_date": "2026-09-17",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "datasette 0.65.5",
+    "abstract": "Release: datasette 0.65.5 Security fix for an issue where a trailing newline in a requested table name could bypass table permissions and expose private rows, reported by dpfkdlemtp in GHSA-h547-rmjf-5m2m . Tags: security , datasette",
+    "url": "https://simonwillison.net/2026/Sep/16/datasette-2/",
+    "topic": "llm",
+    "date": "2026-09-16",
+    "fetched_date": "2026-09-17",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Claude Cowork and chat are now one Claude",
+    "abstract": "Claude Cowork and chat are now one Claude In hopefully good news for anyone who, like me, was increasingly confused at Cowork v.s. Claude v.s. Claude Code: Starting today, Claude Cowork and chat are merging into one Claude. Bring a quick question, or hand over a report due at noon, and Claude takes it from there, even after you’ve closed your laptop. [...] This is rolling out to Pro and Max plans first, in the Claude app on web, desktop, and mobile over the coming weeks to existing and new users on these plans. I guess this means Claude is becoming a general agent in its own right. Echoes of OpenAI renaming their Codex desktop app to ChatGPT a few weeks ago. On the one hand, this saves me some work, in that I was planning to finally figure out the boundaries between Cowork and regular Claude and write a follow-up to my piece on Understanding ChatGPT Work . I have a hunch that figuring out what this actually means in terms of features and surfaces is still going to take quite a bit of work. Via Hacker News Tags: ai , generative-ai , llms , anthropic , claude , general-agents",
+    "url": "https://simonwillison.net/2026/Sep/16/one-claude/",
+    "topic": "llm",
+    "date": "2026-09-16",
+    "fetched_date": "2026-09-17",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Quoting Mustafa Suleyman",
+    "abstract": "We should not treat models as though they have feelings, preferences, rights, or any entitlement to our welfare. Consciousness is the foundation of our ethical, legal, and political systems. To invite another entity to share any flavor of these rights isn’t justified by the evidence and will make the AI containment and alignment challenge even harder. — Mustafa Suleyman , A warning about ‘model welfare’ Tags: ai-ethics , generative-ai , ai , microsoft , llms",
+    "url": "https://simonwillison.net/2026/Sep/16/mustafa-suleyman/",
+    "topic": "llm",
+    "date": "2026-09-16",
+    "fetched_date": "2026-09-17",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Iceland-based Treble raises $18 million for its voice simulation platform",
+    "abstract": "Treble's voice simulation platform is used by voice AI model developers, AI wearable, and robotics companies",
+    "url": "https://techcrunch.com/2026/09/16/iceland-based-treble-raises-18-million-for-its-voice-simulation-platform/",
+    "topic": "llm",
+    "date": "2026-09-17",
+    "fetched_date": "2026-09-17",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Your startup’s next teammate might be an AI agent: Gusto, Insight Partners, and Leland explain what that changes at TechCrunch Disrupt 2026",
+    "abstract": "This session will explore how early-stage companies are building teams where humans and AI agents work alongside each other — and how founders can do that without sacrificing speed, accountability, or culture. Learn more at TechCrunch Disrupt 2026. Register before September 25 to save up to $200.",
+    "url": "https://techcrunch.com/2026/09/16/your-startups-next-teammate-might-be-an-ai-agent-gusto-insight-partners-and-leland-explain-what-that-changes-at-techcrunch-disrupt-2026/",
+    "topic": "llm",
+    "date": "2026-09-17",
+    "fetched_date": "2026-09-17",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Snap tries to make the case again for its $2,200 smart glasses",
+    "abstract": "Since Specs' debut earlier this year, Snap has clearly been looking for an opportunity to explain why the smart glasses deserve to exist.",
+    "url": "https://techcrunch.com/2026/09/16/snap-tries-to-make-the-case-again-for-its-2200-smart-glasses/",
+    "topic": "llm",
+    "date": "2026-09-17",
+    "fetched_date": "2026-09-17",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Al Gore says the real AI risk isn’t data centers",
+    "abstract": "In an interview with TechCrunch, Al Gore suggested he isn't losing sleep over AI data center emissions — he's more worried about the AI industry's own warnings about where the technology is headed.",
+    "url": "https://techcrunch.com/2026/09/16/al-gore-has-a-surprisingly-calm-take-on-the-ai-data-center-backlash/",
+    "topic": "llm",
+    "date": "2026-09-16",
+    "fetched_date": "2026-09-17",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Anthropic and OpenAI want to embed safety evaluators. Will they really be independent?",
+    "abstract": "Anthropic and OpenAI want to embed independent safety evaluators inside their AI labs. Researchers welcome the unprecedented access, but warn meaningful oversight requires transparency, independence, and eventually regulation.",
+    "url": "https://techcrunch.com/2026/09/16/anthropic-and-openai-want-to-embed-safety-evaluators-will-they-really-be-independent/",
+    "topic": "llm",
+    "date": "2026-09-16",
+    "fetched_date": "2026-09-17",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "After accusations of selling ‘perv glasses,’ Meta prepares to sell a pair without a camera",
+    "abstract": "Can Meta dodge the \"pervert glasses\" accusations with a new camera-free product?",
+    "url": "https://techcrunch.com/2026/09/16/after-accusations-of-selling-perv-glasses-meta-prepares-to-sell-a-pair-without-a-camera/",
+    "topic": "llm",
+    "date": "2026-09-16",
+    "fetched_date": "2026-09-17",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "AI labs want in-house auditors — but maybe they should shut the front door first",
+    "abstract": "There may be a simpler and more effective fix for rogue agents, hiding in plain sight.",
+    "url": "https://techcrunch.com/2026/09/16/ai-labs-want-in-house-auditors-but-maybe-they-should-shut-the-front-door-first/",
+    "topic": "llm",
+    "date": "2026-09-16",
+    "fetched_date": "2026-09-17",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Your AI agents can now control your Google Home devices",
+    "abstract": "Google is launching early access to a new MCP server for Google Home, allowing AI agents like Claude, ChatGPT, and others to control connected devices, review camera summaries, and access smart home activity using natural language.",
+    "url": "https://techcrunch.com/2026/09/16/your-ai-agents-can-now-control-your-google-home-devices/",
+    "topic": "llm",
+    "date": "2026-09-16",
+    "fetched_date": "2026-09-17",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Anthropic merges Claude chat and Cowork in one interface",
+    "abstract": "Anthropic is initially releasing these features to Pro and Max plan subscribers.",
+    "url": "https://techcrunch.com/2026/09/16/anthropic-merges-claude-chat-and-cowork-in-one-interface/",
+    "topic": "llm",
+    "date": "2026-09-16",
+    "fetched_date": "2026-09-17",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Robots are waiting for a ChatGPT moment: Nvidia’s Les Karpas explains why at TechCrunch Disrupt 2026",
+    "abstract": "The robotics industry is still waiting for their breakthrough into day-to-day life. Nvidia's Les Karpas has an answer as to why at TechCrunch Disrupt 2026. Register before September 25 to save up to $200 on your pass.",
+    "url": "https://techcrunch.com/2026/09/16/robots-are-waiting-for-a-chatgpt-moment-nvidias-les-karpas-explains-why-at-techcrunch-disrupt-2026/",
+    "topic": "llm",
+    "date": "2026-09-16",
+    "fetched_date": "2026-09-17",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Threads’ new features let podcasters promote shows and reach listeners",
+    "abstract": "Threads is rolling out new tools for podcasters, including profile cards, episode links, transcripts, guest tags, posting reminders, and audience insights, as Meta looks to make the X rival a bigger hub for podcast promotion and discussion.",
+    "url": "https://techcrunch.com/2026/09/16/threads-new-features-let-podcasters-promote-shows-and-reach-listeners/",
+    "topic": "llm",
+    "date": "2026-09-16",
+    "fetched_date": "2026-09-17",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Next wave of VCs judging Startup Battlefield 200 contenders at TechCrunch Disrupt 2026 revealed",
+    "abstract": "Meet the next five top-tier investors judging the Startup Battlefield 200 contenders live at TechCrunch Disrupt 2026. Register before September 25 to save up to $200 and don't miss a moment of the ultimate startup pitch competition.",
+    "url": "https://techcrunch.com/2026/09/16/next-wave-of-vcs-judging-startup-battlefield-200-contenders-at-techcrunch-disrupt-2026-revealed/",
+    "topic": "llm",
+    "date": "2026-09-16",
+    "fetched_date": "2026-09-17",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "3 days left to exhibit: Get your brand in front of VCs and high-value leads at TechCrunch Disrupt 2026",
+    "abstract": "Last day to book your exhibit table at Disrupt is September 18. Three days left. Get your startup in front of 10,000+ founders, investors, operators, and tech leaders on October 13–15.",
+    "url": "https://techcrunch.com/2026/09/16/3-days-left-to-exhibit-at-techcrunch-disrupt-2026/",
+    "topic": "llm",
+    "date": "2026-09-16",
+    "fetched_date": "2026-09-17",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "SK Hynix reportedly in talks with Intel to build memory chips in US",
+    "abstract": "SK Hynix told TechCrunch the company hasn't finalized any plans or arrangements yet.",
+    "url": "https://techcrunch.com/2026/09/16/sk-hynix-reportedly-in-talks-with-intel-to-build-memory-chips-in-us/",
+    "topic": "llm",
+    "date": "2026-09-16",
+    "fetched_date": "2026-09-17",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Former Infosys chief’s AI startup nabs another $53M",
+    "abstract": "The Palo Alto startup says it has landed multiple seven-figure enterprise contracts within months of launch.",
+    "url": "https://techcrunch.com/2026/09/16/former-infosys-chiefs-ai-startup-adds-50m-to-seed-weeks-after-initial-raise/",
+    "topic": "llm",
+    "date": "2026-09-16",
+    "fetched_date": "2026-09-17",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Amazon launches Alexa+ in India with Hindi support",
+    "abstract": "Amazon is letting all customers use Alexa+ assistant in early access period.",
+    "url": "https://techcrunch.com/2026/09/16/amazon-launches-alexa-in-india-with-hindi-support/",
+    "topic": "llm",
+    "date": "2026-09-16",
+    "fetched_date": "2026-09-17",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Beyond Yoga stresses performance offerings in new NYC pop-up",
+    "abstract": "Beyond Yoga is playing up its new Glowzone fabrication as it broadens its presence on the East Coast, starting with a new New York City pop-up.",
+    "url": "https://www.modernretail.co/marketing/beyond-yoga-stresses-performance-offerings-in-new-nyc-pop-up/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-09-17",
+    "fetched_date": "2026-09-17",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Walmart adds marketplace data, deeper AI features to Scintilla insights platform",
+    "abstract": "Walmart's first-party data platform for merchants and suppliers, Scintilla, is getting a big upgrade next year, the company announced at Walmart Data Ventures’ Inspire conference this week.",
+    "url": "https://www.modernretail.co/technology/walmart-adds-marketplace-data-deeper-ai-features-to-scintilla-insights-platform/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-09-16",
+    "fetched_date": "2026-09-17",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "The Laundress enters Target, embarking on its largest retail expansion to date",
+    "abstract": "After years as a predominantly direct-to-consumer brand, Unilever-owned The Laundress is entering Target stores with a fresh take on laundry care. Here's why The Laundress is finally launching into brick-and-mortar for the first time.",
+    "url": "https://www.modernretail.co/operations/the-laundress-enters-target-embarking-on-its-largest-retail-expansion-to-date/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-09-16",
+    "fetched_date": "2026-09-17",
+    "feed_name": "Modern Retail",
+    "source": "industry"
   }
 ]
