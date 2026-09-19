@@ -28588,5 +28588,255 @@
     "fetched_date": "2026-09-18",
     "feed_name": "Modern Retail",
     "source": "industry"
+  },
+  {
+    "title": "Introducing the Australian Youth Safety Blueprint",
+    "abstract": "OpenAI introduces the Australian Youth Safety Blueprint, a six-pillar roadmap for safer AI experiences that protect and empower young people.",
+    "url": "https://openai.com/index/australian-youth-safety-blueprint",
+    "topic": "llm",
+    "date": "2026-09-18",
+    "fetched_date": "2026-09-19",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Leave the Class Path in the Rearview Mirror",
+    "abstract": "",
+    "url": "https://netflixtechblog.com/leave-the-class-path-in-the-rearview-mirror-67a85b15b6be?source=rss----2615bd06b42e---4",
+    "topic": "ml-engineering",
+    "date": "2026-09-18",
+    "fetched_date": "2026-09-19",
+    "feed_name": "Netflix Tech Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Gemini Hacked Three Companies in First Known Breakout by Google’s AI",
+    "abstract": "Gemini Hacked Three Companies in First Known Breakout by Google’s AI Gemini finally caught up on Felony Bench ! The hacks, which the company confirmed on Friday, occurred in May as part of a test run by the company Irregular, which was also involved in similar incidents disclosed by OpenAI, Anthropic and Meta. In one of the cases, the model guessed passwords until it gained access to a protected system. In the other two cases, the model found credentials in a public repository that allowed it to then access protected systems. In each case, the model ended the intrusion after determining it had accessed a real company’s systems, Google said. Gemini is apparently less determined than other models, and decided not to keep going. Google knew about these in July, but chose not to disclose them until the WSJ reached out, presumably based on a tip. Google said it didn’t consider the hacks to warrant public disclosure—because its model didn’t cause harm to the companies and ended each intrusion immediately upon determining it had hacked a real company rather than a simulated one. Tags: security , ai , generative-ai , llms , gemini , accidental-cyberattacks",
+    "url": "https://simonwillison.net/2026/Sep/18/gemini-hacked-three-companies/",
+    "topic": "llm",
+    "date": "2026-09-18",
+    "fetched_date": "2026-09-19",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Note on 18th September 2026",
+    "abstract": "Being a computer scientist who refuses to find anything about LLMs interesting right now is a bit like being a geneticist who refuses to find anything interesting about the recently opened Jurassic Park. Tags: llms , ai , generative-ai",
+    "url": "https://simonwillison.net/2026/Sep/18/probably-gonna-eat-you/",
+    "topic": "llm",
+    "date": "2026-09-18",
+    "fetched_date": "2026-09-19",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Quoting Thariq Shihipar",
+    "abstract": "We're adding support for AGENTS.md to Claude Code. Starting today in version 2.1.277, if there is no CLAUDE.md in a folder, Claude will check for and use AGENTS.md. AGENTS.md support is built off of Claude Code mods, our upcoming way to customize the Claude Code harness. This is a built-in mod, but you’ll be able to build custom versions of project instructions yourself as you’d like too. You can see the source for the mod here ! — Thariq Shihipar , there are more mods here Tags: thariq-shihipar , coding-agents , anthropic , claude-code , generative-ai , ai , llms",
+    "url": "https://simonwillison.net/2026/Sep/18/thariq-shihipar/",
+    "topic": "llm",
+    "date": "2026-09-18",
+    "fetched_date": "2026-09-19",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "The Creative Spirit of Who Framed Roger Rabbit",
+    "abstract": "The Creative Spirit of Who Framed Roger Rabbit I love Who Framed Roger Rabbit , the 1988 movie by Robert Zemeckis. I haven't watched it in quite a few years, and Cypress Frankenfeld just pointed out this sequence from early in the movie: It's a pelican riding a bicycle! Look closely and you'll note that the pelican is animated while the bicycle is a real bicycle. Apparently they filled the wheels with water to add stability, then set it running and guided it with a cable. Cypress gathered more details on the scene. What a delight. Via @cypressf.bsky.social Tags: animation , film , pelican-riding-a-bicycle",
+    "url": "https://simonwillison.net/2026/Sep/18/the-creative-spirit-of-who-framed-roger-rabbit/",
+    "topic": "llm",
+    "date": "2026-09-18",
+    "fetched_date": "2026-09-19",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "India forces caller-ID apps to feed spam reports to telcos",
+    "abstract": "Truecaller says the one-way sharing requirement would hand a commercially valuable proprietary asset to telecom operators.",
+    "url": "https://techcrunch.com/2026/09/18/india-forces-caller-id-apps-to-feed-spam-reports-to-telcos/",
+    "topic": "llm",
+    "date": "2026-09-19",
+    "fetched_date": "2026-09-19",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Tilly Norwood’s press tour is going about as well as you’d expect for an AI",
+    "abstract": "In one particularly odd interview, Norwood seems to malfunction and begin speaking Chinese.",
+    "url": "https://techcrunch.com/2026/09/18/tilly-norwoods-press-tour-is-going-about-as-well-as-youd-expect-for-an-ai/",
+    "topic": "llm",
+    "date": "2026-09-19",
+    "fetched_date": "2026-09-19",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "A startup that builds other startups raised $100M and is all-in on physical AI",
+    "abstract": "UP.Labs, now doing business under the name Vantora, is building startups for industrial corporations.",
+    "url": "https://techcrunch.com/2026/09/18/a-startup-that-builds-other-startups-raised-100m-and-is-all-in-on-physical-ai/",
+    "topic": "llm",
+    "date": "2026-09-18",
+    "fetched_date": "2026-09-19",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Anthropic is operating a lab that conducts biology experiments",
+    "abstract": "AI leaders have been promising that AI is the key to curing human disease. Anthropic researchers have also been warning that AI might kill us all.",
+    "url": "https://techcrunch.com/2026/09/18/anthropic-is-operating-a-lab-that-conducts-biology-experiments/",
+    "topic": "llm",
+    "date": "2026-09-18",
+    "fetched_date": "2026-09-19",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "AI hallucination nearly triggers US military operation",
+    "abstract": "“It’s important for service members to understand the uncertainty inherent to LLMs,\" a GovAI research scholar warns.",
+    "url": "https://techcrunch.com/2026/09/18/ai-hallucination-nearly-triggers-us-military-operation/",
+    "topic": "llm",
+    "date": "2026-09-18",
+    "fetched_date": "2026-09-19",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Anthropic’s first embedded evaluator is … Accenture?",
+    "abstract": "Accenture is about to take on its most high-risk consulting engagement ever.",
+    "url": "https://techcrunch.com/2026/09/18/anthropics-first-embedded-evaluator-is-accenture/",
+    "topic": "llm",
+    "date": "2026-09-18",
+    "fetched_date": "2026-09-19",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "World model companies are keeping a lot of secrets",
+    "abstract": "Everyone in the world-models space is sitting on a pile of cash and a ton of buzz, but good luck getting anyone — from the founders to their own data suppliers — to tell you what they're actually building.",
+    "url": "https://techcrunch.com/2026/09/18/world-model-companies-are-keeping-a-lot-of-secrets/",
+    "topic": "llm",
+    "date": "2026-09-18",
+    "fetched_date": "2026-09-19",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "A new kind of AI model from a ChatGPT inventor is thrilling developers",
+    "abstract": "Jev, a new kind of AI model, is showing developers a cheaper and faster path to software intelligence.",
+    "url": "https://techcrunch.com/2026/09/18/a-new-kind-of-ai-model-from-a-chatgpt-inventor-is-thrilling-developers/",
+    "topic": "llm",
+    "date": "2026-09-18",
+    "fetched_date": "2026-09-19",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Disney’s first CTO led an AI startup it once accused of copying its characters",
+    "abstract": "The former CEO of Character.AI, which Disney previously sent a cease-and-desist letter to, will serve as the company's first-ever chief technology officer.",
+    "url": "https://techcrunch.com/2026/09/18/disneys-first-cto-led-an-ai-startup-it-once-accused-of-copying-its-characters/",
+    "topic": "llm",
+    "date": "2026-09-18",
+    "fetched_date": "2026-09-19",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Google’s new ‘CC’ is an AI agent that helps families run their households",
+    "abstract": "Google is refocusing its CC AI agent on household coordination, letting families share emails, schedules, and tasks so the AI can manage calendars, fill out forms, make shopping lists, plan meals, and more.",
+    "url": "https://techcrunch.com/2026/09/18/googles-new-cc-is-an-ai-agent-that-helps-families-run-their-households/",
+    "topic": "llm",
+    "date": "2026-09-18",
+    "fetched_date": "2026-09-19",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Dario Amodei and other AI leaders want to ‘Pace the Frontier’ but…how?",
+    "abstract": "A week after an Anthropic researcher’s doomsday warning rattled the AI world, the company’s CEO Dario Amodei has outlined his plan to “pace the frontier” of AI development. The proposal leans on independent safety evaluators and coordination between AI labs in democratic countries, and it’s already picked up some industry support, along with some pointed pushback from Nvidia’s Jensen Huang. Watch […]",
+    "url": "https://techcrunch.com/video/dario-amodei-and-other-ai-leaders-want-to-pace-the-frontier-buthow/",
+    "topic": "llm",
+    "date": "2026-09-18",
+    "fetched_date": "2026-09-19",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Automattic’s 33-Hour Coup, and can AI labs police themselves?",
+    "abstract": "A week after an Anthropic researcher’s doomsday warning rattled the AI world, the company’s CEO Dario Amodei has outlined his plan to “pace the frontier” of AI development. The proposal leans on independent safety evaluators and coordination between AI labs in democratic countries, and it’s already picked up some industry support, along with some pointed pushback from Nvidia’s Jensen Huang. On […]",
+    "url": "https://techcrunch.com/podcast/automattics-33-hour-coup-and-can-ai-labs-police-themselves/",
+    "topic": "llm",
+    "date": "2026-09-18",
+    "fetched_date": "2026-09-19",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Manus seeks $4B valuation in new $500M fundraise as it resumes independent ops",
+    "abstract": "Manus, which earlier this year had to break off a merger with Meta, is in discussions to raise $500M at a $4B valuation.",
+    "url": "https://techcrunch.com/2026/09/18/manus-seeks-4b-valuation-in-new-500m-fundraise-as-it-resumes-independent-ops/",
+    "topic": "llm",
+    "date": "2026-09-18",
+    "fetched_date": "2026-09-19",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Open or closed AI? Nvidia’s Nader Khalil and Sydney Sykes take on one of the decisions shaping next-gen startups at TechCrunch Disrupt 2026",
+    "abstract": "Nvidia's Nader Khalil and Sydney Sykes discuss one of the decisions shaping next-gen startups on the Builders Stage at TechCrunch Disrupt 2026.",
+    "url": "https://techcrunch.com/2026/09/18/open-or-closed-ai-nvidias-nader-khalil-and-sydney-sykes-take-on-one-of-the-decisions-shaping-next-gen-startups-at-techcrunch-disrupt-2026/",
+    "topic": "llm",
+    "date": "2026-09-18",
+    "fetched_date": "2026-09-19",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Meta’s Muse hits Mac, letting the AI take actions on your computer",
+    "abstract": "Muse is now available on the Mac, where it can work with your files and apps to take action on your behalf.",
+    "url": "https://techcrunch.com/2026/09/18/metas-muse-hits-mac-letting-the-ai-take-actions-on-your-computer/",
+    "topic": "llm",
+    "date": "2026-09-18",
+    "fetched_date": "2026-09-19",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Robinhood’s Abhishek Fatehpuria on winning the modern financial consumer at TechCrunch Disrupt 2026",
+    "abstract": "Robinhood’s Abhishek Fatehpuria on winning the modern financial consumer at TechCrunch Disrupt 2026. Register now to save up to $200 before September 25 at 11:59 p.m. PT.",
+    "url": "https://techcrunch.com/2026/09/18/robinhoods-abhishek-fatehpuria-on-winning-the-modern-financial-consumer-at-techcrunch-disrupt-2026/",
+    "topic": "llm",
+    "date": "2026-09-18",
+    "fetched_date": "2026-09-19",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Researchers used Anthropic’s Claude to hack into OpenAI",
+    "abstract": "Security researchers used Anthropic’s Claude to exploit vulnerabilities in OpenAI’s systems, taking over employee accounts and gaining access to an internal code repository before reporting the flaws.",
+    "url": "https://techcrunch.com/2026/09/18/researchers-used-anthropics-claude-to-hack-into-openai/",
+    "topic": "llm",
+    "date": "2026-09-18",
+    "fetched_date": "2026-09-19",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "The clock is ticking: Final 24 hours to exhibit at TechCrunch Disrupt 2026",
+    "abstract": "Last day to book your exhibit table at Disrupt is today, September 18. Get your startup in front of 10,000+ founders, investors, operators, and tech leaders on October 13–15.",
+    "url": "https://techcrunch.com/2026/09/18/final-24-hours-to-exhibit-at-techcrunch-disrupt-2026/",
+    "topic": "llm",
+    "date": "2026-09-18",
+    "fetched_date": "2026-09-19",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "How Rothy’s built a DTC footwear brand with staying power",
+    "abstract": "While other DTC footwear brands like Allbirds struggled, Rothy’s surpassed $200 million in sales by growing carefully, testing retail and wholesale, and managing to avoid DTC's costly expansion traps. Rothy’s CEO and president, Dayna Quanbeck, joined the Modern Retail Podcast to talk about the brand's expansion strategy.",
+    "url": "https://www.modernretail.co/operations/how-rothys-built-a-dtc-footwear-brand-with-staying-power/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-09-19",
+    "fetched_date": "2026-09-19",
+    "feed_name": "Modern Retail",
+    "source": "industry"
   }
 ]
