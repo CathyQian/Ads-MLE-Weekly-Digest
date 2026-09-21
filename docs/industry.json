@@ -28928,5 +28928,105 @@
     "fetched_date": "2026-09-20",
     "feed_name": "TechCrunch AI",
     "source": "industry"
+  },
+  {
+    "title": "Quoting voxium",
+    "abstract": "It has been half a month since I started a new role at a big company. Nobody knows anything here. The specs, code, tests, PRDs, tickets, resolution of those tickets, reports, etc., everything is made by Claude Code. Nobody on my team likes this. They are being forced to ship as much as they can. I have heard multiple times from higher management that pushing code is not a bottleneck, so why are we slow? People are working 12 to 13 hours a day just to press enter. Nobody is reading anything. Everyone, literally everyone, from an L1 to an L7 engineer here is doing the same thing. Talk to Claude. — voxium Tags: ai-misuse , llms , ai , generative-ai",
+    "url": "https://simonwillison.net/2026/Sep/20/voxium/",
+    "topic": "llm",
+    "date": "2026-09-20",
+    "fetched_date": "2026-09-21",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "llm-keys-ui 0.1",
+    "abstract": "Release: llm-keys-ui 0.1 This plugin solves a very specific problem. I've started using Codex Remote to run coding agents on various machines while controlling them from my phone. Sometimes I use those machines to hack on LLM projects, and occasionally that means I need to configure an API key. I don't like pasting API keys into agent sessions, so I wanted a way to get those keys onto a machine without pasting them into the ChatGPT app directly. With this plugin, I can tell Codex to run: uvx --with llm-keys-ui llm keys-ui --all Then have it tell me the URL - including local network or Tailscale device IPs - for an interface to save additional API keys. Then later it can use a command like llm keys get anthropic as part of a shell command when it needs to use a key. Tags: llm , coding-agents , codex",
+    "url": "https://simonwillison.net/2026/Sep/20/llm-keys-ui/",
+    "topic": "llm",
+    "date": "2026-09-20",
+    "fetched_date": "2026-09-21",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "datasette-explain 0.2.2",
+    "abstract": "Release: datasette-explain 0.2.2 Explain plans now work on read-only stored-query pages. I upgraded datasette.simonwillison.net to Datasette 1.0a40, which inspired me to ship a new version of this explain plugin. Tags: sqlite , datasette",
+    "url": "https://simonwillison.net/2026/Sep/20/datasette-explain/",
+    "topic": "llm",
+    "date": "2026-09-20",
+    "fetched_date": "2026-09-21",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "6 days left to save up to $200 to TechCrunch Disrupt 2026",
+    "abstract": "Current ticket pricing ends in 6 days on Sept. 25 at 11:59 p.m. PT. Join 10,000+ founders, investors and tech leaders at Disrupt and save up to $200 on your ticket until then.",
+    "url": "https://techcrunch.com/2026/09/20/6-days-left-to-get-ahead-at-techcrunch-disrupt-2026/",
+    "topic": "llm",
+    "date": "2026-09-20",
+    "fetched_date": "2026-09-21",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "World model companies are keeping a lot of secrets",
+    "abstract": "Everyone in the world-models space is sitting on a pile of cash and a ton of buzz, but good luck getting anyone — from the founders to their own data suppliers — to tell you what they're actually building.",
+    "url": "https://techcrunch.com/2026/09/20/world-model-companies-are-keeping-a-lot-of-secrets/",
+    "topic": "llm",
+    "date": "2026-09-20",
+    "fetched_date": "2026-09-21",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Is the AI industry really ready to slow down?",
+    "abstract": "On Equity, we debated whether Ai executives are serious about wanting to slow down.",
+    "url": "https://techcrunch.com/2026/09/20/is-the-ai-industry-really-ready-to-slow-down/",
+    "topic": "llm",
+    "date": "2026-09-20",
+    "fetched_date": "2026-09-21",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Vocci’s ring adds a new form factor to meeting note-taking",
+    "abstract": "Vocci's lightweight ring costs $249, and might pose some privacy questions",
+    "url": "https://techcrunch.com/2026/09/20/voccis-ring-adds-a-new-form-factor-to-meeting-note-taking/",
+    "topic": "llm",
+    "date": "2026-09-20",
+    "fetched_date": "2026-09-21",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "ScrollEd wants to turn textbooks into TikTok",
+    "abstract": "ScrollEd turns textbooks into a scrollable, Instagram-like feed with video, audio, and quizzes. The Palo Alto startup, founded by student co-founders (and spouses) Utsav Gupta and Rebecca Neff, pitches at TechCrunch Disrupt.",
+    "url": "https://techcrunch.com/2026/09/20/scrolled-wants-to-turn-textbooks-into-tiktok/",
+    "topic": "llm",
+    "date": "2026-09-20",
+    "fetched_date": "2026-09-21",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Target gets K-beauty brands to think beyond Sephora, Ulta with new Beauty Studio",
+    "abstract": "Walking around a Target store today, shoppers are going to find far more K-beauty brands than they would have a year ago as the retailer seeks the latest trends and as Korean brands seek to expand into U.S. mass retail.",
+    "url": "https://www.modernretail.co/operations/target-gets-k-beauty-brands-to-think-beyond-sephora-ulta-with-new-beauty-studio/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-09-21",
+    "fetched_date": "2026-09-21",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Creators are moving up their holiday content calendars",
+    "abstract": "Creators and brands are starting holiday campaigns months early to build awareness and test sales strategies. In turn, the campaign calendars have shifted to feature Christmas content as early as August.",
+    "url": "https://www.modernretail.co/marketing/creators-are-moving-up-their-holiday-content-calendars/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-09-21",
+    "fetched_date": "2026-09-21",
+    "feed_name": "Modern Retail",
+    "source": "industry"
   }
 ]
