@@ -15828,5 +15828,135 @@
     "fetched_date": "2026-09-22",
     "feed_name": "TechCrunch",
     "source": "startup"
+  },
+  {
+    "title": "‘We’re already fighting yesterday’s battle’: Greece’s prime minister gets candid about AI",
+    "abstract": "Most leaders on a trade mission stick to the pitch, but when I interviewed Greek Prime Minister Kyriakos Mitsotakis this week, he also admitted that no government is ready for what AI is about to do.",
+    "url": "https://techcrunch.com/2026/09/22/were-already-fighting-yesterdays-battle-greeces-prime-minister-gets-candid-about-ai/",
+    "topic": "startup",
+    "date": "2026-09-23",
+    "fetched_date": "2026-09-23",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "TechCrunch Founder Summit’s agenda revealed: Unlock fundraising, hiring, and AI insights in Boston on November 4",
+    "abstract": "Founders shouldn't have to learn the hardest lessons the hardest way. TechCrunch Founder Summit is designed to make the challenges of starting a company easier and the highs that much greater.",
+    "url": "https://techcrunch.com/2026/09/22/techcrunch-founder-summits-agenda-revealed-unlock-fundraising-hiring-and-ai-insights-in-boston-on-november-4/",
+    "topic": "startup",
+    "date": "2026-09-22",
+    "fetched_date": "2026-09-23",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Snorkel AI triples valuation to $3.5B as demand for AI training data booms",
+    "abstract": "The seven-year-old startup has raised a $350 million Series E to fuel its data-as-a-service approach.",
+    "url": "https://techcrunch.com/2026/09/22/snorkel-ai-triples-valuation-to-3-5b-as-demand-for-ai-training-data-booms/",
+    "topic": "startup",
+    "date": "2026-09-22",
+    "fetched_date": "2026-09-23",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Qualcomm launches two new smartphone chips with emphasis on AI",
+    "abstract": "Qualcomm said that its new top chip can run 30B mixture-of-expert model locally.",
+    "url": "https://techcrunch.com/2026/09/22/qualcomm-launches-two-new-smartphone-chips-with-emphasis-on-ai/",
+    "topic": "startup",
+    "date": "2026-09-22",
+    "fetched_date": "2026-09-23",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Meta admits Muse’s likeness to OpenClaw isn’t a coincidence",
+    "abstract": "Meta says Muse was built from scratch, but acknowledges the AI assistant was \"heavily inspired\" by OpenClaw — down to some of its workspace filenames and content.",
+    "url": "https://techcrunch.com/2026/09/22/meta-admits-muses-likeness-to-openclaw-isnt-a-coincidence/",
+    "topic": "startup",
+    "date": "2026-09-22",
+    "fetched_date": "2026-09-23",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Hacking group ShinyHunters claims it breached the FBI, stole agents’ and applicants’ data",
+    "abstract": "The theft of agents' personal information could present a major counterintelligence threat, where agents and their families are extorted into cooperating with a foreign government.",
+    "url": "https://techcrunch.com/2026/09/22/hacking-group-shinyhunters-claims-it-breached-the-fbi-stole-agents-and-applicants-data/",
+    "topic": "startup",
+    "date": "2026-09-22",
+    "fetched_date": "2026-09-23",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "OpenAI launches GPT-6 Sol and Luna, boasting lower cost and fewer mistakes",
+    "abstract": "OpenAI is launching two new models, which it says are cut from the same cloth as Astra.",
+    "url": "https://techcrunch.com/2026/09/22/openai-launches-gpt-6-sol-and-luna/",
+    "topic": "startup",
+    "date": "2026-09-22",
+    "fetched_date": "2026-09-23",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Noble Carbon will show how it’s making EV charger installs painless at TechCrunch Disrupt",
+    "abstract": "Noble Carbon has developed a smart circuit breaker that allows households to electrify without the pain of a main panel upgrade.",
+    "url": "https://techcrunch.com/2026/09/22/noble-carbon-will-show-how-its-making-ev-charger-installs-painless-at-techcrunch-disrupt/",
+    "topic": "startup",
+    "date": "2026-09-22",
+    "fetched_date": "2026-09-23",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Five AI safety sessions every founder should have on their TechCrunch Disrupt 2026 agenda",
+    "abstract": "At TechCrunch Disrupt 2026, five sessions across the AI Stage and Real World AI Stage cover AI safety, featuring leaders from Anthropic, Nvidia, AWS, Waabi, and more. Register before September 25 to save up to $200.",
+    "url": "https://techcrunch.com/2026/09/22/five-ai-safety-sessions-every-founder-should-have-on-their-techcrunch-disrupt-2026-agenda/",
+    "topic": "startup",
+    "date": "2026-09-22",
+    "fetched_date": "2026-09-23",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "AstroForge is putting AI in command of its next spacecraft",
+    "abstract": "Autonomy-1 will have a small, transformer-based AI model taking charge of a space probe.",
+    "url": "https://techcrunch.com/2026/09/22/astroforge-is-putting-ai-in-command-of-its-next-spacecraft/",
+    "topic": "startup",
+    "date": "2026-09-22",
+    "fetched_date": "2026-09-23",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "TechCrunch Disrupt 2026: Aaron Edsinger brings Hello Robot’s Stretch 4 to life onstage",
+    "abstract": "Hello Robot CEO and co-founder Aaron Edsinger will bring Stretch 4 for a live demo on the Real World AI Stage at TechCrunch Disrupt 2026. Register before September 25 to save up to $200, plus get a second pass at 50% off.",
+    "url": "https://techcrunch.com/2026/09/22/techcrunch-disrupt-2026-aaron-edsinger-brings-hello-robots-stretch-4-to-life-onstage/",
+    "topic": "startup",
+    "date": "2026-09-22",
+    "fetched_date": "2026-09-23",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Exhibit tables added: One last chance to showcase your startup at TechCrunch Disrupt 2026",
+    "abstract": "We have reopened our exhibitor program for 1 more week. Book your exhibit table by September 30 at 11:59 p.m. PT and showcase your startup in front of 10,000+ founders, investors, and tech leaders at SF's Moscone West from October 13-15.",
+    "url": "https://techcrunch.com/2026/09/22/exhibitor-program-reopened-book-by-sept-30/",
+    "topic": "startup",
+    "date": "2026-09-22",
+    "fetched_date": "2026-09-23",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "TikTok’s US arm joins Lantern, a cross-platform child safety initiative",
+    "abstract": "Eight months after establishing a U.S.-based joint venture, TikTok is getting on board fellow platforms to support industrywide child safety work.",
+    "url": "https://techcrunch.com/2026/09/22/tiktoks-us-arm-joins-lantern-a-cross-platform-child-safety-initiative/",
+    "topic": "startup",
+    "date": "2026-09-22",
+    "fetched_date": "2026-09-23",
+    "feed_name": "TechCrunch",
+    "source": "startup"
   }
 ]
