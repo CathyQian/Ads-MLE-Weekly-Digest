@@ -29538,5 +29538,315 @@
     "fetched_date": "2026-09-23",
     "feed_name": "Modern Retail",
     "source": "industry"
+  },
+  {
+    "title": "Two years of OpenAI Academy",
+    "abstract": "Marking two years of OpenAI Academy and bringing AI skills to even more communities.",
+    "url": "https://openai.com/index/two-years-of-openai-academy",
+    "topic": "llm",
+    "date": "2026-09-23",
+    "fetched_date": "2026-09-24",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "OpenAI extends cyber access to Ukraine for civilian defense",
+    "abstract": "OpenAI is extending access to its Daybreak program to the Government of Ukraine to support the cyber defense of civilian infrastructure.",
+    "url": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
+    "topic": "llm",
+    "date": "2026-09-23",
+    "fetched_date": "2026-09-24",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Sam Altman’s remarks at the United Nations Security Council",
+    "abstract": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
+    "url": "https://openai.com/index/sam-altman-un-security-council-remarks",
+    "topic": "llm",
+    "date": "2026-09-23",
+    "fetched_date": "2026-09-24",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
+    "abstract": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy.",
+    "url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
+    "topic": "llm",
+    "date": "2026-09-23",
+    "fetched_date": "2026-09-24",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "How invideo improves color grading 3x with GPT‑6 Astra",
+    "abstract": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day.",
+    "url": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
+    "topic": "llm",
+    "date": "2026-09-23",
+    "fetched_date": "2026-09-24",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
+    "abstract": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
+    "url": "https://openai.com/index/ringg",
+    "topic": "llm",
+    "date": "2026-09-23",
+    "fetched_date": "2026-09-24",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Introducing MentalHealthBench",
+    "abstract": "MentalHealthBench is an expert-informed benchmark for evaluating helpful and safe AI responses across realistic mental health conversations.",
+    "url": "https://openai.com/index/introducing-mentalhealthbench",
+    "topic": "llm",
+    "date": "2026-09-23",
+    "fetched_date": "2026-09-24",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "ChatGPT Ads expands to Southeast Asia and Taiwan",
+    "abstract": "ChatGPT Ads is expanding to Southeast Asia and Taiwan, giving eligible businesses new ways to reach people across more than 60 countries.",
+    "url": "https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan",
+    "topic": "llm",
+    "date": "2026-09-23",
+    "fetched_date": "2026-09-24",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Airbnb widens access to GPT-6 Astra and OpenAI frontier models",
+    "abstract": "Learn how Airbnb is expanding access to GPT-6 Astra and OpenAI frontier models to help engineering teams solve bugs, design systems, and ship faster.",
+    "url": "https://openai.com/index/airbnb-gpt-6-astra",
+    "topic": "llm",
+    "date": "2026-09-23",
+    "fetched_date": "2026-09-24",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Grab and OpenAI bring practical AI skills to Southeast Asia",
+    "abstract": "OpenAI and Grab launch GO Forward with AI, a regional programme helping 30,000 partners build practical AI skills across Southeast Asia.",
+    "url": "https://openai.com/index/grab-openai-ai-skills-southeast-asia",
+    "topic": "llm",
+    "date": "2026-09-23",
+    "fetched_date": "2026-09-24",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "How to Use NVIDIA Warp and MjWarp to Accelerate Robotics Simulation and Learning Workflows",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp",
+    "topic": "llm",
+    "date": "2026-09-23",
+    "fetched_date": "2026-09-24",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Advancing Private AI Compute with secure, server-side memory",
+    "abstract": "Introducing private, server-side memory to Private AI Compute for personal AI.",
+    "url": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
+    "topic": "generative-ai",
+    "date": "2026-09-23",
+    "fetched_date": "2026-09-24",
+    "feed_name": "DeepMind Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Gemini 3.8 text-to-speech says hello",
+    "abstract": "",
+    "url": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
+    "topic": "generative-ai",
+    "date": "2026-09-23",
+    "fetched_date": "2026-09-24",
+    "feed_name": "DeepMind Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Gemini 3.8 TTS Playground",
+    "abstract": "Tool: Gemini 3.8 TTS Playground Google released two new Gemini text-to-speech models today - gemini-3.8-flash-tts and gemini-3.8-flash-lite-tts . They come with a library of over 2,000 voices, plus the ability to create a custom voice with \"just a 30-second audio sample of your voice or a voice you have the rights to use\". I vibe coded this bring-your-own-key playground interface with GPT-6 Astra, taking advantage of the open CORS policy of the underlying Gemini API. A notable feature of the API is that it makes it easy to define a full conversation between multiple characters, each with different voices and voice style instructions. Here's a short demo clip of a conversation between two pelicans debating if they should move to the Pacifica Pier . I had Claude 4.5 Opus write the script and generate a URL to render it using the tool . Your browser does not support the audio element. It took ~20 seconds to generate 1m 18s of audio using Gemini 3.8 Flash TTS (not the cheaper Flash-Lite), at a cost of 2.74 cents. Tags: text-to-speech , gemini",
+    "url": "https://simonwillison.net/2026/Sep/23/gemini-tts-playground/",
+    "topic": "llm",
+    "date": "2026-09-23",
+    "fetched_date": "2026-09-24",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Shadow roots, explained with live examples",
+    "abstract": "Tool: Shadow roots, explained with live examples Prompt to Fable 5.1 Medium: Build an artifact to explain shadow roots in CSS with interactive examples Tags: css",
+    "url": "https://simonwillison.net/2026/Sep/23/shadow-roots/",
+    "topic": "llm",
+    "date": "2026-09-23",
+    "fetched_date": "2026-09-24",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Everything new coming to Meta’s AI agent Muse",
+    "abstract": "CEO Mark Zuckerberg kicked off the company’s annual Connect event in Menlo Park on Wednesday with a keynote that made one thing clear: Meta is going all-in on Muse. It's even coming to Meta's AI glasses.",
+    "url": "https://techcrunch.com/2026/09/23/everything-new-coming-to-metas-ai-agent-muse/",
+    "topic": "llm",
+    "date": "2026-09-24",
+    "fetched_date": "2026-09-24",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Meta made a Tamagotchi-like wearable for its Muse AI agent",
+    "abstract": "The tiny hardware device creates another mobile home for its AI agent Muse.",
+    "url": "https://techcrunch.com/2026/09/23/meta-made-a-tamagotchi-like-wearable-for-its-muse-ai-agent/",
+    "topic": "llm",
+    "date": "2026-09-24",
+    "fetched_date": "2026-09-24",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Meta introduces camera-free AI glasses",
+    "abstract": "Meta says the camera-free glasses will be lighter and have up to 12 hours battery life.",
+    "url": "https://techcrunch.com/2026/09/23/meta-introduces-camera-free-ai-glasses/",
+    "topic": "llm",
+    "date": "2026-09-23",
+    "fetched_date": "2026-09-24",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Anthropic says its biology lab has already found something big",
+    "abstract": "But maybe the biggest reveal is that Anthropic has not let Claude run loose in its biology lab. Humans are still, so far, in the loop.",
+    "url": "https://techcrunch.com/2026/09/23/anthropic-says-its-biology-lab-has-already-found-something-big/",
+    "topic": "llm",
+    "date": "2026-09-23",
+    "fetched_date": "2026-09-24",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Enveda secures $311M to bring more nature-derived AI drugs into clinical trials",
+    "abstract": "The round valued the AI biotech at $2 billion. It is currently testing drugs that treat skin conditions and preserve weight loss after stopping GLP-1s.",
+    "url": "https://techcrunch.com/2026/09/23/enveda-secures-311m-to-bring-more-nature-derived-ai-drugs-into-clinical-trials/",
+    "topic": "llm",
+    "date": "2026-09-23",
+    "fetched_date": "2026-09-24",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "ChatGPT mobile app gets voice-based agentic features",
+    "abstract": "Pro and Plus users will be able to use the Work tab on their phones to complete agentic tasks.",
+    "url": "https://techcrunch.com/2026/09/23/chatgpt-mobile-app-gets-voice-based-agentic-features/",
+    "topic": "llm",
+    "date": "2026-09-23",
+    "fetched_date": "2026-09-24",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Even Americans who use AI every day are worried about it",
+    "abstract": "The report suggests that greater exposure will not resolve the unease around the technology, nor reduce public support for AI regulation.",
+    "url": "https://techcrunch.com/2026/09/23/even-americans-who-use-ai-every-day-are-worried-about-it/",
+    "topic": "llm",
+    "date": "2026-09-23",
+    "fetched_date": "2026-09-24",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "YouTube Music gets more conversational with new AI features",
+    "abstract": "Built directly into the YouTube Music app, Ask Music lets users describe what they want to hear in everyday language rather than searching for individual songs or artists.",
+    "url": "https://techcrunch.com/2026/09/23/youtube-music-gets-more-conversational-with-new-ai-features/",
+    "topic": "llm",
+    "date": "2026-09-23",
+    "fetched_date": "2026-09-24",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "YouTube will let you build your own algorithm with AI",
+    "abstract": "YouTube’s new custom feeds let users describe the videos they want to see in their own words, then use Gemini to build a personalized feed around the request.",
+    "url": "https://techcrunch.com/2026/09/23/youtube-will-let-you-build-your-own-algorithm-with-ai/",
+    "topic": "llm",
+    "date": "2026-09-23",
+    "fetched_date": "2026-09-24",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "YouTube releases new AI features for creators within its Studio app",
+    "abstract": "YouTube is adding new features to generate ideas and monitor the performance of thumbnails.",
+    "url": "https://techcrunch.com/2026/09/23/youtube-releases-new-ai-features-for-creators-within-its-studio-app/",
+    "topic": "llm",
+    "date": "2026-09-23",
+    "fetched_date": "2026-09-24",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "StrictlyVC at TechCrunch Disrupt 2026: Inside the changing rules of venture capital",
+    "abstract": "StrictlyVC joins TechCrunch Disrupt 2026 to discuss the changing VC landscape thanks to AI. Get your Investor Pass to join these exclusive sessions. Save $200 before September 25 at 11:59 p.m. PT.",
+    "url": "https://techcrunch.com/2026/09/23/strictlyvc-at-techcrunch-disrupt-2026-inside-the-changing-rules-of-venture-capital/",
+    "topic": "llm",
+    "date": "2026-09-23",
+    "fetched_date": "2026-09-24",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "3 days left to save up to $200 and make impactful connections at TechCrunch Disrupt 2026",
+    "abstract": "3 days to save up to $200 on your TechCrunch Disrupt 2026 pass, plus 50% off a second. Make impactful connections with 10,000+ tech leaders. Last day to save is September 25 at 11:59 p.m. PT. Register today.",
+    "url": "https://techcrunch.com/2026/09/23/3-days-left-to-save-up-to-200-and-make-impactful-connections-at-techcrunch-disrupt-2026/",
+    "topic": "llm",
+    "date": "2026-09-23",
+    "fetched_date": "2026-09-24",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Spotify is giving you the keys to its recommendation algorithm with US launch of ‘Taste Profile’",
+    "abstract": "Spotify is rolling out Taste Profile to Premium users in the U.S., letting listeners see how the streamer understands their tastes and use natural language to reshape their recommendations.",
+    "url": "https://techcrunch.com/2026/09/23/spotify-is-giving-you-the-keys-to-its-recommendation-algorithm-with-u-s-launch-of-taste-profile/",
+    "topic": "llm",
+    "date": "2026-09-23",
+    "fetched_date": "2026-09-24",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Ema raises $77M as AI starts eating into enterprise software and services",
+    "abstract": "Ema has raised $140 million to date and has more than 50 enterprise customers, including Google and Microsoft.",
+    "url": "https://techcrunch.com/2026/09/23/ema-raises-77m-as-ai-starts-eating-into-enterprise-software-and-services/",
+    "topic": "llm",
+    "date": "2026-09-23",
+    "fetched_date": "2026-09-24",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Why Instacart is focused on reducing item markups to grow its delivery platform",
+    "abstract": "Instacart CEO Chris Rogers says lower online markups, loyalty perks and cheaper delivery options are crucial to driving more online grocery growth in the coming years.",
+    "url": "https://www.modernretail.co/technology/why-instacart-is-focused-on-reducing-item-markups-to-grow-its-delivery-platform/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-09-24",
+    "fetched_date": "2026-09-24",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "How Sephora used Mikayla Nogueira and POV Beauty to kickstart its TikTok Shop launch",
+    "abstract": "On Saturday, Sephora kicked off its TikTok Shop launch with a livestreamed shopping session hosted by Mikayla Nogueira, the mega influencer and co-founder of POV Beauty, offering shoppers access to an exclusive new holiday value set. It hints at what Sephora's strategy may look like on the platform going forward.",
+    "url": "https://www.modernretail.co/marketing/how-sephora-used-mikayla-nogueira-and-pov-beauty-to-kickstart-its-tiktok-shop-launch/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-09-24",
+    "fetched_date": "2026-09-24",
+    "feed_name": "Modern Retail",
+    "source": "industry"
   }
 ]
