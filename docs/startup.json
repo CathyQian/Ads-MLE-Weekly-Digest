@@ -16278,5 +16278,135 @@
     "fetched_date": "2026-09-25",
     "feed_name": "TechCrunch",
     "source": "startup"
+  },
+  {
+    "title": "Crusoe abandons $1.25B plan to use Boom turbines at AI data centers",
+    "abstract": "Boom Supersonic CEO Blake Scholl said the company's new stationary power plants were no longer in Crusoe's near-term plans.",
+    "url": "https://techcrunch.com/2026/09/25/crusoe-abandons-1-25b-plan-to-use-boom-turbines-at-ai-data-centers/",
+    "topic": "startup",
+    "date": "2026-09-25",
+    "fetched_date": "2026-09-26",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Automattic has a new board after failed attempt to put CEO on leave",
+    "abstract": "After days of upheaval at Automattic, following a failed attempt to remove CEO Matt Mullenweg, the company has a new board.",
+    "url": "https://techcrunch.com/2026/09/25/automattic-has-a-new-board-after-failed-attempt-to-put-ceo-on-leave/",
+    "topic": "startup",
+    "date": "2026-09-25",
+    "fetched_date": "2026-09-26",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Unsecured OpenAI agents posted 53 user images on the internet without the lab’s knowledge",
+    "abstract": "AI agents operating in OpenAI's research environment posted user images on public image-hosting sites without the lab's knowledge.",
+    "url": "https://techcrunch.com/2026/09/25/unsecured-openai-agents-posted-53-user-images-on-the-internet-without-the-labs-knowledge/",
+    "topic": "startup",
+    "date": "2026-09-25",
+    "fetched_date": "2026-09-26",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Anthropic to pay Akamai $11.6 billion over seven years in cloud deal",
+    "abstract": "Anthropic has committed $11.6 billion over seven years to Akamai's cloud infrastructure, a bet on CPUs that could grow to about $20 billion, and in an unusual arrangement, Akamai is giving Anthropic a potential stake of up to 5% of its stock that grows as Anthropic spends more.",
+    "url": "https://techcrunch.com/2026/09/25/anthropic-to-pay-akamai-11-6-billion-over-seven-years-in-cloud-deal/",
+    "topic": "startup",
+    "date": "2026-09-25",
+    "fetched_date": "2026-09-26",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Ahead of US IPO, British AI neocloud Nscale secures $3.36B in convertible financing",
+    "abstract": "The funding, which comes from Third Point, Nvidia, and others, will fuel the company's massive AI data center buildout.",
+    "url": "https://techcrunch.com/2026/09/25/ahead-of-u-s-ipo-british-ai-neocloud-nscale-secures-3-36b-in-convertible-finacing/",
+    "topic": "startup",
+    "date": "2026-09-25",
+    "fetched_date": "2026-09-26",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Some Supabase customers are publicly exposing reams of people’s data to the web",
+    "abstract": "The findings highlight how AI-generated and vibe-coded apps can spill and expose users' data when not configured or secured properly.",
+    "url": "https://techcrunch.com/2026/09/25/some-supabase-customers-are-publicly-exposing-reams-of-peoples-data-to-the-web/",
+    "topic": "startup",
+    "date": "2026-09-25",
+    "fetched_date": "2026-09-26",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Astra and Opus just passed Turing’s other test",
+    "abstract": "Frontier AI models are finishing Alan Turing's World War II codebreaking work.",
+    "url": "https://techcrunch.com/2026/09/25/astra-and-opus-just-passed-turings-other-test/",
+    "topic": "startup",
+    "date": "2026-09-25",
+    "fetched_date": "2026-09-26",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Meta is putting its muscle behind Muse as the AI app takes off",
+    "abstract": "Muse is topping the app store charts and adding users at a rapid clip, while Meta ramps up the personal AI agent's promotion across its own apps and beyond.",
+    "url": "https://techcrunch.com/2026/09/25/meta-is-putting-its-muscle-behind-muse-as-the-ai-app-takes-off/",
+    "topic": "startup",
+    "date": "2026-09-25",
+    "fetched_date": "2026-09-26",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Meta’s AI Tamagotchi bet is…working?",
+    "abstract": "When AI leaders at OpenAI and Anthropic started talking about “pacing the frontier,” maybe someone should have asked: what pace? Now it’s turned into model drop week for both companies as Anthropic rolled out Opus 5.5, followed by OpenAI’s GPT-6 model updates just 90 minutes later. But the company that stole the spotlight was Meta, whose personal AI agent Muse is reportedly outpacing ChatGPT’s early numbers and is headed for smart glasses and […]",
+    "url": "https://techcrunch.com/video/will-metas-ai-tamagotchi-bet-isworking/",
+    "topic": "startup",
+    "date": "2026-09-25",
+    "fetched_date": "2026-09-26",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Kiteworks urges customers to shut down their servers amid ‘imminent’ threat of cyberattack",
+    "abstract": "The tech giant, which allows companies to send large datasets over the internet, said it received a \"credible threat\" from law enforcement about an imminent attack.",
+    "url": "https://techcrunch.com/2026/09/25/kiteworks-urges-customers-to-shut-down-their-servers-amid-imminent-threat-of-cyberattack/",
+    "topic": "startup",
+    "date": "2026-09-25",
+    "fetched_date": "2026-09-26",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "For months, OpenAI’s agent swarms have been attacking online databases to find obscure facts",
+    "abstract": "The latest unauthorized agent swarms were discovered by researchers.",
+    "url": "https://techcrunch.com/2026/09/25/for-months-openais-agent-swarms-have-been-attacking-online-databases-to-find-obscure-facts/",
+    "topic": "startup",
+    "date": "2026-09-25",
+    "fetched_date": "2026-09-26",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Anthropic’s founders seek voting control ahead of IPO",
+    "abstract": "Anthropic is asking its shareholders to approve a structure that would give its seven co-founders a combined 50.1% of the vote on most corporate matters.",
+    "url": "https://techcrunch.com/2026/09/25/anthropics-founders-seek-voting-control-ahead-of-ipo/",
+    "topic": "startup",
+    "date": "2026-09-25",
+    "fetched_date": "2026-09-26",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "TechCrunch Disrupt 2026: Ricursive Intelligence’s Anna Goldie and Azalia Mirhoseini on when AI starts designing its own hardware",
+    "abstract": "At TechCrunch Disrupt 2026, Ricursive Intelligence co-founders Anna Goldie and Azalia Mirhoseini will take the Disrupt Stage to discuss closing the loop between AI and chip development. Save up to $200 on your pass before today ends.",
+    "url": "https://techcrunch.com/2026/09/25/techcrunch-disrupt-2026-ricursive-intelligences-anna-goldie-and-azalia-mirhoseini-on-when-ai-starts-designing-its-own-hardware/",
+    "topic": "startup",
+    "date": "2026-09-25",
+    "fetched_date": "2026-09-26",
+    "feed_name": "TechCrunch",
+    "source": "startup"
   }
 ]
