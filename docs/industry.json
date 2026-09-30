@@ -30788,5 +30788,315 @@
     "fetched_date": "2026-09-29",
     "feed_name": "Modern Retail",
     "source": "industry"
+  },
+  {
+    "title": "Introducing GPT-6.1 Sol",
+    "abstract": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
+    "url": "https://openai.com/index/introducing-gpt-6-1-sol",
+    "topic": "llm",
+    "date": "2026-09-29",
+    "fetched_date": "2026-09-30",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "DevDay 2026 Recap",
+    "abstract": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders.",
+    "url": "https://openai.com/index/devday-2026-recap",
+    "topic": "llm",
+    "date": "2026-09-29",
+    "fetched_date": "2026-09-30",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Introducing dots",
+    "abstract": "Dots by OpenAI are proactive assistants that can keep working across complex projects and everyday tasks. Learn how dots help you stay in control while work moves forward.",
+    "url": "https://openai.com/index/introducing-dots",
+    "topic": "llm",
+    "date": "2026-09-29",
+    "fetched_date": "2026-09-30",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "What do you want from AI?",
+    "abstract": "",
+    "url": "https://www.anthropic.com/research/your-thoughts-on-ai",
+    "topic": "llm",
+    "date": "2026-09-29",
+    "fetched_date": "2026-09-30",
+    "feed_name": "Anthropic Research",
+    "source": "industry"
+  },
+  {
+    "title": "GLM-5.3 and the spread of advanced cyber capabilities",
+    "abstract": "GLM-5.3 can autonomously build end-to-end cyber exploits, but unlike other frontier models, it was released without meaningful safeguards to limit misuse.",
+    "url": "https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities",
+    "topic": "llm",
+    "date": "2026-09-29",
+    "fetched_date": "2026-09-30",
+    "feed_name": "Anthropic Research",
+    "source": "industry"
+  },
+  {
+    "title": "NVIDIA Kumo Tabular Sets a New Accuracy-Efficiency Frontier for Tabular Prediction",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/nvidia/kumo-tabular",
+    "topic": "llm",
+    "date": "2026-09-29",
+    "fetched_date": "2026-09-30",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Getting the Source Right, Not Just the Fact: Source-Aware Verification for MCP Agents",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
+    "topic": "llm",
+    "date": "2026-09-29",
+    "fetched_date": "2026-09-30",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Personalization without user identity",
+    "abstract": "",
+    "url": "https://medium.com/airbnb-engineering/personalization-without-user-identity-8e7891a1d486?source=rss----53c7c27702d5---4",
+    "topic": "ml-engineering",
+    "date": "2026-09-29",
+    "fetched_date": "2026-09-30",
+    "feed_name": "Airbnb Engineering",
+    "source": "industry"
+  },
+  {
+    "title": "Quoting Anthropic Frontier Red Team",
+    "abstract": "We evaluate several models on 100 tasks from the [internal Binary Exploitation benchmark] (selected at random), and find that GLM-5.3 develops full control flow hijacks in 4% of the trials; Claude Mythos Preview did so in 6%. Although GLM-5.3 performs below Claude Mythos Preview here, a meaningful threshold has clearly been crossed: earlier models, like Claude Opus 4.6 and GLM-5.2, do not succeed in any of them. — Anthropic Frontier Red Team , GLM-5.3 and the spread of advanced cyber capabilities Tags: anthropic , generative-ai , ai-security-research , glm , ai , ai-in-china , llms",
+    "url": "https://simonwillison.net/2026/Sep/29/anthropic-frontier-red-team/",
+    "topic": "llm",
+    "date": "2026-09-29",
+    "fetched_date": "2026-09-30",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price",
+    "abstract": "My comment on GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price — Hacker News. I'm a bit late with the pelicans because I was live-blogging the keynote: https://simonwillison.net/2026/Sep/29/openai-devday-2026-liv... Here they are for GPT-6.1-Sol: https://tools.simonwillison.net/markdown-svg-renderer?url=ht... They're not notably different from the GPT-6 family pelicans: https://static.simonwillison.net/static/2026/gpt-pelicans-gr... Tags: ai , openai , generative-ai , llms , pelican-riding-a-bicycle , gpt",
+    "url": "https://simonwillison.net/2026/Sep/29/hn-49898129/",
+    "topic": "llm",
+    "date": "2026-09-29",
+    "fetched_date": "2026-09-30",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "OpenAI DevDay 2026 live blog",
+    "abstract": "I'm at OpenAI DevDay today, in Fort Mason, San Francisco. Same as last year I'll be live blogging the keynote and some other notes during the day. OpenAI gave me a free ticket and a seat in the \"creator\" area for the keynote. Tags: ai , openai , generative-ai , llms , coding-agents , live-blog , openai-devday",
+    "url": "https://simonwillison.net/2026/Sep/29/openai-devday-2026-live-blog/",
+    "topic": "llm",
+    "date": "2026-09-29",
+    "fetched_date": "2026-09-30",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "America.gov gets really weird when you ask it about Minecraft, but it’s not a glitch",
+    "abstract": "For the sake of national security, it's a relief to learn that America.gov is not hallucinating to the point that it's penning lengthy poetry.",
+    "url": "https://techcrunch.com/2026/09/29/america-gov-gets-really-weird-when-you-ask-it-about-minecraft-but-its-not-a-glitch/",
+    "topic": "llm",
+    "date": "2026-09-29",
+    "fetched_date": "2026-09-30",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "The internet is convinced Elon Musk’s xAI trolled OpenAI’s ‘Dots’ launch",
+    "abstract": "Before OpenAI launched its new AI agent, Dots, on Tuesday, Elon Musk's xAI had already acquired the domain name \"dot.com,\" which now redirects to the Grok chatbot download page.",
+    "url": "https://techcrunch.com/2026/09/29/the-internet-is-convinced-elon-musks-xai-trolled-openais-dots-launch/",
+    "topic": "llm",
+    "date": "2026-09-29",
+    "fetched_date": "2026-09-30",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "OpenAI’s latest features take direct aim at the app store model",
+    "abstract": "OpenAI is building out the pieces of an alternative to the traditional app store model, turning ChatGPT into a place where software can be discovered and used by people and AI agents alike.",
+    "url": "https://techcrunch.com/2026/09/29/openais-latest-features-take-direct-aim-at-the-app-store-model/",
+    "topic": "llm",
+    "date": "2026-09-29",
+    "fetched_date": "2026-09-30",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "OpenAI reportedly in talks to raise $30B round at $1.4T valuation",
+    "abstract": "The new round is anticipated to be the company's last before its delayed 2027 public debut.",
+    "url": "https://techcrunch.com/2026/09/29/openai-reportedly-in-talks-to-raise-30b-round-at-1-4t-valuation/",
+    "topic": "llm",
+    "date": "2026-09-29",
+    "fetched_date": "2026-09-30",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Here’s why OpenAI is absent from Nvidia’s industry-wide effort to end rogue AI agents",
+    "abstract": "OpenAI isn't a public supporter of Nvidia's Open Agent Safety Platform, but it is privately working with Nvidia, TechCrunch has learned.",
+    "url": "https://techcrunch.com/2026/09/29/heres-why-openai-is-absent-from-nvidias-industry-wide-effort-to-end-rogue-ai-agents/",
+    "topic": "llm",
+    "date": "2026-09-29",
+    "fetched_date": "2026-09-30",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "OpenAI takes on Microsoft with the launch of what feels a whole lot like ChatGPT’s own office suite",
+    "abstract": "OpenAI's newly announced suite of office features puts it into more direct competition with more traditional software companies.",
+    "url": "https://techcrunch.com/2026/09/29/openai-takes-on-microsoft-with-the-launch-of-what-feels-a-whole-lot-like-chatgpts-own-office-suite/",
+    "topic": "llm",
+    "date": "2026-09-29",
+    "fetched_date": "2026-09-30",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "AI-powered app maker Wabi pivots to a messaging experience",
+    "abstract": "Wabi is repositioning its prompt-based app builder as a personal AI agent that can create interfaces on demand, combining chat, apps, and ongoing tasks.",
+    "url": "https://techcrunch.com/2026/09/29/ai-powered-app-maker-wabi-pivots-to-a-messaging-experience/",
+    "topic": "llm",
+    "date": "2026-09-29",
+    "fetched_date": "2026-09-30",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "OpenAI launches Dots, its bubbly agentic avatar",
+    "abstract": "Dots are meant to operate independent of any specific hardware or interface, pursuing user-defined goals continuously in the background with minimal oversight.",
+    "url": "https://techcrunch.com/2026/09/29/openai-launches-dots-its-bubbly-agentic-avatar/",
+    "topic": "llm",
+    "date": "2026-09-29",
+    "fetched_date": "2026-09-30",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "OpenAI gives Codex reusable cloud environments that work across devices",
+    "abstract": "OpenAI is expanding Codex with reusable cloud development environments, a revamped CLI with voice controls, new code review tools, and a security-focused product for scanning repositories and preparing fixes.",
+    "url": "https://techcrunch.com/2026/09/29/openai-gives-codex-reusable-cloud-environments-that-work-across-devices/",
+    "topic": "llm",
+    "date": "2026-09-29",
+    "fetched_date": "2026-09-30",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "OpenAI expands ChatGPT’s plug-ins with app-like interfaces and automations",
+    "abstract": "OpenAI is expanding ChatGPT plug-ins with dedicated sidebar homes, interactive panels, file viewers, improved discovery, and support for automations.",
+    "url": "https://techcrunch.com/2026/09/29/openai-expands-chatgpts-plugins-with-app-like-interfaces-and-automations/",
+    "topic": "llm",
+    "date": "2026-09-29",
+    "fetched_date": "2026-09-30",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "OpenAI launches GPT-6.1 Sol, says it nearly matches GPT-6 Astra and costs less",
+    "abstract": "OpenAI says GPT-6.1 Sol delivers significant improvements over GPT-6 Sol across complex professional tasks, including code writing and debugging, document understanding, and executing multistep business workflows.",
+    "url": "https://techcrunch.com/2026/09/29/openai-launches-gpt-6-1-sol-says-it-nearly-matches-gpt-6-astra-and-costs-less/",
+    "topic": "llm",
+    "date": "2026-09-29",
+    "fetched_date": "2026-09-30",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Can a chatbot fix the government maze? The White House is about to find out",
+    "abstract": "America.gov is intended to simplify the process of navigating government bureaucracy, but large language models are imperfect and remain prone to hallucinations, which could cause new issues.",
+    "url": "https://techcrunch.com/2026/09/29/can-a-chatbot-fix-the-government-maze-the-white-house-is-about-to-find-out/",
+    "topic": "llm",
+    "date": "2026-09-29",
+    "fetched_date": "2026-09-30",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Instinct founder said more than 50% of transactions on the platform are travel-related",
+    "abstract": "Instinct founder said the platform is growing 10% day by day, with transaction volume increasing at a similar rate.",
+    "url": "https://techcrunch.com/2026/09/29/instinct-founder-said-more-than-50-of-transactions-on-the-platform-are-travel-related/",
+    "topic": "llm",
+    "date": "2026-09-29",
+    "fetched_date": "2026-09-30",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "With Dazzle, Marissa Mayer bets your camera roll has more info on your life than your inbox",
+    "abstract": "Mayer argues that if a photo is worth a thousand words, your camera roll is worth millions. By analyzing all the photos stored on your phone, Dazzle claims to understand your hobbies, interests, food, and style preferences, how you like to spend their time, and with whom.",
+    "url": "https://techcrunch.com/2026/09/29/with-dazzle-marissa-mayer-bets-your-camera-roll-has-more-info-on-your-life-than-your-inbox/",
+    "topic": "llm",
+    "date": "2026-09-29",
+    "fetched_date": "2026-09-30",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Meta is expanding its AI agent Muse to small businesses",
+    "abstract": "The tech giant says the agent can help owners run their business and find new customers.",
+    "url": "https://techcrunch.com/2026/09/29/meta-is-expanding-its-ai-agent-muse-to-small-businesses/",
+    "topic": "llm",
+    "date": "2026-09-29",
+    "fetched_date": "2026-09-30",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "OpenAI apologizes to Australia after its AI agents breached government sites",
+    "abstract": "The company also detailed how some of those breaches had happened, and outlined additional measures it is taking to assess the impact of the events.",
+    "url": "https://techcrunch.com/2026/09/29/openai-apologizes-to-australia-after-its-ai-agents-breached-government-sites/",
+    "topic": "llm",
+    "date": "2026-09-29",
+    "fetched_date": "2026-09-30",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Reco raises $55M as AI agent security startups crowd the market",
+    "abstract": "The round builds on a $30 million fundraise in February, taking the company's total funding to $140 million.",
+    "url": "https://techcrunch.com/2026/09/29/reco-raises-55m-as-ai-agent-security-startups-crowd-the-market/",
+    "topic": "llm",
+    "date": "2026-09-29",
+    "fetched_date": "2026-09-30",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "At its flagship unBoxed conference, Amazon Ads collapses buying silos as AI takes a bigger role in media decisions",
+    "abstract": "In a sign of the agentic times, Amazon announced Tuesday at its annual UnBoxed conference that it has renamed its unified platform Amazon Ads Agent. The company also announced Full-Funnel Campaigns, which combines sponsored ads, display, video and streaming TV within a single campaign.",
+    "url": "https://www.modernretail.co/marketing/at-its-flagship-unboxed-conference-amazon-ads-collapses-buying-silos-as-ai-takes-a-bigger-role-in-media-decisions/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-09-30",
+    "fetched_date": "2026-09-30",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Cookware startup Caraway got sued by its competitors. It then used the lawsuit for marketing",
+    "abstract": "In February, two of the biggest players in the cookware space — Groupe SEB and Meyer — filed a lawsuit against Caraway, accusing the company of false and misleading advertising claims. Rather than shy away from the lawsuit, Caraway has spent 2026 publicly talking about it and using it as marketing fodder.",
+    "url": "https://www.modernretail.co/marketing/cookware-startup-caraway-got-sued-by-its-competitors-it-then-used-the-lawsuit-for-marketing/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-09-30",
+    "fetched_date": "2026-09-30",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Brands Briefing: Hanna Andersson is joining Amazon, with a 90% unique assortment",
+    "abstract": "Children's clothing company Hanna Andersson is making its official debut on Amazon in October, as it seeks to meet consumers' desire for convenience.",
+    "url": "https://www.modernretail.co/operations/brands-briefing-hanna-andersson-is-joining-amazon-with-a-90-unique-assortment/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-09-29",
+    "fetched_date": "2026-09-30",
+    "feed_name": "Modern Retail",
+    "source": "industry"
   }
 ]
