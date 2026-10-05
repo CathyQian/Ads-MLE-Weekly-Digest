@@ -17308,5 +17308,45 @@
     "fetched_date": "2026-10-04",
     "feed_name": "TechCrunch",
     "source": "startup"
+  },
+  {
+    "title": "Google froze its open source bug bounty program due to a ‘significant rise’ in AI submissions",
+    "abstract": "AI slop seems to be overwhelming bug bounty programs.",
+    "url": "https://techcrunch.com/2026/10/04/google-froze-its-open-source-bug-bounty-program-due-to-a-significant-rise-in-ai-submissions/",
+    "topic": "startup",
+    "date": "2026-10-04",
+    "fetched_date": "2026-10-05",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Can ‘super intelligence’ and a non-binding safety pact solve AI’s image problem?",
+    "abstract": "On Equity, we discussed the Trump administration's attempts to rebrand AI.",
+    "url": "https://techcrunch.com/2026/10/04/can-super-intelligence-and-a-non-binding-safety-pact-solve-ais-image-problem/",
+    "topic": "startup",
+    "date": "2026-10-04",
+    "fetched_date": "2026-10-05",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "TechCrunch Mobility: Reining in robotaxis",
+    "abstract": "Welcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ever, the role AI is playing in it.",
+    "url": "https://techcrunch.com/2026/10/04/techcrunch-mobility-reining-in-robotaxis/",
+    "topic": "startup",
+    "date": "2026-10-04",
+    "fetched_date": "2026-10-05",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Trump unveils his new Super Intelligence Force",
+    "abstract": "This new task force is Trump's latest response to the debate over AI safety.",
+    "url": "https://techcrunch.com/2026/10/04/trump-unveils-his-new-super-intelligence-force/",
+    "topic": "startup",
+    "date": "2026-10-04",
+    "fetched_date": "2026-10-05",
+    "feed_name": "TechCrunch",
+    "source": "startup"
   }
 ]
