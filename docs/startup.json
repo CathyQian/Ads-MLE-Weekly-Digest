@@ -17348,5 +17348,165 @@
     "fetched_date": "2026-10-05",
     "feed_name": "TechCrunch",
     "source": "startup"
+  },
+  {
+    "title": "OpenAI will start watermarking ChatGPT’s text in the EU",
+    "abstract": "OpenAI will watermark ChatGPT and Codex text in the EU to comply with the AI Act. Editing can make the invisible marks harder to detect, it says.",
+    "url": "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/",
+    "topic": "startup",
+    "date": "2026-10-05",
+    "fetched_date": "2026-10-06",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Etched fields funding offers at $40B+ valuation, sources say",
+    "abstract": "Just a couple of months after its last big raise, the AI chip startup is already being plied with investment offers at double or more its current value, sources tell TechCrunch.",
+    "url": "https://techcrunch.com/2026/10/05/etched-fields-funding-offers-at-40b-valuation-sources-say/",
+    "topic": "startup",
+    "date": "2026-10-05",
+    "fetched_date": "2026-10-06",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Reflection debuts Beam, an open-weight AI model to rival Chinese models at lower compute cost",
+    "abstract": "Reflection is aiming Beam and future models at enterprises and sovereign nations. The pitch is to build “AI factories,” a product that would let institutions build their own customized, local AI system by training Reflection’s AI models on their own proprietary data.",
+    "url": "https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/",
+    "topic": "startup",
+    "date": "2026-10-05",
+    "fetched_date": "2026-10-06",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Instinct brings its AI agent to group chats, even for friends without an account",
+    "abstract": "Instinct is launching group chats that let friends use its AI agent together for tasks like planning trips, organizing carpools, and coordinating events. The company says personal accounts remain separate, with permission required before personal agents share information or take action.",
+    "url": "https://techcrunch.com/2026/10/05/instinct-brings-its-ai-agent-to-group-chats-even-for-friends-without-an-account/",
+    "topic": "startup",
+    "date": "2026-10-05",
+    "fetched_date": "2026-10-06",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "TikTok rolls out an AI shopping assistant and one-click checkout",
+    "abstract": "TikTok describes its new Shopping Assistant as a conversational AI agent designed to help users discover and purchase products.",
+    "url": "https://techcrunch.com/2026/10/05/tiktok-rolls-out-an-ai-shopping-assistant-and-one-click-checkout/",
+    "topic": "startup",
+    "date": "2026-10-05",
+    "fetched_date": "2026-10-06",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "At 19, founder raises $11M for Ghost, maker of a $3,499 computer for personal AI",
+    "abstract": "Ghost's first product is Core, a personal computer designed specifically for AI agents that can take actions on a person's behalf.",
+    "url": "https://techcrunch.com/2026/10/05/at-19-ghost-founder-raises-11-million-to-build-a-3499-computer-for-your-personal-ai/",
+    "topic": "startup",
+    "date": "2026-10-05",
+    "fetched_date": "2026-10-06",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Hot Girl Hotline is like ‘Dear Abby’ for the AI era",
+    "abstract": "Founded by two sisters, Hot Girl Hotline uses AI to give young women personalized dating and relationship advice, with an emphasis on safety and avoiding emotional dependency.",
+    "url": "https://techcrunch.com/2026/10/05/hot-girl-hotline-is-like-dear-abby-for-the-ai-era/",
+    "topic": "startup",
+    "date": "2026-10-05",
+    "fetched_date": "2026-10-06",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "5 startups that caught VCs’ attention at the latest PearX demo day",
+    "abstract": "TechCrunch attended Pear’s latest demo day and discovered which startups generated the most buzz, from spatial models to chips for local AI.",
+    "url": "https://techcrunch.com/2026/10/05/5-startups-that-caught-vcs-attention-at-the-latest-pearx-demo-day/",
+    "topic": "startup",
+    "date": "2026-10-05",
+    "fetched_date": "2026-10-06",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "HackerRank’s AI interviewer offers a glimpse into what job interviews could become",
+    "abstract": "HackerRank’s AI interviewer has already conducted more than 500,000 interviews, with Snowflake, Snorkel, and Capgemini among its early testers.",
+    "url": "https://techcrunch.com/2026/10/05/hackerranks-ai-interviewer-offers-a-glimpse-into-what-job-interviews-could-become/",
+    "topic": "startup",
+    "date": "2026-10-05",
+    "fetched_date": "2026-10-06",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "OpenAI launches visual ads that appear alongside image generation results",
+    "abstract": "The new ads will begin to appear later this month in the U.S. only for now, and will feature products and services from an initial test group of advertisers.",
+    "url": "https://techcrunch.com/2026/10/05/openai-launches-visual-ads-that-appear-alongside-image-generation-results/",
+    "topic": "startup",
+    "date": "2026-10-05",
+    "fetched_date": "2026-10-06",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Lola Vision Systems is trying to make it easier to run AI models on chips",
+    "abstract": "Lola Vision Systems is one of the Startup Battlefield 200 companies battling it out at TechCrunch Disrupt, taking place October 13-15 in San Francisco.",
+    "url": "https://techcrunch.com/2026/10/05/lola-vision-systems-is-trying-to-make-it-easier-to-run-ai-models-on-chips/",
+    "topic": "startup",
+    "date": "2026-10-05",
+    "fetched_date": "2026-10-06",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Open or closed AI? How founders are choosing what to build on at TechCrunch Disrupt 2026",
+    "abstract": "Learn how founders are choosing between building on open or closed AI at TechCrunch Disrupt 2026. Register now to save up to $100 and get a second pass at 50% off.",
+    "url": "https://techcrunch.com/2026/10/05/open-or-closed-ai-how-founders-are-choosing-what-to-build-on-at-techcrunch-disrupt-2026/",
+    "topic": "startup",
+    "date": "2026-10-05",
+    "fetched_date": "2026-10-06",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Hackers steal 8 million citizens’ records from Danish government database",
+    "abstract": "The Danish government said the breach of names, addresses, and state-issued ID numbers affects 8 million people, including people living abroad and the deceased.",
+    "url": "https://techcrunch.com/2026/10/05/hackers-steal-8-million-citizens-records-from-danish-government-database/",
+    "topic": "startup",
+    "date": "2026-10-05",
+    "fetched_date": "2026-10-06",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Researchers are tracking a Chinese AI ‘agent fleet’",
+    "abstract": "Independent researchers discovered an agent swarm that seems to be running on Tencent's infrastructure and targeting Alibaba's map service, Amap.",
+    "url": "https://techcrunch.com/2026/10/05/researchers-are-tracking-a-chinese-ai-agent-fleet/",
+    "topic": "startup",
+    "date": "2026-10-05",
+    "fetched_date": "2026-10-06",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Meet the Startup Battlefield 200 judges who’ll decide the winner at TechCrunch Disrupt 2026",
+    "abstract": "Meet the final five Startup Battlefield judges who'll decide who wins the pitch competition at TechCrunch Disrupt 2026. Get your pass now to save up to $100, and get a second at 50% off.",
+    "url": "https://techcrunch.com/2026/10/05/meet-the-startup-battlefield-200-judges-wholl-decide-the-winner-at-techcrunch-disrupt-2026/",
+    "topic": "startup",
+    "date": "2026-10-05",
+    "fetched_date": "2026-10-06",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Can Safeworld convince people that GenAI robots won’t hurt them?",
+    "abstract": "Safeworld is building digital humans to make sure robots don't hurt the real ones.",
+    "url": "https://techcrunch.com/2026/10/05/can-safeworld-convince-people-that-gen-ai-robots-wont-hurt-them/",
+    "topic": "startup",
+    "date": "2026-10-05",
+    "fetched_date": "2026-10-06",
+    "feed_name": "TechCrunch",
+    "source": "startup"
   }
 ]

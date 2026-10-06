@@ -31798,5 +31798,215 @@
     "fetched_date": "2026-10-05",
     "feed_name": "Modern Retail",
     "source": "industry"
+  },
+  {
+    "title": "Our approach to EU text provenance rules",
+    "abstract": "How OpenAI is approaching text watermarking under EU rules. Learn where watermarks apply, how detection works, and why access starts with researchers.",
+    "url": "https://openai.com/index/eu-text-provenance",
+    "topic": "llm",
+    "date": "2026-10-05",
+    "fetched_date": "2026-10-06",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Building advertising for the way people use AI",
+    "abstract": "OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers.",
+    "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
+    "topic": "llm",
+    "date": "2026-10-05",
+    "fetched_date": "2026-10-06",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Falcon-Emirati: When an LLM Learns the Dialect, the Culture, and the Nuance",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/tiiuae/falcon-emirati",
+    "topic": "llm",
+    "date": "2026-10-06",
+    "fetched_date": "2026-10-06",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Quoting Felix Rieseberg",
+    "abstract": "The \"old\" version of Cowork runs model inference in the cloud, executing tool calls in an Anthropic-provided VM we shipped to your computer. We added the VM for capability, safety, and security reasons - mapping in just the data you explicitly added to your session. People loved what they were able to do with Claude but didn't love the disk, battery, and performance cost of running the VM locally. Also, people didn't love that closing your laptop means the work stops. The \"new\" version of Cowork runs model inference and the VM in the cloud. Each session gets its own sandbox, not sharing state with other sessions. When the VM needs something on the users' device (like a file), the desktop app is responsible for that file access tool call. [...] We think this solves a lot of problems we've heard about (like using Cowork from a phone, keeping work running, or getting all the same power without losing battery to the VM) — Felix Rieseberg , Anthropic, see also this help page Tags: claude-cowork , anthropic , claude , generative-ai , ai , general-agents , llms",
+    "url": "https://simonwillison.net/2026/Oct/5/felix-rieseberg/",
+    "topic": "llm",
+    "date": "2026-10-05",
+    "fetched_date": "2026-10-06",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Qwen3.8 27B addition in words",
+    "abstract": "Research: Qwen3.8 27B addition in words Colin Frasier posted on Bluesky about an experiment he ran over two years ago using GPT-4o to see how well it could \"compute the sum but return the answer in words\" across increasingly large numbers. Here's the chart he shared of those results: I'm confident GPT-4o didn't cheat and use a calculator, especially since it got so many of the calculations wrong, but I was inspired to run the experiment again on local hardware (a DGX Spark) to explore the effect in a fully controlled environment. I pasted his image into a Codex Remote session (GPT-6 Astra) and had it run the same experiment using Qwen3.8-27B-Q4_K_M.gguf . Here's the result for a run of 30 attempts per combination with reasoning disabled: Then I ran it again with reasoning enabled. This took a lot longer per pair, so instead of running 30 samples per square I ran just one - which results in a much less visually appealing heatmap since each square is either 100% or 0%: It got the right answer in 167 out of 169 attempts, and since these were one-shot I'm confident a second run would produce different results here. Here's a version of the report that includes the reasoning traces from some of those larger calculations, which include text like this: Wait, let me redo this more carefully. 4,299,366,105,622 6,088,794,067,970 Let me align them: 4 2 9 9 3 6 6 1 0 5 6 2 2 6 0 8 8 7 9 4 0 6 7 9 7 0 Adding from right to left: Position 1 (units): 2 + 0 = 2 Position 2 (tens): 2 + 7 = 9 Position 3 (hundreds): 6 + 9 = 15, write 5, carry 1 Tags: mathematics , ai , generative-ai , local-llms , llms , qwen , llm-reasoning , dgx-spark",
+    "url": "https://simonwillison.net/2026/Oct/4/qwen38-addition-in-words/",
+    "topic": "llm",
+    "date": "2026-10-04",
+    "fetched_date": "2026-10-06",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Something Has Gone Terribly Wrong at Anthropic",
+    "abstract": "Nothing lasts",
+    "url": "https://www.thealgorithmicbridge.com/p/this-wasnt-supposed-to-happen-to",
+    "topic": "llm",
+    "date": "2026-10-05",
+    "fetched_date": "2026-10-06",
+    "feed_name": "The Algorithmic Bridge",
+    "source": "industry"
+  },
+  {
+    "title": "OpenAI will start watermarking ChatGPT’s text in the EU",
+    "abstract": "OpenAI will watermark ChatGPT and Codex text in the EU to comply with the AI Act. Editing can make the invisible marks harder to detect, it says.",
+    "url": "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/",
+    "topic": "llm",
+    "date": "2026-10-05",
+    "fetched_date": "2026-10-06",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Reflection debuts Beam, an open-weight AI model to rival Chinese models at lower compute cost",
+    "abstract": "Reflection is aiming Beam and future models at enterprises and sovereign nations. The pitch is to build “AI factories,” a product that would let institutions build their own customized, local AI system by training Reflection’s AI models on their own proprietary data.",
+    "url": "https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/",
+    "topic": "llm",
+    "date": "2026-10-05",
+    "fetched_date": "2026-10-06",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Instinct brings its AI agent to group chats, even for friends without an account",
+    "abstract": "Instinct is launching group chats that let friends use its AI agent together for tasks like planning trips, organizing carpools, and coordinating events. The company says personal accounts remain separate, with permission required before personal agents share information or take action.",
+    "url": "https://techcrunch.com/2026/10/05/instinct-brings-its-ai-agent-to-group-chats-even-for-friends-without-an-account/",
+    "topic": "llm",
+    "date": "2026-10-05",
+    "fetched_date": "2026-10-06",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "TikTok rolls out an AI shopping assistant and one-click checkout",
+    "abstract": "TikTok describes its new Shopping Assistant as a conversational AI agent designed to help users discover and purchase products.",
+    "url": "https://techcrunch.com/2026/10/05/tiktok-rolls-out-an-ai-shopping-assistant-and-one-click-checkout/",
+    "topic": "llm",
+    "date": "2026-10-05",
+    "fetched_date": "2026-10-06",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Hot Girl Hotline is like ‘Dear Abby’ for the AI era",
+    "abstract": "Founded by two sisters, Hot Girl Hotline uses AI to give young women personalized dating and relationship advice, with an emphasis on safety and avoiding emotional dependency.",
+    "url": "https://techcrunch.com/2026/10/05/hot-girl-hotline-is-like-dear-abby-for-the-ai-era/",
+    "topic": "llm",
+    "date": "2026-10-05",
+    "fetched_date": "2026-10-06",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "HackerRank’s AI interviewer offers a glimpse into what job interviews could become",
+    "abstract": "HackerRank’s AI interviewer has already conducted more than 500,000 interviews, with Snowflake, Snorkel, and Capgemini among its early testers.",
+    "url": "https://techcrunch.com/2026/10/05/hackerranks-ai-interviewer-offers-a-glimpse-into-what-job-interviews-could-become/",
+    "topic": "llm",
+    "date": "2026-10-05",
+    "fetched_date": "2026-10-06",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "OpenAI launches visual ads that appear alongside image generation results",
+    "abstract": "The new ads will begin to appear later this month in the U.S. only for now, and will feature products and services from an initial test group of advertisers.",
+    "url": "https://techcrunch.com/2026/10/05/openai-launches-visual-ads-that-appear-alongside-image-generation-results/",
+    "topic": "llm",
+    "date": "2026-10-05",
+    "fetched_date": "2026-10-06",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Open or closed AI? How founders are choosing what to build on at TechCrunch Disrupt 2026",
+    "abstract": "Learn how founders are choosing between building on open or closed AI at TechCrunch Disrupt 2026. Register now to save up to $100 and get a second pass at 50% off.",
+    "url": "https://techcrunch.com/2026/10/05/open-or-closed-ai-how-founders-are-choosing-what-to-build-on-at-techcrunch-disrupt-2026/",
+    "topic": "llm",
+    "date": "2026-10-05",
+    "fetched_date": "2026-10-06",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Researchers are tracking a Chinese AI ‘agent fleet’",
+    "abstract": "Independent researchers discovered an agent swarm that seems to be running on Tencent's infrastructure and targeting Alibaba's map service, Amap.",
+    "url": "https://techcrunch.com/2026/10/05/researchers-are-tracking-a-chinese-ai-agent-fleet/",
+    "topic": "llm",
+    "date": "2026-10-05",
+    "fetched_date": "2026-10-06",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Meet the Startup Battlefield 200 judges who’ll decide the winner at TechCrunch Disrupt 2026",
+    "abstract": "Meet the final five Startup Battlefield judges who'll decide who wins the pitch competition at TechCrunch Disrupt 2026. Get your pass now to save up to $100, and get a second at 50% off.",
+    "url": "https://techcrunch.com/2026/10/05/meet-the-startup-battlefield-200-judges-wholl-decide-the-winner-at-techcrunch-disrupt-2026/",
+    "topic": "llm",
+    "date": "2026-10-05",
+    "fetched_date": "2026-10-06",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "The final Disrupt Stage lineup: Three days of conversations you won’t hear anywhere outside of TechCrunch Disrupt 2026",
+    "abstract": "The full TechCrunch Disrupt Stage lineup revealed, featuring Max Hodak, Mark Wahlberg, Benchmark partners, and more. Register now to save up to $100 on your pass and get a second at 50% off.",
+    "url": "https://techcrunch.com/2026/10/05/the-final-disrupt-stage-lineup-three-days-of-conversations-you-wont-hear-anywhere-outside-of-techcrunch-disrupt-2026/",
+    "topic": "llm",
+    "date": "2026-10-05",
+    "fetched_date": "2026-10-06",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Can Safeworld convince people that GenAI robots won’t hurt them?",
+    "abstract": "Safeworld is building digital humans to make sure robots don't hurt the real ones.",
+    "url": "https://techcrunch.com/2026/10/05/can-safeworld-convince-people-that-gen-ai-robots-wont-hurt-them/",
+    "topic": "llm",
+    "date": "2026-10-05",
+    "fetched_date": "2026-10-06",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Shapermint is on track to hit $10M in TikTok Shop sales by targeting women ages 35-65",
+    "abstract": "Shapermint is on track to hit $10 million in TikTok Shop sales this year thanks to its creator network, which skews older than the typical TikTok Shop influencer. Notably, 60% of the brand's top-performing affiliate creators are over the age of 35.",
+    "url": "https://www.modernretail.co/marketing/shapermint-is-on-track-to-hit-10m-in-tiktok-shop-sales-by-targeting-women-ages-35-65/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-10-06",
+    "fetched_date": "2026-10-06",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Brian Monahan exits Albertsons Media Collective amid leadership shake-up",
+    "abstract": "Brian Monahan, brought on to head up Albertsons Media Collective retail media business late last July, has left the company. Business partners were informed Friday of the move.",
+    "url": "https://www.modernretail.co/marketing/brian-monahan-exits-albertsons-media-collective-amid-leadership-shake-up/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-10-06",
+    "fetched_date": "2026-10-06",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Pricing tactics come under scrutiny in the age of AI",
+    "abstract": "Everything from the rise of digital shelf labels to screenshots of pricing algorithms is fueling concerns among consumers that retailers are increasingly using customer data to engage in dynamic pricing, and it is putting more retailers like Walmart and McDonald's on the defensive.",
+    "url": "https://www.modernretail.co/operations/pricing-tactics-come-under-scrutiny-in-the-age-of-ai/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-10-05",
+    "fetched_date": "2026-10-06",
+    "feed_name": "Modern Retail",
+    "source": "industry"
   }
 ]
