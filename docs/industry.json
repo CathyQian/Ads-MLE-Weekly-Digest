@@ -32008,5 +32008,315 @@
     "fetched_date": "2026-10-06",
     "feed_name": "Modern Retail",
     "source": "industry"
+  },
+  {
+    "title": "How Jump Trading is scaling quant research with ChatGPT",
+    "abstract": "Jump Trading uses OpenAI to expand quantitative research. See how longer-running AI workflows combine multiple data sources with human review.",
+    "url": "https://openai.com/index/jump-trading",
+    "topic": "llm",
+    "date": "2026-10-06",
+    "fetched_date": "2026-10-07",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Sharing AI progress in mathematics",
+    "abstract": "OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub.",
+    "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
+    "topic": "llm",
+    "date": "2026-10-06",
+    "fetched_date": "2026-10-07",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Advancing computer use with Ironclad",
+    "abstract": "Learn how OpenAI and Ironclad are training and evaluating AI agents on complex contracting workflows to advance computer use for professional work.",
+    "url": "https://openai.com/index/advancing-computer-use-with-ironclad",
+    "topic": "llm",
+    "date": "2026-10-06",
+    "fetched_date": "2026-10-07",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
+    "abstract": "Atlassian and OpenAI are expanding their partnership to connect frontier models with enterprise knowledge and help teams plan, build, and deliver work.",
+    "url": "https://openai.com/index/atlassian-partnership",
+    "topic": "llm",
+    "date": "2026-10-06",
+    "fetched_date": "2026-10-07",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
+    "abstract": "",
+    "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
+    "topic": "generative-ai",
+    "date": "2026-10-06",
+    "fetched_date": "2026-10-07",
+    "feed_name": "DeepMind Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Beyond synthetic testing: Capturing and replaying real database workloads at Airbnb",
+    "abstract": "",
+    "url": "https://medium.com/airbnb-engineering/beyond-synthetic-testing-capturing-and-replaying-real-database-workloads-at-airbnb-cea7ee9b1ab2?source=rss----53c7c27702d5---4",
+    "topic": "ml-engineering",
+    "date": "2026-10-06",
+    "fetched_date": "2026-10-07",
+    "feed_name": "Airbnb Engineering",
+    "source": "industry"
+  },
+  {
+    "title": "Metrics Board: Building an Agent-ready Metrics Layer",
+    "abstract": "",
+    "url": "https://medium.com/pinterest-engineering/metrics-board-building-an-agent-ready-metrics-layer-2c8fefe68756?source=rss----4c5a5f6279b6---4",
+    "topic": "ads-tech",
+    "date": "2026-10-06",
+    "fetched_date": "2026-10-07",
+    "feed_name": "Pinterest Engineering",
+    "source": "industry"
+  },
+  {
+    "title": "Quoting Jake Boggan",
+    "abstract": "I was a graph theory junkie long ago and even moved to Budapest for awhile to study among the greats. While I was there I started working on Barnette's Conjecture which came to occupy my thoughts over the next 24 years of my life, on and off as I worked in many different fields. Last summer I even thought for a few days that I had actually solved it. But it's supposedly proven here - problem 180 . I don't know what to think exactly. I spent thousands of hours on that problem. I really enjoyed it. Hearing that it is solved somehow makes me sad in a far-off way, like hearing an ex-girlfriend died suddenly in a car crash. I don't know, there's probably a lot of people feeling odd emotions tonight. — Jake Boggan , Hacker News comment on openai/math Tags: openai , mathematics , deep-blue , llms , ai , generative-ai",
+    "url": "https://simonwillison.net/2026/Oct/7/jake-boggan/",
+    "topic": "llm",
+    "date": "2026-10-07",
+    "fetched_date": "2026-10-07",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "OpenAI “rogue” agent activities found on Wikimedia projects",
+    "abstract": "OpenAI “rogue” agent activities found on Wikimedia projects Given how tempting a target wikis are for rogue agent swarms, it's not a huge surprise that Wikipedia found evidence of that activity once they went looking: The Wikimedia Foundation conducted its own investigation to see whether Wikimedia websites had been similarly affected by AI agents, focusing on those operated by OpenAI. We can confirm that we have discovered some activity by these “rogue” OpenAI agents on Wikimedia platforms. The unauthorized bot activities included edits to our wikis, some unsuccessful attempts to exploit a public note-taking tool we host, and heavy traffic, which are described more below. They found evidence of agents editing sandbox pages, trying to use pieces of infrastructure such as Etherpad to help proxy content from elsewhere, and saw widespread crawling and \"hundreds of thousands of data queries\" to their Wikidata Query Service. My best guess is that most of this was a similar (or the same) swarm of agents as those that defaced that German wiki while training for research tasks. The Wikipedia sandbox wiki edits appear to have started on May 12th, and the initial test edits to the UseModWiki Sandbox page reported by that incident started on May 11th. Tags: wikimedia , wikipedia , wikis , ai , generative-ai , llms , ai-ethics , accidental-cyberattacks",
+    "url": "https://simonwillison.net/2026/Oct/7/openai-rogue-agents-wikimedia/",
+    "topic": "llm",
+    "date": "2026-10-07",
+    "fetched_date": "2026-10-07",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Quoting Victoria Kim",
+    "abstract": "Since the Medicare breach, OpenAI has put in place additional monitoring to allow “immediate intervention” by staff to stop training if the company’s models access the internet in ways they’re not supposed to, Mr. Kwon [chief strategy officer at OpenAI] said. — Victoria Kim , Reporting from the Australian parliament Tags: accidental-cyberattacks , generative-ai , ai-security-research , openai , ai , llms",
+    "url": "https://simonwillison.net/2026/Oct/6/victoria-kim/",
+    "topic": "llm",
+    "date": "2026-10-06",
+    "fetched_date": "2026-10-07",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "llm-openai-decisions 0.1a0",
+    "abstract": "Release: llm-openai-decisions 0.1a0 OpenAI released their new Jev-style Decisions API , as previously announced at last week's DevDay. Since I already have an llm-typesafe plugin for talking to Jev, I had GPT-6 Astra read the new OpenAI API documentation and build an llm-openai-decisions plugin inspired by llm-typesafe . Unlike Jev, the new gpt-6-luna decision model supports image input in addition to text. Both models charge for input it and not for output: OpenAI's is 10 cents per million input tokens, Jev's is 4.2 cents per million. Otherwise the API shape is very similar to Jev, at least conceptually. Jev supports three question types for yes/no, choices, or scores. OpenAI Decisions supports the same three types. Install the plugin like this: llm install llm-openai-decisions Here's an example query against an image attachment: llm -m openai-decisions/gpt-6-luna \\ -a https://static.simonwillison.net/static/2025/two-pelicans.jpg \\ -s ' Does this image contain any mammals? ' And example output: { \"type\" : \" predicate \" , \"name\" : \" evaluation \" , \"probability\" : 0.0 } Consult the README for full details of how to run the other types of questions. Tags: openai , llm , coding-agents , jev",
+    "url": "https://simonwillison.net/2026/Oct/6/llm-openai-decisions/",
+    "topic": "llm",
+    "date": "2026-10-06",
+    "fetched_date": "2026-10-07",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "llm-mistral 0.16",
+    "abstract": "Release: llm-mistral 0.16 Adds support for reasoning models, such as the newly released Mistral Large 4 . Tags: llm , mistral , llm-reasoning",
+    "url": "https://simonwillison.net/2026/Oct/6/llm-mistral/",
+    "topic": "llm",
+    "date": "2026-10-06",
+    "fetched_date": "2026-10-07",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "EmbeddingGemma 2",
+    "abstract": "My comment on EmbeddingGemma 2 — Hacker News. I really appreciate that EmbeddingGemma 2 is under the Apache 2.0 license. For embedding models in particular, I don't think it makes sense to use a closed, proprietary, hosted-only model. Most applications of embedding models involve calculating thousands or even millions of embedding vectors and storing them for later comparison. If your model is proprietary, the vendor is likely someday going to decide to stop offering that model. They'll have a better model to replace it, but you still need to pay to re-calculate those millions of stored existing vectors. (In April 2024 OpenAI offered to \"cover the financial cost of users re-embedding content with these new models\" - https://openai.com/index/gpt-4-api-general-availability/ - but I don't think that's something we can rely on from every provider.) Notably, I don't want to host the model myself . I'd much rather pay a provider for a hosted model while knowing that if they ever stop hosting it I can run the open weights version myself - or find another vendor who can do that for me. Tags: google , ai , generative-ai , embeddings , gemma",
+    "url": "https://simonwillison.net/2026/Oct/6/hn-49983751/",
+    "topic": "llm",
+    "date": "2026-10-06",
+    "fetched_date": "2026-10-07",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Introducing Mistral Large 4: Le chonk",
+    "abstract": "Introducing Mistral Large 4: Le chonk Mistral are back in the game. Today they're releasing a preview of Mistral Large 4, a 1 trillion parameter, 49 billion active parameter model trained on their own cluster of 3,800 NVIDIA Grace Blackwell GPUs. The preview is available via their API. They promise to release the open weights model at the \"end of this month\". The model only supports two reasoning levels - \"none\" and \"high\" - via the Mistral API. Here are both pelicans - the \"high\" one looks better, though surprisingly it only used 2,717 output tokens compared to \"none\" which used 3,275: On Artificial Analysis it scores 38 , just behind DeepSeek 4.1 Flash, which is a 552B model. It's a huge improvement on last December's Mistral Large 3, which drew this terrible pelican and scored 9 on AA . It's certainly not a Fable-class model, but it's great to see Mistral put out a model that's back to being maybe about 6 months behind the frontier. Via Hacker News Tags: ai , generative-ai , llms , mistral , pelican-riding-a-bicycle , llm-release",
+    "url": "https://simonwillison.net/2026/Oct/6/le-chonk/",
+    "topic": "llm",
+    "date": "2026-10-06",
+    "fetched_date": "2026-10-07",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Using Parseable with Datasette for OpenTelemetry traces",
+    "abstract": "TIL: Using Parseable with Datasette for OpenTelemetry traces I saw Parseable in a Show HN today - it's a new observability platform with both an open source (AGPL) Rust implementation (a single ~180MB binary), an \"Enterprise\" version with extra features and a cloud hosted option. Since Datasette 1.0a41 added OpenTelemetry support (thanks, Alex Garcia), I decided to fire up Codex and have it figure out how to run Parseable and feed it traces from Datasette. Here's my (human-written) TIL showing the patterns that worked, and here's a screenshot of a Datasette trace displayed within the Parseable localhost web application: Tags: datasette , observability , alex-garcia , opentelemetry",
+    "url": "https://simonwillison.net/2026/Oct/6/datasette-parseable-opentelemetry/",
+    "topic": "llm",
+    "date": "2026-10-06",
+    "fetched_date": "2026-10-07",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Mistral Large 4",
+    "abstract": "My comment on Mistral Large 4 — Hacker News. wren6991 : The benchmark is saturated. Frontier models are tested with an armadillo in fishnet tights jaywalking on Mars. OK well I couldn't resist this one: llm -m claude-opus-5.5 'Generate an SVG of an armadillo in fishnet tights jaywalking on Mars' llm -m gpt-6.1-sol 'Generate an SVG of an armadillo in fishnet tights jaywalking on Mars' llm -m gemini-3.8-flash 'Generate an SVG of an armadillo in fishnet tights jaywalking on Mars' llm -m mistral/mistral-large-4 'Generate an SVG of an armadillo in fishnet tights jaywalking on Mars' Default reasoning levels for each: https://tools.simonwillison.net/markdown-svg-renderer?url=ht...",
+    "url": "https://simonwillison.net/2026/Oct/6/hn-49982139/",
+    "topic": "llm",
+    "date": "2026-10-06",
+    "fetched_date": "2026-10-07",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "datasette-atom 0.11a0",
+    "abstract": "Release: datasette-atom 0.11a0 A minor fix for compatibility with the latest Datasette alphas. This meant we could upgrade the datasette.io site to Datasette 1.0a41. Tags: atom , datasette",
+    "url": "https://simonwillison.net/2026/Oct/6/datasette-atom/",
+    "topic": "llm",
+    "date": "2026-10-06",
+    "fetched_date": "2026-10-07",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Scrimshaw Jukebox",
+    "abstract": "Tool: Scrimshaw Jukebox I wanted to see if Claude Opus 5.5 could compose music, so I tried this : I want you to write some computer game music for me. First design simple text based format for the music and build an artifact that can play it out loud - include some example tracks in that artifact I am looking for music of the quality of the original secret of Monkey Island It leaned a lot harder into the Monkey Island theme than I had intended, but the results are surprisingly good. I wonder if the ability to compose competent music is similar to the 3D graphics thing - a new capability for text models that emerged in the past few months? Would need some careful experiments with other recent and not-so-recent models to confirm if this is new or if they've been able to do this for a while. Tags: ai , generative-ai , llms , claude , vibe-coding",
+    "url": "https://simonwillison.net/2026/Oct/6/scrimshaw-jukebox/",
+    "topic": "llm",
+    "date": "2026-10-06",
+    "fetched_date": "2026-10-07",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Ex-Ramp engineers raise $20M for platform Melius after scrapping their first product",
+    "abstract": "Instead of helping marketers manage and optimize ad spend, the company is focusing on building the tools that generate the creative assets and campaigns.",
+    "url": "https://techcrunch.com/2026/10/06/ex-ramp-engineers-raise-20m-for-platform-melius-after-scrapping-their-first-product/",
+    "topic": "llm",
+    "date": "2026-10-06",
+    "fetched_date": "2026-10-07",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "How AI decision models could change content moderation",
+    "abstract": "On Tuesday, Musubi announced a lightweight decision model made for real-time moderation called PolicyLM-1.7B, released with open weights.",
+    "url": "https://techcrunch.com/2026/10/06/how-ai-decision-models-could-change-content-moderation/",
+    "topic": "llm",
+    "date": "2026-10-06",
+    "fetched_date": "2026-10-07",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "AI computing startup Lambda to raise $4B ahead of planned IPO",
+    "abstract": "Nvidia-backed Lambda is raising up to $4 billion at a $14.5 billion pre-money valuation ahead of a planned 2027 IPO, led by Coatue and Blackstone.",
+    "url": "https://techcrunch.com/2026/10/06/ai-computing-startup-lambda-to-raise-4b-ahead-of-planned-ipo/",
+    "topic": "llm",
+    "date": "2026-10-06",
+    "fetched_date": "2026-10-07",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "The next hurdle for AI agents: getting websites to let them in",
+    "abstract": "Personal AI agents promise to shop, book flights, and make reservations for you. But deliberate blocks and anti-bot defenses are getting in the way, leaving consumers caught in the middle. A new standard aims to help.",
+    "url": "https://techcrunch.com/2026/10/06/the-next-hurdle-for-ai-agents-getting-websites-to-let-them-in/",
+    "topic": "llm",
+    "date": "2026-10-06",
+    "fetched_date": "2026-10-07",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Hark releases an AI personal assistant with a focus on privacy",
+    "abstract": "The AI lab's personal assistant is an operating system from the future designed to compete with Muse, Dots, and Instinct.",
+    "url": "https://techcrunch.com/2026/10/06/hark-releases-an-ai-personal-assistant-with-a-focus-on-privacy/",
+    "topic": "llm",
+    "date": "2026-10-06",
+    "fetched_date": "2026-10-07",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Mirror Particle is building a ‘world model’ of human behavior",
+    "abstract": "Mirror Particle will launch at TechCrunch Disrupt's Startup Battlefield 200 with a world model built from scratch to predict human behavior, arguing that LLM role-play falls short for market research and brand strategy.",
+    "url": "https://techcrunch.com/2026/10/06/mirror-particle-is-building-a-world-model-of-human-behavior/",
+    "topic": "llm",
+    "date": "2026-10-06",
+    "fetched_date": "2026-10-07",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Anthropic is giving startups a free year of Claude Team and $1,000 in credits",
+    "abstract": "\"We created this program because we believe the benefits of AI will reach most people through the companies that build on top of models, rather than through the models alone.\"",
+    "url": "https://techcrunch.com/2026/10/06/anthropic-gives-startups-a-free-year-of-enterprise-service-and-1000-in-token-credits/",
+    "topic": "llm",
+    "date": "2026-10-06",
+    "fetched_date": "2026-10-07",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "LibreOffice says ‘no AI’ is now a software feature",
+    "abstract": "The maker of the open source document editor says it has no plans to add AI to its software's default configuration, citing user privacy.",
+    "url": "https://techcrunch.com/2026/10/06/libreoffice-says-no-ai-is-now-a-software-feature/",
+    "topic": "llm",
+    "date": "2026-10-06",
+    "fetched_date": "2026-10-07",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Mistral’s new 1T model aims to leapfrog closed and open rivals",
+    "abstract": "French AI lab Mistral AI has released Mistral Large 4, a new large multimodal model aiming to leapfrog both American and Chinese rivals.",
+    "url": "https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals/",
+    "topic": "llm",
+    "date": "2026-10-06",
+    "fetched_date": "2026-10-07",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Pinterest’s AI now turns beauty Pins into action plans",
+    "abstract": "Pinterest’s new AI-powered Beauty Guides translate hair and nail Pins into salon terminology, with estimated costs, appointment times, and maintenance needs.",
+    "url": "https://techcrunch.com/2026/10/06/pinterests-ai-now-turns-beauty-pins-into-action-plans/",
+    "topic": "llm",
+    "date": "2026-10-06",
+    "fetched_date": "2026-10-07",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Get all your questions answered at TechCrunch Disrupt 2026: The full breakout session agenda revealed",
+    "abstract": "Get all of your scaling and tech questions answered at TechCrunch Disrupt 2026. Here's the full breakout session agenda, happening October 13-15 in San Francisco. Register now to join and save up to $100, and get a second pass at 50% off.",
+    "url": "https://techcrunch.com/2026/10/06/get-all-your-questions-answered-at-techcrunch-disrupt-2026-the-full-breakout-session-agenda-revealed/",
+    "topic": "llm",
+    "date": "2026-10-06",
+    "fetched_date": "2026-10-07",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Shoe tattoos and ballet ribbons: Why Crocs is embracing more ‘elevated’ accessories",
+    "abstract": "Temporary shoe tattoos, attachable ballet ribbons and clip-on sandal charms are becoming mainstays at Crocs as the company makes customization a bigger priority. In particular, the brand says it's embracing \"elevated\" personalization.",
+    "url": "https://www.modernretail.co/marketing/shoe-tattoos-and-ballet-ribbons-why-crocs-is-embracing-more-elevated-accessories/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-10-07",
+    "fetched_date": "2026-10-07",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Brands Briefing: Why Crocs, David’s Bridal and StockX are embracing episodic content",
+    "abstract": "More brands are pouring marketing dollars into bite-sized episodic content and blurring the line between retail and entertainment. Here's why the format has become so popular.",
+    "url": "https://www.modernretail.co/marketing/brands-briefing-why-crocs-davids-bridal-and-stockx-are-embracing-episodic-content/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-10-06",
+    "fetched_date": "2026-10-07",
+    "feed_name": "Modern Retail",
+    "source": "industry"
   }
 ]
