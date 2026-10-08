@@ -32318,5 +32318,255 @@
     "fetched_date": "2026-10-07",
     "feed_name": "Modern Retail",
     "source": "industry"
+  },
+  {
+    "title": "Helping teens learn, plan, and shape the future of AI",
+    "abstract": "College Planner is coming to ChatGPT for Teens to help students manage college applications, alongside new flashcards, quizzes, and a teen AI council.",
+    "url": "https://openai.com/index/teens-learn-and-plan",
+    "topic": "llm",
+    "date": "2026-10-07",
+    "fetched_date": "2026-10-08",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Radisson Hotel Group brings hotel discovery into ChatGPT",
+    "abstract": "Radisson partnered with Accenture to build a ChatGPT plugin using OpenAI technology, helping travelers find, compare, and book hotels while planning their trips.",
+    "url": "https://openai.com/index/radisson",
+    "topic": "llm",
+    "date": "2026-10-07",
+    "fetched_date": "2026-10-08",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "GPT-6 and Intelligent UI for everyone",
+    "abstract": "GPT‑6 is rolling out globally in ChatGPT with Intelligent UI, delivering faster responses with visuals and interactive experiences you can explore and use directly.",
+    "url": "https://openai.com/index/gpt-6-for-everyone",
+    "topic": "llm",
+    "date": "2026-10-07",
+    "fetched_date": "2026-10-08",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Multimodal open d1 decision models for the edge",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/LiquidAI/open-d1",
+    "topic": "llm",
+    "date": "2026-10-07",
+    "fetched_date": "2026-10-08",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "One Model Family, Two Gold-Level Results: Fine-Tuning Nemotron for IOI and IMO",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026",
+    "topic": "llm",
+    "date": "2026-10-07",
+    "fetched_date": "2026-10-08",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Quoting Ben Affleck",
+    "abstract": "I've always been kind of into computers since I was young. And then when film started to move from analog film to digital, I became more interested in that aspect of it. And the visual effects workflow for many years has included machine learning. So I can write like pretty shitty Python scripts and stuff like that because with convolutional neural networks, which were the sort of precursors to what the transformer can do, which is just much more computation simultaneously, you would do things like look at what's called a tensor, which is just the numerical translation of a visual image in numbers — like the batch number, the frame number, the red, green, and blue values of each pixel in each frame. And a tensor, you use a convolutional neural network to identify patterns in that that would reveal what's called edge detection or feature extraction, which is just identifying patterns enough to know like this is where the window ledge is, so we can more easily take the green screen image out and replace it with something. — Ben Affleck , Pythonista Tags: machine-learning , python",
+    "url": "https://simonwillison.net/2026/Oct/7/ben-affleck/",
+    "topic": "llm",
+    "date": "2026-10-07",
+    "fetched_date": "2026-10-08",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Claude Haiku 5.5",
+    "abstract": "As previously promised , here's Anthropic's new fast, low cost model: Introducing Claude Haiku 5.5 . The previous Haiku, 4.5, was very much showing its age. It came out almost a year ago , and was priced at $1/million input and $5/million output - relatively expensive even back then, and a full 10x the price of OpenAI's GPT-6 Luna , released last month. The new Haiku exactly matches the price of GPT-6 Luna - $0.10/$0.50 - up to 100,000 tokens. Beyond 100,000 tokens the price increases 5x to $0.50/$2.50. Luna itself has a price increase at 272,000 tokens but only to $0.20/$0.75. Haiku 5.5 also uses a new, less generous tokenizer. My Claude Token Counter tool shows that the same long prompt uses around 1.25x as many tokens with Haiku 5.5 compared to Haiku 4.5, so there's a hidden price increase there. If your workloads fit in 100,000 tokens, Haiku is the same price as Luna and reports higher benchmark scores. Above 100,000 tokens, Luna looks like a much better deal. The most recent release of llm-anthropic finally fixed it so I don't need to ship a new version of that plugin for every new model. I tested the new model like this: llm install -U llm-anthropic llm anthropic refresh llm -m claude-haiku-5.5 \"Generate an SVG of a pelican riding a bicycle\" -o thinking_effort low Pelicans Here are pelicans for low, medium, high, xhigh, and max . The new Haiku doesn't let you disable reasoning, and defaults to medium . I got a good bicycle frame for everything beyond low . The low effort pelican cost 0.0936 cents and took 7 seconds. This max effort pelican (with a reasoning trace that starts \"This is the classic pelican-on-bicycle SVG test...\") took 5 minutes 9 seconds to generate, but still only cost me 3.3826 cents : (Since the reasoning trace exhibits awareness of the benchmark, here's Generate an SVG of an armadillo in fishnet tights jaywalking on Mars (on xhigh) , and the same prompt against some other recent models . Background on that .) For comparison, here's the pelican I got a year ago from Haiku 4.5 (for 0.7583 cents - Haiku 4.5 did not support reasoning levels). It sucked at drawing pelicans: And a generous API credit scheme for subscribers In addition to Haiku 5.5, Anthropic announced today that they are halving the price of cache reads for Sonnet 5.5. They've also added API credits to subscription plans: Second, this week, we’ll roll out a new monthly API credit to all Max and Team subscribers for use on the Claude Platform . Max 5x users will get $100 in credits per month, Max 20x users will get $200, and Team subscribers will receive up to $500, pooled across their users. Claiming this is pleasantly easy: navigate to Settings -> Billing and select the API organization that should benefit from the credits every month: The API credits exactly match the cost of the subscription itself. This is really generous - it makes it much easier for subscribers to use the API. Anthropic also let you disable auto-reload for the API, with the consequence that \"API requests will stop when your balance runs out\" - exactly what you want if you're planning to burn through those API credits without risk of a nasty billing surprise . Note that the monthly credits do not roll over - use them or lose them. OpenAI still allow you to use your Codex subscription for personal API use, which works out as a better deal for heavy API users. This new credit scheme goes at least some way to overcoming that difference. Tags: ai , generative-ai , llms , anthropic , claude , llm-pricing , pelican-riding-a-bicycle , llm-release",
+    "url": "https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/",
+    "topic": "llm",
+    "date": "2026-10-07",
+    "fetched_date": "2026-10-08",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Anti-Patterns in Software Blogging",
+    "abstract": "Anti-Patterns in Software Blogging Some excellent writing advice from Michael Lynch. Michael warns against \"meandering intros\", misjudging your reader's existing knowledge, assuming they'll read your previous posts, and excessive formality. He also warns against overreliance on links as an excuse not to explain terminology. This one hurt! I do this all the time, but I have a nagging suspicion that almost nobody ever clicks on them. (In a Lobste.rs comment Michael clarifies that \"My rule of thumb is that my article should still make sense to the reader even if they don't click any links\". That works for me.) This point about using your own voice is crucial: Beginner software bloggers suffer from a mass delusion that you have to write in a stiff, overly formal way for people to take you seriously [...] Just write the way you talk. With so many developers delegating their writing to AI, software blogging is becoming bland and homogenous. Readers are hungry for writing with personality. Via Lobste.rs Tags: blogging , writing , michael-lynch",
+    "url": "https://simonwillison.net/2026/Oct/7/anti-patterns-in-software-blogging/",
+    "topic": "llm",
+    "date": "2026-10-07",
+    "fetched_date": "2026-10-08",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Audience at a Magic Show",
+    "abstract": "This is what the future holds",
+    "url": "https://www.thealgorithmicbridge.com/p/audience-at-a-magic-show",
+    "topic": "llm",
+    "date": "2026-10-07",
+    "fetched_date": "2026-10-08",
+    "feed_name": "The Algorithmic Bridge",
+    "source": "industry"
+  },
+  {
+    "title": "Nous Research confirms it hit $1.5B valuation, launches AI agents for business users",
+    "abstract": "The developer of Hermes Agent raised a $90 million Series B.",
+    "url": "https://techcrunch.com/2026/10/07/nous-research-confirms-it-hit-1-5b-valuation-launches-ai-agents-for-business-users/",
+    "topic": "llm",
+    "date": "2026-10-07",
+    "fetched_date": "2026-10-08",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Microsoft releases new Nvidia-chip AI PCs with revamped Windows 11",
+    "abstract": "Microsoft revealed the specs and price for its Surface Laptop Ultra, AI PCs that run on Nvidia chips that are designed to run AI models and agents.",
+    "url": "https://techcrunch.com/2026/10/07/microsoft-releases-new-nvidia-chip-ai-pcs-with-revamped-windows-11/",
+    "topic": "llm",
+    "date": "2026-10-07",
+    "fetched_date": "2026-10-08",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Meta’s Muse launches on iPad just a month after its mobile debut",
+    "abstract": "Meta’s AI agent Muse is now available on iPad, just a month after its mobile debut, as the company rapidly expands the assistant’s reach and integrations.",
+    "url": "https://techcrunch.com/2026/10/07/metas-muse-launches-on-ipad-just-a-month-after-its-mobile-debut/",
+    "topic": "llm",
+    "date": "2026-10-07",
+    "fetched_date": "2026-10-08",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "ChatGPT for Teens keeps teens talking, even during mental health crises",
+    "abstract": "ChatGPT’s teen safeguards are meant to protect vulnerable users, but new testing found the chatbot continues encouraging engagement during crises and potentially encourages unhealthy relationships with the AI itself.",
+    "url": "https://techcrunch.com/2026/10/07/chatgpt-for-teens-keeps-teens-talking-even-during-mental-health-crises/",
+    "topic": "llm",
+    "date": "2026-10-07",
+    "fetched_date": "2026-10-08",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "ChatGPT is getting a lot more visual, with the launch of a new interface",
+    "abstract": "OpenAI is launching a new user interface that will bring interactive visuals to ChatGPT.",
+    "url": "https://techcrunch.com/2026/10/07/chatgpt-is-getting-a-lot-more-visual-with-the-launch-of-a-new-interface/",
+    "topic": "llm",
+    "date": "2026-10-07",
+    "fetched_date": "2026-10-08",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Meta rolls out new AI tools to detect ads that secretly lead to child sexual abuse material",
+    "abstract": "Meta launches new AI tools after discovering ads on its platforms that may look normal but direct users to harmful content elsewhere online.",
+    "url": "https://techcrunch.com/2026/10/07/meta-rolls-out-new-ai-tools-to-detect-ads-that-secretly-lead-to-child-sexual-abuse-material/",
+    "topic": "llm",
+    "date": "2026-10-07",
+    "fetched_date": "2026-10-08",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Healthleap raises $38M for its AI that flags hospital patients who may need a closer look",
+    "abstract": "The financing includes an $8M seed round co-led by Sequoia Capital and First Round Capital, and a $30 million Series A led by Hummingbird Ventures.",
+    "url": "https://techcrunch.com/2026/10/07/healthleap-raises-38m-for-its-ai-that-flags-hospital-patients-who-may-need-a-closer-look/",
+    "topic": "llm",
+    "date": "2026-10-07",
+    "fetched_date": "2026-10-08",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Tony Fadell on why the first wave of AI gadgets failed — and what comes next",
+    "abstract": "The “father of the iPod” says the first generation of AI gadgets failed to solve real problems — and the next wave will need to earn consumers’ trust.",
+    "url": "https://techcrunch.com/2026/10/07/tony-fadell-on-why-the-first-wave-of-ai-gadgets-failed-and-what-comes-next/",
+    "topic": "llm",
+    "date": "2026-10-07",
+    "fetched_date": "2026-10-08",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Google experiments with an AI-powered gaming platform",
+    "abstract": "Google Labs is working on a new AI-powered game-creation platform called Playground for users to build browser-based games using simple text prompts.",
+    "url": "https://techcrunch.com/2026/10/07/google-experiments-with-an-ai-powered-gaming-platform/",
+    "topic": "llm",
+    "date": "2026-10-07",
+    "fetched_date": "2026-10-08",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "OpenAI’s Alexander Embiricos is coming to TechCrunch Disrupt 2026 — days after the launch of Dots",
+    "abstract": "OpenAI’s Alexander Embiricos is coming to the AI Stage at TechCrunch Disrupt 2026, just days after the launch of Dots. Join this conversation by registering for your pass. Get you pass now to save up to $100 and get a second at 50% off.",
+    "url": "https://techcrunch.com/2026/10/07/openais-alexander-embiricos-is-coming-to-techcrunch-disrupt-2026-days-after-the-launch-of-dots/",
+    "topic": "llm",
+    "date": "2026-10-07",
+    "fetched_date": "2026-10-08",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Get hands-on: The full lineup of interactive roundtables at TechCrunch Disrupt 2026",
+    "abstract": "From Nvidia and Chime to Obvious Ventures and Anthropic, explore the entire roundtable agenda at TechCrunch Disrupt 2026. Register now to save up to $100 on your pass and get a second pass at 50% off.",
+    "url": "https://techcrunch.com/2026/10/07/get-hands-on-the-full-lineup-of-interactive-roundtables-at-techcrunch-disrupt-2026/",
+    "topic": "llm",
+    "date": "2026-10-07",
+    "fetched_date": "2026-10-08",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Google’s new SynthID website can identify AI-generated media",
+    "abstract": "Google on Tuesday launched a new site that lets anyone verify whether a piece of media, be it an image, a video, or an audio clip, is generated using AI.",
+    "url": "https://techcrunch.com/2026/10/07/googles-new-synthid-website-can-identify-ai-generated-media/",
+    "topic": "llm",
+    "date": "2026-10-07",
+    "fetched_date": "2026-10-08",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "6 days to TechCrunch Disrupt 2026: Save on your pass before doors open",
+    "abstract": "In 6 days, 10,000+ people from across the global startup and tech ecosystem will come together at San Francisco’s Moscone West for TechCrunch Disrupt 2026. If you’re planning to be one of them, register for your ticket before prices increase at the door. Save up to $100 on your pass, plus 50% on a second of the same type.",
+    "url": "https://techcrunch.com/2026/10/07/6-days-to-techcrunch-disrupt-2026-save-on-your-pass-before-doors-open/",
+    "topic": "llm",
+    "date": "2026-10-07",
+    "fetched_date": "2026-10-08",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Modern Retail+ Research: How agencies adapt to a media landscape shaped by AI and creators",
+    "abstract": "Modern Retail+ Research examines how AI search and creator marketing are adding another layer of change to the agency landscape, creating opportunities to expand services while raising new questions about costs, capabilities and the future of media planning.",
+    "url": "https://www.modernretail.co/marketing/modern-retail-research-how-agencies-adapt-to-a-media-landscape-shaped-by-ai-and-creators/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-10-08",
+    "fetched_date": "2026-10-08",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "‘Plastic-free’ is the new battleground in coffee makers",
+    "abstract": "Over the past several months, there’s been a growing trend of companies promoting plastic-free coffee makers. Coffee giants like Lavazza and Keurig, and startups like Caraway, are all getting in on the action.",
+    "url": "https://www.modernretail.co/marketing/plastic-free-is-the-new-battleground-in-coffee-makers/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-10-08",
+    "fetched_date": "2026-10-08",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "How agentic commerce helps brands like Willy Chavarria optimize for BFCM",
+    "abstract": "Black Friday and Cyber Monday preparation begins for e-commerce brands and retailers well before those peak shopping days arrive. Besides planning marketing and promotion strategies, brands must consider how to convert shoppers and whether their e-commerce infrastructure can support demand. Agentic commerce tools, like AI-powered storefronts, help brands make the shopping journey more intuitive and […]",
+    "url": "https://www.modernretail.co/sponsored/how-agentic-commerce-helps-brands-like-willy-chavarria-optimize-for-bfcm/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-10-07",
+    "fetched_date": "2026-10-08",
+    "feed_name": "Modern Retail",
+    "source": "industry"
   }
 ]
