@@ -33308,5 +33308,325 @@
     "fetched_date": "2026-10-13",
     "feed_name": "Modern Retail",
     "source": "industry"
+  },
+  {
+    "title": "Higgsfield takes AI video from 1 minute to over 10",
+    "abstract": "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live.",
+    "url": "https://openai.com/index/higgsfield-longer-videos-voice",
+    "topic": "llm",
+    "date": "2026-10-13",
+    "fetched_date": "2026-10-14",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Redesigning source control at Anthropic",
+    "abstract": "As our merges per day grew more than tenfold, source control became our biggest development bottleneck. Here, we share how we migrated to an in-house version control system in five months.",
+    "url": "https://www.anthropic.com/engineering/redesigning-source-control",
+    "topic": "agentic-ai",
+    "date": "2026-10-14",
+    "fetched_date": "2026-10-14",
+    "feed_name": "Anthropic Engineering",
+    "source": "industry"
+  },
+  {
+    "title": "Run fast, private agents on-device with LFM2.5-24B-A2B",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
+    "topic": "llm",
+    "date": "2026-10-13",
+    "fetched_date": "2026-10-14",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
+    "abstract": "Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversational scams in private chats with zero cloud data egress.",
+    "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
+    "topic": "generative-ai",
+    "date": "2026-10-14",
+    "fetched_date": "2026-10-14",
+    "feed_name": "DeepMind Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Developing Gemini 4 Argon responsibly and safely",
+    "abstract": "",
+    "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
+    "topic": "generative-ai",
+    "date": "2026-10-13",
+    "fetched_date": "2026-10-14",
+    "feed_name": "DeepMind Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Gemini 4 Argon for Robotics",
+    "abstract": "",
+    "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
+    "topic": "generative-ai",
+    "date": "2026-10-13",
+    "fetched_date": "2026-10-14",
+    "feed_name": "DeepMind Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Gemini 4 Argon: Built to solve your hardest problems",
+    "abstract": "",
+    "url": "https://deepmind.google/blog/introducing-gemini-4-argon/",
+    "topic": "generative-ai",
+    "date": "2026-10-13",
+    "fetched_date": "2026-10-14",
+    "feed_name": "DeepMind Blog",
+    "source": "industry"
+  },
+  {
+    "title": "CASTLE: training natural language search before the first real query",
+    "abstract": "",
+    "url": "https://medium.com/airbnb-engineering/castle-training-natural-language-search-before-the-first-real-query-3818ef8b4828?source=rss----53c7c27702d5---4",
+    "topic": "ml-engineering",
+    "date": "2026-10-13",
+    "fetched_date": "2026-10-14",
+    "feed_name": "Airbnb Engineering",
+    "source": "industry"
+  },
+  {
+    "title": "Redesigning source control at Anthropic",
+    "abstract": "Redesigning source control at Anthropic Interesting piece from Anthropic describing why and how they built their own custom alternative to Git, based on the dramatic increase in rate of changes to their code after the past six months. In May 2026, Anthropic averaged around 2,500 code changes merged per day; as of September, we merged over 30,000 per day. They included a chart showing those changes. I had Claude modify their chart ( code here ) to add markers for the public releases of each of their models in 2026: This shows public release dates, not the date when models became available for Anthropic's internal use. My guess is that the introduction of Fable/Mythos class models is a key factor in the increased coding velocity. \"Antique\" is their new code review system. The source control system is called Scion, and sounds to me like a reinvention of centralized source control along the lines of Subversion. They had some pretty extreme requirements: The history of our main branch alone is almost 100 GB, and a compressed working copy is over 25 GB. We perform on the order of 25 million code checkouts per day for CI, before counting developer environments, agent sandboxes, and research jobs. Fetched naively, that would be over 600 PB of git traffic per day. The new system was built by a team of seven people, and the migration from Git was completed in five months. When asked on Hacker News about the lack of offline support, Scion engineer Nick G replied : Since Claude is by far the heaviest user of Scion and is necessarily online, this just wasn't important to do. As an aside, I've been trying adversarial review in my own projects recently, where you have a model try and find flaws (I often play Claude and GPT off against each other). This note from the article reflected my own experience with that: Anthropic also makes extensive use of adversarial review, and, while this is incredibly effective in many ways, it can also be myopic, so skilled engineers needed to steer Claude away from over-engineering parts of the system in response to hypothetical concerns. Via Hacker News Tags: git , migrations , version-control , ai , generative-ai , llms , anthropic , agentic-engineering",
+    "url": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/",
+    "topic": "llm",
+    "date": "2026-10-13",
+    "fetched_date": "2026-10-14",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "llm-gemini 0.35",
+    "abstract": "Release: llm-gemini 0.35 I added support to llm-gemini for the new Gemini 4 Argon model, made available today via the Gemini API and for customers of their $100/month subscription plan. Here are the low, medium and high pelicans . As expected, they are all excellent: Gemini has a track record of producing great SVGs, and are the only lab where I know their staff have invested in SVG specifically (and who have boasted about their pelicans before.) Here's the \"high\" illustration, which cost me 17.166 cents: The pricing is interesting. At launch, Argon is $2/million input and $10/million output - the same price as GPT-6 Sol, half the price of Claude Opus 5.5 and 1/5th the price of Claude Fable 5.1 and GPT-6 Astra. But on December 1st Argon is set to double in price - so it will be the same price as Opus 5.5. Prices like this aren't really comparable these days since what really matters is how many tokens a model takes to achieve a goal within an agentic harness. One useful clue for that comes from Artificial Analysis, who publish the total cost to run their benchmark using each model. Argon is looking very good there - costing $2,407 to run the benchmark, putting it close to GLM-5.3 and significantly cheaper than OpenAI, Anthropic, and Meta's latest models. When the price doubles it will still be a little cheaper than GPT-6 Astra. (I used ChatGPT to edit that chart ! The data is all correct, I checked - I needed to get that Gemini 4 Argon info box to display without overlapping the other numbers.) Some bonus examples using Gemini 4 Argon: here's Generate an SVG of an armadillo in fishnet tights jaywalking on Mars , here's a Fabergé egg it created for me using Blender, and DeepMind staffer @fofrAI shared a video of a pelican riding a bike, using fourier epicycles . That's a fun new twist! Tags: google , ai , generative-ai , llms , llm , gemini , llm-pricing , pelican-riding-a-bicycle , llm-release",
+    "url": "https://simonwillison.net/2026/Oct/13/llm-gemini/",
+    "topic": "llm",
+    "date": "2026-10-13",
+    "fetched_date": "2026-10-14",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Quoting Geoffrey Huntley",
+    "abstract": "If the agent isn't using my diagnostics library, I could introspect and update AGENTS.md, but there's still a delta, and it'll drift. Instead, I write a pre-commit hook that checks the git diff for direct calls to observability modules that bypass my diagnostics module. Boom: fail the commit, inject a prompt telling the agent to use the diagnostics library. All of a sudden it's ten out of ten. — Geoffrey Huntley , nobody should type code by hand anymore. here's what's left. Tags: coding-agents , generative-ai , git , agentic-engineering , ai , geoffrey-huntley , llms",
+    "url": "https://simonwillison.net/2026/Oct/13/geoffrey-huntley/",
+    "topic": "llm",
+    "date": "2026-10-13",
+    "fetched_date": "2026-10-14",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "web-edit 0.1a1",
+    "abstract": "Release: web-edit 0.1a1 Includes performance optimizations written by Claude Opus 5.5 after I fed it this Python 3.15 profiling report generated by GPT-6 Astra. Tags: profiling , projects",
+    "url": "https://simonwillison.net/2026/Oct/13/web-edit/",
+    "topic": "llm",
+    "date": "2026-10-13",
+    "fetched_date": "2026-10-14",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "llm-meta-ai 0.2",
+    "abstract": "Release: llm-meta-ai 0.2 Meta AI release Muse Wonder (and Muse Wonder Full), their new \"most capable models\". These look like they may be Meta's first Fable class models - Artificial Analysis scores Muse Wonder (Max) as equivalent to GPT-6.1 Sol. I updated my llm-meta-ai plugin for the new model. Here are pelicans for Muse Wonder for the six reasoning levels: minimal, low, medium, high, xhigh, max. This is the max one: For comparison, here are pelicans for Muse 1.3 (released September 2nd) and Muse 1.2 (released August 5th). Meta AI are putting out a new model a month, and the improvements between each model (at least in terms of drawing pelicans) are material. Tags: ai , generative-ai , llms , meta , pelican-riding-a-bicycle , llm-release",
+    "url": "https://simonwillison.net/2026/Oct/12/llm-meta-ai/",
+    "topic": "llm",
+    "date": "2026-10-12",
+    "fetched_date": "2026-10-14",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Science Corporation implants its vision-restoring chip in its first Stargardt disease patient",
+    "abstract": "Max Hodak, the former president and co-founder of Neuralink, detailed on stage at TechCrunch Disrupt how his company's work with PRIMA is part of its path toward a novel brain-computer interface (BCI).",
+    "url": "https://techcrunch.com/2026/10/13/science-corporation-implants-its-vision-restoring-chip-in-its-first-stargardt-disease-patient/",
+    "topic": "llm",
+    "date": "2026-10-13",
+    "fetched_date": "2026-10-14",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Cerebras CEO says we’re nearing a future where everyone has a personal AI assistant at home",
+    "abstract": "Cerebras CEO Andrew Feldman predicts a future where personal AI assistants become as commonplace as household appliances, running partly on local devices and partly in the cloud.",
+    "url": "https://techcrunch.com/2026/10/13/cerebras-ceo-says-were-nearing-a-future-where-everyone-has-a-personal-ai-assistant-at-home/",
+    "topic": "llm",
+    "date": "2026-10-13",
+    "fetched_date": "2026-10-14",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Industrial Next wants factory robots to switch tasks in minutes, not weeks",
+    "abstract": "Industrial Next helps manufacturers automate complex, delicate tasks that have traditionally required human labor.",
+    "url": "https://techcrunch.com/2026/10/13/industrial-next-wants-factory-robots-to-switch-tasks-in-minutes-not-weeks/",
+    "topic": "llm",
+    "date": "2026-10-13",
+    "fetched_date": "2026-10-14",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Cerebras CEO pushes back on AI doomsday warnings",
+    "abstract": "Cerebras CEO Andrew Feldman has a message for AI leaders spreading doomsday warnings: Maybe stop talking? At TechCrunch Disrupt, he argued that the industry's focus on AI's risks is drowning out its potential benefits.",
+    "url": "https://techcrunch.com/2026/10/13/cerebras-ceo-pushes-back-on-ai-doomsday-warnings/",
+    "topic": "llm",
+    "date": "2026-10-13",
+    "fetched_date": "2026-10-14",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Judge orders OpenAI to turn over hiring records in Apple trade secrets case",
+    "abstract": "A federal judge ruled that Apple can access OpenAI's interview materials involving former Apple employees, as well as private messages and testimony from key figures in the case.",
+    "url": "https://techcrunch.com/2026/10/13/judge-orders-openai-to-turn-over-hiring-records-in-apple-trade-secrets-case/",
+    "topic": "llm",
+    "date": "2026-10-13",
+    "fetched_date": "2026-10-14",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Flox Intelligence is building AI to keep wildlife away from trains, airports, and roads",
+    "abstract": "Flox's edge devices can identify animals and use species-specific sounds to drive them away from critical infrastructure.",
+    "url": "https://techcrunch.com/2026/10/13/flox-intelligence-is-building-ai-to-keep-wildlife-away-from-trains-airports-and-roads/",
+    "topic": "llm",
+    "date": "2026-10-13",
+    "fetched_date": "2026-10-14",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Facebook is giving users more control over their algorithm",
+    "abstract": "Meta announced the launch of its new AI-powered feature, “Your Algorithm,” a feature it first launched on Instagram.",
+    "url": "https://techcrunch.com/2026/10/13/facebook-is-giving-users-more-control-over-their-algorithm/",
+    "topic": "llm",
+    "date": "2026-10-13",
+    "fetched_date": "2026-10-14",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Laplace Intelligence red-teams robots and self-driving cars before they hit the real world",
+    "abstract": "University of Michigan spinout Laplace Intelligence uses AI agents and interactive simulation to stress-test robots and self-driving vehicles before deployment. The profitable startup is competing in Startup Battlefield at TechCrunch Disrupt, October 13-15 in San Francisco.",
+    "url": "https://techcrunch.com/2026/10/13/laplace-intelligence-red-teams-robots-and-self-driving-cars-before-they-hit-the-real-world/",
+    "topic": "llm",
+    "date": "2026-10-13",
+    "fetched_date": "2026-10-14",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Pluto Security raises $42M as AI gives enterprise security teams a new headache",
+    "abstract": "The problem with giving everyone in a company access to AI tools is that people will use them in unexpected ways. And that fact is steadily seeding fears that companies now have new, gaping security holes in their systems or, at least, will soon.",
+    "url": "https://techcrunch.com/2026/10/13/pluto-security-raises-42m-as-ai-gives-enterprise-security-teams-a-new-headache/",
+    "topic": "llm",
+    "date": "2026-10-13",
+    "fetched_date": "2026-10-14",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Google Play now lets anyone build private, vibe-coded apps that run on Android",
+    "abstract": "Google is making it easier to build and use personal Android apps created with AI, without having to make them available to everyone on the Play Store.",
+    "url": "https://techcrunch.com/2026/10/13/google-play-now-supports-private-vibe-coded-apps-built-just-for-you/",
+    "topic": "llm",
+    "date": "2026-10-13",
+    "fetched_date": "2026-10-14",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "SpaceX and Google both said no. Now his software is riding a SpaceX rocket next to Google’s",
+    "abstract": "Satlyt wants to be the Android of orbital computing, offering open software that works on many companies' satellites, versus SpaceX's closed, all-in-one iPhone-style approach.",
+    "url": "https://techcrunch.com/2026/10/13/satlyt-founded-by-a-former-google-and-spacex-product-manager-raises-8m-to-run-ai-on-satellites/",
+    "topic": "llm",
+    "date": "2026-10-13",
+    "fetched_date": "2026-10-14",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "TechCrunch Disrupt 2026: Day 1",
+    "abstract": "TechCrunch Disrupt 2026 officially kicks off today. See what's in store for Day 1 (Oct. 13) at San Francisco's Moscone West. Don't miss it. Register for your pass now and meet 10,000+ tech leaders at the startup epicenter of the year.",
+    "url": "https://techcrunch.com/2026/10/13/techcrunch-disrupt-2026-day-1/",
+    "topic": "llm",
+    "date": "2026-10-13",
+    "fetched_date": "2026-10-14",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "SpaceXSI bundles X Premium, Grok, and Cursor into one subscription",
+    "abstract": "The new X Subscription combines X's paid features with AI tools like Grok and Cursor, offering plans ranging from $8 to $200 per month.",
+    "url": "https://techcrunch.com/2026/10/13/spacexsi-bundles-x-premium-grok-and-cursor-into-one-subscription/",
+    "topic": "llm",
+    "date": "2026-10-13",
+    "fetched_date": "2026-10-14",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "The final Disrupt Stage lineup: Three days of conversations you won’t hear anywhere outside of TechCrunch Disrupt 2026",
+    "abstract": "The full TechCrunch Disrupt Stage lineup revealed, featuring Max Hodak, Mark Wahlberg, Benchmark partners, and more. Register now to save up to $100 on your pass and get a second at 50% off.",
+    "url": "https://techcrunch.com/2026/10/13/the-final-disrupt-stage-lineup-three-days-of-conversations-you-wont-hear-anywhere-outside-of-techcrunch-disrupt-2026/",
+    "topic": "llm",
+    "date": "2026-10-13",
+    "fetched_date": "2026-10-14",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Amex introduces a framework to prevent AI agents from making unauthorized purchases",
+    "abstract": "American Express is introducing a new framework designed to ensure AI agents only make purchases their users have authorized, potentially preventing costly mistakes and disputes as AI-powered shopping grows.",
+    "url": "https://techcrunch.com/2026/10/13/amex-introduces-a-framework-to-prevent-ai-agents-from-making-unauthorized-purchases/",
+    "topic": "llm",
+    "date": "2026-10-13",
+    "fetched_date": "2026-10-14",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Just 5 years in, interactive chatbot platform Character.AI files for bankruptcy",
+    "abstract": "The startup will sell some of its assets to Disney for $20 million.",
+    "url": "https://techcrunch.com/2026/10/13/just-5-years-in-interactive-chatbot-platform-character-ai-files-for-bankruptcy/",
+    "topic": "llm",
+    "date": "2026-10-13",
+    "fetched_date": "2026-10-14",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Hint water bets on indulgent dessert flavors to recruit new customers",
+    "abstract": "This week, Hint is launching a limited-edition \"Treat Yourself\" pack of dessert-inspired, zero-calorie waters. The company is betting on indulgent, sweet flavors to drive adoption among young and new customers.",
+    "url": "https://www.modernretail.co/operations/hint-water-bets-on-indulgent-dessert-flavors-to-recruit-new-customers/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-10-14",
+    "fetched_date": "2026-10-14",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Bath & Body Works is testing smaller-batch fragrances through Hype Lab",
+    "abstract": "Bath & Body Works, as part of its Consumer First Formula turnaround plan, is quickly testing new small-batch fragrances through an initiative called Hype Lab. The goal is to gather more information about what cultural moments Bath & Body Works customers are currently obsessed with, and try to create a fragrance or a sensorial experience inspired by it.",
+    "url": "https://www.modernretail.co/marketing/bath-body-works-is-testing-smaller-batch-fragrances-through-hype-lab/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-10-14",
+    "fetched_date": "2026-10-14",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Brands Briefing: As AI reshapes retail, brands are investing even more in stores",
+    "abstract": "Executives at Rhone, Anthropologie, Kohl's, Brunt and Crocs weigh in on why brick-and-mortar is still standing strong heading into 2027.",
+    "url": "https://www.modernretail.co/operations/brands-briefing-as-ai-reshapes-retail-brands-are-investing-even-more-in-stores/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-10-13",
+    "fetched_date": "2026-10-14",
+    "feed_name": "Modern Retail",
+    "source": "industry"
   }
 ]
