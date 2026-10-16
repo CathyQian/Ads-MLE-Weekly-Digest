@@ -33948,5 +33948,255 @@
     "fetched_date": "2026-10-15",
     "feed_name": "Modern Retail",
     "source": "industry"
+  },
+  {
+    "title": "Bringing GPT-Rosalind to academic research labs",
+    "abstract": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
+    "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
+    "topic": "llm",
+    "date": "2026-10-15",
+    "fetched_date": "2026-10-16",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Teaching students to think and learn through questions",
+    "abstract": "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning.",
+    "url": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
+    "topic": "llm",
+    "date": "2026-10-15",
+    "fetched_date": "2026-10-16",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Sullivan & Cromwell brings legal expertise into agreement review",
+    "abstract": "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.",
+    "url": "https://openai.com/index/sullivan-cromwell",
+    "topic": "llm",
+    "date": "2026-10-15",
+    "fetched_date": "2026-10-16",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/nvidia/scaling-indic-pretraining",
+    "topic": "llm",
+    "date": "2026-10-16",
+    "fetched_date": "2026-10-16",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
+    "topic": "llm",
+    "date": "2026-10-15",
+    "fetched_date": "2026-10-16",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/meta-muse-spark-open",
+    "topic": "llm",
+    "date": "2026-10-15",
+    "fetched_date": "2026-10-16",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Welcome FLUX.3 Image Klein in Diffusers",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/flux-3",
+    "topic": "llm",
+    "date": "2026-10-15",
+    "fetched_date": "2026-10-16",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
+    "abstract": "Accelerating the search for novel antimicrobial peptides using Google Antigravity for Science.",
+    "url": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
+    "topic": "generative-ai",
+    "date": "2026-10-15",
+    "fetched_date": "2026-10-16",
+    "feed_name": "DeepMind Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Chirp Pong",
+    "abstract": "Tool: Chirp Pong Another game experiment - I wanted to see if it was feasible to have a two player game on two separate phones running in static HTML where the networking code uses chirps sent via the microphone. It seems to work! Build a two player competitive pong like game where two players use their phones close to each other and the game state is sent via audio noises which the web microphone API can interpret - but add graphical and gameplay twists to make it a lot more fun and intertwine than pong Claude Opus 5.5 Extra in Claude Code . Tags: game-design , ai , generative-ai , llms , claude-code",
+    "url": "https://simonwillison.net/2026/Oct/15/chirp-pong/",
+    "topic": "llm",
+    "date": "2026-10-15",
+    "fetched_date": "2026-10-16",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Anthropic tells investors quarterly revenue up nearly 50% to $16.8bn ahead of IPO",
+    "abstract": "Anthropic tells investors quarterly revenue up nearly 50% to $16.8bn ahead of IPO The phrase \"told investors\" appears four times in this FT article, which reports on Anthropic's day of hosting investors on Wednesday. Lots of details in here from \" people with knowledge of the matter \". Key things I learned from the article: Q1 revenue (Jan/Feb/Mar) was \"about $4.8bn\" Q2 (Apr/May/Jun) was $11.5bn Q3 (Jul/Aug/Sep) was $16.8bn In Q3: $1.70 in revenue for every $1 spent on \"computing power\" Adjusted operating margins (excluding stock-based compensation) were 11% This point about distillation is worth quoting in full (highlight mine): The start-up has also clamped down on “distillation” — a controversial practice whereby rival AI labs train their models on the outputs of more advanced ones. When rival companies “distil” their models from Anthropic’s models, that involves heavy usage and spending. Anthropic told investors on Wednesday distillation accounted for 5 per cent to 7 per cent of revenue and that they had cut it back “materially” in the third quarter of the year, said four people with direct knowledge of the matter. Napkin maths says that if distillation was 5% of their Q2 revenue (before they cut it back in Q3) then unnamed \"other labs\" spent over half a billion dollars distilling Anthropic's models in that quarter! Also notable: Anthropic appear to no longer be leaning on \"annualized run-rate revenue\" ( previously ) in these communications to their investors. Tags: ai , generative-ai , llms , anthropic",
+    "url": "https://simonwillison.net/2026/Oct/15/anthropic-tells-investors/",
+    "topic": "llm",
+    "date": "2026-10-15",
+    "fetched_date": "2026-10-16",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "You Have No Idea How Close the AI Bubble Is to Popping",
+    "abstract": "The signs have aligned",
+    "url": "https://www.thealgorithmicbridge.com/p/you-have-no-idea-how-close-the-ai",
+    "topic": "llm",
+    "date": "2026-10-15",
+    "fetched_date": "2026-10-16",
+    "feed_name": "The Algorithmic Bridge",
+    "source": "industry"
+  },
+  {
+    "title": "When it came to Cal AI’s viral success, a small army of influencers paid off",
+    "abstract": "The company generated over $30 million in revenue in two years and was acquired by MyFitnessPal for an undisclosed amount of money in March.",
+    "url": "https://techcrunch.com/2026/10/15/when-it-came-to-cal-ais-viral-success-a-small-army-of-influencers-paid-off/",
+    "topic": "llm",
+    "date": "2026-10-15",
+    "fetched_date": "2026-10-16",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Meta launches an open-weight AI model that runs on Macs",
+    "abstract": "Meta and Apple have teamed up for the launch of the social media giant's newest model, Muse Spark Open, which will run locally on Apple silicon.",
+    "url": "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/",
+    "topic": "llm",
+    "date": "2026-10-15",
+    "fetched_date": "2026-10-16",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Amazon devices chief Panos Panay sees a future where AI devices replace the need to use apps",
+    "abstract": "Speaking at TechCrunch Disrupt, Amazon devices chief Panos Panay described a future where ambient AI devices work in the background, anticipating users' needs instead of waiting for commands.",
+    "url": "https://techcrunch.com/2026/10/15/amazon-devices-chief-panos-panay-sees-a-future-where-ai-devices-replace-the-need-to-use-apps/",
+    "topic": "llm",
+    "date": "2026-10-15",
+    "fetched_date": "2026-10-16",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Anthropic is letting METR researchers look under the hood with employee-level access",
+    "abstract": "METR will publish its own assessments of Anthropic’s risks, incidents, and practices, and the frontier AI model maker has given up the right to block them.",
+    "url": "https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access/",
+    "topic": "llm",
+    "date": "2026-10-15",
+    "fetched_date": "2026-10-16",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Bluesky expands its AI-powered Attie app to let anyone build websites, games, and more",
+    "abstract": "Bluesky is bringing “social vibe coding” to its experimental Attie platform, allowing users to create interactive experiences like games, quizzes, and websites that can tap into the social network's audience.",
+    "url": "https://techcrunch.com/2026/10/15/bluesky-expands-its-ai-powered-attie-app-to-let-anyone-build-websites-games-and-more/",
+    "topic": "llm",
+    "date": "2026-10-15",
+    "fetched_date": "2026-10-16",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Last chance to save up to $200 on your TechCrunch Founder Summit pass: Early booking ends October 16",
+    "abstract": "Savings of up to $200 end October 16 for TechCrunch Founder Summit. These savings for Founder and Investor Passes vanish after Friday. Join 1,000 founders and investors on November 4 at Boston’s SoWa Power Station. Bring your toughest questions and make the day count for your business.",
+    "url": "https://techcrunch.com/2026/10/15/last-chance-to-save-up-to-200-on-techcrunch-founder-summit-early-booking-ends-oct-16/",
+    "topic": "llm",
+    "date": "2026-10-15",
+    "fetched_date": "2026-10-16",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "AI agents are coming to Rivian’s cars",
+    "abstract": "We'll likely learn more about how this will work at the company's upcoming \"AI & Autonomy Day\" event in December.",
+    "url": "https://techcrunch.com/2026/10/15/ai-agents-are-coming-to-rivians-cars/",
+    "topic": "llm",
+    "date": "2026-10-15",
+    "fetched_date": "2026-10-16",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Google’s Universal Cart shopping tool launches in the US",
+    "abstract": "The new shopping tool is available in the U.S. across Google Search and the Gemini app.",
+    "url": "https://techcrunch.com/2026/10/15/googles-universal-cart-shopping-tool-launches-in-the-us/",
+    "topic": "llm",
+    "date": "2026-10-15",
+    "fetched_date": "2026-10-16",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "TechCrunch Disrupt 2026: Last day",
+    "abstract": "Last day to be part of TechCrunch Disrupt 2026. Join 10,000+ tech leaders for a day of connections and insights. Save 75% on your pass now.",
+    "url": "https://techcrunch.com/2026/10/15/techcrunch-disrupt-2026-last-day/",
+    "topic": "llm",
+    "date": "2026-10-15",
+    "fetched_date": "2026-10-16",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Amazon’s Bee launches two new personal AI devices, starting at $75",
+    "abstract": "Amazon-owned Bee has launched its first new AI devices since its acquisition, including an updated wearable and a credit-card-sized recorder that attaches to smartphones. The devices can summarize conversations, create to-do lists, and integrate with Alexa and Amazon shopping, with prices starting at $74.99.",
+    "url": "https://techcrunch.com/2026/10/15/amazons-bee-launches-two-new-personal-ai-devices-starting-at-75/",
+    "topic": "llm",
+    "date": "2026-10-15",
+    "fetched_date": "2026-10-16",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Ruggable’s new ad spend strategy shifts focus to ShopMy creators",
+    "abstract": "Since last August, Ruggable has shifted about 10% of its overall spend from performance channels, like Meta, into brand channels, like influencers and connected television. The brand plans to grow that spend by another 15% to 20% next year, chief marketing and creative officer Lauren Sherman-Kaoud said.",
+    "url": "https://www.modernretail.co/marketing/ruggables-new-ad-spend-strategy-shifts-focus-to-shopmy-creators/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-10-16",
+    "fetched_date": "2026-10-16",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Target bets on buzzy TikTok brands like Mellow Sleep to revamp its home category",
+    "abstract": "Target has recently added TikTok-favorite bedding brand Mellow Sleep and other buzzy brands to its home category to help revive sales.",
+    "url": "https://www.modernretail.co/operations/target-bets-on-buzzy-tiktok-brands-like-mellow-sleep-to-revamp-its-home-category/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-10-16",
+    "fetched_date": "2026-10-16",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Big-Box Briefing: What’s fueling Albertsons’ identity crisis as it accelerates turnaround efforts",
+    "abstract": "The grocery business has been uniquely challenging in 2026, thanks to sky-high inflation. But Albertsons' second-quarter earnings call on Tuesday was still unusually dour.",
+    "url": "https://www.modernretail.co/operations/big-box-briefing-whats-fueling-albertsons-identity-crisis-as-it-accelerates-turnaround-efforts/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-10-15",
+    "fetched_date": "2026-10-16",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Why Bogg is moving beyond its signature EVA beach bag",
+    "abstract": "Bogg is diversifying beyond the beach as it works to win over commuters, athletes and travelers with its new Go Tote.",
+    "url": "https://www.modernretail.co/operations/why-bogg-is-moving-away-from-its-signature-eva-beach-bag/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-10-15",
+    "fetched_date": "2026-10-16",
+    "feed_name": "Modern Retail",
+    "source": "industry"
   }
 ]
