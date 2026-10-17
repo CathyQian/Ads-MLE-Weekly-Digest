@@ -18758,5 +18758,95 @@
     "fetched_date": "2026-10-16",
     "feed_name": "TechCrunch",
     "source": "startup"
+  },
+  {
+    "title": "Mark Wahlberg wants to take on the longevity-startup crowd with an affordable gym concept",
+    "abstract": "Mark Wahlberg, who once sank money into a gym chain that got kicked off the NYSE, is now building his own, and he promises you’ll get a cold plunge, a blood panel and a protein muffin without needing a trust fund.",
+    "url": "https://techcrunch.com/2026/10/16/mark-wahlberg-wants-to-take-on-the-longevity-startup-crowd-with-an-affordable-gym-concept/",
+    "topic": "startup",
+    "date": "2026-10-17",
+    "fetched_date": "2026-10-17",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Replit is no longer working with Anthropic, CEO says",
+    "abstract": "Masad said the decision was made for a number of different reasons, including cost. Replit announced a partnership with OpenAI in August, but there was never any indication that it was no longer with Anthropic.",
+    "url": "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/",
+    "topic": "startup",
+    "date": "2026-10-16",
+    "fetched_date": "2026-10-17",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "India becomes the latest country to report rogue AI agent activity",
+    "abstract": "The agents got in through credentials and connection settings left exposed in app configurations, public code repositories, and overly permissive cloud roles.",
+    "url": "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/",
+    "topic": "startup",
+    "date": "2026-10-16",
+    "fetched_date": "2026-10-17",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Elorian’s first AI model wants to reason with images, not just about them",
+    "abstract": "According to Elorian's evaluations, Glimpse outperforms even GPT-6 Astra on scientific chart reasoning and short-form video captioning, with competitive results on other visual reasoning tasks.",
+    "url": "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/",
+    "topic": "startup",
+    "date": "2026-10-16",
+    "fetched_date": "2026-10-17",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Tressfecta wants to make hair braiding a less arduous task for hairstylists",
+    "abstract": "Tressfecta builds products for textured hair. Its first project is a tool called Plait Pilot that helps braiders with the initial process of separating hair from packs before braiding begins.",
+    "url": "https://techcrunch.com/2026/10/16/tressfecta-wants-to-make-hair-braiding-a-less-arduous-task-for-hairstylists/",
+    "topic": "startup",
+    "date": "2026-10-16",
+    "fetched_date": "2026-10-17",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Jev is Vercel’s fastest-adopted AI model ever",
+    "abstract": "The data comes from Vercel's AI gateway, a unified API service similar to OpenRouter.",
+    "url": "https://techcrunch.com/2026/10/16/jev-is-vercels-fastest-adopted-ai-model-ever/",
+    "topic": "startup",
+    "date": "2026-10-16",
+    "fetched_date": "2026-10-17",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Mark Wahlberg on using AI in film ‘the right way’ and being open to an AI clone carrying on his legacy",
+    "abstract": "Actor and angel investor Mark Wahlberg says he's OK with using AI in filmmaking, provided it's used \"to enhance what you're doing.\"",
+    "url": "https://techcrunch.com/2026/10/16/mark-wahlberg-on-using-ai-in-film-the-right-way-and-being-open-to-an-ai-clone-carrying-on-his-legacy/",
+    "topic": "startup",
+    "date": "2026-10-16",
+    "fetched_date": "2026-10-17",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Veritas expands its anti-counterfeit chip to jewelry, trophies, and fragrance bottles",
+    "abstract": "Counterfeiters are getting better at replicating brands' marks and passing off dupes, known as \"superfakes,\" as genuine items. A startup called Veritas wants to tackle the problem with its own chip that verifies goods.",
+    "url": "https://techcrunch.com/2026/10/16/veritas-is-building-a-chip-to-verify-luxury-goods/",
+    "topic": "startup",
+    "date": "2026-10-16",
+    "fetched_date": "2026-10-17",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Replit’s CEO says the future of work is the ‘self-driving company’",
+    "abstract": "Replit CEO Amjad Masad envisions a future of “self-driving companies,” where AI agents handle day-to-day tasks and people focus on higher-level decisions.",
+    "url": "https://techcrunch.com/2026/10/16/replits-ceo-says-the-future-of-work-is-the-self-driving-company/",
+    "topic": "startup",
+    "date": "2026-10-16",
+    "fetched_date": "2026-10-17",
+    "feed_name": "TechCrunch",
+    "source": "startup"
   }
 ]

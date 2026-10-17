@@ -34198,5 +34198,205 @@
     "fetched_date": "2026-10-16",
     "feed_name": "Modern Retail",
     "source": "industry"
+  },
+  {
+    "title": "How Itaú is building generative AI for its entire customer base",
+    "abstract": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.",
+    "url": "https://openai.com/index/itau-generative-ai",
+    "topic": "llm",
+    "date": "2026-10-16",
+    "fetched_date": "2026-10-17",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
+    "abstract": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
+    "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
+    "topic": "llm",
+    "date": "2026-10-16",
+    "fetched_date": "2026-10-17",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Benefit Street Partners answers questions faster with Codex",
+    "abstract": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
+    "url": "https://openai.com/index/benefit-street-partners",
+    "topic": "llm",
+    "date": "2026-10-16",
+    "fetched_date": "2026-10-17",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Designing more efficient quantum circuits with Claude",
+    "abstract": "Working largely on its own, Claude designed quantum circuits that improve on the best published versions, in some cases by an order of magnitude or more.",
+    "url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits",
+    "topic": "llm",
+    "date": "2026-10-16",
+    "fetched_date": "2026-10-17",
+    "feed_name": "Anthropic Research",
+    "source": "industry"
+  },
+  {
+    "title": "Claude reveals ECDSA curve origins",
+    "abstract": "The decades-old mystery of the origins of one of the most popular cryptographic standards has been explained.",
+    "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
+    "topic": "llm",
+    "date": "2026-10-16",
+    "fetched_date": "2026-10-17",
+    "feed_name": "Anthropic Research",
+    "source": "industry"
+  },
+  {
+    "title": "The AI expectations gap",
+    "abstract": "How will AI reshape the economy in the years ahead? What is the core source of disagreement about AI's future impact on the economy? This note presents new survey evidence on these questions.",
+    "url": "https://www.anthropic.com/research/ai-expectations-gap",
+    "topic": "llm",
+    "date": "2026-10-16",
+    "fetched_date": "2026-10-17",
+    "feed_name": "Anthropic Research",
+    "source": "industry"
+  },
+  {
+    "title": "How employment is changing at Anthropic",
+    "abstract": "How has AI restructured work and employment at Anthropic? As a company at the frontier of AI adoption, Anthropic could be a leading indicator of how AI will shift work organization, hiring, and labor demand across the economy.",
+    "url": "https://www.anthropic.com/research/employment-at-anthropic",
+    "topic": "llm",
+    "date": "2026-10-16",
+    "fetched_date": "2026-10-17",
+    "feed_name": "Anthropic Research",
+    "source": "industry"
+  },
+  {
+    "title": "Working at the frontier shapes expectations for the future",
+    "abstract": "We’re sharing two reports: the first covers how AI is changing employment inside Anthropic, and the second looks at the gap between how the public and Anthropic employees expect AI to affect work and the economy.",
+    "url": "https://www.anthropic.com/research/expectations-for-the-future",
+    "topic": "llm",
+    "date": "2026-10-16",
+    "fetched_date": "2026-10-17",
+    "feed_name": "Anthropic Research",
+    "source": "industry"
+  },
+  {
+    "title": "Ontology-Driven Observability: Building an End-to-End Knowledge Graph at Netflix Scale",
+    "abstract": "",
+    "url": "https://netflixtechblog.com/ontology-driven-observability-building-an-end-to-end-knowledge-graph-at-netflix-scale-421392cf5adf?source=rss----2615bd06b42e---4",
+    "topic": "ml-engineering",
+    "date": "2026-10-16",
+    "fetched_date": "2026-10-17",
+    "feed_name": "Netflix Tech Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Quoting Addy Osmani, Morgan Westlee Lunt, and Qing Wang",
+    "abstract": "We think \"did a human read the code?\" is an imprecise proxy for \"what could go wrong with this change, and which check—automated or human—is the right one to catch it?\" Asking that question also changed when review happens. Before, review was a gate at the end of the road: write the code, open a PR, wait for your colleague. Now, review runs continuously, more like spellcheck while you write. Most changes have been reviewed and fixed by Claude at least once before a human is asked to look. This catches most routine mistakes, and saves team attention for higher-level questions and scrutiny. — Addy Osmani, Morgan Westlee Lunt, and Qing Wang , How the Claude Code team does code review Tags: anthropic , claude , ai , claude-code , llms , addy-osmani , coding-agents , generative-ai , agentic-engineering , code-review",
+    "url": "https://simonwillison.net/2026/Oct/16/code-review/",
+    "topic": "llm",
+    "date": "2026-10-16",
+    "fetched_date": "2026-10-17",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Replit is no longer working with Anthropic, CEO says",
+    "abstract": "Masad said the decision was made for a number of different reasons, including cost. Replit announced a partnership with OpenAI in August, but there was never any indication that it was no longer with Anthropic.",
+    "url": "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/",
+    "topic": "llm",
+    "date": "2026-10-16",
+    "fetched_date": "2026-10-17",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "India becomes the latest country to report rogue AI agent activity",
+    "abstract": "The agents got in through credentials and connection settings left exposed in app configurations, public code repositories, and overly permissive cloud roles.",
+    "url": "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/",
+    "topic": "llm",
+    "date": "2026-10-16",
+    "fetched_date": "2026-10-17",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "An Nvidia insider-turned-VC on why robotics hasn’t hit its ChatGPT moment, yet",
+    "abstract": "Amulya Vishwanath, who spent seven years leading product marketing for NVIDIA’s robotics platforms, says robotics is currently in its “Lego era,” with the basic building blocks like actuators, robotic hands, software, and safety standards still being rebuilt. This view runs counter to those who believe that robotics, powered by a general foundation model, is about to have […]",
+    "url": "https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet/",
+    "topic": "llm",
+    "date": "2026-10-16",
+    "fetched_date": "2026-10-17",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Physical AI is more than robots, says the Nvidia veteran now investing in it",
+    "abstract": "Amulya Vishwanath, who spent seven years leading product marketing for NVIDIA’s robotics platforms, says robotics is currently in its “Lego era,” with the basic building blocks like actuators, robotic hands, software, and safety standards still being rebuilt. This view runs counter to those who believe that robotics, powered by a general foundation model, is about to have […]",
+    "url": "https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it/",
+    "topic": "llm",
+    "date": "2026-10-16",
+    "fetched_date": "2026-10-17",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Elorian’s first AI model wants to reason with images, not just about them",
+    "abstract": "According to Elorian's evaluations, Glimpse outperforms even GPT-6 Astra on scientific chart reasoning and short-form video captioning, with competitive results on other visual reasoning tasks.",
+    "url": "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/",
+    "topic": "llm",
+    "date": "2026-10-16",
+    "fetched_date": "2026-10-17",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Jev is Vercel’s fastest-adopted AI model ever",
+    "abstract": "The data comes from Vercel's AI gateway, a unified API service similar to OpenRouter.",
+    "url": "https://techcrunch.com/2026/10/16/jev-is-vercels-fastest-adopted-ai-model-ever/",
+    "topic": "llm",
+    "date": "2026-10-16",
+    "fetched_date": "2026-10-17",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Mark Wahlberg on using AI in film ‘the right way’ and being open to an AI clone carrying on his legacy",
+    "abstract": "Actor and angel investor Mark Wahlberg says he's OK with using AI in filmmaking, provided it's used \"to enhance what you're doing.\"",
+    "url": "https://techcrunch.com/2026/10/16/mark-wahlberg-on-using-ai-in-film-the-right-way-and-being-open-to-an-ai-clone-carrying-on-his-legacy/",
+    "topic": "llm",
+    "date": "2026-10-16",
+    "fetched_date": "2026-10-17",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Veritas expands its anti-counterfeit chip to jewelry, trophies, and fragrance bottles",
+    "abstract": "Counterfeiters are getting better at replicating brands' marks and passing off dupes, known as \"superfakes,\" as genuine items. A startup called Veritas wants to tackle the problem with its own chip that verifies goods.",
+    "url": "https://techcrunch.com/2026/10/16/veritas-is-building-a-chip-to-verify-luxury-goods/",
+    "topic": "llm",
+    "date": "2026-10-16",
+    "fetched_date": "2026-10-17",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Replit’s CEO says the future of work is the ‘self-driving company’",
+    "abstract": "Replit CEO Amjad Masad envisions a future of “self-driving companies,” where AI agents handle day-to-day tasks and people focus on higher-level decisions.",
+    "url": "https://techcrunch.com/2026/10/16/replits-ceo-says-the-future-of-work-is-the-self-driving-company/",
+    "topic": "llm",
+    "date": "2026-10-16",
+    "fetched_date": "2026-10-17",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Why Depop is putting music at the center of its marketing, collaborating with Zara Larsson and Olivia Rodrigo",
+    "abstract": "Peer-to-peer resale platform Depop is trying to differentiate itself from the competition through the power of music. To date, it has collaborated on drops with the likes of Kacey Musgraves, Zara Larsson and Olivia Rodrigo.",
+    "url": "https://www.modernretail.co/operations/why-depop-is-putting-music-at-the-center-of-its-marketing-collaborating-with-zara-larsson-and-olivia-rodrigo/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-10-17",
+    "fetched_date": "2026-10-17",
+    "feed_name": "Modern Retail",
+    "source": "industry"
   }
 ]
