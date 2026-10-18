@@ -34398,5 +34398,55 @@
     "fetched_date": "2026-10-17",
     "feed_name": "Modern Retail",
     "source": "industry"
+  },
+  {
+    "title": "Inline rendering with document​.currentScript",
+    "abstract": "Inline rendering with document​.currentScript Lean Rada describes a neat trick that takes advantage of the document.currentScript property. You can use that to drop in a tiny inline <script> element that replaces itself when the page loads: The year is <script> document.currentScript.replaceWith( new Date().getFullYear())</script> If you define a shortcut function like this: $=(...n)=>document.currentScript.replaceWith(...n) You get a tiny template language: The year is <script>$(new Date().getFullYear())</script> Tags: javascript",
+    "url": "https://simonwillison.net/2026/Oct/17/document-currentscript/",
+    "topic": "llm",
+    "date": "2026-10-17",
+    "fetched_date": "2026-10-18",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "web-edit 0.1a2",
+    "abstract": "Release: web-edit 0.1a2 web-edit ( previously ) is my tiny web app for browsing and editing files in a folder. I mainly built it for editing files on different machines via Tailscale. I added a \"copy to clipboard\" option for both text and image data. I needed this because I was running pelican prompts on a laptop from my phone (here's DeepSeek 4.1 Flash 1017 ) and I wanted an easy way to copy the resulting logs into a Gist. Tags: projects , pelican-riding-a-bicycle , deepseek",
+    "url": "https://simonwillison.net/2026/Oct/17/web-edit/",
+    "topic": "llm",
+    "date": "2026-10-17",
+    "fetched_date": "2026-10-18",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Meta removes language that raised scraping and AI training concerns",
+    "abstract": "A Meta spokesperson insisted that the updated terms did not reflect a change in the way Meta crawls the web.",
+    "url": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/",
+    "topic": "llm",
+    "date": "2026-10-17",
+    "fetched_date": "2026-10-18",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Anthropic says its workforce has become less junior and is spending more time in meetings",
+    "abstract": "The composition of Anthropic’s workforce and the type of work getting done have changed significantly in the past year.",
+    "url": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/",
+    "topic": "llm",
+    "date": "2026-10-17",
+    "fetched_date": "2026-10-18",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Replit makes OpenAI its default over Anthropic, CEO says",
+    "abstract": "Over the weekend, Masad clarified that OpenAI would replace Anthropic as its default model provider. Claude will still be available to customers on the platform.",
+    "url": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
+    "topic": "llm",
+    "date": "2026-10-17",
+    "fetched_date": "2026-10-18",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
   }
 ]
