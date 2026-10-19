@@ -34448,5 +34448,55 @@
     "fetched_date": "2026-10-18",
     "feed_name": "TechCrunch AI",
     "source": "industry"
+  },
+  {
+    "title": "llm-tools-datasette 0.1.1",
+    "abstract": "Release: llm-tools-datasette 0.1.1 When I switched LLM over to httpx2 in LLM 0.33 I forget that this would break any plugins which used httpx without directly depending on it. llm-tools-datasette was one of those plugins, now fixed. Tags: datasette , llm",
+    "url": "https://simonwillison.net/2026/Oct/18/llm-tools-datasette/",
+    "topic": "llm",
+    "date": "2026-10-18",
+    "fetched_date": "2026-10-19",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "llm-echo 0.5",
+    "abstract": "Release: llm-echo 0.5 I'm working towards a new LLM release, and testing PRs caused me to revisit the llm-echo debug plugin. This plugin provides a \"model\" which doesn't involve an LLM at all - it just repeats back the prompts that have been fed to it. The new release now updates the simulated token usage counts to take tool calls, system prompts, and reasoning tokens into account. Example usage: uvx --with llm-echo llm -m echo 'hi there' -o thinking 1 --usage Outputs: First I consider the prompt, then I decide what to say. { \"prompt\": \"hi there\", \"system\": \"\", \"attachments\": [], \"stream\": true, \"previous\": [] } Token usage: 2 input, 24 output Tags: llm",
+    "url": "https://simonwillison.net/2026/Oct/18/llm-echo/",
+    "topic": "llm",
+    "date": "2026-10-18",
+    "fetched_date": "2026-10-19",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Anthropic says it’s committing 5% of its shares to a ‘public benefit fund’",
+    "abstract": "Anthropic said that it will commit 5% of its shares to the fund.",
+    "url": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/",
+    "topic": "llm",
+    "date": "2026-10-18",
+    "fetched_date": "2026-10-19",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Disney agrees to hire the majority of Character.AI’s workforce",
+    "abstract": "The filing also says that the “vast majority” of Character.AI employees who were offered jobs at Disney accepted them. However, this is a stalking horse bid, so another company could come forward with a higher offer.",
+    "url": "https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/",
+    "topic": "llm",
+    "date": "2026-10-18",
+    "fetched_date": "2026-10-19",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "NBCUniversal’s shoppable TV business is seeing a boost from shows like ‘Traitors’ and ‘Love Island USA’",
+    "abstract": "NBCU is developing shoppable television across its own platforms, like Peacock, as well as third-party platforms, like LG TVs. Now, viewers can buy products from about 12 of their favorite shows, including \"Top Chef\" and \"Below Deck.\"",
+    "url": "https://www.modernretail.co/technology/nbcuniversals-shoppable-tv-business-is-seeing-a-boost-from-shows-like-traitors-and-love-island-usa/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-10-19",
+    "fetched_date": "2026-10-19",
+    "feed_name": "Modern Retail",
+    "source": "industry"
   }
 ]
