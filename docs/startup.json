@@ -19058,5 +19058,155 @@
     "fetched_date": "2026-10-20",
     "feed_name": "YC Blog",
     "source": "startup"
+  },
+  {
+    "title": "Anthropic pitches AI safety bill that may block a model if 50+ people could be killed",
+    "abstract": "The proposed policy seems to offer protections against AI running amok but actually forbids federal agencies from blocking a model's release without the permission of a judge.",
+    "url": "https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/",
+    "topic": "startup",
+    "date": "2026-10-20",
+    "fetched_date": "2026-10-21",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Hugging Face CEO warns that Netflix’s OpenAI hack documentary isn’t accurate",
+    "abstract": "Before you share the Netflix documentary \"AI Gone Rogue,\" take note. Clem Delangue, Hugging Face's co-founder who is featured in the film, says it went \"full doomer mode\" and isn't accurate.",
+    "url": "https://techcrunch.com/2026/10/20/hugging-face-ceo-warns-that-netflixs-openai-hack-documentary-isnt-accurate/",
+    "topic": "startup",
+    "date": "2026-10-20",
+    "fetched_date": "2026-10-21",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "SpaceX’s AI business is beating expectations",
+    "abstract": "SpaceX hit profitability in the third quarter, with net income of $4.4 billion. AI was the engine.",
+    "url": "https://techcrunch.com/2026/10/20/spacexs-ai-business-is-beating-expectations/",
+    "topic": "startup",
+    "date": "2026-10-20",
+    "fetched_date": "2026-10-21",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "OpenAI acquires startup Orchestra Bio⁠ to beef up its biotech business",
+    "abstract": "OpenAI says it's adding Orchestra's team and technology to work on Rosalind, its AI model for life sciences research, and to its related Rosalind Workbench tool, a harness that aims to help researchers plan experiments and analyze results.",
+    "url": "https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%e2%81%a0-to-beef-up-its-biotech-business/",
+    "topic": "startup",
+    "date": "2026-10-20",
+    "fetched_date": "2026-10-21",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Google is bringing a more personal version of its Gemini AI assistant to your car",
+    "abstract": "Google is bringing Gemini's Personal Intelligence feature to cars, allowing its AI assistant to draw on information from Gmail, Calendar, Maps, YouTube, and other Google services to deliver more personalized responses while driving.",
+    "url": "https://techcrunch.com/2026/10/20/google-is-bringing-a-more-personal-version-of-its-gemini-ai-assistant-to-your-car/",
+    "topic": "startup",
+    "date": "2026-10-20",
+    "fetched_date": "2026-10-21",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Google has joined Amazon in attacking Nvidia’s stronghold with AI app developers",
+    "abstract": "Google has joined Amazon in releasing a developer tool that makes it easy for PyTorch users to move their apps off Nvidia GPUs.",
+    "url": "https://techcrunch.com/2026/10/20/google-has-joined-amazon-in-attacking-nvidias-stronghold-with-ai-app-developers/",
+    "topic": "startup",
+    "date": "2026-10-20",
+    "fetched_date": "2026-10-21",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Meta’s Muse hits 10M US downloads in 40 days, a milestone reached by only 11 other apps",
+    "abstract": "New data also shows Muse is retaining users at higher rates than its AI rivals.",
+    "url": "https://techcrunch.com/2026/10/20/metas-muse-hits-10m-u-s-downloads-in-40-days-a-milestone-reached-by-only-11-other-apps/",
+    "topic": "startup",
+    "date": "2026-10-20",
+    "fetched_date": "2026-10-21",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Ex-Nvidia-turned-VC Amulya Vishwanath: ‘Physical AI is in its LEGO era’",
+    "abstract": "It’s the moment everyone is waiting for — the ChatGPT moment for robotics, Amulya Vishwanath explained to TechCrunch’s Equity.",
+    "url": "https://techcrunch.com/2026/10/20/ex-nvidia-turned-vc-amulya-vishwanath-physical-ai-is-in-its-lego-era/",
+    "topic": "startup",
+    "date": "2026-10-20",
+    "fetched_date": "2026-10-21",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Plants can speak using electricity, so this startup built an AI model to decipher their language",
+    "abstract": "Electric Plant has built an AI-powered translator to help humans listen to what plants are saying with the subtle electricity coursing through their stems.",
+    "url": "https://techcrunch.com/2026/10/20/plants-can-speak-using-electricity-so-this-startup-built-an-ai-model-to-decipher-their-language/",
+    "topic": "startup",
+    "date": "2026-10-20",
+    "fetched_date": "2026-10-21",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "TikTok staff raised child safety concerns, but executives reportedly failed to act",
+    "abstract": "Court documents show TikTok employees were frustrated with how executives responded to their concerns about risks to children.",
+    "url": "https://techcrunch.com/2026/10/20/tiktok-staff-raised-child-safety-concerns-but-executives-reportedly-failed-to-act/",
+    "topic": "startup",
+    "date": "2026-10-20",
+    "fetched_date": "2026-10-21",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Figma co-founder Dylan Field thinks MCP is not a perfect protocol",
+    "abstract": "Figma said it plans to support as many standards as possible without exposing all of its data.",
+    "url": "https://techcrunch.com/2026/10/20/figma-co-founder-dylan-field-thinks-mcp-is-not-a-perfect-protocol/",
+    "topic": "startup",
+    "date": "2026-10-20",
+    "fetched_date": "2026-10-21",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "SpaceX alum’s aviation startup, Reliable Robotics, lands $115M, topping $1B valuation",
+    "abstract": "Reliable Robotics extended its Series D round with $115 million in equity and $25 million in debt.",
+    "url": "https://techcrunch.com/2026/10/20/spacex-alums-aviation-startup-reliable-robotics-lands-115m-topping-1b-valuation/",
+    "topic": "startup",
+    "date": "2026-10-20",
+    "fetched_date": "2026-10-21",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "US orders federal agencies to remove China’s DeepSeek AI from their systems",
+    "abstract": "The U.S. has ordered federal civilian agencies to remove DeepSeek products and third-party services built using its technology, citing national security concerns.",
+    "url": "https://techcrunch.com/2026/10/20/us-orders-federal-agencies-to-remove-chinas-deepseek-ai-from-their-systems/",
+    "topic": "startup",
+    "date": "2026-10-20",
+    "fetched_date": "2026-10-21",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Eka is worth $1.45B thanks to a physical AI model that has experts raving",
+    "abstract": "Eka Robotics may be the first robotic arm that is actually good at picking up a wide range of objects, and it is so smooth and human-like, it is wowing the industry.",
+    "url": "https://techcrunch.com/2026/10/20/eka-is-worth-1-45-billion-thanks-to-a-physical-ai-model-that-has-experts-raving/",
+    "topic": "startup",
+    "date": "2026-10-20",
+    "fetched_date": "2026-10-21",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "How Vin Bui became engineer #1 at Nowadays — and started treating it like his own company",
+    "abstract": "Vin found Nowadays on Work at a Startup, saw a codebase he could fix, and joined as the first engineer. Now he builds AI voice tools and mentors the team.",
+    "url": "https://www.ycombinator.com/blog/how-vin-bui-became-engineer-1-at-nowadays-and-started-treating-it-like-his-own-company/",
+    "topic": "startup",
+    "date": "2026-10-20",
+    "fetched_date": "2026-10-21",
+    "feed_name": "YC Blog",
+    "source": "startup"
   }
 ]
