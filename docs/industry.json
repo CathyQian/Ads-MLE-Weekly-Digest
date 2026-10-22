@@ -35018,5 +35018,285 @@
     "fetched_date": "2026-10-21",
     "feed_name": "Modern Retail",
     "source": "industry"
+  },
+  {
+    "title": "How AT&T is rethinking in-house legal work with OpenAI",
+    "abstract": "AT&T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment.",
+    "url": "https://openai.com/index/att-legal",
+    "topic": "llm",
+    "date": "2026-10-21",
+    "fetched_date": "2026-10-22",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Broad access through consistent standards",
+    "abstract": "How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and clarify expectations in our Usage Policies.",
+    "url": "https://openai.com/index/broad-access-through-consistent-standards",
+    "topic": "llm",
+    "date": "2026-10-21",
+    "fetched_date": "2026-10-22",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "OpenAI models are coming to Google Cloud",
+    "abstract": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
+    "url": "https://openai.com/index/openai-models-google-cloud",
+    "topic": "llm",
+    "date": "2026-10-21",
+    "fetched_date": "2026-10-22",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
+    "abstract": "Patch the Planet connects security researchers, maintainers, and incident responders to help address critical vulnerabilities across open source.",
+    "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
+    "topic": "llm",
+    "date": "2026-10-21",
+    "fetched_date": "2026-10-22",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
+    "abstract": "From local businesses to global brands, more advertisers can now reach people as they explore, compare and decide what to buy in ChatGPT.",
+    "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
+    "topic": "llm",
+    "date": "2026-10-21",
+    "fetched_date": "2026-10-22",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Using thousands of AI agents to uncover new leads in biological data",
+    "abstract": "See how OpenAI, PerturbAI, and Scripps Research used distributed AI agents to uncover promising research leads in data from millions of brain cells.",
+    "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
+    "topic": "llm",
+    "date": "2026-10-21",
+    "fetched_date": "2026-10-22",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Cloudflare links vulnerability discovery to defense with OpenAI",
+    "abstract": "Cloudflare uses OpenAI Daybreak to investigate vulnerabilities and propose fixes for review. Its developers use Codex to build faster and improve code quality.",
+    "url": "https://openai.com/index/cloudflare-cyber",
+    "topic": "llm",
+    "date": "2026-10-21",
+    "fetched_date": "2026-10-22",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "How we built ChatGPT’s novel ad stack for user trust and relevance",
+    "abstract": "Learn how OpenAI built ChatGPT’s LLM-powered ad stack to understand conversational intent, keep ads separate from answers, and deliver relevant ads at scale.",
+    "url": "https://openai.com/index/building-chatgpt-ad-stack",
+    "topic": "llm",
+    "date": "2026-10-21",
+    "fetched_date": "2026-10-22",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Democratic governance of frontier AI, part II: Empowering cyber defenders",
+    "abstract": "OpenAI outlines a blueprint for empowering cyber defenders with frontier AI, stronger safeguards, modernized cybersecurity, and more resilient public institutions.",
+    "url": "https://openai.com/index/empowering-cyber-defenders",
+    "topic": "llm",
+    "date": "2026-10-21",
+    "fetched_date": "2026-10-22",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "NVIDIA Kumo Relational Outperforms Supervised Machine Learning on Relational Data, No Training Required",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/nvidia/kumo-relational",
+    "topic": "llm",
+    "date": "2026-10-21",
+    "fetched_date": "2026-10-22",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "How Specializing the Vocabulary of SLMs Can Cut Inference Cost by 77% in Real Applications",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization",
+    "topic": "llm",
+    "date": "2026-10-21",
+    "fetched_date": "2026-10-22",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Profiling TorchNeuron (Part 1): System-level profiling on AWS Trainium.",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/amazon/profiling-torchneuron-part-1",
+    "topic": "llm",
+    "date": "2026-10-21",
+    "fetched_date": "2026-10-22",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Granite Speech 5.0: Transcribe, Translate, and Attribute more Accurately and Faster",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/ibm-granite/granite-speech-5",
+    "topic": "llm",
+    "date": "2026-10-21",
+    "fetched_date": "2026-10-22",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Today's PHP Security Release, and How We're Strengthening PHP Security",
+    "abstract": "Today's PHP Security Release, and How We're Strengthening PHP Security If you're running anything on PHP it's vital you upgrade - today's updates (across the entire PHP 8.x line) address two remote code execution holes, and there have been exploits circulating since last night, thanks to a leak in the coordinated disclosure process. This post from the PHP Foundation explain what went so wrong: On Tuesday, October 20th, at around 15:00 UTC, the two CVE IDs began circulating on online forums and social media. They came with a wrong release time and a wrong CVSS score of 10.0 (the actual score is 9.2). No technical details leaked. In response, the PHP project brought its pre-announcement forward and published it at 19:30 UTC . It also moved the release from October 22nd, 14:00 UTC, to October 21st, 14:00 UTC [...] As a result of the leak and pre-announcement around 20:00 UTC, Calif, one of the security firms that had reported the issues mistakenly published a video. It showed their proof of concept working against a number of targets and revealed a few additional, though limited, details about the vulnerabilities. Copies of the deleted video started circulating on social media soon after. The video contributed to accelerated development of various PoCs (exploitation proof of concepts), which then increased circulation on October 21st. This article from the team that discovered the original vulnerability includes a more detailed timeline of the original intended responsible disclosure: August 19, 2026: Wiz Research discovers the first PHP vulnerability using Wiz Atlas, Gemini 4 Argon, and GPT-5.6 Sol. August 20, 2026: Unauthenticated RCE is confirmed against Drupal. August 21, 2026: Unauthenticated RCE is confirmed against WordPress. August 24, 2026: Wiz Research reports the vulnerabilities to the PHP security team. September 21, 2026: PHP acknowledges the reports and begins developing a coordinated fix. October 21, 2026: Patched PHP releases become available. October 21, 2026: Public disclosure. Via Hacker News Tags: open-source , php , security , ai , ai-security-research",
+    "url": "https://simonwillison.net/2026/Oct/21/php-security-release/",
+    "topic": "llm",
+    "date": "2026-10-21",
+    "fetched_date": "2026-10-22",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Panache — RTS Belle Époque pour mobile",
+    "abstract": "Panache — RTS Belle Époque pour mobile Well this is delightful: I released Battle Drones yesterday under an Apache 2.0 License and there's already a French language fork which reskins the game to take place in steampunk 1900s France and adds an animated intro! Panache est un jeu de stratégie en temps réel pour mobile et navigateur, dans la France de la Belle Époque (vers 1900) : dirigeables, Fardiers à vapeur, Creusot cuirassés, automates en képi, Gargantua la forteresse marchante — et beaucoup de panache. You can play Panache here - it's worth clicking that link just to experience the new intro video. So far it's mostly just aesthetic updates as opposed to gameplay changes. The music has had a French twist added to it as well. The new steampunk models are so cool! Here's a page with the original Battle Drones models and that same page with the new Panache alternatives . This is a comparison of the original and the new design for the Goliath: Via @Meffysto69 Tags: game-design , open-source",
+    "url": "https://simonwillison.net/2026/Oct/21/panache/",
+    "topic": "llm",
+    "date": "2026-10-21",
+    "fetched_date": "2026-10-22",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Put Some Brain in Your Thinking",
+    "abstract": "Life advice from a 7-year-old",
+    "url": "https://www.thealgorithmicbridge.com/p/put-some-brain-in-your-thinking",
+    "topic": "llm",
+    "date": "2026-10-21",
+    "fetched_date": "2026-10-22",
+    "feed_name": "The Algorithmic Bridge",
+    "source": "industry"
+  },
+  {
+    "title": "Blackstone’s Jas Khaira says fears over AI-buildout debt are overblown",
+    "abstract": "Blackstone’s AI head on why the PE giant isn't panicked by market jitters.",
+    "url": "https://techcrunch.com/2026/10/21/blackstones-jas-khaira-says-fears-over-ai-buildout-debt-are-overblown/",
+    "topic": "llm",
+    "date": "2026-10-21",
+    "fetched_date": "2026-10-22",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "TechCrunch Founder Summit 2026: Everything you need to know",
+    "abstract": "TechCrunch Founder Summit is a full-day gathering in Boston on November 4 where founders across all stages connect with top VCs and experienced entrepreneurs to gain tactical insights on building and scaling their companies.",
+    "url": "https://techcrunch.com/2026/10/21/techcrunch-founder-summit-2026-everything-you-need-to-know/",
+    "topic": "llm",
+    "date": "2026-10-21",
+    "fetched_date": "2026-10-22",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Meta says Muse has over 10M users, with shopping a top activity",
+    "abstract": "Meta Muse users are adopting the app for shopping and personal productivity, the company said during Q3 earnings. The AI app now has over 10M users.",
+    "url": "https://techcrunch.com/2026/10/21/meta-says-muse-has-over-10m-users-with-shopping-a-top-activity/",
+    "topic": "llm",
+    "date": "2026-10-21",
+    "fetched_date": "2026-10-22",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Recursive launches Flint, a laptop coding model it says was largely built by AI",
+    "abstract": "Startup Recursive has released Flint, a free, laptop-sized coding model built largely by its own AI research system, as an early test of AI that improves itself.",
+    "url": "https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai/",
+    "topic": "llm",
+    "date": "2026-10-21",
+    "fetched_date": "2026-10-22",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "While Amazon blocks AI agents, Walmart rolls out the welcome mat",
+    "abstract": "As Amazon blocks AI agents from shopping on its site, Walmart is taking the opposite approach, introducing new technology that lets AI agents make purchases on customers' behalf, with controls over spending and transaction approvals.",
+    "url": "https://techcrunch.com/2026/10/21/while-amazon-blocks-ai-agents-walmart-rolls-out-the-welcome-mat/",
+    "topic": "llm",
+    "date": "2026-10-21",
+    "fetched_date": "2026-10-22",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "PHP Armageddon: OpenAI, Google’s Wiz find ancient holes, panicking the internet",
+    "abstract": "This is the kind of security issue that was found and prevented by AI, but is also a high risk because of AI.",
+    "url": "https://techcrunch.com/2026/10/21/php-armageddon-openai-googles-wiz-find-ancient-holes-panicking-the-internet/",
+    "topic": "llm",
+    "date": "2026-10-21",
+    "fetched_date": "2026-10-22",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Blacksmith hits unicorn valuation after Sequoia leads Series C",
+    "abstract": "Blacksmith, a platform that lets companies build and test AI code more effectively, just announced a $66 million Series C round led by Sequoia that values the company at $1 billion.",
+    "url": "https://techcrunch.com/2026/10/21/blacksmith-hits-unicorn-valuation-after-sequoia-leads-series-c/",
+    "topic": "llm",
+    "date": "2026-10-21",
+    "fetched_date": "2026-10-22",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "AI promises productivity, but for managers, it’s mostly a headache for now",
+    "abstract": "More than 50% of managers say they're finding it harder to evaluate employees' work after adopting AI, according to a new survey.",
+    "url": "https://techcrunch.com/2026/10/21/ai-promises-productivity-but-for-managers-its-mostly-a-headache-for-now-says-new-survey/",
+    "topic": "llm",
+    "date": "2026-10-21",
+    "fetched_date": "2026-10-22",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Modern Retail+ Research: Marketers express revenue optimism for the 2026 holiday season despite economic pressures",
+    "abstract": "In Modern Retail+ Research’s holiday report last year, brands and retailers expressed conservative expectations for their 2025 holiday revenue. This year, however, marketers are more optimistic.",
+    "url": "https://www.modernretail.co/marketing/modern-retail-research-marketers-express-revenue-optimism-for-the-2026-holiday-season-despite-economic-pressures/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-10-22",
+    "fetched_date": "2026-10-22",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "AI boosts discovery but reviews still seal the deal, new research shows",
+    "abstract": "Consumer surveys show that AI helps shoppers find gifts, but most still check reviews, compare prices and review retailers' policies before buying.",
+    "url": "https://www.modernretail.co/ai-strategies/ai-boosts-discovery-but-reviews-still-seal-the-deal-new-research-shows/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-10-22",
+    "fetched_date": "2026-10-22",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Kohl’s leans into clearer pricing, gift bundles and Uber Eats for the holidays",
+    "abstract": "Kohl's is emphasizing deeper discounts and delivery capabilities in its pitch to cash-strapped shoppers this holiday season.",
+    "url": "https://www.modernretail.co/marketing/kohls-leans-into-clearer-pricing-gift-bundles-and-uber-eats-for-the-holidays/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-10-21",
+    "fetched_date": "2026-10-22",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Target’s holiday push stresses affordability, exclusives and an AI assistant",
+    "abstract": "Target is betting on daily deals and a digital assistant to woo budget-conscious shoppers this holiday season.",
+    "url": "https://www.modernretail.co/marketing/targets-holiday-push-stresses-affordability-exclusives-and-an-ai-assistant/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-10-21",
+    "fetched_date": "2026-10-22",
+    "feed_name": "Modern Retail",
+    "source": "industry"
   }
 ]
