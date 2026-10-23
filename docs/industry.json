@@ -35298,5 +35298,265 @@
     "fetched_date": "2026-10-22",
     "feed_name": "Modern Retail",
     "source": "industry"
+  },
+  {
+    "title": "Build more responsive apps with the Decisions API",
+    "abstract": "Fast, focused, low-cost decisions for any application.",
+    "url": "https://openai.com/index/decisions-api",
+    "topic": "llm",
+    "date": "2026-10-22",
+    "fetched_date": "2026-10-23",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "What FDE means at OpenAI",
+    "abstract": "What forward deployed engineering means at OpenAI",
+    "url": "https://openai.com/index/forward-deployed-engineering-means",
+    "topic": "llm",
+    "date": "2026-10-22",
+    "fetched_date": "2026-10-23",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Uber brings ChatGPT Work to all employees with OpenAI",
+    "abstract": "Uber is rolling out ChatGPT Work to more than 30,000 employees, helping teams research, analyze data, create presentations, and complete complex workflows.",
+    "url": "https://openai.com/index/uber-chatgpt-work-rollout",
+    "topic": "llm",
+    "date": "2026-10-22",
+    "fetched_date": "2026-10-23",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/microsoft/thinkingbox-training",
+    "topic": "llm",
+    "date": "2026-10-22",
+    "fetched_date": "2026-10-23",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "OlmoEarth v1.3: State-of-the-art embeddings for the whole planet",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/allenai/olmoearth-v1-3",
+    "topic": "llm",
+    "date": "2026-10-22",
+    "fetched_date": "2026-10-23",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Ensemble forecasting with IBM Granite time-series models",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1",
+    "topic": "llm",
+    "date": "2026-10-22",
+    "fetched_date": "2026-10-23",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Beyond tree cover: mapping the world’s forest types",
+    "abstract": "A global map categorizing every 10-meter patch of land on Earth into distinct forest types.",
+    "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
+    "topic": "generative-ai",
+    "date": "2026-10-22",
+    "fetched_date": "2026-10-23",
+    "feed_name": "DeepMind Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Single-tenant Titus: VM-level isolation on a multi-tenant container platform",
+    "abstract": "",
+    "url": "https://netflixtechblog.com/single-tenant-titus-vm-level-isolation-on-a-multi-tenant-container-platform-6d8b1909d163?source=rss----2615bd06b42e---4",
+    "topic": "ml-engineering",
+    "date": "2026-10-22",
+    "fetched_date": "2026-10-23",
+    "feed_name": "Netflix Tech Blog",
+    "source": "industry"
+  },
+  {
+    "title": "DE STAAT - FREEDOM (Official Music Video)",
+    "abstract": "DE STAAT - FREEDOM (Official Music Video) OK well this is a first for me... at 00:44 in this new music video by Dutch alternative rock band De Staat : The visual effects are credited to Matties Grooten of Fake it or Leave it . Via flir on Hacker News Tags: music , ai , generative-ai , pelican-riding-a-bicycle",
+    "url": "https://simonwillison.net/2026/Oct/22/de-staat-freedom/",
+    "topic": "llm",
+    "date": "2026-10-22",
+    "fetched_date": "2026-10-23",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Donating Agent Skills to the Agentic AI Foundation",
+    "abstract": "Donating Agent Skills to the Agentic AI Foundation News today from Anthropic: We’re committed to keeping Agent Skills open, community-driven, and vendor-neutral. Today, we are donating the standard to the Agentic AI Foundation (AAIF) under the Linux Foundation, which we co-founded with Block and OpenAI last year, and to which we donated the Model Context Protocol (MCP). I'm pleased to note I called this one last December , when Anthropic first declared skills to be an \"open standard\": I wouldn't be surprised to see this end up in the AAIF , recently the new home of the MCP specification. Fun side note: since my blog content is available to Claude via the datasette-mcp plugin I found that post by prompting Claude to \" Use simonwillison.net MCP to find if I ever talked about how I want skills to be donated to a standards body \". Tags: standards , ai , generative-ai , llms , anthropic , model-context-protocol , skills",
+    "url": "https://simonwillison.net/2026/Oct/22/donating-agent-skills/",
+    "topic": "llm",
+    "date": "2026-10-22",
+    "fetched_date": "2026-10-23",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Quoting Armin Ronacher",
+    "abstract": "As fun as AI is, we built so much bad software over the last 30 years, and now the universe is punishing us for our sins. — Armin Ronacher Tags: security , generative-ai , armin-ronacher , ai , ai-security-research , llms",
+    "url": "https://simonwillison.net/2026/Oct/22/armin-ronacher/",
+    "topic": "llm",
+    "date": "2026-10-22",
+    "fetched_date": "2026-10-23",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Uber rival inDrive eyes 2027 robotaxi tests in Central Asia with Pony.ai and Nvidia",
+    "abstract": "inDrive plans to begin testing Pony.ai's robotaxis in Kazakhstan's capital in the first half of 2027.",
+    "url": "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/",
+    "topic": "llm",
+    "date": "2026-10-23",
+    "fetched_date": "2026-10-23",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Left alone with nothing to do, AI agents started playing",
+    "abstract": "MIT researchers marooned 13 AIs on a virtual island, and they responded by inventing games, mourning a lost ring and, eventually, getting better at their jobs.",
+    "url": "https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/",
+    "topic": "llm",
+    "date": "2026-10-23",
+    "fetched_date": "2026-10-23",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "OpenAI working on new $30B raise at $1.25T valuation ahead of IPO",
+    "abstract": "Should OpenAI command an over $1 trillion valuation with this round, it would break records as the most highly valued private company ever.",
+    "url": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
+    "topic": "llm",
+    "date": "2026-10-22",
+    "fetched_date": "2026-10-23",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "1Password launches a way for AI agents to log in on your behalf without seeing your password",
+    "abstract": "The new feature allows agents to log into a customer's personal accounts while still protecting the private credentials that secure those accounts.",
+    "url": "https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password/",
+    "topic": "llm",
+    "date": "2026-10-22",
+    "fetched_date": "2026-10-23",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Canva releases its first image generation model",
+    "abstract": "Canva is making its new image model available to all users, promising better, more customizable performance at lower costs.",
+    "url": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/",
+    "topic": "llm",
+    "date": "2026-10-22",
+    "fetched_date": "2026-10-23",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "OpenAI makes its Jev competitor widely available as decision model competition heats up",
+    "abstract": "OpenAI is launching its decision model to the world. Can it compete with the original Jev?",
+    "url": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/",
+    "topic": "llm",
+    "date": "2026-10-22",
+    "fetched_date": "2026-10-23",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Microsoft’s Mustafa Suleyman says its AI outperforms doctors on hard cases as he chases ‘medical superintelligence’",
+    "abstract": "Microsoft’s new AI diagnostic system beat generalist doctors on hard cases, according to a study in Science. But most of the improvement seems to come from the AI models underneath, not from Microsoft’s system itself.",
+    "url": "https://techcrunch.com/2026/10/22/microsofts-mustafa-suleyman-says-its-ai-outperforms-doctors-on-hard-cases-as-he-chases-medical-superintelligence/",
+    "topic": "llm",
+    "date": "2026-10-22",
+    "fetched_date": "2026-10-23",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Chinese hackers spied on thousands of companies after breaching IT giant ConnectWise",
+    "abstract": "Microsoft points the blame for ConnectWise's breach at a China-aligned hacker, which relied on AI agents to rapidly hack into thousands of its customers.",
+    "url": "https://techcrunch.com/2026/10/22/chinese-hackers-spied-on-thousands-of-companies-after-breaching-it-giant-connectwise/",
+    "topic": "llm",
+    "date": "2026-10-22",
+    "fetched_date": "2026-10-23",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Uber puts all 30,000 employees on ChatGPT Work",
+    "abstract": "The ride-share giant previously deployed a much smaller pilot for ChatGPT Work but is now taking the enterprise agent company-wide.",
+    "url": "https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/",
+    "topic": "llm",
+    "date": "2026-10-22",
+    "fetched_date": "2026-10-23",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Spotify’s current AI bet is about being the music service that agents choose",
+    "abstract": "Spotify co-CEO Gustav Söderström explains why the rise of AI agents could be good news for the music service.",
+    "url": "https://techcrunch.com/2026/10/22/spotifys-current-ai-bet-is-about-being-the-music-service-that-agents-choose/",
+    "topic": "llm",
+    "date": "2026-10-22",
+    "fetched_date": "2026-10-23",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Claude Duet app is Anthropic’s bet on agents",
+    "abstract": "Claude Duet is available through waitlist for Pro and Max plan users.",
+    "url": "https://techcrunch.com/2026/10/22/claude-duet-app-is-anthropics-bet-on-agents/",
+    "topic": "llm",
+    "date": "2026-10-22",
+    "fetched_date": "2026-10-23",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Nirva raises $33M for a pendant that only listens to you",
+    "abstract": "Nirva will ship its $249 ambient AI pendant by the end of the year.",
+    "url": "https://techcrunch.com/2026/10/22/nirva-raises-33m-for-a-pendant-that-only-listens-to-you/",
+    "topic": "llm",
+    "date": "2026-10-22",
+    "fetched_date": "2026-10-23",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "DeepSeek reportedly raises $15B days after US restrictions",
+    "abstract": "DeepSeek has reportedly raised $15 billion in one of China's largest funding rounds, just days after the U.S. ordered federal agencies to remove its technology over national security concerns.",
+    "url": "https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions/",
+    "topic": "llm",
+    "date": "2026-10-22",
+    "fetched_date": "2026-10-23",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Building an AI Agent for Data Pipeline Creation",
+    "abstract": "We built Pipeline Build Agent — a conversational AI agent that automates Airflow DAG and PySpark pipeline creation from a single Slack message, turning hours of manual work into a few minutes of conversation. The post Building an AI Agent for Data Pipeline Creation appeared first on GoDaddy Blog .",
+    "url": "https://www.godaddy.com/resources/news/building-an-ai-agent-for-data-pipeline-creation",
+    "topic": "ml-engineering",
+    "date": "2026-10-22",
+    "fetched_date": "2026-10-23",
+    "feed_name": "GoDaddy Engineering",
+    "source": "industry"
+  },
+  {
+    "title": "Big-Box Briefing: How brands are juggling new marketplaces this holiday season",
+    "abstract": "As more brick-and-mortar retailers launch their own third-party marketplaces, brands have more paths than ever before to reach new customers but also new systems to master. Brands and agencies sound off on what the key to success looks like on Walmart, Target and more.",
+    "url": "https://www.modernretail.co/retailers/big-box-briefing-how-brands-are-juggling-new-marketplaces-this-holiday-season/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-10-22",
+    "fetched_date": "2026-10-23",
+    "feed_name": "Modern Retail",
+    "source": "industry"
   }
 ]
