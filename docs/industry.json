@@ -35708,5 +35708,55 @@
     "fetched_date": "2026-10-24",
     "feed_name": "Modern Retail",
     "source": "industry"
+  },
+  {
+    "title": "battledrones v14: Compass Rose, a four player map",
+    "abstract": "Release: battledrones v14: Compass Rose, a four player map I added four player online mode to Battledrones - previous maps were limited to two. Here's the initial prompt I used: Add a new map for a four player battle - four way rotational symmetry, up to four AI players, works with the WebSocket non-audio based multiplayer mode so up to four human players can join (any spare slots use AI) Claude Opus 5.5 added a new map called \"Compass Rose\" and modified the WebSockets multiplayer network code to support up to four players for that map, joining via share links or QR codes. The new teams use robots themed in purple and green, joining the existing blue and red designs. You can preview those colors in the updated model browser . Here's a replay link to watch a four way AI battle with the \"Goliath Armada\" mutator turned on, where each side starts with four giant Goliath mech units. Tags: game-design , projects , claude",
+    "url": "https://simonwillison.net/2026/Oct/24/battledrones/",
+    "topic": "llm",
+    "date": "2026-10-24",
+    "fetched_date": "2026-10-25",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
+    "abstract": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
+    "url": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+    "topic": "llm",
+    "date": "2026-10-24",
+    "fetched_date": "2026-10-25",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Block’s new voice model sounds eerily human",
+    "abstract": "Block said that the voice model can run locally on a MacBook M4 Max",
+    "url": "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/",
+    "topic": "llm",
+    "date": "2026-10-24",
+    "fetched_date": "2026-10-25",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats.",
+    "abstract": "A new study found Grok's AI overwhelmingly recommends Republican candidates while OpenAI's GPT favors Democrats, with the two AI models disagreeing in more than 90% of nearly 500 election races.",
+    "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
+    "topic": "llm",
+    "date": "2026-10-24",
+    "fetched_date": "2026-10-25",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Here are the top AI agents that can live in your text messages",
+    "abstract": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
+    "url": "https://techcrunch.com/2026/10/24/all-the-ai-agents-that-can-live-in-your-text-messages/",
+    "topic": "llm",
+    "date": "2026-10-24",
+    "fetched_date": "2026-10-25",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
   }
 ]
