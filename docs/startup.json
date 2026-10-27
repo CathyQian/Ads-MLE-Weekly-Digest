@@ -19758,5 +19758,95 @@
     "fetched_date": "2026-10-26",
     "feed_name": "TechCrunch",
     "source": "startup"
+  },
+  {
+    "title": "How OpenAI turned its coding tools into dots, an always-on personal assistant",
+    "abstract": "Alexander Embiricos, the OpenAI executive responsible for dots, never wants to have a meeting with someone else's AI agent.",
+    "url": "https://techcrunch.com/2026/10/26/how-openai-turned-its-coding-tools-into-dots-an-always-on-personal-assistant/",
+    "topic": "startup",
+    "date": "2026-10-27",
+    "fetched_date": "2026-10-27",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Cohere says Alibaba’s Qwen model tried to send a file to Beijing",
+    "abstract": "An AI model said it wouldn’t use any tools, then tried to send something to a server in Beijing anyway, and while researchers say it’s probably a training quirk and not espionage, the whole thing has people asking how much to trust free Chinese AI.",
+    "url": "https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/",
+    "topic": "startup",
+    "date": "2026-10-27",
+    "fetched_date": "2026-10-27",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Databricks co-founder shares his secrets for winning big enterprise customers",
+    "abstract": "Turns out selling to big companies isn’t about having the shiniest tech: It’s about hitching a ride on a giant’s sales team.",
+    "url": "https://techcrunch.com/2026/10/26/databricks-co-founder-shares-his-secrets-for-winning-big-enterprises-customers/",
+    "topic": "startup",
+    "date": "2026-10-26",
+    "fetched_date": "2026-10-27",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Uh-oh, it sounds like the iPhone Duo keeps cracking and users aren’t happy about it",
+    "abstract": "A small number of early adopters of the much-hyped new foldable phone from Apple have complained of screens cracking.",
+    "url": "https://techcrunch.com/2026/10/26/uh-oh-it-sounds-like-the-iphone-duo-keeps-cracking-and-users-arent-happy-about-it/",
+    "topic": "startup",
+    "date": "2026-10-26",
+    "fetched_date": "2026-10-27",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Fusion startups are giving the government shares in exchange for awards. Is it worth it?",
+    "abstract": "Fusion startups face a new challenge, one unrelated to plasma physics: Give the government shares in exchange for funding awards or go it alone?",
+    "url": "https://techcrunch.com/2026/10/26/fusion-startups-are-giving-the-government-shares-in-exchange-for-awards-is-it-worth-it/",
+    "topic": "startup",
+    "date": "2026-10-26",
+    "fetched_date": "2026-10-27",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "This startup’s self-driving excavators help dig up $600M in new funding",
+    "abstract": "Bedrock Robotics, which is now valued at $4.1 billion, is particularly focused on autonomous excavators, in part because of a growing shortage of skilled operators.",
+    "url": "https://techcrunch.com/2026/10/26/this-startups-self-driving-excavators-help-dig-up-600m-in-new-funding/",
+    "topic": "startup",
+    "date": "2026-10-26",
+    "fetched_date": "2026-10-27",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "SpaceX locks in $40B GPU financing deal with Apollo",
+    "abstract": "The financing gives SpaceX another way to fund its rapidly expanding AI ambitions without relying solely on traditional debt markets.",
+    "url": "https://techcrunch.com/2026/10/26/spacex-locks-in-40b-gpu-financing-deal-with-apollo/",
+    "topic": "startup",
+    "date": "2026-10-26",
+    "fetched_date": "2026-10-27",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Anthropic officially files for its public debut",
+    "abstract": "Anthropic has officially filed for an IPO, revealing soaring revenue, mounting losses, major enterprise adoption, and an unusual governance structure designed to preserve founder control and its AI safety mission.",
+    "url": "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/",
+    "topic": "startup",
+    "date": "2026-10-26",
+    "fetched_date": "2026-10-27",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Matiks raises $10M to expand its math and puzzle gaming platform",
+    "abstract": "Matiks has introduced a new platform for users to create games using AI.",
+    "url": "https://techcrunch.com/2026/10/26/matiks-raises-10m-to-expand-its-math-and-puzzle-gaming-platform/",
+    "topic": "startup",
+    "date": "2026-10-26",
+    "fetched_date": "2026-10-27",
+    "feed_name": "TechCrunch",
+    "source": "startup"
   }
 ]
