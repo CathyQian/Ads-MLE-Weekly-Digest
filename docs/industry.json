@@ -36008,5 +36008,225 @@
     "fetched_date": "2026-10-27",
     "feed_name": "Modern Retail",
     "source": "industry"
+  },
+  {
+    "title": "Retell uses OpenAI models to help power 100M monthly calls",
+    "abstract": "GPT-6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee.",
+    "url": "https://openai.com/index/retell-ai",
+    "topic": "llm",
+    "date": "2026-10-27",
+    "fetched_date": "2026-10-28",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
+    "abstract": "OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings.",
+    "url": "https://openai.com/index/oracle-apps-in-chatgpt",
+    "topic": "llm",
+    "date": "2026-10-27",
+    "fetched_date": "2026-10-28",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "How Check Point accelerates vulnerability research with Daybreak",
+    "abstract": "With OpenAI Daybreak, Check Point speeds up the research behind new security protections, enabling its analysts to turn vulnerability intelligence into customer defenses faster.",
+    "url": "https://openai.com/index/check-point-daybreak",
+    "topic": "llm",
+    "date": "2026-10-27",
+    "fetched_date": "2026-10-28",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Build specialized multimodal models with LFM3",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/LiquidAI/lfm3",
+    "topic": "llm",
+    "date": "2026-10-27",
+    "fetched_date": "2026-10-28",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Can we trust LLMs to judge whether a research idea is novel?",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/allenai/novelty-bench",
+    "topic": "llm",
+    "date": "2026-10-27",
+    "fetched_date": "2026-10-28",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Genie 4: A new generation of world simulation",
+    "abstract": "Genie 4: our new world model unlocking unprecedented realism in real-time simulation.",
+    "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+    "topic": "generative-ai",
+    "date": "2026-10-27",
+    "fetched_date": "2026-10-28",
+    "feed_name": "DeepMind Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Game Boy Color on My Conference Badge",
+    "abstract": "Game Boy Color on My Conference Badge I'm at GitHub Universe this week and, similar to last year , the conference badge is a full-blown color screen computer. I've been hacking around with it again, and then I ran into with Steve Francia... who worked with Gemini to get a full NES emulator working on it, and then went a step further and deployed an emulator for both the Game Boy and the Game Boy Color. Which means, if you can obtain the ROM, you can run The Legend of Zelda: Link's Awakening on your conference badge! A neat feature of the badge is that you can turn it upside down and then use game controller touch buttons that are built into the badge body. Tags: games , github , hardware-hacking , ai , generative-ai , llms , gemini , steve-francia",
+    "url": "https://simonwillison.net/2026/Oct/27/game-boy-color-on-my-conference-badge/",
+    "topic": "llm",
+    "date": "2026-10-27",
+    "fetched_date": "2026-10-28",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "VCs will make billions on Anthropic’s IPO, but Amazon is set to make much (much) more",
+    "abstract": "Massive note conversions reveal the true extent of Amazon's ownership in Anthropic.",
+    "url": "https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more/",
+    "topic": "llm",
+    "date": "2026-10-28",
+    "fetched_date": "2026-10-28",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Parents sue OpenAI, alleging GPT-4o coached their daughter off seizure medication",
+    "abstract": "A family is suing OpenAI, saying ChatGPT coached their daughter to quietly taper off her seizure medication and keep it from her doctors before she died in February.",
+    "url": "https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/",
+    "topic": "llm",
+    "date": "2026-10-27",
+    "fetched_date": "2026-10-28",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "The data center boom has an upside: innovation for the US grid",
+    "abstract": "As the AI boom stresses the existing power grid, all sorts of new opportunities for grid modernization are also emerging as a result, industry insiders say.",
+    "url": "https://techcrunch.com/2026/10/27/the-data-center-boom-has-an-upside-innovation-for-the-us-grid/",
+    "topic": "llm",
+    "date": "2026-10-27",
+    "fetched_date": "2026-10-28",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Bank of America kindly asks that you don’t share your banking password with your AI assistant",
+    "abstract": "The banking giant reminds customers that \"you're responsible for activity\" resulting from your AI agents' access.",
+    "url": "https://techcrunch.com/2026/10/27/bank-of-america-kindly-asks-that-you-dont-share-your-banking-password-with-your-ai-assistant/",
+    "topic": "llm",
+    "date": "2026-10-27",
+    "fetched_date": "2026-10-28",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Who’s really in charge at Anthropic after the IPO?",
+    "abstract": "Here's a clear explanation of Anthropic's incredibly complex governance structure.",
+    "url": "https://techcrunch.com/2026/10/27/whos-really-in-charge-at-anthropic-after-the-ipo/",
+    "topic": "llm",
+    "date": "2026-10-27",
+    "fetched_date": "2026-10-28",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Disruptive raises $10B fund to make big bets on at least 10 companies",
+    "abstract": "Disruptive has made headlines in recent years for pouring money into companies like chip startup Groq and the AI voice-generation startup ElevenLabs.",
+    "url": "https://techcrunch.com/2026/10/27/disruptive-raises-10b-fund-to-make-big-bets-on-at-least-10-companies/",
+    "topic": "llm",
+    "date": "2026-10-27",
+    "fetched_date": "2026-10-28",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Frontier AI labs say their models refuted the Exponential Time Hypothesis. What does that mean?",
+    "abstract": "TechCrunch spoke to the MIT computer scientist charged with explaining OpenAI's latest mind-bending discovery.",
+    "url": "https://techcrunch.com/2026/10/27/frontier-ai-labs-say-their-models-refuted-the-exponential-time-hypothesis-what-does-that-mean/",
+    "topic": "llm",
+    "date": "2026-10-27",
+    "fetched_date": "2026-10-28",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Google’s Genie 4 world model adds audio, more realistic worlds, and real-time steering",
+    "abstract": "Genie 4 can maintain a consistent scene for up to two minutes, double Genie 3's limit, and offers better physics and more humanlike characters.",
+    "url": "https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/",
+    "topic": "llm",
+    "date": "2026-10-27",
+    "fetched_date": "2026-10-28",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Meta AI director Rohit Patel leaves to take on Microsoft Office and Google Workspace",
+    "abstract": "Rohit Patel is departing Meta after eight years working on AI evaluations and reinforcement learning, TechCrunch has exclusively learned. His startup, Ndoc, aims to take on Microsoft Office Suite.",
+    "url": "https://techcrunch.com/2026/10/27/meta-ai-director-rohit-patel-leaves-to-take-on-microsoft-office-and-google-workspace/",
+    "topic": "llm",
+    "date": "2026-10-27",
+    "fetched_date": "2026-10-28",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Japan internet giant GMO says hackers posted stolen customer data",
+    "abstract": "Japan's GMO Internet is verifying alleged customer data posted by suspected hackers following a cloud service breach.",
+    "url": "https://techcrunch.com/2026/10/27/japan-internet-giant-gmo-says-hackers-posted-stolen-customer-data/",
+    "topic": "llm",
+    "date": "2026-10-27",
+    "fetched_date": "2026-10-28",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Opera introduces a new web standard to let users deploy AI locally in their browser",
+    "abstract": "The new standard, WebAI, is designed to work with a variety of AI models.",
+    "url": "https://techcrunch.com/2026/10/27/opera-introduces-a-new-web-standard-to-let-users-deploy-ai-locally-in-their-browser/",
+    "topic": "llm",
+    "date": "2026-10-27",
+    "fetched_date": "2026-10-28",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "General Compute raises $100 million Series A, countering the neocloud disaster narrative",
+    "abstract": "General Compute is betting on inference chips from outside the Nvidia ecosystem.",
+    "url": "https://techcrunch.com/2026/10/27/general-compute-raises-100-million-series-a-countering-the-neocloud-disaster-narrative/",
+    "topic": "llm",
+    "date": "2026-10-27",
+    "fetched_date": "2026-10-28",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Nvidia backs Indian startup helping companies run AI models with fewer GPUs",
+    "abstract": "Simplismart says its annualized revenue run rate has grown fourteenfold in six months, with the U.S. accounting for more than half its revenue.",
+    "url": "https://techcrunch.com/2026/10/27/nvidia-backs-indian-startup-helping-companies-run-ai-models-with-fewer-gpus/",
+    "topic": "llm",
+    "date": "2026-10-27",
+    "fetched_date": "2026-10-28",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Intake Breathing nabs $62M investment, joining the emerging nasal wellness trend",
+    "abstract": "Intake Breathing raises $62 million to expand its nasal strips into retail and continue to position better breathing as an important part of everyday wellness routines.",
+    "url": "https://www.modernretail.co/operations/intake-breathing-62-million-funding-round/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-10-28",
+    "fetched_date": "2026-10-28",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Brands Briefing: Shoulder bags and TikTok Shop are powering Vera Bradley’s latest turnaround",
+    "abstract": "Vera Bradley is seeing its first growth in years after zeroing in on small silhouettes, bag charms, and social and digital channels.",
+    "url": "https://www.modernretail.co/operations/brands-briefing-shoulder-bags-and-tiktok-shop-are-powering-vera-bradleys-latest-turnaround/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-10-27",
+    "fetched_date": "2026-10-28",
+    "feed_name": "Modern Retail",
+    "source": "industry"
   }
 ]
