@@ -339670,5 +339670,337 @@
       "Arthur Zimek (University of Southern Denmark)"
     ],
     "article_type": "research"
+  },
+  {
+    "title": "From Structural Feedback to Prompt Policies: Learning Faithful Text-to-Image Prompt Editors",
+    "abstract": "Prompt optimization should improve the image a user receives without changing the scene the user requested. Yet stylistic rewriting can weaken object attributes and relations even when global text--image similarity remains high. We propose StruPO, a structure-aware prompt editor that uses a calibrated scene graph as a shared representation for policy conditioning and image-grounded supervision. The graph exposes what should be preserved, while deletion, reordering, and insertion provide a token-aligned way to modify the prompt. This turns structural feedback from an external critique into a training signal for a reusable editing policy. Learning from that signal requires handling both uncertain grounding and stochastic image generation. StruPO retains grounding confidence through smooth reward shaping and averages multiple images for each edit before computing group-relative advantages. Experiments span three disjoint 2K-prompt test sets and four frozen generation backbones, with comparisons to learned prompt optimizers, iterative structural feedback, diffusion-model fine-tuning, and inference-time attention control. StruPO improves the faithfulness--aesthetics trade-off, with consistent gains in relational fidelity. Independent automatic evaluators and a 15-annotator study provide complementary evidence, and human preference margins increase with relation complexity. Controlled ablations connect these gains to graph conditioning, local editing, and image-grounded learning. The resulting policy produces reusable optimized text in one pass after graph calibration, without an iterative critique--rewrite loop.",
+    "url": "http://arxiv.org/abs/2610.36146",
+    "pdf": "https://arxiv.org/pdf/2610.36146v1",
+    "keyword": "reward shaping",
+    "date": "2026-10-26",
+    "fetched_date": "2026-10-29",
+    "authors": [
+      "Wentao Ye",
+      "Yali Ye",
+      "Zhiqing Xiao",
+      "Ru Peng",
+      "Xinpeng Ti",
+      "Liyao Li",
+      "Zhanming Shen",
+      "Peng Lu",
+      "Jie Zhang",
+      "Haobo Wang"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "Autonomous fixed-wing interception using reinforcement learning",
+    "abstract": "Medium altitude, long endurance unmanned aerial systems such as Shahed-type strike drones are an unanswered threat in modern conflicts. Conventional air defense systems are too expensive to provide a feasible large-scale solution. Quadcopter interceptors are a cheap, battle-proven alternative, but their extremely limited flight time restricts them to low altitude targets at short range, whereas fixed-wing platforms have the endurance to reach higher altitude targets from longer distances. However, such interceptors are still operated manually. Recent developments in learning-based controllers show potential for automation. In this work, a fixed-wing interceptor is presented that is controlled by a neural network that maps filtered monocular vision observations directly to actuator commands. The policy was trained in a custom Python environment using reinforcement learning and proximal policy optimization. The policy was then deployed on a fixed-wing platform and tested in real interception scenarios. As a baseline, two classical guidance controllers were also developed and tested in simulation. The policy is able to intercept targets both in simulation and in real flight. In simulation, the policy outperforms the classical controllers under most conditions. The interceptor was ultimately successfully validated in real flight by intercepting maneuvering fixed-wing targets. This novel system shows the potential of artificial intelligence for autonomous control of fixed-wing interceptor drones.",
+    "url": "http://arxiv.org/abs/2610.37470",
+    "pdf": "https://arxiv.org/pdf/2610.37470v1",
+    "keyword": "policy optimization",
+    "date": "2026-10-27",
+    "fetched_date": "2026-10-29",
+    "authors": [
+      "Daan van Hamersveld",
+      "Ewoud Smeur",
+      "Iurii Kriachko"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "Uncovering Shortcut Amplification in Video RLVR through the Lens of Perceptual Uncertainty Collapse",
+    "abstract": "Reinforcement learning with verifiable rewards (RLVR) has emerged as an effective post-training paradigm for enhancing the video reasoning capability of Large Multimodal Models (LMMs). Despite its empirical effectiveness, we show that outcome-level optimization can introduce an undesirable shortcut amplification effect, whereby models increasingly favor text-prior answers even when they are not supported by the visual evidence. To characterize this behavior, we investigate the training dynamics of video RLVR through the lens of perceptual uncertainty, analyzing how predictive uncertainty evolves under video-conditioned and text-only contexts. Our analysis identifies a perceptual uncertainty collapse phenomenon, in which RL training continuously sharpens the model's answer distribution while the uncertainty reduction attributable to visual evidence progressively diminishes. A further gradient-direction analysis reveals that such confidence enhancement becomes increasingly less aligned with visually grounded uncertainty reduction and is instead dominated by text-prior compression. Motivated by these findings, we propose Bifocal Self-distillation Policy Optimization (BSPO), a self-distillation framework that regulates policy updates with two complementary distributional signals. Specifically, BSPO derives empirical reasoning principles from intra-group correct and incorrect rollouts to identify reasoning-sensitive tokens, and introduces shortcut-aware visual perturbation to penalize predictions that remain invariant when task-relevant visual evidence is weakened. By adaptively reweighting the original RL advantage, BSPO preserves the task-solving benefits of RLVR while promoting updates that are both reasoning-sensitive and visually grounded. Extensive experiments validate the effectiveness of BSPO in improving video reasoning performance and strengthening visual faithfulness.",
+    "url": "http://arxiv.org/abs/2610.37211",
+    "pdf": "https://arxiv.org/pdf/2610.37211v1",
+    "keyword": "policy optimization",
+    "date": "2026-10-27",
+    "fetched_date": "2026-10-29",
+    "authors": [
+      "Jiafeng Liang",
+      "Xianhao Ou",
+      "Tao Ren",
+      "Rongchuan Mu",
+      "Runxuan Liu",
+      "Dandan Tu",
+      "Ming Liu",
+      "See-Kiong Ng",
+      "Bing Qin"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "SetGRPO: Calibrating Grader-Induced Policy Optimization",
+    "abstract": "Rubric-based reinforcement learning uses fine-grained grader feedback to train large language models on open-ended tasks, but grader randomness can alter GRPO updates in ways that score discrepancies alone cannot characterize. Because GRPO jointly normalizes rewards within each response group and combines the resulting training coefficients with response-level gradients, a scoring discrepancy can shift the coefficients of the entire group and induce policy-dependent update changes. Selective execution further affects the direction-reversal risk of retained updates. To address this, we propose Set-Valued Group Relative Policy Optimization (SetGRPO). It comprises three modules: (a) Joint Reward Set Calibration constructs a joint uncertainty set for the training coefficients; (b) Geometry-Guided Safe Recovery maps candidate coefficients into the current policy's local update geometry and determines the largest safe recovery ratio for each response group; and (c) Selective Risk-Gated Optimization selects a global threshold through independent risk calibration to control the conditional direction-reversal risk of accepted updates while preserving the original GRPO objective. Under exchangeability, SetGRPO provides finite-sample marginal coverage for the joint coefficient set and simultaneous risk control across candidate thresholds. On ten open-ended benchmarks spanning three domains, SetGRPO achieves the highest macro average among all compared training methods on both Qwen3.5 and Llama3.2 model families.",
+    "url": "http://arxiv.org/abs/2610.36807",
+    "pdf": "https://arxiv.org/pdf/2610.36807v1",
+    "keyword": "policy optimization",
+    "date": "2026-10-27",
+    "fetched_date": "2026-10-29",
+    "authors": [
+      "Jiale Huang",
+      "Zixu Li",
+      "Zhiwei Chen",
+      "Zhiheng Fu",
+      "Jinhe Bi",
+      "Yupeng Hu"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "Bridging Exploration and Loss of Plasticity in On-Policy Reinforcement Learning",
+    "abstract": "Deep reinforcement learning (RL) algorithms have been observed to lose the ability to adaptively learn from new data, a phenomenon termed Loss of Plasticity (LoP). While many metrics have been shown to correlate with it, the causal mechanisms and the geometric conditions from which it can arise have not been clearly identified. We analyze LoP in Proximal Policy Optimization with isotropic Gaussian policies, the state-of-the-art formulation for many continuous action spaces in RL. We report multiple metrics which characterize the effect that the policy standard deviation $σ$ has on LoP, and we also suggest related explanations for the effectiveness of widely adopted LoP mitigation techniques. We observe a significant effect of $σ$ on the extent of LoP, and accompany this with both theoretical and experimental supporting arguments. Our experimental validation consists of LoP benchmark evaluations against standard baselines as well as real-world policy deployment on a 7-DoF robotic arm.",
+    "url": "http://arxiv.org/abs/2610.36309",
+    "pdf": "https://arxiv.org/pdf/2610.36309v1",
+    "keyword": "policy optimization",
+    "date": "2026-10-26",
+    "fetched_date": "2026-10-29",
+    "authors": [
+      "Andrea Vasco Grieco",
+      "Evelyn D'Elia",
+      "Edoardo Caldarelli",
+      "Raffaello Camoriano"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "BUSTA: Teaching Small Language Models to Reason About Binary Execution",
+    "abstract": "Large Language Models (LLM) are increasingly applied to Reverse Engineering (RE) workflows. RE, however, differs from common LLM coding tasks as it requires models to reason about low-level program behavior. Furthermore, the deployment of tooling in resource-constrained sandboxed RE environments limits the ability to use frontier-scale solutions. We examine whether a targeted LLM training approach can transfer distinct RE skills to open models via inverse basic-block execution: given an x86-64 basic block and a desired output register state, the model predicts the input register values that produce it. Fine-tuning \\texttt{Qwen3-1.7B} and \\texttt{Nemotron-3-Nano} with Group Relative Policy Optimization (GRPO) raises knowable-register prediction accuracy from 73.2\\% to 85.3\\% and from 63.3\\% to 95.2\\%, respectively. Frontier models still score highest (up to 99.2\\%), but our fine-tuned \\texttt{Nemotron-3-Nano} comes within four points at a fraction of the parameter count. We release both fine-tuned models and the training dataset.",
+    "url": "http://arxiv.org/abs/2610.36288",
+    "pdf": "https://arxiv.org/pdf/2610.36288v1",
+    "keyword": "policy optimization",
+    "date": "2026-10-26",
+    "fetched_date": "2026-10-29",
+    "authors": [
+      "Ritika Poddar",
+      "Aidan Fennelly",
+      "Deirdre Murphy",
+      "Eric Wolos",
+      "Corre L. Steele",
+      "Michael Doyle"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "Learning Multi-Phase Robot Loco-Manipulation via Phase-Conditioned Policy Optimization",
+    "abstract": "Complex whole-body loco-manipulation requires executing diverse maneuvers, such as crouching, grasping, and locomotion, within a single long-horizon task. While performing simple pick-and-place behaviors is well-established, scaling to complex, long-horizon tasks remains difficult. Currently, this challenge is addressed by relying on human motion data and correspondingly humanoid platforms, which limits platform independence and introduces substantial data processing overhead. Instead, we extend proximal policy optimization (PPO) to train a single policy for multi-phase tasks across diverse robotic hardware, leveraging prior task structure to shape behavior. Our method adapts PPO using a phase-conditioned critic, phase-gated reward functions, and a multi-phase reset curriculum to guide exploration. To support varied hardware, we employ a decoupled hierarchical control architecture that separates lower-level balancing dynamics from high-level phase execution. We demonstrate multi-stage loco-manipulation skills on hardware on both the Unitree G1 and a Boston Dynamics Spot equipped with a manipulator arm, and validate our design choices through ablations. Our approach enables the acquisition of complex loco-manipulation behaviors purely through environment interaction while directly incorporating high-level task structure into policy learning.",
+    "url": "http://arxiv.org/abs/2610.36270",
+    "pdf": "https://arxiv.org/pdf/2610.36270v1",
+    "keyword": "policy optimization",
+    "date": "2026-10-26",
+    "fetched_date": "2026-10-29",
+    "authors": [
+      "Simone Manni",
+      "Annika Wollschläger",
+      "Dario Bellicoso",
+      "Abel Gawel",
+      "Marco Hutter",
+      "Simon Le Cleac'h",
+      "Jan Brüdigam"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "CRLoMTL: Conflict-Resolution through Low-rank matrices for Multi-Task Learning",
+    "abstract": "Multi-task learning (MTL) improves model efficiency by sharing representations across related vision tasks, but it often suffers from negative transfer when task updates interfere with one another. Existing conflict-mitigation methods typically operate in gradient space, requiring explicit task-gradient manipulation and additional optimization steps. We propose Conflict-Resolution through Low-Rank Matrices for Multi-Task Learning (CRLoMTL), a parameter-efficient framework that mitigates task interference in the low-rank parameter-update space. CRLoMTL learns task-specific LoRA updates through task-specific passes, where each task updates its own low-rank matrices, and integrates these updates through global shared-subspace fusion. Specifically, we introduce a shared-subspace resolver based on singular value decomposition (SVD), referred to as the SVD resolver, which extracts a common low-dimensional orthonormal basis across task adapters and projects task updates into this shared space before merging them into a single deployment-time update. The resulting update can be folded into the backbone, preserving the inference structure of the original model without additional runtime branches. Experiments with Swin Transformer backbones on PASCAL-Context, NYUD-v2, and CelebA show that CRLoMTL achieves a favorable accuracy-parameter trade-off, improving over single-task baselines by up to 2.77% on PASCAL-Context, 5.03% on NYUD-v2, and 3.50% on CelebA, while training only a small fraction of the parameters used by single-task models.",
+    "url": "http://arxiv.org/abs/2610.36337",
+    "pdf": "https://arxiv.org/pdf/2610.36337v1",
+    "keyword": "multi-task learning",
+    "date": "2026-10-26",
+    "fetched_date": "2026-10-29",
+    "authors": [
+      "Ahmed Agiza",
+      "Tasneem Shaffee",
+      "Rahil Badkul",
+      "Sherief Reda"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "CRISP: Co-designing Pruning and Scheduling for Efficient MoE Inference on Edge Servers",
+    "abstract": "Mixture-of-Experts (MoE) inference on memory-constrained edge platforms is often dominated by expert-weight movement rather than computation. Although each token activates only a small subset of experts, routing is input-dependent, so all experts must remain accessible and memory movement dominates latency. Existing approaches such as uniform pruning and expert dropping overlook two properties of MoE execution: expert combinations are highly skewed in frequency, and experts contribute asymmetrically within each combination. We present CRISP, a combination-aware framework that co-designs pruning and runtime scheduling for efficient MoE serving on memory-constrained edge platforms. CRISP reorders neurons by importance so one stored expert can support multiple execution widths, assigns differentiated execution to hot, warm, and cold combinations based on frequency and expert role, and exploits heterogeneous widths to overlap expert loading with computation. Across Mixtral-8x7B and DeepSeek-MoE-16B, CRISP improves throughput by up to $2.1\\times$ at the same memory budget while limiting accuracy loss to 3.6\\% relative to full-width inference. Our results highlight that efficient edge MoE serving requires jointly optimizing which expert capacity is preserved and how expert execution is scheduled.",
+    "url": "http://arxiv.org/abs/2610.37442",
+    "pdf": "https://arxiv.org/pdf/2610.37442v1",
+    "keyword": "mixture of experts",
+    "date": "2026-10-27",
+    "fetched_date": "2026-10-29",
+    "authors": [
+      "Congwei Zhang",
+      "Youming Tao",
+      "Yifei Zou",
+      "Yu Yang",
+      "Ruirui Zhang",
+      "Xiaoyu Zhang",
+      "Falko Dressler",
+      "Xiuzhen Cheng",
+      "Dongxiao Yu"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "Channel Selection for Mixture-of-Experts Decoding Needs No Calibration Data",
+    "abstract": "Mixture-of-Experts (MoE) models are bottlenecked by loading routed-expert weights from memory during interactive decoding at small batch sizes. Because most intermediate channels in a routed expert contribute little to any single token, channel selectors predict which channels matter and read only their weights, typically keeping channels above a threshold calibrated on offline data. We show that channel selection needs no calibration data. First, a calibrated threshold does not fix how much a selector reads, because the number of channels passing it varies across inputs; Prox with thresholds calibrated for an 18% read budget actually reads only 12.9% on average across our benchmarks. Second, top-k keeps each token's k highest-scoring channels and needs no calibration data. At the calibrated budget, a selector's top-k version matches or beats its threshold version on the same score in 40 of 43 comparisons at 13% and 18% budgets, including all 23 on generation tasks. The top-k versions also avoid the repetition-loop collapse that calibrated thresholds cause on Gemma 4. Calibrating a threshold thus provides neither of the two things selectors use it for: a known read budget and a consistent accuracy gain at that budget. We furthermore introduce a reader built entirely from the model's weights, which screens channels with a ternary sketch and recovers the skipped ones with a low-rank map. Across three post-trained MoE models, our reader retains 98.1% of full-model accuracy at 17.8% of routed-expert reads, with Triton kernels running MoE blocks 1.60 to 1.90x faster than optimized vLLM at batch one and up to 2.69x at larger batches on the same three models.",
+    "url": "http://arxiv.org/abs/2610.37386",
+    "pdf": "https://arxiv.org/pdf/2610.37386v1",
+    "keyword": "mixture of experts",
+    "date": "2026-10-27",
+    "fetched_date": "2026-10-29",
+    "authors": [
+      "Geunhyoung Kim",
+      "Sung Ju Hwang"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "Agent-Conditioned Routing: Diverse Reasoning Paths Within One Frozen Model",
+    "abstract": "Generating several solutions can expose alternative methods, but additional trajectories often paraphrase one dominant approach. We investigate whether the conditional capacity of a frozen sparse mixture-of-experts (MoE) model can provide such diversity from one problem prompt, without user-assigned roles, prescribed methods, fine-tuning, or model copies. Agent-Conditioned Routing (ACR) assigns $m$ parallel trajectories persistent, untrained shared/private expert-eligibility masks while preserving the learned, input-dependent token router. On a screened 126-question multi-mode mathematics and physics benchmark, with model judges reading the reported derivations in full, we count the number of problems yielding at least two distinct primary methods among soft-correct solutions in four trajectories. ACR reaches approximately twice as many such problems as the strongest temperature setting under GLM 5.3 (37.3 versus 18.7), and 1.67 times as many under GPT-5.6 Sol (45.00 versus 27.00), at matched output budgets. A blinded four-expert audit on a stratified sample of 30 problems also finds more multi-method solutions with ACR on both backbones, with lower correctness. Matched-eligibility ablations show modest multi-method count advantages for ACR, while token-resampled masks attain higher correctness. An informed sequential prompt elicits more diversity still, using previous solutions and explicit requests for alternative methods. ACR adds about 160 KiB of mask state. In a three-problem microbenchmark capped at 1,024 tokens, its latency and peak VRAM usage remain within 3% of batched temperature sampling.",
+    "url": "http://arxiv.org/abs/2610.37375",
+    "pdf": "https://arxiv.org/pdf/2610.37375v1",
+    "keyword": "mixture of experts",
+    "date": "2026-10-27",
+    "fetched_date": "2026-10-29",
+    "authors": [
+      "Ananth Kalyanasundaram",
+      "Ankush Kadu",
+      "Athira Gopal",
+      "Aswanth Krishnan"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "GradCO: Behavior-Aware Gradient-Conflict Offloading for Text-Based Person Anomaly Search",
+    "abstract": "Text-based Person Anomaly Search (TPAS) retrieves a target pedestrian using natural-language descriptions of appearance and normal or anomalous behavior. Unlike conventional text-based person retrieval, TPAS must preserve identity cues while distinguishing fine-grained behaviors. It presents two challenges: same-identity, different-behavior hard negatives cause gradient conflict during granular alignment, while strong appearance cues can obscure weak behavioral evidence during aggregation. We propose GradCO (behavior-aware Gradient-Conflict Offloading), comprising three complementary components. Behavior-Aware Mixture-of-Experts (B-MoE) forms appearance, normal-behavior, and anomalous-behavior streams whose roles are learned from retrieval objectives without expert-specific semantic labels. Conflict Offload Learning (COL) uses pair-conditioned offload anchors in similarity computation to reduce the conflicting-gradient burden on the main text representations. Hierarchical Intent Alignment (HIA) aggregates expert similarities and features using query-conditioned weights. Experiments on five TPAS/TIPR benchmarks show GradCO significantly surpasses SOTA methods and validate our design.",
+    "url": "http://arxiv.org/abs/2610.37267",
+    "pdf": "https://arxiv.org/pdf/2610.37267v1",
+    "keyword": "mixture of experts",
+    "date": "2026-10-27",
+    "fetched_date": "2026-10-29",
+    "authors": [
+      "Zhiheng Fu",
+      "Zixu Li",
+      "Zhiwei Chen",
+      "Jiale Huang",
+      "Fangxu Liu",
+      "Jinhe Bi",
+      "Yupeng Hu"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "EnergyCal: Taming Loss Spikes in Muon-Family Optimizers for Sparse MoE Training",
+    "abstract": "Sparse mixture-of-experts (MoE) language-model training can exhibit large loss spikes with Muon-family optimizers. We introduce EnergyCal, a lightweight rule that attenuates routed-expert updates according to the normalized squared Frobenius norm of their finite-step Newton-Schulz directions. EnergyCal leaves the spectral transform unchanged and adds no persistent optimizer state. We evaluate it on a 4B-parameter MoE model. Against a development-selected, lower-learning-rate MuonH recipe, EnergyCal-MuonH reduces mean thresholded loss-spike burden by 99.51% and final geometric-mean perplexity by 4.06%, with a modest throughput cost. With plain Muon at matched nominal learning rate and weight decay, the reduction in mean spike burden averages 95.98% across the two tested exponents, accompanied by small endpoint improvements. These findings support stabilization both with and without Hyperball in the evaluated setting.",
+    "url": "http://arxiv.org/abs/2610.37062",
+    "pdf": "https://arxiv.org/pdf/2610.37062v1",
+    "keyword": "mixture of experts",
+    "date": "2026-10-27",
+    "fetched_date": "2026-10-29",
+    "authors": [
+      "Masato Fujitake"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "SAGE: Semantic-Augmented Geometric Experts for Point Cloud Registration",
+    "abstract": "Point cloud registration is an essential task for scene reconstruction, requiring the alignment of partially overlapping point clouds. Under low-overlap conditions, this task remains challenging because existing geometry-only methods cannot distinguish geometrically similar but semantically distinct structures (e.g., TV corners vs. desk corners and chair legs vs. table legs), resulting in incorrect correspondences. To address this geometric ambiguity, we present Semantic-Augmented Geometric Experts (SAGE), which integrates frozen pre-trained point cloud semantic representations into the registration pipeline without requiring additional sensors or fine-tuning the semantic encoder. To effectively leverage these semantic distinctions, SAGE employs a Semantic-Guided Mixture of Experts (SG-MoE) architecture. Through semantic-aware routing, SG-MoE enables each expert to specialize in distinct semantic-geometric patterns, reducing mismatches that confound geometry-only methods. With a structure-aware estimator, SAGE achieves the highest registration recall on 3DLoMatch while remaining competitive on 3DMatch. When evaluated with the same number of refinement iterations, SAGE further achieves the highest inlier ratio and registration recall on both benchmarks. These results indicate that frozen semantic representations provide effective cues for resolving geometric ambiguity in low-overlap registration.",
+    "url": "http://arxiv.org/abs/2610.36658",
+    "pdf": "https://arxiv.org/pdf/2610.36658v1",
+    "keyword": "mixture of experts",
+    "date": "2026-10-27",
+    "fetched_date": "2026-10-29",
+    "authors": [
+      "Tomoyasu Shimada",
+      "Kazuhiko Murasaki",
+      "Shoichiro Takeda",
+      "Shogo Sato",
+      "Riku Inoue",
+      "Toshihiko Nishimura",
+      "Ryuichi Tanida"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "INC-MoE: Overlapping In-Network Collectives and Expert Computation for Expert-Parallel Mixture-of-Experts Inference",
+    "abstract": "In expert-parallel mixture-of-experts (MoE) serving, dispatch moves tokens to the accelerators hosting their selected experts, and combine returns expert outputs to each token's owner. Both operations lie on the critical path and can dominate MoE layer latency in multi-node deployments. We present INC-MoE, an expert-parallel MoE layer that offloads dispatch and combine to the network switch and overlaps both collectives with each other and with expert computation. Dispatch uses in-network AllGather through switch-side multicast, while combine uses in-network ReduceScatter through switch-side reduction. Both collectives use message semantics between the end hosts and the switch. Because the in-network collectives load opposite directions of each link, executing them concurrently reduces bandwidth-bound communication time by $(N-2)/(2(N-1))$ relative to concurrent ring-based collectives: 33% for four ranks and 43% for eight.\n  INC-MoE partitions tokens into bands and processes them through a three-stage AllGather-feed-forward network (FFN)-ReduceScatter pipeline inside a single persistent kernel. At steady state, role-specialized thread blocks gather the next band, compute the current band, and reduce the previous band concurrently, overlapping both collectives with each other and with computation using device-side synchronization. INC-MoE integrates as a drop-in replacement for the MoE layer of vLLM. We evaluate it in an emulated four-node scale-out deployment with a dedicated accelerator emulating an in-network computing (INC) switch. On OLMoE prefill with four-way expert parallelism, INC-MoE reduces time to first token (TTFT) by up to 33% and increases throughput by up to 50% relative to vLLM's default collective path, while matching its outputs.",
+    "url": "http://arxiv.org/abs/2610.36339",
+    "pdf": "https://arxiv.org/pdf/2610.36339v1",
+    "keyword": "mixture of experts",
+    "date": "2026-10-26",
+    "fetched_date": "2026-10-29",
+    "authors": [
+      "John Stephan",
+      "Razvan Puscasu",
+      "Xu Yong",
+      "Ding Jiutao",
+      "Guan Zixuan"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "DuplexTune: Coupled-State Replay for Memory-Efficient Mixture-of-Experts Adaptation",
+    "abstract": "Sparse expert execution does not remove the stored states needed to adapt a mixture-of-experts language model. We present DuplexTune, a framework for replaying coupled hidden states through pretrained attention and expert modules. Trainable width bridges connect two residual streams to the backbone. Bridge warm-up precedes backbone adaptation, with router weights kept frozen. We analyze the implicit state-recovery equation and identify the convergence and replay conditions needed for reconstruction. On Qwen1.5-MoE-A2.7B, the single-H800 evaluation reports 38.8 GB peak memory, versus 64.8 GB for supervised fine-tuning with checkpointing, and throughput of 25.1 versus 19.9 samples/s. DuplexTune achieves 67.2% MMLU, 75.6% GSM8K, and 7.69 MT-Bench, with a weaker multilingual score than the checkpointed baseline. The results characterize a configuration-dependent tradeoff among state storage, throughput, and adaptation quality.",
+    "url": "http://arxiv.org/abs/2610.36009",
+    "pdf": "https://arxiv.org/pdf/2610.36009v1",
+    "keyword": "mixture of experts",
+    "date": "2026-10-26",
+    "fetched_date": "2026-10-29",
+    "authors": [
+      "Paul Raj",
+      "Simon Caldwell",
+      "Daniel Whitmore",
+      "Mutlu Mete"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "Instant Software Factories",
+    "abstract": "Coding agents can quickly build prototypes, but a long tail of fixes, optimizations, tests, and releases separates a prototype from a product. A software factory handles this ongoing work through a repeatable process. We ask whether this work needs dedicated orchestration and how such factories should be judged. Given a tested repository and a coding agent, an instant software factory uses only two coordination inputs, a swarm of cron-job agents with standing objectives and a shared communication board, such as GitHub, where agents coordinate through the traces they leave. We developed a bootstrap prompt designed to set up both inputs from one round of human input, with governance as a separable layer. We distilled it from two manually configured industrial factories, observed for 15 and 17 days, and have not yet evaluated it. In the GitHub-coordinated CLI factory, daily merges rose 15x during agent rollout, an observed association. Its agents also filed 95% of new issues and authored 40 of 58 PRs that changed CI workflows, and at least 5.6% of issues marked as fixed were later found to have incorrect fixes. Unlike an agent scored on a fixed benchmark, a factory thus changes its own workload, evaluator, and measured progress. We formulate factory development as multi-objective optimization under this endogenous feedback. Over five months, we plan to evolve both factories, test the bootstrap on new repositories, and test five falsifiable hypotheses.",
+    "url": "http://arxiv.org/abs/2610.36254",
+    "pdf": "https://arxiv.org/pdf/2610.36254v1",
+    "keyword": "multi-objective optimization",
+    "date": "2026-10-26",
+    "fetched_date": "2026-10-29",
+    "authors": [
+      "Wenxin Jiang",
+      "Mikola Lysenko"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "Generation and Verification: Human-Agent Collaboration for Safety-Critical Automotive Software Engineering",
+    "abstract": "Research on coding agents mainly focuses on generation quality. Yet, safety-critical automotive software makes two additional demands. It prioritizes verification, since every change is reviewed, traced to a requirement, and checked against industry standards such as MISRA and AUTOSAR before it can be committed. It is also a narrow domain, written against layered architectures, embedded resource constraints, and organization-specific interface conventions that are scarce in the data general-purpose LLMs are trained on. We present a coding assistant for automotive C/C++ that addresses both demands. First, it exposes three tools to the user over the Model Context Protocol (generate, edit, and verify), allowing developers to run verify on any code on demand rather than relying on the agent to check its own output. Second, rather than using a general-purpose model, we customize the underlying LLM for the automotive domain through prompt engineering and fine-tuning. We construct a dataset from automotive production code of AUMOVIO, where each function is paired with the requirement texts and Unified Modeling Language (UML) behavior it must satisfy. In a two-week pilot on active production projects, developers report verify as the most-used tool and confirm using it on their own code and not only on generated output. Comparing model customization strategies, 75% prefer the faster prompt-engineered configuration. MISRA- and AUTOSAR-inspired pattern checkers indicate that prompt engineering achieves a lower number of violations on C, while fine-tuning shows better conformance with architecture patterns for C++.",
+    "url": "http://arxiv.org/abs/2610.35982",
+    "pdf": "https://arxiv.org/pdf/2610.35982v1",
+    "keyword": "prompt engineering",
+    "date": "2026-10-26",
+    "fetched_date": "2026-10-29",
+    "authors": [
+      "Elizaveta Zinovyeva",
+      "Aiham Taleb",
+      "Nikita Kozodoi",
+      "Daniel Schleicher",
+      "Amir Mahdi Namazi",
+      "Martin Kraus",
+      "Levent Kent",
+      "Brian Jensen"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "GAS-PFN: Graph-Aware Spatiotemporal Prior-Data Fitted Networks for Zero-Shot Traffic Forecasting",
+    "abstract": "Traffic forecasting requires modeling complex temporal dynamics and the spatial dependencies imposed by road topology. Supervised graph-based models achieve strong performance, but are often trained for a particular dataset and sensor graph, making deployment to new or evolving networks costly. Prior-Data Fitted Networks (PFNs) offer a zero-shot alternative by learning in-context inference from synthetic task priors, which provide an explicit mechanism for encoding domain-specific assumptions. Existing forecasting PFNs, however, do not explicitly represent the graph-structured dependencies governing traffic dynamics. To combine graph-aware traffic modeling with zero-shot adaptation, we introduce the Graph-Aware Spatiotemporal Prior-Data Fitted Network (GAS-PFN). GAS-PFN incorporates sampled road topology into its synthetic task prior through random-walk diffusion, teaching the model to learn graph-coupled dynamics during pretraining. Its co-designed inference architecture uses two mask-conditioned passes through a shared Transformer backbone to separately model sensor-specific temporal dynamics and spatiotemporal interactions among neighboring sensors before integrating their representations for prediction. This design enables GAS-PFN to use target-network structure and context without parameter updates. Across six benchmarks at the 90-minute horizon, GAS-PFN reduces MSE by 34.0% on average relative to TimePFN, its closest PFN-based predecessor. It also reduces MSE by 27.7% on average relative to four recent industry-developed general-purpose zero-shot forecasters. In this comparison, all models receive 90 minutes of contiguous recent history, and any additional context is drawn from each dataset's chronological training split. These results indicate that aligning PFN priors and inference architectures with graph structure improves in-context learning for zero-shot traffic forecasting.",
+    "url": "http://arxiv.org/abs/2610.37598",
+    "pdf": "https://arxiv.org/pdf/2610.37598v1",
+    "keyword": "in-context learning",
+    "date": "2026-10-27",
+    "fetched_date": "2026-10-29",
+    "authors": [
+      "Joseph Natter",
+      "Long Vu",
+      "Yifan Zhang",
+      "Bobin Deng",
+      "Kun Suo",
+      "Rui Wu"
+    ],
+    "article_type": "research"
   }
 ]
