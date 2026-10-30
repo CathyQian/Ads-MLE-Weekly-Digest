@@ -36468,5 +36468,275 @@
     "fetched_date": "2026-10-29",
     "feed_name": "Modern Retail",
     "source": "industry"
+  },
+  {
+    "title": "An updated Model Spec for more capable and beneficial AI",
+    "abstract": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.",
+    "url": "https://openai.com/index/updated-model-spec",
+    "topic": "llm",
+    "date": "2026-10-29",
+    "fetched_date": "2026-10-30",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "How we detect frontier model misalignment",
+    "abstract": "OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate.",
+    "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+    "topic": "llm",
+    "date": "2026-10-29",
+    "fetched_date": "2026-10-30",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "How Ropes & Gray is developing AI for transactional diligence",
+    "abstract": "Ropes & Gray is developing AI for transactional diligence with OpenAI. Lawyers review grouped documents, summaries, and reports before advising clients.",
+    "url": "https://openai.com/index/ropes-gray-ai-diligence",
+    "topic": "llm",
+    "date": "2026-10-29",
+    "fetched_date": "2026-10-30",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Granite Switch 4.1.1 — Update models like you update software",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
+    "topic": "llm",
+    "date": "2026-10-29",
+    "fetched_date": "2026-10-30",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/announcing-project-protostar",
+    "topic": "llm",
+    "date": "2026-10-29",
+    "fetched_date": "2026-10-30",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Welcome Le Chonk: Mistral Large 4 on Hugging Face",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/mistral-large4",
+    "topic": "llm",
+    "date": "2026-10-29",
+    "fetched_date": "2026-10-30",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/anydecisionmodel",
+    "topic": "llm",
+    "date": "2026-10-29",
+    "fetched_date": "2026-10-30",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "API credits benefit for eligible ChatGPT subscriptions",
+    "abstract": "API credits benefit for eligible ChatGPT subscriptions Earlier this month Anthropic announced a generous new benefit for their Max and Team subscriptions: $100, $200, and $500 per month subscribers would get the equivalent quantity of (expiring) credits to use with the Anthropic API. OpenAI have now launched pretty much exactly the same deal: if you have a $100, $200, or $500 subscription plan with them you now get that same quantity of credits to apply to one of your API organizations. I maintain subscriptions with both companies, so this is great news for me! I may even ship some public-facing demos now that the credits are already covered by my existing subscriptions. Tags: ai , openai , generative-ai , llms , anthropic , llm-pricing",
+    "url": "https://simonwillison.net/2026/Oct/29/api-credits/",
+    "topic": "llm",
+    "date": "2026-10-29",
+    "fetched_date": "2026-10-30",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Building a multiplayer game world with autonomous Fable-class models",
+    "abstract": "How I Built the Most AI-Pilled Company in the World Don't be put off by the clickbait headline, this piece by Jacob Sansbury describing how they are building Spawn is a fascinating exploration of the bleeding edge of what's possible with agentic engineering against frontier models. Spawn is a massively multiplayer gaming environment where players can use prompts (to the in-game agent, Savi) to modify the game world. I fired it up on my phone for a few minutes and was able to prompt a castle into existence, then a dragon, then ride the dragon to fly around that castle. By Jacob's telling, Spawn is now being developed autonomously by a swarm of Fable-powered agents costing over $3 million in tokens per month (\"we spend 30x payroll on AI tokens\"). Our agents change the live code directly and ship to production hourly, so they read every error, bug report and metric themselves. About 60% of our work starts from a production error, a Savi bug report (Savi is the AI you build games with in Spawn), something odd in our logs, or a feature request. Savi files bugs herself. When a user hits one, or Savi hits one in the product, she files it. It goes straight to an agent that decides whether it's a real bug to fix, something we won't fix, or intentional design that needs a decision. Usually it becomes a change, delivered to that user within an hour, with a message in the same chat. This is continuous deployment turned up to 11: A loop this tight only works if it never stops, so we treat an hour without a ship as a SEV-0, our most severe kind of incident. Unshipped changes pile up, and every problem already in production lasts longer. The feedback slows down too. An agent can only keep a few hours of work in its head, so shipping faster than that actually helps it stay coherent. [...] We can roll back a broken change in 30 seconds, exactly where it's broken and nowhere else. When a monitor or a log alert fires, it starts or wakes an agent that owns the incident, and we break things on purpose to test that those recovery paths work. My eyebrows raised at least a dozen times reading this. I have trouble imagining this style of development working on software with higher stakes for when something goes wrong, but for a game this appears to be working surprisingly well. Jacob says that Fable 5 (and then 5.1) was the model that made this level of autonomy possible. Opus 5.5 doesn't quite hack it for them, and when they tried GPT-6 Astra to apply fixes from a security review everything stopped working: Every feature had been disabled and marked to be turned on again once the security fixes were done. Astra had gone through our whole product and made the insecure things secure by turning them off. These kinds of extreme experiments are why I'm excited about game development as a substrate for exploring the edges of what today's coding agents can do. Tags: game-design , ai , generative-ai , llms , claude , coding-agents , agentic-engineering , claude-mythos-fable",
+    "url": "https://simonwillison.net/2026/Oct/29/how-i-built-the-most-ai-pilled-company-in-the-world/",
+    "topic": "llm",
+    "date": "2026-10-29",
+    "fetched_date": "2026-10-30",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Quoting Ben Hylak",
+    "abstract": "every product i use should just be a headless mcp, that feeds into an agent, where i never have to think about anything underneath. except for our product, of course. in our product, customers love the ui and love us very much. we're special that way. — Ben Hylak Tags: model-context-protocol , ai",
+    "url": "https://simonwillison.net/2026/Oct/29/ben-hylak/",
+    "topic": "llm",
+    "date": "2026-10-29",
+    "fetched_date": "2026-10-30",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "New Study: Anthropic Just Gave You a Reason to Stop Working With AI",
+    "abstract": "The machine is secretly making up your mind",
+    "url": "https://www.thealgorithmicbridge.com/p/new-study-anthropic-just-gave-you",
+    "topic": "llm",
+    "date": "2026-10-29",
+    "fetched_date": "2026-10-30",
+    "feed_name": "The Algorithmic Bridge",
+    "source": "industry"
+  },
+  {
+    "title": "You don’t need to believe in a god to get a religious exemption from using AI at work",
+    "abstract": "David Durman, a University of Kentucky administrator, recently earned a religious exemption from using AI in the workplace.",
+    "url": "https://techcrunch.com/2026/10/29/you-dont-need-to-believe-in-a-god-to-get-a-religious-exemption-from-using-ai-at-work/",
+    "topic": "llm",
+    "date": "2026-10-30",
+    "fetched_date": "2026-10-30",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "AWS will be a $1T business, Jassy says — but first, it will spend big",
+    "abstract": "Amazon wants to be the king of AI cloud computing and become the first $1 trillion revenue business. But to do that it will have to continue on its capex spending spree, its CEO said Thursday.",
+    "url": "https://techcrunch.com/2026/10/29/aws-will-be-a-1t-business-jassy-says-but-first-it-will-spend-big/",
+    "topic": "llm",
+    "date": "2026-10-29",
+    "fetched_date": "2026-10-30",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "As search traffic dries up, Reddit announces it’s shifting to a logged-in experience",
+    "abstract": "As AI transforms how people find information online, Reddit is rethinking its open-web roots to protect its audience and business.",
+    "url": "https://techcrunch.com/2026/10/29/as-search-traffic-dries-up-reddit-announces-its-shifting-to-a-logged-in-experience/",
+    "topic": "llm",
+    "date": "2026-10-29",
+    "fetched_date": "2026-10-30",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Rivian expands joint venture with VW to include AI assistant",
+    "abstract": "Rivian doesn't disclose if the value of its $5.8 billion joint venture will expand as a result.",
+    "url": "https://techcrunch.com/2026/10/29/rivian-expands-joint-venture-with-vw-to-include-ai-assistant/",
+    "topic": "llm",
+    "date": "2026-10-29",
+    "fetched_date": "2026-10-30",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "OpenAI-backed Thrive Holdings acquires ADT",
+    "abstract": "OpenAI-backed Thrive Holdings is buying ADT in a $15.3 billion deal, with plans to bring AI to the home security business.",
+    "url": "https://techcrunch.com/2026/10/29/openai-backed-thrive-holdings-acquires-adt/",
+    "topic": "llm",
+    "date": "2026-10-29",
+    "fetched_date": "2026-10-30",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Meta quietly launches an AI fashion app called Style Sketch",
+    "abstract": "The app connects to Instagram to build a virtual closet from photos you’ve already shared, or lets you add items manually by snapping a photo, recording a quick video, or uploading images from your camera roll.",
+    "url": "https://techcrunch.com/2026/10/29/meta-quietly-launches-an-ai-fashion-app-called-style-sketch/",
+    "topic": "llm",
+    "date": "2026-10-29",
+    "fetched_date": "2026-10-30",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Granola crunches up a dictation feature to compete with Wispr",
+    "abstract": "Uno reverse! After Wispr added meeting notes to its dictation app, Granola is adding dictation to its meeting notetaker. The voice AI wars are getting interesting.",
+    "url": "https://techcrunch.com/2026/10/29/granola-crunches-up-a-dictation-feature-to-compete-with-wispr/",
+    "topic": "llm",
+    "date": "2026-10-29",
+    "fetched_date": "2026-10-30",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Mistral releases weights for its trillion-parameter AI model, targeting cybersecurity",
+    "abstract": "Mistral says its new model can afford organizations a kind of control over its cyber defenses that closed models can't.",
+    "url": "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/",
+    "topic": "llm",
+    "date": "2026-10-29",
+    "fetched_date": "2026-10-30",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "US investigated Chinese spy plot aimed at Nvidia CEO",
+    "abstract": "A top executive of a Singapore AI cloud company that was accused of illegally selling Nvidia chips to China could also have been a Chinese spy, sources have told the New York Times.",
+    "url": "https://techcrunch.com/2026/10/29/u-s-investigated-chinese-spy-plot-aimed-at-nvidia-ceo/",
+    "topic": "llm",
+    "date": "2026-10-29",
+    "fetched_date": "2026-10-30",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Ex-Palantir execs launch Dream with $17M from a16z to build AI world models for construction",
+    "abstract": "Dream is grounded in real physics and construction standards. Just as LLMs learn from text, Dream's world model is trained on more than 100 million square feet of building data gathered from permit archives across the United States.",
+    "url": "https://techcrunch.com/2026/10/29/ex-palantir-execs-launch-dream-with-17m-from-a16z-to-build-ai-world-models-for-construction/",
+    "topic": "llm",
+    "date": "2026-10-29",
+    "fetched_date": "2026-10-30",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Wabi, the AI agent that builds mini apps, now valued at $1.25B after latest round",
+    "abstract": "On Thursday, AI app Wabi, now describing itself as a \"personal agent,\" said it has raised $55 million at a $1.25 billion valuation.",
+    "url": "https://techcrunch.com/2026/10/29/wabi-the-ai-agent-that-builds-mini-apps-now-valued-at-1-25b-after-latest-round/",
+    "topic": "llm",
+    "date": "2026-10-29",
+    "fetched_date": "2026-10-30",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Deepgram acquires Pipecat-maker Daily to bolster its voice AI infrastructure",
+    "abstract": "With Pipecat, Deepgram will likely gain a deeper understanding of real-time voice and video infrastructure.",
+    "url": "https://techcrunch.com/2026/10/29/deepgram-acquires-pipecat-maker-daily-to-bolster-its-voice-ai-infrastructure/",
+    "topic": "llm",
+    "date": "2026-10-29",
+    "fetched_date": "2026-10-30",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Amazon updates Alexa to help you manage shopping lists and subscriptions and update delivery instructions",
+    "abstract": "The update allows you to use Alexa to create lists, register them, see what's on them, and add or edit items. You can also manage subscriptions.",
+    "url": "https://techcrunch.com/2026/10/29/amazon-updates-alexa-to-help-you-manage-shopping-lists-and-subscriptions-and-update-delivery-instructions/",
+    "topic": "llm",
+    "date": "2026-10-29",
+    "fetched_date": "2026-10-30",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Cotopaxi adopts a drop strategy to build buzz ahead of BFCM",
+    "abstract": "Cotopaxi is releasing new products every other day, from Nov. 1-11, through a campaign it's calling \"Cotodays.\" It's part of the brand's plan to build awareness ahead of the crowded Black Friday/Cyber Monday period.",
+    "url": "https://www.modernretail.co/marketing/cotopaxi-adopts-a-drop-strategy-to-build-buzz-ahead-of-bfcm/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-10-30",
+    "fetched_date": "2026-10-30",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Amazon says more than 400M customers have used Alexa for Shopping in the last 12 months",
+    "abstract": "Customers who use Alexa for Shopping are spending 50% more than those who don’t, Amazon CEO Andy Jassy said during the earnings call on Thursday.",
+    "url": "https://www.modernretail.co/technology/amazon-says-more-than-400m-customers-have-used-alexa-for-shopping-in-the-last-12-months/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-10-29",
+    "fetched_date": "2026-10-30",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Big-Box Briefing: What to watch this holiday season as Target, Walmart and more battle for sales",
+    "abstract": "Within the past week, nearly all the major brick-and-mortar retailers — Target, Walmart, Kohl’s, Best Buy and Macy’s, to name a few— have put out press releases trumpeting their holiday offers. We summarized the key points to watch from them.",
+    "url": "https://www.modernretail.co/marketing/big-box-briefing-what-to-watch-this-holiday-season-as-target-walmart-and-more-battle-for-sales/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-10-29",
+    "fetched_date": "2026-10-30",
+    "feed_name": "Modern Retail",
+    "source": "industry"
   }
 ]
