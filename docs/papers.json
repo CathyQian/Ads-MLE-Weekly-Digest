@@ -343720,5 +343720,615 @@
       "Tevfik Uyar"
     ],
     "article_type": "research"
+  },
+  {
+    "title": "CASH: A Capability-Aware Subsidy Harness for Advertiser Subsidy Allocation",
+    "abstract": "Advertising platforms subsidize advertisers through billing discounts, and Advertiser Subsidy Allocation (ASA) chooses a subsidy level for every account to maximize total discounted revenue under a platform-wide subsidy-rate constraint. In practice, operators configure these subsidies from business rules, advertiser tiers and operating goals. Such configuration draws on rich business experience, yet as the advertiser base grows, tier-level policies can neither resolve how individual accounts respond across subsidy levels nor allocate a shared budget at the granularity of single accounts. We propose CASH, a Capability-Aware Subsidy Harness for ASA. CASH pairs a knowledge-guided large language model (LLM) with a data-driven numerical response model, learns from realized outcomes where each is locally reliable across accounts and subsidy levels, and turns this reliability into explicit capability licenses that govern source selection, agent review and budget allocation. Its Expected Policy Coverage Gain (EPCG) directs a limited feedback budget toward evidence expected to expand high-value reliable coverage, and the resulting feedback further improves the numerical model and updates capability estimates. In a one-month online experiment with CASH serving 60% of a large-scale advertising platform's traffic, CASH raises revenue per account by 15.35% and ADVV by 19.86% over Control at an essentially unchanged subsidy rate, with further gains in revenue quality, LTV and retention.",
+    "url": "http://arxiv.org/abs/2610.39244",
+    "pdf": "https://arxiv.org/pdf/2610.39244v1",
+    "keyword": "budget allocation",
+    "date": "2026-10-29",
+    "fetched_date": "2026-10-31",
+    "authors": [
+      "Minmao Wang",
+      "Huihuang Lin",
+      "Likang Wu",
+      "Hongke Zhao",
+      "Shijie Yi",
+      "Fei Pan"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "DuQUAD: A Dual-View Framework with Quality-Aware Evidence Pruning for Multi-Document Question Answering",
+    "abstract": "Large language models with retrieval-augmented generation systematically underutilize evidence in the middle of multi-document contexts, a phenomenon known as Lost in the Middle. Existing mitigation strategies, such as document reordering and attention steering, can reduce boundary bias but remain brittle in noisy settings, where inaccurate relevance estimation and spurious documents still obscure useful evidence in central positions. We propose DuQUAD, a multi-document QA framework that mitigates positional bias through dual-view reasoning and quality-aware evidence pruning. DuQUAD combines a Local Agent guided by a Structural Fusion Score with a Global Agent that reasons over the full document set, providing both targeted evidence recovery and broad contextual understanding. The framework further filters candidate evidence using explicit quality scoring and refines it at the sentence level to reduce noise. DuQUAD consistently outperforms strong Lost-in-the-Middle mitigation baselines, including hybrid retrieval and reranking, multi-agent reasoning, and context optimization methods, improving accuracy by 3.0% on average over the strongest competing baseline and gold evidence recall by 9.4%, while substantially reducing computational cost compared to existing multi-agent frameworks.",
+    "url": "http://arxiv.org/abs/2610.37701",
+    "pdf": "https://arxiv.org/pdf/2610.37701v1",
+    "keyword": "position bias",
+    "date": "2026-10-25",
+    "fetched_date": "2026-10-31",
+    "authors": [
+      "Yeonjun Choi",
+      "Seyeon Jeong",
+      "Jong Wook Kim",
+      "Beakcheol Jang"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "Explainable and Adaptive Machine Learning for Fraud Risk Detection in Bangladesh's Digital Banking Ecosystem",
+    "abstract": "The rapid expansion of digital banking and mobile financial services creates growing challenges for fraud detection, particularly under severe class imbalance and operational constraints. This study presents an explainable and adaptive machine-learning framework integrating chronological evaluation, leakage-conscious feature engineering, probability calibration, SHAP-based explainability, and adaptive risk prioritization. Experiments use the synthetic PaySim mobile-money benchmark and compare Logistic Regression, Random Forest, XGBoost, and LightGBM. XGBoost achieved the strongest fixed-threshold performance, with PR-AUC of 0.5658, ROC-AUC of 0.9068, and F1-score of 0.5369. Platt calibration reduced the test Brier score from 0.1141 to 0.0245, improving probability reliability. SHAP analysis identified temporal, destination-account, transaction-type, and amount features as important model drivers. An adaptive top-1% policy reduced false positives from 192 to 117, but recall declined from 0.4236 to 0.2122, demonstrating a clear alert-capacity trade-off. The results provide a reproducible methodological framework rather than evidence of deployment performance in Bangladesh, since PaySim is synthetic. Validation using governed real-world financial data is therefore an important direction for future research.",
+    "url": "http://arxiv.org/abs/2610.39556",
+    "pdf": "https://arxiv.org/pdf/2610.39556v1",
+    "keyword": "probability calibration",
+    "date": "2026-10-29",
+    "fetched_date": "2026-10-31",
+    "authors": [
+      "Md Najmus Swaqeeb"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "Try Before You Evolve: Ranking-Scored Trials for Recursive Self-Improvement of Recommender Systems",
+    "abstract": "Recommenders on Web platforms such as e-commerce and music streaming need their training recipes re-tuned for each dataset. Large language model (LLM) agents can now rewrite these recipes, enabling recursive self-improvement (RSI) of recommender systems. Existing agents propose one edit per round, fully retrain the recommender, and keep the edit only if its ranking quality improves. Unlike programs or patches that can be scored by execution, a recommender edit changes how the model is trained, which raises two challenges. First, ranking feedback is delayed: an edit's ranking quality is known only after full retraining, so much of the retraining budget goes to edits that are later discarded. Second, the signals available before retraining are unreliable: sampled training losses can look solved while full-ranking performance remains poor, and they are not comparable across edits that change the loss or sampler. We propose RecRSI, which generates diverse candidate edits from a diagnosis of the current model and selects one for full retraining using early ranking feedback: each candidate receives a short trial, the first steps of its full training run, scored by full-ranking NDCG@10 on held-out probe users. With two sequential recommenders on three datasets and the same number of full retrainings, RecRSI significantly outperforms existing self-evolving agents in every setting, and on both Amazon datasets reaches in its first round a ranking quality that none of them reaches in five.",
+    "url": "http://arxiv.org/abs/2610.39352",
+    "pdf": "https://arxiv.org/pdf/2610.39352v1",
+    "keyword": "sequential recommendation",
+    "date": "2026-10-29",
+    "fetched_date": "2026-10-31",
+    "authors": [
+      "Xu Huang",
+      "Jiawei Feng",
+      "Jiancan Wu"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "Bridging Semantics and Structure: A Theoretically Grounded Framework for Link Prediction on TAGs",
+    "abstract": "Link prediction on text-attributed graphs (TAGs) is a fundamental problem with applications in knowledge discovery, recommendation and beyond. Recent progress has highlighted the promise of combining Graph Neural Networks (GNNs) with Language Models (LMs) in order to leverage the complementary structural and semantic signals. However, due to the distinct inductive biases of GNNs and LMs, the design of an optimal fusion strategy remains an open research question. In this work, we present Bridge-LP, an intuitive, simple, efficient and theoretically grounded framework that unifies graph and language representations. It is built around three theoretically-justified design components: (D1) jumping connection of textual proximity, which enables robust LM training; (D2) compressed embedding, which encodes neighborhood information long exploited by classical link prediction heuristics, thereby enriching structural signals in a learnable way; and (D3) cache embedding training strategy, which reduces computational complexity. Together, these mechanisms establish an end-to-end cross-modal framework that scales to large graphs while capturing richer graph-text interactions. We conduct an extensive empirical evaluation, comparing against 40 existing models across 9 diverse datasets. Experiments show that Bridge-LP consistently outperforms state-of-the-art approaches, delivering up to a 43.06% improvement in Mean Reciprocal Rank (MRR) and setting a new benchmark for language-graph integration.",
+    "url": "http://arxiv.org/abs/2610.40192",
+    "pdf": "https://arxiv.org/pdf/2610.40192v1",
+    "keyword": "graph neural network",
+    "date": "2026-10-29",
+    "fetched_date": "2026-10-31",
+    "authors": [
+      "Chen Shao",
+      "Ruirui Wang",
+      "Tobias Kafer",
+      "Danai Koutra"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "Deciding two-variable logic with global and local Presburger quantification",
+    "abstract": "We look at a two-variable logic over finite graphs that allows Presburger quantifiers: linear arithmetic inequalities between the number of elements that satisfy subformulas. The prior literature shows that closing two-variable logic under Presburger quantification leads to undecidability, while closing under \\emph{local quantification} -- the counts are always over neighbors of a given node -- preserves decidability. Here we show decidability of satisfiability for an intermediate logic that allows both local counts and global counts, but where the linear constraints do not mix the two. The proof requires a significant extension of the prior machinery developed for two-variable logic with counting.\n  As a corollary we obtain decidability of satisfiability for an important family of Graph Neural Networks (GNNs). GNNs are a popular graph learning formalism. For example, in a variation of GNNs considered in the past literature, local aggregation is used in each layer to create modified values at each vertex of a graph, and then global aggregation is used in a final layer to obtain a single numerical value for the graph as a whole. Our logic is motivated by the fact that mixing of local counting and global aggregation in GNNs has been shown to lead to undecidability. Our results here show that if global and local aggregation are separated, one regains decidability. Decidability of other static analysis problems, like equivalence of GNNs, follows from the decidability of satisfiability.",
+    "url": "http://arxiv.org/abs/2610.39108",
+    "pdf": "https://arxiv.org/pdf/2610.39108v1",
+    "keyword": "graph neural network",
+    "date": "2026-10-29",
+    "fetched_date": "2026-10-31",
+    "authors": [
+      "Michael Benedikt",
+      "Chia-Hsuan Lu",
+      "Alex Perry",
+      "Tony Tan"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "Open-World Object Motion Anticipation via Meta-Learned Semantic Adaptation",
+    "abstract": "Anticipating the motion of nearby objects is critical for safe and efficient robot navigation. Without a proper understanding of what may move, a robot may plan overly conservative, inefficient trajectories to guarantee safety, or it may be overly risky, resulting in unacceptable collisions. While tracking and predicting the motion of known objects has seen significant progress, little research addresses how a robot should adapt online to novel objects, including anticipating how one object may move another (e.g., a person operating a forklift to move a pallet). To enable this capability, we propose a meta-learned graph neural network that leverages a semantic, geometric, and relational history of objects to accurately predict, from a few online observations, when objects will begin to move in new environments. We demonstrate that our method, which is trained only in simulation, accurately anticipates the motion of objects unseen at training time, transfers to hardware without any fine-tuning, and outperforms a vision-language model and a class-frequency baseline in both simulation and hardware experiments. Our method's accurate prediction enables collision-free traversals in a closed-loop navigation simulation, while remaining within four seconds of the fastest, collision-prone planner.",
+    "url": "http://arxiv.org/abs/2610.38993",
+    "pdf": "https://arxiv.org/pdf/2610.38993v1",
+    "keyword": "graph neural network",
+    "date": "2026-10-28",
+    "fetched_date": "2026-10-31",
+    "authors": [
+      "Mason Peterson",
+      "Gage MacLin",
+      "Camilla Tabasso",
+      "Jonathan P. How",
+      "Joshua Migdal",
+      "Tye Brady",
+      "Taskin Padir"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "Benchmarking Graph Neural Networks for AC Power Flow: The Role of Inductive Biases and Physical Constraints",
+    "abstract": "Fast and accurate models for AC power flow (ACPF) are increasingly important as modern electrical grids require more frequent system analyses. Graph neural networks (GNNs) naturally exploit electrical grid topology, yet the effects of architectural design choices on predictive performance remain poorly understood given differences in graph representations and evaluation settings across studies.\n  We present a unified benchmark of representative GNN architectures for ACPF prediction under a common experimental framework. All models use identical preprocessing and training procedures and comparable parameter budgets, isolating the impact of message-passing mechanisms and inductive biases. We also analyze errors by distance from the slack bus and systematically ablate key design components. We evaluate predictive accuracy and physical consistency on the IEEE 14-bus and IEEE 118-bus systems.\n  Results indicate that anisotropic message-passing architectures offer the most favorable trade-off between predictive accuracy and physical consistency under the studied parameter and topology constraints. Explicit edge features encoding line impedances and global context aggregation are particularly important for representing electrical interactions and system-wide dependencies, especially for voltage-angle predictions on the topologically bottlenecked IEEE-118 grid. Under a budget with approximately fixed parameters, two or three message-passing layers generally provide the best balance between depth and representation width, while additional depth offers no consistent improvement. Ablations also show that standard residual and root connections are not necessarily beneficial in shallow models, and that aggregation operators involve trade-offs between statistical accuracy and physical consistency. These results provide practical guidelines for designing graph-based power system models.",
+    "url": "http://arxiv.org/abs/2610.38985",
+    "pdf": "https://arxiv.org/pdf/2610.38985v1",
+    "keyword": "graph neural network",
+    "date": "2026-10-28",
+    "fetched_date": "2026-10-31",
+    "authors": [
+      "Federico Clerici",
+      "Ferran Bohigas-Daranas",
+      "Hamid Latif-Martínez",
+      "Eduardo Prieto-Araujo",
+      "Oriol Gomis-Bellmunt",
+      "Pere Barlet-Ros"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "Recurrent Bipartite Graph Neural Networks for QC-MDPC Error Decoding in McEliece Cryptosystems",
+    "abstract": "As the advent of large-scale quantum computing threatens classical encryption, Quasi-Cyclic Moderate Density Parity-Check (QC-MDPC) codes have emerged as a foundational element of Post-Quantum Cryptography (PQC). However, decoding these relatively dense codes using classical Belief Propagation algorithms often leads to failures caused by short graph cycles that stall the decoder. In cryptographic applications, these failures are severe security vulnerabilities that leak secret key information. To address this, this paper proposes a Recurrent Bipartite Graph Neural Network (R-BGNN) as proof of concept. By integrating Gated Recurrent Units (GRUs) into the message-passing framework and employing a multi-topology curriculum training strategy, the R-BGNN actively learns to break limit-cycle oscillations. Evaluated across 20 unseen matrix topologies, the proposed architecture significantly outperforms classical Bit-Flipping and Min-Sum baselines, reducing the Decoding Failure Rate (DFR) by 63.7\\% at moderate noise levels ($t=10$) while converging in fewer iterations.",
+    "url": "http://arxiv.org/abs/2610.38479",
+    "pdf": "https://arxiv.org/pdf/2610.38479v1",
+    "keyword": "graph neural network",
+    "date": "2026-10-28",
+    "fetched_date": "2026-10-31",
+    "authors": [
+      "Parth Rajeshkumar Tandel",
+      "Elisabeth Fink"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "A Separation Principle for Adversarial Attacks and Defense of Graph Neural Networks",
+    "abstract": "Adversarial attacks on graph neural networks (GNNs) have been studied as a model-centric optimization problem driven by gradients, learned policies, or meta-learning, with the graph treated as a passive substrate. This view overlooks a defining feature of GNNs: their predictions are produced by structured message passing along the graph, so their adversarial vulnerabilities are encoded as much in the geometry of the graph as in the learned weights. We develop a structure-driven framework for feature attacks in which the attack is derived from the spectral properties of the normalized adjacency operator. Its central result is a separation principle: under a natural relaxation of the attack objective, the optimal feature perturbation is rank one and factorizes into a graph-dependent component (degree-proportional spatial allocation, depending only on the graph) and a weight-dependent component (top singular vector of the composed weights, depending only on the weights). Node degree thus emerges as the fundamental graph quantity governing adversarial vulnerability to feature perturbations. The resulting attack, which we call SepAttack, requires no gradient computation, carries analytical guarantees, achieves competitive or superior performance against established baselines such as Nettack and IG-Attack with up to ${\\sim}70\\times$ speedup in the targeted setting, and transfers near-perfectly across architectures on continuous-feature graphs because its graph-dependent component is architecture-invariant by construction. We further derive a separation-principle adversarial training procedure (SepAT) directly from the closed-form worst-case attack and report robustness gains on binary-feature benchmarks.",
+    "url": "http://arxiv.org/abs/2610.38127",
+    "pdf": "https://arxiv.org/pdf/2610.38127v1",
+    "keyword": "graph neural network",
+    "date": "2026-10-28",
+    "fetched_date": "2026-10-31",
+    "authors": [
+      "Farid Mafi",
+      "Saber Jafarpour",
+      "Mohammad Pirani"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "Predicting Sparse Observables in Parameterized Unsteady Flows Using Coarse-Mesh Graph Neural Networks",
+    "abstract": "Full-order surrogates for high-dimensional nonlinear flows are often unnecessary when applications require only selected degrees of freedom. We propose reduced-order models that bypass full-state reconstruction by deploying graph neural networks (GNNs) directly on coarse meshes. Applied to parameterized 2D/3D confined cylinder flows and an unevenly heated cavity over Reynolds/Rayleigh-number ranges, the models generalize to unseen conditions and accurately predict sparse probe locations and integrated quantities. Coarse-mesh GNNs match or outperform finer-mesh surrogates while reducing training time and memory, even for 3D chaotic dynamics. A dynamics-informed adaptive sampling strategy guided by frequency-spectrum variations reduces maximum errors by an order of magnitude versus uniform sampling at negligible cost. Coarse-mesh training also makes noise-augmented multi-step unrolling practical, improving long-horizon autoregressive predictions. The approach outperforms parametric DMD, sparse MLPs, U-Nets, and Fourier neural operators at lower cost, and enables system identification and state estimation from sparse observations. These results show that coarse-mesh representations, adaptive sampling, and noise-augmented unrolled training form an efficient framework for reduced-order modeling of parameterized unsteady flows without solver-resolution reconstruction.",
+    "url": "http://arxiv.org/abs/2610.37986",
+    "pdf": "https://arxiv.org/pdf/2610.37986v1",
+    "keyword": "graph neural network",
+    "date": "2026-10-27",
+    "fetched_date": "2026-10-31",
+    "authors": [
+      "Brener Ramos",
+      "William R. Wolf",
+      "Tarcísio C. D. Oliveira",
+      "Scott T. M. Dawson"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "Continuous-Action World Models: Learning Cross-Embodiment Spatiotemporal Dynamics Priors",
+    "abstract": "We introduce Continuous-Action World Models (CoAWM), a framework for learning cross-embodiment spatiotemporal dynamics priors that support robot action generation across embodiments and execution frequencies. At its core is a shared latent function space that captures the spatial and temporal structure of robot actions. We learn this space through two stages. First, function pretraining brings trajectories from different embodiments and sampling frequencies into a common representation, learning shared dynamics priors through action reconstruction and consistency across temporal sampling views. By accommodating heterogeneous robot trajectories, this stage broadens the range of data sources available for pretraining and facilitates scaling to larger and more diverse datasets. Second, we connect the pretrained function space to a world-model backbone, enabling observations, language instructions, and the current robot state to condition the prediction of a latent action function. A single decoder takes any query time and returns the corresponding end-effector action. By separating shared dynamics priors from task-conditioned action selection and temporal sampling, our approach provides a unified foundation for transferring robot experience across embodiments and control frequencies.",
+    "url": "http://arxiv.org/abs/2610.40401",
+    "pdf": "https://arxiv.org/pdf/2610.40401v1",
+    "keyword": "representation learning",
+    "date": "2026-10-29",
+    "fetched_date": "2026-10-31",
+    "authors": [
+      "Liangyu Li",
+      "Qingwen Liu"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "Confidence-Aware Speed-over-Ground Estimation from Doppler Spectra via Reconstruction-Based Representation Learning",
+    "abstract": "Reliable speed-over-ground estimation from ground-facing Doppler spectra is essential for mobile platforms such as railway systems. Classical signal-processing approaches can provide accurate estimates under favorable conditions, but often degrade in challenging conditions. We propose confidence-aware speed-over-ground estimation trained on rail-domain data that estimates speed over ground and frame-level confidence from Doppler spectra with several novel contributions: First, we transfer the idea of exploiting a reconstruction task by an autoencoder for performance estimation from previous work to Doppler RaDAR. Second, we append a speed-over-ground estimation head operating on the autoencoder's latent space features. Third, we omit the reconstruction decoder during inference but add a low-cost dedicated confidence head for frame-wise error-bound estimation. Fourth, we reveal how noise augmentation training can provide high robustness to the method. Experiments show that our approach improves speed estimation accuracy over classical baselines while providing informative confidence estimates that indicate the reliability of individual predictions, even under adverse signal conditions.",
+    "url": "http://arxiv.org/abs/2610.40253",
+    "pdf": "https://arxiv.org/pdf/2610.40253v1",
+    "keyword": "representation learning",
+    "date": "2026-10-29",
+    "fetched_date": "2026-10-31",
+    "authors": [
+      "Malte Stelzer",
+      "Marvin Sach",
+      "Timo Bartels",
+      "Dinu Mihailescu-Stoica",
+      "Sören Kohnert",
+      "Florian Poprawa",
+      "Marc Zeller",
+      "Tim Fingscheidt"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "Grounding Predictive Reliability through Masked Observability",
+    "abstract": "An uncertainty estimate is meaningful only if its semantics can be tied to observable predictive behavior. Normal-Inverse-Gamma (NIG) evidential regression provides a structured decomposition of predictive variability into data-scale and predictive-mean components, but marginal likelihood does not identify their allocation. We address this semantic ambiguity in masked representation learning. MORSE (Masked Observability for Reliable Structured Encoding) predicts the same hidden target under controlled changes in visible context and uses normalized cross-context variation to ground predictive-mean uncertainty, while a Gaussian objective learns the conditional mean and data scale. The normalized variation plays the role of the NIG factor $1/ν$, which the marginal leaves unidentified; this yields a policy-relative observability variance that measures dependence on visible evidence, distinct from variation induced by resampling the training set. On a Gaussian-process benchmark with a contextual reference built from analytic Bayes conditional means, MORSE has the lowest log-variance error among compared evidential, ensemble, and dropout estimators in all nine tested settings, while the estimator closest to training-set variation perturbs the model rather than its context in every setting, so the two references separate the estimators empirically. MORSE amortizes observability estimation into one forward pass per observation state. On a heteroscedastic pulse benchmark, its predictor's cross-context variance approaches a large-sample reference as training data increase. MORSE also improves low-label transfer on PTB-XL and in-distribution trajectory prediction on IMPTC.",
+    "url": "http://arxiv.org/abs/2610.39728",
+    "pdf": "https://arxiv.org/pdf/2610.39728v1",
+    "keyword": "representation learning",
+    "date": "2026-10-29",
+    "fetched_date": "2026-10-31",
+    "authors": [
+      "Shang Gao",
+      "Bernhard Sick",
+      "Franz Götz-Hahn"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "Integrated Feature Selection for classification and Representation Learning with Group-Lasso Siamese Networks",
+    "abstract": "The Least Absolute Shrinkage and Selection Operator (Lasso) has been widely employed for feature selection in linear models and has also been extended to multi-layer perceptron (MLP) networks for both feature and group feature selection. Group-Lasso has also been used in feature selection using feed-forward neural networks. To the best of our knowledge, this is the first study to incorporate the Group-Lasso principle into a Siamese network architecture for feature selection. Unlike existing approaches that primarily optimize classification accuracy, the proposed method aims to identify a compact subset of features that simultaneously preserves the intrinsic representation of the input data (the goal of Siamese network) and is expected to achieve high classification performance. Two variants of the proposed framework are developed: one based on the Euclidean distance and the other on a modified Jaccard similarity measure for real-valued vectors. The latter is specifically designed to improve feature selection for high?dimensional sparse data. The effectiveness of the proposed approach is demonstrated on 12 benchmark datasets with feature dimensions ranging from 6 to 7070 using eight different classifiers. Experimental results demonstrate that the proposed Siamese Lasso framework consistently identifies compact and discriminative feature subsets maintaining competitive or superior classification performance, although the loss function used explicitly did not consider any regularizer to learn classification. In addition, the quality of the embeddings produced by these networks is assessed using manifold learning techniques such as UMAP and t-SNE.",
+    "url": "http://arxiv.org/abs/2610.39499",
+    "pdf": "https://arxiv.org/pdf/2610.39499v1",
+    "keyword": "representation learning",
+    "date": "2026-10-29",
+    "fetched_date": "2026-10-31",
+    "authors": [
+      "Nisargo Ranjan Pal",
+      "Pradeep Singh"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "Topology Survives Shuffling: Robust Long-Context Memory Access Prediction for Graph Analytics",
+    "abstract": "Graph analytics generates irregular, topology-dependent memory-access streams via indirect traversals, limiting data prefetching. Accurate prediction enables timely prefetches that hide memory latency. However, ML predictors couple short histories with fixed horizons, fitting the training trace's node layout rather than learning transferable graph patterns. We propose LoCoMAP, a long-context representation-learning framework for memory-access prediction with independently controlled observation history and prediction horizon. We evaluate Connected Components (CC), PageRank (PR), and Single-Source Shortest Paths (SSSP) on six synthetic graph families, with Erdos-Renyi (ER) and Grid as random and deterministic controls. We test two interventions: same-family regeneration changes connectivity, while node shuffling disrupts layout but preserves connectivity. Across 18 graph-workload pairs, extending history from 8 to 128 accesses improves F1 by 7.8%, while extending prediction horizon from 8 to 512 improves F1 by 88.3%. For CC, regeneration is less disruptive than shuffling: without retraining, long context retains 95.4% of original F1 and outperforms short context in six families. Under full shuffle, long context improves CC F1 by 33.6% across ER, Barabasi-Albert, Copying Model, and Stochastic Block Model (SBM), with a 2.06x gain on SBM, but not on Watts-Strogatz or Grid, where near-zero delta mass shifts into heavy tails beyond the predictor's range. Long context outperforms short context on six real-world CC graphs. At full shuffle, long-context PR retains 57.6% of original F1 and averages 11.0% above short context. Both SSSP models retain about 30% of original F1 under full shuffle as distance updates access vertex data in a new order. Within these bounds, long-context predictors are robust across related graphs and layouts without retraining, enabling a generalizable graph prefetcher.",
+    "url": "http://arxiv.org/abs/2610.39477",
+    "pdf": "https://arxiv.org/pdf/2610.39477v1",
+    "keyword": "representation learning",
+    "date": "2026-10-29",
+    "fetched_date": "2026-10-31",
+    "authors": [
+      "Dongyan Sun",
+      "Neelesh Gupta",
+      "Rajgopal Kannan",
+      "Viktor K. Prasanna"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "IMRouter: Imbalance-aware Temporal Pattern Routing for LLM-based Time Series Forecasting",
+    "abstract": "Accurate time series forecasting (TSF) is essential for Web applications, such as traffic monitoring and online resource management. Recent advances in leveraging pre-trained large language models (LLMs) have shown promising performance in TSF. However, existing LLM-based TSF methods largely optimize the overall forecasting objective while overlooking temporal pattern imbalance (TPI), where different temporal patterns occur at highly unequal frequencies. Our empirical analysis reveals that TPI is prevalent across widely used TSF benchmarks, with substantially higher forecasting errors on less frequent patterns. To address this issue, we propose IMRouter (Imbalance-aware Temporal Pattern Routing), a novel framework that mitigates TPI-induced biases in both temporal representation learning and cross-modal alignment. Specifically, IMRouter introduces Pattern-Adaptive Temporal Representation Learning (PATR), which leverages gradient conflict and local gradient density to guide expert specialization. By penalizing incompatible expert assignments with density-aware weighting, PATR reduces the dominance of frequent optimization signals in router training. Furthermore, Routing-Guided Semantic Alignment (RGSA) transfers the pattern-specific knowledge learned by the router to cross-modal alignment through mutual information maximization, preserving distinctive temporal information across different patterns. Extensive experiments on benchmark datasets demonstrate the effectiveness of IMRouter, particularly in improving forecasting performance on less frequent temporal patterns.",
+    "url": "http://arxiv.org/abs/2610.39246",
+    "pdf": "https://arxiv.org/pdf/2610.39246v1",
+    "keyword": "representation learning",
+    "date": "2026-10-29",
+    "fetched_date": "2026-10-31",
+    "authors": [
+      "Xin Yang",
+      "Cai Xu",
+      "Haishun Chen",
+      "Ying Liu",
+      "Jie Zhao",
+      "Wei Zhao",
+      "Ziyu Guan"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "Geometric Time Score Estimators: Bridging Self-Predictive Representations and Generative Occupancy Models For Reinforcement Learning",
+    "abstract": "In reinforcement learning (RL), temporal reasoning is essential for estimating the density of future outcomes under a policy's occupancy measure. While self-predictive representations have been a dominant paradigm for occupancy density estimation, we find that they yield surprisingly poor estimates. On the other hand, generative occupancy models can produce remarkably accurate samples from the occupancy measure. Yet, they cannot easily recover occupancy densities, limiting their use for control despite their expressivity. In this paper, we propose Geometric Time Score Estimators (GTSE), a framework that bridges the two paradigms by learning occupancy density estimators along probability paths. We analyze how GTSE implicitly induces better occupancy estimators through improved representation learning and show how to directly extract self-predictive representations from this framework. Through experiments across several locomotion and manipulation tasks, we show that GTSE improves performance over state-of-the-art methods by $2\\times$ to $6\\times$ in goal-conditioned RL settings, and that the representations learned using our framework transfer effectively to downstream RL tasks. Website: https://aravindvenu7.github.io/website/gtse/",
+    "url": "http://arxiv.org/abs/2610.38901",
+    "pdf": "https://arxiv.org/pdf/2610.38901v1",
+    "keyword": "representation learning",
+    "date": "2026-10-28",
+    "fetched_date": "2026-10-31",
+    "authors": [
+      "Aravind Venugopal",
+      "Grace Liu",
+      "Jeff Schneider",
+      "Benjamin Eysenbach"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "An ODE-based Sampler for Discrete Diffusion Models",
+    "abstract": "The marginals of a continuous diffusion model can be reproduced by a deterministic ordinary differential equation (ODE), known as the probability flow ODE, which provides a foundation for accelerated sampling and consistency distillation. In this paper we address the question whether an analogous formulation exists for discrete diffusion models and answer it affirmatively by introducing exponential residual flows (ERFs). Our framework augments the discrete state with a continuous residual variable for each token and position. These residuals evolve deterministically according to piecewise-defined ODEs whose vector fields depend on the current discrete state and the forward and backward rate matrices of the prescribed diffusion model. The discrete state changes whenever a residual reaches zero. We prove that this construction preserves the marginals of the original diffusion. We derive a practical discretization of our sampler and specialize it to masked and uniform diffusion. The deterministic trajectories of ERFs support consistency distillation and yield empirical improvements over previous approaches across a variety of benchmarks including code and text generation tasks.",
+    "url": "http://arxiv.org/abs/2610.40618",
+    "pdf": "https://arxiv.org/pdf/2610.40618v1",
+    "keyword": "diffusion model",
+    "date": "2026-10-29",
+    "fetched_date": "2026-10-31",
+    "authors": [
+      "Samson Gourevitch",
+      "Yazid Janati",
+      "Eric Moulines",
+      "Eric P. Xing",
+      "Alain Durmus",
+      "Giacomo Zanella"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "Difficulty Calibration Across Time for Membership Inference in Diffusion Models",
+    "abstract": "Modern diffusion models are trained on massive datasets that often include copyrighted or private images. Membership inference attacks (MIAs) address this by testing whether a given image was in a model's training set. The standard approach scores an image by its reconstruction loss and flags low-loss images as members. This often fails because some images are simply easier to reconstruct than others, so a simple unseen image can score a lower loss than a complex training image. Difficulty calibration separates memorization from how difficult an image is to begin with. We show how to calibrate along two axes of time: training time and diffusion time. First, across training time, we introduce Reference-Model Calibration (RMC), which compares a fine-tuned model's loss against an earlier checkpoint. This cleanly isolates newly memorized data and gives near-perfect auditing, even without text captions. Since earlier checkpoints are not always available, we next present Temporal Self-Calibration (TSC), which calibrates across diffusion time using only a single model. Our key observation is that an image's difficulty persists across noise levels, whereas memorization is localized in time. By comparing the loss at a target timestep against neighboring timesteps from the same model, TSC attenuates image difficulty using the model's own trajectory. Empirically, our methods beat the state of the art by a wide margin, and unlike most existing attacks, generalize across different model parameterizations such as $x$-, $v$-, and $ε$-prediction models. Code is available at https://github.com/MichaelJoseph777/TSC.",
+    "url": "http://arxiv.org/abs/2610.40616",
+    "pdf": "https://arxiv.org/pdf/2610.40616v1",
+    "keyword": "diffusion model",
+    "date": "2026-10-29",
+    "fetched_date": "2026-10-31",
+    "authors": [
+      "Michael Joseph",
+      "Yedid Hoshen"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "Accurate MRI-free PET Quantification and Reliability Assessment via CT-to-MRI Synthesis and Conformal Prediction",
+    "abstract": "Standardized uptake value ratio (SUVR) quantification of amyloid PET commonly relies on a subject-specific T1-weighted MRI, yet a usable MRI is not always available. We therefore combined CT-to-MRI synthesis with conformal prediction for MRI-free PET quantification with reliability assessment. A slice-consistent Brownian Bridge Diffusion Model was strengthened with multi-dataset training and data-source conditioning to enrich the anatomical prior learned from MRI, and with expanded multi-slice CT context to exploit the through-plane continuity of subject-specific anatomy in CT. Synthetic MRI was used for FreeSurfer-based anatomical parcellation and PET quantification, while deep-ensemble uncertainty was calibrated with conformal prediction to estimate a plausible range for the corresponding real MRI-based SUVR. On $^{11}$C-PiB PET from OASIS-3, the proposed method achieved the highest synthesis and parcellation fidelity among the compared methods. Mean cortical SUVR from the proposed synthetic MRI agreed closely with the real MRI-based reference (MAE $0.016 \\pm 0.015$, Pearson $r = 0.9987$) and yielded the same amyloid-positivity classification as the real MRI in all 87 test subjects at the prespecified cut-off. Conformal prediction achieved empirical coverage close to the prespecified levels, and at 90% target coverage, 85 of 87 subjects had prediction intervals that supported an unambiguous amyloid-positivity decision. Zero-shot evaluation on an independent external cohort showed that the proposed CT-to-MRI model could support PET quantification without retraining, although conformal calibration required target-cohort recalibration to recover the intended coverage. These findings support CT-to-MRI-based MRI-free PET quantification as a promising approach for providing accurate SUVR measurements and an explicit assessment of their reliability.",
+    "url": "http://arxiv.org/abs/2610.40478",
+    "pdf": "https://arxiv.org/pdf/2610.40478v1",
+    "keyword": "diffusion model",
+    "date": "2026-10-29",
+    "fetched_date": "2026-10-31",
+    "authors": [
+      "Jungwoo Seo",
+      "Seung Yun Choi",
+      "Kun Ho Lee",
+      "Seun Jeon",
+      "Byoung Seok Ye",
+      "Jiook Cha"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "Composing and Steering Diffusion Models with Generalized Feynman-Kac Correctors",
+    "abstract": "Diffusion models have become the leading paradigm in generative modeling, yet many applications require sampling from distributions that are not those of any single pretrained model, but are instead defined through combinations of several models, possibly tilted toward high values of a downstream reward. Naively combining the scores of the models yields incorrect samples, while existing corrections are restricted to specific families of targets. In this work, we introduce the generalized Feynman-Kac correctors (GFKC), a principled framework for sampling from an arbitrary target function of several pretrained diffusion models. We show that the geometric interpolation between an arbitrary initial function and the target function of the models satisfies a Feynman--Kac partial differential equation, and derive its potential in closed form. To evaluate this potential during generation, we further generalize the log-probability ODE to track the density of each model along trajectories driven by a different velocity field. The resulting algorithm operates entirely in the log domain, incorporates reward-based steering at no additional conceptual cost, and corrects the generation on the fly, without retraining or fine-tuning the models. We validate the method on analytic Gaussian models, where it closely matches the ground-truth targets, and on diffusion models trained on MNIST, where it samples from non-trivial combinations of the models and enables effective steering.",
+    "url": "http://arxiv.org/abs/2610.40383",
+    "pdf": "https://arxiv.org/pdf/2610.40383v1",
+    "keyword": "diffusion model",
+    "date": "2026-10-29",
+    "fetched_date": "2026-10-31",
+    "authors": [
+      "Wael Mattar",
+      "Daniel Freedman"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "SynthFaces: Balanced Large Scale Human Dataset",
+    "abstract": "The pursuit of fair and equitable AI in human-centric tasks is critically hindered by the inherent biases and privacy risks of real-world datasets, which offer imbalanced representations of identity and often contain sensitive personal information. Consequently, state-of-the-art generative models trained on this skewed data exhibit unfair performance, particularly in identity-preserving generation. In this work we propose a pipeline for controllable generation of dataset with diverse faces for generative models training and finetuning. We achieve this by expanding foundational Arc2Face diffusion model with a flow matching generative model in the manifold of identity embeddings. We demonstrate that such approach achieves both goals of generative fidelity and label diversity not present in real human-centric datasets. As a result we collect and further contextualize a highly balanced identity-centric dataset of humans named SynthFaces. By design, our released images and identities are synthetic, reducing direct reliance on real personal images; we empirically check identity separation with a nearest-neighbor non-leakage metric. We purpose it for training and tuning of fair models for various downstream tasks, and showcase its usability in finetuning an existing adapter-based method for personalized generation.",
+    "url": "http://arxiv.org/abs/2610.40119",
+    "pdf": "https://arxiv.org/pdf/2610.40119v1",
+    "keyword": "diffusion model",
+    "date": "2026-10-29",
+    "fetched_date": "2026-10-31",
+    "authors": [
+      "Sergey Karpukhin",
+      "Denis Bobkov",
+      "Kirill Morozov",
+      "Aibek Alanov"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "D-MOD: Diffusion mode estimation for accelerated MRI",
+    "abstract": "Diffusion models are powerful priors for accelerated MRI reconstruction, but most current methods are posterior samplers, which return a random draw from the posterior. A reproducible and high-quality reconstruction often requires averaging many samples, resulting in a high computational cost. We introduce D-MOD, a fast algorithm that instead provides a posterior mode. It uses a minorize-maximize algorithm on a lower bound of the smoothed log-posterior, which provably increases the objective. Each iteration draws S noisy samples of the current estimate at the current noise level, denoises them with a pretrained diffusion model, and combines their average with the measured k-space through a conjugate-gradient (CG) solve. We anneal the noise levels, as the distance between the bound and its target decays quadratically with noise. On fastMRI brain (T1, T2, FLAIR), a single D-MOD reconstruction exceeds, in PSNR, the 10-sample finite-MMSE estimates of DPS, DAPS and SNORE-P and stays within 0.31 dB of the strongest baselines (DiffPIR, DDS). This approach thus provides a fast deterministic reconstruction algorithm (11-73 times faster than MMSE estimates), which is useful in a clinical setting.",
+    "url": "http://arxiv.org/abs/2610.40110",
+    "pdf": "https://arxiv.org/pdf/2610.40110v1",
+    "keyword": "diffusion model",
+    "date": "2026-10-29",
+    "fetched_date": "2026-10-31",
+    "authors": [
+      "Md Kawsar Ahmed",
+      "Mathews Jacob"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "Coupled Guidance for Flow Matching",
+    "abstract": "Guidance methods are essential tools for steering the generation process in diffusion models, improving the generalizability of stochastic robotic controllers and enabling high-quality controlled image synthesis. Despite strong parallels between flow-matching and diffusion, integrating guidance into flow-matching models remains quite challenging. Recent work has proposed general guidance frameworks for flow-matching, however, they are direct adaptations of diffusion guidance methods and can prove unstable. In this work, we conduct a theoretical analysis of guidance in flow-matching and show that a naive translation of diffusion-based guidance to flow-matching breaks the coupling distribution used during training, resulting in weaker control over sampling accuracy. Building on this insight, we propose Coupled Guidance, a flow-matching-specific guidance mechanism derived from a geometric perspective that leverages the coupling structure inherent to flow-matching training. To validate the effectiveness of our approach, we conduct extensive experimentation on a custom robotic collision avoidance task using ManiSkill3, four robotic dexterous manipulation tasks from the Adroit benchmark, and three image generation tasks, namely inpainting, super-resolution, and deblurring, using the ImageNet-128 and CelebA-HQ-256 datasets. Our findings show that our framework improves sample quality and guidance stability across all tasks, without imposing any additional overhead.",
+    "url": "http://arxiv.org/abs/2610.40109",
+    "pdf": "https://arxiv.org/pdf/2610.40109v1",
+    "keyword": "diffusion model",
+    "date": "2026-10-29",
+    "fetched_date": "2026-10-31",
+    "authors": [
+      "Mateo Clémente",
+      "Léo Maxime Brunswic",
+      "Rui Heng Yang",
+      "Amir Rasouli"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "Localizing Concepts in Visual Autoregressive Models",
+    "abstract": "Understanding the internal routing of visual concepts is crucial for the safe and controllable adaptation of generative models. While concept localization has been widely studied in diffusion models, the emerging paradigm of next-scale visual autoregressive models remains largely unexplored. In this paper, we introduce LoCo, the first model-agnostic framework to localize where and when specific concepts emerge within autoregressive models. Driven by the native coarse-to-fine nature of next-scale generation, our method precisely maps conceptual knowledge across three distinct dimensions: Layer, Scale, and Position. To systematically localize and evaluate concept routing without context bias, we propose LoCoBench, a comprehensive dataset spanning 10 diverse categories. Extensive probing on image and video autoregressive models like Infinity, HunyuanImage-3.0, and InfinityStar shows that the localized positions are both interpretable and causally related to concept emergence. Building on these insights, we apply our localization method to three key applications: concept erasure, model personalization, and adversarial concept injection. Experiments demonstrate that our targeted intervention achieves state-of-the-art performance, substantially reducing computational overhead while preserving benign utility. Overall, our findings offer insights into how conceptual knowledge is routed during autoregressive generation, introducing a practical pathway for more interpretable, efficient, and secure adaptation.",
+    "url": "http://arxiv.org/abs/2610.40061",
+    "pdf": "https://arxiv.org/pdf/2610.40061v1",
+    "keyword": "diffusion model",
+    "date": "2026-10-29",
+    "fetched_date": "2026-10-31",
+    "authors": [
+      "Nanxiang Jiang",
+      "Yang Liu",
+      "Yuanhao Wang",
+      "Min Xu"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "sDMD: Sinkhorn Distribution Matching Distillation",
+    "abstract": "Distribution Matching Distillation (DMD) distills multi-step diffusion models into few-step generators by minimizing reverse KL divergence. Despite its strong performance, DMD guides samples by local density alone, which introduces two limitations: teacher scores can be unreliable in regions of low teacher density, and the mode-seeking behavior of reverse KL can collapse the student onto a subset of the teacher modes. We first connect DMD to Wasserstein gradient flow, showing that its gradient follows from a fixed-point formulation with integral KL (IKL) as the energy functional. This perspective motivates augmenting IKL with an optimal transport term that addresses these limitations by guiding outlier samples toward the target and promoting mode coverage. We realize this term using Sinkhorn divergence estimated from finite batches. In practice, however, errors in the estimated Sinkhorn velocity can perturb in-domain samples for which IKL guidance is already accurate. To this end, we introduce sDMD, which adaptively activates the Sinkhorn correction based on discriminator outputs, focusing on outlier samples where IKL may be unreliable. With 2--4 sampling steps on FLUX.1-dev, Qwen-Image-20B, and Wan2.1-14B, sDMD outperforms distillation baselines on GenEval, DPG, WISE, and VBench while improving sample diversity over DMD2.",
+    "url": "http://arxiv.org/abs/2610.39889",
+    "pdf": "https://arxiv.org/pdf/2610.39889v1",
+    "keyword": "diffusion model",
+    "date": "2026-10-29",
+    "fetched_date": "2026-10-31",
+    "authors": [
+      "Jaihoon Kim",
+      "Lingxiao Li",
+      "Soshi Shimada",
+      "Roshni Cooper",
+      "Minhyuk Sung",
+      "Yiwei Zhao"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "world2vec: Mechanistic world models through latent dynamics learning",
+    "abstract": "World models can achieve strong control performance without faithfully capturing the dynamics of their environment, limiting their potential for mechanistic interpretability and scientific discovery. Here, we introduce world2vec to learn mechanistic world models without reward information directly from observations and actions. World2vec learns latent dynamics that faithfully reproduce the true system over long prediction horizons, with at least one order of magnitude fewer parameters than DreamerV3, TD-MPC2 and LeWM. This enables state of the art performance in controlling continuous environments from pixels and accurate system identification across a benchmark of 71 attractors, demonstrating how world models are amenable to scientific discovery.",
+    "url": "http://arxiv.org/abs/2610.40637",
+    "pdf": "https://arxiv.org/pdf/2610.40637v1",
+    "keyword": "world model",
+    "date": "2026-10-29",
+    "fetched_date": "2026-10-31",
+    "authors": [
+      "Tobias Schmidt",
+      "Rodrigo Gonzalez Laiz",
+      "Krisztián Szuppinger",
+      "Steffen Schneider"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "L3G-World: Real-Time Infinite World Generation with Latent 3D Gaussian Memory",
+    "abstract": "Interactive world models generate visual content conditioned on user actions, yet maintaining spatial consistency over long-horizon exploration in real time remains challenging. Existing approaches rely on either temporal context or explicit 3D memory, both of which scale poorly because memory grows with the length of the generated stream. Moreover, explicit 3D memories condition latent video generators by re-encoding RGB renderings, which precludes real-time generation. In this paper, we introduce a Latent 3D Gaussian Memory (L3G) that combines the efficiency of feed-forward reconstruction with a compact, rapidly renderable scene representation. Building on this memory, we propose L3G-World, in which a memory updater and a video diffusion transformer (DiT) alternate autoregressively to generate spatially consistent worlds. The memory updater spawns Gaussians in newly observed regions and refines existing ones, so that the memory grows with scene extent rather than stream length. Each Gaussian further stores a VAE latent feature, allowing the memory to be rendered directly into the DiT's latent space without VAE re-encoding. Experiments show that L3G-World achieves state-of-the-art generation quality and long-horizon spatial consistency, with up to $38.6\\times$ fewer 3D primitives, $3.2\\times$ faster memory updates, and $359\\times$ faster memory rendering relative to the most efficient prior 3D-memory baseline for each metric, enabling real-time world generation at 9 FPS.",
+    "url": "http://arxiv.org/abs/2610.40614",
+    "pdf": "https://arxiv.org/pdf/2610.40614v1",
+    "keyword": "world model",
+    "date": "2026-10-29",
+    "fetched_date": "2026-10-31",
+    "authors": [
+      "Jinhyeok Choi",
+      "JoungBin Lee",
+      "Jongmin Lee",
+      "Minkyeong Jeon",
+      "Jiyoung Kim",
+      "Kaeun Han",
+      "Yoonjin Yoon",
+      "Seungryong Kim"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "Fight World Model: Customizable Combat through Visual Interaction Proxies",
+    "abstract": "A playable, programmable game world must maintain persistent state, enforce executable rules, and support extensible gameplay mechanics. Existing video world models can generate plausible combat, yet struggle to keep hit reactions and health updates consistent with game rules. We introduce Fight World Model (FWM), which separates rule-governed combat execution from video rendering. An executable engine maintains state and resolves interactions. A deterministic compiler encodes these outcomes and attempted actions in a spatially and temporally aligned interaction proxy. The proxy aligns action and skill windows, brief hit reactions, and persistent health by fighter identity and timing. These cues can be controlled separately to render interactions under modified rules. Identity-bound references preserve character appearance across side switches. We train FWM on FightWorld Corpus, spanning 52 skill effects, 187 character-appearance variants, and 15 arenas. Without retraining the renderer, FWM supports damage scaling, limited-hit immunity, lifesteal, and multi-stage skill mechanisms beyond the native game. It also allows character and arena customization. Experiments demonstrate the effectiveness of FWM, which outperforms existing game world models in action fidelity, hit reactions, health-state consistency, and character appearance preservation. Our project is available at https://fight-world-model.github.io.",
+    "url": "http://arxiv.org/abs/2610.40607",
+    "pdf": "https://arxiv.org/pdf/2610.40607v1",
+    "keyword": "world model",
+    "date": "2026-10-29",
+    "fetched_date": "2026-10-31",
+    "authors": [
+      "Jiahua Li",
+      "Zixu John",
+      "Tom Zhong",
+      "Fuping Wu",
+      "Tianhao Xu",
+      "Ruicheng Zhang",
+      "Jun Zhou",
+      "Zunnan Xu"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "Algebraic World Model: From Exploration to Proofs",
+    "abstract": "AI has made remarkable progress in mathematics, solving challenging problems with machine-checkable proofs in Lean, yet typically relying on predefined mathematical definitions and formal specifications. This raises a natural question: can it reason rigorously about an unknown world? We introduce the Algebraic World Model (AWM), a framework that turns interaction with unfamiliar environments into explicit mathematical models supporting formal reasoning. AWM explores the environment and develops executable Python hypotheses, continually testing and revising them against observations. It then structures these hypotheses into typed objects and shared rules, simplifies their structure through category-theory-guided transformations, and formalizes the resulting model in Lean 4 to prove reachability and impossibility. AWM can formally prove that a goal is unreachable, even beyond explored trajectories. On two impossible game levels, it constructs closed, kernel-checked Lean proofs excluding every legal winning sequence in all six runs, while Claude Opus 5.5 and GPT-6 Astra, equipped with coding tools, produce none in twelve baseline runs. Four of AWM's six initial bounds are correct, compared with one for Opus 5.5 and none for GPT-6 Astra; given only feedback that a cheaper win exists, AWM revises its rules and constructs new proofs, reaching six of six correct bounds. Moreover, AWM produces interpretable mathematical models whose rules can be inspected and tested step by step. Across all 25 public ARC-AGI-3 games, these models enable Lean to replay the winning trajectories of all 183 levels and generalize beyond observed play, predicting unseen transitions and detecting changes in game mechanics. With Claude Opus 5, AWM clears all levels with a score of 99.9, while its certified winning trajectories use only 43% of the human baseline's actions.",
+    "url": "http://arxiv.org/abs/2610.40503",
+    "pdf": "https://arxiv.org/pdf/2610.40503v1",
+    "keyword": "world model",
+    "date": "2026-10-29",
+    "fetched_date": "2026-10-31",
+    "authors": [
+      "Guancheng Pan",
+      "Qixin Tan",
+      "Yang Yuan",
+      "Andrew Chi-Chih Yao"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "HiFOR: Hierarchical Foresight with Action-Guided World Grounding for Vision-Language-Action Model",
+    "abstract": "Vision-Language-Action (VLA) models have demonstrated promising capabilities in robotic manipulation by integrating visual perception, language understanding, and action generation. Recent advances have further incorporated future prediction to enhance the understanding of environmental dynamics and task progression. However, existing methods often model short-term dynamics and long-term task objectives separately, while directly incorporating predicted futures into action policies without sufficiently considering their relevance to current action requirements. To address these limitations, we propose HiFOR, a hierarchical foresight framework with action-guided world retrieval. Specifically, Hierarchical Foresight Prediction jointly predicts short-term state evolution, semantic milestones, and final goal states through a Hierarchical Dependency Mask (HDM), establishing dependencies across temporal horizons. Building upon these predictions, Structure-Aware Latent World Modeling organizes future latent representations along the horizon, view, and spatial dimensions to facilitate fine-grained retrieval. Furthermore, Action-Guided Factorized World Retrieval adaptively retrieves relevant future information from the structured latent world based on evolving action representations during denoising, providing targeted guidance for action generation. Extensive experiments on two simulation benchmarks and six real-world robotic manipulation tasks demonstrate the effectiveness of our approach.",
+    "url": "http://arxiv.org/abs/2610.40373",
+    "pdf": "https://arxiv.org/pdf/2610.40373v1",
+    "keyword": "world model",
+    "date": "2026-10-29",
+    "fetched_date": "2026-10-31",
+    "authors": [
+      "Rongxing Ding",
+      "Hongyu Qu",
+      "Kehong Wu",
+      "Xudong Wang",
+      "Fan Zhang",
+      "Xinguang Xiang",
+      "Xiangbo Shu"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "Wizard: Manipulate Any World in Real Time via Agentic Control",
+    "abstract": "Recent advances in video world models have enabled the generation of increasingly realistic and interactive virtual environments, opening new possibilities for player-customizable gameplay. Agentic frameworks further advance this direction by decoupling explicit game logic and controllable world representations from visual generation. However, existing approaches support only simple game settings and predefined motion patterns, generalize poorly to unseen environments and characters, and offer limited real-time interactivity. In this paper, we introduce Wizard, an agentic game world model that enables real-time, precise control over character motions while generalizing zero-shot across novel scenes, characters, and actions. To achieve this, we construct a diverse dataset spanning 750 scenes and 178 characters, incorporating skeleton and geometry information as structured representations. We leverage these representations as intermediate proxies to condition a video generation model, together with an adaptive masking mechanism that improves alignment between the conditioning signals and generated video rollouts. Furthermore, we introduce an agentic framework that explicitly maintains and updates game states, allowing players to freely configure their virtual worlds and exercise fine-grained control over character motions while preserving visual quality and gameplay consistency. By combining agentic control with structured proxy-based generation, our framework unlocks new possibilities for player-driven game creation with real-time, generalizable, and mechanically consistent world simulation.",
+    "url": "http://arxiv.org/abs/2610.40339",
+    "pdf": "https://arxiv.org/pdf/2610.40339v1",
+    "keyword": "world model",
+    "date": "2026-10-29",
+    "fetched_date": "2026-10-31",
+    "authors": [
+      "Yuzhe Wu",
+      "Zijun Lin",
+      "Yeying Jin"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "Video Generation Meets Agent Harness: Agentic Video Generation, Agentic World Modeling and Recursive Self-Improvement",
+    "abstract": "Video generation is shifting from end-to-end synthesis toward agentic generation, where planning, tool use, and feedback enable coherent, controllable multi-shot videos. In parallel, video world models provide action-conditioned observations and predicted futures, serving as interactive environments for agents. We study their intersection through the agent harness: an executable runtime that constructs context, exposes tools, maintains state, routes feedback, and manages budgets around video models. This report examines three directions. First, agentic video generation, where harnesses coordinate scripting, shot planning, asset management, production, and editing, alongside the evaluation challenges of these systems. Second, agentic world modeling, where harnesses mediate observation, control, execution, and state. We discuss hybrid designs in which game engines or agent-written programs maintain world state while video models render observations, and how agents and world models can mutually evaluate and improve one another. Third, recursive self-improvement (RSI) in video model development, distinguishing output revisions, updates to harness state, generator parameters, and evaluators, and changes to the improvement procedure itself. We identify how these improvements feed back into subsequent development. Across these directions, we analyze essential agent capabilities, including audiovisual perception, long-horizon planning, memory, code-based interaction, feedback-guided control, skill reuse, and multi-agent coordination. We conclude with challenges in autonomous video production, lifelong memory, programmable hybrid control, autonomous model development, provenance, cost accounting, and evaluation linking video quality and task performance to sustained improvements in models and harnesses.",
+    "url": "http://arxiv.org/abs/2610.40191",
+    "pdf": "https://arxiv.org/pdf/2610.40191v1",
+    "keyword": "world model",
+    "date": "2026-10-29",
+    "fetched_date": "2026-10-31",
+    "authors": [
+      "Liaoyuan Fan",
+      "Yuhao Zheng",
+      "Dongxing Mao",
+      "Hangyu Ran",
+      "Siyuan Hu",
+      "Weijia Mao",
+      "Rui Zhao",
+      "Weijia Wu",
+      "Guian Fang",
+      "Yanzhe Chen",
+      "Zeyu Zhu",
+      "Yuxin Jiang",
+      "Yiren Song",
+      "Yuchao Gu",
+      "Junchao Yi",
+      "Qi Hu",
+      "Dan Kong",
+      "Alex Jinpeng Wang",
+      "Kevin Qinghong Lin",
+      "Mike Zheng Shou",
+      "Wei Liu"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "Cheap Retrieval and Observation Credit Assignment from One Quantity: The Value of Information",
+    "abstract": "Memory in reinforcement learning raises two problems. Attention finds the relevant item by scoring the whole store, which is costly for robots under latency and energy limits. When a retrieved memory pays off, credit for acquiring it must cross the whole sequence. We argue that both are governed by one quantity, the value of information, and propose to estimate it from archived rollouts with a learned world model. We obtain that, when read at the observation, it yields a provable lower bound on the optimal value of the acquiring action, which floors its TD target and attributes this floor to the observation that earned it. Read at the decision, it defines the optimal retrieval set. A pilot retrieval system, to be trained and improved with this signal, solves a memory task with reduced context.",
+    "url": "http://arxiv.org/abs/2610.40030",
+    "pdf": "https://arxiv.org/pdf/2610.40030v1",
+    "keyword": "world model",
+    "date": "2026-10-29",
+    "fetched_date": "2026-10-31",
+    "authors": [
+      "Daniel Strauss",
+      "Nikolaos Sotirakis",
+      "Zhenshan Bing",
+      "Alois Knoll"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "GROME: GROunding Factorized MEmory into Video World Models",
+    "abstract": "Long-horizon consistency is essential for video world models, yet it becomes difficult to maintain once observed content falls outside the context window. Existing memory mechanisms either retrieve history as implicit context, which remains constrained by context capacity and entangles static and dynamic information or consolidate history into explicit global representations, which struggle to model evolving dynamics and accumulate geometric errors. To overcome these limitations, we introduce \\textbf{GROME}, a novel factorized memory framework that augments video world models for long-horizon coherence across both static scenes and dynamic entities. GROME operates via three synergistic components: 1)~\\emph{Static-Dynamic Factorization} decouples historical evidence into static and dynamic components, preserving static scene geometry and dynamic entity states separately; 2)~\\emph{Local Memory Retrieval} selects spatially aligned static history to eliminate geometric drift alongside the latest dynamic entity states to ensure temporal continuity; 3)~\\emph{Training-Free Memory Injection} seamlessly grounds the factorized memory into video world models via their native conditioning pathways. Experiments on long-horizon revisit scenarios demonstrate that GROME substantially enhances scene persistence and dynamic entity fidelity over existing methods, all while preserving the visual quality and controllability of the frozen backbone without additional training. Beyond self-rollouts, GROME readily accommodates external observations as plug-and-play memory, unlocking flexible and controllable video continuation and scene exploration.",
+    "url": "http://arxiv.org/abs/2610.39812",
+    "pdf": "https://arxiv.org/pdf/2610.39812v1",
+    "keyword": "world model",
+    "date": "2026-10-29",
+    "fetched_date": "2026-10-31",
+    "authors": [
+      "Fang Yu",
+      "Xiaoxue Wu",
+      "Haiyu Zhang",
+      "Yangfu Li",
+      "Botong Zhao",
+      "Yu Qiao",
+      "Tianfan Xue",
+      "Yue Lu",
+      "Xinyuan Chen"
+    ],
+    "article_type": "research"
   }
 ]
