@@ -330,7 +330,7 @@
       </select>
       <button class="starred-btn" id="toggle-starred" style="display:none;">&#9733; Starred (0)</button>
     </div>
-    <p class="stats" id="arxiv-stats">19566 papers &bull; last updated 2026-10-31 06:36 UTC</p>
+    <p class="stats" id="arxiv-stats">19566 papers &bull; last updated 2026-11-01 07:09 UTC</p>
     
   <section class="run-group">
     <h2 class="run-header">Week of 2026-10-31</h2>
@@ -433855,8 +433855,127 @@ or equivalently, up to universal constants, of order \[
       <option value="ml-engineering">ml-engineering</option>
       </select>
     </div>
-    <p class="stats" id="industry-stats">3693 items &bull; last updated 2026-10-31 06:36 UTC</p>
+    <p class="stats" id="industry-stats">3699 items &bull; last updated 2026-11-01 07:09 UTC</p>
     
+  <section class="run-group">
+    <h2 class="run-header">Week of 2026-11-01</h2>
+    
+    <article class="card industry-item" data-keyword="llm" data-url="https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/" data-type="industry" data-industry="1" data-source="industry">
+      <div class="card-meta">
+        <span class="date">2026-10-31</span>
+        <span class="keyword">llm</span>
+        <span class="feed-badge">Simon Willison</span>
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/" target="_blank" rel="noopener">How We Took Over ChatGPT Accounts</a>
+      </h2>
+      <p class="abstract">How We Took Over ChatGPT Accounts Parameter Labs describe an exploit they found against ChatGPT's implementation of the artifacts pattern (OpenAI used to call this "Canvas" but it looks like the latest revision is called HTML previews ), where interactive custom HTML apps are displayed in a sandboxed iframe. It's important that HTML in these stays tightly sandboxed to avoid untrusted code interacting with OpenAI APIs and accessing private data. Parameter found quite a complex attack chain. OpenAI use the MathLive JavaScript library as part of their graph support, and that library includes its own virtual keyboard , which can be triggered in the parent page via postMessage() from the sandboxed iframe. That message receiving code uses innerHTML , so anything that sends a message can add custom HTML to the parent - and there was no mechanism to prevent other sandboxed frames, including HTML preview frames, from calling that method. This meant untrusted code in an iframe could insert HTML, and while innerHTML doesn't directly execute script elements it could be used to inject a new iframe without sandbox restrictions. OpenAI’s CSP rules blocked inline scripts entirely, and only allowed script loading from a handful of domains, but one of those was YouTube - and the YouTube oEmbed endpoint could be used to reflect JavaScript back in a way that executed it. Once the attack had JavaScript execution on ChatGPT, it was trivial to fetch private user data from APIs and exfiltrate it via an image reference. The end result: you could create a ChatGPT share URL which, when visited by another signed-in user, could exfiltrate their private data or take actions on their behalf. OpenAI closed the hole and paid out a $5,000 bug bounty, which I think was a bit cheap for a vulnerability this serious. Via Hacker News Tags: iframes , javascript , sandboxing , security , xss , openai , chatgpt , content-security-policy</p>
+      <div class="card-links">
+        <a href="https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/" target="_blank" rel="noopener">Read article &#8594;</a>
+      </div>
+    </article>
+    <article class="card industry-item" data-keyword="llm" data-url="https://simonwillison.net/2026/Oct/31/datasette-llm/" data-type="industry" data-industry="1" data-source="industry">
+      <div class="card-meta">
+        <span class="date">2026-10-31</span>
+        <span class="keyword">llm</span>
+        <span class="feed-badge">Simon Willison</span>
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="https://simonwillison.net/2026/Oct/31/datasette-llm/" target="_blank" rel="noopener">datasette-llm 0.1a9</a>
+      </h2>
+      <p class="abstract">Release: datasette-llm 0.1a9 I have some big upgrades to Datasette Agent in the pipeline, but in the meantime here's a tiny user experience improvement to the underlying datasette-llm plugin. It now picks up the default model used by LLM , which means you can start using Datasette Agent without needing to explicitly configure a default model: uvx --with datasette-agent datasette content.db --internal internal.db Previously you would also need to specify a model with -s plugins.datasette-agent.default_model gpt-6-astra . Tags: datasette , llm , datasette-agent</p>
+      <div class="card-links">
+        <a href="https://simonwillison.net/2026/Oct/31/datasette-llm/" target="_blank" rel="noopener">Read article &#8594;</a>
+      </div>
+    </article>
+    <article class="card industry-item" data-keyword="llm" data-url="https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/" data-type="industry" data-industry="1" data-source="industry">
+      <div class="card-meta">
+        <span class="date">2026-10-31</span>
+        <span class="keyword">llm</span>
+        <span class="feed-badge">TechCrunch AI</span>
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/" target="_blank" rel="noopener">Apple CEO says the company doesn’t ‘want to ship AI for AI’s sake’</a>
+      </h2>
+      <p class="abstract">Apple's new CEO defended the company's current position in the AI landscape.</p>
+      <div class="card-links">
+        <a href="https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/" target="_blank" rel="noopener">Read article &#8594;</a>
+      </div>
+    </article>
+    <article class="card industry-item" data-keyword="llm" data-url="https://techcrunch.com/2026/10/31/4-days-left-how-techcrunch-founder-summit-helps-you-make-more-useful-connections-to-scale/" data-type="industry" data-industry="1" data-source="industry">
+      <div class="card-meta">
+        <span class="date">2026-10-31</span>
+        <span class="keyword">llm</span>
+        <span class="feed-badge">TechCrunch AI</span>
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="https://techcrunch.com/2026/10/31/4-days-left-how-techcrunch-founder-summit-helps-you-make-more-useful-connections-to-scale/" target="_blank" rel="noopener">4 days left: How TechCrunch Founder Summit helps you make more useful connections to scale</a>
+      </h2>
+      <p class="abstract">On November 4 at Boston’s SoWa Power Station, get ready for a full day packed with meaningful networking opportunities, actionable insights, and connections that could change the trajectory of your idea and startup. Register before all prices go up at the door.</p>
+      <div class="card-links">
+        <a href="https://techcrunch.com/2026/10/31/4-days-left-how-techcrunch-founder-summit-helps-you-make-more-useful-connections-to-scale/" target="_blank" rel="noopener">Read article &#8594;</a>
+      </div>
+    </article>
+    <article class="card industry-item" data-keyword="llm" data-url="https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/" data-type="industry" data-industry="1" data-source="industry">
+      <div class="card-meta">
+        <span class="date">2026-10-31</span>
+        <span class="keyword">llm</span>
+        <span class="feed-badge">TechCrunch AI</span>
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/" target="_blank" rel="noopener">Judge allows NAACP lawsuit over xAI data center pollution to move forward</a>
+      </h2>
+      <p class="abstract">An NAACP lawsuit accuses the SpaceX-owned AI company of violating the Clean Air Act.</p>
+      <div class="card-links">
+        <a href="https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/" target="_blank" rel="noopener">Read article &#8594;</a>
+      </div>
+    </article>
+    <article class="card industry-item" data-keyword="llm" data-url="https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/" data-type="industry" data-industry="1" data-source="industry">
+      <div class="card-meta">
+        <span class="date">2026-10-31</span>
+        <span class="keyword">llm</span>
+        <span class="feed-badge">TechCrunch AI</span>
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/" target="_blank" rel="noopener">OpenAI reportedly lowers funding target for new round</a>
+      </h2>
+      <p class="abstract">OpenAI’s latest funding round doesn't seem to be living up to expectations.</p>
+      <div class="card-links">
+        <a href="https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/" target="_blank" rel="noopener">Read article &#8594;</a>
+      </div>
+    </article>
+  </section>
+
   <section class="run-group">
     <h2 class="run-header">Week of 2026-10-31</h2>
     
@@ -504984,8 +505103,108 @@ or equivalently, up to universal constants, of order \[
       <option value="startup">startup</option>
       </select>
     </div>
-    <p class="stats" id="startup-stats">2046 items &bull; last updated 2026-10-31 06:36 UTC</p>
+    <p class="stats" id="startup-stats">2051 items &bull; last updated 2026-11-01 07:09 UTC</p>
     
+  <section class="run-group">
+    <h2 class="run-header">Week of 2026-11-01</h2>
+    
+    <article class="card startup-item" data-keyword="startup" data-url="https://techcrunch.com/2026/10/31/data-centers-are-now-a-midterm-issue-even-in-brooklyn/" data-type="startup" data-source="startup">
+      <div class="card-meta">
+        <span class="date">2026-11-01</span>
+        <span class="keyword">startup</span>
+        <span class="feed-badge startup-badge">TechCrunch</span>
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="https://techcrunch.com/2026/10/31/data-centers-are-now-a-midterm-issue-even-in-brooklyn/" target="_blank" rel="noopener">Data centers are now a midterm issue, even in Brooklyn</a>
+      </h2>
+      <p class="abstract">At a Brooklyn midterm party five days before Election Day, every conversation, from a council member’s fireside chat to a debate about the Democratic Party, kept circling back to AI and data centers.</p>
+      <div class="card-links">
+        <a href="https://techcrunch.com/2026/10/31/data-centers-are-now-a-midterm-issue-even-in-brooklyn/" target="_blank" rel="noopener">Read article &#8594;</a>
+      </div>
+    </article>
+    <article class="card startup-item" data-keyword="startup" data-url="https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/" data-type="startup" data-source="startup">
+      <div class="card-meta">
+        <span class="date">2026-10-31</span>
+        <span class="keyword">startup</span>
+        <span class="feed-badge startup-badge">TechCrunch</span>
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/" target="_blank" rel="noopener">Apple CEO says the company doesn’t ‘want to ship AI for AI’s sake’</a>
+      </h2>
+      <p class="abstract">Apple's new CEO defended the company's current position in the AI landscape.</p>
+      <div class="card-links">
+        <a href="https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/" target="_blank" rel="noopener">Read article &#8594;</a>
+      </div>
+    </article>
+    <article class="card startup-item" data-keyword="startup" data-url="https://techcrunch.com/2026/10/31/4-days-left-how-techcrunch-founder-summit-helps-you-make-more-useful-connections-to-scale/" data-type="startup" data-source="startup">
+      <div class="card-meta">
+        <span class="date">2026-10-31</span>
+        <span class="keyword">startup</span>
+        <span class="feed-badge startup-badge">TechCrunch</span>
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="https://techcrunch.com/2026/10/31/4-days-left-how-techcrunch-founder-summit-helps-you-make-more-useful-connections-to-scale/" target="_blank" rel="noopener">4 days left: How TechCrunch Founder Summit helps you make more useful connections to scale</a>
+      </h2>
+      <p class="abstract">On November 4 at Boston’s SoWa Power Station, get ready for a full day packed with meaningful networking opportunities, actionable insights, and connections that could change the trajectory of your idea and startup. Register before all prices go up at the door.</p>
+      <div class="card-links">
+        <a href="https://techcrunch.com/2026/10/31/4-days-left-how-techcrunch-founder-summit-helps-you-make-more-useful-connections-to-scale/" target="_blank" rel="noopener">Read article &#8594;</a>
+      </div>
+    </article>
+    <article class="card startup-item" data-keyword="startup" data-url="https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/" data-type="startup" data-source="startup">
+      <div class="card-meta">
+        <span class="date">2026-10-31</span>
+        <span class="keyword">startup</span>
+        <span class="feed-badge startup-badge">TechCrunch</span>
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/" target="_blank" rel="noopener">Judge allows NAACP lawsuit over xAI data center pollution to move forward</a>
+      </h2>
+      <p class="abstract">An NAACP lawsuit accuses the SpaceX-owned AI company of violating the Clean Air Act.</p>
+      <div class="card-links">
+        <a href="https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/" target="_blank" rel="noopener">Read article &#8594;</a>
+      </div>
+    </article>
+    <article class="card startup-item" data-keyword="startup" data-url="https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/" data-type="startup" data-source="startup">
+      <div class="card-meta">
+        <span class="date">2026-10-31</span>
+        <span class="keyword">startup</span>
+        <span class="feed-badge startup-badge">TechCrunch</span>
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/" target="_blank" rel="noopener">OpenAI reportedly lowers funding target for new round</a>
+      </h2>
+      <p class="abstract">OpenAI’s latest funding round doesn't seem to be living up to expectations.</p>
+      <div class="card-links">
+        <a href="https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/" target="_blank" rel="noopener">Read article &#8594;</a>
+      </div>
+    </article>
+  </section>
+
   <section class="run-group">
     <h2 class="run-header">Week of 2026-10-31</h2>
     
@@ -544943,7 +545162,7 @@ or equivalently, up to universal constants, of order \[
         sec.classList.toggle('hidden', !sec.querySelector('.card:not(.hidden)')));
       const label = kw
         ? visible + ' paper' + (visible !== 1 ? 's' : '') + ' in “' + kw + '”'
-        : visible + ' papers • last updated 2026-10-31 06:36 UTC';
+        : visible + ' papers • last updated 2026-11-01 07:09 UTC';
       document.getElementById('arxiv-stats').textContent = label;
     }
 
@@ -544962,7 +545181,7 @@ or equivalently, up to universal constants, of order \[
       });
       document.querySelectorAll('#panel-industry .run-group').forEach(sec =>
         sec.classList.toggle('hidden', !sec.querySelector('.card:not(.hidden)')));
-      document.getElementById('industry-stats').textContent = visible + ' items • last updated 2026-10-31 06:36 UTC';
+      document.getElementById('industry-stats').textContent = visible + ' items • last updated 2026-11-01 07:09 UTC';
     }
 
     // Startup filter
@@ -544980,7 +545199,7 @@ or equivalently, up to universal constants, of order \[
       });
       document.querySelectorAll('#panel-startup .run-group').forEach(sec =>
         sec.classList.toggle('hidden', !sec.querySelector('.card:not(.hidden)')));
-      document.getElementById('startup-stats').textContent = visible + ' items • last updated 2026-10-31 06:36 UTC';
+      document.getElementById('startup-stats').textContent = visible + ' items • last updated 2026-11-01 07:09 UTC';
     }
 
     // Keyword override (arXiv panel only)

@@ -20458,5 +20458,55 @@
     "fetched_date": "2026-10-31",
     "feed_name": "YC Blog",
     "source": "startup"
+  },
+  {
+    "title": "Data centers are now a midterm issue, even in Brooklyn",
+    "abstract": "At a Brooklyn midterm party five days before Election Day, every conversation, from a council member’s fireside chat to a debate about the Democratic Party, kept circling back to AI and data centers.",
+    "url": "https://techcrunch.com/2026/10/31/data-centers-are-now-a-midterm-issue-even-in-brooklyn/",
+    "topic": "startup",
+    "date": "2026-11-01",
+    "fetched_date": "2026-11-01",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Apple CEO says the company doesn’t ‘want to ship AI for AI’s sake’",
+    "abstract": "Apple's new CEO defended the company's current position in the AI landscape.",
+    "url": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/",
+    "topic": "startup",
+    "date": "2026-10-31",
+    "fetched_date": "2026-11-01",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "4 days left: How TechCrunch Founder Summit helps you make more useful connections to scale",
+    "abstract": "On November 4 at Boston’s SoWa Power Station, get ready for a full day packed with meaningful networking opportunities, actionable insights, and connections that could change the trajectory of your idea and startup. Register before all prices go up at the door.",
+    "url": "https://techcrunch.com/2026/10/31/4-days-left-how-techcrunch-founder-summit-helps-you-make-more-useful-connections-to-scale/",
+    "topic": "startup",
+    "date": "2026-10-31",
+    "fetched_date": "2026-11-01",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Judge allows NAACP lawsuit over xAI data center pollution to move forward",
+    "abstract": "An NAACP lawsuit accuses the SpaceX-owned AI company of violating the Clean Air Act.",
+    "url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/",
+    "topic": "startup",
+    "date": "2026-10-31",
+    "fetched_date": "2026-11-01",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "OpenAI reportedly lowers funding target for new round",
+    "abstract": "OpenAI’s latest funding round doesn't seem to be living up to expectations.",
+    "url": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/",
+    "topic": "startup",
+    "date": "2026-10-31",
+    "fetched_date": "2026-11-01",
+    "feed_name": "TechCrunch",
+    "source": "startup"
   }
 ]
