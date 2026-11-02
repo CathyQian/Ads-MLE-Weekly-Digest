@@ -36988,5 +36988,65 @@
     "fetched_date": "2026-11-01",
     "feed_name": "TechCrunch AI",
     "source": "industry"
+  },
+  {
+    "title": "If in doubt, delete the uv.lock file",
+    "abstract": "I've been getting the occasional confusing Python dependency error since switching over to Python 3.15 and the rule I'm having to remember is: If in doubt, delete the uv.lock file Most of my projects are libraries which don't include a uv.lock file, since it's rude for a library dependency to lock versions for anything else that uses it. Running uv run pytest etc tends to leave uv.lock files lying around, which are listed in .gitignore and so do not get committed to my repositories. But... sometimes that uv.lock pins a version of a dependency that doesn't yet have a Python 3.15 wheel. An example from earlier today: error: Failed to build `watchfiles==1.1.1` cause: Call to `maturin.build_wheel` failed error: the configured Python interpreter version (3.15) is newer than PyO3's maximum supported version (3.14) Deleting that file and running uv run pytest again usually fixes the problem. Tags: uv , til , python",
+    "url": "https://simonwillison.net/2026/Nov/1/delete-uv-lock-first/",
+    "topic": "llm",
+    "date": "2026-11-01",
+    "fetched_date": "2026-11-02",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Quoting Kyle Kingsbury",
+    "abstract": "More broadly, the use of LLMs erodes trust in documentation, in software, and in the organizations which produce them. Perhaps engineers will begin to treat any new software project with suspicion—the signals we used to rely on as markers of a mature system are now easier to counterfeit. [...] In the age of LLMs, what can maintainers do to ensure correct software and accurate documentation? Having done that work, how can they demonstrate its quality to users? — Kyle Kingsbury , Jepsen results for ParticleDB 1.1.4 Tags: kyle-kingsbury , llms , ai , generative-ai , ai-misuse",
+    "url": "https://simonwillison.net/2026/Nov/1/kyle-kingsbury/",
+    "topic": "llm",
+    "date": "2026-11-01",
+    "fetched_date": "2026-11-02",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "OpenAI might rebrand its data centers as ‘AI compute campuses’",
+    "abstract": "Data centers are deeply unpopular. But what if we called them something else?",
+    "url": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/",
+    "topic": "llm",
+    "date": "2026-11-01",
+    "fetched_date": "2026-11-02",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "AI can make tech CEOs’ lives easier. What about everyone else?",
+    "abstract": "On Equity, we discuss why tech CEO statements can seem so tone deaf.",
+    "url": "https://techcrunch.com/2026/11/01/ai-can-make-tech-ceos-lives-easier-what-about-everyone-else/",
+    "topic": "llm",
+    "date": "2026-11-01",
+    "fetched_date": "2026-11-02",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Modern Retail+ Research: Brands’ holiday marketing tactics shift in 2026",
+    "abstract": "Modern Retail's recent holiday survey found that brands and retailers plan to adjust the marketing tactics they’ll use during the 2026 holiday season in comparison to those they used in 2025. Here are some of the most notable changes.",
+    "url": "https://www.modernretail.co/marketing/modern-retail-research-brands-holiday-marketing-tactics-shift-in-2026/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-11-02",
+    "fetched_date": "2026-11-02",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "More than half of online supplement shoppers say they’re worried about counterfeit products",
+    "abstract": "An iHerb survey recently found that more than half of online supplement shoppers fear counterfeits, pushing retailers and brands to explore how they can improve trust within the fast-growing supplement space.",
+    "url": "https://www.modernretail.co/operations/online-supplement-counterfeit-products/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-11-02",
+    "fetched_date": "2026-11-02",
+    "feed_name": "Modern Retail",
+    "source": "industry"
   }
 ]
