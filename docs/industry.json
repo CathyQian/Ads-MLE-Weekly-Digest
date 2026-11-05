@@ -37588,5 +37588,265 @@
     "fetched_date": "2026-11-04",
     "feed_name": "Modern Retail",
     "source": "industry"
+  },
+  {
+    "title": "OpenAI to acquire Pierre Computer Company, Inc.",
+    "abstract": "OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code.",
+    "url": "https://openai.com/index/openai-to-acquire-pierre",
+    "topic": "llm",
+    "date": "2026-11-04",
+    "fetched_date": "2026-11-05",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Daybreak Red is now available in AWS GovCloud (US-East)",
+    "abstract": "Daybreak Red brings GPT-5.6 Cyber to approved customers in AWS GovCloud (US-East) through Amazon Bedrock for authorized cybersecurity work.",
+    "url": "https://openai.com/index/daybreak-red-aws-govcloud",
+    "topic": "llm",
+    "date": "2026-11-04",
+    "fetched_date": "2026-11-05",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "A thousand fewer paths to root",
+    "abstract": "OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.",
+    "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+    "topic": "llm",
+    "date": "2026-11-04",
+    "fetched_date": "2026-11-05",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Introducing Images 2.6",
+    "abstract": "Images 2.6 brings faster image generation, GIF creation, more precise editing, and new API controls across ChatGPT, Codex, and the API.",
+    "url": "https://openai.com/index/introducing-images-2-6",
+    "topic": "llm",
+    "date": "2026-11-04",
+    "fetched_date": "2026-11-05",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "DevRev delivers autonomous self-service with GPT-6.1 Sol",
+    "abstract": "DevRev uses GPT-6.1 Sol to power Computer and Operator, balancing reasoning, speed, and cost for enterprise service.",
+    "url": "https://openai.com/index/devrev-enterprise-self-service",
+    "topic": "llm",
+    "date": "2026-11-04",
+    "fetched_date": "2026-11-05",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
+    "topic": "llm",
+    "date": "2026-11-04",
+    "fetched_date": "2026-11-05",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Scaling Model Evaluation at Pinterest with Ray (Part 4)",
+    "abstract": "",
+    "url": "https://medium.com/pinterest-engineering/scaling-model-evaluation-at-pinterest-with-ray-part-4-4a96cd12cc11?source=rss----4c5a5f6279b6---4",
+    "topic": "ads-tech",
+    "date": "2026-11-04",
+    "fetched_date": "2026-11-05",
+    "feed_name": "Pinterest Engineering",
+    "source": "industry"
+  },
+  {
+    "title": "datasette-llm 0.1a10",
+    "abstract": "Release: datasette-llm 0.1a10 Fixes a bug that affected my agent.datasette.io demo site, where the set of available LLM models was not correctly restricted to just those in the configuration. Tags: datasette , llm",
+    "url": "https://simonwillison.net/2026/Nov/4/datasette-llm/",
+    "topic": "llm",
+    "date": "2026-11-04",
+    "fetched_date": "2026-11-05",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "datasette-apps 0.3a0",
+    "abstract": "Release: datasette-apps 0.3a0 Datasette Apps adds support for hosting and editing custom HTML applications inside of Datasette. These can be created by hand, but it's easier to create them using LLMs via Datasette Agent . This release improves that integration: Apps can now be tagged in Datasette Agent chat messages by typing # , which autocompletes from the apps the user has permission to view. New app_add_stored_queries() and app_remove_stored_queries() tools let the agent manage which stored queries an app is allowed to call. Granting a write query requires approval from the user first. app_create() now checks that each requested stored query exists and that the user can view it, and asks the user to approve any write queries before the app is created. The \"View app\" buttons shown by the agent tools, and the links on # app references, now open the app full screen in the Datasette Agent panel. Tags: datasette , datasette-agent , datasette-apps",
+    "url": "https://simonwillison.net/2026/Nov/4/datasette-apps/",
+    "topic": "llm",
+    "date": "2026-11-04",
+    "fetched_date": "2026-11-05",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "datasette-agent 0.5a0",
+    "abstract": "Release: datasette-agent 0.5a0 This is a significant release of Datasette Agent . The most notable new feature is called the panel - it lets the agent chat open and then sit next to pages from Datasette, for example a table or query page. When combined with datasette-apps this means you can prompt a database-backed app into existence and then modify it from the chat that sits next to that app. You can try it by signing in with your GitHub account to agent.datasette.io . Tags: projects , datasette , datasette-agent",
+    "url": "https://simonwillison.net/2026/Nov/3/datasette-agent/",
+    "topic": "llm",
+    "date": "2026-11-03",
+    "fetched_date": "2026-11-05",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "llm 0.37.1",
+    "abstract": "Release: llm 0.37.1 A bugfix release for LLM , with contributions from Steven Huang , Tao An , Arjan Mossel , and XQ . Tags: llm",
+    "url": "https://simonwillison.net/2026/Nov/3/llm/",
+    "topic": "llm",
+    "date": "2026-11-03",
+    "fetched_date": "2026-11-05",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Apple is reportedly cutting budgets for its internal AI usage",
+    "abstract": "The company is said to be significantly dropping the amount it's spending on AI for its engineering teams.",
+    "url": "https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage/",
+    "topic": "llm",
+    "date": "2026-11-05",
+    "fetched_date": "2026-11-05",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "After the midterms, a bigger clash over data centers could be coming",
+    "abstract": "Data center opposition crossed party lines in Tuesday’s midterms.",
+    "url": "https://techcrunch.com/2026/11/04/after-the-midterms-a-bigger-clash-over-data-centers-could-be-coming/",
+    "topic": "llm",
+    "date": "2026-11-05",
+    "fetched_date": "2026-11-05",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "AI PACs spent millions trying to shape Congress — here’s how they fared",
+    "abstract": "AI industry PACs spent millions influencing the 2026 midterms, with mixed results. Political groups are already looking toward the next election cycle.",
+    "url": "https://techcrunch.com/2026/11/04/ai-pacs-spent-millions-trying-to-shape-congress-heres-how-they-fared/",
+    "topic": "llm",
+    "date": "2026-11-04",
+    "fetched_date": "2026-11-05",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Nothing CEO says company’s mysterious AI-first device is dropping next month",
+    "abstract": "While it's not yet clear what kind of product the smartphone startup is cooking up, Nothing's CEO said the product is designed to leverage AI for productivity gains.",
+    "url": "https://techcrunch.com/2026/11/04/nothing-ceo-says-companys-mysterious-ai-first-device-is-dropping-next-month/",
+    "topic": "llm",
+    "date": "2026-11-04",
+    "fetched_date": "2026-11-05",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Almost no one uses AI agents to book their Uber, company says",
+    "abstract": "During its busiest week last quarter, Uber said only four people booked a ride using an AI agent.",
+    "url": "https://techcrunch.com/2026/11/04/almost-no-one-uses-ai-agents-to-book-their-uber-company-says/",
+    "topic": "llm",
+    "date": "2026-11-04",
+    "fetched_date": "2026-11-05",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "OpenAI is already trying to shape the 2028 election",
+    "abstract": "OpenAI’s Chris Lehane wants AI to define the 2028 election, proposing a new social contract that could benefit Americans while also advancing the AI giant’s own business interests.",
+    "url": "https://techcrunch.com/2026/11/04/openai-is-already-trying-to-shape-the-2028-election/",
+    "topic": "llm",
+    "date": "2026-11-04",
+    "fetched_date": "2026-11-05",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Meta acquires AI coding startup Conductor",
+    "abstract": "The startup allows software engineers to deploy teams of agents to work on various aspects of a project simultaneously.",
+    "url": "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/",
+    "topic": "llm",
+    "date": "2026-11-04",
+    "fetched_date": "2026-11-05",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Open source AI is booming. Hugging Face explains who profits.",
+    "abstract": "Open source models are becoming more mainstream as enterprises, governments and startups alike rely on the promise of lower costs, more control, and more flexibility. But as increasingly capable models become more freely available, how do companies capture value? And with Chinese open models gaining ground, can American players keep up? On this episode of […]",
+    "url": "https://techcrunch.com/video/open-source-ai-is-booming-hugging-face-explains-who-profits/",
+    "topic": "llm",
+    "date": "2026-11-04",
+    "fetched_date": "2026-11-05",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "DuckDuckGo pitches itself to schools amid backlash over Google’s AI policy",
+    "abstract": "DuckDuckGo is courting schools frustrated by Google's AI restrictions, pointing educators to its search engine and options to disable AI features.",
+    "url": "https://techcrunch.com/2026/11/04/duckduckgo-pitches-itself-to-schools-amid-backlash-over-googles-ai-policy/",
+    "topic": "llm",
+    "date": "2026-11-04",
+    "fetched_date": "2026-11-05",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Building on open source AI? Hugging Face’s policy chief on the costs, risks, and trade-offs",
+    "abstract": "Open source models are becoming more mainstream as enterprises, governments and startups alike rely on the promise of lower costs, more control, and more flexibility. But as increasingly capable models become more freely available, how do companies capture value? And with Chinese open models gaining ground, can American players keep up? On this episode of […]",
+    "url": "https://techcrunch.com/podcast/building-on-open-source-ai-hugging-faces-policy-chief-on-the-costs-risks-and-trade-offs/",
+    "topic": "llm",
+    "date": "2026-11-04",
+    "fetched_date": "2026-11-05",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "I tried Apple’s Siri Recaps. They’re surprisingly useful — and a little unsettling",
+    "abstract": "Apple's AI-powered Siri Recaps won me over in just one day, despite my privacy reservations. But there's still room for improvement.",
+    "url": "https://techcrunch.com/2026/11/04/i-tried-apples-siri-recaps-theyre-surprisingly-useful-and-a-little-unsettling/",
+    "topic": "llm",
+    "date": "2026-11-04",
+    "fetched_date": "2026-11-05",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Google faces backlash for plan that would turn off Search for schools that restrict AI",
+    "abstract": "Politicians on the left, like NYC mayor Zohran Mamdani and former FTC chair Lina Khan, accused Google of acting as an unregulated monopoly.",
+    "url": "https://techcrunch.com/2026/11/04/google-faces-backlash-for-plan-that-would-turn-off-search-for-schools-that-restrict-ai/",
+    "topic": "llm",
+    "date": "2026-11-04",
+    "fetched_date": "2026-11-05",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "TechCrunch Founder Summit 2026: Doors open at 9 a.m. ET in Boston",
+    "abstract": "Today is the day to join TechCrunch Founder Summit 2026 in Boston's SoWa Power Station. Register now to join this founder-focused conference today.",
+    "url": "https://techcrunch.com/2026/11/04/techcrunch-founder-summit-2026-todays-the-day/",
+    "topic": "llm",
+    "date": "2026-11-04",
+    "fetched_date": "2026-11-05",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Modern Retail+ Reseach: Brands’ focus on owned channels wavers for the 2026 holiday season",
+    "abstract": "A new Modern Retail+ Research report examines which commerce channels are dominating marketers’ holiday strategies.",
+    "url": "https://www.modernretail.co/marketing/modern-retail-reseach-brands-focus-on-owned-channels-wavers-for-the-2026-holiday-season/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-11-05",
+    "fetched_date": "2026-11-05",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "High-protein holiday treats are here",
+    "abstract": "Products like high-protein peppermint bark and hot cocoa are taking up more shelf space this holiday season at retailers like Target.",
+    "url": "https://www.modernretail.co/operations/high-protein-holiday-treats-are-here/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-11-05",
+    "fetched_date": "2026-11-05",
+    "feed_name": "Modern Retail",
+    "source": "industry"
   }
 ]
