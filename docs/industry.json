@@ -38138,5 +38138,185 @@
     "fetched_date": "2026-11-06",
     "feed_name": "Modern Retail",
     "source": "industry"
+  },
+  {
+    "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
+    "abstract": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI.",
+    "url": "https://openai.com/index/partnering-with-hacktron",
+    "topic": "llm",
+    "date": "2026-11-06",
+    "fetched_date": "2026-11-07",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Measuring how AI agents handle everyday wet-lab science",
+    "abstract": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.",
+    "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
+    "topic": "llm",
+    "date": "2026-11-06",
+    "fetched_date": "2026-11-07",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "ToyBlocks: A controlled world for robot learning and evaluation",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/allenai/toyblocks",
+    "topic": "llm",
+    "date": "2026-11-06",
+    "fetched_date": "2026-11-07",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Egyptian and Nigerian English join the Open ASR Leaderboard",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/open-asr-leaderboard-liva",
+    "topic": "llm",
+    "date": "2026-11-06",
+    "fetched_date": "2026-11-07",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Safe and Efficient Multi-Epoch Embedding Training",
+    "abstract": "",
+    "url": "https://medium.com/pinterest-engineering/safe-and-efficient-multi-epoch-embedding-training-103bec2abc83?source=rss----4c5a5f6279b6---4",
+    "topic": "ads-tech",
+    "date": "2026-11-06",
+    "fetched_date": "2026-11-07",
+    "feed_name": "Pinterest Engineering",
+    "source": "industry"
+  },
+  {
+    "title": "Quoting Nilay Patel",
+    "abstract": "The products aren't good enough to sell people on the costs. You cannot tell people that you have to listen to the whine of a data center in their backyard for AI overviews and some of the most hilarious deep fake slop in history. It's not worth it. It just isn't worth it to anyone. And agents aren't real and they might not be being used the way that anyone wants them to yet. All these companies are spending more than they're making on these products. Refrigerators holding blood storage in Europe are being hacked. The costs are too high. The benefits are not real. And if you connect that to corruption, you're like, in order to impose these costs on me, these CEOs are in the White House shaking Trump's hand, renaming it to the Gulf of America, paying for this ballroom that we don't want. It's obvious crypto-corruption, and it's still slop. The AI industry will not get out of it until they make better products . Until everyone can see without needing to be convinced, without needing an ad campaign, without any of this stuff that just using these products makes your life better. — Nilay Patel , The Vergecast: Big Tech lost big in the 2026 election Tags: nilay-patel , slop , ai , generative-ai , ai-ethics",
+    "url": "https://simonwillison.net/2026/Nov/6/nilay-patel/",
+    "topic": "llm",
+    "date": "2026-11-06",
+    "fetched_date": "2026-11-07",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Crusoe sells troubled Wyoming data center project to Google",
+    "abstract": "The deal highlights the challenges of developing massive AI data centers.",
+    "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/",
+    "topic": "llm",
+    "date": "2026-11-07",
+    "fetched_date": "2026-11-07",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
+    "abstract": "OpenAI has reportedly raised an additional $11 billion as part of a funding round that hasn't closed yet but is expected to in the coming weeks.",
+    "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+    "topic": "llm",
+    "date": "2026-11-06",
+    "fetched_date": "2026-11-07",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Hundreds of Artex AI hacking tools found publicly exposed to the web",
+    "abstract": "Security researchers found hundreds of servers hosting the penetration testing tool Artex exposed to the internet, allowing anyone access to the hacking tool.",
+    "url": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/",
+    "topic": "llm",
+    "date": "2026-11-06",
+    "fetched_date": "2026-11-07",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Meta introduces Spaces, a new way to collaborate with your Muse agent",
+    "abstract": "Meta's Muse agents continue to get new features and integrations. Spaces promises to be a new way to interact with the AI helpers.",
+    "url": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/",
+    "topic": "llm",
+    "date": "2026-11-06",
+    "fetched_date": "2026-11-07",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "How a Blue Wave midterm might reshape the AI industry",
+    "abstract": "Democrats’ historic victories in this week’s U.S. midterm elections could also transform the tech industry. The public voted on 41 data center-related ballot measures on Tuesday — in all but one, the majority voted to impose more restrictions on data center development. And even when data centers weren’t on the ballot directly, they were a […]",
+    "url": "https://techcrunch.com/podcast/how-a-blue-wave-midterm-might-reshape-the-ai-industry/",
+    "topic": "llm",
+    "date": "2026-11-06",
+    "fetched_date": "2026-11-07",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "After the midterms, is the AI industry in for a rough two years?",
+    "abstract": "Democrats’ historic victories in this week’s U.S. midterm elections could also transform the tech industry. The public voted on 41 data center-related ballot measures on Tuesday — in all but one, the majority voted to impose more restrictions on data center development. And even when data centers weren’t on the ballot directly, they were a […]",
+    "url": "https://techcrunch.com/video/after-the-midterms-is-the-ai-industry-in-for-a-rough-two-years/",
+    "topic": "llm",
+    "date": "2026-11-06",
+    "fetched_date": "2026-11-07",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Ramp data shows AI spending stalling just as Anthropic nears its IPO",
+    "abstract": "AI usage keeps climbing, but spending has stalled. Price cuts and smarter cost controls among the biggest spenders could challenge investor assumptions about AI hypergrowth.",
+    "url": "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/",
+    "topic": "llm",
+    "date": "2026-11-06",
+    "fetched_date": "2026-11-07",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "After blocking Muse, Amazon now lets users text Alexa to help them shop",
+    "abstract": "Amazon said that the feature will roll out to millions of users in coming weeks.",
+    "url": "https://techcrunch.com/2026/11/06/after-blocking-muse-amazon-now-lets-users-text-alexa-to-help-them-shop/",
+    "topic": "llm",
+    "date": "2026-11-06",
+    "fetched_date": "2026-11-07",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Underdog shows off a 32MB speech model in new demo",
+    "abstract": "Despite its small size, Underdog's new model can generate both speech and music.",
+    "url": "https://techcrunch.com/2026/11/06/underdog-shows-off-a-32mb-speech-model-in-new-demo/",
+    "topic": "llm",
+    "date": "2026-11-06",
+    "fetched_date": "2026-11-07",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Physicl raises $10M to make the digital world real enough for robots",
+    "abstract": "Physicl is trying to solve the sim-to-real gap with a pipeline originally built to market goods online.",
+    "url": "https://techcrunch.com/2026/11/06/physicl-raises-10m-to-make-the-digital-world-real-enough-for-robots/",
+    "topic": "llm",
+    "date": "2026-11-06",
+    "fetched_date": "2026-11-07",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "How delivery apps came to be ‘discovery platforms’",
+    "abstract": "DoorDash’s Instacart deal shows delivery apps investing further into retail discovery, ad tech and AI-driven shopping.",
+    "url": "https://www.modernretail.co/podcasts/how-delivery-apps-came-to-be-discovery-platforms/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-11-07",
+    "fetched_date": "2026-11-07",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Foot Locker puts employees front and center in its holiday campaign",
+    "abstract": "Foot Locker's seasonal campaign, called \"Joy to the Sole,\" is indicative of the company's new marketing direction as it looks to spur growth.",
+    "url": "https://www.modernretail.co/marketing/foot-locker-puts-employees-front-and-center-in-its-holiday-campaign/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-11-06",
+    "fetched_date": "2026-11-07",
+    "feed_name": "Modern Retail",
+    "source": "industry"
   }
 ]
