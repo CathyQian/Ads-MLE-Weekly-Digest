@@ -330,7 +330,7 @@
       </select>
       <button class="starred-btn" id="toggle-starred" style="display:none;">&#9733; Starred (0)</button>
     </div>
-    <p class="stats" id="arxiv-stats">20361 papers &bull; last updated 2026-11-07 06:52 UTC</p>
+    <p class="stats" id="arxiv-stats">20361 papers &bull; last updated 2026-11-08 06:57 UTC</p>
     
   <section class="run-group">
     <h2 class="run-header">Week of 2026-11-06</h2>
@@ -451444,8 +451444,70 @@ or equivalently, up to universal constants, of order \[
       <option value="ml-engineering">ml-engineering</option>
       </select>
     </div>
-    <p class="stats" id="industry-stats">3832 items &bull; last updated 2026-11-07 06:52 UTC</p>
+    <p class="stats" id="industry-stats">3835 items &bull; last updated 2026-11-08 06:57 UTC</p>
     
+  <section class="run-group">
+    <h2 class="run-header">Week of 2026-11-08</h2>
+    
+    <article class="card industry-item" data-keyword="llm" data-url="https://simonwillison.net/2026/Nov/7/link-rel-next/" data-type="industry" data-industry="1" data-source="industry">
+      <div class="card-meta">
+        <span class="date">2026-11-07</span>
+        <span class="keyword">llm</span>
+        <span class="feed-badge">Simon Willison</span>
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="https://simonwillison.net/2026/Nov/7/link-rel-next/" target="_blank" rel="noopener">datasette #3046: Don't serve link: rel=next HTTP headers to Firefox for HTML pages</a>
+      </h2>
+      <p class="abstract">datasette #3046: Don't serve link: rel=next HTTP headers to Firefox for HTML pages I was looking at the Firefox network panel today when I noticed that requests to a Datasette table page were triggering an HTTP prefetch to the next page of rows in that table. This was happening because Datasette pages serve an HTTP link header like this: link: &lt;https://latest.datasette.io/fixtures/compound_three_primary_keys?_next=a%2Cd%2Cv&gt;; rel="next" This is bad. A tiny fraction of the visitors to one of those pages will click the "next" link, which means their browser is fetching unnecessary data and the Datasette server is having to render an entire page that then gets thrown away. I dug in and learned that Firefox has an issue that has been open for 24 years about this behavior... And one of the early comments on that issue links to my blog post from 2002 complaining about this feature. I hadn't just forgotten that I had written about it, I had forgotten the feature entirely! Tags: firefox , html , mozilla , datasette</p>
+      <div class="card-links">
+        <a href="https://simonwillison.net/2026/Nov/7/link-rel-next/" target="_blank" rel="noopener">Read article &#8594;</a>
+      </div>
+    </article>
+    <article class="card industry-item" data-keyword="llm" data-url="https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers/" data-type="industry" data-industry="1" data-source="industry">
+      <div class="card-meta">
+        <span class="date">2026-11-07</span>
+        <span class="keyword">llm</span>
+        <span class="feed-badge">TechCrunch AI</span>
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers/" target="_blank" rel="noopener">After the midterms, things are looking rocky for Elon Musk and data centers</a>
+      </h2>
+      <p class="abstract">On Equity, we unpacked what the midterms mean for the tech industry.</p>
+      <div class="card-links">
+        <a href="https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers/" target="_blank" rel="noopener">Read article &#8594;</a>
+      </div>
+    </article>
+    <article class="card industry-item" data-keyword="llm" data-url="https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/" data-type="industry" data-industry="1" data-source="industry">
+      <div class="card-meta">
+        <span class="date">2026-11-07</span>
+        <span class="keyword">llm</span>
+        <span class="feed-badge">TechCrunch AI</span>
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/" target="_blank" rel="noopener">Megaspeed exec was recruited to spy on Nvidia CEO, according to US intelligence memo</a>
+      </h2>
+      <p class="abstract">A memo circulated earlier this year reportedly claimed that China’s Ministry of State Security recruited a female technology executive to spy on Nvidia's CEO.</p>
+      <div class="card-links">
+        <a href="https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/" target="_blank" rel="noopener">Read article &#8594;</a>
+      </div>
+    </article>
+  </section>
+
   <section class="run-group">
     <h2 class="run-header">Week of 2026-11-07</h2>
     
@@ -525249,8 +525311,51 @@ or equivalently, up to universal constants, of order \[
       <option value="startup">startup</option>
       </select>
     </div>
-    <p class="stats" id="startup-stats">2126 items &bull; last updated 2026-11-07 06:52 UTC</p>
+    <p class="stats" id="startup-stats">2128 items &bull; last updated 2026-11-08 06:57 UTC</p>
     
+  <section class="run-group">
+    <h2 class="run-header">Week of 2026-11-08</h2>
+    
+    <article class="card startup-item" data-keyword="startup" data-url="https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/" data-type="startup" data-source="startup">
+      <div class="card-meta">
+        <span class="date">2026-11-07</span>
+        <span class="keyword">startup</span>
+        <span class="feed-badge startup-badge">TechCrunch</span>
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/" target="_blank" rel="noopener">Megaspeed exec was recruited to spy on Nvidia CEO, according to US intelligence memo</a>
+      </h2>
+      <p class="abstract">A memo circulated earlier this year reportedly claimed that China’s Ministry of State Security recruited a female technology executive to spy on Nvidia's CEO.</p>
+      <div class="card-links">
+        <a href="https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/" target="_blank" rel="noopener">Read article &#8594;</a>
+      </div>
+    </article>
+    <article class="card startup-item" data-keyword="startup" data-url="https://techcrunch.com/2026/11/07/binance-cfo-is-leaving-to-pursue-a-new-venture-after-6-3-billion-hack/" data-type="startup" data-source="startup">
+      <div class="card-meta">
+        <span class="date">2026-11-07</span>
+        <span class="keyword">startup</span>
+        <span class="feed-badge startup-badge">TechCrunch</span>
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="https://techcrunch.com/2026/11/07/binance-cfo-is-leaving-to-pursue-a-new-venture-after-6-3-billion-hack/" target="_blank" rel="noopener">Binance CFO is leaving to ‘pursue a new venture’ after $6.3 billion hack</a>
+      </h2>
+      <p class="abstract">The announcement comes barely more than a week after hackers stole $6.3 billion worth of cryptocurrency from Binance users.</p>
+      <div class="card-links">
+        <a href="https://techcrunch.com/2026/11/07/binance-cfo-is-leaving-to-pursue-a-new-venture-after-6-3-billion-hack/" target="_blank" rel="noopener">Read article &#8594;</a>
+      </div>
+    </article>
+  </section>
+
   <section class="run-group">
     <h2 class="run-header">Week of 2026-11-07</h2>
     
@@ -566763,7 +566868,7 @@ or equivalently, up to universal constants, of order \[
         sec.classList.toggle('hidden', !sec.querySelector('.card:not(.hidden)')));
       const label = kw
         ? visible + ' paper' + (visible !== 1 ? 's' : '') + ' in “' + kw + '”'
-        : visible + ' papers • last updated 2026-11-07 06:52 UTC';
+        : visible + ' papers • last updated 2026-11-08 06:57 UTC';
       document.getElementById('arxiv-stats').textContent = label;
     }
 
@@ -566782,7 +566887,7 @@ or equivalently, up to universal constants, of order \[
       });
       document.querySelectorAll('#panel-industry .run-group').forEach(sec =>
         sec.classList.toggle('hidden', !sec.querySelector('.card:not(.hidden)')));
-      document.getElementById('industry-stats').textContent = visible + ' items • last updated 2026-11-07 06:52 UTC';
+      document.getElementById('industry-stats').textContent = visible + ' items • last updated 2026-11-08 06:57 UTC';
     }
 
     // Startup filter
@@ -566800,7 +566905,7 @@ or equivalently, up to universal constants, of order \[
       });
       document.querySelectorAll('#panel-startup .run-group').forEach(sec =>
         sec.classList.toggle('hidden', !sec.querySelector('.card:not(.hidden)')));
-      document.getElementById('startup-stats').textContent = visible + ' items • last updated 2026-11-07 06:52 UTC';
+      document.getElementById('startup-stats').textContent = visible + ' items • last updated 2026-11-08 06:57 UTC';
     }
 
     // Keyword override (arXiv panel only)
