@@ -21308,5 +21308,105 @@
     "fetched_date": "2026-11-09",
     "feed_name": "TechCrunch",
     "source": "startup"
+  },
+  {
+    "title": "Otter AI can now follow conversations across 30+ languages",
+    "abstract": "Otter AI just added support for 27 languages and revealed an upcoming feature that can follow along if speakers switch between languages.",
+    "url": "https://techcrunch.com/2026/11/09/otter-ai-can-now-follow-conversations-across-30-languages/",
+    "topic": "startup",
+    "date": "2026-11-10",
+    "fetched_date": "2026-11-10",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "California’s proposed ‘billionaire tax’ fails to pass",
+    "abstract": "California voters rejected Proposition 40, the one-time 5% tax on billionaires, the AP reported Monday. Tech leaders outspent backers roughly 10 to 1 to defeat it, and the founders and economists TechCrunch interviewed before the vote were split on whether it would have driven out wealthy residents or just trimmed their fortunes.",
+    "url": "https://techcrunch.com/2026/11/09/californias-proposed-billionaire-tax-fails-to-pass/",
+    "topic": "startup",
+    "date": "2026-11-10",
+    "fetched_date": "2026-11-10",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Anthropic reportedly plans to move forward with IPO plans",
+    "abstract": "The AI company is expected to set its valuation range this week, the Wall Street Journal reported.",
+    "url": "https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/",
+    "topic": "startup",
+    "date": "2026-11-10",
+    "fetched_date": "2026-11-10",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "AI hardware startup Nominal triples valuation to $3B in 8 months",
+    "abstract": "Nominal, a startup that offers an AI platform for hardware engineering and claims Anduril as a major customer, has raised another big round of financing that triples its valuation.",
+    "url": "https://techcrunch.com/2026/11/09/ai-hardware-startup-nominal-triples-valuation-to-3b-in-8-months/",
+    "topic": "startup",
+    "date": "2026-11-09",
+    "fetched_date": "2026-11-10",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Jensen Huang’s affair with alleged Chinese spy puts Nvidia’s China ambitions under scrutiny",
+    "abstract": "Jensen Huang’s alleged affair with a suspected Chinese spy threatens to complicate Nvidia’s lobbying efforts to loosen U.S. chip export restrictions and maintain access to China’s lucrative AI market.",
+    "url": "https://techcrunch.com/2026/11/09/jensen-huangs-affair-with-alleged-chinese-spy-puts-nvidias-china-ambitions-under-scrutiny/",
+    "topic": "startup",
+    "date": "2026-11-09",
+    "fetched_date": "2026-11-10",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Meta releases Muse Ember, a new lightweight model for agent execution",
+    "abstract": "At 10 cents per million input tokens, Ember is significantly cheaper than frontier competitors like Haiku and Luna.",
+    "url": "https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/",
+    "topic": "startup",
+    "date": "2026-11-09",
+    "fetched_date": "2026-11-10",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Uber launches parking service following SpotHero acquisition, with an eye on robotaxis",
+    "abstract": "Uber Parking is the latest example of the company offering products beyond its core ride-hailing service.",
+    "url": "https://techcrunch.com/2026/11/09/uber-launches-parking-service-following-spothero-acquisition-with-an-eye-on-robotaxis/",
+    "topic": "startup",
+    "date": "2026-11-09",
+    "fetched_date": "2026-11-10",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Anthropic joins AI’s natural gas frenzy, buys $3.4B worth of turbines",
+    "abstract": "Anthropic bought billions of dollars' worth of natural gas turbines in a deal that could give it buyer's remorse.",
+    "url": "https://techcrunch.com/2026/11/09/anthropic-joins-ais-natural-gas-frenzy-buys-3-4b-worth-of-turbines/",
+    "topic": "startup",
+    "date": "2026-11-09",
+    "fetched_date": "2026-11-10",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Medium’s new TK app brings AI assistance directly into the writing process",
+    "abstract": "Medium's new writing app embraces AI-assisted writing, despite growing controversy over the technology's role in publishing.",
+    "url": "https://techcrunch.com/2026/11/09/mediums-new-tk-app-brings-ai-assistance-directly-into-the-writing-process/",
+    "topic": "startup",
+    "date": "2026-11-09",
+    "fetched_date": "2026-11-10",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Meta expands Instagram’s AI age-guessing tech globally",
+    "abstract": "Meta says it will use its AI technology to look for clues about people it suspects to be teenagers — even if they use an adult birthday.",
+    "url": "https://techcrunch.com/2026/11/09/meta-expands-instagrams-ai-age-guessing-tech-globally/",
+    "topic": "startup",
+    "date": "2026-11-09",
+    "fetched_date": "2026-11-10",
+    "feed_name": "TechCrunch",
+    "source": "startup"
   }
 ]
