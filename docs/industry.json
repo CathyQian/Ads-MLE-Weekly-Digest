@@ -38668,5 +38668,365 @@
     "fetched_date": "2026-11-10",
     "feed_name": "Modern Retail",
     "source": "industry"
+  },
+  {
+    "title": "Gilbert + Tobin rethinks the business of law with AI",
+    "abstract": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
+    "url": "https://openai.com/index/gilbert-tobin-sam-nickless",
+    "topic": "llm",
+    "date": "2026-11-12",
+    "fetched_date": "2026-11-11",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "ChatGPT Plus for veterans and servicemembers",
+    "abstract": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers.",
+    "url": "https://openai.com/index/chatgpt-plus-for-veterans",
+    "topic": "llm",
+    "date": "2026-11-11",
+    "fetched_date": "2026-11-11",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Helping caregivers use AI in everyday life",
+    "abstract": "OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life.",
+    "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
+    "topic": "llm",
+    "date": "2026-11-10",
+    "fetched_date": "2026-11-11",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Introducing Businesses in ChatGPT",
+    "abstract": "Manage your business information, get insights about how your business shows up, and turn interest into action in ChatGPT.",
+    "url": "https://openai.com/index/introducing-businesses-chatgpt",
+    "topic": "llm",
+    "date": "2026-11-10",
+    "fetched_date": "2026-11-11",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Closing the AI guidance gap in education",
+    "abstract": "New ThinkYoung research and lessons from OpenAI’s EMEA education partnerships on supporting teachers, AI literacy, and independent learning.",
+    "url": "https://openai.com/index/closing-ai-guidance-gap-education",
+    "topic": "llm",
+    "date": "2026-11-10",
+    "fetched_date": "2026-11-11",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Singapore Airlines elevates travel & work with OpenAI technology",
+    "abstract": "Discover how Singapore Airlines uses OpenAI models and API to enhance customer support, travel discovery, and employee productivity, doubling CSAT for its Kris chatbot.",
+    "url": "https://openai.com/index/singapore-airlines-travel-work",
+    "topic": "llm",
+    "date": "2026-11-10",
+    "fetched_date": "2026-11-11",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Work at the Frontier: AI’s effect on freelance work",
+    "abstract": "New research from OpenAI and Upwork finds shifting demand for freelance work, new skill combinations, and larger budgets and more hours for AI-related projects.",
+    "url": "https://openai.com/index/ai-effect-on-freelance-work",
+    "topic": "llm",
+    "date": "2026-11-10",
+    "fetched_date": "2026-11-11",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Cogent and OpenAI build cyber defense factories for enterprises",
+    "abstract": "Cogent combines OpenAI models with enterprise context to help automatically remediate vulnerabilities with agents.",
+    "url": "https://openai.com/index/cogent-security",
+    "topic": "llm",
+    "date": "2026-11-10",
+    "fetched_date": "2026-11-11",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/qvac/botpsy",
+    "topic": "llm",
+    "date": "2026-11-11",
+    "fetched_date": "2026-11-11",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Pay for Hugging Face Hub with your Google Cloud Account",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/hub-gcp-marketplace",
+    "topic": "llm",
+    "date": "2026-11-10",
+    "fetched_date": "2026-11-11",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Decision Models in Hugging Face",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/decision",
+    "topic": "llm",
+    "date": "2026-11-10",
+    "fetched_date": "2026-11-11",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Gemini 4 Carbon is now available",
+    "abstract": "",
+    "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
+    "topic": "generative-ai",
+    "date": "2026-11-10",
+    "fetched_date": "2026-11-11",
+    "feed_name": "DeepMind Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
+    "abstract": "AlphaProof Code agents wrote three million lines of proofs in Lean to verify Signal’s core encryption.",
+    "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+    "topic": "generative-ai",
+    "date": "2026-11-10",
+    "fetched_date": "2026-11-11",
+    "feed_name": "DeepMind Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Gemini Robotics 2.5 accelerates real-world general dexterity",
+    "abstract": "Our most capable vision-language-action model enhances robot dexterity, reliability, and safety",
+    "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
+    "topic": "generative-ai",
+    "date": "2026-11-09",
+    "fetched_date": "2026-11-11",
+    "feed_name": "DeepMind Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Skipper, Airbnb’s embedded workflow engine, is now open source",
+    "abstract": "",
+    "url": "https://medium.com/airbnb-engineering/skipper-airbnbs-embedded-workflow-engine-is-now-open-source-78dd354f472b?source=rss----53c7c27702d5---4",
+    "topic": "ml-engineering",
+    "date": "2026-11-10",
+    "fetched_date": "2026-11-11",
+    "feed_name": "Airbnb Engineering",
+    "source": "industry"
+  },
+  {
+    "title": "llm-gemini 0.36",
+    "abstract": "Release: llm-gemini 0.36 Gemini 4 Carbon was announced two weeks ago for \"a subset of cyber defenders\", but today it's available to everyone else . This is Google's best ever Gemini, priced at $2/million input and $10/million output at launch (that's GPT-6.1 Sol / Claude Sonnet 5.5 prices) but scheduled to double in price to $4/$20 on December 1st (same as Opus 5.5). Here are three pelicans for the low, medium and high thinking efforts (it defaults to medium). This is the pelican I got for high: Gemini pelicans have all been great for a while now, so I also tested it out using Google's Antigravity IDE with a prompt I first tried with Claude Fable 5.2 yesterday : Make a three js animation where yonkers stands up as a big mech (cool stand up motion) and stomps around manhattan and queens and Brooklyn, use openstreetmap mapping data Here's the HTML result (I had to prompt \"build that into a standalone HTML file\" to get a version with no external dependencies). I then screen-captured that as a video: Update : Huh, just saw this on YouTube (and tweeted by Sundar Pichai ): Using Google Antigravity’s /swarm feature, Carbon built an open-world 3D game where you explore Google’s Mountain View campus as a pelican riding a GBike — coordinating subagents to model 3D assets in Blender from Omni and Nano Banana references, build the browser game in Three.js with WebGL shaders, and pair procedural Web Audio sound effects with Lyria music. Here's the playable version in AI Studio. Tags: llm-release , gemini , llm , google , generative-ai , ai , llms , pelican-riding-a-bicycle",
+    "url": "https://simonwillison.net/2026/Nov/10/llm-gemini/",
+    "topic": "llm",
+    "date": "2026-11-10",
+    "fetched_date": "2026-11-11",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Claude Fable 5.2: Too Good",
+    "abstract": "Reality is the only benchmark",
+    "url": "https://www.thealgorithmicbridge.com/p/claude-fable-52-too-good",
+    "topic": "llm",
+    "date": "2026-11-11",
+    "fetched_date": "2026-11-11",
+    "feed_name": "The Algorithmic Bridge",
+    "source": "industry"
+  },
+  {
+    "title": "OpenAI acquires Odessia, travel startup created by Sonder founder",
+    "abstract": "OpenAI has not yet said what its plans are for the future of travel. But Sonder founder Francis Davidson is a well-known figure in the travel industry.",
+    "url": "https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder/",
+    "topic": "llm",
+    "date": "2026-11-10",
+    "fetched_date": "2026-11-11",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "OpenAI, Anthropic face new oversight as New York’s AI safety law takes effect",
+    "abstract": "New York is preparing to enforce its sweeping AI safety law, requiring major developers like OpenAI and Anthropic to register, disclose safety practices, and report critical incidents or face fines.",
+    "url": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/",
+    "topic": "llm",
+    "date": "2026-11-10",
+    "fetched_date": "2026-11-11",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "All 7 Anthropic founders will each cash out about $250M in IPO",
+    "abstract": "Each of the seven co-founders plans to sell exactly the same number of shares in the IPO, which would bring each of them about $250 million in cash at the midpoint of the price range while leaving the group in control of the company.",
+    "url": "https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo/",
+    "topic": "llm",
+    "date": "2026-11-10",
+    "fetched_date": "2026-11-11",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Oura to acquire AI-native primary care startup Counsel Health for $625M",
+    "abstract": "The deal comes a few weeks after Oura postponed its up to $2.2 billion IPO indefinitely, citing “uncertainty in the IPO market.”",
+    "url": "https://techcrunch.com/2026/11/10/oura-to-acquire-ai-native-primary-care-startup-counsel-health-for-625m/",
+    "topic": "llm",
+    "date": "2026-11-10",
+    "fetched_date": "2026-11-11",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "PSI is trying to make a business out of AI-driven scientific discovery",
+    "abstract": "PSI used an unreleased Anthropic model to answer a fundamental question about quantum computing that scientists have pursued for nearly two decades.",
+    "url": "https://techcrunch.com/2026/11/10/psi-is-trying-to-make-a-business-out-of-ai-driven-scientific-discovery/",
+    "topic": "llm",
+    "date": "2026-11-10",
+    "fetched_date": "2026-11-11",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "OpenAI rolls out new business profiles, making ChatGPT just a little bit more like Google",
+    "abstract": "OpenAI is looking to make ChatGPT a more robust consumer discovery engine, and a host of new features seek to empower businesses to help it do that.",
+    "url": "https://techcrunch.com/2026/11/10/openai-rolls-out-new-business-profiles-making-chatgpt-just-a-little-bit-more-like-google/",
+    "topic": "llm",
+    "date": "2026-11-10",
+    "fetched_date": "2026-11-11",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Anthropic launches Claude Meetings to turn workplace discussions into plans and tasks",
+    "abstract": "As participants talk, Claude can draft the plan being discussed, map out a timeline on a whiteboard, answer questions in the meeting chat, and access connected work apps to retrieve information, such as last year's figures.",
+    "url": "https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/",
+    "topic": "llm",
+    "date": "2026-11-10",
+    "fetched_date": "2026-11-11",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Nvidia CEO Jensen Huang’s affair with alleged Chinese spy: a timeline",
+    "abstract": "The affair could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
+    "url": "https://techcrunch.com/2026/11/10/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+    "topic": "llm",
+    "date": "2026-11-10",
+    "fetched_date": "2026-11-11",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Google broadens its AI hardware portfolio with two new specialized chips",
+    "abstract": "Google's new tensor processing units (TPUs) broaden its chip portfolio to more use cases: confidential model training and more memory capacity.",
+    "url": "https://techcrunch.com/2026/11/10/google-broadens-its-ai-hardware-portfolio-with-two-new-specialized-chips/",
+    "topic": "llm",
+    "date": "2026-11-10",
+    "fetched_date": "2026-11-11",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Meta’s AI agent Muse lands on Apple Watch and Android Wear OS",
+    "abstract": "Users can now interact with Meta’s AI assistant through voice calls, text messages, or dictation on their Apple Watch.",
+    "url": "https://techcrunch.com/2026/11/10/metas-ai-agent-muse-lands-on-apple-watch-and-wear-os/",
+    "topic": "llm",
+    "date": "2026-11-10",
+    "fetched_date": "2026-11-11",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Adobe brings AI agents and new creative tools to Photoshop, Premiere, and Firefly",
+    "abstract": "Adobe is taking on Figma with a new prototype builder tool in Firefly.",
+    "url": "https://techcrunch.com/2026/11/10/adobe-adds-more-ai-to-its-products-and-launches-an-mcp/",
+    "topic": "llm",
+    "date": "2026-11-10",
+    "fetched_date": "2026-11-11",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Anthropic sets IPO price range of $70 to $78 per share to reach an implied valuation of $1.404 trillion",
+    "abstract": "The company could end up being worth a hefty $1.404 trillion if its shares list at the top of the price range, on a fully diluted basis.",
+    "url": "https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/",
+    "topic": "llm",
+    "date": "2026-11-10",
+    "fetched_date": "2026-11-11",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "After challenging Google’s Android with Cyanogen, its co-founder takes aim at Windows for AI era",
+    "abstract": "Kora is set to launch as a free-to-use alternative to Windows, targeting users who rely heavily on AI models and agents.",
+    "url": "https://techcrunch.com/2026/11/10/after-challenging-googles-android-with-cyanogen-its-co-founder-takes-aim-at-windows-for-ai-era/",
+    "topic": "llm",
+    "date": "2026-11-10",
+    "fetched_date": "2026-11-11",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Spotify’s AI DJ gets new voices, personalities, and an option for less chatter",
+    "abstract": "Spotify Premium users can now customize their AI DJ with new voices with different personalities, or turn off the commentary between songs.",
+    "url": "https://techcrunch.com/2026/11/10/spotifys-ai-dj-gets-new-voices-personalities-and-an-option-for-less-chatter/",
+    "topic": "llm",
+    "date": "2026-11-10",
+    "fetched_date": "2026-11-11",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Ring, known for its doorbell cameras, launches a home security drone and an enterprise security robot",
+    "abstract": "Amazon-owned Ring is pushing into robotics with the launch of a home security drone and a rolling robot designed to patrol and protect businesses.",
+    "url": "https://techcrunch.com/2026/11/10/ring-known-for-its-doorbell-cameras-launches-a-home-security-drone-and-an-enterprise-security-robot/",
+    "topic": "llm",
+    "date": "2026-11-10",
+    "fetched_date": "2026-11-11",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Cyberattacks threaten to make open source AI a little less open, Hugging Face exec warns",
+    "abstract": "Hugging Face executive Irene Solaiman warns that growing cyberattacks on open AI platforms could force tighter security restrictions, threatening the accessibility that makes open source communities valuable to developers worldwide.",
+    "url": "https://techcrunch.com/2026/11/10/cyberattacks-threaten-to-make-open-source-ai-a-little-less-open-hugging-face-exec-warns/",
+    "topic": "llm",
+    "date": "2026-11-10",
+    "fetched_date": "2026-11-11",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Mattel brings Barbie, Hot Wheels to TikTok Shop",
+    "abstract": "Mattel is launching a branded storefront on TikTok Shop as it looks to get ahead in live commerce.",
+    "url": "https://www.modernretail.co/operations/mattel-brings-barbie-hot-wheels-to-tiktok-shop/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-11-11",
+    "fetched_date": "2026-11-11",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "The Next Gen Store Awards: How Anthropologie, Diptyque and others are transforming the in-store experience",
+    "abstract": "The first-ever Next Gen Store Awards winners reflect a retail landscape in which the in-store experience is becoming increasingly important to how brands attract and engage customers. The winning concepts combined creative design, technology and thoughtful storytelling to demonstrate how physical retail can create value beyond the transaction. Experiential store formats and creative displays gave […]",
+    "url": "https://www.modernretail.co/announcement/awards/the-next-gen-store-awards-how-anthropologie-diptyque-and-others-are-transforming-the-in-store-experience/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-11-10",
+    "fetched_date": "2026-11-11",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Brands Briefing: Dr. Martens revamps stores to kickstart growth and ‘recontextualize the brand’",
+    "abstract": "Dr. Martens is updating its store fleet to appeal to the next generation of shoppers.",
+    "url": "https://www.modernretail.co/operations/brands-briefing-dr-martens-revamps-stores-to-kickstart-growth-and-recontextualize-the-brand/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-11-10",
+    "fetched_date": "2026-11-11",
+    "feed_name": "Modern Retail",
+    "source": "industry"
   }
 ]
