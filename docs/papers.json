@@ -366236,5 +366236,451 @@
       "Aran Nayebi"
     ],
     "article_type": "research"
+  },
+  {
+    "title": "Pterodactyl: Pushing the Limits of Efficient Automated Translation Evaluation",
+    "abstract": "In this paper, we present 1020 Group's submission to the WMT26 shared task on automated quality evaluation. Our system, Pterodactyl, was engineered specifically for subtasks 2 and 3, that is, segment-level quality score prediction and the detection of error-free segments. Pterodactyl is a highly customizable, ultra-low cost system optimized for binary classification in translation triage and data curation. It is based on an LLM-as-a-judge approach, with prompt engineering and model selection guided by ROC analysis. We also developed several variants of Pterodactyl that were specifically adapted for subtasks 3.",
+    "url": "http://arxiv.org/abs/2611.14480",
+    "pdf": "https://arxiv.org/pdf/2611.14480v1",
+    "keyword": "prompt engineering",
+    "date": "2026-11-10",
+    "fetched_date": "2026-11-12",
+    "authors": [
+      "Evelyn Y. Garland",
+      "Carola F. Berger"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "You Don't Need Feature Learning to Do In-Context Learning",
+    "abstract": "How should we understand memorization vs. generalization in in-context learning (ICL) tasks, and when does one happen vs. the other? To investigate, we study how rotation-invariant kernel machines learn the ICL linear regression task proposed by Raventos et al. (2023). By decomposing the task in the kernel eigenbasis, we obtain a spectral picture of learning in this ICL setting. This picture reveals that as sample size grows, kernel machines learn successively-higher-degree components of the memorizing solution, which depend upon successively-higher-degree statistics of the training task set. The generalizing solution is approximately a low-degree truncation of the memorizing solution, and so the model first generalizes, then degrades into memorization as training proceeds.\n  The takeaways are threefold. First, if this case is indicative, learning a \"generalizing\" solution on an ICL task is really just underfitting the memorizing solution! Second, the fact that kernel machines can generalize on this task means that feature learning is inessential to ICL. Third, transformers empirically trained to do ICL are shown to memorize tasks through the higher-order statistics of the training tasks that the kernel-based theory predicts, suggesting it applies even to models capable of feature learning.",
+    "url": "http://arxiv.org/abs/2611.13431",
+    "pdf": "https://arxiv.org/pdf/2611.13431v1",
+    "keyword": "in-context learning",
+    "date": "2026-11-10",
+    "fetched_date": "2026-11-12",
+    "authors": [
+      "Joseph Turnbull",
+      "Jamie Simon"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "MediPFN: Amortized In-Context Nuisance Learning and Inference for Causal Mediation Analysis",
+    "abstract": "Causal mediation analysis decomposes a treatment effect into indirect pathways through mediators and direct pathways through other processes. Tabular foundation models perform classification and regression through in-context learning, providing estimates of conditional means and propensity scores used in causal mediation analysis. Constructing confidence intervals from these estimates requires accounting for uncertainty introduced by fitting and combining several nuisance functions. We introduce MediPFN, an amortized inference framework that adapts a pretrained tabular foundation model to nuisance prediction and combines its predictions through a cross-fitted influence-function estimator. A separate head learns quantiles of the estimator's standardized error from simulated tables with known indirect effects. Supervised fine-tuning, symmetrization, and independent calibration then produce a confidence interval. We establish coverage bounds for the resulting intervals under standard assumptions. Across experiments, MediPFN attains coverage closer to the nominal level than several comparators. It also reduces the computational cost of uncertainty quantification, running 59.1 times faster than bootstrap in matched comparisons.",
+    "url": "http://arxiv.org/abs/2611.13219",
+    "pdf": "https://arxiv.org/pdf/2611.13219v1",
+    "keyword": "in-context learning",
+    "date": "2026-11-09",
+    "fetched_date": "2026-11-12",
+    "authors": [
+      "Shi Bo",
+      "Jiaming Hu"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "Software Refactoring Research with Large Language Models: A Systematic Literature Review",
+    "abstract": "Background: Code refactoring is the improvement of code internally without changing the external functionalities of the program. Due to its exhaustive nature, developers often avoid manually refactoring code. Researchers have since looked into utilizing LLMs to automate the task of refactoring. Aim and Method: Despite the promising results, there is a lack of clear un- derstanding of LLMs' effectiveness in automated refactoring. Result: From our literature review we found that: (i) there are various tools that different studies use to enhance and study LLM-driving refactoring, with tools that were used to detect code smells, generate code bases, and compare refactoring outcomes. (ii) Various datasets were collected from multiple open- source projects in multiple programming languages for analysis. These platforms included GitHub, Apache, and F-Droid, with the most popular language collec- ted and analyzed being Java. (iii) One-Shot, Few-Shot, Context-Specific, and Chain-of-Thought prompting methods have been shown to be the most effective depending on the language used. In some instances, being capable of reducing code smell by up to 89%. (iv) The definition of \"accuracy\" varies significantly across the literature surveyed, as this depends on the context of the study, thus calling for a need to have a standardized measurement for Accuracy. (v) The most often mentioned code smells were Large Class and Long Method, with a lot of studies also not specifying, while the most often applied refactoring type is Extract Method, showing promising results in using LLM to perform this refactoring type. (vi) When working with LLMs, they often generate erroneous code, struggle with more complex refactoring, and often misunderstand the developers' requests and miss refactoring requests.",
+    "url": "http://arxiv.org/abs/2611.14027",
+    "pdf": "https://arxiv.org/pdf/2611.14027v1",
+    "keyword": "chain of thought",
+    "date": "2026-11-10",
+    "fetched_date": "2026-11-12",
+    "authors": [
+      "Sofia Martinez",
+      "Luo Xu",
+      "Mariam Elnaggar",
+      "Eman Abdullah AlOmar"
+    ],
+    "article_type": "review"
+  },
+  {
+    "title": "Transparency Disclosures for Chain-of-Thought Monitorability",
+    "abstract": "Chain-of-thought (CoT) monitoring is one of the most valuable tools for monitoring advanced AI systems, but it is under threat. We argue that frontier AI developers should report specific indicators to make these threats trackable and to better facilitate coordination to preserve CoT monitorability. We identify five indicators that are both highly relevant and reasonably feasible to disclose, one for each link in a five-step chain on which CoT monitoring depends. The first, third-party CoT access and base architecture specifications, also underpins external verification of the rest. The others span CoT quality (naturalness and faithfulness) and monitoring effectiveness (detection and uplift). An audit of current disclosures by Anthropic, OpenAI, and Google DeepMind shows that no developer covers the full set, but that every indicator has been reported by at least one frontier developer. Because current disclosures rely largely on developers' own evaluations, we also recommend that a cross-developer audit be repeated with deeper access than public disclosures allow, either by embedded evaluators working within developers or by an Independent Verification Organization.",
+    "url": "http://arxiv.org/abs/2611.13873",
+    "pdf": "https://arxiv.org/pdf/2611.13873v1",
+    "keyword": "chain of thought",
+    "date": "2026-11-10",
+    "fetched_date": "2026-11-12",
+    "authors": [
+      "Jacob Davies",
+      "Theo Bearman"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "Curriculum proof repair with learned counterexamples",
+    "abstract": "Language models (LMs) have substantially lowered the barrier to applying formal verification for building reliable and secure software. Existing approaches commonly follow the verifier-in-the-loop paradigm, but the verifier often provides only coarse, binary pass/fail feedback, which offers little actionable signal on how the proof should be repaired. Recent work shows that counterexamples provide more actionable feedback by grounding proof failures in concrete program states, but generating useful ones at inference time requires costly iterative refinement. We present TopoVerus, an LM-based framework for Verus proof repair that internalizes counterexample-guided diagnosis as a model capability, producing useful counterexamples in a single pass. Our key insight is to train counterexample generation not as a standalone validation task, but as a data-driven diagnostic objective: a counterexample is useful when conditioning on it helps the model produce a safe, verifier-passing proof. Given a failed Verus proof and verifier error, TopoVerus generates a structured source-level counterexample, repair rationale, and repaired proof in one trajectory, optimized with reinforcement learning from Verus feedback and a proof-code safety gate. To guide the order of invariant repairs, TopoVerus introduces a curriculum with a topological graph reward based on invariant dependencies derived from inductiveness tests, which encourages counterexample generation to follow the same topological order. Across seven Verus benchmarks with 471 problems, TopoVerus achieves 61.6%/72.2% weighted-average Safe-Pass@1/Safe-Pass@3, outperforming the strongest baseline, Claude Sonnet 4.5, by 5.7/6.3 points. We also show that TopoVerus's learned counterexamples can directly augment the reasoning of existing LM-based proof repair approaches, improving their success rate by 64.3% compared to chain-of-thought diagnostics.",
+    "url": "http://arxiv.org/abs/2611.13627",
+    "pdf": "https://arxiv.org/pdf/2611.13627v1",
+    "keyword": "chain of thought",
+    "date": "2026-11-10",
+    "fetched_date": "2026-11-12",
+    "authors": [
+      "Yuechun Sun",
+      "Jun Yang",
+      "Kexin Pei"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "How Post-Training Influences Verbalized Algorithmic Computation in Language Models",
+    "abstract": "Post-training improves language-model reasoning, but how it changes the use of internal information and verbalized chain of thought (CoT) remains unclear. We study successive SFT, DPO, and RLVR checkpoints of Olmo-3-7B-Instruct on multi-digit addition, using carry values as known intermediate state. Probes recover carry information from internal activations with similar accuracy in SFT and RLVR, although manipulating this information does not reliably control model outputs. In contrast, the usefulness of verbalized reasoning differs: CoTs produced by RLVR yield higher accuracy across receiving checkpoints than those produced by SFT or DPO. We also show that carry-related statements receive higher importance scores after RLVR than matched random controls. DPO shows similar sensitivity to carry-related statements but without comparable accuracy gains. These results suggest that post-training changes the usefulness of written reasoning and sensitivity to its content in meaningful ways, although greater sensitivity does not necessarily coincide with better problem performance.",
+    "url": "http://arxiv.org/abs/2611.13552",
+    "pdf": "https://arxiv.org/pdf/2611.13552v1",
+    "keyword": "chain of thought",
+    "date": "2026-11-10",
+    "fetched_date": "2026-11-12",
+    "authors": [
+      "Niall Dalton"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "When Reasoning looks like Hidden Understanding: How Chain-of-Thought Fosters Anthropomorphism, Perceptions of Epistemic Superiority, and Cognitive Deference",
+    "abstract": "As AI-based products permeate society, specifically systems using generative models, a belief system is emerging about what these products are and what they can and cannot do. One common belief concerns the perception of the form of language as evidence of 'understanding' language. As these generative models reproduce linguistic patterns rather than understand meaning, interpreting these patterns as evidence of understanding is a misattribution. This misconception is extended by the notion that generative models can 'explain their reasoning.' Anecdotally, these misconceptions which mistake the form of language for its meaning are driving cognitive deference to AI systems in a way that displaces human agency. Such mistakes involve attributions of cognitive properties to the system, allowing them to be treated like intentional 'minds'. Importantly, perceived epistemic authority and superiority make that 'mind' worth deferring to. Anthropomorphism in tandem with epistemic authority and superiority, we argue, increases the risk that users generalise from narrow task performance to broader competencies, committing the \"fallacy of composition\". This paper explores misconceptions of Chain of Thought (CoT) reasoning as sufficient transparent 'explanation'. We explore how anthropomorphism acts as a vehicle for cognitive deference of decision-making and perceptions of epistemic superiority in AI systems. Finally, we explore CoT's ramifications using medicine as an example. Taken together, we conclude that explainability operationalised through CoT is highly problematic and undercuts the very ethical principles it is intended to serve. While CoT may be valuable for improving output accuracy and moderation, we suggest that the practice of asking models to provide user facing reasons for their outputs should be actively discouraged, and AI literacy training should explicitly caution against its use.",
+    "url": "http://arxiv.org/abs/2611.13456",
+    "pdf": "https://arxiv.org/pdf/2611.13456v1",
+    "keyword": "chain of thought",
+    "date": "2026-11-10",
+    "fetched_date": "2026-11-12",
+    "authors": [
+      "Oliver Lack",
+      "Lana Tikhomirov",
+      "Humphrey Thompson",
+      "Carolyn Semmler",
+      "Melissa McCradden"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "Contrastive Discovery: Open-Ended Scientific Discovery over Competing Explanations",
+    "abstract": "LLM agents are increasingly used for open-ended, data-driven scientific discovery, yet most of them evaluate hypotheses pointwise, testing an empirical claim $h$ only against its complement $\\neg h$. When evidence rejects $h$, the agent learns that one explanation is unlikely but not which alternative the evidence supports. To recover that alternative, we introduce Contrastive Discovery, which replaces the single hypothesis with a contrast set, a scientific question paired with mutually exclusive and collectively exhaustive competing explanations. Each experiment is scored by how its evidence redistributes belief across the set, and the question is resolved when belief concentrates on one explanation. Because contrast sets change only the unit an agent proposes and scores, an existing agent can use them to re-evaluate evidence it has already collected or to guide its search. Across six domains, $89\\%$ of the pointwise candidates with the largest belief shifts are rejections. On the same evidence, contrast sets resolve $73\\%$ of these candidates to a specific alternative. When contrast sets guide search, the agent resolves $67\\%$ more questions than pointwise surprisal under the same experiment budget. In a blinded study, $38$ human experts chose the same explanation on $78\\%$ of resolved questions and on $82\\%$ of questions where the pointwise agent rejected its hypothesis and stopped. Together, these results support explicit competing explanations as a way for discovery agents to resolve more scientific questions from the same evidence and validation budget.",
+    "url": "http://arxiv.org/abs/2611.14514",
+    "pdf": "https://arxiv.org/pdf/2611.14514v1",
+    "keyword": "LLM agent",
+    "date": "2026-11-10",
+    "fetched_date": "2026-11-12",
+    "authors": [
+      "Ziang Liu",
+      "James J. Kim",
+      "Yijia Dai",
+      "Jennifer J. Sun"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "When Should Agents Remember? Falsification-Gated Self-Evolution for LLM Agents",
+    "abstract": "LLM agents increasingly operate in long-horizon, verifier-rich environments, but current self-improvement mechanisms often write episode-derived lessons directly into memory, making local success an unreliable signal for reusable and safe knowledge. This paper addresses the core question of when an experience-derived behavioral update should be admitted into persistent agent state. We propose Falsification-Gated Self-Evolution (FGSE), a verifier-grounded framework that represents each candidate lesson as a structured hypothesis with an explicit precondition, behavior change, expected effect, and verifier. FGSE applies the hypothesis only in a temporary state, tests it on target-transfer, falsification, and archived-regression probes, and then commits, refines, or rejects it according to measured gain and risk. Across web, app, tool-use, and long-term memory benchmarks, FGSE achieves strong task performance, including 39.8 WebArena success rate, 78.8 AppWorld average completion, and 0.724/0.487 Pass$^1$ on $τ$-Retail/$τ$-Airline, while reducing falsification failures to 5.0%, regression damage to 1.3%, and harmful committed updates to 3.6%. These results suggest that testing memory updates as hypotheses supports more reliable long-term adaptation.",
+    "url": "http://arxiv.org/abs/2611.14326",
+    "pdf": "https://arxiv.org/pdf/2611.14326v1",
+    "keyword": "LLM agent",
+    "date": "2026-11-10",
+    "fetched_date": "2026-11-12",
+    "authors": [
+      "Runxuan Tang",
+      "Haoyu Gao",
+      "Yuyan Ding",
+      "Junyi Yao",
+      "Zihao Zheng",
+      "Zecheng Sheng",
+      "Liwei Hou"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "Don't Just Trust Your Memory: Evidence-Linked Memory Reduces Memory-Induced Degradation in LLM Agents",
+    "abstract": "External memory enables LLM agents to improve from experience by distilling trajectories of past tasks into concise lessons for new tasks. However, memory can also lead to memory-induced degradation, where an agent fails on tasks it would solve without memory, often because it follows a lesson that is incorrect, or misapplies or misreads a valid one. This is because lessons are inferred from trajectories labeled only with task success or failure, yet are typically provided without the trajectories they came from, leaving the agent no way to check them. To address this, we introduce WikiTrace, an evidence-linked memory system designed to let agents check each lesson against its original trajectory. Specifically, motivated by the finding that a trajectory often still holds the evidence needed to catch an erroneous lesson, WikiTrace stores each lesson as a concise insight linked to a summary of why its trajectory succeeded or failed and to the raw trajectory itself. Then, on a new task, the agent starts from all insights and, whenever one lacks details needed to act, conflicts with another, or comes from a failed task, descends through its links with terminal tools to fill in missing details or correct the insight before acting. We validate WikiTrace on five agentic benchmarks, showing that it consistently outperforms existing memory approaches and a baseline given the same insights alone, while also reducing memory-induced degradation. Our code is available at https://github.com/yukyeongleee/wikitrace",
+    "url": "http://arxiv.org/abs/2611.14320",
+    "pdf": "https://arxiv.org/pdf/2611.14320v1",
+    "keyword": "LLM agent",
+    "date": "2026-11-10",
+    "fetched_date": "2026-11-12",
+    "authors": [
+      "Yukyeong Lee",
+      "Yumin Choi",
+      "Jinheon Baek",
+      "Sung Ju Hwang"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "Tree-Ising: Repairing Language Models with Bit-Level Ising Edits",
+    "abstract": "Weight-space programming, introduced in recent MIT work by Takehi et al., enables a frontier LLM agent to read a network's weights and write a repair. Their GPT-6 Astra agent corrected the reasoning loops of Qwen3.5-0.8B without gradients, using 158 agent turns, 89.7 million tokens, and 50 forward-pass requests. Our method, Tree-Ising, casts this repair as a sparse discrete optimization problem over the model's own BF16 weights. Forward statistics define an objective that weakens a loop direction, strengthens a concluding direction, and preserves the layer's output on productive tokens. Within a state-tree representation, where lossless BF16 storage acts as a special case, the admissible edits are sign flips and exponent shifts that preserve all shared group exponents and mantissas. We decompose this objective exactly into independent QUBO (Ising) problems, one per output row, which we solve on a GPU using simulated annealing or quantum-inspired simulated bifurcation. On the agent's two layers, Tree-Ising achieves 54.6% on MATH-500, outperforming the agent's edit (51.7%) under the same evaluation protocol, while the base model scores 7.9% as reported. The simulated bifurcation solver yields a statistically indistinguishable repair at 55.1%. Both solvers outperform the agent edit across all five math benchmarks, with statistically significant improvements on MATH-500 and GSM8K after correcting for multiple comparisons. Our approach modifies 13% to 17% fewer weights and reduces BF16 bit flips by a factor of 2.2 to 2.3. It requires only four forward-pass requests and zero LLM tokens, with the annealing recipe costing about $0.90 in GPU time. On Qwen3.5-2B, with layers and dose selected using only the base model, the same recipe increases greedy GSM8K accuracy from 21.6% to 69.4%. As a proof of concept, we execute an eight-variable repair subproblem using QAOA on an IBM Heron processor.",
+    "url": "http://arxiv.org/abs/2611.14210",
+    "pdf": "https://arxiv.org/pdf/2611.14210v1",
+    "keyword": "LLM agent",
+    "date": "2026-11-10",
+    "fetched_date": "2026-11-12",
+    "authors": [
+      "Hadi Salloum",
+      "Ammar Ali"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "Program-Aided Patchable Skill Evolution",
+    "abstract": "Agent skills have emerged as an effective means of enabling LLM agents to solve complex, interactive tasks by encoding reusable knowledge without modifying model parameters. Recent approaches further improve skill adaptation by distilling reusable experience from agent execution trajectories and evolving skills based on downstream task feedback. However, existing methods primarily represent skills as natural language documents, intertwining procedural logic with descriptive knowledge and making skills difficult to maintain and evolve. To address this limitation, we propose PASE (Program-Aided Patchable Skill Evolution), a program-aided framework that iteratively evolves skills by associating them with executable programs. Unlike prior approaches that encode trajectory-derived experience primarily in natural language, PASE separates reusable procedural logic into editable programs, enabling targeted updates to executable components while reducing the need to repeatedly revise natural language skills. Extensive experiments across diverse models and benchmarks demonstrate that PASE consistently outperforms all baselines, by achieving over 2.8% improvements. Further analyses show that PASE exhibits greater evolutionary stability and generalisation capability, highlighting the critical role of programmatic knowledge in skill evolution. We will release all data and code via GitHub.",
+    "url": "http://arxiv.org/abs/2611.14019",
+    "pdf": "https://arxiv.org/pdf/2611.14019v1",
+    "keyword": "LLM agent",
+    "date": "2026-11-10",
+    "fetched_date": "2026-11-12",
+    "authors": [
+      "Jiahao Wang",
+      "Yuqi Xiong",
+      "Qing Yang",
+      "Zhipeng Xu",
+      "Zhenghao Liu",
+      "Zulong Chen",
+      "Yubin Bao"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "Controlled Knowledge Engineering for Taxonomy Induction with Tool-Grounded LLM Agents and Runtime-Adaptive Policies",
+    "abstract": "Taxonomies are structured knowledge representations that support semantic search, recommendation, product catalog organization, and retrieval-augmented generation. Their automated construction from a fixed set of candidate entities requires more than plausible text generation: the resulting hierarchy must be complete, structurally valid, and semantically coherent. Large Language Models (LLMs) are promising for this task, but iterative free-form generation remains vulnerable to omitted or hallucinated entities, invalid hierarchical relations, and inconsistent organizational principles. We introduce TIGA (Taxonomy Induction with Tool-Grounded Agents), a knowledge-engineering architecture that formulates taxonomy induction as an iterative decision process over an explicit state and constrained action space. TIGA combines executable taxonomy-editing tools, an memory that records tool calls, rationales, and outcomes, and a runtime-adaptive organizational policy that the agent revises during inference. An optional global reviewer evaluates the constructed taxonomy against the candidate set and the active policy. We evaluate TIGA on four benchmark taxonomies using two LLM backbones and compare it with single-shot and iterative prompting-based baselines. TIGA achieves the strongest structural-quality results in most evaluated configurations, but does not dominate on every precision measure. The gains are accompanied by substantially higher token consumption, API-call volume, and inference time. Ablation results show consistent benefits from the policy and interaction-memory components, whereas the effect of global review depends on the dataset and the available revision budget. These findings characterize tool grounding and runtime policy adaptation as promising but costly mechanisms for improving the controlled construction of structured knowledge representations.",
+    "url": "http://arxiv.org/abs/2611.13966",
+    "pdf": "https://arxiv.org/pdf/2611.13966v1",
+    "keyword": "LLM agent",
+    "date": "2026-11-10",
+    "fetched_date": "2026-11-12",
+    "authors": [
+      "Jonas Limniatis",
+      "Bennet Schaarmann",
+      "Georg Reuber",
+      "Robert Stahlbock"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "BypassGym: A Benchmark for Evaluating AI Agents' Endpoint Defense Evasion Capabilities",
+    "abstract": "Artificial intelligence agents increasingly automate cybersecurity tasks, including offensive operations. Frequent attacks across the web make endpoint detection and response (EDR) a critical defense, but whether AI agents can evade it remains unclear. Benchmarks evaluate the offensive capabilities of large language model (LLM) agents in areas such as penetration testing and vulnerability discovery. One important capability that these benchmarks do not address is defense evasion, specifically whether an agent can develop a program that executes a payload without being blocked or terminated by a deployed EDR. We introduce BypassGym, to our knowledge the first benchmark to systematically evaluate this capability on real endpoints. Given command-and-control (C2) shellcode, an agent must generate and compile a loader that executes the payload without being blocked or terminated. A supplementary evasion knowledge skill provides domain knowledge and supports comparisons with and without this input. BypassGym is built on Proxmox VE(PVE), so the evaluation environment runs real Windows systems and EDR products inside virtual machines and returns structured detection feedback to the agent. We evaluate 5 lightweight model backends against 6 EDR products and 3 payloads, and find that even these simple models generate successful submissions, with DeepSeek-V4.1 Flash reaching 17/18 successful runs and Bitdefender allowing only 5 of 15 runs to pass. These results provide a systematic measurement of current AI agents' endpoint defense evasion capabilities and identify areas for defenders to investigate.",
+    "url": "http://arxiv.org/abs/2611.13684",
+    "pdf": "https://arxiv.org/pdf/2611.13684v1",
+    "keyword": "LLM agent",
+    "date": "2026-11-10",
+    "fetched_date": "2026-11-12",
+    "authors": [
+      "Weifeng Yuan",
+      "Zifan Chen",
+      "Yucheng Zhang",
+      "Feng Dong",
+      "Peng Gao",
+      "Haoyu Wang"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "Agentic AI Meets Formal Verification in the Era of Agentic Hardware Development",
+    "abstract": "As AI agents become increasingly capable of generating and optimizing hardware circuits, ensuring the correctness of AI-generated designs becomes more important. Meanwhile, advances in AI lower the barriers to developing and applying formal methods, creating new opportunities to automate and improve hardware verification. This invited paper presents an overview of the methodologies and applications of hardware formal methods in the AI era. First, we examine how agentic AI advances hardware formal methods across three levels: specification, proof construction, and reasoning engines. Second, we discuss how formal methods support reliable AI-driven hardware development through RTL generation, debugging, and correctness-preserving optimization. We review representative research alongside our recent contributions, highlighting key technical advances and insights from experimental results. Finally, we discuss future research opportunities toward proof-native hardware development, where formal reasoning could become an integral part of autonomous hardware design.",
+    "url": "http://arxiv.org/abs/2611.13705",
+    "pdf": "https://arxiv.org/pdf/2611.13705v1",
+    "keyword": "agentic AI",
+    "date": "2026-11-10",
+    "fetched_date": "2026-11-12",
+    "authors": [
+      "Wenji Fang",
+      "Yuchao Wu",
+      "Jing Wang",
+      "Zhiyao Xie"
+    ],
+    "article_type": "review"
+  },
+  {
+    "title": "On Private Knowledge Retrieval and Private Inference for secure multi-agent systems",
+    "abstract": "Multi-agent systems provide a convenient framework for the massive deployment of agents based on Large Language Models (LLMs). It provides a sound framework where agents can interact with existing software to perform actions in an autonomous way. Agentic AI is the new term to denote these AI-based autonomous systems.\n  In real multi-agent systems, agents need to deal with malicious agents some of which can exploit security vulnerabilities to do harm. A memory poisoning attack is an example of exploiting a vulnerability to modify agents knowledge and, thus, affect its behavior. In an agent, there are different types of memory systems (semantic, episodic, and short-term) which have their own characteristics and for which different memory poisoning attacks may be developed.\n  In this paper we focus on semantic memory, we discuss its attack, and mitigation strategies. We introduce private knowledge retrieval and private inference. We propose a signature system in the knowledge base to prevent from undesired manipulation. This should avoid memory poisoning attacks by introducing security by design in the construction of the semantic memory. In our architecture, an agent contains a local Prolog-like inference system (i.e., using Horn clauses to represent knowledge) which accesses an external knowledge base to get the required knowledge. This externally signed knowledge base is accessed privately. We provide different implementations in Python using different privacy levels including k-anonymity and information-theoretical privacy (IT-PIR).",
+    "url": "http://arxiv.org/abs/2611.13696",
+    "pdf": "https://arxiv.org/pdf/2611.13696v1",
+    "keyword": "agentic AI",
+    "date": "2026-11-10",
+    "fetched_date": "2026-11-12",
+    "authors": [
+      "Vicenç Torra",
+      "Maria Bras-Amorós"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "EJAI: Judgment-Preserving Civic AI for Data Center Environmental Justice",
+    "abstract": "Communities in the United States and around the world are contesting data centers, the physical infrastructure of AI. These disputes pose environmental justice issues: residents must weigh unevenly distributed burdens using evidence scattered across metrics, corporate claims, policy documents, and public testimony. A formative study with 10 users showed that dashboards and single-agent AI can settle questions before people examine that evidence. Here we present EJAI, a source-grounded system that links an interactive map, retrieved evidence, missing-data statements, and two stakeholder personas that allow people to inspect evidence and form their own policy recommendations. In a small functional benchmark of 21 queries, retrieved evidence supported 98.4% of factual claims and the system acknowledged missing evidence in 32 of 33 cases. Persona alignment carried a grounding cost: the Corporate Executive omitted some evidence that conflicted with its assigned priorities. In a within-subjects study, 15 participants acting as residents prepared for a simulated town hall. Some checked cited AI claims while treating map metrics as official, some made conditional recommendations with safeguards such as water-use disclosure, and some found the personas simplified or biased. Our results suggest that civic AI can support preparation for public reasoning when it makes evidence, gaps, and disagreement open to inspection, and that corpus imbalance and two-sided personas remain open justice concerns.",
+    "url": "http://arxiv.org/abs/2611.13525",
+    "pdf": "https://arxiv.org/pdf/2611.13525v1",
+    "keyword": "agentic AI",
+    "date": "2026-11-10",
+    "fetched_date": "2026-11-12",
+    "authors": [
+      "Evan Pačes-Wiles",
+      "Bryen Alvarez",
+      "Sara Gulabani",
+      "Akshara Kolipaka",
+      "Snehalkumar 'Neil' S. Gaikwad"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "AgentScript-Eval: Benchmarking LLMs and Agents for Code Generation in an Enterprise DSL",
+    "abstract": "Domain-specific languages (DSLs) are widely used in enterprise software, giving a compact interface to complex tasks, from data access to infrastructure automation. Platforms increasingly extend them to agents, where a developer declares the topics, permitted actions, and guardrails of an agent rather than writing general-purpose code. Large language models (LLMs) write general-purpose code well, but that ability has been measured almost entirely on languages abundant in public pretraining data, and enterprise DSLs are neither abundant nor public. We introduce AgentScript-Eval, an execution-graded benchmark of 100 real tasks for AgentScript, the declarative DSL that Salesforce uses in Agentforce to build conversational agents. Tasks span authoring an agent from a specification, debugging a broken definition, and optimizing a working one. Evaluating five models zero-shot, we find that the regime is hard: the best model reaches only 25.0% pass@3, and every model scores 0% on authoring from scratch. We further find that model scale and price are weak predictors of success -- a 31B open-weight model attains the highest compilation rate of any model tested (48.0%) and matches the strongest frontier model on partial-credit accuracy at the lowest token cost. Adding an agentic compile-and-edit loop is the single largest lever, roughly doubling partial-credit accuracy. Beyond that gain, the wording of domain guidance matters more than its packaging. The same skill pack scores 28% as plain documentation but only 14% as a live plugin. Rewriting one skill inside that plugin then raises it to 37%, our best result, with catalog and tooling untouched. Larger models did not reliably outperform smaller ones; what mattered was the harness surrounding the model and the guidance supplied to it.",
+    "url": "http://arxiv.org/abs/2611.13183",
+    "pdf": "https://arxiv.org/pdf/2611.13183v1",
+    "keyword": "agentic AI",
+    "date": "2026-11-09",
+    "fetched_date": "2026-11-12",
+    "authors": [
+      "Dipin Khati",
+      "Shubham Mehrotra",
+      "Bin Bi",
+      "Zhou Yu",
+      "Denys Poshyvanyk",
+      "James Zhu",
+      "Sitaram Asur",
+      "Phil L. Mui"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "Toward Autonomous RTL and Synthesis Optimization: Benchmarking and Self-Improving Agents",
+    "abstract": "Recent advances in large language models (LLMs) and autonomous agents are creating new opportunities for hardware design optimization. This paper examines three connected directions toward autonomous RTL and synthesis optimization: (1) Realistic benchmarking. We discuss reference-based and open-ended RTL optimization benchmarks that evaluate optimization opportunities under realistic EDA workflows. (2) Tool-grounded RTL optimization. We present Dr. RTL, a multi-agent framework that automates critical-path analysis, RTL rewriting, and implementation-level evaluation, while continuously improving through reusable optimization skills. Evaluated on 20 real-world RTL designs, Dr.~RTL achieves average WNS/TNS improvements of 21\\%/17\\% with a 6\\% area reduction over commercial synthesis. (3) Design-specific synthesis optimization. We explore agent-driven synthesis script tuning and the discovery of executable synthesis algorithms across intermediate representations, technology-independent optimization, and technology mapping. Finally, we envision AI-native design automation that jointly explores architectural, RTL, and EDA algorithm design spaces, guided by verification constraints and implementation feedback.",
+    "url": "http://arxiv.org/abs/2611.13713",
+    "pdf": "https://arxiv.org/pdf/2611.13713v1",
+    "keyword": "autonomous agent",
+    "date": "2026-11-10",
+    "fetched_date": "2026-11-12",
+    "authors": [
+      "Wenji Fang",
+      "Yao Lu",
+      "Jinghua Wang",
+      "Zhiyao Xie"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "Safety and Connectivity Certificates for Finite-Time Formation Transitions",
+    "abstract": "Finite-time formation transitions are useful for coordinating multi-agent systems in time-critical missions, but convergence to a prescribed formation in finite time does not guarantee collision avoidance or communication connectivity during the transition. Existing approaches address finite-time coordination and safety-constrained formation control, yet explicit connections between disagreement during transitions, formation geometry, and coupling-gain selection need to be developed for certifying safe maneuvers. This paper develops a disagreement-based framework for certifying transient safety and connectivity during finite-time tracking of arbitrary prescribed formation trajectories. Local feedback guarantees exact finite-time tracking with a graph-independent settling-time bound, while a graph-dependent disagreement bound is used to derive sufficient geometric conditions for collision avoidance and connectivity preservation. These conditions further yield an offline coupling-gain selection rule based on the available geometric clearance. Numerical simulations illustrate the trade-off between convergence rate and control effort as the coupling gain increases. They also demonstrate the effectiveness and conservatism of the proposed certificates.",
+    "url": "http://arxiv.org/abs/2611.13927",
+    "pdf": "https://arxiv.org/pdf/2611.13927v1",
+    "keyword": "multi-agent system",
+    "date": "2026-11-10",
+    "fetched_date": "2026-11-12",
+    "authors": [
+      "Yash Purswani",
+      "Shivansh Agarwal",
+      "Anuj Tiwari"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "Dependable Long-Horizon LLM Agents: A Trajectory-Centered Empirical Study of Where Errors Enter and Which Controls Reach Them",
+    "abstract": "When an LLM agent fails part-way through a long task, the usual analysis records a symptom: a failure-mode label, or the agent and step judged responsible. It does not say where the error entered, which state carried it to the symptom, whether anything in the trajectory contradicted it, or which control could have caught it. We define an episode record that ties a candidate fault to its origin, propagation, detection, response and consequence, located by operational phase and state domain, and that names the control families whose observation and reach cover it. We turned the record into a written annotation protocol and applied it to 95 failed runs of six multi-agent systems from the public Who&When and MAD corpora, reading each trajectory in full. Faults enter early (median at 0.18 of the run), mostly as wrong decisions or fabrications over task state, and in 37 of 88 Who&When runs before the step the corpus' human labels mark as decisive. In 72% of failed runs the trajectory already contained evidence against the error before the failure; in 88% of those no agent acted on it. Something flagged a deviation in 31% of runs, but no response removed the deviated state. Independent judges reading the unused evidence, task contracts fixed at admission, and re-checking beliefs against the environment reach most episodes; restoring the agent's own state would have sufficed in 35 of 95 runs. A text scan of the raw corpus also shows that 45% of the hand-crafted Who&When failures ended with a provider content-filter crash after which the harness emitted a final answer no agent produced, a failure class that neither symptom taxonomies nor responsible-agent labels represent. Protocol, records and scripts are included.",
+    "url": "http://arxiv.org/abs/2611.13254",
+    "pdf": "https://arxiv.org/pdf/2611.13254v1",
+    "keyword": "multi-agent system",
+    "date": "2026-11-09",
+    "fetched_date": "2026-11-12",
+    "authors": [
+      "Shaohuang Wang",
+      "Jinghao Wen",
+      "Xulei Zhang",
+      "Xun Jiao"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "From Process Models to Composable Agentic Workflows: Combining BPMN, Agents and Enterprise Knowledge",
+    "abstract": "LLM-based agents can reason, use tools and collaborate. However, coordinating increasingly complex agentic applications becomes difficult to understand, monitor and improve. Decisions distributed across prompts, tool calls and application logic make workflows implicit. We introduce **Recursive Capability Composition**, enabling agents to execute business processes and expose them as reusable Agentic Tools.\n  This paper presents a BPMN-based approach to Agentic Workflows, combining explicit orchestration with autonomous reasoning. SemTalk BPMN models are transformed into executable workflows using a LangGraph/Pregel runtime. Agentic Tasks introduce LLM reasoning at selected activities, while conventional BPMN controls process flows, deterministic decisions, system interactions and human approvals. Agentic Participants provide reusable interfaces for agent behavior or other executable processes.\n  BPMN orchestration makes multi-agent systems more understandable and manageable. Explicit process models provide developers and operators with a shared view of workflow structures and execution progress, facilitating debugging, monitoring and optimization.\n  Enterprise agents also need organization-specific context. Process Models and Knowledge Graphs describe activities, participants, information objects, decisions and relationships between processes. They provide structured knowledge of how an organization operates, supporting informed agent decisions and actions.\n  Our contributions are threefold: 1. **Model-Driven Execution:** Transforming BPMN models into executable Agentic Workflows. 2. **Recursive Capability Composition:** Exposing agents and executable business processes as reusable tools for other agents. 3. **Enterprise Context:** Using Process Models and Ontologies to provide organization-specific knowledge for agent reasoning.",
+    "url": "http://arxiv.org/abs/2611.13196",
+    "pdf": "https://arxiv.org/pdf/2611.13196v1",
+    "keyword": "multi-agent system",
+    "date": "2026-11-09",
+    "fetched_date": "2026-11-12",
+    "authors": [
+      "Christian Fillies",
+      "Jan Fillies",
+      "Frauke Weichhardt",
+      "Gay Anne Wood-Albrecht"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "Mobility-Aware Task Offloading in Mobile Edge Computing-Empowered Space-Air-Ground Integrated Internet-of-Things Networks",
+    "abstract": "Mobile edge computing (MEC)-empowered spaceair-ground integrated Internet-of-Things (IoT) networks (SAGIINs) provide a promising solution for computation-intensive tasks generated by mobile IoT devices (IDs). However, task offloading in SAGIINs is challenging due to time-varying IDto-unmanned aerial vehicle (UAV) channels, intermittent LEO satellite service availability, and the coupling among UAV trajectory, communication, computation, and energy decisions. This paper investigates an energy-efficient task offloading and UAV trajectory planning problem in an MEC-empowered SAGIIN, where one UAV acts as both an aerial relay and an MEC server, and multiple LEO satellites provide supplementary computing resources. The UAV trajectory planning, task splitting, and computing resource allocation are jointly optimized to minimize the total system energy consumption under task completion, communication, computation, flight region, and satellite service window constraints. The resulting non-convex problem is decomposed into a UAV trajectory planning subproblem and a task splitting and computing resource allocation subproblem. To solve the former, a retrieval-augmented generation (RAG)-assisted large language model (LLM)-enhanced deep deterministic policy gradient (DDPG) algorithm, termed RLD, is proposed. The latter is shown to be convex and can be solved by using CVXPY for a given UAV trajectory. A weighted retrieval score is further designed to balance ID mobility-pattern similarity and historical UAV trajectory energy performance. Simulation results show that RLD completes all computational tasks in previously unseen test scenarios while consuming less total energy than the benchmark algorithms.",
+    "url": "http://arxiv.org/abs/2611.14102",
+    "pdf": "https://arxiv.org/pdf/2611.14102v1",
+    "keyword": "retrieval augmented generation",
+    "date": "2026-11-10",
+    "fetched_date": "2026-11-12",
+    "authors": [
+      "Minghao Sun",
+      "Jinghuai Xiong",
+      "Xiaoli Chu",
+      "Zitian Zhang"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "Isolation Is Not Confidentiality: Security Boundaries of Geometric Access Control in RAG",
+    "abstract": "Retrieval-Augmented Generation (RAG) systems increasingly rely on vector databases containing documents governed by different access-control policies. Recent search-preserving geometric approaches enforce such access control by structuring the embedding space so that transformed embeddings, which we call protected representations, remain retrievable without exposing information across policy boundaries.\n  We provide a unified security analysis of this paradigm, covering policy isolation, representation confidentiality, query forgery resistance, and policy-membership hiding. We consider both a curious cloud service provider observing the protected representations stored in the vector database and a curious user holding aligned pairs of original embeddings and protected representations. Evaluating the available implementations of the works proposing these geometric transformation mechanisms across three encoders, we find that geometric transformations preserve retrieval utility and provide strong policy isolation, but do not provide the other security properties. A curious user can recover the original embeddings from a few hundred pairs and forge policy-compatible queries at a higher cost that grows with encoder dimension for secret per-policy transformations. Moreover, policy-dependent geometry can leak policy membership even when unauthorized retrieval is prevented. These results show that policy isolation, confidentiality, forgery resistance, and membership hiding are distinct security objectives.",
+    "url": "http://arxiv.org/abs/2611.14061",
+    "pdf": "https://arxiv.org/pdf/2611.14061v1",
+    "keyword": "retrieval augmented generation",
+    "date": "2026-11-10",
+    "fetched_date": "2026-11-12",
+    "authors": [
+      "Steve Nouyep",
+      "Maxime Puys",
+      "Sébastien Salva"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "OpticalRAG: Pixel-Space Compression for Token-Efficient Retrieval-Augmented Generation",
+    "abstract": "Retrieval-augmented generation (RAG) is bottlenecked by the token budget of large language models: feeding long documents into the context window is expensive, while aggressive textual compression discards fine-grained information that is irreversibly lost in a one-dimensional token sequence. We argue that this bottleneck is not fundamental to information density but to the choice of compression \\emph{modality}. Modern visual encoders can pack the contents of a rendered text page into roughly a hundred visual tokens with little semantic loss, opening a new compression-fidelity tradeoff that purely textual methods cannot reach. We present \\textbf{OpticalRAG}, a framework that renders documents as page images, encodes them with a frozen vision encoder, and distills the retrieved visual tokens into as few as $16$ injected tokens before passing them to the LLM. Two ingredients make this work without expensive cross-modal training: (i) \\emph{Encoder-Bridged Retrieval}, which projects text-query states into the visual feature space of the frozen encoder, through a projection shared with the compressor, to retrieve visual tokens from a text query, with no contrastive training; and (ii) \\emph{Query-Driven Distillation}, a lightweight cross-attention compressor that condenses the retrieved visual tokens into a small set of query-conditioned prefix tokens. On LongBench-v2, BAMBOO, and LooGLE-v2, OpticalRAG achieves the best compression-aware accuracy (CAP) on all three benchmarks while injecting only $16$ tokens, and improves the closed-book Qwen2.5-7B-Instruct backbone by $5.17$ points on LongBench-v2.Code is available at https://github.com/brighterr/OpticalRAG.",
+    "url": "http://arxiv.org/abs/2611.13675",
+    "pdf": "https://arxiv.org/pdf/2611.13675v1",
+    "keyword": "retrieval augmented generation",
+    "date": "2026-11-10",
+    "fetched_date": "2026-11-12",
+    "authors": [
+      "Senhao Liu",
+      "Yuheng Zhang",
+      "Chunyu Wei",
+      "Yueguo Chen",
+      "Xinran Zhang"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "SinkState: On-the-Fly SVD of Recurrent States for Efficient Hybrid LLM Serving",
+    "abstract": "Hybrid models combine softmax attention with linear attention, which compresses history into fixed-size recurrent states to balance model quality and inference efficiency. However, linear attention has not pushed this compression to its limit: we find that the queries, keys, and values of linear layers concentrate in a stable, low-dimensional subspace, a phenomenon we call the linear attention sink, so each state is effectively low-rank, with a rank that varies across states. Yet existing serving systems keep these redundant states dense, reading and rewriting them in full at every decoding step, so their memory traffic grows with the batch size and dominates the decoding cost. Thus SinkState stores each recurrent state in an adaptive low-rank form throughout inference with buffered updates and a local SVD restricted to the top subspace. SinkState further consolidates the remaining components asynchronously on the CPU. On four hybrid models with Mamba-2 and Gated DeltaNet (GDN) layers, from 4B to 120B parameters, SinkState reduces the peak memory of recurrent states by up to 2.6x (1.9x on average) and speeds up decoding by up to 1.58x (1.25x on average) over Mamba-SSM and FLA, while maintaining accuracy.",
+    "url": "http://arxiv.org/abs/2611.14246",
+    "pdf": "https://arxiv.org/pdf/2611.14246v1",
+    "keyword": "inference efficiency",
+    "date": "2026-11-10",
+    "fetched_date": "2026-11-12",
+    "authors": [
+      "Haolin Jiang",
+      "Weihang Li",
+      "Zhongzhu Zhou",
+      "Jinwen Pan",
+      "Santosh Pandey",
+      "Hang Liu"
+    ],
+    "article_type": "research"
+  },
+  {
+    "title": "Graph Visualizations in Prompts for Knowledge Graph Question Answering",
+    "abstract": "We study when and how multimodal input improves knowledge graph question answering (KGQA) in large vision--language models. Using a controlled evaluation over 1,500 WebQSP and CWQ questions and six VLMs within a fixed KGQA pipeline, we compare text-only prompting against text-plus-graph visualization at the per-question level and analyze performance changes as a function of reasoning complexity, model size, and image layout. Adding a graph image yields an average gain of 1.85 F1 points, driven by strong precision improvements on low-complexity questions (+4.65 F1). Mixed-effects and regression analyses show that these multimodal gains do not depend strongly on model scale, but are highly sensitive to graph layout: image-only settings sharply degrade performance, hierarchical Graphviz layouts outperform less organized renderings, and decomposing large subgraphs into separated paths yields the largest improvements. Taken together, the results indicate that visual prompting primarily aids KGQA by enhancing prediction precision in low-complexity contexts, provided that visual design respects cognitive and perceptual constraints. To optimize both accuracy and inference efficiency, we argue for adaptive visual prompting policies that selectively append diagrams to small, visually sparse subgraphs with well-structured layouts, avoiding unnecessary visual clutter and token overhead on complex queries. We conclude by relating these findings to a visual notation design theory, outlining how principled diagram encoding can guide future multimodal VLM prompting.",
+    "url": "http://arxiv.org/abs/2611.12938",
+    "pdf": "https://arxiv.org/pdf/2611.12938v1",
+    "keyword": "inference efficiency",
+    "date": "2026-11-06",
+    "fetched_date": "2026-11-12",
+    "authors": [
+      "Luiz do Valle Miranda",
+      "Andreas L. Opdahl",
+      "Grzegorz J. Nalepa"
+    ],
+    "article_type": "research"
   }
 ]

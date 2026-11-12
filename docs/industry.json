@@ -39028,5 +39028,235 @@
     "fetched_date": "2026-11-11",
     "feed_name": "Modern Retail",
     "source": "industry"
+  },
+  {
+    "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
+    "abstract": "Predicting how DNA sequences and their variations impact specific human cell types and disease.",
+    "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+    "topic": "generative-ai",
+    "date": "2026-11-11",
+    "fetched_date": "2026-11-12",
+    "feed_name": "DeepMind Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Gemini Decisions API",
+    "abstract": "Gemini Decisions API Google join Jev and OpenAI in the decision model category with \"Gemini Decision 1\". This new model API is almost identical to Jev: it supports the same three types of questions (yes/no, choice, and rubric-scoring) and even reuses Jev's term \"Noul\" for a yes/no question. It's priced the same as the GPT-6 Luna decision model: 10 cents per million input tokens, and output is free. Jev remains the cheapest of the three, at 4.2 cents per million. Jev is text (and JSON) only. OpenAI can handle text and images. Gemini Decision 1 is fully multi-model: it covers text, images, audio, video, and PDFs. I tested it against video by passing these questions to it along with my Yonkers stomping robot video file: dragon: Does this video have a dragon in it? robot: Does this video have a robot in it? france: Is this video set in France? usa: Is this video set in the USA? Jev and OpenAI both return 1.0 or 0.0 for yes/no questions, but Gemini insists on being a little less confident than that: { \"dragon\" : { \"type\" : \" yes_no \" , \"probability\" : 0.04976021841520312 }, \"robot\" : { \"type\" : \" yes_no \" , \"probability\" : 0.9234055387792485 }, \"france\" : { \"type\" : \" yes_no \" , \"probability\" : 0.08329171353166241 }, \"usa\" : { \"type\" : \" yes_no \" , \"probability\" : 0.9230459995157706 } } Via Hacker News Tags: ai , generative-ai , gemini , llm-release , jev , decision-models",
+    "url": "https://simonwillison.net/2026/Nov/11/gemini-decisions-api/",
+    "topic": "llm",
+    "date": "2026-11-11",
+    "fetched_date": "2026-11-12",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "aws-emulator",
+    "abstract": "aws-emulator Finally, an official emulator from AWS to run tests against a local clone of their many different services without having to provision a paid API key to do so. It's written in Rust by a huge swarm of agents - 29,684 commits in the first three weeks of the project. Swaminathan (Swami) Sivasubramanian wrote about how it came to be in a guest post on Werner Vogels' blog. It currently requires Docker to run on macOS or Windows. I'm hoping they fix that in the future - it would be great if you could download a single binary and use that as part of a standard test suite in other languages and on other platforms. Tags: amazon , amazon-web-services , testing , werner-vogels , ai , rust , docker , generative-ai , llms , agentic-engineering",
+    "url": "https://simonwillison.net/2026/Nov/11/aws-emulator/",
+    "topic": "llm",
+    "date": "2026-11-11",
+    "fetched_date": "2026-11-12",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Browse tools.simonwillison.net by tag",
+    "abstract": "Browse tools.simonwillison.net by tag I've been wanting a better way to browse my collection of vibe-coded tools (244 and counting) for a while. I had a few Fable 5.2 credits left over before my weekly reset so I set it to work using tree-sitter to analyze the code for JavaScript APIs, libraries, and web API hosts used by each tool. The homepage now features tag clouds for browsing by each of those categories of tag: Tags: javascript , tools , ai , generative-ai , llms , claude , vibe-coding",
+    "url": "https://simonwillison.net/2026/Nov/11/tools-tags/",
+    "topic": "llm",
+    "date": "2026-11-11",
+    "fetched_date": "2026-11-12",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "llm 0.37.2",
+    "abstract": "Release: llm 0.37.2 Fixes a security issue reported by Daniel de Araujo in GHSA-v9h7-jj4g-f862 and GHSA-r639-rr7r-x72w . LLM has a mechanism called extra-openai-models.yaml - now managed by the new-in-0.37 llm openai endpoint add command - for using LLM with OpenAI-compatible API endpoints from other providers. Daniel reported two ways this could accidentally send your configured OpenAI API key to one of those providers: if the key named by api_key_name had never been stored, or if a responses: true model was run with -o chat_completions 1 . Tags: projects , security , llm , releases",
+    "url": "https://simonwillison.net/2026/Nov/11/llm/",
+    "topic": "llm",
+    "date": "2026-11-11",
+    "fetched_date": "2026-11-12",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Anthropic's IPO roadshow video",
+    "abstract": "Anthropic's IPO roadshow video Anthropic kicked off their IPO roadshow yesterday, and their roadshow video has some previously unreleased information about how their business works. The section on \"Approach to compute\" with co-founder Tom Brown is particularly interesting, describing how Anthropic train and serve Claude across AWS Trainium, Google TPUs, NVIDIA GPUs, and AMD GPUs. I'm not sure why there's no official video transcript, but here's one that I extracted using MacWhisper. Highlights below: We train and serve Claude now across all four major chip families. That's only possible because early on we made an unconventional bet on a multi-chip strategy. At the time, many people thought that running AI models on different chips wasn't worth the effort. Each chip needs its own tailored software stack and inference stack, which is expensive and difficult to build. We've now been doing it for years, and we've gotten incredibly good at it. [...] As an example, this year, we started working with AMD GPUs for the first time. In the past, bringing on a new chip platform took dozens of engineers months of work This time, we had Mythos try it out. It got Claude running on AMD in just three days, with basically no human intervention . Claude ported or wrote almost 100% of the kernels. [...] The second driver of our compute advantage is our rate of discovery of compute multipliers. We focus on total effective compute, which is the multiplicative product of physical capacity times the compute multipliers that we discover. Each one we discover makes our pool of total effective compute bigger. For example, say you need 100 units of compute to train a model of a certain intelligence. A 4x compute multiplier means you can use 25 units of compute to train the exact same model. Or you can use those hundred physical units to train an even more intelligent model that would have previously required 400 units. Compute multipliers create a competitive advantage for us that's hard to replicate. They build on each other. Each new multiplier we discover has a positive effect on the multipliers before it. They stack. We believe that this can accelerate even further as we approach recursive self-improvement. Claude will be able to discover compute multipliers entirely by itself , allowing the number of compute multipliers to grow faster and faster. We got a hint at Anthropic's multi-chip strategy last September in their postmortem of three recent issues , where they described bugs that affected just their TPU deployments. Tags: ai , generative-ai , llms , anthropic , gpus , claude-mythos-fable , recursive-self-improvement",
+    "url": "https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow/",
+    "topic": "llm",
+    "date": "2026-11-11",
+    "fetched_date": "2026-11-12",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Who could replace Jensen Huang? A highly unscientific list of possible successors",
+    "abstract": "Nvidia has no succession plan and a CEO in hot water, so we’ve drafted a shortlist.",
+    "url": "https://techcrunch.com/2026/11/11/who-could-replace-jensen-huang-a-highly-unscientific-list-of-possible-successors/",
+    "topic": "llm",
+    "date": "2026-11-12",
+    "fetched_date": "2026-11-12",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "The unfolding Jensen Huang scandal: a timeline",
+    "abstract": "The affair could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
+    "url": "https://techcrunch.com/2026/11/11/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+    "topic": "llm",
+    "date": "2026-11-11",
+    "fetched_date": "2026-11-12",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Nvidia’s stock drops as board reportedly preps to oust CEO Jensen Huang",
+    "abstract": "As soon as Wednesday evening, Nvidia's board could decide to remove its founder and CEO of 33 years.",
+    "url": "https://techcrunch.com/2026/11/11/nvidias-stock-drops-as-board-reportedly-preps-to-oust-ceo-jensen-huang/",
+    "topic": "llm",
+    "date": "2026-11-11",
+    "fetched_date": "2026-11-12",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Jensen Huang accused of having another affair — with an Nvidia exec",
+    "abstract": "Jensen Huang, who has come under fire for admitting to an affair with a woman accused of being a Chinese intelligence agent, has been accused of having a separate affair with an Nvidia subordinate.",
+    "url": "https://techcrunch.com/2026/11/11/jensen-huang-accused-of-having-another-affair-with-a-nvidia-exec/",
+    "topic": "llm",
+    "date": "2026-11-11",
+    "fetched_date": "2026-11-12",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Why the data center you dread might never even be built",
+    "abstract": "The data center boom is running into serious real-world obstacles, from widespread local opposition and permitting delays to a scramble for electricity. Before those challenges even come into play, though, there’s a more basic problem: A lot of the projects being announced may never get built in the first place. With billions of dollars in AI infrastructure […]",
+    "url": "https://techcrunch.com/video/why-the-data-center-you-dread-might-never-even-be-built/",
+    "topic": "llm",
+    "date": "2026-11-11",
+    "fetched_date": "2026-11-12",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Meta is losing its longtime head of  infrastructure",
+    "abstract": "Santosh Janardhan, who originally joined the company in 2009, will be stepping down from his role.",
+    "url": "https://techcrunch.com/2026/11/11/meta-is-losing-its-longtime-head-of-infrastructure/",
+    "topic": "llm",
+    "date": "2026-11-11",
+    "fetched_date": "2026-11-12",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "How backlash and red tape continue to slow data centers post-Blue Wave",
+    "abstract": "The data center boom is running into serious real-world obstacles, from widespread local opposition and permitting delays to a scramble for electricity. Before those challenges even come into play, though, there’s a more basic problem: A lot of the projects being announced may never get built in the first place. With billions of dollars in AI infrastructure […]",
+    "url": "https://techcrunch.com/podcast/how-backlash-and-red-tape-continue-to-slow-data-centers-post-blue-wave/",
+    "topic": "llm",
+    "date": "2026-11-11",
+    "fetched_date": "2026-11-12",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "CoreWeave turns to customer prepayments, shorter contracts to fund AI growth",
+    "abstract": "CoreWeave is increasingly asking customers to pay up front, borrowing against specific contracts, and even looking to short-term deals that could lead to higher prices, according to the company’s third-quarter earnings.",
+    "url": "https://techcrunch.com/2026/11/11/coreweave-turns-to-customer-prepayments-shorter-contracts-to-fund-ai-growth/",
+    "topic": "llm",
+    "date": "2026-11-11",
+    "fetched_date": "2026-11-12",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "With $720M round, Britain’s Fractile gets a leg up in the race for AI chips",
+    "abstract": "Fractile has now become one of the top-funded players in the race for purpose-built AI chips.",
+    "url": "https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/",
+    "topic": "llm",
+    "date": "2026-11-11",
+    "fetched_date": "2026-11-12",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Congress to call Jensen Huang in to answer for alleged Chinese spy affair",
+    "abstract": "Nvidia CEO Jensen Huang has until the end of the day Wednesday to answer a call from House Republicans for a closed-door briefing on his affair with alleged Chinese spy.",
+    "url": "https://techcrunch.com/2026/11/11/congress-to-call-jensen-huang-in-to-answer-for-alleged-chinese-spy-affair/",
+    "topic": "llm",
+    "date": "2026-11-11",
+    "fetched_date": "2026-11-12",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Is Jensen Huang’s bad behavior more commonplace than it seems?",
+    "abstract": "“There are a lot of senior people in the industry that know this is happening, and are effectively condoning it,” an investment intel consultant said.",
+    "url": "https://techcrunch.com/2026/11/11/is-jensen-huangs-bad-behavior-more-commonplace-than-it-seems/",
+    "topic": "llm",
+    "date": "2026-11-11",
+    "fetched_date": "2026-11-12",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "OpenAI’s quarterly revenue reportedly crosses $10B for the first time",
+    "abstract": "Sales of $10 billion represents an almost 50% jump from revenue of $6.7 billion the company recorded in the second quarter.",
+    "url": "https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time/",
+    "topic": "llm",
+    "date": "2026-11-11",
+    "fetched_date": "2026-11-12",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Databricks’ new AI agent tells CEO Ali Ghodsi the unvarnished truth",
+    "abstract": "With Databricks at 12,000 employees, AI Ghodsi is the first to admit that he can't know everyone and that they are unlikely to confess the things that go wrong to him. But he doesn't need them to. He uses Databricks' newly revised Genie agent for that.",
+    "url": "https://techcrunch.com/2026/11/11/databricks-new-ai-agent-tells-ceo-ali-ghodsi-the-unvarnished-truth/",
+    "topic": "llm",
+    "date": "2026-11-11",
+    "fetched_date": "2026-11-12",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Plurai wants to help AI agents work better using the same approach that helped get self-driving cars to roads",
+    "abstract": "Like the end-to-end models trained to drive cars, AI agents are probabilistic systems operating in unpredictable environments.",
+    "url": "https://techcrunch.com/2026/11/11/plurai-wants-to-help-ai-agents-work-better-using-the-same-approach-that-helped-get-self-driving-cars-to-roads/",
+    "topic": "llm",
+    "date": "2026-11-11",
+    "fetched_date": "2026-11-12",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Nvidia’s crisis has corporate governance experts reaching for the popcorn",
+    "abstract": "The governance experts we talked to say nobody has seen anything like what's unfolding right now.",
+    "url": "https://techcrunch.com/2026/11/10/nvidias-crisis-has-corporate-governance-experts-reaching-for-the-popcorn/",
+    "topic": "llm",
+    "date": "2026-11-11",
+    "fetched_date": "2026-11-12",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Modern Retail+ Research 2026 Creator Marketing Index: A brand guide to effective social media campaigns",
+    "abstract": "To measure the impact creator content has on brand campaigns, Modern Retail+ Research analyzed the engagement levels on leading creators’ social media campaigns from January 2026 to September 2026.",
+    "url": "https://www.modernretail.co/marketing/modern-retail-research-2026-creator-marketing-index-a-brand-guide-to-effective-social-media-campaigns/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-11-12",
+    "fetched_date": "2026-11-12",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Hims & Hers expands benefits program for GLP-1 support with brands like Grüns and Tonal",
+    "abstract": "This month Hims & Hers adds Tonal, Grüns, Viome and Medjet perks to benefits for GLP-1 subscribers seeking fitness and nutrition support.",
+    "url": "https://www.modernretail.co/operations/hims-hers-benefits-program-gruns-tonal-viome-medjet/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-11-12",
+    "fetched_date": "2026-11-12",
+    "feed_name": "Modern Retail",
+    "source": "industry"
   }
 ]
