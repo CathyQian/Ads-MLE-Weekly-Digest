@@ -39558,5 +39558,275 @@
     "fetched_date": "2026-11-13",
     "feed_name": "Modern Retail",
     "source": "industry"
+  },
+  {
+    "title": "Introducing ChatGPT Wallet",
+    "abstract": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
+    "url": "https://openai.com/index/introducing-chatgpt-wallet",
+    "topic": "llm",
+    "date": "2026-11-13",
+    "fetched_date": "2026-11-14",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Shield helps technicians hand off legacy portal work with OpenAI",
+    "abstract": "Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.",
+    "url": "https://openai.com/business/customer-stories/shield",
+    "topic": "llm",
+    "date": "2026-11-13",
+    "fetched_date": "2026-11-14",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
+    "topic": "llm",
+    "date": "2026-11-13",
+    "fetched_date": "2026-11-14",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "XYBench: Helping with the problem behind the question",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/allenai/xybench",
+    "topic": "llm",
+    "date": "2026-11-13",
+    "fetched_date": "2026-11-14",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+    "topic": "llm",
+    "date": "2026-11-13",
+    "fetched_date": "2026-11-14",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "datasette-cluster-map 0.19",
+    "abstract": "Release: datasette-cluster-map 0.19 One of the oldest Datasette plugins, and still one of my favorites. It now works with Datasette 1.0a42, and depends on the new datasette-leaflet to ensure OpenStreetMap tiles are requested with a referrer header. Here's a map of power plants owned by California's PG&E , also demonstrating Datasette's recently redesigned facets : Tags: datasette , geospatial , openstreetmap",
+    "url": "https://simonwillison.net/2026/Nov/13/datasette-cluster-map/",
+    "topic": "llm",
+    "date": "2026-11-13",
+    "fetched_date": "2026-11-14",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "datasette-leaflet 0.3",
+    "abstract": "Release: datasette-leaflet 0.3 OpenStreetMap have a very reasonable policy that hits to their hosted tile server should send a referrer header . Datasette table pages used the Referrer-Policy: no-referrer HTTP header, causing plugins that loaded tiles from OpenStreetMap to violate that policy. datasette-leaflet is the plugin that loads a bundled Leaflet so other Datasette plugins can depend on it. It now sets the referrer policy on the tile requests themselves to strict-origin-when-cross-origin , passing the host but not the full path to the page. Tags: leaflet , datasette , openstreetmap",
+    "url": "https://simonwillison.net/2026/Nov/13/datasette-leaflet/",
+    "topic": "llm",
+    "date": "2026-11-13",
+    "fetched_date": "2026-11-14",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say",
+    "abstract": "Nvidia poured tens of billions into AI startups under Huang. Without him at the helm, founders and VCs are bracing for smaller checks and lower valuations.",
+    "url": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
+    "topic": "llm",
+    "date": "2026-11-13",
+    "fetched_date": "2026-11-14",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "AI agent startup LangChain hits $3B valuation",
+    "abstract": "LangChain now claims 7,000 customers of its model and platform agnostic agent management tool LangSmith.",
+    "url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
+    "topic": "llm",
+    "date": "2026-11-13",
+    "fetched_date": "2026-11-14",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Export-banned Nvidia chips are behind China’s most powerful AI models — uh-oh, Jensen!",
+    "abstract": "New research shows the most advanced AI models from China were trained on banned Nvidia chips.",
+    "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
+    "topic": "llm",
+    "date": "2026-11-13",
+    "fetched_date": "2026-11-14",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "ChatGPT’s new Wallet lets AI agents shop and check out for you",
+    "abstract": "ChatGPT Wallet lets AI agents shop and check out on users' behalf, starting with a limited rollout to U.S. Pro subscribers.",
+    "url": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
+    "topic": "llm",
+    "date": "2026-11-13",
+    "fetched_date": "2026-11-14",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "The unfolding Jensen Huang scandal: a timeline",
+    "abstract": "Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
+    "url": "https://techcrunch.com/2026/11/13/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+    "topic": "llm",
+    "date": "2026-11-13",
+    "fetched_date": "2026-11-14",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "ElevenLabs’ new app combines meeting note-taking and dictation for teams",
+    "abstract": "ElevenAI is a new meeting notetaker and dictation app aimed at teams and enterprises.",
+    "url": "https://techcrunch.com/2026/11/13/elevenlabs-new-app-combines-meeting-note-taking-and-dictation-for-teams/",
+    "topic": "llm",
+    "date": "2026-11-13",
+    "fetched_date": "2026-11-14",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Israel’s VCs see opportunity for challengers in Nvidia’s turmoil",
+    "abstract": "Given Nvidia’s stronghold on AI and its importance in Israel, many in the country's startup ecosystem are worried about the impact of his departure.",
+    "url": "https://techcrunch.com/2026/11/13/israels-vcs-see-opportunity-for-challengers-in-nvidias-turmoil/",
+    "topic": "llm",
+    "date": "2026-11-13",
+    "fetched_date": "2026-11-14",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Jensen Huang didn’t show confidence in his successor, report says",
+    "abstract": "Huang described Kress as a \"deer in the headlights\" during a meeting in summer.",
+    "url": "https://techcrunch.com/2026/11/13/jensen-huang-didnt-show-confidence-in-his-successor-report-says/",
+    "topic": "llm",
+    "date": "2026-11-13",
+    "fetched_date": "2026-11-14",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "AI Engineer 2026 - Using LLMs to Secure Source Code",
+    "abstract": "Why now, six steps to an agentic harness for security, and the org bottlenecks that follow.",
+    "url": "https://eugeneyan.com/speaking/aie-2026",
+    "topic": "ml-engineering",
+    "date": "2026-06-30",
+    "fetched_date": "2026-11-14",
+    "feed_name": "Eugene Yan",
+    "source": "industry"
+  },
+  {
+    "title": "Patterns for Building Cybersecurity Evals",
+    "abstract": "A sandboxed target, inputs that influence task difficulty, tools, and a grader.",
+    "url": "https://eugeneyan.com/writing/cybersecurity-evals",
+    "topic": "ml-engineering",
+    "date": "2026-06-21",
+    "fetched_date": "2026-11-14",
+    "feed_name": "Eugene Yan",
+    "source": "industry"
+  },
+  {
+    "title": "Using LLMs to Secure Source Code",
+    "abstract": "Build a threat model, discover vulnerabilities, verify, triage, and patch.",
+    "url": "https://eugeneyan.com/writing/secure-source-code",
+    "topic": "ml-engineering",
+    "date": "2026-05-27",
+    "fetched_date": "2026-11-14",
+    "feed_name": "Eugene Yan",
+    "source": "industry"
+  },
+  {
+    "title": "How to Work and Compound with AI",
+    "abstract": "Context as infra, taste as config, verification for autonomy, scale via delegation, closing the loop.",
+    "url": "https://eugeneyan.com/writing/working-with-ai",
+    "topic": "ml-engineering",
+    "date": "2026-05-03",
+    "fetched_date": "2026-11-14",
+    "feed_name": "Eugene Yan",
+    "source": "industry"
+  },
+  {
+    "title": "2025 Year in Review",
+    "abstract": "An eventful year of progress in health and career, while making time for travel and reflection.",
+    "url": "https://eugeneyan.com/writing/2025-review",
+    "topic": "ml-engineering",
+    "date": "2025-12-14",
+    "fetched_date": "2026-11-14",
+    "feed_name": "Eugene Yan",
+    "source": "industry"
+  },
+  {
+    "title": "Product Evals in Three Simple Steps",
+    "abstract": "Label some data, align LLM-evaluators, and run the eval harness with each change.",
+    "url": "https://eugeneyan.com/writing/product-evals",
+    "topic": "ml-engineering",
+    "date": "2025-11-23",
+    "fetched_date": "2026-11-14",
+    "feed_name": "Eugene Yan",
+    "source": "industry"
+  },
+  {
+    "title": "Advice for New Principal Tech ICs (i.e., Notes to Myself)",
+    "abstract": "Based on what I've learned from role models and mentors in Amazon",
+    "url": "https://eugeneyan.com/writing/principal",
+    "topic": "ml-engineering",
+    "date": "2025-10-19",
+    "fetched_date": "2026-11-14",
+    "feed_name": "Eugene Yan",
+    "source": "industry"
+  },
+  {
+    "title": "Training an LLM-RecSys Hybrid for Steerable Recs with Semantic IDs",
+    "abstract": "An LLM that can converse in English & item IDs, and make recommendations w/o retrieval or tools.",
+    "url": "https://eugeneyan.com/writing/semantic-ids",
+    "topic": "ml-engineering",
+    "date": "2025-09-14",
+    "fetched_date": "2026-11-14",
+    "feed_name": "Eugene Yan",
+    "source": "industry"
+  },
+  {
+    "title": "Evaluating Long-Context Question & Answer Systems",
+    "abstract": "Evaluation metrics, how to build eval datasets, eval methodology, and a review of several benchmarks.",
+    "url": "https://eugeneyan.com/writing/qa-evals",
+    "topic": "ml-engineering",
+    "date": "2025-06-22",
+    "fetched_date": "2026-11-14",
+    "feed_name": "Eugene Yan",
+    "source": "industry"
+  },
+  {
+    "title": "AI Engineer 2025 - Improving RecSys & Search with LLM techniques",
+    "abstract": "Recsys & search are converging with LLMs via semantic IDs, data augmentation, and unified foundation models.",
+    "url": "https://eugeneyan.com/speaking/aie-2025",
+    "topic": "ml-engineering",
+    "date": "2025-06-04",
+    "fetched_date": "2026-11-14",
+    "feed_name": "Eugene Yan",
+    "source": "industry"
+  },
+  {
+    "title": "The in-store shopping experience is broken. Can we fix it?",
+    "abstract": "Stores still drive retail sales, but self-checkout, locked items and inventory gaps frustrate shoppers. The Modern Retail Podcast breaks down how retailers are attempting to fix these issues.",
+    "url": "https://www.modernretail.co/podcasts/in-store-shopping-experience-broken/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-11-14",
+    "fetched_date": "2026-11-14",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Big Box Briefing: How Target’s and Walmart’s beauty department makeovers are reshaping brand strategies",
+    "abstract": "As mass-market heavyweights Target and Walmart overhaul their beauty and wellness aisles to rival specialty powerhouses — and each other — large consumer packaged goods companies and independent labels are updating their retail playbooks. Specifically, they’re elevating their look and feel, reallocating their media spending, and rethinking their distribution strategies to best align with retail partners’ directions.",
+    "url": "https://www.modernretail.co/operations/big-box-briefing-how-targets-and-walmarts-beauty-department-makeovers-are-reshaping-brand-strategies/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-11-13",
+    "fetched_date": "2026-11-14",
+    "feed_name": "Modern Retail",
+    "source": "industry"
   }
 ]
