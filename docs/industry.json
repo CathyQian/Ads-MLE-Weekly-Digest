@@ -39828,5 +39828,65 @@
     "fetched_date": "2026-11-14",
     "feed_name": "Modern Retail",
     "source": "industry"
+  },
+  {
+    "title": "datasette-llm 0.1a11",
+    "abstract": "Release: datasette-llm 0.1a11 datasette-llm is the intermediate plugin for Datasette that supports configuring LLMs for use with other Datasette plugins. This release adds support for OpenAI-compatible endpoints, so you can configure Datasette to use an LLM hosted anywhere that talks the OpenAI pseudo-standard web protocol. This means that if you're running local models with LM Studio or Ollama or llama.cpp (which just hit v1.0.0 ) you can run Datasette via uvx like this: wget https://datasette.io/content.db uvx --with datasette-agent datasette \\ --root --secret 1 \\ -s plugins.datasette-llm.default_model ' { \"model\": \"lmstudio-qwen\", \"model_name\": \"qwen/qwen3.8-27b\", \"api_base\": \"http://localhost:1234/v1\" } ' content.db And you'll get a local server running a Datasette Agent instance powered by your local model! Tags: uv , datasette-agent , llm , datasette , llms , ai , generative-ai",
+    "url": "https://simonwillison.net/2026/Nov/14/datasette-llm/",
+    "topic": "llm",
+    "date": "2026-11-14",
+    "fetched_date": "2026-11-15",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "datasette-vega 0.7",
+    "abstract": "Release: datasette-vega 0.7 A new release of Datasette's longest untouched plugin, for rendering charts (using Vega-Lite ) against data in a table or custom query. The last release was in July 2018! I finally bumped it for compatibility with the latest Datasette alphas, plus some cosmetic tweaks to make it work better with Datasette Lite . (Datasette Lite just gained the ability to run JavaScript plugins like this! I'll write more about that soon.) Since it works with Datasette Lite, the live demo in the README now links to this demo on Datasette Lite . Tags: datasette , visualisation , datasette-lite",
+    "url": "https://simonwillison.net/2026/Nov/14/datasette-vega/",
+    "topic": "llm",
+    "date": "2026-11-14",
+    "fetched_date": "2026-11-15",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Where was Nvidia’s security team?",
+    "abstract": "Nvidia’s security chief quietly left in August, and now that CEO Jensen Huang has stepped down over his relationships, including one with an executive at a company suspected of funneling chips to China, a former intelligence officer says it’s the kind of leak that runs everyday conversations, which most corporate security teams are poorly equipped to catch.",
+    "url": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/",
+    "topic": "llm",
+    "date": "2026-11-15",
+    "fetched_date": "2026-11-15",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang",
+    "abstract": "The petition had attracted more than 115,000 signatures as of Saturday afternoon.",
+    "url": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
+    "topic": "llm",
+    "date": "2026-11-14",
+    "fetched_date": "2026-11-15",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
+    "abstract": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
+    "url": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+    "topic": "llm",
+    "date": "2026-11-14",
+    "fetched_date": "2026-11-15",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Asian governments react to Nvidia CEO Jensen Huang’s exit",
+    "abstract": "Some governments moved to confirm chip supply commitments, while others are monitoring the impact on local projects or addressing ongoing investigations.",
+    "url": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/",
+    "topic": "llm",
+    "date": "2026-11-14",
+    "fetched_date": "2026-11-15",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
   }
 ]
