@@ -39888,5 +39888,135 @@
     "fetched_date": "2026-11-15",
     "feed_name": "TechCrunch AI",
     "source": "industry"
+  },
+  {
+    "title": "A step toward defining the Standard Model on a lattice",
+    "abstract": "Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof.",
+    "url": "https://openai.com/index/step-toward-defining-the-standard-model",
+    "topic": "llm",
+    "date": "2026-11-15",
+    "fetched_date": "2026-11-16",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Our new blog for science",
+    "abstract": "The OpenAI science blog shares new findings, practical methods, and firsthand accounts from researchers using AI to advance scientific discovery.",
+    "url": "https://openai.com/index/our-new-blog-for-science",
+    "topic": "llm",
+    "date": "2026-11-15",
+    "fetched_date": "2026-11-16",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "datasette-maplibre 0.1a0",
+    "abstract": "Release: datasette-maplibre 0.1a0 The first new Datasette geospatial plugin in quite a while! This one combines the excellent MapLibre GL library with OpenFreeMap , the free vector map server operated by Zsolt Ero (you should sponsor Zsolt on GitHub .) I built most of this with a single prompt to Claude Fable 5.2: Look at datasette-cluster-map and datasette-leaflet-geojson plugins, then look at ~/dev/tools/openfreemap-demo.html - then build a brand new Datasette plugin that uses maplibreGL and openfreemap and combines the features of those other two plugins - but be creative and think outside the box for other useful features the plugin might have \"Be creative and think outside the box\" resulted in a few neat ideas - my favorite is that it displays SVG previews of GeoJSON shapes, then loads a WebGL preview only when they scroll into view. I also had Claude build a comprehensive demo which works in the latest Datasette Lite, so you can visit this link to load the plugin and a demo database in your browser via Pyodide and WebAssembly. I like this demo page showing both GeoJSON shapes and lat/lon points on the same map: Tags: visualization , generative-ai , datasette-lite , claude-mythos-fable , ai , llms , geospatial , openstreetmap , datasette",
+    "url": "https://simonwillison.net/2026/Nov/15/datasette-maplibre/",
+    "topic": "llm",
+    "date": "2026-11-15",
+    "fetched_date": "2026-11-16",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "datasette 1.0a43",
+    "abstract": "Release: datasette 1.0a43 I've been leaning hard into Claude Fable 5.2 to help knock things off the 1.0 milestone , which is now 53% complete. The biggest 1.0 item in this release is streaming support for output renderers - the built-in TSV and CSV export mechanisms now use this as well, and plugins can register themselves as capable of streaming every row in a table in one go via the new Response.stream() method. There are a couple of security fixes, one of which I deemed deserving of a GitHub advisory : private stored queries could be exposed, granting access to the title and SQL of the query (but not allowing that query to be executed). There are dozens of smaller improvements. The row page JSON representation finally has a design suitable for 1.0 . A new <datasette-copy-button> Web Component provides copy-schema in various places. JSON in columns on the row page can be pretty-printed. There's a new DatasetteModal.confirm() JavaScript utility method. Plus dozens of bug fixes, including contributions by Zihan Dai , Peter Olkhovets , Ilya Khalafi , and Ankita Advitot . The feature I'm most excited about is a pretty tiny one: I've added CSS multi-page view transitions to Datasette! Here's the commit - key CSS is as follows: /* Enable cross-document view transitions, for anyone without prefers-reduced-motion */ @media ( prefers-reduced-motion : no-preference ) { @view-transition { navigation : auto ; } } /* .facet-results should morph from old position to new */ html : active-view-transition . content > . facet-results { view-transition-name : facet-results ; } /* So should a .table-wrapper, provided it contains .rows-and-columns */ html : active-view-transition . table-wrapper : has ( > table . rows-and-columns ) { view-transition-name : rows-table ; } With that in place, navigations within Datasette - still staunchly a multi-page application - feel more like an SPA. This works on Safari and Chrome at the moment and I believe supports for Firefox is due to land in Firefox 162 on December 8th 2026 (seeing as they are no longer feature-flagged in Firefox Nightly.) Tags: security , datasette , css , browsers , annotated-release-notes , firefox , javascript , safari , chrome",
+    "url": "https://simonwillison.net/2026/Nov/15/datasette/",
+    "topic": "llm",
+    "date": "2026-11-15",
+    "fetched_date": "2026-11-16",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "datasette 0.65.6",
+    "abstract": "Release: datasette 0.65.6 I backported a minor security fix from 1.0a43: Fixed a security issue where a database registered using add_database(db, name=..., route=...) with a route that differs from its name could be downloaded from /<route>.db by actors who were denied access to it. [...] Tags: security , datasette",
+    "url": "https://simonwillison.net/2026/Nov/15/datasette-2/",
+    "topic": "llm",
+    "date": "2026-11-15",
+    "fetched_date": "2026-11-16",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "datasette-apps 0.4a0",
+    "abstract": "Release: datasette-apps 0.4a0 Datasette Apps are sandboxed HTML and JavaScript applications that live inside Datasette - think Claude Artifacts, but these ones can run SQL queries against your data. 0.4a0 adds support for linking: you can link to an app with #fragments in the URL and the app can see and use those, plus supported URL schemes are reported back to Datasette Agent so it can help write apps that link to each other. This means you can have e.g. an app that shows details about a specific record, and a completely separate app that searches those records and links to their representations in the first app. Tags: datasette-agent , datasette-apps , datasette , urls",
+    "url": "https://simonwillison.net/2026/Nov/15/datasette-apps/",
+    "topic": "llm",
+    "date": "2026-11-15",
+    "fetched_date": "2026-11-16",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "datasette-agent 0.6a0",
+    "abstract": "Release: datasette-agent 0.6a0 Accumulated small fixes for Datasette Agent, my agent plugin for Datasette that lets you ask questions about your data. Most notably, it now adds an agent prompt directly to the Datasette homepage, with support for hash-mentions of tables and queries: Tags: datasette-agent , llm , datasette , llms , ai , generative-ai",
+    "url": "https://simonwillison.net/2026/Nov/15/datasette-agent/",
+    "topic": "llm",
+    "date": "2026-11-15",
+    "fetched_date": "2026-11-16",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Apple launches new app to study how people use AI for health",
+    "abstract": "Apple's new app for a study will answer everyday medical questions",
+    "url": "https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health/",
+    "topic": "llm",
+    "date": "2026-11-16",
+    "fetched_date": "2026-11-16",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Indian chip startup Bharat Semi lands $24M seed round as it eyes global AI sensor market",
+    "abstract": "Bharat Semi says it has secured design wins for its AI-enabled sensor technology with companies including General Atomics.",
+    "url": "https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/",
+    "topic": "llm",
+    "date": "2026-11-15",
+    "fetched_date": "2026-11-16",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Is bad news for Jensen Huang also bad news for the AI industry?",
+    "abstract": "\"Jensen is Nvidia, right? And so much of this economy is riding on Nvidia.\"",
+    "url": "https://techcrunch.com/2026/11/15/is-bad-news-for-jensen-huang-also-bad-news-for-the-ai-industry/",
+    "topic": "llm",
+    "date": "2026-11-15",
+    "fetched_date": "2026-11-16",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "SNL gathers all the tech tycoons for a lesson in dating and spycraft",
+    "abstract": "While awkward, creepy tech executives have become a recurring theme on Saturday Night Live, this week’s episode gave the cast a chance to show off all their impressions at once.",
+    "url": "https://techcrunch.com/2026/11/15/snl-gathers-all-the-tech-tycoons-for-a-lesson-in-dating-and-spycraft/",
+    "topic": "llm",
+    "date": "2026-11-15",
+    "fetched_date": "2026-11-16",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "How Celsius doubled down on sports marketing campaigns in 2026",
+    "abstract": "Celsius expands 2026 sports marketing with ESPN College GameDay, F1, marathons and fitness events as the brand positions itself as a functional energy drink.",
+    "url": "https://www.modernretail.co/marketing/how-celsius-doubled-down-on-sports-marketing-campaigns-in-2026/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-11-16",
+    "fetched_date": "2026-11-16",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Saucony sees Europe as a ‘key growth engine’ as it opens more international stores",
+    "abstract": "American athletic brand Saucony is working to own the European running market through flagships, run clubs and races.",
+    "url": "https://www.modernretail.co/operations/saucony-sees-europe-as-a-key-growth-engine-as-it-opens-more-international-stores/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-11-16",
+    "fetched_date": "2026-11-16",
+    "feed_name": "Modern Retail",
+    "source": "industry"
   }
 ]
