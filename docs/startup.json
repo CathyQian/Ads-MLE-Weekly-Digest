@@ -22058,5 +22058,155 @@
     "fetched_date": "2026-11-16",
     "feed_name": "TechCrunch",
     "source": "startup"
+  },
+  {
+    "title": "Cybersecurity AI startup Corma reaches $1B valuation in about 3 months",
+    "abstract": "Three months since introducing its product, AI cybersecurity startup Corba has raised a $125 million Series A at a $1 billion valuation led by NEA.",
+    "url": "https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/",
+    "topic": "startup",
+    "date": "2026-11-16",
+    "fetched_date": "2026-11-17",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Cyber giant Infoblox confirms security incident after hackers access ‘company information’",
+    "abstract": "The cybersecurity and automation giant said it's working with outside investigators to understand the scale of the breach.",
+    "url": "https://techcrunch.com/2026/11/16/cyber-giant-infoblox-confirms-security-incident-after-hackers-access-company-information/",
+    "topic": "startup",
+    "date": "2026-11-16",
+    "fetched_date": "2026-11-17",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Apple reveals new Mac security controls as AI agents raise privacy risks",
+    "abstract": "Following an October announcement, Apple has detailed new permission controls, warnings, and transparency features coming to macOS 27.3 to address risks posed by AI agents and other apps.",
+    "url": "https://techcrunch.com/2026/11/16/apple-reveals-new-mac-security-controls-as-ai-agents-raise-privacy-risks/",
+    "topic": "startup",
+    "date": "2026-11-16",
+    "fetched_date": "2026-11-17",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "California state AG sues OpenAI over rogue agent incidents",
+    "abstract": "The California lawsuit represents one of the first attempts to hold an AI lab legally accountable for a rogue agent incident.",
+    "url": "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/",
+    "topic": "startup",
+    "date": "2026-11-16",
+    "fetched_date": "2026-11-17",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Uber says hackers stole information on close to 150,000 driver’s licenses during data breach",
+    "abstract": "The ride-sharing giant said driver's license information stored by AI cloud company Fireworks AI was stolen during a security incident.",
+    "url": "https://techcrunch.com/2026/11/16/uber-confirms-hackers-stole-thousands-of-drivers-license-information-in-data-breach/",
+    "topic": "startup",
+    "date": "2026-11-16",
+    "fetched_date": "2026-11-17",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Trump says ex-Nvidia CEO Jensen Huang’s affair with an alleged Chinese spy did not threaten national security",
+    "abstract": "Trump contradicted his own government's intelligence officials, who reportedly concluded that Alice Huang is a Chinese spy.",
+    "url": "https://techcrunch.com/2026/11/16/trump-says-ex-nvidia-ceo-jensen-huangs-affair-with-an-alleged-chinese-spy-did-not-threaten-national-security/",
+    "topic": "startup",
+    "date": "2026-11-16",
+    "fetched_date": "2026-11-17",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Sam Altman on Nvidia without Jensen Huang: The industry will be ‘fine’",
+    "abstract": "OpenAI CEO Sam Altman acknowledged the special role Nvidia CEO Jensen Huang has played in the AI boom, but ultimately thinks the industry will be “fine” without him at the helm.",
+    "url": "https://techcrunch.com/2026/11/16/sam-altman-on-nvidia-without-jensen-huang-the-industry-will-be-fine/",
+    "topic": "startup",
+    "date": "2026-11-16",
+    "fetched_date": "2026-11-17",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "FBI says Artex AI open source hacking tool used to breach networks in ‘under three hours’",
+    "abstract": "The FBI says that the open source hacking tool was used in cyberattacks targeting a U.S. IT giant and the South Korean financial industry.",
+    "url": "https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours/",
+    "topic": "startup",
+    "date": "2026-11-16",
+    "fetched_date": "2026-11-17",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Jordan Belfort’s new AI voice startup, Tone, wants to sell like the ‘Wolf of Wall Street’",
+    "abstract": "Belfort claims his AI sales voice can already close deals almost as well as the best human salespeople, and he thinks it will catch up in a year.",
+    "url": "https://techcrunch.com/2026/11/16/jordan-belforts-new-ai-voice-startup-tone-wants-to-sell-like-the-wolf-of-wall-street/",
+    "topic": "startup",
+    "date": "2026-11-16",
+    "fetched_date": "2026-11-17",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "OpenAI will embed safety researchers to investigate AI subversion",
+    "abstract": "OpenAI will embed six Apollo Research evaluators to investigate whether its AI models engage in subversive behavior, but restrictions on access and disclosure raise questions about their independence.",
+    "url": "https://techcrunch.com/2026/11/16/openai-will-embed-apollo-researchers-to-investigate-ai-subversion/",
+    "topic": "startup",
+    "date": "2026-11-16",
+    "fetched_date": "2026-11-17",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "OpenAI releases a new image classifier and ChatGPT warnings to combat CSAM",
+    "abstract": "ChatGPT will ban an account trying to access CSAM content for 24 hours as a warning.",
+    "url": "https://techcrunch.com/2026/11/16/openai-releases-a-new-image-classifier-and-chatgpt-warnings-to-combat-csam/",
+    "topic": "startup",
+    "date": "2026-11-16",
+    "fetched_date": "2026-11-17",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Serena Williams winds down her VC firm, launches new fund, seeks $200M",
+    "abstract": "Serena Williams and longtime business partner Beth Ferreira announced Monday the launch of an early-stage firm called Starfire Ventures.",
+    "url": "https://techcrunch.com/2026/11/16/serena-williams-winds-down-her-vc-firm-launches-new-fund-targets-200m/",
+    "topic": "startup",
+    "date": "2026-11-16",
+    "fetched_date": "2026-11-17",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Audible turns to AI to help users discover audiobooks",
+    "abstract": "Audible's new AI-generated audio previews summarize a book's themes and what readers liked about it, in addition to playing the narrated sample.",
+    "url": "https://techcrunch.com/2026/11/16/audible-turns-to-ai-to-help-users-discover-audiobooks/",
+    "topic": "startup",
+    "date": "2026-11-16",
+    "fetched_date": "2026-11-17",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "US tightens AI chip export controls to deter Chinese companies from accessing compute remotely",
+    "abstract": "Under the interim rule, the U.S. will require firms to get licenses to export AI chips if they may provide compute to China or other restricted countries.",
+    "url": "https://techcrunch.com/2026/11/16/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-accessing-compute-remotely/",
+    "topic": "startup",
+    "date": "2026-11-16",
+    "fetched_date": "2026-11-17",
+    "feed_name": "TechCrunch",
+    "source": "startup"
+  },
+  {
+    "title": "Google Maps can now build trip itineraries with real-time details about each stop",
+    "abstract": "You could use Ask Maps to plan a holiday shopping day trip or something more complex, like a three-day road trip featuring coastal hikes and oceanfront dining.",
+    "url": "https://techcrunch.com/2026/11/16/google-maps-can-now-build-trip-itineraries-with-real-time-details-about-each-stop/",
+    "topic": "startup",
+    "date": "2026-11-16",
+    "fetched_date": "2026-11-17",
+    "feed_name": "TechCrunch",
+    "source": "startup"
   }
 ]

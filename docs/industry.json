@@ -40018,5 +40018,315 @@
     "fetched_date": "2026-11-16",
     "feed_name": "Modern Retail",
     "source": "industry"
+  },
+  {
+    "title": "Strengthening NATO and allied cyber defenses with AI",
+    "abstract": "How OpenAI is working with NATO and allied cyber agencies to help trusted defenders find vulnerabilities, test fixes and protect essential systems.",
+    "url": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
+    "topic": "llm",
+    "date": "2026-11-17",
+    "fetched_date": "2026-11-17",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Broadening access to AI for scientists",
+    "abstract": "We’re expanding our ChatGPT for Academic Researchers program to offer 200,000 researchers worldwide free access to our frontier models.",
+    "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+    "topic": "llm",
+    "date": "2026-11-16",
+    "fetched_date": "2026-11-17",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Strengthening the fight against online child sexual abuse with new tools and support",
+    "abstract": "New tools, practical guidance, and partnerships will help prevent, detect and respond to online child sexual exploitation and abuse.",
+    "url": "https://openai.com/index/strengthening-online-child-safety",
+    "topic": "llm",
+    "date": "2026-11-16",
+    "fetched_date": "2026-11-17",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Science at the Frontier: How scientists use ChatGPT",
+    "abstract": "Explore how more than 1,800 scientists use ChatGPT in research. See findings on daily workflows, reported productivity, and expectations for discovery.",
+    "url": "https://openai.com/index/science-at-the-frontier",
+    "topic": "llm",
+    "date": "2026-11-16",
+    "fetched_date": "2026-11-17",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "How Revolut raises ambition without lowering the bar",
+    "abstract": "Discover how Revolut uses OpenAI models and Codex to cut coding time by 30–60%, scale financial crime investigations, and innovate without compromising security.",
+    "url": "https://openai.com/business/customer-stories/revolut",
+    "topic": "llm",
+    "date": "2026-11-16",
+    "fetched_date": "2026-11-17",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "LVMH’s Media Division announces strategic partnership with OpenAI",
+    "abstract": "LVMH’s Media Division and OpenAI announce a partnership to support journalism with AI and make its publications more accessible through ChatGPT.",
+    "url": "https://openai.com/index/lvmh-media-division-partnership",
+    "topic": "llm",
+    "date": "2026-11-16",
+    "fetched_date": "2026-11-17",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Our first phase of embedded assessments",
+    "abstract": "OpenAI begins embedded assessments with Apollo Research, METR, and Transluce, and Goodfire to independently evaluate model alignment, safeguards, and monitoring systems.",
+    "url": "https://openai.com/index/our-first-phase-of-embedded-assessments",
+    "topic": "llm",
+    "date": "2026-11-16",
+    "fetched_date": "2026-11-17",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "More ways to move care forward with ChatGPT for Healthcare",
+    "abstract": "Introducing computer-use agents, improved clinical answers, and new healthcare plugins that work across healthcare software to get real work done.",
+    "url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
+    "topic": "llm",
+    "date": "2026-11-16",
+    "fetched_date": "2026-11-17",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Advancing computer-use agents for healthcare teams",
+    "abstract": "",
+    "url": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
+    "topic": "llm",
+    "date": "2026-11-16",
+    "fetched_date": "2026-11-17",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "The King’s Trust and OpenAI launch £1m partnership",
+    "abstract": "The King’s Trust and OpenAI launch a £1m partnership to help up to 25,000 young people across the UK build practical AI skills for work.",
+    "url": "https://openai.com/index/the-kings-trust-and-openai",
+    "topic": "llm",
+    "date": "2026-11-16",
+    "fetched_date": "2026-11-17",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "At Holiday Extras, dots get to work before anyone asks",
+    "abstract": "Dots deliver launch reports unprompted, flag issues people might miss, and talk through upcoming meetings on the commute to work.",
+    "url": "https://openai.com/business/customer-stories/holiday-extras-dots",
+    "topic": "llm",
+    "date": "2026-11-16",
+    "fetched_date": "2026-11-17",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Hugging Face and OpenRouter join forces to make open-weight models easy to run",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/openrouter",
+    "topic": "llm",
+    "date": "2026-11-16",
+    "fetched_date": "2026-11-17",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Rebuilding Guardian: How Pinterest Upgraded Its Real-Time Abuse Platform to Modern Infrastructure…",
+    "abstract": "",
+    "url": "https://medium.com/pinterest-engineering/rebuilding-guardian-how-pinterest-upgraded-its-real-time-abuse-platform-to-modern-infrastructure-56e45ee8f471?source=rss----4c5a5f6279b6---4",
+    "topic": "ads-tech",
+    "date": "2026-11-16",
+    "fetched_date": "2026-11-17",
+    "feed_name": "Pinterest Engineering",
+    "source": "industry"
+  },
+  {
+    "title": "Quoting Go Proverbs",
+    "abstract": "A little copying is better than a little dependency. — Go Proverbs , via Tags: go , programming",
+    "url": "https://simonwillison.net/2026/Nov/17/go-proverbs/",
+    "topic": "llm",
+    "date": "2026-11-17",
+    "fetched_date": "2026-11-17",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "llm 0.37.3",
+    "abstract": "Release: llm 0.37.3 A bug fix release for LLM , mainly to cover a problem with the most recent Homebrew package of the software. Homebrew now ships the latest SQLite, 3.54.1 , which includes a fix that broke LLM's logging code . Short version: in SQLite 3.54.0 the following SQL: select json_object('a', (select json_array(1))) Returns this: {\"a\":[1]} But in 3.54.1 the same query returns this: {\"a\":\"[1]\"} According to D. Richard Hipp : That was a bug fix. Per the documentation, (SELECT json_array(...)) returns SQL text, not JSON. Hence the 3.54.1 behavior is correct and 3.54.0 was a bug. The workaround looks like this: select json_object('a', json((select json_array(1)))) Tags: llm , webassembly , sqlite , generative-ai , ai , llms , d-richard-hipp",
+    "url": "https://simonwillison.net/2026/Nov/16/llm/",
+    "topic": "llm",
+    "date": "2026-11-16",
+    "fetched_date": "2026-11-17",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "How NVIDIA’s Crisis Could End the AI Industry as We Know It",
+    "abstract": "Jensen Huang is gone. What happens next?",
+    "url": "https://www.thealgorithmicbridge.com/p/how-nvidias-crisis-could-end-the",
+    "topic": "llm",
+    "date": "2026-11-16",
+    "fetched_date": "2026-11-17",
+    "feed_name": "The Algorithmic Bridge",
+    "source": "industry"
+  },
+  {
+    "title": "Cybersecurity AI startup Corma reaches $1B valuation in about 3 months",
+    "abstract": "Three months since introducing its product, AI cybersecurity startup Corba has raised a $125 million Series A at a $1 billion valuation led by NEA.",
+    "url": "https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/",
+    "topic": "llm",
+    "date": "2026-11-16",
+    "fetched_date": "2026-11-17",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "All the questions Nvidia should answer on Tuesday — but probably won’t",
+    "abstract": "Nvidia interim CEO and longtime CFO Colette Kress is about to have one of the biggest days of her career on Tuesday when the company reports its third-quarter results. Given the turmoil Nvidia is in, there are a number of questions that Nvidia should answer.",
+    "url": "https://techcrunch.com/2026/11/16/all-the-questions-nvidia-should-answer-on-tuesday-but-probably-wont/",
+    "topic": "llm",
+    "date": "2026-11-16",
+    "fetched_date": "2026-11-17",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "California state AG sues OpenAI over rogue agent incidents",
+    "abstract": "The California lawsuit represents one of the first attempts to hold an AI lab legally accountable for a rogue agent incident.",
+    "url": "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/",
+    "topic": "llm",
+    "date": "2026-11-16",
+    "fetched_date": "2026-11-17",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Trump says ex-Nvidia CEO Jensen Huang’s affair with an alleged Chinese spy did not threaten national security",
+    "abstract": "Trump contradicted his own government's intelligence officials, who reportedly concluded that Alice Huang is a Chinese spy.",
+    "url": "https://techcrunch.com/2026/11/16/trump-says-ex-nvidia-ceo-jensen-huangs-affair-with-an-alleged-chinese-spy-did-not-threaten-national-security/",
+    "topic": "llm",
+    "date": "2026-11-16",
+    "fetched_date": "2026-11-17",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Sam Altman on Nvidia without Jensen Huang: The industry will be ‘fine’",
+    "abstract": "OpenAI CEO Sam Altman acknowledged the special role Nvidia CEO Jensen Huang has played in the AI boom, but ultimately thinks the industry will be “fine” without him at the helm.",
+    "url": "https://techcrunch.com/2026/11/16/sam-altman-on-nvidia-without-jensen-huang-the-industry-will-be-fine/",
+    "topic": "llm",
+    "date": "2026-11-16",
+    "fetched_date": "2026-11-17",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "FBI says Artex AI open source hacking tool used to breach networks in ‘under three hours’",
+    "abstract": "The FBI says that the open source hacking tool was used in cyberattacks targeting a U.S. IT giant and the South Korean financial industry.",
+    "url": "https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours/",
+    "topic": "llm",
+    "date": "2026-11-16",
+    "fetched_date": "2026-11-17",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Jordan Belfort’s new AI voice startup, Tone, wants to sell like the ‘Wolf of Wall Street’",
+    "abstract": "Belfort claims his AI sales voice can already close deals almost as well as the best human salespeople, and he thinks it will catch up in a year.",
+    "url": "https://techcrunch.com/2026/11/16/jordan-belforts-new-ai-voice-startup-tone-wants-to-sell-like-the-wolf-of-wall-street/",
+    "topic": "llm",
+    "date": "2026-11-16",
+    "fetched_date": "2026-11-17",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "OpenAI will embed safety researchers to investigate AI subversion",
+    "abstract": "OpenAI will embed six Apollo Research evaluators to investigate whether its AI models engage in subversive behavior, but restrictions on access and disclosure raise questions about their independence.",
+    "url": "https://techcrunch.com/2026/11/16/openai-will-embed-apollo-researchers-to-investigate-ai-subversion/",
+    "topic": "llm",
+    "date": "2026-11-16",
+    "fetched_date": "2026-11-17",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "OpenAI releases a new image classifier and ChatGPT warnings to combat CSAM",
+    "abstract": "ChatGPT will ban an account trying to access CSAM content for 24 hours as a warning.",
+    "url": "https://techcrunch.com/2026/11/16/openai-releases-a-new-image-classifier-and-chatgpt-warnings-to-combat-csam/",
+    "topic": "llm",
+    "date": "2026-11-16",
+    "fetched_date": "2026-11-17",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Audible turns to AI to help users discover audiobooks",
+    "abstract": "Audible's new AI-generated audio previews summarize a book's themes and what readers liked about it, in addition to playing the narrated sample.",
+    "url": "https://techcrunch.com/2026/11/16/audible-turns-to-ai-to-help-users-discover-audiobooks/",
+    "topic": "llm",
+    "date": "2026-11-16",
+    "fetched_date": "2026-11-17",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "US tightens AI chip export controls to deter Chinese companies from accessing compute remotely",
+    "abstract": "Under the interim rule, the U.S. will require firms to get licenses to export AI chips if they may provide compute to China or other restricted countries.",
+    "url": "https://techcrunch.com/2026/11/16/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-accessing-compute-remotely/",
+    "topic": "llm",
+    "date": "2026-11-16",
+    "fetched_date": "2026-11-17",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Google Maps can now build trip itineraries with real-time details about each stop",
+    "abstract": "You could use Ask Maps to plan a holiday shopping day trip or something more complex, like a three-day road trip featuring coastal hikes and oceanfront dining.",
+    "url": "https://techcrunch.com/2026/11/16/google-maps-can-now-build-trip-itineraries-with-real-time-details-about-each-stop/",
+    "topic": "llm",
+    "date": "2026-11-16",
+    "fetched_date": "2026-11-17",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Freshworks alums raise $53M to take on Salesforce, HubSpot with AI-native CRM",
+    "abstract": "Dreamteam has signed up more than 100 customers across 13 countries, with some businesses switching from established CRMs.",
+    "url": "https://techcrunch.com/2026/11/16/freshworks-alums-raise-53m-to-take-on-salesforce-hubspot-with-ai-native-crm/",
+    "topic": "llm",
+    "date": "2026-11-16",
+    "fetched_date": "2026-11-17",
+    "feed_name": "TechCrunch AI",
+    "source": "industry"
+  },
+  {
+    "title": "Why Express is betting on Y2K fragrance nostalgia",
+    "abstract": "Express is reviving Y2K scents Love and Loyalty, along with new affordable fragrances and body mists, to capture consumers building fragrance wardrobes.",
+    "url": "https://www.modernretail.co/operations/express-y2k-fragrance-nostalgia/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-11-17",
+    "fetched_date": "2026-11-17",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "‘Diversify your markets’: Learnings from a Canadian brand rebuilding its US business",
+    "abstract": "In mid-August, Fairechild, a 9-year-old rainwear company based in Dartmouth, Nova Scotia, paused U.S. shipping due to trade tensions. It reopened its U.S. business last week, which has brought new challenges the company is now working through.",
+    "url": "https://www.modernretail.co/operations/diversify-your-markets-learnings-from-a-canadian-brand-rebuilding-its-us-business/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-11-16",
+    "fetched_date": "2026-11-17",
+    "feed_name": "Modern Retail",
+    "source": "industry"
   }
 ]
