@@ -40428,5 +40428,225 @@
     "fetched_date": "2026-11-18",
     "feed_name": "Modern Retail",
     "source": "industry"
+  },
+  {
+    "title": "The Silent Consensus",
+    "abstract": "Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how people can retain control of their institutions.",
+    "url": "https://openai.com/index/the-silent-consensus",
+    "topic": "llm",
+    "date": "2026-11-18",
+    "fetched_date": "2026-11-19",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Research acceleration: The jagged frontier",
+    "abstract": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
+    "url": "https://openai.com/index/research-acceleration-jagged-frontier",
+    "topic": "llm",
+    "date": "2026-11-18",
+    "fetched_date": "2026-11-19",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
+    "abstract": "Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis. Early use by executives helped drive adoption.",
+    "url": "https://openai.com/business/customer-stories/sumitomo-life",
+    "topic": "llm",
+    "date": "2026-11-18",
+    "fetched_date": "2026-11-19",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Inside the Codex sandbox",
+    "abstract": "See how Codex runs commands on your machine while enforcing the filesystem and network limits you control across macOS, Linux, and Windows.",
+    "url": "https://openai.com/index/inside-the-codex-sandbox",
+    "topic": "llm",
+    "date": "2026-11-18",
+    "fetched_date": "2026-11-19",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Managing frontier AI risk: From training to deployment",
+    "abstract": "OpenAI explains how it manages frontier AI risk from training through deployment with model alignment, sandboxing, blocking safeguards, and monitoring.",
+    "url": "https://openai.com/index/managing-frontier-ai-risk",
+    "topic": "llm",
+    "date": "2026-11-18",
+    "fetched_date": "2026-11-19",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
+    "abstract": "Le Groupe Figaro and OpenAI partner to bring Le Figaro’s journalism to ChatGPT through summaries and excerpts, with links to original stories.",
+    "url": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
+    "topic": "llm",
+    "date": "2026-11-18",
+    "fetched_date": "2026-11-19",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Advancing chip design with OpenAI models",
+    "abstract": "OpenAI models optimized circuits used in Jalapeño silicon and improved RISC‑V core designs, showing progress in AI-assisted chip design with GPT‑6 Astra.",
+    "url": "https://openai.com/index/advancing-chip-design-with-our-models",
+    "topic": "llm",
+    "date": "2026-11-18",
+    "fetched_date": "2026-11-19",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
+    "topic": "llm",
+    "date": "2026-11-18",
+    "fetched_date": "2026-11-19",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Why your fine-tuning job takes longer than the FLOPs say",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
+    "topic": "llm",
+    "date": "2026-11-18",
+    "fetched_date": "2026-11-19",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Time-Series Models in the Streamhouse: A New Frontier and Use Cases",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
+    "topic": "llm",
+    "date": "2026-11-18",
+    "fetched_date": "2026-11-19",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "180B Parameters, 32GB of RAM: Pushing MoE Inference to the Limit with Transformers",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/moe-expert-streaming",
+    "topic": "llm",
+    "date": "2026-11-18",
+    "fetched_date": "2026-11-19",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Rumble-2-Flash: an open 0.5B speech model for 40+ languages",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/rumble-2-flash",
+    "topic": "llm",
+    "date": "2026-11-18",
+    "fetched_date": "2026-11-19",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Introducing Gemini 4 Neon",
+    "abstract": "",
+    "url": "https://deepmind.google/blog/introducing-gemini-4-neon/",
+    "topic": "generative-ai",
+    "date": "2026-11-18",
+    "fetched_date": "2026-11-19",
+    "feed_name": "DeepMind Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Genie 4 is now available",
+    "abstract": "",
+    "url": "https://deepmind.google/blog/genie-4-is-now-available/",
+    "topic": "generative-ai",
+    "date": "2026-11-18",
+    "fetched_date": "2026-11-19",
+    "feed_name": "DeepMind Blog",
+    "source": "industry"
+  },
+  {
+    "title": "llm-gemini 0.38",
+    "abstract": "Release: llm-gemini 0.38 Today Google introduced Gemini 4 Neon . I wrote recently about how confusing the pricing for the Gemini 4 series was - Neon has somehow made this even worse. Previously the Gemini 4 lineup was Hydrogen, Argon, and Carbon - where Argon and Carbon were the same price , and Hydrogen was 3/4 of that price now but will be 1/4 of that price when the other two double an 1st December once their initial discount pricing expires. The Neon announcement pretends that Argon doesn't exist. Here's their new image explaining the model line-up: So the lineup now, from most to least expensive, is Carbon, Neon, Hydrogen. Except Carbon is currently half price, so right now Neon ($3/million input, $15/million output) is the most expensive of the three - then Carbon ($2/$10), then Hydrogen ($1.50/$7.50). I guess this will make more sense when Carbon doubles to $4/$20 on December 1st. I ran some pelicans through the three reasoning levels for Neon - low, medium, high. I dropped Argon from my Gemini 4 comparison grid - here's the new Gemini 4 lineup, where the Neon pelicans do look better than Hydrogen and worse than Carbon: As I've done with several recent models , I also fired the following prompt against Gemini 4 Neon on \"extra\" effort level in Google Antigravity: Make a three js animation where yonkers stands up as a big mech (cool stand up motion) and stomps around manhattan and queens and Brooklyn, use openstreetmap mapping data Here's the result . Tags: yonkers-rising , gemini , llm , pelican-riding-a-bicycle , ai , llms , llm-release , google , generative-ai",
+    "url": "https://simonwillison.net/2026/Nov/18/llm-gemini/",
+    "topic": "llm",
+    "date": "2026-11-18",
+    "fetched_date": "2026-11-19",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "datasette-arrows 0.1a0",
+    "abstract": "Release: datasette-arrows 0.1a0 Datasette 1.0a43 added the ability for plugins to implement streaming export formats. Datasette core supports streaming CSV and TSV - you can export millions of lines of data from a table without needing to load it all into memory, because those two file formats support streaming data in chunks. The register_output_renderer() plugin hook can now be used to implement the same pattern for other formats. I've learned never to release a new plugin feature without accompanying it with a plugin that uses it. Claude Fable 5.2 suggested the Apache Arrow streaming format as a good option, and built this plugin in almost a single shot. Add the plugin to Datasette ( datasette install datasette-arrows ) and the export dialog gains this new Arrow option: This screenshot is from Datasette's main branch - the most recent release doesn't yet group streaming formats such as Arrow with the TSV and CSV in the \"All rows in this table\" section, but that's coming in the next alpha release. Tags: datasette , projects",
+    "url": "https://simonwillison.net/2026/Nov/18/datasette-arrows/",
+    "topic": "llm",
+    "date": "2026-11-18",
+    "fetched_date": "2026-11-19",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Quoting Daniel Stenberg",
+    "abstract": "During the time these agents converted 185,000 lines of C code into 340,000 lines of Rust code (I counted), we merged over 300 commits in the actual curl project. We actually improved curl during these a little more than three weeks. A little over 200 bugfixes actually. 200 bugfixes that none of those rust rewrites have. We also fixed a few vulnerabilities. In another month we have done another 200 and maybe fixed a few more vulnerabilities. Will these clones keep up? — Daniel Stenberg , Actual curl rewrites in Rust Tags: daniel-stenberg , curl , rust , security , coding-agents , c , ai , llms , generative-ai , vibe-porting",
+    "url": "https://simonwillison.net/2026/Nov/18/daniel-stenberg/",
+    "topic": "llm",
+    "date": "2026-11-18",
+    "fetched_date": "2026-11-19",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "The PSF end-of-year fundraiser",
+    "abstract": "The PSF end-of-year fundraiser With my Python Software Foundation board director hat on: we've launched our end-of-year fundraiser for the non-profit that supports Python development and the Python community. If your company or your work benefits from Python, please consider donating this year! The PSF looks after the IP behind Python, operates PyPI, sponsors core developer sprints, supports community events (including running PyCon US every year), and employs a small and excellent staff team to keep everything running. We also operate the Developers in Residence program , which now includes three security developers (welcome, Brett Smith) focused on helping secure Python, PyPI, and the wider ecosystem. Tags: python , psf",
+    "url": "https://simonwillison.net/2026/Nov/18/psf-end-of-year-fundraiser/",
+    "topic": "llm",
+    "date": "2026-11-18",
+    "fetched_date": "2026-11-19",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "The Fall of Award-Winning Literature",
+    "abstract": "One more to AI’s collection",
+    "url": "https://www.thealgorithmicbridge.com/p/the-fall-of-award-winning-literature",
+    "topic": "llm",
+    "date": "2026-11-18",
+    "fetched_date": "2026-11-19",
+    "feed_name": "The Algorithmic Bridge",
+    "source": "industry"
+  },
+  {
+    "title": "Verify an Agent, Then Decide How Far to Trust It",
+    "abstract": "ANS proves an agent is who it claims to be. It does not tell you how far to trust it. Agent Trust Discovery, an open source implementation of the Trust Index spec, scores every registered agent across five dimensions and recommends what class of work a client should delegate to it. The post Verify an Agent, Then Decide How Far to Trust It appeared first on GoDaddy Blog .",
+    "url": "https://www.godaddy.com/resources/news/verify-an-agent-then-decide-how-far-to-trust-it",
+    "topic": "ml-engineering",
+    "date": "2026-11-18",
+    "fetched_date": "2026-11-19",
+    "feed_name": "GoDaddy Engineering",
+    "source": "industry"
+  },
+  {
+    "title": "Retailers ride the Grand Theft Auto VI wave with special promos",
+    "abstract": "Retailers and brands mark GTA VI’s launch with food, delivery, tech and even cannabis promos as gamers take time off to dive into Rockstar's virtual world.",
+    "url": "https://www.modernretail.co/marketing/retailers-ride-the-grand-theft-auto-vi-wave-with-special-promos/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-11-19",
+    "fetched_date": "2026-11-19",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "In Graphic Detail: Welcome to the agentic commerce quarter",
+    "abstract": "OpenAI, Google, Amazon and Walmart are betting on agent-led holiday shopping. Modern Retail sister site Digiday charts how far it still has to go.",
+    "url": "https://www.modernretail.co/technology/in-graphic-detail-welcome-to-the-agentic-commerce-quarter/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-11-19",
+    "fetched_date": "2026-11-19",
+    "feed_name": "Modern Retail",
+    "source": "industry"
   }
 ]
