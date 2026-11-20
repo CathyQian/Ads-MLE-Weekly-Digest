@@ -40648,5 +40648,105 @@
     "fetched_date": "2026-11-19",
     "feed_name": "Modern Retail",
     "source": "industry"
+  },
+  {
+    "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
+    "abstract": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.",
+    "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
+    "topic": "llm",
+    "date": "2026-11-19",
+    "fetched_date": "2026-11-20",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Deploying Daybreak Red",
+    "abstract": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.",
+    "url": "https://openai.com/business/learn/deploying-daybreak-red",
+    "topic": "llm",
+    "date": "2026-11-19",
+    "fetched_date": "2026-11-20",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "See PR scans in action",
+    "abstract": "Watch a walkthrough of PR scans and see how the presenter reviews scan results in a pull request workflow.",
+    "url": "https://openai.com/business/learn/pr-scans-demo",
+    "topic": "llm",
+    "date": "2026-11-19",
+    "fetched_date": "2026-11-20",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Explore the Codex Security Plugin",
+    "abstract": "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording.",
+    "url": "https://openai.com/business/learn/codex-security-plugin-demo",
+    "topic": "llm",
+    "date": "2026-11-19",
+    "fetched_date": "2026-11-20",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Get started with Daybreak Blue",
+    "abstract": "Watch a walkthrough of onboarding to Daybreak Blue, with a closer look at the setup experience and how to get started.",
+    "url": "https://openai.com/business/learn/daybreak-blue-onboarding-demo",
+    "topic": "llm",
+    "date": "2026-11-19",
+    "fetched_date": "2026-11-20",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Token fraud is here and it’s BAD (YouTube)",
+    "abstract": "Token fraud is here and it’s BAD (YouTube) Claire Vo runs ChatPRD , an AI platform that helps product managers \"turn an idea into a spec\". The product has been live since the GPT-4 era, and Claire has been building it in public for much of that time. In this YouTube video (see also the accompanying Twitter post ) Claire describes the flood of token fraud she has seen from groups abusing the product's free trial, sometimes just to get free AI usage but often to resell tokens or run other commercial enterprises on top of the ChatPRD agent. I am funding a international Roblox and Fortnite map studio. They run a loop of free trials and promo codes and then tunnel to my agent and use it to build Roblox and Fortnite maps. Apparently one of the common prompts Claire saw running through her agent involved SVGs of pelicans riding bicycles! Presumably the token scammers are using that to help sniff the underlying models - different model families have a definite signature, and I've used it like this in the past to try and guess the identity of stealth preview models on platforms like OpenRouter. Claire is winding down her free trials entirely, which sadly looks like the right decision in the face of this abuse. Tags: youtube , ai , generative-ai , llms , pelican-riding-a-bicycle , ai-misuse",
+    "url": "https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad/",
+    "topic": "llm",
+    "date": "2026-11-20",
+    "fetched_date": "2026-11-20",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "PostgreSQL 19 Released",
+    "abstract": "PostgreSQL 19 Released Most years PostgreSQL ships a new release in September, but this year's release came two months later thanks mainly to the flurry of issues that the PostgreSQL team needed to address as part of the ongoing AI-reported vulnerability apocalypse. This release was definitely worth the wait. My favorite new feature is this one: For applications that send reads to standbys, PostgreSQL 19 adds \"read-your-writes\" consistency with the new WAIT FOR LSN command. A session on a standby can use WAIT FOR LSN to wait until the standby has replayed the write-ahead log (WAL) up to a specific log sequence number (LSN) before running a query, so the application can read data it just wrote on the primary. In practice, that looks like this: UPDATE movie SET genre = 'Dramatic' WHERE genre = 'Drama'; SELECT pg_current_wal_insert_lsn(); That returns a value like 0/0306EE20 . Store that somewhere (a signed cookie would work) such that on a subsequent request your application can do: WAIT FOR LSN '0/0306EE20' WITH (TIMEOUT '0.1s'); SELECT * FROM movie WHERE genre = 'Drama'; The timeout is optional - if you provide one you'll get an error if the replica you are talking to doesn't catch up within the specified time. I first encountered this pattern in Wikipedia , which has a hand-rolled version of this built against MySQL replication: In addition to this, MediaWiki attempts to ensure that the user sees events occurring on the wiki in chronological order. A few seconds of lag can be tolerated, as long as the user sees a consistent picture from subsequent requests. This is done by saving the primary binlog position in the session, and then at the start of each request, waiting for the replica to catch up to that position before doing any reads from it. Here's the relevant MediaWiki code , which these days uses MySQL's WAIT_FOR_EXECUTED_GTID_SET() function and falls back to SOURCE_POS_WAIT() . Via Lobste.rs Tags: mysql , postgresql , replication , scaling , wikipedia , ai-security-research",
+    "url": "https://simonwillison.net/2026/Nov/19/postgresql-19/",
+    "topic": "llm",
+    "date": "2026-11-19",
+    "fetched_date": "2026-11-20",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Wall Street Is Wrong About Anthropic",
+    "abstract": "Anthropic’s IPO is today. They think the world might end tomorrow",
+    "url": "https://www.thealgorithmicbridge.com/p/wall-street-is-wrong-about-anthropic",
+    "topic": "llm",
+    "date": "2026-11-19",
+    "fetched_date": "2026-11-20",
+    "feed_name": "The Algorithmic Bridge",
+    "source": "industry"
+  },
+  {
+    "title": "On is making a bigger play for American shoppers, one store at a time",
+    "abstract": "Swiss sportswear brand On is gearing up for a bigger U.S. retail push, with nine new stateside stores in 2026 alone.",
+    "url": "https://www.modernretail.co/operations/on-is-making-a-bigger-play-for-american-shoppers-one-store-at-a-time/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-11-20",
+    "fetched_date": "2026-11-20",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Walmart’s convenience lures high-income shoppers",
+    "abstract": "For years, Walmart has won on cost. But as the retailer shows payoff from its e-commerce operations, its new membership bundle combining Walmart+ and Sam’s Club Plus programs appeals to shoppers who can pay for efficiency.",
+    "url": "https://www.modernretail.co/operations/walmarts-convenience-lures-high-income-shoppers/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-11-20",
+    "fetched_date": "2026-11-20",
+    "feed_name": "Modern Retail",
+    "source": "industry"
   }
 ]
