@@ -40748,5 +40748,115 @@
     "fetched_date": "2026-11-20",
     "feed_name": "Modern Retail",
     "source": "industry"
+  },
+  {
+    "title": "Combatting adversarial distillation",
+    "abstract": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
+    "url": "https://openai.com/index/combatting-adversarial-distillation",
+    "topic": "llm",
+    "date": "2026-11-20",
+    "fetched_date": "2026-11-21",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
+    "abstract": "Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations found gains in source coverage, citation relevance, and presentation quality.",
+    "url": "https://openai.com/business/customer-stories/hebbia",
+    "topic": "llm",
+    "date": "2026-11-20",
+    "fetched_date": "2026-11-21",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Can AI help scientists identify promising drug candidates?",
+    "abstract": "MedChemBench evaluates how well AI models interpret molecular structures, reason from experimental evidence, and select compounds in early drug discovery.",
+    "url": "https://openai.com/index/introducing-medchembench",
+    "topic": "llm",
+    "date": "2026-11-20",
+    "fetched_date": "2026-11-21",
+    "feed_name": "OpenAI Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Claude solves two open problems in the physics of black holes",
+    "abstract": "Claude Fable 5.2 has solved two open problems in theoretical physics. Both concern black holes and the search for a theory of quantum gravity.",
+    "url": "https://www.anthropic.com/research/claude-black-hole-physics",
+    "topic": "llm",
+    "date": "2026-11-21",
+    "fetched_date": "2026-11-21",
+    "feed_name": "Anthropic Research",
+    "source": "industry"
+  },
+  {
+    "title": "Welcome Inkling 2 Mini, Cutting-edge Performance for your Local Setup",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/inkling2mini",
+    "topic": "llm",
+    "date": "2026-11-20",
+    "fetched_date": "2026-11-21",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/harness-adapters-at-scale",
+    "topic": "llm",
+    "date": "2026-11-20",
+    "fetched_date": "2026-11-21",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Quoting Ravi Vakil",
+    "abstract": "Alessandro Masullo has a proposed proof of [Generalized Riemann Hypothesis], and Brian Conrad has been looking closely at it for months and gave extensive feedback which is being incorporated, and it is so far looking good. It is all human, with no AI. The hope was to bring Alessandro to Stanford for a year to polish the writing and then announce it after running it by enough people. Now it seems best to put out the current draft. — Ravi Vakil , Hurried Announcement: Alessandro Masullo GRH Tags: mathematics",
+    "url": "https://simonwillison.net/2026/Nov/20/ravi-vakil/",
+    "topic": "llm",
+    "date": "2026-11-20",
+    "fetched_date": "2026-11-21",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Quoting Levent Alpöge",
+    "abstract": "I believe I have, working with Claude, discovered a proof of the Riemann Hypothesis. In fact, the method easily extends much further, resolving the so-called Generalized Riemann Hypothesis, and I expect, with more time, the Extended Riemann Hypothesis too. Claude and I have also formalized the arguments without assumptions. It is natural to feel that this is an end, in my case a loss of a principal guiding light, but what I saw during the course of progress so amazed me that I believe it is one dawn across science of something far greater. [...] Claude and I have had a great time together with such breadth in recent months, but this time Claude far outpaced me near the finish line. No, Claude flew, and danced, and sparkled near that finish line. — Levent Alpöge , alpo.ge/remark.pdf Tags: anthropic , claude , generative-ai , mathematics , ai , llms , levent-alpoge",
+    "url": "https://simonwillison.net/2026/Nov/20/levent-alpoge/",
+    "topic": "llm",
+    "date": "2026-11-20",
+    "fetched_date": "2026-11-21",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "How Public Evals Work and Fail, and What Should Change",
+    "abstract": "How to read eval scores and what to question, from a teardown of 12 benchmarks.",
+    "url": "https://eugeneyan.com/writing/public-evals",
+    "topic": "ml-engineering",
+    "date": "2026-11-19",
+    "fetched_date": "2026-11-21",
+    "feed_name": "Eugene Yan",
+    "source": "industry"
+  },
+  {
+    "title": "2026 marked a turning point for artificial dye removal from food",
+    "abstract": "U.S. food brands and retailers are phasing out artificial dyes as policy shifts and consumer demand increases.",
+    "url": "https://www.modernretail.co/podcasts/2026-artificial-dye-removal-from-food/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-11-21",
+    "fetched_date": "2026-11-21",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "Big-Box Briefing: Target faces off with Trader Joe’s, Quince and HomeGoods",
+    "abstract": "Target’s third-quarter earnings, released on Wednesday, gave investors confidence that it’s finding its footing under CEO Michael Fiddelke, who stepped into the role in February. But analysts’ praise for the retailer’s performance has come with caveats.",
+    "url": "https://www.modernretail.co/operations/big-box-briefing-targets-retail-reset-means-facing-off-with-trader-joes-quince-and-homegoods/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-11-20",
+    "fetched_date": "2026-11-21",
+    "feed_name": "Modern Retail",
+    "source": "industry"
   }
 ]
