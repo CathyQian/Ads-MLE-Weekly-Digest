@@ -1,7 +1,7 @@
 {
-  "https://openai.com/blog/rss.xml": "2026-11-20T10:00:00+00:00",
-  "https://www.anthropic.com/engineering": "2026-11-22T07:48:27.938749+00:00",
-  "https://www.anthropic.com/research": "2026-11-22T07:48:28.058061+00:00",
+  "https://openai.com/blog/rss.xml": "2026-11-22T00:00:00+00:00",
+  "https://www.anthropic.com/engineering": "2026-11-23T08:32:54.095803+00:00",
+  "https://www.anthropic.com/research": "2026-11-23T08:32:54.218449+00:00",
   "https://huggingface.co/blog/feed.xml": "2026-11-20T00:00:00+00:00",
   "https://blog.langchain.dev/rss/": "2026-04-11T14:52:02+00:00",
   "https://deepmind.google/blog/rss.xml": "2026-11-18T21:35:43+00:00",
@@ -9,14 +9,14 @@
   "https://netflixtechblog.com/feed": "2026-11-17T17:01:02+00:00",
   "https://medium.com/feed/airbnb-engineering": "2026-11-17T18:01:03+00:00",
   "https://medium.com/feed/pinterest-engineering": "2026-11-16T16:01:03+00:00",
-  "https://simonwillison.net/atom/everything/": "2026-11-21T23:56:28+00:00",
+  "https://simonwillison.net/atom/everything/": "2026-11-22T19:45:06+00:00",
   "https://www.thealgorithmicbridge.com/feed": "2026-11-21T18:59:24+00:00",
   "https://lilianweng.github.io/index.xml": "2026-07-04T00:00:00+00:00",
   "https://techcrunch.com/category/artificial-intelligence/feed/": "2026-11-16T23:32:32+00:00",
   "https://www.yuan-meng.com/index.xml": "2024-11-05T00:00:00+00:00",
   "https://www.godaddy.com/resources/category/engineering/feed": "2026-11-18T13:40:00+00:00",
-  "https://www.modernretail.co/feed/": "2026-11-21T05:00:00+00:00",
+  "https://www.modernretail.co/feed/": "2026-11-23T05:00:00+00:00",
   "https://tech.instacart.com/feed": "2026-09-03T16:05:30+00:00",
   "https://www.alizila.com/category/technology/feed/": "2026-09-10T03:40:31+00:00",
-  "https://eugeneyan.com/feed.xml": "2026-11-19T00:00:00+00:00"
+  "https://eugeneyan.com/feed.xml": "2026-11-22T00:00:00+00:00"
 }
