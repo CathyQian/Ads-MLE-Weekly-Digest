@@ -22208,5 +22208,25 @@
     "fetched_date": "2026-11-17",
     "feed_name": "TechCrunch",
     "source": "startup"
+  },
+  {
+    "title": "How Steven Basart forced his way into Beacon Health and became its first engineer",
+    "abstract": "From dropping out of a YC batch to building an internal programming language at a healthcare startup, Steven does whatever it takes.",
+    "url": "https://www.ycombinator.com/blog/how-steven-basart-forced-his-way-into-beacon-health-and-became-its-first-engineer/",
+    "topic": "startup",
+    "date": "2026-11-25",
+    "fetched_date": "2026-11-25",
+    "feed_name": "YC Blog",
+    "source": "startup"
+  },
+  {
+    "title": "How Daniel Zeltser cold-emailed his way to employee #2 at Beacon Health",
+    "abstract": "Daniel Zeltser left Duke to join Beacon Health as its first engineer hire, building AI agents that keep patient care from falling through the cracks.",
+    "url": "https://www.ycombinator.com/blog/how-daniel-zeltser-cold-emailed-his-way-to-employee-2-at-beacon-health/",
+    "topic": "startup",
+    "date": "2026-11-25",
+    "fetched_date": "2026-11-25",
+    "feed_name": "YC Blog",
+    "source": "startup"
   }
 ]
