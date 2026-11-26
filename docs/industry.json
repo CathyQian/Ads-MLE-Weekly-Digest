@@ -41138,5 +41138,95 @@
     "fetched_date": "2026-11-25",
     "feed_name": "Modern Retail",
     "source": "industry"
+  },
+  {
+    "title": "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
+    "topic": "llm",
+    "date": "2026-11-26",
+    "fetched_date": "2026-11-26",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Where scientists draw the line on AI agents",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
+    "topic": "llm",
+    "date": "2026-11-25",
+    "fetched_date": "2026-11-26",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "An Indic Voice Agent with CUGA",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga",
+    "topic": "llm",
+    "date": "2026-11-25",
+    "fetched_date": "2026-11-26",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Hill-climbing Inkling 2 Mini inference on one RTX PRO 6000",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/inkling-2-mini-inference-hillclimb",
+    "topic": "llm",
+    "date": "2026-11-25",
+    "fetched_date": "2026-11-26",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "From spectrum to structure: Identifying molecules with Mass Spec Skills for Google Antigravity",
+    "abstract": "Mass Spec Skills empowers scientists using Google Antigravity to interpret tandem mass spectra.",
+    "url": "https://deepmind.google/blog/interpreting-mass-spectra-with-google-antigravity/",
+    "topic": "generative-ai",
+    "date": "2026-11-24",
+    "fetched_date": "2026-11-26",
+    "feed_name": "DeepMind Blog",
+    "source": "industry"
+  },
+  {
+    "title": "sqlite3_rsync: Database Remote-Copy Tool For SQLite",
+    "abstract": "sqlite3_rsync: Database Remote-Copy Tool For SQLite This additional SQLite tool has been around for a while now - it was added as \"experimental\" in SQLite 3.47.0 in October 2024 and enhanced in SQLite 3.50.0 in May 2025 . It was only today that I understood one of its most attractive characteristics. Normally, if you want to grab a snapshot copy of a SQLite database, you need to use either the backup API or VACUUM INTO . In both cases you need enough disk space to create a duplicate copy of your database, so if you're on a small instance and you already use more than half of the available disk you are plain out of luck. sqlite3_rsync can copy a snapshot of your database over an SSH connection to another machine, without first needing to create a full local copy! It's also good for synchronizing an existing copy of a database without re-transmitting the entire thing over the network. It works in a similar way to regular rsync: The core idea behind the protocol is that the replica sends cryptographic hashes for pages or groups of pages over to the origin side. The origin sends back page content that differs, or requests finer-grain hashes if a multi-page hash does not match. If the origin and replica start out being vastly different, the total network bandwidth can exceed the size of the entire database, due to the overhead of exchanging hashes, but the excess bandwidth is not great - a few percent at most. Update : Hah! Turns out I wrote about this application of sqlite_rsync back in October 2024 when the tool was first released. Tags: backups , sqlite",
+    "url": "https://simonwillison.net/2026/Nov/26/sqlite3-rsync/",
+    "topic": "llm",
+    "date": "2026-11-26",
+    "fetched_date": "2026-11-26",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Quoting Scott Aaronson",
+    "abstract": "It’s now obvious that we’ll be getting, not one-off solutions to this or that complexity question, but a whole new continent of mathematical truth, one that we’d previously only glimpsed through fog. Picture van Leeuwenhoek first training a microscope on pondwater, or Galileo first training his telescope on the stars. That might give you some idea of how our resolution into the complexity-theoretic universe, and the whole universe of mathematical truth beyond it, has now improved. — Scott Aaronson Tags: mathematics , llms , ai , generative-ai",
+    "url": "https://simonwillison.net/2026/Nov/25/scott-aaronson/",
+    "topic": "llm",
+    "date": "2026-11-25",
+    "fetched_date": "2026-11-26",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "datasette-charts 0.3a0",
+    "abstract": "Release: datasette-charts 0.3a0 I added chart annotations to datasette-charts ! You can now render a chart and then annotate it with lines, shaded areas, labels, or a combination of the three. A chart with annotations looks like this: Here's that same chart in Datasette Lite , where you can tweak the annotations using the chart builder UI: If you also install Datasette Agent the agent can build annotated charts for you. Here's what I got on the agent.datasette.io demo for this prompt: Show a chart comparing Simon's tagged content about LLMs with his tagged content about Datasette, with annotations Tags: datasette , visualization , datasette-charts",
+    "url": "https://simonwillison.net/2026/Nov/25/datasette-charts/",
+    "topic": "llm",
+    "date": "2026-11-25",
+    "fetched_date": "2026-11-26",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Why AI Will Never Have Good Taste",
+    "abstract": "A dosis of much-needed hope",
+    "url": "https://www.thealgorithmicbridge.com/p/why-ai-will-never-have-good-taste",
+    "topic": "llm",
+    "date": "2026-11-25",
+    "fetched_date": "2026-11-26",
+    "feed_name": "The Algorithmic Bridge",
+    "source": "industry"
   }
 ]
