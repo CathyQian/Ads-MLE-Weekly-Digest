@@ -41228,5 +41228,45 @@
     "fetched_date": "2026-11-26",
     "feed_name": "The Algorithmic Bridge",
     "source": "industry"
+  },
+  {
+    "title": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+    "topic": "llm",
+    "date": "2026-11-26",
+    "fetched_date": "2026-11-27",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "Quoting Jack Despain Zhou",
+    "abstract": "Among the many already existing effects of AI has been a great de-individualization. I open a YouTube video, and I hear Claude. I sit in a conference presentation, and I hear Claude. I open my email inbox, and I find pitches and articles from ostensibly serious people with ostensibly serious credentials attached to ostensibly serious institutions who want to publish things attached to their reputations and mine, and I see Claude . — Jack Despain Zhou , Spitting in the Face of Glaude Tags: ai-misuse , claude , generative-ai , ai , llms",
+    "url": "https://simonwillison.net/2026/Nov/26/jack-despain-zhou/",
+    "topic": "llm",
+    "date": "2026-11-26",
+    "fetched_date": "2026-11-27",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Brands and retailers are taking a full-funnel approach to Reddit holiday advertising this BFCM",
+    "abstract": "Advertisers have run ads on Reddit for years, but more and more, they're using the platform as a full-funnel tool for the holidays. Here's how American Eagle, Lowe's, Kohl's and others are approaching Reddit ads this season.",
+    "url": "https://www.modernretail.co/marketing/brands-and-retailers-are-taking-a-full-funnel-approach-to-reddit-holiday-advertising-this-bfcm/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-11-27",
+    "fetched_date": "2026-11-27",
+    "feed_name": "Modern Retail",
+    "source": "industry"
+  },
+  {
+    "title": "How Ring Concierge is using the loose diamond social media trend to funnel buyers to its own channels",
+    "abstract": "Online diamond and jewelry brand Ring Concierge saw the appeal of the loose diamond trend for its customers, but wanted to offer something that was more intentional, more trustworthy and not tied to another platform like TikTok or eBay.",
+    "url": "https://www.modernretail.co/marketing/how-ring-concierge-is-using-the-loose-diamond-social-media-trend-to-funnel-buyers-to-its-own-channels/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-11-27",
+    "fetched_date": "2026-11-27",
+    "feed_name": "Modern Retail",
+    "source": "industry"
   }
 ]

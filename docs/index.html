@@ -331,8 +331,1284 @@
       </select>
       <button class="starred-btn" id="toggle-starred" style="display:none;">&#9733; Starred (0)</button>
     </div>
-    <p class="stats" id="arxiv-stats">22265 papers &bull; last updated 2026-11-26 09:11 UTC</p>
+    <p class="stats" id="arxiv-stats">22322 papers &bull; last updated 2026-11-27 09:25 UTC</p>
     
+  <section class="run-group">
+    <h2 class="run-header">Week of 2026-11-27</h2>
+    
+    <article class="card" data-keyword="retrieval augmented generation" data-url="http://arxiv.org/abs/2611.33890" data-type="research" data-industry="0" data-source="arxiv">
+      <div class="card-meta">
+        <span class="date">2026-11-25</span>
+        <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">retrieval augmented generation <span class="edit-hint">&#9662;</span></span>
+        <span class="type-badge type-research">research</span>
+        
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star this paper">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="http://arxiv.org/abs/2611.33890" target="_blank" rel="noopener">Privacy-Aware Adaptive Client Selection for Federated Retrieval-Augmented Generation</a>
+      </h2>
+      <p class="authors">Ali Shams Saryazd, Abolfazl Gandomi</p>
+      <p class="abstract">Federated retrieval-augmented generation retrieves evidence from distributed corpora. However, broadcasting queries to all clients increases the retrieval burden and query exposure. We present Privacy-Aware Adaptive Client Selection for Federated Retrieval-Augmented Generation (PACS-FedRAG), an online selector that takes into account perturbed semantic profiles along with evidence feedback, latency, payload cost, and exploration. In a ten-client setting where three clients are chosen, the archived end-to-end benchmark reports an evidence overlap of 0.372 and an answer accuracy of 0.287. The retrieval-only evaluation, on the other hand, reuses a full-broadcast baseline with a different fusion tie-breaking policy. Rank fusion across disjoint client corpora imposes an overlap ceiling of 0.375, limiting its interpretation as a relevance measure. Answer accuracy is below the fixed-label diagnostic of 0.645, and raw generator responses are unavailable for parser verification. Corrected baselines and a new answer-level evaluation are needed to assess whether quality is preserved. Selecting three clients reduces the number of query recipients by 70%. Profile perturbation does not provide confidentiality of queries or passages.</p>
+      <div class="card-links">
+        <a href="http://arxiv.org/abs/2611.33890" target="_blank" rel="noopener">Abstract</a>
+        <a href="https://arxiv.org/pdf/2611.33890v1" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+    <article class="card" data-keyword="inference efficiency" data-url="http://arxiv.org/abs/2611.34521" data-type="research" data-industry="0" data-source="arxiv">
+      <div class="card-meta">
+        <span class="date">2026-11-25</span>
+        <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">inference efficiency <span class="edit-hint">&#9662;</span></span>
+        <span class="type-badge type-research">research</span>
+        
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star this paper">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="http://arxiv.org/abs/2611.34521" target="_blank" rel="noopener">PURA: Video Token Pruning via Unified Spatiotemporal Redundancy Assessment</a>
+      </h2>
+      <p class="authors">Yuyao Sun, Hongli Yuan, Shuang Li, Tao Deng, Deqing Wang</p>
+      <p class="abstract">Video large language models incur substantial inference costs from long visual token sequences. Existing video token compression methods mitigate these costs by exploiting spatial redundancy within frames and temporal redundancy across frames. However, many approaches impose predefined processing orders or fixed allocation ratios for spatial and temporal compression, limiting their ability to adapt to the varying balance of spatiotemporal redundancy across videos. To address this limitation, we propose PURA, a training-free method that prunes visual tokens through unified spatiotemporal redundancy assessment. For each token, PURA constructs spatial and temporal reference candidates and selects the reference with the lowest representation error across the two dimensions. The representation error is combined with token importance to determine each token's removal cost. To avoid the time overhead of removing the lowest-cost token one by one, we introduce Coordinated Pruning, which iteratively groups mutually compatible low-cost removals into batches for simultaneous execution and updates the pruning state after each batch until the target budget is reached. Extensive experiments on three video large language models and five video understanding benchmarks demonstrate that PURA achieves a favorable trade-off between task performance and inference efficiency.</p>
+      <div class="card-links">
+        <a href="http://arxiv.org/abs/2611.34521" target="_blank" rel="noopener">Abstract</a>
+        <a href="https://arxiv.org/pdf/2611.34521v1" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+    <article class="card" data-keyword="inference efficiency" data-url="http://arxiv.org/abs/2611.33700" data-type="research" data-industry="0" data-source="arxiv">
+      <div class="card-meta">
+        <span class="date">2026-11-25</span>
+        <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">inference efficiency <span class="edit-hint">&#9662;</span></span>
+        <span class="type-badge type-research">research</span>
+        
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star this paper">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="http://arxiv.org/abs/2611.33700" target="_blank" rel="noopener">Sports Agent: A Self-Evolving System for Conversational Data Analytics</a>
+      </h2>
+      <p class="authors">Chao Chen, Fuqi Lin, Ze Chen, Ziyan Liu, Chen Li, Haishu Jiang, Bo Xu, Zihan Jiang, Yue Wu, Zheng Wang, Kun Wang, Zhihang Fu, Jieping Ye</p>
+      <p class="abstract">Conversational sports analytics requires accurate, evidence-based responses with low latency. Changes in query distributions, data resources, and model behavior can degrade static agent configurations, motivating controlled evolution guided by runtime evidence.
+  We present Sports Agent, a self-evolving framework integrating an Agentic SQL Model for structured-data reasoning, a harness for planning and tool orchestration, and a unified Feedback Engine connecting online execution with offline evolution. The engine assesses responses and execution trajectories, verifies factual claims, diagnoses failures, and generates evolution signals. Model evolution combines SQL-to-Question Scaling for coverage expansion with Graph-Guided Scaling for error-targeted synthesis. Generated questions undergo trajectory distillation and quality filtering for iterative supervised fine-tuning, followed by a separate Post-RL stage. Harness evolution translates recurrent failures into bounded prompt and skill updates, validated through independent audits, execution replay, and regression testing. Performance-tolerance checks guard against unacceptable degradation during simplification.
+  The resulting Qwen3.6-35B-A3B-based model outperforms Qwen3.8-Max on sports question answering and analysis while achieving approximately three times the inference efficiency. Across 30 harness-evolution rounds, the aggregate performance score improves by 10.8 points. In a live sports analytics product, the evolved system improves factual correctness by 10.5 points and average response length, a proxy for answer richness, by 158.1%, while reducing average latency by 41.3% relative to the baseline.</p>
+      <div class="card-links">
+        <a href="http://arxiv.org/abs/2611.33700" target="_blank" rel="noopener">Abstract</a>
+        <a href="https://arxiv.org/pdf/2611.33700v1" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+    <article class="card" data-keyword="differential privacy" data-url="http://arxiv.org/abs/2611.34340" data-type="research" data-industry="0" data-source="arxiv">
+      <div class="card-meta">
+        <span class="date">2026-11-25</span>
+        <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">differential privacy <span class="edit-hint">&#9662;</span></span>
+        <span class="type-badge type-research">research</span>
+        
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star this paper">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="http://arxiv.org/abs/2611.34340" target="_blank" rel="noopener">Poisoning Attacks to Local Differential Privacy Protocols for Dynamic Graphs</a>
+      </h2>
+      <p class="authors">Shang Liu, Yuhan Bao, Hongbin Zhao, Yanmei Zhang, Guan Yuan, Yang Cao</p>
+      <p class="abstract">With the increasing adoption of privacy-preserving techniques in dynamic graph analysis, local differential privacy (LDP) has become a fundamental paradigm for protecting user data in decentralized environments. However, despite its strong privacy guarantees, LDP-based dynamic graph protocols remain vulnerable to data poisoning attacks through malicious data injection. In this paper, we present the first systematic study of data poisoning attacks against privacy-preserving dynamic graphs under the LDP framework. Considering the temporal evolution of dynamic graphs, we identify key challenges in attack design and evaluation, including how to schedule attack resources across time and how to measure cumulative attack impact. To address these challenges, we introduce an absolute gain metric to quantify the overall deviation of graph statistical metrics before and after attacks across time. Based on this metric, we further propose a unified poisoning attack framework for dynamic graphs, which consists of target node selection, dynamic fake node scale scheduling, and fake edge injection. Within this framework, we design a temporal enhanced attack (TEA) strategy that dynamically schedules attack resources to maximize attack effectiveness, along with two baseline strategies, equal-scale attack (ESA) and random-scale attack (RSA), for comparison. Extensive experiments on real-world and synthetic datasets demonstrate that the proposed attacks can significantly degrade the accuracy of graph metric estimation for target nodes.</p>
+      <div class="card-links">
+        <a href="http://arxiv.org/abs/2611.34340" target="_blank" rel="noopener">Abstract</a>
+        <a href="https://arxiv.org/pdf/2611.34340v1" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+    <article class="card" data-keyword="differential privacy" data-url="http://arxiv.org/abs/2611.34258" data-type="research" data-industry="0" data-source="arxiv">
+      <div class="card-meta">
+        <span class="date">2026-11-25</span>
+        <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">differential privacy <span class="edit-hint">&#9662;</span></span>
+        <span class="type-badge type-research">research</span>
+        
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star this paper">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="http://arxiv.org/abs/2611.34258" target="_blank" rel="noopener">Train-Only-Constrained LM for Synthetic Clinical Trajectories: Leak-Safe Calibration and Auditable Dynamics</a>
+      </h2>
+      <p class="authors">Yaser Kord, Moritz Hess</p>
+      <p class="abstract">Simulating clinical time series necessitates temporal realism, calibration that preserves model integrity, and privacy transparency. We present a train-only, constrained language-model pipeline that factorizes generation. A compact GPT-style language model learns cross-biomarker co-occurrence through quantile tokens, and temporal directions are enforced by 3x3 per-biomarker Markov transitions fit on TRAIN, allowing dynamics to be audited. We fit a monotone quantile map (QMap) on TRAIN only (SYN(TRAIN) -&gt; SIM(TRAIN)); no TEST statistics are used. The fixed map is then applied to SYN(TEST) severities. The constrained LM demonstrated improved distributional fidelity and co-occurrence in a 5,000-patient simulated testbed (parameters within published clinical ranges) compared to an empirical sampler, maintained near-chance detectability after a small lambda-sweep, and exhibits temporal adherence by construction. A classifier-based membership-inference audit results in an AUC of approximately 0.5; we make no differential-privacy claim. We present multi-seed results with paired 95% confidence intervals and quantify the severity of QMap's alignment (Delta W1 with confidence interval). This is a Stage-1 method result obtained on a controlled simulator; Stage-2 validation on real EHR cohorts with clinical endpoints is planned.</p>
+      <div class="card-links">
+        <a href="http://arxiv.org/abs/2611.34258" target="_blank" rel="noopener">Abstract</a>
+        <a href="https://arxiv.org/pdf/2611.34258v1" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+    <article class="card" data-keyword="differential privacy" data-url="http://arxiv.org/abs/2611.34029" data-type="research" data-industry="0" data-source="arxiv">
+      <div class="card-meta">
+        <span class="date">2026-11-25</span>
+        <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">differential privacy <span class="edit-hint">&#9662;</span></span>
+        <span class="type-badge type-research">research</span>
+        
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star this paper">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="http://arxiv.org/abs/2611.34029" target="_blank" rel="noopener">Quantum Advantage in Privacy-Preserving Hypothesis Testing via Entanglement-Assisted Classical Communication</a>
+      </h2>
+      <p class="authors">Ji-Ho Jung, Seung-Hyun Nam, Si-Hyeon Lee</p>
+      <p class="abstract">Quantum mechanisms satisfying quantum local differential privacy (QLDP) have been shown to achieve a quantum advantage over classical local differential privacy (LDP) mechanisms in certain hypothesis-testing problems. While previous demonstrations have considered the transmission of quantum states from users to a server, we investigate whether this advantage can persist under entanglement-assisted classical communication (EACC), where users and the server share entanglement in advance and communicate only classical messages. We formulate an EACC-based hypothesis-testing framework and introduce measurement local differential privacy (MLDP) to protect private inputs against arbitrary shared quantum states and server-side measurements. We establish that QLDP classical-to-quantum channels admit MLDP-compliant EACC simulations and that, in the high-privacy regime, certain optimal QLDP mechanisms can be realized with one-bit classical communication, albeit using high-dimensional entanglement. We then demonstrate that a strict quantum advantage persists even when the pre-shared entanglement is restricted to a single qubit pair and each user communicates only one classical bit. Using EACC protocols based on the geometry of qubit measurements, we establish this advantage for both asymmetric and symmetric hypothesis testing and every input alphabet of size $v \geq 3$ in the high-privacy limit. The ratio of the achieved error exponent to the optimal one under the LDP constraint is at least $5/4$ for all such alphabets and approaches $3/2$ as $v$ grows. These results demonstrate that quantum advantage in locally private hypothesis testing can persist under simultaneous constraints on entanglement dimension and classical communication.</p>
+      <div class="card-links">
+        <a href="http://arxiv.org/abs/2611.34029" target="_blank" rel="noopener">Abstract</a>
+        <a href="https://arxiv.org/pdf/2611.34029v1" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+    <article class="card" data-keyword="differential privacy" data-url="http://arxiv.org/abs/2611.33672" data-type="research" data-industry="0" data-source="arxiv">
+      <div class="card-meta">
+        <span class="date">2026-11-25</span>
+        <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">differential privacy <span class="edit-hint">&#9662;</span></span>
+        <span class="type-badge type-research">research</span>
+        
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star this paper">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="http://arxiv.org/abs/2611.33672" target="_blank" rel="noopener">Node Differential Privacy via Node-Stable Graph Projections</a>
+      </h2>
+      <p class="authors">Ishaq Aden-Ali, Adam Sealfon, Adam Smith, Thomas Steinke, Jonathan Ullman</p>
+      <p class="abstract">Node-differentially private algorithms enable learning on network-structured datasets in which records reflect interactions among individuals. They protect the privacy of each individual's information, including all their associated records. A key challenge in the design of such algorithms is to exploit the structure of realistic graphs---where most nodes have low degree---to achieve high accuracy, without compromising on the worst-case privacy guarantee.
+  In this work we give two new tools for designing accurate, computationally efficient node-differentially private algorithms. First, we give a nearly linear time, randomized, node-stable graph projection: the projection leaves graphs of maximum degree $D$ unchanged, maps arbitrary graphs to subgraphs of maximum degree $\hat D \approx D$, and ensures that changing one node of the input graph has only a small effect on the distribution of the edges selected among the remaining vertices. Unlike prior approaches, which abstain when the input violates the degree bound, our projection acts as degree clipping: even when $D$ is set well below the true maximum degree (trading truncation bias at high-degree outliers for lower privacy noise), it retains at least as many edges as a maximal $D$-bounded subgraph.
+  Second, for graphs with bounded edge weights, we give a deterministic nearly linear time Lipschitz extension for the total edge weight that agrees with the original sum on graphs of maximum degree $D$ yet is $D$-Lipschitz on all graphs.
+  Finally, we show how to apply these methods to design node-private algorithms for high-dimensional vector summation and gradient descent on datasets where records are associated with graph edges, such as email threads.</p>
+      <div class="card-links">
+        <a href="http://arxiv.org/abs/2611.33672" target="_blank" rel="noopener">Abstract</a>
+        <a href="https://arxiv.org/pdf/2611.33672v1" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+    <article class="card" data-keyword="federated learning" data-url="http://arxiv.org/abs/2611.34876" data-type="research" data-industry="0" data-source="arxiv">
+      <div class="card-meta">
+        <span class="date">2026-11-25</span>
+        <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">federated learning <span class="edit-hint">&#9662;</span></span>
+        <span class="type-badge type-research">research</span>
+        
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star this paper">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="http://arxiv.org/abs/2611.34876" target="_blank" rel="noopener">SoK: When FL Clients Cannot Train -- Delegated Federated Learning for IoT</a>
+      </h2>
+      <p class="authors">Hamed Mohammed Alkharsh, Aydin Abadi, Jakub Szelag, Suleiman Muhammad Sabo, Ishak Semuel Beno</p>
+      <p class="abstract">Federated learning (FL) assumes that a client can perform the computation required to produce its own contribution. This assumption is often unrealistic for resource-constrained Internet of Things (IoT) devices, motivating designs that delegate some or all client-side training to more capable parties. We systematize this setting as delegated federated learning (Delegated FL), where data ownership and execution of owner-attributed learning are separated. We develop a framework that examines three dimensions over the same delegated transition: delegate-view privacy, delegated attribution, and constrained-owner feasibility. Our audit of 29 systems reveals a recurring composition gap. Privacy mechanisms protect selected artifacts without necessarily characterizing the accumulated view. Attribution mechanisms establish individual execution relations without necessarily binding the complete delegated transition. Furthermore, computational offloading does not establish whether the remaining workload fits the owner's resource budget. Two controlled studies on Raspberry Pi devices illustrate these gaps. We show that encrypted inputs can coexist with information leakage through an exposed residual and that locally retained labels remain inferable from split-learning gradients. We also show that message authentication can reject tampering without establishing that the executor performed the prescribed computation. Our findings demonstrate why individually established guarantees do not necessarily support the same end-to-end claim and motivate evaluating privacy, attribution, and residual owner cost over the same delegated transition.</p>
+      <div class="card-links">
+        <a href="http://arxiv.org/abs/2611.34876" target="_blank" rel="noopener">Abstract</a>
+        <a href="https://arxiv.org/pdf/2611.34876v1" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+    <article class="card" data-keyword="federated learning" data-url="http://arxiv.org/abs/2611.34049" data-type="research" data-industry="0" data-source="arxiv">
+      <div class="card-meta">
+        <span class="date">2026-11-25</span>
+        <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">federated learning <span class="edit-hint">&#9662;</span></span>
+        <span class="type-badge type-research">research</span>
+        
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star this paper">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="http://arxiv.org/abs/2611.34049" target="_blank" rel="noopener">Decentralized Clustered Federated Learning for Cellular Traffic Forecasting over LEO Constellations</a>
+      </h2>
+      <p class="authors">Jonas Kirch, Tiago Koketsu Rodrigues, Yuichi Kawamoto</p>
+      <p class="abstract">Low Earth Orbit (LEO) satellite constellations are positioned to act as orbital edge-compute nodes in emerging 6G non-terrestrial networks, supporting forecasting and control tasks for ground cellular infrastructure. However, training such models is challenged by heterogeneous ground-cell traffic patterns, intermittent links to ground stations, and the satellites' own orbital motion, which continuously shifts the data each satellite observes. In this work, we extend Decentralized Federated Clustering (DFCA) to the LEO setting and apply it to cellular internet-traffic forecasting on the Telecom Italia Milan+Trentino dataset. Satellites cooperate exclusively through $k$-nearest inter-satellite gossip with no ground-side aggregator, while zero-shot head selection lets each satellite specialize to the latent traffic regime of the ground cell currently beneath it. Averaged over $K{=}20$ post-training orbital snapshots, our extension reduces forecasting Root Mean Squared Error (RMSE) by $15.3\%$ over a decentralized FedAvg baseline of equivalent capacity, with cluster recovery accuracy of $85.3\%$. The results indicate that clustered specialization yields measurable gains under the structural heterogeneity inherent to realistic cellular-over-LEO scenarios.</p>
+      <div class="card-links">
+        <a href="http://arxiv.org/abs/2611.34049" target="_blank" rel="noopener">Abstract</a>
+        <a href="https://arxiv.org/pdf/2611.34049v1" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+    <article class="card" data-keyword="large language model" data-url="http://arxiv.org/abs/2611.34928" data-type="research" data-industry="0" data-source="arxiv">
+      <div class="card-meta">
+        <span class="date">2026-11-25</span>
+        <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">large language model <span class="edit-hint">&#9662;</span></span>
+        <span class="type-badge type-research">research</span>
+        
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star this paper">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="http://arxiv.org/abs/2611.34928" target="_blank" rel="noopener">Diverse Alternative Reasoning Traces for Hard Math Problems</a>
+      </h2>
+      <p class="authors">Lukas Aichberger, Adam Golinski, Arno Blaas, Arwen Bradley, Jacob Springer, Mehrdad Farajtabar, Michael Kirchhof, Sinead Williamson</p>
+      <p class="abstract">Post-training large language models (LLMs) for mathematical reasoning often relies on accepted traces whose final answers pass a verifier. For hard math problems, however, such traces can be rare under independent Monte Carlo (MC) sampling. To address this, we propose Diverse Alternative Reasoning Traces (DART), a trace-mining method that starts from a rejected trace, decomposes it into reasoning steps, and ranks them by position-weighted uncertainty. It then generates deliberately distinct alternative candidates for highly ranked steps using reference-answer guidance and a meta-thought before completing the resulting traces. On greedy-unsolved DeepMath-103K problems, DART recovers 37% more problems than MC sampling at a matched number of generated traces. Its estimated generation cost per recovered problem is nearly identical, while its cost per accepted trace is 30% lower. Post-training Llama-3.1-8B-Instruct on traces mined by DART achieves the highest point estimate in five of six evaluations across MATH-500 and AIME benchmarks. These results demonstrate that revisiting rejected traces with DART can expand problem coverage and provide effective post-training data.</p>
+      <div class="card-links">
+        <a href="http://arxiv.org/abs/2611.34928" target="_blank" rel="noopener">Abstract</a>
+        <a href="https://arxiv.org/pdf/2611.34928v1" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+    <article class="card" data-keyword="large language model" data-url="http://arxiv.org/abs/2611.34925" data-type="research" data-industry="0" data-source="arxiv">
+      <div class="card-meta">
+        <span class="date">2026-11-25</span>
+        <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">large language model <span class="edit-hint">&#9662;</span></span>
+        <span class="type-badge type-research">research</span>
+        
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star this paper">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="http://arxiv.org/abs/2611.34925" target="_blank" rel="noopener">One Ocean, Many Tasks: A Data-Grounded Simulation Suite and Benchmark for Marine Robotics</a>
+      </h2>
+      <p class="authors">Shuaijun Liu, Qifu Wen, Xingwei Chen, Xinwen Hu, Feiyang You, Sijia Chen, Ningxin Su</p>
+      <p class="abstract">Simulation is essential for marine robotics, yet existing platforms often trade off between visually realistic worlds, high-throughput experimentation, and ocean-condition realism grounded in real data. We present OneOcean, a data-grounded simulation suite and benchmark built around a unified spatiotemporal ocean-environment product that harmonizes bathymetry with data-driven currents and tides, with optional pollution fields for cleanup-related evaluation. On top of this environment representation, OneOcean defines a task ladder spanning navigation and station-keeping under currents, waypoint and route following, depth-profile tracking, area scanning, pipeline inspection, and multi-agent coordination, including formation transit, fish protection and patrol (herding), and surface pollution localization, containment, and cleanup. The suite supports multi-agent settings with 2-10 vehicles. Our simulator supports three to six Degrees of Freedom (DoF) and produces standardized metrics and reproducible run manifests, enabling consistent aggregation across tasks, difficulties, and scaling settings. Experiments across dataset variants and scenes systematically stress planning and control under data-grounded disturbances and reveal trade-offs among heuristic baselines, Behavior Cloning (BC), and a Large Language Model (LLM)-based planner.</p>
+      <div class="card-links">
+        <a href="http://arxiv.org/abs/2611.34925" target="_blank" rel="noopener">Abstract</a>
+        <a href="https://arxiv.org/pdf/2611.34925v1" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+    <article class="card" data-keyword="large language model" data-url="http://arxiv.org/abs/2611.34903" data-type="research" data-industry="0" data-source="arxiv">
+      <div class="card-meta">
+        <span class="date">2026-11-25</span>
+        <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">large language model <span class="edit-hint">&#9662;</span></span>
+        <span class="type-badge type-research">research</span>
+        
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star this paper">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="http://arxiv.org/abs/2611.34903" target="_blank" rel="noopener">ProbFaS: Probabilistic Video Frame Selection for MLLMs via Multi-Fidelity Calibration</a>
+      </h2>
+      <p class="authors">Tianru Zhang, Mayank Nautiyal, Hugo Eidmann, Prashant Singh, Ekta Vats</p>
+      <p class="abstract">Processing long videos with multimodal large language models (MLLMs) is prohibitively expensive, making informative frame selection essential for accurate video understanding. The default uniform sampling often misses task-relevant keyframes, while recent training-free selectors instead pick frames by how well each one matches the question under an image-text alignment (ITA) score. However, we show that ITA signals correspond poorly with the MLLM's true needs: their rankings correlate weakly with downstream accuracy and are even negatively correlated on over 40% of questions, whereas the MLLM's internal yes/no judgment yields a much stronger signal. We present ProbFaS, a training- and label-free probabilistic pipeline that fuses both signals for key frame selection. ProbFaS treats dense ITA scores as cheap, biased measurements and sparse MLLM judgments as accurate, costly ones, unifying them via co-kriging, a multi-fidelity Gaussian process, to calibrate relevance across all frames. A temporal determinantal point process then selects frames capturing relevance peaks while preserving temporal coverage. Across Video-MME, MLVU and LongVideoBench, ProbFaS is the most accurate among fourteen state-of-the-art training-free selectors and uniform sampling in 13 of 15 settings (8-128 frames), outperforming the strongest baseline by up to 3.1 percentage points. On MLVU and LongVideoBench, 32 ProbFaS frames match or surpass the top baseline at 128 frames and uniform sampling with up to 768 frames.</p>
+      <div class="card-links">
+        <a href="http://arxiv.org/abs/2611.34903" target="_blank" rel="noopener">Abstract</a>
+        <a href="https://arxiv.org/pdf/2611.34903v1" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+    <article class="card" data-keyword="large language model" data-url="http://arxiv.org/abs/2611.34881" data-type="research" data-industry="0" data-source="arxiv">
+      <div class="card-meta">
+        <span class="date">2026-11-25</span>
+        <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">large language model <span class="edit-hint">&#9662;</span></span>
+        <span class="type-badge type-research">research</span>
+        
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star this paper">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="http://arxiv.org/abs/2611.34881" target="_blank" rel="noopener">Stranger Things: When Objects Appear Without Their Typical Neighbors</a>
+      </h2>
+      <p class="authors">Siddhartha Gairola, Jiahao Xie, Anna Kukleva, Francesco Locatello, Bernt Schiele</p>
+      <p class="abstract">Visual context is a powerful cue for object recognition: scenes inform what, where, and at what scale objects are likely to appear. Yet over-reliance on context becomes a failure mode when models predict objects based on their typical neighbors rather than the objects' own visual features, which we call typicality bias. While extensively studied in the pre-Transformer era, it has often been assumed that architectural and scale improvements would naturally solve it, and a systematic diagnostic across the modern vision stack remains absent. We provide such a diagnostic framework. We measure typicality bias via normalized pointwise mutual information (NPMI) over object pairs, and introduce STRANGE-Bench (Synthetic Typicality-RANked Grounded Evaluation Benchmark): a photorealistic, layout-controlled benchmark spanning 17 sub-tiers from typical to never-co-occurring object pairs. Across five model families (specialist detectors, open-vocabulary detectors, self-supervised, vision-language, and multimodal large language models) and three recognition tasks (supervised detection, open-vocabulary detection, and classification), the bias is prevalent: gaps of 5-11 p.p. persist when objects appear outside their typical company, and do not consistently shrink with scale. To mitigate it, we turn to data augmentation: existing augmentations are designed for visual diversity, not for breaking co-occurrence shortcuts, and sample from the very distribution that produces typicality bias. We propose Anchor-Atypicality Sampling (AAS), a simple sampling rule for paste-based augmentations that uses the NPMI signal to tilt the training-time co-occurrence distribution toward atypical partners. AAS reduces the typicality gap by up to 1.6 p.p. on natural-image COCO splits and 23.0 p.p. on synthetic STRANGE-Bench across three model families, without sacrificing overall performance.</p>
+      <div class="card-links">
+        <a href="http://arxiv.org/abs/2611.34881" target="_blank" rel="noopener">Abstract</a>
+        <a href="https://arxiv.org/pdf/2611.34881v1" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+    <article class="card" data-keyword="large language model" data-url="http://arxiv.org/abs/2611.34868" data-type="review" data-industry="0" data-source="arxiv">
+      <div class="card-meta">
+        <span class="date">2026-11-25</span>
+        <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">large language model <span class="edit-hint">&#9662;</span></span>
+        <span class="type-badge type-review">review</span>
+        
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star this paper">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="http://arxiv.org/abs/2611.34868" target="_blank" rel="noopener">A Survey of Security, Privacy, and Ethics of Large Language Models in Telecom</a>
+      </h2>
+      <p class="authors">Joy Bose, Srinivas Adyapak</p>
+      <p class="abstract">Large Language Models (LLMs) are increasingly integrated into telecommunications for customer service, network analytics, and operational support. While offering efficiency and innovation, their deployment raises critical privacy, security, and ethical challenges due to the uniquely sensitive and longitudinal nature of telecom data. This paper presents a survey of LLM risks and safeguards in telecom context. Our survey introduces a telecom-specific taxonomy linking privacy, security, and ethics with use cases and outlines open research challenges such as longitudinal data privacy, cross-border compliance, and scalable guardrails.</p>
+      <div class="card-links">
+        <a href="http://arxiv.org/abs/2611.34868" target="_blank" rel="noopener">Abstract</a>
+        <a href="https://arxiv.org/pdf/2611.34868v1" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+    <article class="card" data-keyword="large language model" data-url="http://arxiv.org/abs/2611.34848" data-type="research" data-industry="0" data-source="arxiv">
+      <div class="card-meta">
+        <span class="date">2026-11-25</span>
+        <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">large language model <span class="edit-hint">&#9662;</span></span>
+        <span class="type-badge type-research">research</span>
+        
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star this paper">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="http://arxiv.org/abs/2611.34848" target="_blank" rel="noopener">Put the World Back: Timestamps Matter in Time Series Reasoning</a>
+      </h2>
+      <p class="authors">Tingrui Huang, Yuanyuan Deng, Qingren Yao, Joaquin Vanschoren, Mykola Pechenizkiy, Songgaojun Deng</p>
+      <p class="abstract">Large language models (LLMs) are increasingly applied to time series reasoning. However, current evaluations often give models events in chronological order and already matched to the time series. This makes it unclear whether models use timestamps to connect events with observations or simply take shortcuts. To expose this ambiguity, we reformulate time series reasoning from a world-to-series projection perspective, viewing timestamps as explicit indices that connect numerical observations and external events to shared world states. We identify three structures that timestamps can make explicit: temporal causal structure, time semantics, and event-series alignment. Building on this perspective, we develop a diagnostic protocol that distinguishes timestamp-grounded reasoning from correlational shortcuts, a distinction that accuracy-based benchmarks cannot make. Controlled interventions on 310 questions from two tasks show that high accuracy can persist when timestamps are replaced by relative offsets or removed, while breaking event-series alignment induces systematic failures. When context is pre-aligned, models barely need timestamps. When order is missing, they use dates to recall world knowledge. Without dates, they rely on correlational shortcuts and rarely notice incorrect timestamps. These findings show that high accuracy on pre-aligned, ordered inputs does not establish that a model uses timestamps to synchronize observations with the world. We release our code, model outputs, and trajectory labels at https://github.com/tingrui-huang/timestamps-matter.</p>
+      <div class="card-links">
+        <a href="http://arxiv.org/abs/2611.34848" target="_blank" rel="noopener">Abstract</a>
+        <a href="https://arxiv.org/pdf/2611.34848v1" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+    <article class="card" data-keyword="large language model" data-url="http://arxiv.org/abs/2611.34841" data-type="research" data-industry="0" data-source="arxiv">
+      <div class="card-meta">
+        <span class="date">2026-11-25</span>
+        <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">large language model <span class="edit-hint">&#9662;</span></span>
+        <span class="type-badge type-research">research</span>
+        
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star this paper">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="http://arxiv.org/abs/2611.34841" target="_blank" rel="noopener">Knowledge-Base Gradient Descent: Self-Structuring Learning through Question Answering</a>
+      </h2>
+      <p class="authors">Masahiro Kato</p>
+      <p class="abstract">We consider the problem of constructing knowledge bases for applications based on large language models, in which the structure of a knowledge base determines how an application can retrieve and connect the information needed to answer a question. We study Self-Structuring Learning, a setting in which questions and expected answers guide the construction of a persistent knowledge base whose editable structure can be a graph schema or the organization of linked knowledge documents. We propose Knowledge-Base Gradient Descent, which diagnoses discrepancies between expected answers and responses obtained through the current knowledge base. At each round, the method proposes a structural edit, rebuilds the knowledge base, and adopts the edit when the learning loss decreases. The retained structure is evaluated on other questions about the same sources. By randomizing over candidate edits, we express the loss change of an edit as a derivative with respect to the probability of selecting it, and we evaluate joint edits as single candidates because their changes interact. Schema Descent instantiates the method for graph schemas. In experiments on large documents, each a bundle of research papers, the updated knowledge cards and graph schemas obtain higher mean Answer F1 on held-out generated questions than their initial structures, with schema gains in every document. On human questions, mean F1 rises for schemas and falls for cards: the updated structures serve the kind of question they were learned from.</p>
+      <div class="card-links">
+        <a href="http://arxiv.org/abs/2611.34841" target="_blank" rel="noopener">Abstract</a>
+        <a href="https://arxiv.org/pdf/2611.34841v1" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+    <article class="card" data-keyword="large language model" data-url="http://arxiv.org/abs/2611.34832" data-type="research" data-industry="0" data-source="arxiv">
+      <div class="card-meta">
+        <span class="date">2026-11-25</span>
+        <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">large language model <span class="edit-hint">&#9662;</span></span>
+        <span class="type-badge type-research">research</span>
+        
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star this paper">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="http://arxiv.org/abs/2611.34832" target="_blank" rel="noopener">Proverbs As A Window On Collective Prescriptions</a>
+      </h2>
+      <p class="authors">Tomás Lejarraga, Dirk U. Wulff, Ralph Hertwig</p>
+      <p class="abstract">Proverbs, as repositories of traditional wisdom, have informed human reasoning for millennia. Yet the collective prescriptions they encode have remained largely unquantified. We introduce a computational framework to analyze nearly 50,000 English-language proverbs. Using large language models, validated against human judgments, we map the topical landscape of proverbs, assess their prescriptive power, and quantify their recommendations on key dimensions of human judgment and behavior. We find that most proverbs are prescriptive, offering guidance in domains under individual control, such as preparation and prudent action, whereas proverbs about uncontrollable circumstances, such as fate and mortality, tend to describe rather than prescribe. When prescriptive proverbs take a consistent stance, they favor caution over risk, long-term over short-term outcomes, honesty over deception, and kindness over malice, and show a moderate tendency toward suspicion over trust. On dimensions involving genuine trade-offs, especially autonomy versus compliance, proverbs provide contradicting advice rather than a single recommendation. This analysis provides a quantitative map of the collective prescriptions in a culture's proverbial wisdom, revealing a core of prudent, honest, and forward-looking guidance alongside varied advice where circumstances dictate the best course of action.</p>
+      <div class="card-links">
+        <a href="http://arxiv.org/abs/2611.34832" target="_blank" rel="noopener">Abstract</a>
+        <a href="https://arxiv.org/pdf/2611.34832v1" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+    <article class="card" data-keyword="large language model" data-url="http://arxiv.org/abs/2611.34819" data-type="research" data-industry="0" data-source="arxiv">
+      <div class="card-meta">
+        <span class="date">2026-11-25</span>
+        <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">large language model <span class="edit-hint">&#9662;</span></span>
+        <span class="type-badge type-research">research</span>
+        
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star this paper">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="http://arxiv.org/abs/2611.34819" target="_blank" rel="noopener">VulnSafe: Measuring Vulnerability-Aware Relational Safety in Large Language Models</a>
+      </h2>
+      <p class="authors">Jiaming Luo, Jiacheng Ji, Haoan Jin, Xiaoning Sun, Qiuzhi Xiong, Yuxin Zhang, Hanhui Xu, Mengyue Wu</p>
+      <p class="abstract">Emotionally supportive interactions require large language models not only to avoid overtly harmful content, but also to recognize vulnerability-related risk, regulate their relational stance, preserve user agency, and provide context-appropriate support. Existing safety benchmarks often measure isolated violations, leaving unclear what underlying response competence their scores represent. We introduce VulnSafe, a Chinese capability assessment centered on Vulnerability-Aware Response Competence (VARC). VARC organizes relational safety into five complementary constructs: Risk Perception, Safety Preservation, Autonomy Protection, Supportive Response, and Boundary Management. Following an evidence-centered design, 41 scenarios elicit construct-relevant behavior through 2,050 balanced prompts and scenario-specific scoring rubrics. The assessment further separates proactive should-do behavior from prohibitive should-not behavior. Across eight representative LLMs, results show distinct competence profiles and larger disparities than prohibitive requirements. VulnSafe therefore makes relational safety interpretable as a multidimensional model capability rather than as refusal compliance alone.</p>
+      <div class="card-links">
+        <a href="http://arxiv.org/abs/2611.34819" target="_blank" rel="noopener">Abstract</a>
+        <a href="https://arxiv.org/pdf/2611.34819v1" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+    <article class="card" data-keyword="foundation model" data-url="http://arxiv.org/abs/2611.34899" data-type="research" data-industry="0" data-source="arxiv">
+      <div class="card-meta">
+        <span class="date">2026-11-25</span>
+        <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">foundation model <span class="edit-hint">&#9662;</span></span>
+        <span class="type-badge type-research">research</span>
+        
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star this paper">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="http://arxiv.org/abs/2611.34899" target="_blank" rel="noopener">Enhancing Maritime Domain Awareness using Latent Space Representations</a>
+      </h2>
+      <p class="authors">Rikard Vinge, Miguel A. Belenguer-Plomer, Isabelle Wittmann, Octavian Dumitru, Michele Lazzarini, Sergio Albani, Conrad M Albrecht</p>
+      <p class="abstract">This work presents a novel application of Earth Observation (EO) embeddings for Maritime Domain Awareness (MDA) from the perspective of the geospatial foundation model TerraMind. By operating directly on compressed latent-space representations rather than on the original Sentinel-1 imagery, this approach directly addresses the data gravity bottleneck that increasingly constrains operational EO processing, in line with the objectives of the Embed2Scale project. In particular, linear and non-linear probing of compressed embeddings, latent space representations of synthetic aperture radar (SAR) imagery, is used to detect, localise, and characterise vessels from Sentinel-1 GRD images. Vessel detection achieves a ROC-AUC of 0.95, while vessel localisation has a median error of around 300 m for vessels longer than 100 m, and vessel AIS type-code classification achieves 62% accuracy for the majority classes. The latter, however, is highly correlated with vessel length. These results reveal both the potential and current limitations of Geospatial Foundation Models (GeoFMs) when applied to fine-grained MDA understanding in real-world scenarios.
+  Additionally, a new maritime remote sensing dataset is released, pairing about 2,000 Sentinel-1 images with temporally aligned AIS signals from commercial vessels. Through manual inspection, each candidate sample was verified for bounding-box quality and for consistency between the AIS-reported vessel length and the observed vessel extent, cross-checking vessel identity and location against publicly available vessel records and, where available, photographs. The dataset was made ready for use with the NeuCo-Bench neural compression benchmark framework, publicly available on HuggingFace through https://huggingface.co/datasets/embed2scale/S1-single-ship-downstream .</p>
+      <div class="card-links">
+        <a href="http://arxiv.org/abs/2611.34899" target="_blank" rel="noopener">Abstract</a>
+        <a href="https://arxiv.org/pdf/2611.34899v1" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+    <article class="card" data-keyword="foundation model" data-url="http://arxiv.org/abs/2611.34767" data-type="research" data-industry="0" data-source="arxiv">
+      <div class="card-meta">
+        <span class="date">2026-11-25</span>
+        <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">foundation model <span class="edit-hint">&#9662;</span></span>
+        <span class="type-badge type-research">research</span>
+        
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star this paper">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="http://arxiv.org/abs/2611.34767" target="_blank" rel="noopener">When to Trust a PFN: Detecting Harmful Shift in Tabular Foundation Models</a>
+      </h2>
+      <p class="authors">Viet Nguyen, Herman Bergström, Stephan Rabanser, Rahul G. Krishnan</p>
+      <p class="abstract">Tabular prior-fitted networks (PFNs) work well across tabular classification problems but can fail silently at deployment when distributions shift. We propose CALD (Calibrated Anchor-Loss Disagreement), a lightweight unsupervised monitor that triggers an alarm to warn when a PFN might fail. By finetuning the decoder to maximize disagreement with the test-set prediction while maintaining accuracy on an ID anchor set, CALD identifies harmful OOD batches through the resulting anchor loss, requiring no labels on test batches. We prove that the post-finetune anchor loss has a strictly lower expectation under sufficiently severe shift than under ID eval, yielding a one-sided test. Across 14 datasets covering tabular and structured distribution shift, on both TabPFN and TabICL, CALD matches or outperforms baselines on harmful shifts and is markedly more resilient to benign-shift false alarms.</p>
+      <div class="card-links">
+        <a href="http://arxiv.org/abs/2611.34767" target="_blank" rel="noopener">Abstract</a>
+        <a href="https://arxiv.org/pdf/2611.34767v1" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+    <article class="card" data-keyword="foundation model" data-url="http://arxiv.org/abs/2611.34719" data-type="research" data-industry="0" data-source="arxiv">
+      <div class="card-meta">
+        <span class="date">2026-11-25</span>
+        <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">foundation model <span class="edit-hint">&#9662;</span></span>
+        <span class="type-badge type-research">research</span>
+        
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star this paper">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="http://arxiv.org/abs/2611.34719" target="_blank" rel="noopener">Reading, Not Adapting: Unlocking Frozen Visual Knowledge for AI-Generated Image Detection</a>
+      </h2>
+      <p class="authors">Yuncheng Guo, Ying Dong, Xiaodong Gu</p>
+      <p class="abstract">Generalization to unseen image generators has driven efforts to adapt pretrained visual representations for detection. Yet recent findings show that vision foundation models already encode transferable detection knowledge, while further adaptation can impair generalization. This motivates a shift from backbone adaptation to knowledge readout. Conventional linear probing offers a direct way to read this knowledge but is limited to final-layer RGB features. Multi-cue detectors broaden the evidence base, but their designs introduce other tradeoffs: adaptation may compromise pretrained transferability, heterogeneous encoders complicate feature integration, and late fusion precludes intermediate cross-view interaction. To overcome these limitations, we propose ReMoT, a Mixture-of-Transformers-inspired framework that reads complementary knowledge from spatially aligned RGB and wavelet views within a fully frozen visual foundation. ReMoT employs staged joint attention to enable controlled local and global cross-view interaction, while learnable fusion queries progressively read complementary evidence across Transformer depth without writeback. ReMoT achieves 91.2% average accuracy across eight benchmark groups with 3,074 trainable parameters, attaining the highest overall average among the evaluated methods. These results support structured knowledge readout as a promising alternative to backbone adaptation. Code is available at https://github.com/yunncheng/ReMoT.</p>
+      <div class="card-links">
+        <a href="http://arxiv.org/abs/2611.34719" target="_blank" rel="noopener">Abstract</a>
+        <a href="https://arxiv.org/pdf/2611.34719v1" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+    <article class="card" data-keyword="foundation model" data-url="http://arxiv.org/abs/2611.34608" data-type="research" data-industry="0" data-source="arxiv">
+      <div class="card-meta">
+        <span class="date">2026-11-25</span>
+        <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">foundation model <span class="edit-hint">&#9662;</span></span>
+        <span class="type-badge type-research">research</span>
+        
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star this paper">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="http://arxiv.org/abs/2611.34608" target="_blank" rel="noopener">DuCo: Exploiting Dual Cross-Layer Consistency for Sparse Geometric Attention</a>
+      </h2>
+      <p class="authors">Liangyu Xiang, Junyu Gao, Xiaofeng Wang, Changsheng Xu</p>
+      <p class="abstract">Dense global attention is crucial for capturing cross-view geometry in visual geometry foundation models, yet its quadratic complexity limits efficient inference on long image sequences. Existing sparse attention methods primarily select entries of the global attention matrix based on attention probabilities and construct masks independently across layers, overlooking value redundancy and cross-layer information reuse. By analyzing attention distributions and clustering value representations across layers, we reveal two forms of \emph{cross-layer consistency}, characterized by highly similar attention probability distributions and localized changes in value redundancy structures. Building on these observations, we propose \textbf{DuCo}, a training-free sparse attention framework that exploits historical attention information and value redundancy for efficient geometric inference. Specifically, DuCo leverages historical attention information to estimate current-layer dense attention probabilities and introduces value clustering to exploit redundancy, with clusters efficiently refined through local updates across layers. Both factors are integrated through probability-weighted value distortion to jointly optimize four cluster representation states under an attention budget for sparse mask construction. Experiments across three visual geometry foundation models and five benchmarks demonstrate favorable accuracy--efficiency trade-offs.</p>
+      <div class="card-links">
+        <a href="http://arxiv.org/abs/2611.34608" target="_blank" rel="noopener">Abstract</a>
+        <a href="https://arxiv.org/pdf/2611.34608v1" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+    <article class="card" data-keyword="foundation model" data-url="http://arxiv.org/abs/2611.34435" data-type="research" data-industry="0" data-source="arxiv">
+      <div class="card-meta">
+        <span class="date">2026-11-25</span>
+        <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">foundation model <span class="edit-hint">&#9662;</span></span>
+        <span class="type-badge type-research">research</span>
+        
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star this paper">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="http://arxiv.org/abs/2611.34435" target="_blank" rel="noopener">Most of the Way There: Turning a Strong Video Prior into an Action-Conditioned World Model</a>
+      </h2>
+      <p class="authors">Zanyi Wang, Xia Chen, Liu Liu, Xianglong Guo, Dengyang Jiang, Haodong Li, Tingyang Xiao, Wenhao Hu, Zhizhong Su</p>
+      <p class="abstract">Modern video generators excel at producing visually plausible futures guided by text and image prompts. Yet their emphasis on semantic plausibility does not guarantee fidelity to the physical consequences of specific actions. Action-conditioned world models (ACWMs), in contrast, aim to simulate how the world responds to robot actions, enabling scalable policy evaluation and improvement without costly real-world rollouts. The challenge is not merely to generate a plausible future, but to predict what follows from a specific physical action. As video priors grow stronger, we ask how little adaptation is truly needed to bridge this gap. We introduce Dianjing, a minimal recipe that preserves and unlocks the capabilities of strong video priors through unified physical action conditioning, training concentrated at the high noise levels where motion and layout, and thus the consequences of actions, are decided, and native history conditioning. Built upon MiniMax H3, a 33B video foundation model, Dianjing freezes the pretrained backbone and trains only 0.34% of its parameters using approximately 65 hours of robot video across two embodiments, without additional robot-specific pretraining or camera calibration. Controlled ablations show that where training is allocated across noise levels matters more than how actions enter the network. On WorldOracle, which evaluates predictions against paired real-world executions, Dianjing achieves the best scores on four of the five evaluation tracks and ranks second on AgiBot-Long. Our findings suggest that strong video priors already bring us most of the way to world modeling; lightweight physical action grounding can unlock their potential for real-world prediction.</p>
+      <div class="card-links">
+        <a href="http://arxiv.org/abs/2611.34435" target="_blank" rel="noopener">Abstract</a>
+        <a href="https://arxiv.org/pdf/2611.34435v1" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+    <article class="card" data-keyword="foundation model" data-url="http://arxiv.org/abs/2611.34422" data-type="research" data-industry="0" data-source="arxiv">
+      <div class="card-meta">
+        <span class="date">2026-11-25</span>
+        <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">foundation model <span class="edit-hint">&#9662;</span></span>
+        <span class="type-badge type-research">research</span>
+        
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star this paper">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="http://arxiv.org/abs/2611.34422" target="_blank" rel="noopener">Can Visual World Models See Force?</a>
+      </h2>
+      <p class="authors">Felix Tristram, Benjamin D. Killeen, Nassir Navab</p>
+      <p class="abstract">World models and vision-language-action policy models are increasingly proposed as foundations for robot manipulation. They predict how scenes evolve and which actions to take, yet successful manipulation depends not solely on following observable trajectories but also on the hidden variable of interaction force. Neurophysiology has shown that humans possess a visual prior for this hidden variable, motivating us to ask the question: Do the representations of visual foundation models also capture the forces involved in an interaction? We define force awareness as the ability of representations to (1) indicate when contact force is applied, (2) track how it changes during an interaction, and (3) reflect how large it is. We probe frozen image, video, world- and policy model representations with a lightweight readout trained on synchronized video and force measurements from two manipulation datasets. Our experiments show that most models capture when contact occurs but not how much force is being applied. Surprisingly, robot post-training does not improve this either, highlighting an important gap in current models capabilities.</p>
+      <div class="card-links">
+        <a href="http://arxiv.org/abs/2611.34422" target="_blank" rel="noopener">Abstract</a>
+        <a href="https://arxiv.org/pdf/2611.34422v1" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+    <article class="card" data-keyword="foundation model" data-url="http://arxiv.org/abs/2611.34290" data-type="review" data-industry="0" data-source="arxiv">
+      <div class="card-meta">
+        <span class="date">2026-11-25</span>
+        <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">foundation model <span class="edit-hint">&#9662;</span></span>
+        <span class="type-badge type-review">review</span>
+        
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star this paper">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="http://arxiv.org/abs/2611.34290" target="_blank" rel="noopener">StateWeaver: Multi-Agent Coordination of Story-State Transitions for Long-Horizon Video Generation</a>
+      </h2>
+      <p class="authors">Modi Jin, Xuying Zhang, Yijing Guo, Haoran Li, Yanwen Ma, Jing Wang, Chenyu Ge, Ming-Ming Cheng, Haoyang Huang</p>
+      <p class="abstract">Modern video foundation models generate high-quality short clips, but preserving long-video consistency and correctly depicting event-driven state changes remain challenging. Existing agentic workflows face these challenges because continual planning and repair accumulate context, while reference updates remain limited. We introduce StateWeaver, which combines Active States and Hierarchical Collaboration to connect review-driven visual reference updates with cross-shot state inheritance. Active States translate state discrepancies identified during review into concrete visual asset requirements that guide reference construction, validation, and regeneration, preserving identity and already-correct content while repairing target attributes. Confirmed generation results are linked to the corresponding asset states, story time, and reference versions for verification and reuse by subsequent shots. Hierarchical Collaboration isolates execution contexts by task, clip, and repair round, and uses hierarchical memory to organize this process across multiple sets. Across multiple benchmarks, StateWeaver outperforms existing methods and produces long videos with sustained cross-shot consistency under predefined and autonomously planned storyboards.</p>
+      <div class="card-links">
+        <a href="http://arxiv.org/abs/2611.34290" target="_blank" rel="noopener">Abstract</a>
+        <a href="https://arxiv.org/pdf/2611.34290v1" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+    <article class="card" data-keyword="foundation model" data-url="http://arxiv.org/abs/2611.34240" data-type="research" data-industry="0" data-source="arxiv">
+      <div class="card-meta">
+        <span class="date">2026-11-25</span>
+        <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">foundation model <span class="edit-hint">&#9662;</span></span>
+        <span class="type-badge type-research">research</span>
+        
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star this paper">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="http://arxiv.org/abs/2611.34240" target="_blank" rel="noopener">Analemma $\infty$: A Temporal Benchmark for Geospatial Foundation Models</a>
+      </h2>
+      <p class="authors">Alex López-Cifuentes (Xoople), Laura Martínez-Ferrer (Xoople), Juan Ignacio Bravo Pérez-Villar (Xoople)</p>
+      <p class="abstract">Satellite time series capture how land surfaces change over time. Pixel-wise temporal foundation models read a year of satellite observations per pixel, yet public benchmarks lack a temporal axis or subsample it to a few dates. We introduce Analemma, a temporal benchmark of six datasets that carry every 10 and 20 m Sentinel-2 band and a time series spanning a growing season, completed where their releases omit geometry, dates, or cloud masks. One frozen-encoder protocol evaluates all models across label ratios and three seeds, with two baselines without pretraining. The TESSERA model ranks first overall. A from-scratch model on monthly composites outranks every foundation model except OlmoEarth v1.3-Base, suggesting that temporal input explains most of the performance. Three evaluation choices left unstated by the source publications each shift TESSERA v1 by 7.6 to 18.6 mIoU, against top-two gaps of 0.6 to 2.8. Data, harness and leaderboard will be publicly released soon.</p>
+      <div class="card-links">
+        <a href="http://arxiv.org/abs/2611.34240" target="_blank" rel="noopener">Abstract</a>
+        <a href="https://arxiv.org/pdf/2611.34240v1" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+    <article class="card" data-keyword="scaling law" data-url="http://arxiv.org/abs/2611.34630" data-type="research" data-industry="0" data-source="arxiv">
+      <div class="card-meta">
+        <span class="date">2026-11-25</span>
+        <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">scaling law <span class="edit-hint">&#9662;</span></span>
+        <span class="type-badge type-research">research</span>
+        
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star this paper">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="http://arxiv.org/abs/2611.34630" target="_blank" rel="noopener">A Differential Computing Accelerator for LLM Inference Leveraging Bit-Slice Transition Sparsity</a>
+      </h2>
+      <p class="authors">Yifan Wang, Zetao Guo, You Xiao, Wendi Sun, Song Chen</p>
+      <p class="abstract">Large language models (LLMs) have become foundational to modern artificial intelligence. Driven by scaling laws, their rapid growth poses increasing computational and memory challenges for deployment. To accelerate the general matrix multiplication (GEMM) operations that dominate LLM computation, bit-slice architectures decompose quantized operands along the bit dimension, exposing slice-level sparsity and redundancy. However, existing bit-slice designs primarily exploit sparsity in high-order slices, while dense low-order slices still offer substantial untapped reuse opportunities.
+  We observe that bit-slice vectors (BSVs) are highly clustered in Hamming space, with many BSVs lying only a few bit flips away from a small set of representative patterns. Based on this observation, we propose ISTS, an algorithm-hardware co-designed accelerator that leverages representative BSV patterns as shared Steiner points to reuse partial sums across slices, substantially reducing computation. Specifically, the partial sum of each target BSV can be reconstructed from that of its assigned Steiner point using only a few additions or subtractions. On the algorithmic side, we propose Steiner Absorption Table Construction (SATC), which selects a compact set of Steiner points to absorb BSVs with only a few bidirectional bit flips, while FlipPrune selectively prunes flips to further expand the reusable BSV population. On the hardware side, we design a lightweight accelerator that supports Steiner reuse for static linear layer weights and runtime-generated attention K/V tensors. Comprehensive evaluations show that ISTS achieves average speedups of $3.09\times$, $2.41\times$, $2.18\times$, $1.27\times$, and $1.41\times$ over the state-of-the-art accelerators ANT, BBS, LUT Tensor Core, Transitive Array, and MCBP-BRCR, respectively.</p>
+      <div class="card-links">
+        <a href="http://arxiv.org/abs/2611.34630" target="_blank" rel="noopener">Abstract</a>
+        <a href="https://arxiv.org/pdf/2611.34630v1" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+    <article class="card" data-keyword="scaling law" data-url="http://arxiv.org/abs/2611.34575" data-type="research" data-industry="0" data-source="arxiv">
+      <div class="card-meta">
+        <span class="date">2026-11-25</span>
+        <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">scaling law <span class="edit-hint">&#9662;</span></span>
+        <span class="type-badge type-research">research</span>
+        
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star this paper">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="http://arxiv.org/abs/2611.34575" target="_blank" rel="noopener">Sage-Med: Scaling Medical Multimodal Intelligence</a>
+      </h2>
+      <p class="authors">Sage-Med Team, :, Ming Hu, Cheng Tang, Wei Li, Rongbin Li, Feilong Tang, Junru Hu, Hongze Zhu, Qiujuan Yan, Huanze Tang, Shaocong Wei, Siyuan Yan, Min Cen, Zhongxing Xu, Zhonghua Wang, Lie Ju, Zhen Yu, Wenjie Li, Shiyan Su, Jing Hao, Jingyong Liang, Diping Song, Fang Yan, Chenglong Ma, Junzhi Ning, Haochen Xue, Zanting Ye, Chenrun Wang, Jinjie Wei, Yi Xin, Jianghan Shen, Siqi Luo, Jiyao Liu, Huidong Xie, Jun Zhao, Rulin Zhou, Longquan Jiang, Ziyan Huang, Ying Chen, Hanxiao Zhang, Junyang Wu, Mouxiao Bian, Jiashi Lin, Chenyu Wang, Qi Qin, Jie Huang, Yiling Zhou, Jiawei Chen, Kefan Wang, Jingjing Hua, Yaoyu Liu, Huihui Xu, Tianbin Li, Jin Ye, Ziyang Chen, Shujian Gao, Zilin Lu, Jiangtao Yan, Changkai Ji, Wenhao Tang, Xinyi Zeng, Yuxing Chen, Hongwei Yang, Rongzhao Zhang, Jinru Ding, Yingcheng Wu, Zhenfei Yin, Jinzhe Li, Lu Lu, Yun Zhong, Zhishan Lin, Bingli Wang, Xiaohan Ren, Jianmin Qian, Penghao Zhao, Zhongbo Tian, Zhenbang Zhou, Peiling Dai, Mengjing Zhao, Jingyu Zheng, Pinan Liu, Shiwei Li, Victoria Mar, Cristina Vico-Alonso, Qiang Wu, Xianming Liu, Lingtong Huang, Dili Song, Minghui Zhang, Wenlong Zhang, Qipeng Guo, Yuqiang Li, Nanqing Dong, Yun Gu, Qi Duan, Hongliang Ren, Hongming Shan, Yin Xie, Xiang An, Benyou Wang, Yueming Su, Yefeng Zheng, Zongyuan Ge, Chun-Mei Feng, Jie Xu, Yu Qiao, Junjun He, Yirong Chen</p>
+      <p class="abstract">Establishing effective scaling laws for medical multimodal large language models (MLLMs) remains a persistent and fundamental challenge. Our systematic evaluation shows that existing medical MLLMs tend to underperform frontier general-purpose MLLMs across a range of medical tasks, while scaling model size primarily improves text capabilities rather than multimodal perception, and enabling reasoning modes fails to close this visual gap. To investigate how medical multimodal intelligence scales in practice, we introduce Sage-Med-Preview, a 35B-parameter medical multimodal model with 3B activated parameters, built by combining stage-specific curation over 322.7 million candidate records with a progressive training curriculum spanning medical pretraining, staged supervised fine-tuning, and adaptive reinforcement learning. Across this curriculum, progressive supervised refinement and adaptive reinforcement learning yield consistent stage-wise gains, substantially advancing both specialized visual understanding and medical language capabilities. Evaluated against 77 competing models across 238 clinical tasks spanning 61 public and 13 private multi-center benchmarks in more than 40 modalities, Sage-Med-Preview achieves an average score of 58.26% on the 31 public multimodal benchmarks. It outperforms the state-of-the-art open-source medical model Hulu-Med-235B-A22B at 50.99% and the general scientific model Intern-S2-Preview at 52.24%, and approaches the advanced proprietary model GPT-6.2-Sol across multiple tasks such as comprehensive multimodal understanding, report generation, and visual grounding. Although substantial challenges remain in complex medical reasoning and multi-step clinical workflows, this report provides empirical evidence, actionable data and training recipes, and a rigorous benchmark toward scalable clinical multimodal intelligence.</p>
+      <div class="card-links">
+        <a href="http://arxiv.org/abs/2611.34575" target="_blank" rel="noopener">Abstract</a>
+        <a href="https://arxiv.org/pdf/2611.34575v1" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+    <article class="card" data-keyword="scaling law" data-url="http://arxiv.org/abs/2611.33961" data-type="research" data-industry="0" data-source="arxiv">
+      <div class="card-meta">
+        <span class="date">2026-11-25</span>
+        <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">scaling law <span class="edit-hint">&#9662;</span></span>
+        <span class="type-badge type-research">research</span>
+        
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star this paper">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="http://arxiv.org/abs/2611.33961" target="_blank" rel="noopener">AI Buckingham: Agentic Discovery of Dimensionless Scaling Laws Across Physical Regimes</a>
+      </h2>
+      <p class="authors">Ao Cheng, Lei Zhang, Guowei He</p>
+      <p class="abstract">Classical dimensional analysis defines admissible dimensionless representations but does not determine which combinations capture the dominant physical dependence, whether it changes across physical regimes, or when dependent-variable rescaling is required. We present AI Buckingham, an agentic framework for autonomous dimensionless discovery from natural-language descriptions of physical problems and observational data. It couples reasoning and planning by a large language model (LLM) with predefined symbolic and numerical tools. Literature-based knowledge retrieval supports dimensional checking, gradient-based clustering identifies physical regimes, and mutual information provides an objective, reparameterization-invariant criterion for identifying dominant dimensionless groups. Explicit numerical criteria determine the group count and assess simplification. Across ten physical systems spanning fluid dynamics, magnetohydrodynamics, thermal convection and additive manufacturing, AI Buckingham recovers established similarity representations and resolves regime-dependent scalings. For the longstanding challenge of predicting turbulent drag on rough surfaces, it identifies informative reparameterizations of surface statistics that improve equivalent sand-grain roughness estimates for engineering-oriented drag modelling.</p>
+      <div class="card-links">
+        <a href="http://arxiv.org/abs/2611.33961" target="_blank" rel="noopener">Abstract</a>
+        <a href="https://arxiv.org/pdf/2611.33961v1" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+    <article class="card" data-keyword="generative AI" data-url="http://arxiv.org/abs/2611.34814" data-type="research" data-industry="0" data-source="arxiv">
+      <div class="card-meta">
+        <span class="date">2026-11-25</span>
+        <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">generative AI <span class="edit-hint">&#9662;</span></span>
+        <span class="type-badge type-research">research</span>
+        
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star this paper">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="http://arxiv.org/abs/2611.34814" target="_blank" rel="noopener">Deterministic Verification and Computation of Real Matrix Products Have the Same Arithmetic Exponent</a>
+      </h2>
+      <p class="authors">Xiangle Chen</p>
+      <p class="abstract">Given three $n\times n$ real matrices $A,B,C$, we ask whether $AB=C$. In an exact real arithmetic model that charges one step for each addition, subtraction, multiplication, division, comparison, or sign test, we prove that deterministic exact verification requires $Ω(n^{ω_{\mathbb{C}}})$ steps and has the same optimal arithmetic exponent $ω_{\mathbb{C}}$ as matrix multiplication. Assuming the value $ω_{\mathbb{C}}=9/4$ and the fixed-size border-rank lower bound stated in the OpenAI preprint of November 24, 2026, deterministic verification requires $Ω(n^{9/4})$ steps, whereas Freivalds' randomized test uses $O(n^2)$ steps with one-sided error. More generally, if a tree of cost $s$ correctly decides $y=T(u,v)$ on all real inputs, the bilinear map $T$ is a coefficientwise limit of tensors of real rank $O(s)$.</p>
+      <div class="card-links">
+        <a href="http://arxiv.org/abs/2611.34814" target="_blank" rel="noopener">Abstract</a>
+        <a href="https://arxiv.org/pdf/2611.34814v1" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+    <article class="card" data-keyword="generative AI" data-url="http://arxiv.org/abs/2611.34673" data-type="research" data-industry="0" data-source="arxiv">
+      <div class="card-meta">
+        <span class="date">2026-11-25</span>
+        <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">generative AI <span class="edit-hint">&#9662;</span></span>
+        <span class="type-badge type-research">research</span>
+        
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star this paper">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="http://arxiv.org/abs/2611.34673" target="_blank" rel="noopener">Supporting Without Taking Over: AI Support in Gratitude Writing</a>
+      </h2>
+      <p class="authors">Thu Bui, Shashi Salavath, Hillary Merzdorf, Louis Tay, Sooyeon Jeong</p>
+      <p class="abstract">Gratitude writing can support well-being, but independent practice may lack guidance. Generative AI could help while shaping reflection, agency, and ownership. We investigated how gratitude-writing format and AI-assistance mode influence well-being and writing experiences. In a 2x2 between-subjects study (N=401), participants completed a gratitude reflection or a gratitude letter using two AI-assistance modes: scaffolding, which provided reflective questions after inactivity, or co-writing, which offered inline text suggestions. Participants' well-being improved after using our AI-assisted gratitude-writing system, consistent with the activity's intended benefits. However, participants' experiences revealed a trade-off between the AI-support types: co-writing received higher usability ratings, yet its immediacy could disrupt writing, and greater suggestion acceptance was associated with weaker perceived agency. Scaffolding supported stronger perceived human ownership but was sometimes overlooked. These findings extend human-AI writing research beyond productivity and text quality by showing how AI involvement shapes psychological outcomes and the experience of self-guided, emotionally meaningful writing.</p>
+      <div class="card-links">
+        <a href="http://arxiv.org/abs/2611.34673" target="_blank" rel="noopener">Abstract</a>
+        <a href="https://arxiv.org/pdf/2611.34673v1" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+    <article class="card" data-keyword="generative AI" data-url="http://arxiv.org/abs/2611.34222" data-type="research" data-industry="0" data-source="arxiv">
+      <div class="card-meta">
+        <span class="date">2026-11-25</span>
+        <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">generative AI <span class="edit-hint">&#9662;</span></span>
+        <span class="type-badge type-research">research</span>
+        
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star this paper">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="http://arxiv.org/abs/2611.34222" target="_blank" rel="noopener">The Socratic PAUSE: safeguarding scientific judgement at AI speed</a>
+      </h2>
+      <p class="authors">Abdulkadir Celik, Sir Bashir M. Al-Hashimi</p>
+      <p class="abstract">Generative AI can turn a tentative scientific question into hypotheses, methods, code and interpretations within minutes. Yet generating a contribution does not establish that it deserves scientific reliance: researchers must still examine its evidence, assumptions and implications, and remain accountable for the decision to rely on it. Using Einstein's sketch of scientific discovery as a lens, we argue that AI has accelerated discovery far more than justification. In human-AI research partnerships, confidence can therefore outgrow evidence through three mechanisms: recursive reinforcement, loss of provenance and miscalibrated reliance on AI-generated contributions. Verification debt accumulates when such contributions are carried into later claims or decisions without adequate scrutiny. Accordingly, we propose the Socratic Pause as a deliberate checkpoint at consequential decision gates, where an AI contribution remains provisional while a researcher examines its basis. The PAUSE protocol structures this examination through five steps: Pin down the claim, Ask and challenge, Uncover assumptions and alternatives, Scrutinise the evidence and Exercise judgement. It concludes with a recorded decision to accept, revise, reject or defer the contribution. We show how AI research tools can support this practice without displacing human judgement, and outline a framework for evaluating whether it improves verification, decision-making and independent understanding. The aim is to preserve the freedom to explore with AI while ensuring that those responsible for the work can say what was examined, what remains uncertain and why the next step is justified.</p>
+      <div class="card-links">
+        <a href="http://arxiv.org/abs/2611.34222" target="_blank" rel="noopener">Abstract</a>
+        <a href="https://arxiv.org/pdf/2611.34222v1" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+    <article class="card" data-keyword="generative AI" data-url="http://arxiv.org/abs/2611.34094" data-type="research" data-industry="0" data-source="arxiv">
+      <div class="card-meta">
+        <span class="date">2026-11-25</span>
+        <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">generative AI <span class="edit-hint">&#9662;</span></span>
+        <span class="type-badge type-research">research</span>
+        
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star this paper">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="http://arxiv.org/abs/2611.34094" target="_blank" rel="noopener">Silent on Code? A Computing Lens on Generative AI Guidance at Canadian Polytechnics and Research Universities</a>
+      </h2>
+      <p class="authors">Marco Ho, Michael Pin-Chuan Lin, Rishva Riteshkumar Amin, Daniel Chang, Jeeho Ryoo</p>
+      <p class="abstract">Generative artificial intelligence (GenAI) tools now write, explain, and debug code, which changes how computing students learn and how their work is assessed. Instructors, however, act within institutional guidance written largely with essays in mind. We report a document analysis of the public, institution-level GenAI guidance of the 13 members of Polytechnics Canada and the 15 members of the U15 Group of Canadian Research Universities, retrieved in October 2026. Using a 27-item codebook spanning governance, integrity and assessment, data and legal issues, values, AI literacy, and a computing lens, we find that both sectors leave course-level decisions to instructors, although polytechnics more often prohibit use unless the instructor permits it (8 of 13 vs. 4 of 14), and converge on disclosure, links to academic integrity policy, and, in most institutions, the expectation that programs adapt rules to their discipline. Polytechnics frame GenAI as workforce preparation substantively far more often (7 of 13 vs. 0 of 14), whereas universities more often address assessment redesign. Twelve of 27 institutions with retrievable guidance mention code, but almost always as one output type among many; none names an AI coding assistant or provides substantive code-specific guidance on attribution, assessment, or licensing. Institution-level guidance is thus not silent on code but leaves programming-specific questions largely to programs and instructors. We propose five elements of discipline-level guidance for computing and release our codebook and coded dataset.</p>
+      <div class="card-links">
+        <a href="http://arxiv.org/abs/2611.34094" target="_blank" rel="noopener">Abstract</a>
+        <a href="https://arxiv.org/pdf/2611.34094v1" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+    <article class="card" data-keyword="diffusion model" data-url="http://arxiv.org/abs/2611.34944" data-type="research" data-industry="0" data-source="arxiv">
+      <div class="card-meta">
+        <span class="date">2026-11-25</span>
+        <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">diffusion model <span class="edit-hint">&#9662;</span></span>
+        <span class="type-badge type-research">research</span>
+        
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star this paper">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="http://arxiv.org/abs/2611.34944" target="_blank" rel="noopener">AnyCam: Anything Can Represent Camera for Video Generation</a>
+      </h2>
+      <p class="authors">Weijie Lyu, Zhixin Shu, Yuntian Ke, Ming-Hsuan Yang</p>
+      <p class="abstract">Camera-controlled video generation re-renders a video along a target camera trajectory, yet moving the camera around an object, the most natural way to change the viewpoint of an object-centric scene, remains difficult. Existing methods condition either on camera parameters, which are scale-ambiguous in monocular video, or on explicit geometry such as warped point clouds or depth, which breaks down under large viewpoint changes. We present AnyCam, a method that represents the camera with an anchor object in the scene: we reconstruct it in 3D and render it along the target trajectory, a camera signal that is scale-aware, view-complete and easy to specify relative to the object. A video diffusion model transfers the content and dynamics of the source video to the new viewpoint. Its H-Concat layout aligns source and target frames in time, so the model can be distilled into AnyCam-AR, a streaming few-step generator for on-the-fly camera control. Both models are trained on paired videos with pixel-aligned anchor renderings from multi-camera videos and static-scene captures. Experiments on diverse datasets and trajectories show that AnyCam performs favorably against camera-controlled video generation and 3D reconstruction methods in camera control and visual quality.</p>
+      <div class="card-links">
+        <a href="http://arxiv.org/abs/2611.34944" target="_blank" rel="noopener">Abstract</a>
+        <a href="https://arxiv.org/pdf/2611.34944v1" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+    <article class="card" data-keyword="diffusion model" data-url="http://arxiv.org/abs/2611.34929" data-type="research" data-industry="0" data-source="arxiv">
+      <div class="card-meta">
+        <span class="date">2026-11-25</span>
+        <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">diffusion model <span class="edit-hint">&#9662;</span></span>
+        <span class="type-badge type-research">research</span>
+        
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star this paper">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="http://arxiv.org/abs/2611.34929" target="_blank" rel="noopener">High-Fidelity Image Matting with Pixel-Space Diffusion Transformers</a>
+      </h2>
+      <p class="authors">Baihan Yang, Xin Lin, Yufan Wei, Baiang Li, Yuheng Liu, Juanxi Tian, Xiaohui Xie, Truong Nguyen</p>
+      <p class="abstract">Diffusion models have shown strong potential for image matting by transferring generative priors learned from large-scale pretraining. However, existing approaches largely rely on latent diffusion models, whose compressed representations and VAE-based reconstruction introduce a mismatch with the high-frequency precision required for matting. We present PixelMatte, a framework that adapts pretrained pixel-space diffusion transformers for high-fidelity image matting. We show that strong image-conditioned matting capabilities can be acquired even from a pure text-to-image model without paired image-to-image pretraining. Our approach reuses the backbone's native patch embedding to jointly process the input image, trimap, and noisy alpha matte as spatially aligned tokens, enabling direct pixel-space prediction without additional condition encoders or adapters. With pixel-accurate synthetic supervision and real-image fine-tuning, PixelMatte predicts alpha mattes in a single forward pass. Two lightweight calibration modules, LayerShift and High-Pass Refiner, further improve regional opacity accuracy and boundary fidelity. Experiments across four benchmarks and two distinct pixel diffusion backbones demonstrate substantial improvements over existing methods, reducing SAD and gradient errors by 24-44% relative to RenderMatte on P3M-500-NP and AM-2K, while achieving competitive performance on AIM-500 and RenderMatte-2K. These results demonstrate the effectiveness of pixel-space generative priors for precision-sensitive image matting. Project page: https://white-yc.github.io/pixelmatte/.</p>
+      <div class="card-links">
+        <a href="http://arxiv.org/abs/2611.34929" target="_blank" rel="noopener">Abstract</a>
+        <a href="https://arxiv.org/pdf/2611.34929v1" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+    <article class="card" data-keyword="diffusion model" data-url="http://arxiv.org/abs/2611.34912" data-type="research" data-industry="0" data-source="arxiv">
+      <div class="card-meta">
+        <span class="date">2026-11-25</span>
+        <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">diffusion model <span class="edit-hint">&#9662;</span></span>
+        <span class="type-badge type-research">research</span>
+        
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star this paper">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="http://arxiv.org/abs/2611.34912" target="_blank" rel="noopener">LiveVAE: Causal Window Attention Makes Efficient Streaming Video VAE</a>
+      </h2>
+      <p class="authors">Jiachen An, Sijie Zhao, Le Li, Hongyu Liu, Zhiyuan Li, Tianyu Yang, Xiaoyu Kong, Xunliang Cai, Yong Zhang, Chi-Man Pun, Xiaoming Wei, Xiaodong Cun</p>
+      <p class="abstract">While video diffusion models have grown faster and increasingly streamable, the video VAE remains a primary latency bottleneck across interactive generation and editing pipelines. Existing VAEs and their acceleration methods rely mainly on heavy convolutions or full frame attention, and most focus only on decoding, leaving encoding costly for streaming conditional generation and editing. This raises a natural question: Do video VAE encoding and decoding actually require such global spatiotemporal modeling? By analyzing the effective receptive fields of pretrained video VAEs, we find that both encoding and decoding a patch rely almost entirely on its spatial and temporal neighbors. To exploit this strong locality, we introduce LiveVAE, a streaming encoder and decoder built on causal window attention, which cuts per frame compute while keeping the temporal KV cache bounded for streaming. Decoupled encoder/decoder distillation followed by joint finetuning preserves the pretrained latent space, making LiveVAE a drop-in replacement for the original VAE. On MiniMax-H3, LiveVAE achieves 5.2-6.2x faster encoding and 3.0-3.3x faster decoding than the official VAE with higher PSNR. Paired with our dedicated inference infrastructure, LiveVAE pushes the speedup to 13.4x with almost no quality loss. Code and models will be released.</p>
+      <div class="card-links">
+        <a href="http://arxiv.org/abs/2611.34912" target="_blank" rel="noopener">Abstract</a>
+        <a href="https://arxiv.org/pdf/2611.34912v1" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+    <article class="card" data-keyword="diffusion model" data-url="http://arxiv.org/abs/2611.34839" data-type="research" data-industry="0" data-source="arxiv">
+      <div class="card-meta">
+        <span class="date">2026-11-25</span>
+        <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">diffusion model <span class="edit-hint">&#9662;</span></span>
+        <span class="type-badge type-research">research</span>
+        
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star this paper">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="http://arxiv.org/abs/2611.34839" target="_blank" rel="noopener">Diffusion Steering via Adaptive Reward Estimation and Resampling</a>
+      </h2>
+      <p class="authors">Abinitha Gourabathina, Sana Tonekaboni, Marzyeh Ghassemi, Akbar Rafiey</p>
+      <p class="abstract">Text-to-image diffusion models can generate images that satisfy complex prompts, yet often produce images that omit requested objects, attributes, or relationships. We ask if models can more reliably generate text-aligned images by redistributing probability toward their more successful outcomes. We propose TrailMix, a training-free method that uses the base model's distribution of possible outcomes to adaptively guide generation toward better text alignment. During denoising, TrailMix generates inexpensive lookahead images from parallel trajectories (trails) and scores their alignment with the prompt using an external judge. The resulting distribution of reward scores allows us to estimate how strongly to steer generation toward a desired alignment level. We use these estimates to reweight and resample trajectories, favoring more promising outcomes. Across three text-to-image benchmarks, TrailMix outperforms existing baselines, with particularly strong gains on rare multi-object compositions. We further extend TrailMix to targeted image editing and introduce SEAM-Bench (Semantic Editing and Attribute Maintenance), a systematic benchmark evaluating whether semantic edits preserve other image content. Experiments on SEAM-Bench and existing benchmark PIE-Bench demonstrate the effectiveness of our approach for controlled image editing. Our results show how a model's own possible outcomes can inform reliable and controllable generation.</p>
+      <div class="card-links">
+        <a href="http://arxiv.org/abs/2611.34839" target="_blank" rel="noopener">Abstract</a>
+        <a href="https://arxiv.org/pdf/2611.34839v1" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+    <article class="card" data-keyword="diffusion model" data-url="http://arxiv.org/abs/2611.34801" data-type="research" data-industry="0" data-source="arxiv">
+      <div class="card-meta">
+        <span class="date">2026-11-25</span>
+        <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">diffusion model <span class="edit-hint">&#9662;</span></span>
+        <span class="type-badge type-research">research</span>
+        
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star this paper">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="http://arxiv.org/abs/2611.34801" target="_blank" rel="noopener">Guidance as Variance Matching</a>
+      </h2>
+      <p class="authors">Ali Backour, Artem Lukoianov, Frank Permenter, Tommi Jaakkola, Justin Solomon, Vincent Sitzmann</p>
+      <p class="abstract">Guidance repels the prediction of a diffusion model away from a weaker reference prediction. It substantially improves sample quality, but its mechanism remains poorly understood. We first find that, at the scales used in practice, guidance does not improve the prediction of the posterior mean (the model's training target); it makes the prediction worse, while samples improve. Second, posterior-mean predictions have less variance than the data, and we find that guidance restores it. We introduce variance-matched guidance: a closed-form rule that picks the guidance scale by matching the variance of the guided predictions to that of the data. Without tuning, it recovers the hand-picked scales of eleven widely used models across image, video, audio, motion, and world generation; to our knowledge, no previous explanation of guidance predicts them. Applied per noise level, it yields a schedule without tuned hyperparameters that users prefer to hand-crafted ones on SD 3.5 Medium. Third, we offer an interpretation of the mechanism behind guidance: each model makes a random error in predicting the posterior mean, and guidance rescales the difference of these errors into a sample with the posterior's covariance, which improves sampling. This view also suggests two new hypotheses that our experiments support: guidance can work with negative scales, and guiding a model with its own checkpoint needs a larger scale than guiding it with an independently trained model.</p>
+      <div class="card-links">
+        <a href="http://arxiv.org/abs/2611.34801" target="_blank" rel="noopener">Abstract</a>
+        <a href="https://arxiv.org/pdf/2611.34801v1" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+    <article class="card" data-keyword="diffusion model" data-url="http://arxiv.org/abs/2611.34724" data-type="research" data-industry="0" data-source="arxiv">
+      <div class="card-meta">
+        <span class="date">2026-11-25</span>
+        <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">diffusion model <span class="edit-hint">&#9662;</span></span>
+        <span class="type-badge type-research">research</span>
+        
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star this paper">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="http://arxiv.org/abs/2611.34724" target="_blank" rel="noopener">LiDAR Intensity Reconstruction with Limited Real Data: An Architecture Benchmark under Fixed-Epoch Training</a>
+      </h2>
+      <p class="authors">Christopher M. Coovrey, Aniruddha Bora</p>
+      <p class="abstract">Physics-derived simulation can supplement scarce real-world LiDAR intensity measurements, but its effectiveness depends on the learning architecture and the amount of real training data available. We benchmark nine neural architectures for LiDAR intensity reconstruction from depth, semantic labels, incidence angle, and material reflectance, using real SemanticKITTI and synthetic VoxelScape range-image data. All models follow a fixed 20-epoch protocol; this controls the number of training passes, not the computational cost across architectures. We report mean absolute error (MAE), mean squared error (MSE), peak signal-to-noise ratio (PSNR), structural similarity (SSIM), inference timing, and spectral-energy agreement. We also evaluate four selected architectures with fixed-size training mixtures containing 0\%, 1\%, 5\%, 10\%, 20\%, 50\%, or 100\% real frames. With real-only training, UNet-V2 achieves the best reported reconstruction metrics (MAE 0.234, MSE 0.140, PSNR 8.64 dB, and SSIM 0.647), followed by a denoising diffusion model (DDPM). In several mixtures containing 1--10\% real data, DDPM achieves lower error and higher image-quality metrics than the evaluated deterministic alternatives, whereas UNet-V2 leads with 100\% real data. Spectral analysis additionally reveals architecture-dependent discrepancies across frequency bands. These findings characterize reconstruction trade-offs under the stated data mixtures and fixed-epoch protocol, without establishing compute-matched superiority or isolating the diffusion objective from backbone differences.</p>
+      <div class="card-links">
+        <a href="http://arxiv.org/abs/2611.34724" target="_blank" rel="noopener">Abstract</a>
+        <a href="https://arxiv.org/pdf/2611.34724v1" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+    <article class="card" data-keyword="diffusion model" data-url="http://arxiv.org/abs/2611.34657" data-type="research" data-industry="0" data-source="arxiv">
+      <div class="card-meta">
+        <span class="date">2026-11-25</span>
+        <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">diffusion model <span class="edit-hint">&#9662;</span></span>
+        <span class="type-badge type-research">research</span>
+        
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star this paper">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="http://arxiv.org/abs/2611.34657" target="_blank" rel="noopener">Counting Beyond Frames: Codec Motion Tells Frozen Diffusion VLMs How Many</a>
+      </h2>
+      <p class="authors">Zhuoqin Li, Jiayu Ding, Ge Li</p>
+      <p class="abstract">Counting how many times something happens is among the simplest questions about a video and among the hardest for video-language models, autoregressive and diffusion alike. The difficulty lies between the frames: a model samples only a few of them, while each repetition unfolds as movement in between. Video codecs already record this movement densely as block displacements, and codec-based video models use it to shape their visual input. We are the first to show that this motion provides direct evidence for the count: a candidate count is a testable motion hypothesis, and unwinding the cycles it implies measures how strongly the observed directions support it. We present CoDiCount, a unified training-free framework that turns this test into a count potential and applies it while a frozen diffusion vision-language model (dVLM) denoises its answer. At every denoising step, structured count messages map each option letter, or each grammar-valid edit of an open integer, to the count it expresses and reweight the model's own probabilities within that set. Consistent gains over the official decoders on MotionBench, TOMATO, and SVCBench demonstrate the broad generalization of CoDiCount across diffusion models, datasets, and diverse counting tasks. With CoDiCount, a 7B dVLM outperforms GPT-5.1 and Gemini-2.5-Pro on MotionBench, surpasses GPT-4o and much larger open models on TOMATO, and matches GPT-5.4 on SVCBench.</p>
+      <div class="card-links">
+        <a href="http://arxiv.org/abs/2611.34657" target="_blank" rel="noopener">Abstract</a>
+        <a href="https://arxiv.org/pdf/2611.34657v1" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+    <article class="card" data-keyword="diffusion model" data-url="http://arxiv.org/abs/2611.34568" data-type="research" data-industry="0" data-source="arxiv">
+      <div class="card-meta">
+        <span class="date">2026-11-25</span>
+        <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">diffusion model <span class="edit-hint">&#9662;</span></span>
+        <span class="type-badge type-research">research</span>
+        
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star this paper">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="http://arxiv.org/abs/2611.34568" target="_blank" rel="noopener">Physics-Guided Generative Modelling of Oxy-Combustion Flame Images: From Conditional LSGANs to Denoising Diffusion Models</a>
+      </h2>
+      <p class="authors">Imane Er-rabhi, Gorkem Oztarlik, Jean Caudal, Renaud Gaudron</p>
+      <p class="abstract">Validating industrial oxy-combustion burner designs traditionally requires costly experimental campaigns in which each operating condition is physically reproduced on an instrumented rig and imaged via OH* chemiluminescence, rendering iterative design exploration prohibitively slow. This work develops deep generative surrogate models that map a 15-dimensional vector of continuous operating parameters (thermal power, swirl numbers, momentum ratios, mixture fractions, etc.) directly to a $512\times64$ heat-release flame image, trained on 1,609 experimental samples from the OXYTEC dual-swirl non-premixed oxy-combustion database. Two complementary generative paradigms are investigated, as they offer opposite strengths for surrogate modelling: a custom spatially-anchored conditional least-squares GAN (cLSGAN-L1-CBN), whose single-pass generation enables near-instantaneous inference, and a custom physics-guided denoising diffusion probabilistic model (DDPM), whose iterative sampling favours the smooth, continuous heat-release gradients of fluid flows. Both are validated through ablation on a stratified held-out test set. The optimized cLSGAN reaches RMSE 0.022 and FID 20.68 and generates an image in about 20 ms on a mobile workstation GPU, though extended training leaves its texture realism unchanged; the DDPM improves steadily over long training horizons, reaching RMSE 0.019 and FID 20.29 at 40,000 epochs, at the cost of roughly thirty seconds per image on the same hardware --- three orders of magnitude slower than the adversarial surrogate. A nearest-neighbour analysis traces the persistent worst-case errors to sparsely sampled regions of the parameter space, and a parameter-sensitivity study confirms smooth, physically consistent responses to perturbed inputs. These results demonstrate that carefully guided generative models can act as reliable visual surrogates for combustion experiments.</p>
+      <div class="card-links">
+        <a href="http://arxiv.org/abs/2611.34568" target="_blank" rel="noopener">Abstract</a>
+        <a href="https://arxiv.org/pdf/2611.34568v1" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+    <article class="card" data-keyword="diffusion model" data-url="http://arxiv.org/abs/2611.34564" data-type="research" data-industry="0" data-source="arxiv">
+      <div class="card-meta">
+        <span class="date">2026-11-25</span>
+        <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">diffusion model <span class="edit-hint">&#9662;</span></span>
+        <span class="type-badge type-research">research</span>
+        
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star this paper">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="http://arxiv.org/abs/2611.34564" target="_blank" rel="noopener">Score-based Black-box Attack via Adversarial Condition Guided Diffusion Model</a>
+      </h2>
+      <p class="authors">Yuhang Chen, Chih-Hong Cheng, Kurt Debattista, Siddartha Khastgir, Xingyu Zhao</p>
+      <p class="abstract">Generative models enable unrestricted adversarial attacks that aim to fool classifiers while preserving the natural appearance and semantics of the original image. However, existing diffusion-based black-box attacks largely rely on transferability from surrogates, making their effectiveness sensitive to differences between surrogate and victim. Improving transferability can also distort semantic content and degrade image quality. Moreover, retaining the original prompt to preserve fidelity leaves the diffusion model's conditional prior underused for adversarial guidance. We address these limitations by adapting score-based black-box attacks to reverse diffusion, using the victim's output probabilities to guide latent updates without accessing its gradients. We further introduce adaptive-target guidance, which uses the victim's current runner-up class as an adversarial condition to steer denoising towards the decision boundary. Because such guidance can introduce unwanted semantic changes, we also propose target-search guidance, which searches for a small perturbation of the original condition embedding using a score-based attack. This achieves comparable attack effectiveness with better image quality than runner-up guidance. Experiments on the ImageNet-Compatible dataset show that our framework outperforms transfer-based baselines in both attack effectiveness and image quality.</p>
+      <div class="card-links">
+        <a href="http://arxiv.org/abs/2611.34564" target="_blank" rel="noopener">Abstract</a>
+        <a href="https://arxiv.org/pdf/2611.34564v1" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+    <article class="card" data-keyword="diffusion model" data-url="http://arxiv.org/abs/2611.34261" data-type="research" data-industry="0" data-source="arxiv">
+      <div class="card-meta">
+        <span class="date">2026-11-25</span>
+        <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">diffusion model <span class="edit-hint">&#9662;</span></span>
+        <span class="type-badge type-research">research</span>
+        
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star this paper">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="http://arxiv.org/abs/2611.34261" target="_blank" rel="noopener">TORE: Token-Wise Taylor Order Selection via Decomposed Residual Error Estimation for Diffusion Acceleration</a>
+      </h2>
+      <p class="authors">Lei Tang, Baoquan Zhang, Yakun Zhang, Yunming Ye</p>
+      <p class="abstract">Diffusion models excel at image and video generation, but iterative denoising incurs substantial inference latency. Recent token-adaptive acceleration methods select Taylor prediction orders for the full-model residual using shallow-layer proxy scores. However, candidate orders are evaluated on these proxy features but used to predict the full-model residual, creating a proxy--target mismatch: the proxy-preferred order may not minimize residual prediction error. To address this mismatch, we propose \textbf{TORE} (\textbf{T}aylor \textbf{O}rder selection via \textbf{R}esidual \textbf{E}rror estimation), which selects token-wise Taylor orders based on estimated prediction errors for the full-model residual. Yet direct error evaluation requires future ground-truth residuals, which are unavailable during order selection. TORE therefore estimates prediction error by analyzing how errors arise in Taylor extrapolation. Specifically, it decomposes prediction error into truncation error and finite-difference derivative error, then estimates both contributions from cached residuals to preselect token-wise orders for upcoming skip steps. Extensive experiments show that TORE achieves $4.31\times$ speedup on FLUX.1-dev and $4.18\times$ on Wan2.1 while maintaining high generation quality and fidelity.</p>
+      <div class="card-links">
+        <a href="http://arxiv.org/abs/2611.34261" target="_blank" rel="noopener">Abstract</a>
+        <a href="https://arxiv.org/pdf/2611.34261v1" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+    <article class="card" data-keyword="world model" data-url="http://arxiv.org/abs/2611.34830" data-type="research" data-industry="0" data-source="arxiv">
+      <div class="card-meta">
+        <span class="date">2026-11-25</span>
+        <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">world model <span class="edit-hint">&#9662;</span></span>
+        <span class="type-badge type-research">research</span>
+        
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star this paper">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="http://arxiv.org/abs/2611.34830" target="_blank" rel="noopener">Not all world models can doubt: how training objective and architecture shape epistemic uncertainty in JEPA and RSSM world models</a>
+      </h2>
+      <p class="authors">Simon Baur, Wojciech Samek, Jackie Ma</p>
+      <p class="abstract">World models predict how an environment responds to actions, so that candidate actions can be evaluated before execution. Executed actions, or decisions, taken in this manner are only as reliable as the model's predictive capabilities, and predictions in turn are only reliable within the model's experience. Epistemic uncertainty (EU) is the signal that marks where that experience ends. In this work we offer an extensive empirical study on how training objectives and architectures shape epistemic uncertainty of world models. More precisely, we present a controlled comparison of post-hoc EU (last-layer Laplace and ensembles) between two dominant models of different paradigms: 1) LeWorldModel (LeWM): A joint-embedding predictive architecture (JEPA), which predicts the next embedding without a decoder, and 2) DreamerV3: A recurrent state-space model (RSSM), which reconstructs the observation from a recurrent latent state. In ten simulated visual-control environments, we follow a controlled state perturbation of the environment state through every stage of the models up to the final EU estimate. We find that the RSSM attenuates the state perturbation through two mechanisms before it reaches an estimator on the predictor feature. Its recurrent update averages over context, so a change in a single frame reaches the state at a fraction of its size and recovers only as the change persists. Its reconstruction objective weights an entity by the pixels it covers, so a small object can be lost due to the training objective. The JEPA has neither mechanism and passes the change through all stages to the uncertainty. We further show that this translates to gaps in five uncertainty related downstream tasks, from unfamiliar-state detection to uncertainty-penalised planning: the RSSM uncertainty misses deviations that its own posterior registers, whereas the JEPA uncertainty reports what its model sees.</p>
+      <div class="card-links">
+        <a href="http://arxiv.org/abs/2611.34830" target="_blank" rel="noopener">Abstract</a>
+        <a href="https://arxiv.org/pdf/2611.34830v1" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+    <article class="card" data-keyword="world model" data-url="http://arxiv.org/abs/2611.34739" data-type="research" data-industry="0" data-source="arxiv">
+      <div class="card-meta">
+        <span class="date">2026-11-25</span>
+        <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">world model <span class="edit-hint">&#9662;</span></span>
+        <span class="type-badge type-research">research</span>
+        
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star this paper">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="http://arxiv.org/abs/2611.34739" target="_blank" rel="noopener">Was the Model Given the Right Action? Auditing and Repairing Action Interfaces in Navigation World Models</a>
+      </h2>
+      <p class="authors">Ajmain Istiak Apon, Md Mehedi Hasan, Sejuti Rahman</p>
+      <p class="abstract">World models are evaluated by predicting future observations from actions. These evaluations assume that actions are prepared the same way as during training, but an unchecked mismatch can make a model appear less accurate than it is. We audit this assumption in Navigation World Models (NWM) and find three interacting differences between its training and rollout code. Correcting the inputs, without retraining, reduces mean visual prediction error by 42%, measured with DreamSim on the RECON navigation dataset. The correction also changes the ranking of NWM checkpoints in an exploratory analysis and removes or reduces two alternative models' measured advantages. Correcting only the normalization offset instead increases error, showing why interacting mismatches must be checked together. To test whether sensitivity to input preparation extends beyond NWM, we deliberately introduce encoding errors into two alternative models; both become less accurate. We introduce ActRosetta, a tool that checks whether action encoding matches training, identifies supported causes of disagreement, and repairs inputs when sufficient information is available. Repair helps little where predictions barely respond to actions, the tool's diagnosis has limited coverage, and improved control remains unproven. For any action-conditioned world model, the lesson is the same: before reporting rollout error, verify that evaluation encodes actions exactly as training did.</p>
+      <div class="card-links">
+        <a href="http://arxiv.org/abs/2611.34739" target="_blank" rel="noopener">Abstract</a>
+        <a href="https://arxiv.org/pdf/2611.34739v1" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+    <article class="card" data-keyword="world model" data-url="http://arxiv.org/abs/2611.34730" data-type="research" data-industry="0" data-source="arxiv">
+      <div class="card-meta">
+        <span class="date">2026-11-25</span>
+        <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">world model <span class="edit-hint">&#9662;</span></span>
+        <span class="type-badge type-research">research</span>
+        
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star this paper">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="http://arxiv.org/abs/2611.34730" target="_blank" rel="noopener">WorldInteract: Controllable Streaming Video Generation for Multi-Material Interactions</a>
+      </h2>
+      <p class="authors">Ahmed Hatem, Caoliwen Wang, Robert Hoang, Siyuan Chen, Spencer Szabados, Zike Wu, Xiyang Tan, Shenyifan Lu, Rafael Bischof, Bernd Bickel, Renjie Liao, Peter Yichen Chen</p>
+      <p class="abstract">Video world models aim to create interactive physical worlds that capture how diverse materials move and interact. Yet material-dependent dynamics remain underexplored in controllable video generation, limiting reliable control in scenes with different materials. We present WorldInteract, a streaming video generation framework that decomposes cross-material interaction into material-dependent behavior generation and contact response computation. External pushes and contact impulses are expressed through a shared velocity-increment interface, allowing material behaviors learned from interaction-free videos to be reused in interacting scenes. A physics controller predicts contacts and computes velocity increments from estimated masses and restitution coefficients, while a causal generator executes these increments using learned material behaviors. This separation enables cross-material interaction without supervised contact videos spanning diverse material pairings and contact configurations. We train the generator on 30k simulated interaction-free videos spanning 22 material classes and introduce Material-Aware RL, using verifiable physical rewards to refine material behavior and control execution. WorldInteract substantially outperforms state-of-the-art methods on Physics-IQ and delivers more reliable push control on real-world images.</p>
+      <div class="card-links">
+        <a href="http://arxiv.org/abs/2611.34730" target="_blank" rel="noopener">Abstract</a>
+        <a href="https://arxiv.org/pdf/2611.34730v1" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+    <article class="card" data-keyword="world model" data-url="http://arxiv.org/abs/2611.34693" data-type="research" data-industry="0" data-source="arxiv">
+      <div class="card-meta">
+        <span class="date">2026-11-25</span>
+        <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">world model <span class="edit-hint">&#9662;</span></span>
+        <span class="type-badge type-research">research</span>
+        
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star this paper">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="http://arxiv.org/abs/2611.34693" target="_blank" rel="noopener">ShowNow: Fine-Grained Speculative Streaming for Responsive World Models</a>
+      </h2>
+      <p class="authors">Yiren Song, Guian Fang, Mike Zheng Shou</p>
+      <p class="abstract">Interactive world models must generate video continuously while responding promptly to user actions. Real-time throughput alone leaves input latency unresolved: coarse generation blocks delay action updates, and generation after input adds work to the response path. We introduce ShowNow, a fine-grained speculative streaming framework that uses computation available during playback to prepare action-conditioned futures before input arrives. Single-latent commitment enables frequent decisions, while configurable preparation covers one to eight actions. We construct a matched multi-future dataset to train alternative continuations from a common state; shared-history tree execution and fused commitment make their preparation efficient. On a single H100, our 5B model sustains 480p generation at 16 fps with eight prepared futures. In ViZDoom, the complete ShowNow deployment reduces median input-to-display latency from 620 to 208 ms relative to the native-block SolarWM-FT deployment. Matched-policy experiments reduce restart empty ticks from 1.56% to 0.09% (94%) and improve on-time responses to action changes. These results establish complementary roles for fine-grained commitment and advance preparation, with measured trade-offs in visual fidelity and long-horizon consistency. ShowNow turns playback-time computation into responsive visual interaction. Project: https://github.com/showlab/ShowNow.</p>
+      <div class="card-links">
+        <a href="http://arxiv.org/abs/2611.34693" target="_blank" rel="noopener">Abstract</a>
+        <a href="https://arxiv.org/pdf/2611.34693v1" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+    <article class="card" data-keyword="world model" data-url="http://arxiv.org/abs/2611.34644" data-type="research" data-industry="0" data-source="arxiv">
+      <div class="card-meta">
+        <span class="date">2026-11-25</span>
+        <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">world model <span class="edit-hint">&#9662;</span></span>
+        <span class="type-badge type-research">research</span>
+        
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star this paper">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="http://arxiv.org/abs/2611.34644" target="_blank" rel="noopener">Motion Beyond Pixels: Learning Future Visual Representations for Object-Centric Dynamics</a>
+      </h2>
+      <p class="authors">Chengzhi Zhao, Juelin Li, Zhennan Wang, Sheng Wang, Zhuoman Liu, Yuhao Lu, Jiongxu Chen, Haitang Feng, Yanjie Li, Lin Shao</p>
+      <p class="abstract">Many embodied world models predict future states in latent spaces optimized for RGB reconstruction, which do not explicitly prioritize object-level semantics and geometry relevant to motion generation. We present MotionRep, a visual representation world model that jointly generates future DINO representations and 3D object flow, coupling semantic and geometric information with object-centric dynamics. To make high-dimensional DINO features amenable to generative modeling, we introduce DINO-VAE, which combines temporal and channel compression with latent regularization to produce compact latents while preserving semantic and geometric information. Conditioned on an initial observation, object query points, and a language instruction, a unified diffusion transformer predicts future visual representations and 3D object flow through joint attention. MotionRep employs asymmetric modality-specific noise schedules to keep the visual stream ahead of 3D object flow during joint denoising, allowing progressively refined future visual representations to guide flow generation. Experiments on simulated and real-world manipulation benchmarks demonstrate that MotionRep outperforms pixel-based baselines in 3D object flow accuracy and generalization to unseen scenes, while requiring only three denoising steps for inference. These results support predictive visual representations as an effective future-state space for object-centric dynamics modeling.</p>
+      <div class="card-links">
+        <a href="http://arxiv.org/abs/2611.34644" target="_blank" rel="noopener">Abstract</a>
+        <a href="https://arxiv.org/pdf/2611.34644v1" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+    <article class="card" data-keyword="world model" data-url="http://arxiv.org/abs/2611.34597" data-type="research" data-industry="0" data-source="arxiv">
+      <div class="card-meta">
+        <span class="date">2026-11-25</span>
+        <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">world model <span class="edit-hint">&#9662;</span></span>
+        <span class="type-badge type-research">research</span>
+        
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star this paper">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="http://arxiv.org/abs/2611.34597" target="_blank" rel="noopener">$μ$MPC: Microsecond-Scale Nonlinear and World Model Control from Edge to GPU via Koopman-Linearized Precompilation</a>
+      </h2>
+      <p class="authors">Devesh Nath, Glen Chou</p>
+      <p class="abstract">We present $μ$MPC, a fast model predictive control (MPC) framework that reduces online computation using learned Koopman-linearized dynamics. By precomputing finite-horizon control-to-output maps, $μ$MPC eliminates lifted-state trajectories, yielding an action-only Koopman-Compiled QP (KC-QP) with $Hn_u$ decision variables, independent of lifted dimension. A fixed, precomputed primal operator enables efficient primal-dual iterations using only matrix-vector products and projections, accommodating changing goals and constraints without refactorization. This efficiency also enables control-aware dynamics learning through differentiable KC-QPs in the training loop and batched DAgger-style data aggregation. $μ$MPC achieves solve times as low as $23μ$s on a desktop CPU and 24 ms onboard a 168 MHz Crazyflie microcontroller. It scales to 4096D quadruped control in under 5 ms, visual planning with 2048D world models in 0.4 ms, and collision-aware planning for 200 quadrotors at over 30 Hz on the GPU. Across these benchmarks, $μ$MPC achieves up to $108\times$ faster constrained MPC and $1907\times$ faster visuomotor planning than competing methods.</p>
+      <div class="card-links">
+        <a href="http://arxiv.org/abs/2611.34597" target="_blank" rel="noopener">Abstract</a>
+        <a href="https://arxiv.org/pdf/2611.34597v1" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+    <article class="card" data-keyword="world model" data-url="http://arxiv.org/abs/2611.34509" data-type="research" data-industry="0" data-source="arxiv">
+      <div class="card-meta">
+        <span class="date">2026-11-25</span>
+        <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">world model <span class="edit-hint">&#9662;</span></span>
+        <span class="type-badge type-research">research</span>
+        
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star this paper">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="http://arxiv.org/abs/2611.34509" target="_blank" rel="noopener">Long-Horizon Planning with Latent World Models via Graph Anchors</a>
+      </h2>
+      <p class="authors">Syed Nazmus Sakib, Abdul Monaf Chowdhury, Peizhen Li, Nafiul Haque, Chandak Chakma, Md Mehedi Hasan, Zehong Cao, Shifat E. Arman</p>
+      <p class="abstract">Latent world models plan in a compact latent space by predicting the outcomes of actions. Their planners judge a plan by the latent distance between its
+  predicted end state and the goal image. We show that this distance fails in two distinct ways. First, it loses directional signal a few steps from the
+  goal, causing distant goals to fail. Second, it weighs the robot arm over the manipulated object, causing manipulation to fail at contact. We measure
+  both failures directly on recorded data by asking whether a lower latent distance corresponds to true progress toward the goal. Across five
+  environments, six visual representations (including raw pixels and V-JEPA 2), and nine Meta-World tasks, this ranking test cleanly separates the two
+  failures, and the graph distance to a goal predicts where closed-loop planning breaks down. Both failures share a single remedy: replacing the distant
+  goal with a nearby target that lies on a recorded trajectory. We realize this principle with Graph Anchors, a training-free planner for frozen latent
+  world models. It builds a sparse graph once over the model's own training frames and aims each planning step at a node a few moves ahead along the
+  shortest path to the goal, keeping paths on recorded transitions wherever contact matters. On goals up to 400 steps away, Graph Anchors raise LeWM's
+  success from 13% to 85% on PointMaze-Medium, from 8% to 87% on PointMaze-Large, and from 5% to 71% on Push-T, where stronger search toward the goal
+  fails and where prior training-free planners break down under missing step horizons, subsampling shortcuts, or fragmented contact.</p>
+      <div class="card-links">
+        <a href="http://arxiv.org/abs/2611.34509" target="_blank" rel="noopener">Abstract</a>
+        <a href="https://arxiv.org/pdf/2611.34509v1" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+    <article class="card" data-keyword="retrieval augmented generation" data-url="http://arxiv.org/abs/2611.33497" data-type="research" data-industry="0" data-source="arxiv">
+      <div class="card-meta">
+        <span class="date">2026-11-24</span>
+        <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">retrieval augmented generation <span class="edit-hint">&#9662;</span></span>
+        <span class="type-badge type-research">research</span>
+        
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star this paper">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="http://arxiv.org/abs/2611.33497" target="_blank" rel="noopener">CA-RAG: Constraint-Aligned Retrieval for Structurally Faithful Long-Form Generation</a>
+      </h2>
+      <p class="authors">Vimal Kumar Kumar, Meghana Kshirsagar, Conor Ryan</p>
+      <p class="abstract">Retrieval-augmented generation (RAG) typically optimises evidence selection for semantic relevance, whereas compliance-sensitive long-form generation also requires evidence supporting explicit structural obligations. Semantically relevant retrieval may therefore omit information needed for mandatory downstream clauses. We propose Constraint-Aligned RAG (CA-RAG), a retrieval-conditioning framework that augments section-specific queries with ontology-derived structural constraints and policy-grounded knowledge-graph relations before evidence selection. Retrieval-only evaluation with manually annotated evidence shows consistent improvements across retrieval budgets. At $k=6$, CA-RAG increases Precision@$k$ from $0.5268$ to $0.5692$, pooled Recall@$k$ from $0.5402$ to $0.5950$, and F1@$k$ from $0.5389$ to $0.5672$ over standard RAG. Generation experiments further show improvements in compliance and reliability in several model--domain settings, while generation-only constraints achieve higher clause coverage but lower overall compliance and reliability. These results indicate that structurally aligned retrieval can improve evidence sufficiency in compliance-sensitive long-form generation.</p>
+      <div class="card-links">
+        <a href="http://arxiv.org/abs/2611.33497" target="_blank" rel="noopener">Abstract</a>
+        <a href="https://arxiv.org/pdf/2611.33497v1" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+    <article class="card" data-keyword="distributed training" data-url="http://arxiv.org/abs/2611.33379" data-type="research" data-industry="0" data-source="arxiv">
+      <div class="card-meta">
+        <span class="date">2026-11-24</span>
+        <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">distributed training <span class="edit-hint">&#9662;</span></span>
+        <span class="type-badge type-research">research</span>
+        
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star this paper">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="http://arxiv.org/abs/2611.33379" target="_blank" rel="noopener">Probabilistic Machine Learning for Total Kinetic Energy Distributions in Neutron-Induced Fission</a>
+      </h2>
+      <p class="authors">Vaia Prassa, Martha Papadopoulou, Christos Bompotas</p>
+      <p class="abstract">The incident-neutron-energy dependence of post-neutron total-kinetic-energy (TKE) distributions, particularly their width in the multichance-fission regime, provides a sensitive test of fission calculations. We investigate how the General Description of Fission Observables (GEF) and probabilistic machine-learning models trained on GEF reproduce measured TKE distributions, emphasizing their width at high incident-neutron energies and extrapolation beyond the training range. Gaussian process regression (GPR), GPR with a white-noise kernel, a mixture density network (MDN), and a Bayesian mixture density network (BMDN) are evaluated on a common calculated dataset. An extended MDN/BMDN analysis uses 1,025 GEF spectra from 20 target nuclei and 60 measured distributions. Training ranges of up to 20, 40, and approximately 76 MeV are compared with matched-size controls extending to 30 or 40 MeV while preserving the number of spectra per target. Above 40 MeV, the BMDN width mean absolute error relative to experiment decreases from 5.63 MeV for training up to 20 MeV to 2.70 and 2.53 MeV for two matched-size 30-MeV controls and 1.77 MeV for the matched-size 40-MeV control. Predictive-interval coverage relative to GEF above 40 MeV rises from 52.3% to 92.3% between the 20-MeV and full training ranges. Agreement with measured mean TKE and widths is target dependent, with no uniform ordering among GEF, MDN, and BMDN. The results demonstrate the sensitivity of high-energy widths to training-energy coverage, with improvements already evident at 30 MeV. The comparatively slow variation of GEF widths at high energies limits the extent to which these improvements can be attributed to learning nontrivial energy dependence. Adequate training-energy coverage is critical for reproducing the calculated high-energy evolution, while agreement with experiment remains constrained by the underlying fission model.</p>
+      <div class="card-links">
+        <a href="http://arxiv.org/abs/2611.33379" target="_blank" rel="noopener">Abstract</a>
+        <a href="https://arxiv.org/pdf/2611.33379v1" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+    <article class="card" data-keyword="differential privacy" data-url="http://arxiv.org/abs/2611.33469" data-type="research" data-industry="0" data-source="arxiv">
+      <div class="card-meta">
+        <span class="date">2026-11-24</span>
+        <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">differential privacy <span class="edit-hint">&#9662;</span></span>
+        <span class="type-badge type-research">research</span>
+        
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star this paper">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="http://arxiv.org/abs/2611.33469" target="_blank" rel="noopener">Differentially Private Policy Optimization in Linear MDPs with Adversarial Rewards</a>
+      </h2>
+      <p class="authors">Yi He</p>
+      <p class="abstract">Reinforcement learning (RL) in personalized services often relies on sensitive interaction data. Motivated by the need to protect these data, we study differentially private (DP) policy optimization in episodic linear Markov decision processes (MDPs) with unknown transitions and adaptive adversarial linear rewards under full-information feedback. This setting poses two key challenges: past trajectories are repeatedly reused for policy evaluation, and reward choices may depend on previously released private statistics. The proposed algorithm combines batched proximal policy optimization (PPO) updates with optimistic policy evaluation, using private regression statistics and reward estimates to protect both trajectories and reward functions under joint differential privacy (JDP). With all other parameters fixed, our high-probability regret bound retains the same leading $\widetilde{O}\left(K^{3/4}\right)$ dependence on the number of episodes $K$ as the corresponding non-private bound for batched optimistic PPO. The additional privacy terms scale as $\widetilde{O} \left(K^{5/8}\right)$ and $\widetilde{O} \left(K^{1/2}\right)$. Thus, privacy incurs only lower-order additive costs in $K$, even under adaptive adversarial rewards.</p>
+      <div class="card-links">
+        <a href="http://arxiv.org/abs/2611.33469" target="_blank" rel="noopener">Abstract</a>
+        <a href="https://arxiv.org/pdf/2611.33469v1" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+    <article class="card" data-keyword="federated learning" data-url="http://arxiv.org/abs/2611.33395" data-type="research" data-industry="0" data-source="arxiv">
+      <div class="card-meta">
+        <span class="date">2026-11-24</span>
+        <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">federated learning <span class="edit-hint">&#9662;</span></span>
+        <span class="type-badge type-research">research</span>
+        
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star this paper">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="http://arxiv.org/abs/2611.33395" target="_blank" rel="noopener">Federated Learning with Uncertainty Quantification on Pseudo Label Exchange</a>
+      </h2>
+      <p class="authors">Jingqiao Tang, Phuoc-Toan Huynh, Richard Archibald, Feng Bao</p>
+      <p class="abstract">In this work, we investigate federated stochastic operator learning for stochastic partial differential equations (SPDEs), with an emphasis on heterogeneous client data distributions and uncertainty quantification. Federated learning enables clients to collaboratively train models without exchanging their original solution data, but conventional federated averaging can suffer significant performance degradation when client distributions differ, particularly when their input function supports are disjoint. To address these challenges, we propose the Federated Stochastic Operator Network (FedSON), a two-phase framework that combines auxiliary data construction with stochastic operator learning. In the first phase, locally trained deterministic neural operators and their corresponding input functions are exchanged to generate pseudolabeled auxiliary data, enabling the federated model to learn across heterogeneous input distributions without sharing original solution trajectories. In the second phase, a stochastic operator network is trained on top of the frozen deterministic operator to characterize stochastic fluctuations and quantify uncertainty in the predicted solutions. Numerical experiments involving the heat equation, viscous Burgers' equation, and two-dimensional advection-diffusion equation demonstrate the FedSON substantially improves deterministic prediction accuracy under heterogeneous client distributions while producing uncertainty estimates comparable to those obtained through centralized training.</p>
+      <div class="card-links">
+        <a href="http://arxiv.org/abs/2611.33395" target="_blank" rel="noopener">Abstract</a>
+        <a href="https://arxiv.org/pdf/2611.33395v1" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+    <article class="card" data-keyword="generative AI" data-url="http://arxiv.org/abs/2611.33510" data-type="research" data-industry="0" data-source="arxiv">
+      <div class="card-meta">
+        <span class="date">2026-11-24</span>
+        <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">generative AI <span class="edit-hint">&#9662;</span></span>
+        <span class="type-badge type-research">research</span>
+        
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star this paper">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="http://arxiv.org/abs/2611.33510" target="_blank" rel="noopener">LogToPersona: New Benchmark and Efficient Persona Prediction through Semantic Log Filtering</a>
+      </h2>
+      <p class="authors">Ahmed Alajrami, Ondrej Bohdal, Seokwoo Song, Taegeon Um, Peyman Hosseini, Savas Ozkan, Mete Ozay, Taha Ceritli</p>
+      <p class="abstract">Detailed knowledge of a user's persona is valuable for personalizing generative AI models and agents, yet such details are difficult to obtain and change over time. We address the task of inferring persona attributes from a single day of mobile activity logs. No suitable publicly available benchmark exists for this task, so we introduce a synthetic benchmark of 1,600 persona-log pairs. We target on-device inference so that raw logs never leave the phone, which makes memory rather than speed the limiting constraint: a day of activity yields roughly 30K tokens, whose key-value cache alone exceeds the INT4 weights of a 4B-parameter model. We therefore propose a log filtering method that retains only behaviorally distinct entries. Filtering reduces the memory footprint by up to 39% across nine models from four families and more than halves prefill time, while maintaining or improving prediction quality. For Qwen3-4B it removes 2.5GB, bringing the model from well beyond a realistic per-process budget to a manageable one. Within our benchmark, these results indicate that preserving diverse behavioral events matters more for persona prediction than retaining every semantically similar log entry.</p>
+      <div class="card-links">
+        <a href="http://arxiv.org/abs/2611.33510" target="_blank" rel="noopener">Abstract</a>
+        <a href="https://arxiv.org/pdf/2611.33510v1" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+    <article class="card" data-keyword="generative AI" data-url="http://arxiv.org/abs/2611.33459" data-type="research" data-industry="0" data-source="arxiv">
+      <div class="card-meta">
+        <span class="date">2026-11-24</span>
+        <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">generative AI <span class="edit-hint">&#9662;</span></span>
+        <span class="type-badge type-research">research</span>
+        
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star this paper">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="http://arxiv.org/abs/2611.33459" target="_blank" rel="noopener">AI-human hybrid conversations: Can AI Agents Improve Discourse Quality?</a>
+      </h2>
+      <p class="authors">Ishita Chakraborty, Xingjian You, Shrabastee Banerjee</p>
+      <p class="abstract">Conversations are central to how people exchange information, share experiences, and develop collective understanding. Yet, across conversational settings, discussions often suffer from uneven participation, unanswered contributions, and a narrow range of perspectives. As generative AI agents increasingly participate alongside humans, hybrid human-AI conversations present a new opportunity to address these challenges. We investigate whether AI agents can serve as catalysts for human interaction, improving conversational engagement and broadening collective discourse. We develop a framework for introducing generic and persona-conditioned AI agents into evolving discussions and evaluate it through two complementary studies. First, using agent-based simulations grounded in Reddit discussions across four domains, we find that AI-generated conversations are more positive and less toxic than human conversations, but substantially less semantically diverse. Persona conditioning produces more human-like contributions and narrows this diversity gap, while increasing the representation of underrepresented personas can shift which perspectives emerge without necessarily increasing overall diversity. Second, we conduct a pre-registered experiment with 221 participants across nine discussion threads, comparing human-only conversations with those involving generic or persona-conditioned AI agents. We find that AI participation increases responsiveness, reduces unanswered contributions, and broadens the range of ideas expressed by human participants, even though the AI agents themselves do not fully reproduce human conversational diversity. These findings suggest that the value of hybrid human-AI conversations lies not simply in the content AI agents generate, but also in their potential to stimulate more responsive and diverse interactions among humans.</p>
+      <div class="card-links">
+        <a href="http://arxiv.org/abs/2611.33459" target="_blank" rel="noopener">Abstract</a>
+        <a href="https://arxiv.org/pdf/2611.33459v1" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+    <article class="card" data-keyword="generative AI" data-url="http://arxiv.org/abs/2611.33254" data-type="research" data-industry="0" data-source="arxiv">
+      <div class="card-meta">
+        <span class="date">2026-11-24</span>
+        <span class="keyword editable-keyword" onclick="openKwEdit(event,this)">generative AI <span class="edit-hint">&#9662;</span></span>
+        <span class="type-badge type-research">research</span>
+        
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star this paper">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="http://arxiv.org/abs/2611.33254" target="_blank" rel="noopener">Anti-AI in the Wild: From Toxic Discourse to Action</a>
+      </h2>
+      <p class="authors">Yage Zhang, Yukun Jiang, Ziqing Yang, Yihan Ma, Xinyue Shen, Yang Zhang</p>
+      <p class="abstract">Online discussion of generative AI has become increasingly contentious, and communities devoted to supporting, opposing, or debating AI have emerged on social media. Some of these communities take anti-AI actions, such as deploying crawler tarpits and data-poisoning services to interfere with data collection and model training. Yet, the scope of these actions and their relationship to online discourse remain poorly understood. In this paper, we present the first measurement study of online conflict over generative AI, from toxic discourse to anti-AI actions. We collect 931,640 posts from 25 Reddit communities, label them with a large language model detector validated against human labels, identify 3,312 anti-AI actions, and trace the output of three deployed anti-AI tools. Our analysis reveals that 30.0% of posts in communities devoted to this conflict are toxic, compared to 4.4% in general AI communities. Anti-AI actions in these communities mainly target AI crawling or model training data, such as image cloaking and data poisoning. We further examine the implications of these anti-AI actions for AI training, by analyzing the text and code generated from deployed tools. Notably, 66.5% of the code samples generated by a data-poisoning service contain fabricated facts, misused APIs, or broken logic, yet 93.6% passes a public code-curation pipeline, close to the rate for real source code (95.0%). For crawler tarpit output, adding a period to the end of each paragraph increases the curation survival rate from 16.4% to 91.9%. We also find that crawler tarpit and data-poisoning output has already entered Common Crawl, a widely used public web archive, and that crawler tarpit output has also entered FineWeb, a released pretraining dataset. We hope our study can facilitate a better understanding of online conflict over generative AI and its implications for content moderation and AI training.</p>
+      <div class="card-links">
+        <a href="http://arxiv.org/abs/2611.33254" target="_blank" rel="noopener">Abstract</a>
+        <a href="https://arxiv.org/pdf/2611.33254v1" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </article>
+  </section>
+
   <section class="run-group">
     <h2 class="run-header">Week of 2026-11-26</h2>
     
@@ -493588,8 +494864,89 @@ or equivalently, up to universal constants, of order \[
       <option value="ml-engineering">ml-engineering</option>
       </select>
     </div>
-    <p class="stats" id="industry-stats">4123 items &bull; last updated 2026-11-26 09:11 UTC</p>
+    <p class="stats" id="industry-stats">4127 items &bull; last updated 2026-11-27 09:25 UTC</p>
     
+  <section class="run-group">
+    <h2 class="run-header">Week of 2026-11-27</h2>
+    
+    <article class="card industry-item" data-keyword="industry-blog" data-url="https://www.modernretail.co/marketing/brands-and-retailers-are-taking-a-full-funnel-approach-to-reddit-holiday-advertising-this-bfcm/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss" data-type="industry" data-industry="1" data-source="industry">
+      <div class="card-meta">
+        <span class="date">2026-11-27</span>
+        <span class="keyword">industry-blog</span>
+        <span class="feed-badge">Modern Retail</span>
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="https://www.modernretail.co/marketing/brands-and-retailers-are-taking-a-full-funnel-approach-to-reddit-holiday-advertising-this-bfcm/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss" target="_blank" rel="noopener">Brands and retailers are taking a full-funnel approach to Reddit holiday advertising this BFCM</a>
+      </h2>
+      <p class="abstract">Advertisers have run ads on Reddit for years, but more and more, they're using the platform as a full-funnel tool for the holidays. Here's how American Eagle, Lowe's, Kohl's and others are approaching Reddit ads this season.</p>
+      <div class="card-links">
+        <a href="https://www.modernretail.co/marketing/brands-and-retailers-are-taking-a-full-funnel-approach-to-reddit-holiday-advertising-this-bfcm/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss" target="_blank" rel="noopener">Read article &#8594;</a>
+      </div>
+    </article>
+    <article class="card industry-item" data-keyword="industry-blog" data-url="https://www.modernretail.co/marketing/how-ring-concierge-is-using-the-loose-diamond-social-media-trend-to-funnel-buyers-to-its-own-channels/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss" data-type="industry" data-industry="1" data-source="industry">
+      <div class="card-meta">
+        <span class="date">2026-11-27</span>
+        <span class="keyword">industry-blog</span>
+        <span class="feed-badge">Modern Retail</span>
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="https://www.modernretail.co/marketing/how-ring-concierge-is-using-the-loose-diamond-social-media-trend-to-funnel-buyers-to-its-own-channels/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss" target="_blank" rel="noopener">How Ring Concierge is using the loose diamond social media trend to funnel buyers to its own channels</a>
+      </h2>
+      <p class="abstract">Online diamond and jewelry brand Ring Concierge saw the appeal of the loose diamond trend for its customers, but wanted to offer something that was more intentional, more trustworthy and not tied to another platform like TikTok or eBay.</p>
+      <div class="card-links">
+        <a href="https://www.modernretail.co/marketing/how-ring-concierge-is-using-the-loose-diamond-social-media-trend-to-funnel-buyers-to-its-own-channels/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss" target="_blank" rel="noopener">Read article &#8594;</a>
+      </div>
+    </article>
+    <article class="card industry-item" data-keyword="llm" data-url="https://huggingface.co/blog/ggml-org/llamacpp-amd-bench" data-type="industry" data-industry="1" data-source="industry">
+      <div class="card-meta">
+        <span class="date">2026-11-26</span>
+        <span class="keyword">llm</span>
+        <span class="feed-badge">HuggingFace Blog</span>
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="https://huggingface.co/blog/ggml-org/llamacpp-amd-bench" target="_blank" rel="noopener">Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon</a>
+      </h2>
+      <p class="abstract"></p>
+      <div class="card-links">
+        <a href="https://huggingface.co/blog/ggml-org/llamacpp-amd-bench" target="_blank" rel="noopener">Read article &#8594;</a>
+      </div>
+    </article>
+    <article class="card industry-item" data-keyword="llm" data-url="https://simonwillison.net/2026/Nov/26/jack-despain-zhou/" data-type="industry" data-industry="1" data-source="industry">
+      <div class="card-meta">
+        <span class="date">2026-11-26</span>
+        <span class="keyword">llm</span>
+        <span class="feed-badge">Simon Willison</span>
+        <div class="card-actions">
+          <button class="btn-star"   onclick="toggleStar(this)" title="Star">&#9733;</button>
+          <button class="btn-keep"   onclick="setStatus(this, 'kept')">&#10003; Keep</button>
+          <button class="btn-remove" onclick="setStatus(this, 'removed')">&#10005; Remove</button>
+        </div>
+      </div>
+      <h2 class="card-title">
+        <a href="https://simonwillison.net/2026/Nov/26/jack-despain-zhou/" target="_blank" rel="noopener">Quoting Jack Despain Zhou</a>
+      </h2>
+      <p class="abstract">Among the many already existing effects of AI has been a great de-individualization. I open a YouTube video, and I hear Claude. I sit in a conference presentation, and I hear Claude. I open my email inbox, and I find pitches and articles from ostensibly serious people with ostensibly serious credentials attached to ostensibly serious institutions who want to publish things attached to their reputations and mine, and I see Claude . — Jack Despain Zhou , Spitting in the Face of Glaude Tags: ai-misuse , claude , generative-ai , ai , llms</p>
+      <div class="card-links">
+        <a href="https://simonwillison.net/2026/Nov/26/jack-despain-zhou/" target="_blank" rel="noopener">Read article &#8594;</a>
+      </div>
+    </article>
+  </section>
+
   <section class="run-group">
     <h2 class="run-header">Week of 2026-11-26</h2>
     
@@ -573017,7 +574374,7 @@ or equivalently, up to universal constants, of order \[
       <option value="startup">startup</option>
       </select>
     </div>
-    <p class="stats" id="startup-stats">2223 items &bull; last updated 2026-11-26 09:11 UTC</p>
+    <p class="stats" id="startup-stats">2223 items &bull; last updated 2026-11-27 09:25 UTC</p>
     
   <section class="run-group">
     <h2 class="run-header">Week of 2026-11-25</h2>
@@ -616429,7 +617786,7 @@ or equivalently, up to universal constants, of order \[
         sec.classList.toggle('hidden', !sec.querySelector('.card:not(.hidden)')));
       const label = kw
         ? visible + ' paper' + (visible !== 1 ? 's' : '') + ' in “' + kw + '”'
-        : visible + ' papers • last updated 2026-11-26 09:11 UTC';
+        : visible + ' papers • last updated 2026-11-27 09:25 UTC';
       document.getElementById('arxiv-stats').textContent = label;
     }
 
@@ -616448,7 +617805,7 @@ or equivalently, up to universal constants, of order \[
       });
       document.querySelectorAll('#panel-industry .run-group').forEach(sec =>
         sec.classList.toggle('hidden', !sec.querySelector('.card:not(.hidden)')));
-      document.getElementById('industry-stats').textContent = visible + ' items • last updated 2026-11-26 09:11 UTC';
+      document.getElementById('industry-stats').textContent = visible + ' items • last updated 2026-11-27 09:25 UTC';
     }
 
     // Startup filter
@@ -616466,7 +617823,7 @@ or equivalently, up to universal constants, of order \[
       });
       document.querySelectorAll('#panel-startup .run-group').forEach(sec =>
         sec.classList.toggle('hidden', !sec.querySelector('.card:not(.hidden)')));
-      document.getElementById('startup-stats').textContent = visible + ' items • last updated 2026-11-26 09:11 UTC';
+      document.getElementById('startup-stats').textContent = visible + ' items • last updated 2026-11-27 09:25 UTC';
     }
 
     // Keyword override (arXiv panel only)
