@@ -41268,5 +41268,45 @@
     "fetched_date": "2026-11-27",
     "feed_name": "Modern Retail",
     "source": "industry"
+  },
+  {
+    "title": "Taking Trainium3 to the Track: Generating Videos with LTX-2.5",
+    "abstract": "",
+    "url": "https://huggingface.co/blog/video-trainium3",
+    "topic": "llm",
+    "date": "2026-11-27",
+    "fetched_date": "2026-11-28",
+    "feed_name": "HuggingFace Blog",
+    "source": "industry"
+  },
+  {
+    "title": "datasette-charts 0.4a0",
+    "abstract": "Release: datasette-charts 0.4a0 The new datasette-charts plugin has its own plugin hook to allow other plugins to define new chart types, but I hadn't actually used it for anything yet. I had Claude Opus 5.5 build an experimental plugins just to try out the hook and it came up with a bunch of friction points in the design. This release addresses those, which should make building additional chart plugins a whole lot more ergonomic. I've also added a website for the plugin, at charts.datasette.io . The new website includes a tutorial for plugin authors , and a gallery showing all of the core charts and annotations, each one linking to an interactive demo on Datasette Lite . Tags: datasette-charts , datasette , visualization , datasette-lite",
+    "url": "https://simonwillison.net/2026/Nov/27/datasette-charts/",
+    "topic": "llm",
+    "date": "2026-11-27",
+    "fetched_date": "2026-11-28",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "datasette-mcp 0.4",
+    "abstract": "Release: datasette-mcp 0.4 Fixed for compatibility with Datasette 1.0a44 . Tags: model-context-protocol , datasette",
+    "url": "https://simonwillison.net/2026/Nov/27/datasette-mcp/",
+    "topic": "llm",
+    "date": "2026-11-27",
+    "fetched_date": "2026-11-28",
+    "feed_name": "Simon Willison",
+    "source": "industry"
+  },
+  {
+    "title": "Holiday shopping trends: TikTok Shop, AI search and glitzy celebrity ads",
+    "abstract": "The Modern Retail Podcast explores how TikTok Shop, AI assistants and celebrity ads are shaping retail and holiday shopper behavior.",
+    "url": "https://www.modernretail.co/podcasts/holiday-shopping-trends-tiktok-shop-ai-search-and-glitzy-celebrity-ads/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "topic": "industry-blog",
+    "date": "2026-11-28",
+    "fetched_date": "2026-11-28",
+    "feed_name": "Modern Retail",
+    "source": "industry"
   }
 ]
